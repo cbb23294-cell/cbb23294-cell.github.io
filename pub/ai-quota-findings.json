@@ -1,0 +1,91 @@
+{
+  "ok": true,
+  "reason": "",
+  "generated_at": "2026-11-19T09:53:08Z",
+  "round": "ai-quota-refresh",
+  "findings": [
+    {
+      "guid": "refresh-2026-11-19-no-change",
+      "providerName": "每日复核",
+      "changeText": "本轮无变化：官方页面与变更 Feed 均无新增记录",
+      "changeDate": "2026-11-19"
+    }
+  ],
+  "findingsCount": 1,
+  "no_change": true,
+  "warnings": [
+    "fetch: changes feed unavailable: <urlopen error timed out>",
+    "verify: 页面抓取失败 free-llm-intel README：<urlopen error timed out>",
+    "verify: 页面抓取失败 OpenRouter 免费模型与定价：HTTP Error 403: Forbidden",
+    "verify: 页面抓取失败 Groq 限速文档：HTTP Error 403: Forbidden"
+  ],
+  "sources": {
+    "openrouter": {
+      "ok": true,
+      "freeModels": 15,
+      "excluded": [
+        "google/lyria-3-pro-preview",
+        "google/lyria-3-clip-preview"
+      ]
+    },
+    "changesFeed": {
+      "ok": false,
+      "error": "<urlopen error timed out>"
+    }
+  },
+  "pool": {
+    "ok": true,
+    "path": "/chat/completions",
+    "attempt": 1
+  },
+  "pages": [
+    {
+      "name": "free-llm-intel README",
+      "url": "https://raw.githubusercontent.com/rockbenben/free-llm-intel/main/README.md",
+      "ok": false,
+      "chars": 0,
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "name": "free-llm-intel 变更日志",
+      "url": "https://raw.githubusercontent.com/rockbenben/free-llm-intel/main/llm-intel-changelog.md",
+      "ok": true,
+      "chars": 12006
+    },
+    {
+      "name": "OpenRouter 免费模型与定价",
+      "url": "https://openrouter.ai/docs/pricing",
+      "ok": false,
+      "chars": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "智谱 GLM 定价页",
+      "url": "https://open.bigmodel.cn/pricing",
+      "ok": true,
+      "chars": 14
+    },
+    {
+      "name": "Google AI Studio 免费层",
+      "url": "https://ai.google.dev/pricing",
+      "ok": true,
+      "chars": 12006
+    },
+    {
+      "name": "Groq 限速文档",
+      "url": "https://console.groq.com/docs/rate-limits",
+      "ok": false,
+      "chars": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "商汤日日新 Token Plan",
+      "url": "https://platform.sensenova.cn/docs",
+      "ok": true,
+      "chars": 24
+    }
+  ],
+  "judged": true,
+  "maxAgeSec": 259200,
+  "cronIntervalSec": 86400
+}
