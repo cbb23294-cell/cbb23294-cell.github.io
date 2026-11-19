@@ -1,0 +1,181 @@
+{
+  "ok": true,
+  "generatedAt": "2026-11-19T09:34:40Z",
+  "round": "panel-daily",
+  "summary": "核对 12 个服务：3 个实查通过、9 个未核对，首轮基准",
+  "changes": [],
+  "results": [
+    {
+      "slug": "simular-box",
+      "checked": true,
+      "status": "wait",
+      "statusLabel": "状态未知 · 已连接",
+      "specUpdates": []
+    },
+    {
+      "slug": "openrouter",
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": []
+    },
+    {
+      "slug": "google-colab",
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": []
+    },
+    {
+      "slug": "cloady",
+      "checked": true,
+      "status": "ok",
+      "statusLabel": "已连接可用",
+      "specUpdates": [
+        {
+          "label": "工作区",
+          "value": "0 个 · 0 个应用"
+        }
+      ]
+    },
+    {
+      "slug": "kaggle",
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": []
+    },
+    {
+      "slug": "sakupa",
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": []
+    },
+    {
+      "slug": "instabox",
+      "checked": true,
+      "status": "ok",
+      "statusLabel": "可用 · 已连接",
+      "specUpdates": [
+        {
+          "label": "免费机器",
+          "value": "1 台：main 运行中"
+        }
+      ]
+    },
+    {
+      "slug": "uppcoder",
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": []
+    },
+    {
+      "slug": "free-hosting",
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": []
+    },
+    {
+      "slug": "urnetwork",
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": []
+    },
+    {
+      "slug": "yunamo",
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": []
+    },
+    {
+      "slug": "pxxl",
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": []
+    }
+  ],
+  "resultCount": 12,
+  "checkedCount": 3,
+  "connectorStatus": [
+    {
+      "slug": "simular-box",
+      "ok": true,
+      "checked": true,
+      "note": "连接器实查通过"
+    },
+    {
+      "slug": "openrouter",
+      "ok": false,
+      "checked": false,
+      "note": "usage 未取到：exit 2: client.py: error: argument cmd: invalid choice: 'call-tool' (choose from 'key-info', 'chat')"
+    },
+    {
+      "slug": "google-colab",
+      "ok": false,
+      "checked": false,
+      "note": "无账号级查询通道，未核对"
+    },
+    {
+      "slug": "cloady",
+      "ok": true,
+      "checked": true,
+      "note": "连接器实查通过"
+    },
+    {
+      "slug": "kaggle",
+      "ok": false,
+      "checked": false,
+      "note": "验证状态 API 查不到，保持原状态"
+    },
+    {
+      "slug": "sakupa",
+      "ok": false,
+      "checked": false,
+      "note": "无账号级查询通道，未核对"
+    },
+    {
+      "slug": "instabox",
+      "ok": true,
+      "checked": true,
+      "note": "连接器实查通过"
+    },
+    {
+      "slug": "uppcoder",
+      "ok": false,
+      "checked": false,
+      "note": "无账号级查询通道，未核对"
+    },
+    {
+      "slug": "free-hosting",
+      "ok": false,
+      "checked": false,
+      "note": "无账号级查询通道，未核对"
+    },
+    {
+      "slug": "urnetwork",
+      "ok": false,
+      "checked": false,
+      "note": "无账号级查询通道，未核对"
+    },
+    {
+      "slug": "yunamo",
+      "ok": false,
+      "checked": false,
+      "note": "无账号级查询通道，未核对"
+    },
+    {
+      "slug": "pxxl",
+      "ok": false,
+      "checked": false,
+      "note": "无账号级查询通道，未核对"
+    }
+  ],
+  "maxAgeSec": 259200,
+  "cronIntervalSec": 86400
+}
