@@ -7,7 +7,7 @@
         "[code] [boss-accept] REOPENED: hollow GitHub failover legs are still hollow (bos"
       ],
       "open": 1,
-      "status_updated": "2026-11-20T08:47:17Z",
+      "status_updated": "2026-11-20T08:48:02Z",
       "total": 9,
       "workstream": "cloud-script-migration"
     },
@@ -39,7 +39,7 @@
         "[code] [boss-accept] Altare free-server probe (resource-fit meeting 2026-11-20, "
       ],
       "open": 2,
-      "status_updated": "2026-11-20T08:40:03Z",
+      "status_updated": "2026-11-20T08:49:46Z",
       "total": 6,
       "workstream": "operations"
     },
@@ -55,14 +55,12 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T08:47:17Z",
-  "generated_at": "2026-11-20T08:47:54Z",
-  "generated_at_utc": "2026-11-20T08:47:54Z",
+  "content_latest_at": "2026-11-20T08:49:46Z",
+  "generated_at": "2026-11-20T08:49:54Z",
+  "generated_at_utc": "2026-11-20T08:49:54Z",
   "live_pi_workers": {
-    "by_model": {
-      "xingchi/gpt-6.1-sol": 1
-    },
-    "total": 1
+    "by_model": {},
+    "total": 0
   },
   "managers": [
     {
@@ -489,7 +487,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 481
+        "used": 482
       },
       {
         "cap": 1000,
@@ -883,7 +881,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 481
+        "used": 482
       },
       {
         "cap": 1000,
@@ -903,28 +901,28 @@
     "done": 48,
     "running": [
       {
-        "age_sec": 18107,
+        "age_sec": 18228,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 73313,
+        "age_sec": 73434,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 76913,
+        "age_sec": 77034,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 76913,
+        "age_sec": 77034,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -935,17 +933,10 @@
     "total": 52
   },
   "workers": {
-    "by_model": {
-      "xingchi/gpt-6.1-sol": 1
-    },
-    "total": 1
+    "by_model": {},
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 1,
-      "model": "xingchi/gpt-6.1-sol"
-    }
-  ],
+  "workers_detail": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -957,7 +948,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T08:47:17Z"
+        "updated": "2026-11-20T08:48:02Z"
       },
       "tasks": {
         "done": 8,
@@ -979,9 +970,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-20T08:40:03Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-20T08:49:46Z"
       },
       "tasks": {
         "done": 4,
