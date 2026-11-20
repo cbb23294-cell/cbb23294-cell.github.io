@@ -1,43 +1,43 @@
 {
-  "collectedAt": "2026-11-20T16:12:45Z",
+  "collectedAt": "2026-11-20T17:24:45Z",
   "servers": [
     {
       "serverId": 1,
       "ok": true,
       "error": "",
       "note": "",
-      "cpuPct": 0.0,
+      "cpuPct": 20.0,
       "load1": 0.0,
       "load5": 0.0,
       "load15": 0.0,
       "uptimeDays": 148.1,
-      "memUsedMb": 450,
+      "memUsedMb": 398,
       "memTotalMb": 1019,
       "diskUsedGb": 3.4,
       "diskTotalGb": 18.2,
-      "netMonthUsedGb": 12.6,
+      "netMonthUsedGb": 12.7,
       "netMonthLimitGb": 1000.0,
-      "netRxTotalGb": 189.3,
+      "netRxTotalGb": 189.4,
       "netTxTotalGb": 194.9,
-      "netRxMbps": 0.27,
-      "netTxMbps": 0.06,
+      "netRxMbps": 0.15,
+      "netTxMbps": 0.12,
       "gpuModel": null,
       "gpuPct": null,
       "threeNet": [
         {
           "carrier": "telecom",
-          "latencyMs": 137.101,
-          "packetLoss": 0.0
+          "latencyMs": 151.951,
+          "packetLoss": 20.0
         },
         {
           "carrier": "unicom",
-          "latencyMs": 184.974,
+          "latencyMs": 183.798,
           "packetLoss": 0.0
         },
         {
           "carrier": "mobile",
-          "latencyMs": 189.852,
-          "packetLoss": 40.0
+          "latencyMs": 189.424,
+          "packetLoss": 0.0
         }
       ]
     },
@@ -46,37 +46,37 @@
       "ok": true,
       "error": "",
       "note": "无 vnstat，本月流量填 null",
-      "cpuPct": 4.8,
-      "load1": 0.02,
-      "load5": 0.01,
+      "cpuPct": 0.0,
+      "load1": 0.0,
+      "load5": 0.0,
       "load15": 0.0,
       "uptimeDays": 4.1,
-      "memUsedMb": 485,
+      "memUsedMb": 460,
       "memTotalMb": 1775,
       "diskUsedGb": 5.2,
       "diskTotalGb": 39.3,
       "netMonthUsedGb": null,
       "netMonthLimitGb": 100.0,
-      "netRxTotalGb": 0.3,
+      "netRxTotalGb": 0.4,
       "netTxTotalGb": 0.2,
-      "netRxMbps": 0.0,
+      "netRxMbps": 0.01,
       "netTxMbps": 0.01,
       "gpuModel": null,
       "gpuPct": null,
       "threeNet": [
         {
           "carrier": "telecom",
-          "latencyMs": 24.327,
+          "latencyMs": 24.435,
           "packetLoss": 0.0
         },
         {
           "carrier": "unicom",
-          "latencyMs": 38.322,
+          "latencyMs": 38.552,
           "packetLoss": 0.0
         },
         {
           "carrier": "mobile",
-          "latencyMs": 7.138,
+          "latencyMs": 7.235,
           "packetLoss": 0.0
         }
       ]
