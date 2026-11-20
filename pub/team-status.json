@@ -14,14 +14,14 @@
     },
     {
       "done": 22,
-      "escalation_latest": "- key=681e3a2975bb",
+      "escalation_latest": "- key=10c1701f99eb",
       "next_open": [
         "[code] [boss-accept] REOPENED production-wiring three (retro-fix item 4; earlier",
         "[code] Event-stream single implementation (reporting-chain items 1+5; THIS line ",
         "[code] Counting + config-truth audit (retro-fix item 4 remainder) AND throughput"
       ],
       "open": 4,
-      "status_updated": "2026-11-20T16:01:43Z",
+      "status_updated": "2026-11-20T16:04:26Z",
       "total": 26,
       "workstream": "pool-optimization"
     },
@@ -32,7 +32,7 @@
         "[code] [boss-accept] audit_bw.sh fixture self-test + firewall preconditions codi"
       ],
       "open": 1,
-      "status_updated": "2026-11-20T16:01:11Z",
+      "status_updated": "2026-11-20T16:05:24Z",
       "total": 5,
       "workstream": "security"
     },
@@ -60,9 +60,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T16:02:14Z",
-  "generated_at": "2026-11-20T16:03:57Z",
-  "generated_at_utc": "2026-11-20T16:03:57Z",
+  "content_latest_at": "2026-11-20T16:05:24Z",
+  "generated_at": "2026-11-20T16:05:57Z",
+  "generated_at_utc": "2026-11-20T16:05:57Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -151,7 +151,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 400
+        "used": 402
       },
       {
         "cap": 1000,
@@ -175,7 +175,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 139
+        "used": 141
       },
       {
         "cap": 500,
@@ -423,7 +423,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 344
+        "used": 346
       },
       {
         "cap": 500,
@@ -463,7 +463,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 102
+        "used": 104
       },
       {
         "cap": 20000,
@@ -561,7 +561,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 400
+        "used": 402
       },
       {
         "cap": 1000,
@@ -585,7 +585,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 139
+        "used": 141
       },
       {
         "cap": 500,
@@ -833,7 +833,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 344
+        "used": 346
       },
       {
         "cap": 500,
@@ -873,7 +873,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 102
+        "used": 104
       },
       {
         "cap": 20000,
@@ -933,35 +933,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 23942,
+        "age_sec": 24062,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 44270,
+        "age_sec": 44390,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 99476,
+        "age_sec": 99596,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 103076,
+        "age_sec": 103196,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 103076,
+        "age_sec": 103196,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1032,14 +1032,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=681e3a2975bb"
+        "latest": "- key=10c1701f99eb"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 3,
         "tasks_total": 3,
-        "updated": "2026-11-20T16:01:43Z"
+        "updated": "2026-11-20T16:04:26Z"
       },
       "tasks": {
         "done": 22,
@@ -1071,7 +1071,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T16:01:11Z"
+        "updated": "2026-11-20T16:05:24Z"
       },
       "tasks": {
         "done": 4,
