@@ -1,0 +1,1070 @@
+{
+  "boards": [
+    {
+      "done": 8,
+      "escalation_latest": "- 2026-11-20T05:15:29Z ESCALATION (dead-jobs checker): boss-direct job wp9-rollout-vm-1795150724 (model gpt-6.1-sol) died without reporting: silent death (no exit record, log stale 1005s). Last log line:  | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried.",
+      "next_open": [
+        "[code] [boss-accept] REOPENED: hollow GitHub failover legs are still hollow (bos"
+      ],
+      "open": 1,
+      "status_updated": "2026-11-20T08:30:00Z",
+      "total": 9,
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "done": 18,
+      "escalation_latest": "- key=5846bbc44f0d",
+      "next_open": [
+        "Pi liveness via session JSONL (meeting decision 2026-11-20, this line leads): wa"
+      ],
+      "open": 1,
+      "status_updated": "2026-11-20T08:36:56Z",
+      "total": 19,
+      "workstream": "pool-optimization"
+    },
+    {
+      "done": 4,
+      "escalation_latest": null,
+      "next_open": [],
+      "open": 0,
+      "status_updated": "2026-11-20T08:34:25Z",
+      "total": 4,
+      "workstream": "security"
+    },
+    {
+      "done": 4,
+      "escalation_latest": "- key=4185134e0cb1",
+      "next_open": [
+        "Watchdog liveness half of the Pi session-JSONL decision (meeting 2026-11-20): th",
+        "[code] [boss-accept] Altare free-server probe (resource-fit meeting 2026-11-20, "
+      ],
+      "open": 2,
+      "status_updated": "2026-11-20T08:31:35Z",
+      "total": 6,
+      "workstream": "operations"
+    },
+    {
+      "done": 2,
+      "escalation_latest": null,
+      "next_open": [
+        "[code] [boss-accept] Fix the mobile keyboard / covered input problem across ALL "
+      ],
+      "open": 1,
+      "status_updated": "2026-11-20T08:25:49Z",
+      "total": 3,
+      "workstream": "spaces-data"
+    }
+  ],
+  "content_latest_at": "2026-11-20T08:36:56Z",
+  "generated_at": "2026-11-20T08:37:52Z",
+  "generated_at_utc": "2026-11-20T08:37:52Z",
+  "live_pi_workers": {
+    "by_model": {
+      "xingchi/gpt-6.1-sol": 2
+    },
+    "total": 2
+  },
+  "managers": [
+    {
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "source": "pool",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "model": null,
+      "source": "pool",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "model": "Qwen/Qwen3.5-35B-A3B",
+      "source": "pool",
+      "workstream": "pool-optimization"
+    },
+    {
+      "model": "nex-n2.6",
+      "source": "pool",
+      "workstream": "security"
+    },
+    {
+      "model": "gemma-4-31b-it",
+      "source": "pool",
+      "workstream": "operations"
+    },
+    {
+      "model": "gemini-3.8-flash",
+      "source": "pool",
+      "workstream": "spaces-data"
+    },
+    {
+      "model": "gpt-6.1-sol",
+      "source": "pool",
+      "workstream": "float"
+    },
+    {
+      "model": "gpt-6.1-sol–free",
+      "source": "pool",
+      "workstream": "float-2"
+    },
+    {
+      "model": "free-gemma-4",
+      "source": "pool",
+      "workstream": "float-3"
+    }
+  ],
+  "pool": {
+    "cap": 45,
+    "disabled": [],
+    "entries": [
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": false,
+        "model": "glm-5.3-flash",
+        "provider": "zhipu-pack",
+        "used": 300
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "glm-5.3-flashx",
+        "provider": "zhipu-pack",
+        "used": 158
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": false,
+        "model": "deepseek-v4.1-flash-free",
+        "provider": "100milionseek",
+        "used": 1000
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": false,
+        "model": "deepseek-v4.1-flash-free",
+        "provider": "100milionseek-2",
+        "used": 1000
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "glm-4-flash-250414",
+        "provider": "zhipu",
+        "used": 25
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "glm-4.7-flash",
+        "provider": "zhipu",
+        "used": 19
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nex-n2.6",
+        "provider": "moss",
+        "used": 105
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "XingChenAGI/Xing4.0-29B",
+        "provider": "siliconflow",
+        "used": 8
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash",
+        "provider": "sensenova",
+        "used": 483
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash-lite",
+        "provider": "sensenova",
+        "used": 483
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash",
+        "provider": "sensenova-2",
+        "used": 37
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash-lite",
+        "provider": "sensenova-2",
+        "used": 37
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "used": 26
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "openai/gpt-oss-120b",
+        "provider": "groq",
+        "used": 31
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "openai/gpt-oss-20b",
+        "provider": "groq",
+        "used": 19
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "ceres-1.1",
+        "provider": "merkium",
+        "used": 65
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.1-flash",
+        "provider": "merkium",
+        "used": 65
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "ganymede-1.1",
+        "provider": "merkium",
+        "used": 65
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "google/gemma-4-31b-it:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "cohere/north-mini-code:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "inclusionai/ling-3.2-flash:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "baidu/ernie-5.5-flash-preview:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "google/gemma-4-26b-a4b-it:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "recursive/flint-v1.0:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3.5-35B-A3B",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "zai-org/GLM-4.5-Air",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3.5-27B",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-ai/DeepSeek-R1",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen2.5-72B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "inclusionAI/Ling-flash-2.0",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemini-3.5-flash-lite",
+        "provider": "google-ai-studio",
+        "used": 38
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemini-3.8-flash",
+        "provider": "google-ai-studio",
+        "used": 46
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-31b-it",
+        "provider": "google-ai-studio",
+        "used": 24
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it",
+        "provider": "google-ai-studio",
+        "used": 43
+      },
+      {
+        "cap": 5000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-large-4t",
+        "provider": "ai-cf",
+        "used": 38
+      },
+      {
+        "cap": 5000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-m3.1-flash",
+        "provider": "ai-cf",
+        "used": 28
+      },
+      {
+        "cap": 5000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-gemma-4",
+        "provider": "ai-cf",
+        "used": 128
+      },
+      {
+        "cap": 5000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol–free",
+        "provider": "ai-cf-sol",
+        "used": 32
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi",
+        "used": 467
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi-3",
+        "used": 41
+      }
+    ],
+    "healthy_entries": 37,
+    "ok": true,
+    "reachable": true,
+    "used_today": 45
+  },
+  "pool_health": {
+    "cap": 45,
+    "disabled": [],
+    "entries": [
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": false,
+        "model": "glm-5.3-flash",
+        "provider": "zhipu-pack",
+        "used": 300
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "glm-5.3-flashx",
+        "provider": "zhipu-pack",
+        "used": 158
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": false,
+        "model": "deepseek-v4.1-flash-free",
+        "provider": "100milionseek",
+        "used": 1000
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": false,
+        "model": "deepseek-v4.1-flash-free",
+        "provider": "100milionseek-2",
+        "used": 1000
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "glm-4-flash-250414",
+        "provider": "zhipu",
+        "used": 25
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "glm-4.7-flash",
+        "provider": "zhipu",
+        "used": 19
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nex-n2.6",
+        "provider": "moss",
+        "used": 105
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "XingChenAGI/Xing4.0-29B",
+        "provider": "siliconflow",
+        "used": 8
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash",
+        "provider": "sensenova",
+        "used": 483
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash-lite",
+        "provider": "sensenova",
+        "used": 483
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash",
+        "provider": "sensenova-2",
+        "used": 37
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash-lite",
+        "provider": "sensenova-2",
+        "used": 37
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "used": 26
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "openai/gpt-oss-120b",
+        "provider": "groq",
+        "used": 31
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "openai/gpt-oss-20b",
+        "provider": "groq",
+        "used": 19
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "ceres-1.1",
+        "provider": "merkium",
+        "used": 65
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.1-flash",
+        "provider": "merkium",
+        "used": 65
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "ganymede-1.1",
+        "provider": "merkium",
+        "used": 65
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "google/gemma-4-31b-it:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "cohere/north-mini-code:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "inclusionai/ling-3.2-flash:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "baidu/ernie-5.5-flash-preview:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "google/gemma-4-26b-a4b-it:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": false,
+        "model": "recursive/flint-v1.0:free",
+        "provider": "openrouter",
+        "used": 45
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3.5-35B-A3B",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "zai-org/GLM-4.5-Air",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3.5-27B",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-ai/DeepSeek-R1",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen2.5-72B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "inclusionAI/Ling-flash-2.0",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 400,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 369
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemini-3.5-flash-lite",
+        "provider": "google-ai-studio",
+        "used": 38
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemini-3.8-flash",
+        "provider": "google-ai-studio",
+        "used": 46
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-31b-it",
+        "provider": "google-ai-studio",
+        "used": 24
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it",
+        "provider": "google-ai-studio",
+        "used": 43
+      },
+      {
+        "cap": 5000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-large-4t",
+        "provider": "ai-cf",
+        "used": 38
+      },
+      {
+        "cap": 5000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-m3.1-flash",
+        "provider": "ai-cf",
+        "used": 28
+      },
+      {
+        "cap": 5000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-gemma-4",
+        "provider": "ai-cf",
+        "used": 128
+      },
+      {
+        "cap": 5000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol–free",
+        "provider": "ai-cf-sol",
+        "used": 32
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi",
+        "used": 467
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi-3",
+        "used": 41
+      }
+    ],
+    "healthy_entries": 37,
+    "ok": true,
+    "reachable": true,
+    "used_today": 45
+  },
+  "tracked_jobs": {
+    "done": 48,
+    "running": [
+      {
+        "age_sec": 17505,
+        "id": "boost3-pool-routingintent-1795146367",
+        "model": "glm-5.3-flash",
+        "started_at": "2026-11-20T03:46:07Z",
+        "workstream": "pool-optimization"
+      },
+      {
+        "age_sec": 72711,
+        "id": "fix12-mgrspeed2",
+        "model": "cohere/north-mini-code:free",
+        "started_at": "2026-11-19T12:26:01Z",
+        "workstream": "pool-optimization"
+      },
+      {
+        "age_sec": 76311,
+        "id": "fix8-wp9-dead",
+        "model": "deepseek-v4.1-flash-free",
+        "started_at": "2026-11-19T11:26:01Z",
+        "workstream": "cloud-script-migration"
+      },
+      {
+        "age_sec": 76311,
+        "id": "fix9-mgrspeed-dead",
+        "model": "openai/gpt-oss-120b",
+        "started_at": "2026-11-19T11:26:01Z",
+        "workstream": "pool-optimization"
+      }
+    ],
+    "running_count": 4,
+    "total": 52
+  },
+  "workers": {
+    "by_model": {
+      "xingchi/gpt-6.1-sol": 2
+    },
+    "total": 2
+  },
+  "workers_detail": [
+    {
+      "count": 2,
+      "model": "xingchi/gpt-6.1-sol"
+    }
+  ],
+  "workstreams": {
+    "cloud-script-migration": {
+      "escalation": {
+        "exists": true,
+        "latest": "- 2026-11-20T05:15:29Z ESCALATION (dead-jobs checker): boss-direct job wp9-rollout-vm-1795150724 (model gpt-6.1-sol) died without reporting: silent death (no exit record, log stale 1005s). Last log line:  | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried."
+      },
+      "status": {
+        "exists": true,
+        "tasks_done": 0,
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-20T08:30:00Z"
+      },
+      "tasks": {
+        "done": 8,
+        "exists": true,
+        "next_open": [
+          {
+            "full": true,
+            "title": "[code] [boss-accept] REOPENED: hollow GitHub failover legs are still hollow (bos"
+          }
+        ],
+        "open": 1
+      }
+    },
+    "operations": {
+      "escalation": {
+        "exists": true,
+        "latest": "- key=4185134e0cb1"
+      },
+      "status": {
+        "exists": true,
+        "tasks_done": 0,
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-20T08:31:35Z"
+      },
+      "tasks": {
+        "done": 4,
+        "exists": true,
+        "next_open": [
+          {
+            "full": true,
+            "title": "Watchdog liveness half of the Pi session-JSONL decision (meeting 2026-11-20): th"
+          },
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Altare free-server probe (resource-fit meeting 2026-11-20, "
+          }
+        ],
+        "open": 2
+      }
+    },
+    "pool-optimization": {
+      "escalation": {
+        "exists": true,
+        "latest": "- key=5846bbc44f0d"
+      },
+      "status": {
+        "exists": true,
+        "tasks_done": 0,
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-20T08:36:56Z"
+      },
+      "tasks": {
+        "done": 18,
+        "exists": true,
+        "next_open": [
+          {
+            "full": true,
+            "title": "Pi liveness via session JSONL (meeting decision 2026-11-20, this line leads): wa"
+          }
+        ],
+        "open": 1
+      }
+    },
+    "security": {
+      "escalation": {
+        "exists": false,
+        "latest": null
+      },
+      "status": {
+        "exists": true,
+        "tasks_done": 0,
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-20T08:34:25Z"
+      },
+      "tasks": {
+        "done": 4,
+        "exists": true,
+        "next_open": [],
+        "open": 0
+      }
+    },
+    "spaces-data": {
+      "escalation": {
+        "exists": false,
+        "latest": null
+      },
+      "status": {
+        "exists": true,
+        "tasks_done": 0,
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-20T08:25:49Z"
+      },
+      "tasks": {
+        "done": 2,
+        "exists": true,
+        "next_open": [
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Fix the mobile keyboard / covered input problem across ALL "
+          }
+        ],
+        "open": 1
+      }
+    }
+  }
+}
