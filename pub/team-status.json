@@ -36,7 +36,7 @@
         "[code] [boss-accept] Altare free-server probe (resource-fit meeting 2026-11-20, "
       ],
       "open": 1,
-      "status_updated": "2026-11-20T09:17:12Z",
+      "status_updated": "2026-11-20T09:17:57Z",
       "total": 6,
       "workstream": "operations"
     },
@@ -52,12 +52,14 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T09:17:12Z",
-  "generated_at": "2026-11-20T09:17:21Z",
-  "generated_at_utc": "2026-11-20T09:17:21Z",
+  "content_latest_at": "2026-11-20T09:17:57Z",
+  "generated_at": "2026-11-20T09:19:21Z",
+  "generated_at_utc": "2026-11-20T09:19:21Z",
   "live_pi_workers": {
-    "by_model": {},
-    "total": 0
+    "by_model": {
+      "ai-cf-sol/gpt-6.1-sol–free": 1
+    },
+    "total": 1
   },
   "managers": [
     {
@@ -476,7 +478,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 32
+        "used": 35
       },
       {
         "cap": 200000,
@@ -870,7 +872,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 32
+        "used": 35
       },
       {
         "cap": 200000,
@@ -898,28 +900,28 @@
     "done": 48,
     "running": [
       {
-        "age_sec": 19874,
+        "age_sec": 19995,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 75080,
+        "age_sec": 75201,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 78680,
+        "age_sec": 78801,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 78680,
+        "age_sec": 78801,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -930,10 +932,17 @@
     "total": 52
   },
   "workers": {
-    "by_model": {},
-    "total": 0
+    "by_model": {
+      "ai-cf-sol/gpt-6.1-sol–free": 1
+    },
+    "total": 1
   },
-  "workers_detail": [],
+  "workers_detail": [
+    {
+      "count": 1,
+      "model": "ai-cf-sol/gpt-6.1-sol–free"
+    }
+  ],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -961,10 +970,10 @@
       },
       "status": {
         "exists": true,
-        "tasks_done": 1,
-        "tasks_open": 0,
+        "tasks_done": 0,
+        "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-20T09:17:12Z"
+        "updated": "2026-11-20T09:17:57Z"
       },
       "tasks": {
         "done": 5,
