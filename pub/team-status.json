@@ -1,11 +1,13 @@
 {
   "boards": [
     {
-      "done": 9,
+      "done": 8,
       "escalation_latest": "- 2026-11-20T05:15:29Z ESCALATION (dead-jobs checker): boss-direct job wp9-rollout-vm-1795150724 (model gpt-6.1-sol) died without reporting: silent death (no exit record, log stale 1005s). Last log line:  | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried.",
-      "next_open": [],
-      "open": 0,
-      "status_updated": "2026-11-20T08:30:00Z",
+      "next_open": [
+        "[code] [boss-accept] REOPENED: hollow GitHub failover legs are still hollow (bos"
+      ],
+      "open": 1,
+      "status_updated": "2026-11-20T08:45:46Z",
       "total": 9,
       "workstream": "cloud-script-migration"
     },
@@ -53,9 +55,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T08:40:03Z",
-  "generated_at": "2026-11-20T08:43:53Z",
-  "generated_at_utc": "2026-11-20T08:43:53Z",
+  "content_latest_at": "2026-11-20T08:45:46Z",
+  "generated_at": "2026-11-20T08:45:53Z",
+  "generated_at_utc": "2026-11-20T08:45:53Z",
   "live_pi_workers": {
     "by_model": {
       "xingchi/gpt-6.1-sol": 2
@@ -487,7 +489,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 478
+        "used": 481
       },
       {
         "cap": 1000,
@@ -881,7 +883,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 478
+        "used": 481
       },
       {
         "cap": 1000,
@@ -901,28 +903,28 @@
     "done": 48,
     "running": [
       {
-        "age_sec": 17866,
+        "age_sec": 17987,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 73072,
+        "age_sec": 73193,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 76672,
+        "age_sec": 76793,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 76672,
+        "age_sec": 76793,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -953,15 +955,20 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-20T08:30:00Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-20T08:45:46Z"
       },
       "tasks": {
-        "done": 9,
+        "done": 8,
         "exists": true,
-        "next_open": [],
-        "open": 0
+        "next_open": [
+          {
+            "full": true,
+            "title": "[code] [boss-accept] REOPENED: hollow GitHub failover legs are still hollow (bos"
+          }
+        ],
+        "open": 1
       }
     },
     "operations": {
