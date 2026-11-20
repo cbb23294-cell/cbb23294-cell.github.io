@@ -1,9 +1,9 @@
 {
-  "ok": true,
-  "generatedAt": "2026-11-19T09:35:55Z",
+  "ok": false,
+  "generatedAt": "2026-11-20T07:39:23Z",
   "round": "panel-light",
   "refreshed": false,
-  "summary": "本轮不刷新：Simular 未运行、Cloady 无运行中应用",
+  "summary": "本轮轻量检查整体失败：box_status 未取到：exit 1: error: [Errno 2] No such file or directory: '/tmp/empty.json'",
   "changes": [],
   "updates": [],
   "updateCount": 0,
@@ -13,15 +13,15 @@
     {
       "slug": "simular-box",
       "running": false,
-      "note": "state=unknown"
+      "note": "box_status 未取到：exit 1: error: [Errno 2] No such file or directory: '/tmp/empty.json'"
     },
     {
       "slug": "cloady",
       "running": false,
-      "note": "0 个工作区 / 0 个应用"
+      "note": "getMe 未取到：exit 1: error: [Errno 2] No such file or directory: '/tmp/empty.json'"
     }
   ],
-  "gateNote": "no running service",
   "gateSec": 1800,
+  "reason": "全部轻量探针失败，且无可沿用的上一轮记录：box_status 未取到：exit 1: error: [Errno 2] No such file or directory: '/tmp/empty.json'",
   "gateClosed": true
 }
