@@ -8,7 +8,7 @@
         "[code] WP3 queue-mode cutover finish + backlog alarm (retro-fix item 5): complet"
       ],
       "open": 2,
-      "status_updated": "2026-11-20T14:17:23Z",
+      "status_updated": "2026-11-20T14:26:06Z",
       "total": 11,
       "workstream": "cloud-script-migration"
     },
@@ -32,7 +32,7 @@
         "[code] [boss-accept] audit_bw.sh fixture self-test + firewall preconditions codi"
       ],
       "open": 1,
-      "status_updated": "2026-11-20T14:04:47Z",
+      "status_updated": "2026-11-20T14:26:08Z",
       "total": 5,
       "workstream": "security"
     },
@@ -51,7 +51,7 @@
     },
     {
       "done": 3,
-      "escalation_latest": "- key=ec00db5351ce",
+      "escalation_latest": "- key=0752d3ce344b",
       "next_open": [
         "[judgment] Done-without-evidence sweep (retro-fix item 2): walk this line's STAT",
         "[code] [boss-accept] Six-space performance: MEASUREMENT first, fixes second (spa",
@@ -63,15 +63,14 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T14:17:23Z",
-  "generated_at": "2026-11-20T14:22:42Z",
-  "generated_at_utc": "2026-11-20T14:22:42Z",
+  "content_latest_at": "2026-11-20T14:26:08Z",
+  "generated_at": "2026-11-20T14:26:43Z",
+  "generated_at_utc": "2026-11-20T14:26:43Z",
   "live_pi_workers": {
     "by_model": {
-      "xingchi-5/gpt-6.1-sol": 2,
-      "zhipu/glm-4.7-flash": 1
+      "xingchi-5/gpt-6.1-sol": 1
     },
-    "total": 3
+    "total": 1
   },
   "managers": [
     {
@@ -157,7 +156,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 184
+        "used": 189
       },
       {
         "cap": 1000,
@@ -493,7 +492,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 542
+        "used": 547
       },
       {
         "cap": 200000,
@@ -501,7 +500,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 65
+        "used": 67
       },
       {
         "cap": 200000,
@@ -509,7 +508,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 66
+        "used": 68
       },
       {
         "cap": 200000,
@@ -517,7 +516,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 43
+        "used": 51
       }
     ],
     "healthy_entries": 37,
@@ -567,7 +566,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 184
+        "used": 189
       },
       {
         "cap": 1000,
@@ -903,7 +902,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 542
+        "used": 547
       },
       {
         "cap": 200000,
@@ -911,7 +910,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 65
+        "used": 67
       },
       {
         "cap": 200000,
@@ -919,7 +918,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 66
+        "used": 68
       },
       {
         "cap": 200000,
@@ -927,7 +926,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 43
+        "used": 51
       }
     ],
     "healthy_entries": 37,
@@ -939,35 +938,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 17868,
+        "age_sec": 18108,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 38196,
+        "age_sec": 38436,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 93402,
+        "age_sec": 93642,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 97002,
+        "age_sec": 97242,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 97002,
+        "age_sec": 97242,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -979,19 +978,14 @@
   },
   "workers": {
     "by_model": {
-      "xingchi-5/gpt-6.1-sol": 2,
-      "zhipu/glm-4.7-flash": 1
+      "xingchi-5/gpt-6.1-sol": 1
     },
-    "total": 3
+    "total": 1
   },
   "workers_detail": [
     {
-      "count": 2,
-      "model": "xingchi-5/gpt-6.1-sol"
-    },
-    {
       "count": 1,
-      "model": "zhipu/glm-4.7-flash"
+      "model": "xingchi-5/gpt-6.1-sol"
     }
   ],
   "workstreams": {
@@ -1005,7 +999,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T14:17:23Z"
+        "updated": "2026-11-20T14:26:06Z"
       },
       "tasks": {
         "done": 9,
@@ -1095,9 +1089,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-20T14:04:47Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-20T14:26:08Z"
       },
       "tasks": {
         "done": 4,
@@ -1114,7 +1108,7 @@
     "spaces-data": {
       "escalation": {
         "exists": true,
-        "latest": "- key=ec00db5351ce"
+        "latest": "- key=0752d3ce344b"
       },
       "status": {
         "exists": true,
