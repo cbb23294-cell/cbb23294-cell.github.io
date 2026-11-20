@@ -8,7 +8,7 @@
         "[code] WP3 queue-mode cutover finish + backlog alarm (retro-fix item 5): complet"
       ],
       "open": 2,
-      "status_updated": "2026-11-20T15:06:48Z",
+      "status_updated": "2026-11-20T15:07:34Z",
       "total": 11,
       "workstream": "cloud-script-migration"
     },
@@ -57,14 +57,14 @@
         "[mechanical] GitHub legs retest ONLY (dependency: migration line's clou-011 fix "
       ],
       "open": 3,
-      "status_updated": "2026-11-20T14:38:26Z",
+      "status_updated": "2026-11-20T15:07:58Z",
       "total": 6,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T15:06:48Z",
-  "generated_at": "2026-11-20T15:07:00Z",
-  "generated_at_utc": "2026-11-20T15:07:00Z",
+  "content_latest_at": "2026-11-20T15:07:58Z",
+  "generated_at": "2026-11-20T15:09:00Z",
+  "generated_at_utc": "2026-11-20T15:09:00Z",
   "live_pi_workers": {
     "by_model": {
       "xingchi-5/gpt-6.1-sol": 1
@@ -155,7 +155,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 261
+        "used": 266
       },
       {
         "cap": 1000,
@@ -163,7 +163,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 37
+        "used": 40
       },
       {
         "cap": 300,
@@ -179,7 +179,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 62
+        "used": 66
       },
       {
         "cap": 500,
@@ -235,7 +235,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 29
+        "used": 31
       },
       {
         "cap": 300,
@@ -427,7 +427,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 180
+        "used": 182
       },
       {
         "cap": 500,
@@ -451,7 +451,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it",
         "provider": "google-ai-studio",
-        "used": 69
+        "used": 72
       },
       {
         "cap": 20000,
@@ -491,7 +491,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 587
+        "used": 589
       },
       {
         "cap": 200000,
@@ -499,7 +499,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 80
+        "used": 81
       },
       {
         "cap": 200000,
@@ -507,7 +507,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 96
+        "used": 98
       },
       {
         "cap": 200000,
@@ -515,7 +515,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 122
+        "used": 125
       }
     ],
     "healthy_entries": 37,
@@ -565,7 +565,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 261
+        "used": 266
       },
       {
         "cap": 1000,
@@ -573,7 +573,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 37
+        "used": 40
       },
       {
         "cap": 300,
@@ -589,7 +589,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 62
+        "used": 66
       },
       {
         "cap": 500,
@@ -645,7 +645,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 29
+        "used": 31
       },
       {
         "cap": 300,
@@ -837,7 +837,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 180
+        "used": 182
       },
       {
         "cap": 500,
@@ -861,7 +861,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it",
         "provider": "google-ai-studio",
-        "used": 69
+        "used": 72
       },
       {
         "cap": 20000,
@@ -901,7 +901,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 587
+        "used": 589
       },
       {
         "cap": 200000,
@@ -909,7 +909,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 80
+        "used": 81
       },
       {
         "cap": 200000,
@@ -917,7 +917,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 96
+        "used": 98
       },
       {
         "cap": 200000,
@@ -925,7 +925,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 122
+        "used": 125
       }
     ],
     "healthy_entries": 37,
@@ -937,35 +937,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 20525,
+        "age_sec": 20645,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 40853,
+        "age_sec": 40973,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 96059,
+        "age_sec": 96179,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 99659,
+        "age_sec": 99779,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 99659,
+        "age_sec": 99779,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -998,7 +998,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T15:06:48Z"
+        "updated": "2026-11-20T15:07:34Z"
       },
       "tasks": {
         "done": 9,
@@ -1110,7 +1110,7 @@
         "tasks_done": 0,
         "tasks_open": 2,
         "tasks_total": 2,
-        "updated": "2026-11-20T14:38:26Z"
+        "updated": "2026-11-20T15:07:58Z"
       },
       "tasks": {
         "done": 3,
