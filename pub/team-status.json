@@ -7,17 +7,19 @@
         "[code] [boss-accept] GitHub failover legs — retro-fix meeting item 1 (boss synth"
       ],
       "open": 1,
-      "status_updated": "2026-11-20T17:21:31Z",
+      "status_updated": "2026-11-20T17:31:31Z",
       "total": 11,
       "workstream": "cloud-script-migration"
     },
     {
       "done": 26,
       "escalation_latest": "- key=10c1701f99eb",
-      "next_open": [],
-      "open": 0,
+      "next_open": [
+        "[code] Helped-claim heartbeat gap (found by the float-seat design review 2026-11"
+      ],
+      "open": 1,
       "status_updated": "2026-11-20T17:16:45Z",
-      "total": 26,
+      "total": 27,
       "workstream": "pool-optimization"
     },
     {
@@ -38,7 +40,7 @@
         "[code] [boss-accept] Altare free-server probe (resource-fit meeting 2026-11-20, "
       ],
       "open": 1,
-      "status_updated": "2026-11-20T17:16:16Z",
+      "status_updated": "2026-11-20T17:30:31Z",
       "total": 8,
       "workstream": "operations"
     },
@@ -54,9 +56,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T17:21:31Z",
-  "generated_at": "2026-11-20T17:29:38Z",
-  "generated_at_utc": "2026-11-20T17:29:38Z",
+  "content_latest_at": "2026-11-20T17:31:31Z",
+  "generated_at": "2026-11-20T17:31:38Z",
+  "generated_at_utc": "2026-11-20T17:31:38Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -145,7 +147,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 519
+        "used": 525
       },
       {
         "cap": 1000,
@@ -153,7 +155,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 141
+        "used": 143
       },
       {
         "cap": 300,
@@ -169,7 +171,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 200
+        "used": 201
       },
       {
         "cap": 500,
@@ -193,7 +195,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 208
+        "used": 212
       },
       {
         "cap": 500,
@@ -201,7 +203,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 208
+        "used": 212
       },
       {
         "cap": 1000,
@@ -417,7 +419,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 406
+        "used": 418
       },
       {
         "cap": 500,
@@ -473,7 +475,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 142
+        "used": 143
       },
       {
         "cap": 200000,
@@ -481,7 +483,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 676
+        "used": 677
       },
       {
         "cap": 200000,
@@ -497,7 +499,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 174
+        "used": 175
       },
       {
         "cap": 200000,
@@ -505,7 +507,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 244
+        "used": 246
       },
       {
         "cap": 200000,
@@ -563,7 +565,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 519
+        "used": 525
       },
       {
         "cap": 1000,
@@ -571,7 +573,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 141
+        "used": 143
       },
       {
         "cap": 300,
@@ -587,7 +589,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 200
+        "used": 201
       },
       {
         "cap": 500,
@@ -611,7 +613,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 208
+        "used": 212
       },
       {
         "cap": 500,
@@ -619,7 +621,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 208
+        "used": 212
       },
       {
         "cap": 1000,
@@ -835,7 +837,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 406
+        "used": 418
       },
       {
         "cap": 500,
@@ -891,7 +893,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 142
+        "used": 143
       },
       {
         "cap": 200000,
@@ -899,7 +901,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 676
+        "used": 677
       },
       {
         "cap": 200000,
@@ -915,7 +917,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 174
+        "used": 175
       },
       {
         "cap": 200000,
@@ -923,7 +925,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 244
+        "used": 246
       },
       {
         "cap": 200000,
@@ -943,35 +945,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 29084,
+        "age_sec": 29204,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 49412,
+        "age_sec": 49532,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 104618,
+        "age_sec": 104738,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 108218,
+        "age_sec": 108338,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 108218,
+        "age_sec": 108338,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -997,7 +999,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T17:21:31Z"
+        "updated": "2026-11-20T17:31:31Z"
       },
       "tasks": {
         "done": 10,
@@ -1021,7 +1023,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T17:16:16Z"
+        "updated": "2026-11-20T17:30:31Z"
       },
       "tasks": {
         "done": 7,
@@ -1050,8 +1052,13 @@
       "tasks": {
         "done": 26,
         "exists": true,
-        "next_open": [],
-        "open": 0
+        "next_open": [
+          {
+            "full": true,
+            "title": "[code] Helped-claim heartbeat gap (found by the float-seat design review 2026-11"
+          }
+        ],
+        "open": 1
       }
     },
     "security": {
