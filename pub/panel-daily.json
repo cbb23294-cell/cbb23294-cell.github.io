@@ -1,15 +1,15 @@
 {
   "ok": true,
-  "generatedAt": "2026-11-19T09:34:40Z",
+  "generatedAt": "2026-11-20T06:51:50Z",
   "round": "panel-daily",
-  "summary": "核对 12 个服务：3 个实查通过、9 个未核对，首轮基准",
+  "summary": "核对 12 个服务：1 个实查通过、11 个未核对，首轮基准",
   "changes": [],
   "results": [
     {
       "slug": "simular-box",
-      "checked": true,
-      "status": "wait",
-      "statusLabel": "状态未知 · 已连接",
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
       "specUpdates": []
     },
     {
@@ -28,15 +28,10 @@
     },
     {
       "slug": "cloady",
-      "checked": true,
-      "status": "ok",
-      "statusLabel": "已连接可用",
-      "specUpdates": [
-        {
-          "label": "工作区",
-          "value": "0 个 · 0 个应用"
-        }
-      ]
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": []
     },
     {
       "slug": "kaggle",
@@ -101,13 +96,13 @@
     }
   ],
   "resultCount": 12,
-  "checkedCount": 3,
+  "checkedCount": 1,
   "connectorStatus": [
     {
       "slug": "simular-box",
-      "ok": true,
-      "checked": true,
-      "note": "连接器实查通过"
+      "ok": false,
+      "checked": false,
+      "note": "box_status 未取到：exit 1: error: [Errno 2] No such file or directory: '/tmp/empty.json'"
     },
     {
       "slug": "openrouter",
@@ -123,9 +118,9 @@
     },
     {
       "slug": "cloady",
-      "ok": true,
-      "checked": true,
-      "note": "连接器实查通过"
+      "ok": false,
+      "checked": false,
+      "note": "getMe 未取到：exit 1: error: [Errno 2] No such file or directory: '/tmp/empty.json'"
     },
     {
       "slug": "kaggle",
