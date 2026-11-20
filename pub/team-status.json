@@ -1,12 +1,10 @@
 {
   "boards": [
     {
-      "done": 10,
+      "done": 11,
       "escalation_latest": "- key=1ceae659671f",
-      "next_open": [
-        "[code] [boss-accept] GitHub failover legs — retro-fix meeting item 1 (boss synth"
-      ],
-      "open": 1,
+      "next_open": [],
+      "open": 0,
       "status_updated": "2026-11-20T17:41:31Z",
       "total": 11,
       "workstream": "cloud-script-migration"
@@ -19,7 +17,7 @@
         "[mechanical] Stage the counting-audit recipe for board use (follow-up to the rec"
       ],
       "open": 2,
-      "status_updated": "2026-11-20T17:16:45Z",
+      "status_updated": "2026-11-20T17:43:16Z",
       "total": 28,
       "workstream": "pool-optimization"
     },
@@ -57,9 +55,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T17:41:31Z",
-  "generated_at": "2026-11-20T17:41:40Z",
-  "generated_at_utc": "2026-11-20T17:41:40Z",
+  "content_latest_at": "2026-11-20T17:43:16Z",
+  "generated_at": "2026-11-20T17:43:47Z",
+  "generated_at_utc": "2026-11-20T17:43:47Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -148,7 +146,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 546
+        "used": 547
       },
       {
         "cap": 1000,
@@ -476,7 +474,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 151
+        "used": 154
       },
       {
         "cap": 200000,
@@ -484,7 +482,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 688
+        "used": 692
       },
       {
         "cap": 200000,
@@ -492,7 +490,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 161
+        "used": 163
       },
       {
         "cap": 200000,
@@ -500,7 +498,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 178
+        "used": 180
       },
       {
         "cap": 200000,
@@ -508,7 +506,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 251
+        "used": 253
       },
       {
         "cap": 200000,
@@ -516,7 +514,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 17
+        "used": 18
       }
     ],
     "healthy_entries": 36,
@@ -566,7 +564,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 546
+        "used": 547
       },
       {
         "cap": 1000,
@@ -894,7 +892,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 151
+        "used": 154
       },
       {
         "cap": 200000,
@@ -902,7 +900,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 688
+        "used": 692
       },
       {
         "cap": 200000,
@@ -910,7 +908,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 161
+        "used": 163
       },
       {
         "cap": 200000,
@@ -918,7 +916,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 178
+        "used": 180
       },
       {
         "cap": 200000,
@@ -926,7 +924,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 251
+        "used": 253
       },
       {
         "cap": 200000,
@@ -934,7 +932,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 17
+        "used": 18
       }
     ],
     "healthy_entries": 36,
@@ -946,35 +944,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 29806,
+        "age_sec": 29932,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 50134,
+        "age_sec": 50260,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 105340,
+        "age_sec": 105466,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 108940,
+        "age_sec": 109066,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 108940,
+        "age_sec": 109066,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1003,15 +1001,10 @@
         "updated": "2026-11-20T17:41:31Z"
       },
       "tasks": {
-        "done": 10,
+        "done": 11,
         "exists": true,
-        "next_open": [
-          {
-            "full": true,
-            "title": "[code] [boss-accept] GitHub failover legs — retro-fix meeting item 1 (boss synth"
-          }
-        ],
-        "open": 1
+        "next_open": [],
+        "open": 0
       }
     },
     "operations": {
@@ -1048,7 +1041,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T17:16:45Z"
+        "updated": "2026-11-20T17:43:16Z"
       },
       "tasks": {
         "done": 26,
