@@ -5,7 +5,7 @@
       "escalation_latest": "- 2026-11-20T05:15:29Z ESCALATION (dead-jobs checker): boss-direct job wp9-rollout-vm-1795150724 (model gpt-6.1-sol) died without reporting: silent death (no exit record, log stale 1005s). Last log line:  | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried.",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-20T10:20:00Z",
+      "status_updated": "2026-11-20T10:30:00Z",
       "total": 9,
       "workstream": "cloud-script-migration"
     },
@@ -13,11 +13,12 @@
       "done": 19,
       "escalation_latest": "- 2026-11-20T09:45:59Z ESCALATION (dead-jobs checker): boss-direct job boost-pool-liveness-1795166695 (model gpt-6.1-sol) silence ALERT (alert-only, no kill): no new complete session event >600s (session JSONL; dispatch log 1263s, no longer the liveness input). Last log line:  | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried.",
       "next_open": [
-        "[code] [boss-accept] Production-wiring audit fixes: (a) wire mgr-routing/teams.p"
+        "[code] [boss-accept] Production-wiring audit fixes (claimed-by boss-dispatch gpt",
+        "[code] [boss-accept] Task-store slices 2-3 (claimed-by boss-dispatch gpt-6.1-sol"
       ],
-      "open": 1,
+      "open": 2,
       "status_updated": "2026-11-20T10:27:55Z",
-      "total": 20,
+      "total": 21,
       "workstream": "pool-optimization"
     },
     {
@@ -25,7 +26,7 @@
       "escalation_latest": null,
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-20T10:19:22Z",
+      "status_updated": "2026-11-20T10:28:15Z",
       "total": 4,
       "workstream": "security"
     },
@@ -36,7 +37,7 @@
         "[code] [boss-accept] Altare free-server probe (resource-fit meeting 2026-11-20, "
       ],
       "open": 1,
-      "status_updated": "2026-11-20T10:15:54Z",
+      "status_updated": "2026-11-20T10:29:45Z",
       "total": 6,
       "workstream": "operations"
     },
@@ -47,63 +48,60 @@
         "[code] [boss-accept] Fix the mobile keyboard / covered input problem across ALL "
       ],
       "open": 1,
-      "status_updated": "2026-11-20T10:25:59Z",
+      "status_updated": "2026-11-20T10:29:45Z",
       "total": 3,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T10:27:55Z",
-  "generated_at": "2026-11-20T10:28:06Z",
-  "generated_at_utc": "2026-11-20T10:28:06Z",
+  "content_latest_at": "2026-11-20T10:30:00Z",
+  "generated_at": "2026-11-20T10:30:07Z",
+  "generated_at_utc": "2026-11-20T10:30:07Z",
   "live_pi_workers": {
     "by_model": {
+      "gpt-6.1-sol": 1,
+      "gpt-6.1-sol–free": 1,
       "moss/nex-n2.6": 1
     },
-    "total": 1
+    "total": 3
   },
   "managers": [
     {
-      "model": "Qwen/Qwen3-VL-32B-Instruct",
-      "source": "pool",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "model": null,
-      "source": "pool",
-      "workstream": "cloud-script-migration"
-    },
-    {
       "model": "Qwen/Qwen3.5-35B-A3B",
       "source": "pool",
-      "workstream": "pool-optimization"
+      "workstream": "cloud-script-migration"
     },
     {
       "model": "nex-n2.6",
       "source": "pool",
-      "workstream": "security"
+      "workstream": "pool-optimization"
     },
     {
       "model": "gemma-4-31b-it",
       "source": "pool",
-      "workstream": "operations"
+      "workstream": "security"
     },
     {
       "model": "gemini-3.8-flash",
       "source": "pool",
-      "workstream": "spaces-data"
+      "workstream": "operations"
     },
     {
       "model": "gpt-6.1-sol",
       "source": "pool",
-      "workstream": "float"
+      "workstream": "spaces-data"
     },
     {
       "model": "gpt-6.1-sol–free",
       "source": "pool",
-      "workstream": "float-2"
+      "workstream": "float"
     },
     {
       "model": "free-gemma-4",
+      "source": "pool",
+      "workstream": "float-2"
+    },
+    {
+      "model": "free-large-4t",
       "source": "pool",
       "workstream": "float-3"
     }
@@ -166,7 +164,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 165
+        "used": 179
       },
       {
         "cap": 1000,
@@ -478,7 +476,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 40
+        "used": 50
       },
       {
         "cap": 200000,
@@ -486,7 +484,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 499
+        "used": 502
       },
       {
         "cap": 1000,
@@ -494,7 +492,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 48
+        "used": 49
       },
       {
         "cap": 200000,
@@ -502,7 +500,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 34
+        "used": 36
       }
     ],
     "healthy_entries": 38,
@@ -568,7 +566,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 165
+        "used": 179
       },
       {
         "cap": 1000,
@@ -880,7 +878,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 40
+        "used": 50
       },
       {
         "cap": 200000,
@@ -888,7 +886,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 499
+        "used": 502
       },
       {
         "cap": 1000,
@@ -896,7 +894,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 48
+        "used": 49
       },
       {
         "cap": 200000,
@@ -904,7 +902,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 34
+        "used": 36
       }
     ],
     "healthy_entries": 38,
@@ -916,51 +914,75 @@
     "done": 48,
     "running": [
       {
-        "age_sec": 3792,
+        "age_sec": 3912,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 24120,
+        "age_sec": 24240,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 79326,
+        "age_sec": 79446,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 82926,
+        "age_sec": 83046,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 82926,
+        "age_sec": 83046,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "pool-optimization"
+      },
+      {
+        "age_sec": 79,
+        "id": "taskstore-slices-1730-1795170528",
+        "model": "gpt-6.1-sol–free",
+        "started_at": "2026-11-20T10:28:48Z",
+        "workstream": "pool-optimization"
+      },
+      {
+        "age_sec": 86,
+        "id": "wiring-fix-1730-1795170521",
+        "model": "gpt-6.1-sol",
+        "started_at": "2026-11-20T10:28:41Z",
+        "workstream": "pool-optimization"
       }
     ],
-    "running_count": 5,
-    "total": 53
+    "running_count": 7,
+    "total": 55
   },
   "workers": {
     "by_model": {
+      "gpt-6.1-sol": 1,
+      "gpt-6.1-sol–free": 1,
       "moss/nex-n2.6": 1
     },
-    "total": 1
+    "total": 3
   },
   "workers_detail": [
+    {
+      "count": 1,
+      "model": "gpt-6.1-sol"
+    },
+    {
+      "count": 1,
+      "model": "gpt-6.1-sol–free"
+    },
     {
       "count": 1,
       "model": "moss/nex-n2.6"
@@ -977,7 +999,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T10:20:00Z"
+        "updated": "2026-11-20T10:30:00Z"
       },
       "tasks": {
         "done": 9,
@@ -996,7 +1018,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T10:15:54Z"
+        "updated": "2026-11-20T10:29:45Z"
       },
       "tasks": {
         "done": 5,
@@ -1028,10 +1050,14 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] Production-wiring audit fixes: (a) wire mgr-routing/teams.p"
+            "title": "[code] [boss-accept] Production-wiring audit fixes (claimed-by boss-dispatch gpt"
+          },
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Task-store slices 2-3 (claimed-by boss-dispatch gpt-6.1-sol"
           }
         ],
-        "open": 1
+        "open": 2
       }
     },
     "security": {
@@ -1044,7 +1070,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T10:19:22Z"
+        "updated": "2026-11-20T10:28:15Z"
       },
       "tasks": {
         "done": 4,
@@ -1063,7 +1089,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T10:25:59Z"
+        "updated": "2026-11-20T10:29:45Z"
       },
       "tasks": {
         "done": 2,
