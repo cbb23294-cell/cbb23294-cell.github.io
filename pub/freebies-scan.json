@@ -1,12 +1,21 @@
 {
   "ok": true,
-  "generatedAt": "2026-11-20T11:56:24Z",
+  "generatedAt": "2026-11-20T12:54:22Z",
   "round": "freebie-scan",
   "judged": true,
   "deals": [
     {
+      "title": "上了点免费模型(去蹬）",
+      "summary": "Relayo API 兼容 OpenAI SDK 的模型 API 按量计费",
+      "category": "AI 与 API",
+      "sourceKey": "linuxdo",
+      "url": "https://linux.do/t/topic/3212389",
+      "conditions": [],
+      "isHot": false
+    },
+    {
       "title": "支付宝app,智谱新用户免费领7天Coding Plan体验卡",
-      "summary": "支付宝新用户免费领7天智谱Coding Plan体验卡",
+      "summary": "支付宝新用户免费领智谱 Coding Plan 7 天体验卡",
       "category": "其他福利",
       "sourceKey": "linuxdo",
       "url": "https://linux.do/t/topic/3211683",
@@ -14,19 +23,8 @@
       "isHot": false
     },
     {
-      "title": "Qoder CN新注册用户加赠猫超卡和咖啡免单卡",
-      "summary": "Qoder CN新注册用户加赠10元天猫超市卡和18元咖啡免单卡",
-      "category": "其他福利",
-      "sourceKey": "linuxdo",
-      "url": "https://linux.do/t/topic/3211046",
-      "conditions": [
-        "需注册"
-      ],
-      "isHot": false
-    },
-    {
       "title": "截至今天21点免费使用MinxMaxH3，最高6秒，可以玩一下",
-      "summary": "免费使用MinxMaxH3模型，每次提示词最大2000字，生成视频最高6秒",
+      "summary": "免费使用 MinxMaxH3 生成视频，每次提示词最大 2000 字",
       "category": "AI 与 API",
       "sourceKey": "linuxdo",
       "url": "https://linux.do/t/topic/3207457",
@@ -39,18 +37,20 @@
       "summary": "免费使用 Claude Code Opus 5.5，按量付费，无月费席位费",
       "category": "AI 与 API",
       "sourceKey": "v2ex",
-      "url": "https://www.v2ex.com/t/1258640#reply0",
+      "url": "https://www.v2ex.com/t/1258640#reply8",
       "conditions": [],
       "isHot": false,
-      "content": "做了个小站 OnDemand Agent，一键用上 Claude Code Opus 5.5。 不用注册 Claude 账号，不用搞 API 中转，不用翻墙。在 GitHub 上一句话说清要改什么，先给你方案，你确认了才动手，写完直接提 PR。 按量付费，1 credit = 0.01 美元，没有月费，没有席位费。 👉 ondemandagent.dev 找几个用户帮我测试给反馈，免费送 500 Credits，感兴趣的留言，我发你。"
+      "content": "做了个小站 OnDemand Agent，一键用上 Claude Code Opus 5.5。 不用注册 Claude 账号，不用搞 API 中转，不用翻墙。在 GitHub 上一句话说清要改什么，先给你方案，你确认了才动手，写完直接提 PR。按量付费，1 credit = 0.01 美元，没有月费，没有席位费。 👉 ondemandagent.dev 找几个用户帮我测试给反馈，免费送 500 Credits，感兴趣的留言，我发你。"
     },
     {
-      "title": "我做了一个日语视频生成工具，新用户签到可以免费送积分",
+      "title": "我用 ai 半小时做了一个日语视频生成工具，新用户签到可以免费送积分",
       "summary": "日语视频生成工具，新用户签到可免费送积分",
       "category": "其他福利",
       "sourceKey": "v2ex",
       "url": "https://www.v2ex.com/t/1258626#reply0",
-      "conditions": [],
+      "conditions": [
+        "需新用户"
+      ],
       "isHot": false,
       "content": "ai web 出海开发一年了，做了很多英语网站，这次尝试点新鲜的，做了一个日语小语种网站，通过各种模型生成视频，欢迎体验： https://elarvo.ai"
     },
@@ -60,13 +60,15 @@
       "category": "AI 与 API",
       "sourceKey": "v2ex",
       "url": "https://www.v2ex.com/t/1258306#reply2",
-      "conditions": [],
+      "conditions": [
+        "需注册"
+      ],
       "isHot": false,
       "content": "不降智的中转站 https://api.omymodel.net/ GPT 0.25 倍率（不降智） Claude 0.40 倍率 Deepseek 0.60 倍率 随时查看降智测试效果 30 分钟一次 https://api.omymodel.net/animations 注册好账号找客服领取 1 美元"
     },
     {
       "title": "1024proxy 免费试用｜纯净住宅 IP 零成本上手",
-      "summary": "1024proxy 免费试用纯净住宅 IP，适合跨境 / 采集 / 多号测试",
+      "summary": "1024proxy 免费试用纯净住宅 IP",
       "category": "其他福利",
       "sourceKey": "v2ex",
       "url": "https://www.v2ex.com/t/1258276#reply0",
@@ -85,7 +87,7 @@
     },
     {
       "title": "比 IDM 快 5 倍的平替？免费开源下载器 MDM (支持 BT 磁力/视频嗅探/跨平台Mac)",
-      "summary": "免费开源下载器，支持 BT 磁力链接，跨平台。",
+      "summary": "免费开源下载器，支持 BT 磁力，跨平台。",
       "category": "软件限免",
       "sourceKey": "iplaysoft",
       "url": "https://www.iplaysoft.com/mdm.html",
@@ -143,7 +145,7 @@
       "sourceKey": "hostloc",
       "status": "ok",
       "newCount": 0,
-      "error": "端点失效"
+      "error": "搜索索引发现：本轮无符合条目"
     },
     {
       "sourceKey": "epic",
