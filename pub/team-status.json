@@ -21,7 +21,7 @@
         "[code] Counting + config-truth audit (retro-fix item 4 remainder) AND throughput"
       ],
       "open": 4,
-      "status_updated": "2026-11-20T13:10:41Z",
+      "status_updated": "2026-11-20T13:37:22Z",
       "total": 25,
       "workstream": "pool-optimization"
     },
@@ -32,7 +32,7 @@
         "[code] [boss-accept] audit_bw.sh fixture self-test + firewall preconditions codi"
       ],
       "open": 1,
-      "status_updated": "2026-11-20T13:35:37Z",
+      "status_updated": "2026-11-20T13:37:08Z",
       "total": 5,
       "workstream": "security"
     },
@@ -45,7 +45,7 @@
         "[code] Event consumer + boss unread marker (reporting-chain item 2; consumes the"
       ],
       "open": 3,
-      "status_updated": "2026-11-20T13:35:23Z",
+      "status_updated": "2026-11-20T13:36:08Z",
       "total": 8,
       "workstream": "operations"
     },
@@ -58,14 +58,14 @@
         "[mechanical] GitHub legs retest ONLY (dependency: migration line's clou-011 fix "
       ],
       "open": 3,
-      "status_updated": "2026-11-20T13:12:02Z",
+      "status_updated": "2026-11-20T13:37:37Z",
       "total": 6,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T13:35:37Z",
-  "generated_at": "2026-11-20T13:35:41Z",
-  "generated_at_utc": "2026-11-20T13:35:41Z",
+  "content_latest_at": "2026-11-20T13:37:37Z",
+  "generated_at": "2026-11-20T13:37:42Z",
+  "generated_at_utc": "2026-11-20T13:37:42Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -154,7 +154,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 126
+        "used": 127
       },
       {
         "cap": 1000,
@@ -564,7 +564,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 126
+        "used": 127
       },
       {
         "cap": 1000,
@@ -936,35 +936,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 15047,
+        "age_sec": 15167,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 35375,
+        "age_sec": 35495,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 90581,
+        "age_sec": 90701,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 94181,
+        "age_sec": 94301,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 94181,
+        "age_sec": 94301,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1018,7 +1018,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T13:35:23Z"
+        "updated": "2026-11-20T13:36:08Z"
       },
       "tasks": {
         "done": 5,
@@ -1048,9 +1048,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 3,
-        "tasks_total": 3,
-        "updated": "2026-11-20T13:10:41Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-20T13:37:22Z"
       },
       "tasks": {
         "done": 21,
@@ -1082,7 +1082,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T13:35:37Z"
+        "updated": "2026-11-20T13:37:08Z"
       },
       "tasks": {
         "done": 4,
@@ -1103,10 +1103,10 @@
       },
       "status": {
         "exists": true,
-        "tasks_done": 1,
-        "tasks_open": 2,
-        "tasks_total": 3,
-        "updated": "2026-11-20T13:12:02Z"
+        "tasks_done": 0,
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-20T13:37:37Z"
       },
       "tasks": {
         "done": 3,
