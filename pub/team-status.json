@@ -30,14 +30,13 @@
       "workstream": "security"
     },
     {
-      "done": 4,
+      "done": 5,
       "escalation_latest": "- key=4185134e0cb1",
       "next_open": [
-        "Watchdog liveness half of the Pi session-JSONL decision (meeting 2026-11-20): th",
         "[code] [boss-accept] Altare free-server probe (resource-fit meeting 2026-11-20, "
       ],
-      "open": 2,
-      "status_updated": "2026-11-20T09:05:19Z",
+      "open": 1,
+      "status_updated": "2026-11-20T09:17:12Z",
       "total": 6,
       "workstream": "operations"
     },
@@ -53,14 +52,12 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T09:14:39Z",
-  "generated_at": "2026-11-20T09:15:20Z",
-  "generated_at_utc": "2026-11-20T09:15:20Z",
+  "content_latest_at": "2026-11-20T09:17:12Z",
+  "generated_at": "2026-11-20T09:17:21Z",
+  "generated_at_utc": "2026-11-20T09:17:21Z",
   "live_pi_workers": {
-    "by_model": {
-      "zhipu/glm-4.7-flash": 1
-    },
-    "total": 1
+    "by_model": {},
+    "total": 0
   },
   "managers": [
     {
@@ -127,7 +124,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 190
+        "used": 197
       },
       {
         "cap": 1000,
@@ -159,7 +156,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 22
+        "used": 23
       },
       {
         "cap": 300,
@@ -167,7 +164,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 136
+        "used": 143
       },
       {
         "cap": 1000,
@@ -521,7 +518,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 190
+        "used": 197
       },
       {
         "cap": 1000,
@@ -553,7 +550,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 22
+        "used": 23
       },
       {
         "cap": 300,
@@ -561,7 +558,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 136
+        "used": 143
       },
       {
         "cap": 1000,
@@ -901,28 +898,28 @@
     "done": 48,
     "running": [
       {
-        "age_sec": 19754,
+        "age_sec": 19874,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 74960,
+        "age_sec": 75080,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 78560,
+        "age_sec": 78680,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 78560,
+        "age_sec": 78680,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -933,17 +930,10 @@
     "total": 52
   },
   "workers": {
-    "by_model": {
-      "zhipu/glm-4.7-flash": 1
-    },
-    "total": 1
+    "by_model": {},
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 1,
-      "model": "zhipu/glm-4.7-flash"
-    }
-  ],
+  "workers_detail": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -971,25 +961,21 @@
       },
       "status": {
         "exists": true,
-        "tasks_done": 0,
-        "tasks_open": 1,
+        "tasks_done": 1,
+        "tasks_open": 0,
         "tasks_total": 1,
-        "updated": "2026-11-20T09:05:19Z"
+        "updated": "2026-11-20T09:17:12Z"
       },
       "tasks": {
-        "done": 4,
+        "done": 5,
         "exists": true,
         "next_open": [
-          {
-            "full": true,
-            "title": "Watchdog liveness half of the Pi session-JSONL decision (meeting 2026-11-20): th"
-          },
           {
             "full": true,
             "title": "[code] [boss-accept] Altare free-server probe (resource-fit meeting 2026-11-20, "
           }
         ],
-        "open": 2
+        "open": 1
       }
     },
     "pool-optimization": {
