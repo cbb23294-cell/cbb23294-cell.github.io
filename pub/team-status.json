@@ -17,7 +17,7 @@
         "[code] [boss-accept] Task-store slices 2-3 (claimed-by boss-dispatch gpt-6.1-sol"
       ],
       "open": 2,
-      "status_updated": "2026-11-20T11:39:52Z",
+      "status_updated": "2026-11-20T11:54:51Z",
       "total": 21,
       "workstream": "pool-optimization"
     },
@@ -32,7 +32,7 @@
     },
     {
       "done": 5,
-      "escalation_latest": "- 2026-11-20T10:41:02Z ESCALATION (dead-jobs checker): boss-direct job boost4-operations-altare-1795171073 (model glm-5.3-flashx) died without reporting: exited with code 143. Last log line: Warning: Model \"glm-5.3-flashx\" not found for provider \"crew\". Using custom model id. | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried.",
+      "escalation_latest": "2026-11-20T11:54:06Z SPEND ALERT: siliconflow-voucher used 369 calls today (> 350 warning line, cap 400). See spend-ledger.jsonl.",
       "next_open": [
         "[code] [boss-accept] Altare free-server probe (resource-fit meeting 2026-11-20, "
       ],
@@ -48,19 +48,17 @@
         "[code] [boss-accept] Fix the mobile keyboard / covered input problem across ALL "
       ],
       "open": 1,
-      "status_updated": "2026-11-20T11:40:58Z",
+      "status_updated": "2026-11-20T11:54:51Z",
       "total": 3,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T11:51:22Z",
-  "generated_at": "2026-11-20T11:53:14Z",
-  "generated_at_utc": "2026-11-20T11:53:14Z",
+  "content_latest_at": "2026-11-20T11:54:51Z",
+  "generated_at": "2026-11-20T11:55:14Z",
+  "generated_at_utc": "2026-11-20T11:55:14Z",
   "live_pi_workers": {
-    "by_model": {
-      "siliconflow/XingChenAGI/Xing4.0-29B": 1
-    },
-    "total": 1
+    "by_model": {},
+    "total": 0
   },
   "managers": [
     {
@@ -146,7 +144,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 60
+        "used": 63
       },
       {
         "cap": 1000,
@@ -170,7 +168,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 21
+        "used": 25
       },
       {
         "cap": 500,
@@ -548,7 +546,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 60
+        "used": 63
       },
       {
         "cap": 1000,
@@ -572,7 +570,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 21
+        "used": 25
       },
       {
         "cap": 500,
@@ -912,35 +910,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 8899,
+        "age_sec": 9019,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 29227,
+        "age_sec": 29347,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 84433,
+        "age_sec": 84553,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 88033,
+        "age_sec": 88153,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 88033,
+        "age_sec": 88153,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -951,17 +949,10 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "siliconflow/XingChenAGI/Xing4.0-29B": 1
-    },
-    "total": 1
+    "by_model": {},
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 1,
-      "model": "siliconflow/XingChenAGI/Xing4.0-29B"
-    }
-  ],
+  "workers_detail": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -985,7 +976,7 @@
     "operations": {
       "escalation": {
         "exists": true,
-        "latest": "- 2026-11-20T10:41:02Z ESCALATION (dead-jobs checker): boss-direct job boost4-operations-altare-1795171073 (model glm-5.3-flashx) died without reporting: exited with code 143. Last log line: Warning: Model \"glm-5.3-flashx\" not found for provider \"crew\". Using custom model id. | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried."
+        "latest": "2026-11-20T11:54:06Z SPEND ALERT: siliconflow-voucher used 369 calls today (> 350 warning line, cap 400). See spend-ledger.jsonl."
       },
       "status": {
         "exists": true,
@@ -1016,7 +1007,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T11:39:52Z"
+        "updated": "2026-11-20T11:54:51Z"
       },
       "tasks": {
         "done": 19,
@@ -1060,10 +1051,10 @@
       },
       "status": {
         "exists": true,
-        "tasks_done": 1,
+        "tasks_done": 0,
         "tasks_open": 0,
-        "tasks_total": 1,
-        "updated": "2026-11-20T11:40:58Z"
+        "tasks_total": 0,
+        "updated": "2026-11-20T11:54:51Z"
       },
       "tasks": {
         "done": 2,
