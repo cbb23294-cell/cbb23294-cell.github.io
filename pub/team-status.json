@@ -27,7 +27,7 @@
         "[code] [boss-accept] audit_bw.sh fixture self-test + firewall preconditions codi"
       ],
       "open": 1,
-      "status_updated": "2026-11-20T18:32:48Z",
+      "status_updated": "2026-11-20T18:36:11Z",
       "total": 5,
       "workstream": "security"
     },
@@ -36,7 +36,7 @@
       "escalation_latest": "- key=b9cc0e50ce8f",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-20T18:34:17Z",
+      "status_updated": "2026-11-20T18:34:26Z",
       "total": 8,
       "workstream": "operations"
     },
@@ -52,9 +52,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T18:34:17Z",
-  "generated_at": "2026-11-20T18:34:26Z",
-  "generated_at_utc": "2026-11-20T18:34:26Z",
+  "content_latest_at": "2026-11-20T18:36:11Z",
+  "generated_at": "2026-11-20T18:36:26Z",
+  "generated_at_utc": "2026-11-20T18:36:26Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -143,7 +143,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 566
+        "used": 569
       },
       {
         "cap": 1000,
@@ -561,7 +561,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 566
+        "used": 569
       },
       {
         "cap": 1000,
@@ -941,35 +941,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 32971,
+        "age_sec": 33091,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 53299,
+        "age_sec": 53419,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 108505,
+        "age_sec": 108625,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 112105,
+        "age_sec": 112225,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 112105,
+        "age_sec": 112225,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1014,7 +1014,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T18:34:17Z"
+        "updated": "2026-11-20T18:34:26Z"
       },
       "tasks": {
         "done": 8,
@@ -1057,7 +1057,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T18:32:48Z"
+        "updated": "2026-11-20T18:36:11Z"
       },
       "tasks": {
         "done": 4,
