@@ -10,13 +10,11 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "done": 28,
+      "done": 29,
       "escalation_latest": "- key=c5d9038cc0c0",
-      "next_open": [
-        "[mechanical] Stage the counting-audit recipe for board use (follow-up to the rec"
-      ],
-      "open": 1,
-      "status_updated": "2026-11-20T18:06:46Z",
+      "next_open": [],
+      "open": 0,
+      "status_updated": "2026-11-20T18:07:16Z",
       "total": 29,
       "workstream": "pool-optimization"
     },
@@ -52,9 +50,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T18:06:46Z",
-  "generated_at": "2026-11-20T18:07:09Z",
-  "generated_at_utc": "2026-11-20T18:07:09Z",
+  "content_latest_at": "2026-11-20T18:07:16Z",
+  "generated_at": "2026-11-20T18:09:09Z",
+  "generated_at_utc": "2026-11-20T18:09:09Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -447,7 +445,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 63
+        "used": 64
       },
       {
         "cap": 20000,
@@ -455,7 +453,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 124
+        "used": 127
       },
       {
         "cap": 20000,
@@ -865,7 +863,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 63
+        "used": 64
       },
       {
         "cap": 20000,
@@ -873,7 +871,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 124
+        "used": 127
       },
       {
         "cap": 20000,
@@ -941,35 +939,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 31334,
+        "age_sec": 31455,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 51662,
+        "age_sec": 51783,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 106868,
+        "age_sec": 106989,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 110468,
+        "age_sec": 110589,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 110468,
+        "age_sec": 110589,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1030,21 +1028,16 @@
       },
       "status": {
         "exists": true,
-        "tasks_done": 0,
-        "tasks_open": 1,
+        "tasks_done": 1,
+        "tasks_open": 0,
         "tasks_total": 1,
-        "updated": "2026-11-20T18:06:46Z"
+        "updated": "2026-11-20T18:07:16Z"
       },
       "tasks": {
-        "done": 28,
+        "done": 29,
         "exists": true,
-        "next_open": [
-          {
-            "full": true,
-            "title": "[mechanical] Stage the counting-audit recipe for board use (follow-up to the rec"
-          }
-        ],
-        "open": 1
+        "next_open": [],
+        "open": 0
       }
     },
     "security": {
