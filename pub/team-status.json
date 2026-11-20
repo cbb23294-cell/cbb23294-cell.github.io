@@ -5,7 +5,7 @@
       "escalation_latest": "- 2026-11-20T05:15:29Z ESCALATION (dead-jobs checker): boss-direct job wp9-rollout-vm-1795150724 (model gpt-6.1-sol) died without reporting: silent death (no exit record, log stale 1005s). Last log line:  | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried.",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-20T10:40:01Z",
+      "status_updated": "2026-11-20T10:50:00Z",
       "total": 9,
       "workstream": "cloud-script-migration"
     },
@@ -17,7 +17,7 @@
         "[code] [boss-accept] Task-store slices 2-3 (claimed-by boss-dispatch gpt-6.1-sol"
       ],
       "open": 2,
-      "status_updated": "2026-11-20T10:42:55Z",
+      "status_updated": "2026-11-20T10:49:55Z",
       "total": 21,
       "workstream": "pool-optimization"
     },
@@ -26,7 +26,7 @@
       "escalation_latest": null,
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-20T10:28:15Z",
+      "status_updated": "2026-11-20T10:48:14Z",
       "total": 4,
       "workstream": "security"
     },
@@ -53,18 +53,15 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T10:44:45Z",
-  "generated_at": "2026-11-20T10:46:10Z",
-  "generated_at_utc": "2026-11-20T10:46:10Z",
+  "content_latest_at": "2026-11-20T10:50:00Z",
+  "generated_at": "2026-11-20T10:50:10Z",
+  "generated_at_utc": "2026-11-20T10:50:10Z",
   "live_pi_workers": {
     "by_model": {
-      "glm-5.3-flashx": 1,
       "gpt-6.1-sol": 1,
-      "gpt-6.1-sol–free": 1,
-      "groq/qwen/qwen3.8-27b": 1,
-      "moss/nex-n2.6": 1
+      "gpt-6.1-sol–free": 1
     },
-    "total": 5
+    "total": 2
   },
   "managers": [
     {
@@ -123,10 +120,10 @@
       {
         "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 288
+        "used": 300
       },
       {
         "cap": 1000,
@@ -150,7 +147,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 26
+        "used": 30
       },
       {
         "cap": 1000,
@@ -163,10 +160,10 @@
       {
         "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 283
+        "used": 300
       },
       {
         "cap": 1000,
@@ -214,7 +211,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 56
+        "used": 62
       },
       {
         "cap": 1000,
@@ -478,7 +475,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 77
+        "used": 81
       },
       {
         "cap": 200000,
@@ -486,7 +483,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 508
+        "used": 509
       },
       {
         "cap": 1000,
@@ -502,10 +499,10 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 41
+        "used": 42
       }
     ],
-    "healthy_entries": 38,
+    "healthy_entries": 36,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -525,10 +522,10 @@
       {
         "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 288
+        "used": 300
       },
       {
         "cap": 1000,
@@ -552,7 +549,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 26
+        "used": 30
       },
       {
         "cap": 1000,
@@ -565,10 +562,10 @@
       {
         "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 283
+        "used": 300
       },
       {
         "cap": 1000,
@@ -616,7 +613,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 56
+        "used": 62
       },
       {
         "cap": 1000,
@@ -880,7 +877,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 77
+        "used": 81
       },
       {
         "cap": 200000,
@@ -888,7 +885,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 508
+        "used": 509
       },
       {
         "cap": 1000,
@@ -904,92 +901,78 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 41
+        "used": 42
       }
     ],
-    "healthy_entries": 38,
+    "healthy_entries": 36,
     "ok": true,
     "reachable": true,
     "used_today": 45
   },
   "tracked_jobs": {
-    "done": 50,
+    "done": 51,
     "running": [
       {
-        "age_sec": 4875,
+        "age_sec": 5116,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 25203,
+        "age_sec": 25444,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 358,
-        "id": "boost4-operations-altare-1795171212",
-        "model": "glm-5.3-flashx",
-        "started_at": "2026-11-20T10:40:12Z",
-        "workstream": "operations"
-      },
-      {
-        "age_sec": 80409,
+        "age_sec": 80650,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 84009,
+        "age_sec": 84250,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 84009,
+        "age_sec": 84250,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 1042,
+        "age_sec": 1283,
         "id": "taskstore-slices-1730-1795170528",
         "model": "gpt-6.1-sol–free",
         "started_at": "2026-11-20T10:28:48Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 1049,
+        "age_sec": 1290,
         "id": "wiring-fix-1730-1795170521",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T10:28:41Z",
         "workstream": "pool-optimization"
       }
     ],
-    "running_count": 8,
+    "running_count": 7,
     "total": 58
   },
   "workers": {
     "by_model": {
-      "glm-5.3-flashx": 1,
       "gpt-6.1-sol": 1,
-      "gpt-6.1-sol–free": 1,
-      "groq/qwen/qwen3.8-27b": 1,
-      "moss/nex-n2.6": 1
+      "gpt-6.1-sol–free": 1
     },
-    "total": 5
+    "total": 2
   },
   "workers_detail": [
-    {
-      "count": 1,
-      "model": "glm-5.3-flashx"
-    },
     {
       "count": 1,
       "model": "gpt-6.1-sol"
@@ -997,14 +980,6 @@
     {
       "count": 1,
       "model": "gpt-6.1-sol–free"
-    },
-    {
-      "count": 1,
-      "model": "groq/qwen/qwen3.8-27b"
-    },
-    {
-      "count": 1,
-      "model": "moss/nex-n2.6"
     }
   ],
   "workstreams": {
@@ -1018,7 +993,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T10:40:01Z"
+        "updated": "2026-11-20T10:50:00Z"
       },
       "tasks": {
         "done": 9,
@@ -1059,9 +1034,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-20T10:42:55Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-20T10:49:55Z"
       },
       "tasks": {
         "done": 19,
@@ -1089,7 +1064,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T10:28:15Z"
+        "updated": "2026-11-20T10:48:14Z"
       },
       "tasks": {
         "done": 4,
