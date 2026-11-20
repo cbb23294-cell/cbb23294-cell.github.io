@@ -10,15 +10,13 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "done": 26,
+      "done": 28,
       "escalation_latest": "- key=c5d9038cc0c0",
       "next_open": [
-        "[code] Helped-claim heartbeat gap (found by the float-seat design review 2026-11",
-        "[mechanical] Stage the counting-audit recipe for board use (follow-up to the rec",
-        "[code] [boss-accept] Land the heartbeat-gap fix (follow-up to pool-032; analysis"
+        "[mechanical] Stage the counting-audit recipe for board use (follow-up to the rec"
       ],
-      "open": 3,
-      "status_updated": "2026-11-20T17:43:16Z",
+      "open": 1,
+      "status_updated": "2026-11-20T18:06:46Z",
       "total": 29,
       "workstream": "pool-optimization"
     },
@@ -54,9 +52,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T18:00:11Z",
-  "generated_at": "2026-11-20T18:05:09Z",
-  "generated_at_utc": "2026-11-20T18:05:09Z",
+  "content_latest_at": "2026-11-20T18:06:46Z",
+  "generated_at": "2026-11-20T18:07:09Z",
+  "generated_at_utc": "2026-11-20T18:07:09Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -145,7 +143,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 548
+        "used": 550
       },
       {
         "cap": 1000,
@@ -449,7 +447,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 62
+        "used": 63
       },
       {
         "cap": 20000,
@@ -457,7 +455,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 120
+        "used": 124
       },
       {
         "cap": 20000,
@@ -563,7 +561,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 548
+        "used": 550
       },
       {
         "cap": 1000,
@@ -867,7 +865,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 62
+        "used": 63
       },
       {
         "cap": 20000,
@@ -875,7 +873,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 120
+        "used": 124
       },
       {
         "cap": 20000,
@@ -943,35 +941,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 31214,
+        "age_sec": 31334,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 51542,
+        "age_sec": 51662,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 106748,
+        "age_sec": 106868,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 110348,
+        "age_sec": 110468,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 110348,
+        "age_sec": 110468,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1033,28 +1031,20 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-20T17:43:16Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-20T18:06:46Z"
       },
       "tasks": {
-        "done": 26,
+        "done": 28,
         "exists": true,
         "next_open": [
           {
             "full": true,
-            "title": "[code] Helped-claim heartbeat gap (found by the float-seat design review 2026-11"
-          },
-          {
-            "full": true,
             "title": "[mechanical] Stage the counting-audit recipe for board use (follow-up to the rec"
-          },
-          {
-            "full": true,
-            "title": "[code] [boss-accept] Land the heartbeat-gap fix (follow-up to pool-032; analysis"
           }
         ],
-        "open": 3
+        "open": 1
       }
     },
     "security": {
