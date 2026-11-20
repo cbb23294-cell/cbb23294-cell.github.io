@@ -8,7 +8,7 @@
         "[code] WP3 queue-mode cutover finish + backlog alarm (retro-fix item 5): complet"
       ],
       "open": 2,
-      "status_updated": "2026-11-20T15:07:34Z",
+      "status_updated": "2026-11-20T15:10:47Z",
       "total": 11,
       "workstream": "cloud-script-migration"
     },
@@ -21,7 +21,7 @@
         "[code] Counting + config-truth audit (retro-fix item 4 remainder) AND throughput"
       ],
       "open": 4,
-      "status_updated": "2026-11-20T15:06:31Z",
+      "status_updated": "2026-11-20T15:10:19Z",
       "total": 26,
       "workstream": "pool-optimization"
     },
@@ -62,9 +62,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T15:07:58Z",
-  "generated_at": "2026-11-20T15:09:00Z",
-  "generated_at_utc": "2026-11-20T15:09:00Z",
+  "content_latest_at": "2026-11-20T15:10:47Z",
+  "generated_at": "2026-11-20T15:11:00Z",
+  "generated_at_utc": "2026-11-20T15:11:00Z",
   "live_pi_workers": {
     "by_model": {
       "xingchi-5/gpt-6.1-sol": 1
@@ -155,7 +155,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 266
+        "used": 275
       },
       {
         "cap": 1000,
@@ -179,23 +179,23 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 66
+        "used": 70
       },
       {
         "cap": 500,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 499
+        "used": 500
       },
       {
         "cap": 500,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 499
+        "used": 500
       },
       {
         "cap": 500,
@@ -203,7 +203,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 63
+        "used": 70
       },
       {
         "cap": 500,
@@ -211,7 +211,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 63
+        "used": 70
       },
       {
         "cap": 1000,
@@ -427,7 +427,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 182
+        "used": 190
       },
       {
         "cap": 500,
@@ -451,7 +451,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it",
         "provider": "google-ai-studio",
-        "used": 72
+        "used": 77
       },
       {
         "cap": 20000,
@@ -491,7 +491,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 589
+        "used": 592
       },
       {
         "cap": 200000,
@@ -499,7 +499,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 81
+        "used": 82
       },
       {
         "cap": 200000,
@@ -515,10 +515,10 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 125
+        "used": 129
       }
     ],
-    "healthy_entries": 37,
+    "healthy_entries": 35,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -565,7 +565,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 266
+        "used": 275
       },
       {
         "cap": 1000,
@@ -589,23 +589,23 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 66
+        "used": 70
       },
       {
         "cap": 500,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 499
+        "used": 500
       },
       {
         "cap": 500,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 499
+        "used": 500
       },
       {
         "cap": 500,
@@ -613,7 +613,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 63
+        "used": 70
       },
       {
         "cap": 500,
@@ -621,7 +621,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 63
+        "used": 70
       },
       {
         "cap": 1000,
@@ -837,7 +837,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 182
+        "used": 190
       },
       {
         "cap": 500,
@@ -861,7 +861,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it",
         "provider": "google-ai-studio",
-        "used": 72
+        "used": 77
       },
       {
         "cap": 20000,
@@ -901,7 +901,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 589
+        "used": 592
       },
       {
         "cap": 200000,
@@ -909,7 +909,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 81
+        "used": 82
       },
       {
         "cap": 200000,
@@ -925,10 +925,10 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 125
+        "used": 129
       }
     ],
-    "healthy_entries": 37,
+    "healthy_entries": 35,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -937,35 +937,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 20645,
+        "age_sec": 20766,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 40973,
+        "age_sec": 41094,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 96179,
+        "age_sec": 96300,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 99779,
+        "age_sec": 99900,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 99779,
+        "age_sec": 99900,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -998,7 +998,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T15:07:34Z"
+        "updated": "2026-11-20T15:10:47Z"
       },
       "tasks": {
         "done": 9,
@@ -1052,9 +1052,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-20T15:06:31Z"
+        "tasks_open": 4,
+        "tasks_total": 4,
+        "updated": "2026-11-20T15:10:19Z"
       },
       "tasks": {
         "done": 22,
