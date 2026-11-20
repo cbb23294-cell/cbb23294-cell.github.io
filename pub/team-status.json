@@ -21,7 +21,7 @@
         "[code] Counting + config-truth audit (retro-fix item 4 remainder) AND throughput"
       ],
       "open": 4,
-      "status_updated": "2026-11-20T14:54:58Z",
+      "status_updated": "2026-11-20T15:02:52Z",
       "total": 26,
       "workstream": "pool-optimization"
     },
@@ -62,15 +62,15 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T15:00:01Z",
-  "generated_at": "2026-11-20T15:00:59Z",
-  "generated_at_utc": "2026-11-20T15:00:59Z",
+  "content_latest_at": "2026-11-20T15:02:52Z",
+  "generated_at": "2026-11-20T15:02:59Z",
+  "generated_at_utc": "2026-11-20T15:02:59Z",
   "live_pi_workers": {
     "by_model": {
       "google-ai-studio/gemma-4-26b-a4b-it": 1,
-      "xingchi-5/gpt-6.1-sol": 2
+      "xingchi-5/gpt-6.1-sol": 1
     },
-    "total": 3
+    "total": 2
   },
   "managers": [
     {
@@ -156,7 +156,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 252
+        "used": 258
       },
       {
         "cap": 1000,
@@ -164,7 +164,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 36
+        "used": 37
       },
       {
         "cap": 300,
@@ -180,7 +180,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 51
+        "used": 58
       },
       {
         "cap": 500,
@@ -188,7 +188,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 489
+        "used": 495
       },
       {
         "cap": 500,
@@ -196,7 +196,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 489
+        "used": 495
       },
       {
         "cap": 500,
@@ -428,7 +428,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 164
+        "used": 171
       },
       {
         "cap": 500,
@@ -452,7 +452,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it",
         "provider": "google-ai-studio",
-        "used": 58
+        "used": 62
       },
       {
         "cap": 20000,
@@ -492,7 +492,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 585
+        "used": 586
       },
       {
         "cap": 200000,
@@ -500,7 +500,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 79
+        "used": 80
       },
       {
         "cap": 200000,
@@ -516,7 +516,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 117
+        "used": 119
       }
     ],
     "healthy_entries": 37,
@@ -566,7 +566,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 252
+        "used": 258
       },
       {
         "cap": 1000,
@@ -574,7 +574,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 36
+        "used": 37
       },
       {
         "cap": 300,
@@ -590,7 +590,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 51
+        "used": 58
       },
       {
         "cap": 500,
@@ -598,7 +598,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 489
+        "used": 495
       },
       {
         "cap": 500,
@@ -606,7 +606,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 489
+        "used": 495
       },
       {
         "cap": 500,
@@ -838,7 +838,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 164
+        "used": 171
       },
       {
         "cap": 500,
@@ -862,7 +862,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it",
         "provider": "google-ai-studio",
-        "used": 58
+        "used": 62
       },
       {
         "cap": 20000,
@@ -902,7 +902,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 585
+        "used": 586
       },
       {
         "cap": 200000,
@@ -910,7 +910,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 79
+        "used": 80
       },
       {
         "cap": 200000,
@@ -926,7 +926,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 117
+        "used": 119
       }
     ],
     "healthy_entries": 37,
@@ -938,35 +938,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 20164,
+        "age_sec": 20285,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 40492,
+        "age_sec": 40613,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 95698,
+        "age_sec": 95819,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 99298,
+        "age_sec": 99419,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 99298,
+        "age_sec": 99419,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -979,18 +979,18 @@
   "workers": {
     "by_model": {
       "google-ai-studio/gemma-4-26b-a4b-it": 1,
-      "xingchi-5/gpt-6.1-sol": 2
+      "xingchi-5/gpt-6.1-sol": 1
     },
-    "total": 3
+    "total": 2
   },
   "workers_detail": [
     {
-      "count": 2,
-      "model": "xingchi-5/gpt-6.1-sol"
+      "count": 1,
+      "model": "google-ai-studio/gemma-4-26b-a4b-it"
     },
     {
       "count": 1,
-      "model": "google-ai-studio/gemma-4-26b-a4b-it"
+      "model": "xingchi-5/gpt-6.1-sol"
     }
   ],
   "workstreams": {
@@ -1060,7 +1060,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T14:54:58Z"
+        "updated": "2026-11-20T15:02:52Z"
       },
       "tasks": {
         "done": 22,
