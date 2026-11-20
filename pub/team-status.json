@@ -5,7 +5,7 @@
       "escalation_latest": "- key=1ceae659671f",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-20T23:10:04Z",
+      "status_updated": "2026-11-20T23:20:01Z",
       "total": 11,
       "workstream": "cloud-script-migration"
     },
@@ -16,7 +16,7 @@
         "[code] [boss-accept] A3 anti-fabrication verifier for the staged counting-audit "
       ],
       "open": 1,
-      "status_updated": "2026-11-20T22:58:41Z",
+      "status_updated": "2026-11-20T23:19:45Z",
       "total": 30,
       "workstream": "pool-optimization"
     },
@@ -27,7 +27,7 @@
         "[code] [boss-accept] audit_bw.sh fixture self-test + firewall preconditions codi"
       ],
       "open": 1,
-      "status_updated": "2026-11-20T22:58:05Z",
+      "status_updated": "2026-11-20T23:19:31Z",
       "total": 5,
       "workstream": "security"
     },
@@ -36,7 +36,7 @@
       "escalation_latest": "- key=b9cc0e50ce8f",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-20T23:00:34Z",
+      "status_updated": "2026-11-20T23:17:00Z",
       "total": 8,
       "workstream": "operations"
     },
@@ -47,14 +47,14 @@
         "[code] [boss-accept] Six-space performance: MEASUREMENT first, fixes second (spa"
       ],
       "open": 1,
-      "status_updated": "2026-11-20T22:49:06Z",
+      "status_updated": "2026-11-20T23:20:00Z",
       "total": 6,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T23:10:04Z",
-  "generated_at": "2026-11-20T23:16:27Z",
-  "generated_at_utc": "2026-11-20T23:16:27Z",
+  "content_latest_at": "2026-11-20T23:20:01Z",
+  "generated_at": "2026-11-20T23:20:28Z",
+  "generated_at_utc": "2026-11-20T23:20:28Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -143,7 +143,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 650
+        "used": 653
       },
       {
         "cap": 1000,
@@ -215,7 +215,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 73
+        "used": 74
       },
       {
         "cap": 1000,
@@ -561,7 +561,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 650
+        "used": 653
       },
       {
         "cap": 1000,
@@ -633,7 +633,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 73
+        "used": 74
       },
       {
         "cap": 1000,
@@ -941,35 +941,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 49893,
+        "age_sec": 50133,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 70221,
+        "age_sec": 70461,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 125427,
+        "age_sec": 125667,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 129027,
+        "age_sec": 129267,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 129027,
+        "age_sec": 129267,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -995,7 +995,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T23:10:04Z"
+        "updated": "2026-11-20T23:20:01Z"
       },
       "tasks": {
         "done": 11,
@@ -1014,7 +1014,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T23:00:34Z"
+        "updated": "2026-11-20T23:17:00Z"
       },
       "tasks": {
         "done": 8,
@@ -1033,7 +1033,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T22:58:41Z"
+        "updated": "2026-11-20T23:19:45Z"
       },
       "tasks": {
         "done": 29,
@@ -1057,7 +1057,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T22:58:05Z"
+        "updated": "2026-11-20T23:19:31Z"
       },
       "tasks": {
         "done": 4,
@@ -1081,7 +1081,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T22:49:06Z"
+        "updated": "2026-11-20T23:20:00Z"
       },
       "tasks": {
         "done": 5,
