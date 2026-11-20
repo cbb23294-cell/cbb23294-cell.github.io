@@ -36,7 +36,7 @@
         "[code] [boss-accept] Altare free-server probe (resource-fit meeting 2026-11-20, "
       ],
       "open": 1,
-      "status_updated": "2026-11-20T09:59:23Z",
+      "status_updated": "2026-11-20T10:03:40Z",
       "total": 6,
       "workstream": "operations"
     },
@@ -47,20 +47,19 @@
         "[code] [boss-accept] Fix the mobile keyboard / covered input problem across ALL "
       ],
       "open": 1,
-      "status_updated": "2026-11-20T10:01:44Z",
+      "status_updated": "2026-11-20T10:02:29Z",
       "total": 3,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T10:01:44Z",
-  "generated_at": "2026-11-20T10:02:02Z",
-  "generated_at_utc": "2026-11-20T10:02:02Z",
+  "content_latest_at": "2026-11-20T10:03:40Z",
+  "generated_at": "2026-11-20T10:04:02Z",
+  "generated_at_utc": "2026-11-20T10:04:02Z",
   "live_pi_workers": {
     "by_model": {
-      "ai-cf/free-gemma-4": 1,
-      "xingchi-4/gpt-6.1-sol": 2
+      "ai-cf/free-gemma-4": 1
     },
-    "total": 3
+    "total": 1
   },
   "managers": [
     {
@@ -471,7 +470,7 @@
         "healthy": true,
         "model": "free-gemma-4",
         "provider": "ai-cf",
-        "used": 132
+        "used": 133
       },
       {
         "cap": 200000,
@@ -503,7 +502,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 33
+        "used": 34
       }
     ],
     "healthy_entries": 38,
@@ -873,7 +872,7 @@
         "healthy": true,
         "model": "free-gemma-4",
         "provider": "ai-cf",
-        "used": 132
+        "used": 133
       },
       {
         "cap": 200000,
@@ -905,7 +904,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 33
+        "used": 34
       }
     ],
     "healthy_entries": 38,
@@ -917,35 +916,35 @@
     "done": 48,
     "running": [
       {
-        "age_sec": 2227,
+        "age_sec": 2347,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 22555,
+        "age_sec": 22675,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 77761,
+        "age_sec": 77881,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 81361,
+        "age_sec": 81481,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 81361,
+        "age_sec": 81481,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -957,16 +956,11 @@
   },
   "workers": {
     "by_model": {
-      "ai-cf/free-gemma-4": 1,
-      "xingchi-4/gpt-6.1-sol": 2
+      "ai-cf/free-gemma-4": 1
     },
-    "total": 3
+    "total": 1
   },
   "workers_detail": [
-    {
-      "count": 2,
-      "model": "xingchi-4/gpt-6.1-sol"
-    },
     {
       "count": 1,
       "model": "ai-cf/free-gemma-4"
@@ -1000,9 +994,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-20T09:59:23Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-20T10:03:40Z"
       },
       "tasks": {
         "done": 5,
@@ -1069,7 +1063,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T10:01:44Z"
+        "updated": "2026-11-20T10:02:29Z"
       },
       "tasks": {
         "done": 2,
