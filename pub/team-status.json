@@ -10,14 +10,13 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "done": 18,
+      "done": 19,
       "escalation_latest": "- 2026-11-20T09:45:59Z ESCALATION (dead-jobs checker): boss-direct job boost-pool-liveness-1795166695 (model gpt-6.1-sol) silence ALERT (alert-only, no kill): no new complete session event >600s (session JSONL; dispatch log 1263s, no longer the liveness input). Last log line:  | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried.",
       "next_open": [
-        "Pi liveness via session JSONL (meeting decision 2026-11-20, this line leads): wa",
         "[code] [boss-accept] Production-wiring audit fixes: (a) wire mgr-routing/teams.p"
       ],
-      "open": 2,
-      "status_updated": "2026-11-20T10:14:23Z",
+      "open": 1,
+      "status_updated": "2026-11-20T10:27:55Z",
       "total": 20,
       "workstream": "pool-optimization"
     },
@@ -53,12 +52,12 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T10:25:59Z",
-  "generated_at": "2026-11-20T10:26:06Z",
-  "generated_at_utc": "2026-11-20T10:26:06Z",
+  "content_latest_at": "2026-11-20T10:27:55Z",
+  "generated_at": "2026-11-20T10:28:06Z",
+  "generated_at_utc": "2026-11-20T10:28:06Z",
   "live_pi_workers": {
     "by_model": {
-      "ai-cf/free-gemma-4": 1
+      "moss/nex-n2.6": 1
     },
     "total": 1
   },
@@ -167,7 +166,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 163
+        "used": 165
       },
       {
         "cap": 1000,
@@ -471,7 +470,7 @@
         "healthy": true,
         "model": "free-gemma-4",
         "provider": "ai-cf",
-        "used": 163
+        "used": 164
       },
       {
         "cap": 200000,
@@ -569,7 +568,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 163
+        "used": 165
       },
       {
         "cap": 1000,
@@ -873,7 +872,7 @@
         "healthy": true,
         "model": "free-gemma-4",
         "provider": "ai-cf",
-        "used": 163
+        "used": 164
       },
       {
         "cap": 200000,
@@ -917,35 +916,35 @@
     "done": 48,
     "running": [
       {
-        "age_sec": 3671,
+        "age_sec": 3792,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 23999,
+        "age_sec": 24120,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 79205,
+        "age_sec": 79326,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 82805,
+        "age_sec": 82926,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 82805,
+        "age_sec": 82926,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -957,14 +956,14 @@
   },
   "workers": {
     "by_model": {
-      "ai-cf/free-gemma-4": 1
+      "moss/nex-n2.6": 1
     },
     "total": 1
   },
   "workers_detail": [
     {
       "count": 1,
-      "model": "ai-cf/free-gemma-4"
+      "model": "moss/nex-n2.6"
     }
   ],
   "workstreams": {
@@ -1021,22 +1020,18 @@
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-20T10:14:23Z"
+        "updated": "2026-11-20T10:27:55Z"
       },
       "tasks": {
-        "done": 18,
+        "done": 19,
         "exists": true,
         "next_open": [
-          {
-            "full": true,
-            "title": "Pi liveness via session JSONL (meeting decision 2026-11-20, this line leads): wa"
-          },
           {
             "full": true,
             "title": "[code] [boss-accept] Production-wiring audit fixes: (a) wire mgr-routing/teams.p"
           }
         ],
-        "open": 2
+        "open": 1
       }
     },
     "security": {
