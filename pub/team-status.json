@@ -5,7 +5,7 @@
       "escalation_latest": "- 2026-11-20T05:15:29Z ESCALATION (dead-jobs checker): boss-direct job wp9-rollout-vm-1795150724 (model gpt-6.1-sol) died without reporting: silent death (no exit record, log stale 1005s). Last log line:  | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried.",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-20T12:10:01Z",
+      "status_updated": "2026-11-20T12:20:06Z",
       "total": 9,
       "workstream": "cloud-script-migration"
     },
@@ -34,7 +34,7 @@
         "[code] [boss-accept] Altare free-server probe (resource-fit meeting 2026-11-20, "
       ],
       "open": 1,
-      "status_updated": "2026-11-20T12:07:43Z",
+      "status_updated": "2026-11-20T12:21:13Z",
       "total": 6,
       "workstream": "operations"
     },
@@ -50,9 +50,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T12:17:32Z",
-  "generated_at": "2026-11-20T12:19:29Z",
-  "generated_at_utc": "2026-11-20T12:19:29Z",
+  "content_latest_at": "2026-11-20T12:21:13Z",
+  "generated_at": "2026-11-20T12:21:27Z",
+  "generated_at_utc": "2026-11-20T12:21:27Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -907,35 +907,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 10474,
+        "age_sec": 10593,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 30802,
+        "age_sec": 30921,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 86008,
+        "age_sec": 86127,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 89608,
+        "age_sec": 89727,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 89608,
+        "age_sec": 89727,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -961,7 +961,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T12:10:01Z"
+        "updated": "2026-11-20T12:20:06Z"
       },
       "tasks": {
         "done": 9,
@@ -980,7 +980,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T12:07:43Z"
+        "updated": "2026-11-20T12:21:13Z"
       },
       "tasks": {
         "done": 5,
