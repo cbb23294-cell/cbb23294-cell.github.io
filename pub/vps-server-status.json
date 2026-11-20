@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-20T16:02:08Z",
+  "collectedAt": "2026-11-20T16:07:09Z",
   "servers": [
     {
       "serverId": 1,
@@ -7,11 +7,11 @@
       "error": "",
       "note": "",
       "cpuPct": 3.1,
-      "load1": 0.01,
-      "load5": 0.01,
+      "load1": 0.05,
+      "load5": 0.02,
       "load15": 0.0,
       "uptimeDays": 148.1,
-      "memUsedMb": 453,
+      "memUsedMb": 451,
       "memTotalMb": 1019,
       "diskUsedGb": 3.4,
       "diskTotalGb": 18.2,
@@ -19,24 +19,24 @@
       "netMonthLimitGb": 1000.0,
       "netRxTotalGb": 189.3,
       "netTxTotalGb": 194.9,
-      "netRxMbps": 0.06,
-      "netTxMbps": 0.2,
+      "netRxMbps": 0.01,
+      "netTxMbps": 0.01,
       "gpuModel": null,
       "gpuPct": null,
       "threeNet": [
         {
           "carrier": "telecom",
-          "latencyMs": 153.39,
-          "packetLoss": 20.0
+          "latencyMs": 153.429,
+          "packetLoss": 40.0
         },
         {
           "carrier": "unicom",
-          "latencyMs": 184.85,
+          "latencyMs": 185.111,
           "packetLoss": 0.0
         },
         {
           "carrier": "mobile",
-          "latencyMs": 189.994,
+          "latencyMs": 189.871,
           "packetLoss": 20.0
         }
       ]
@@ -46,12 +46,12 @@
       "ok": true,
       "error": "",
       "note": "无 vnstat，本月流量填 null",
-      "cpuPct": 4.8,
+      "cpuPct": 0.0,
       "load1": 0.0,
       "load5": 0.0,
       "load15": 0.0,
       "uptimeDays": 4.1,
-      "memUsedMb": 474,
+      "memUsedMb": 468,
       "memTotalMb": 1775,
       "diskUsedGb": 5.2,
       "diskTotalGb": 39.3,
@@ -66,17 +66,17 @@
       "threeNet": [
         {
           "carrier": "telecom",
-          "latencyMs": 24.479,
+          "latencyMs": 24.261,
           "packetLoss": 0.0
         },
         {
           "carrier": "unicom",
-          "latencyMs": 38.329,
+          "latencyMs": 38.31,
           "packetLoss": 0.0
         },
         {
           "carrier": "mobile",
-          "latencyMs": 7.214,
+          "latencyMs": 7.133,
           "packetLoss": 0.0
         }
       ]
