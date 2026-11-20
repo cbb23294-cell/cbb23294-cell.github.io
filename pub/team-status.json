@@ -37,7 +37,7 @@
         "[code] [boss-accept] Altare free-server probe (resource-fit meeting 2026-11-20, "
       ],
       "open": 1,
-      "status_updated": "2026-11-20T11:37:52Z",
+      "status_updated": "2026-11-20T11:51:22Z",
       "total": 6,
       "workstream": "operations"
     },
@@ -53,12 +53,12 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T11:50:01Z",
-  "generated_at": "2026-11-20T11:51:13Z",
-  "generated_at_utc": "2026-11-20T11:51:13Z",
+  "content_latest_at": "2026-11-20T11:51:22Z",
+  "generated_at": "2026-11-20T11:53:14Z",
+  "generated_at_utc": "2026-11-20T11:53:14Z",
   "live_pi_workers": {
     "by_model": {
-      "sensenova-2/sensenova-6.8-flash": 1
+      "siliconflow/XingChenAGI/Xing4.0-29B": 1
     },
     "total": 1
   },
@@ -170,7 +170,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 11
+        "used": 21
       },
       {
         "cap": 500,
@@ -572,7 +572,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 11
+        "used": 21
       },
       {
         "cap": 500,
@@ -912,35 +912,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 8779,
+        "age_sec": 8899,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 29107,
+        "age_sec": 29227,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 84313,
+        "age_sec": 84433,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 87913,
+        "age_sec": 88033,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 87913,
+        "age_sec": 88033,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -952,14 +952,14 @@
   },
   "workers": {
     "by_model": {
-      "sensenova-2/sensenova-6.8-flash": 1
+      "siliconflow/XingChenAGI/Xing4.0-29B": 1
     },
     "total": 1
   },
   "workers_detail": [
     {
       "count": 1,
-      "model": "sensenova-2/sensenova-6.8-flash"
+      "model": "siliconflow/XingChenAGI/Xing4.0-29B"
     }
   ],
   "workstreams": {
@@ -992,7 +992,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T11:37:52Z"
+        "updated": "2026-11-20T11:51:22Z"
       },
       "tasks": {
         "done": 5,
