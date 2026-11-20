@@ -64,14 +64,13 @@
     }
   ],
   "content_latest_at": "2026-11-20T14:08:00Z",
-  "generated_at": "2026-11-20T14:08:39Z",
-  "generated_at_utc": "2026-11-20T14:08:39Z",
+  "generated_at": "2026-11-20T14:10:40Z",
+  "generated_at_utc": "2026-11-20T14:10:40Z",
   "live_pi_workers": {
     "by_model": {
-      "siliconflow/XingChenAGI/Xing4.0-29B": 1,
       "xingchi-5/gpt-6.1-sol": 2
     },
-    "total": 3
+    "total": 2
   },
   "managers": [
     {
@@ -157,7 +156,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 177
+        "used": 179
       },
       {
         "cap": 1000,
@@ -493,7 +492,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 523
+        "used": 526
       },
       {
         "cap": 200000,
@@ -501,7 +500,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 58
+        "used": 59
       },
       {
         "cap": 200000,
@@ -509,7 +508,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 52
+        "used": 54
       },
       {
         "cap": 200000,
@@ -517,7 +516,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 10
+        "used": 14
       }
     ],
     "healthy_entries": 37,
@@ -567,7 +566,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 177
+        "used": 179
       },
       {
         "cap": 1000,
@@ -903,7 +902,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 523
+        "used": 526
       },
       {
         "cap": 200000,
@@ -911,7 +910,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 58
+        "used": 59
       },
       {
         "cap": 200000,
@@ -919,7 +918,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 52
+        "used": 54
       },
       {
         "cap": 200000,
@@ -927,7 +926,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 10
+        "used": 14
       }
     ],
     "healthy_entries": 37,
@@ -939,35 +938,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 17025,
+        "age_sec": 17145,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 37353,
+        "age_sec": 37473,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 92559,
+        "age_sec": 92679,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 96159,
+        "age_sec": 96279,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 96159,
+        "age_sec": 96279,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -979,19 +978,14 @@
   },
   "workers": {
     "by_model": {
-      "siliconflow/XingChenAGI/Xing4.0-29B": 1,
       "xingchi-5/gpt-6.1-sol": 2
     },
-    "total": 3
+    "total": 2
   },
   "workers_detail": [
     {
       "count": 2,
       "model": "xingchi-5/gpt-6.1-sol"
-    },
-    {
-      "count": 1,
-      "model": "siliconflow/XingChenAGI/Xing4.0-29B"
     }
   ],
   "workstreams": {
