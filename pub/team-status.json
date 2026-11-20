@@ -27,7 +27,7 @@
       "escalation_latest": null,
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-20T08:34:25Z",
+      "status_updated": "2026-11-20T08:54:39Z",
       "total": 4,
       "workstream": "security"
     },
@@ -50,17 +50,19 @@
         "[code] [boss-accept] Fix the mobile keyboard / covered input problem across ALL "
       ],
       "open": 1,
-      "status_updated": "2026-11-20T08:25:49Z",
+      "status_updated": "2026-11-20T08:55:49Z",
       "total": 3,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T08:51:30Z",
-  "generated_at": "2026-11-20T08:54:38Z",
-  "generated_at_utc": "2026-11-20T08:54:38Z",
+  "content_latest_at": "2026-11-20T08:55:49Z",
+  "generated_at": "2026-11-20T08:56:39Z",
+  "generated_at_utc": "2026-11-20T08:56:39Z",
   "live_pi_workers": {
-    "by_model": {},
-    "total": 0
+    "by_model": {
+      "xingchi/gpt-6.1-sol": 1
+    },
+    "total": 1
   },
   "managers": [
     {
@@ -487,7 +489,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 482
+        "used": 483
       },
       {
         "cap": 1000,
@@ -881,7 +883,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 482
+        "used": 483
       },
       {
         "cap": 1000,
@@ -901,28 +903,28 @@
     "done": 48,
     "running": [
       {
-        "age_sec": 18512,
+        "age_sec": 18632,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 73718,
+        "age_sec": 73838,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 77318,
+        "age_sec": 77438,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 77318,
+        "age_sec": 77438,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -933,10 +935,17 @@
     "total": 52
   },
   "workers": {
-    "by_model": {},
-    "total": 0
+    "by_model": {
+      "xingchi/gpt-6.1-sol": 1
+    },
+    "total": 1
   },
-  "workers_detail": [],
+  "workers_detail": [
+    {
+      "count": 1,
+      "model": "xingchi/gpt-6.1-sol"
+    }
+  ],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -1024,7 +1033,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T08:34:25Z"
+        "updated": "2026-11-20T08:54:39Z"
       },
       "tasks": {
         "done": 4,
@@ -1041,9 +1050,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-20T08:25:49Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-20T08:55:49Z"
       },
       "tasks": {
         "done": 2,
