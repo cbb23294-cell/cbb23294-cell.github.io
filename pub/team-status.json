@@ -11,12 +11,12 @@
     },
     {
       "done": 29,
-      "escalation_latest": "- key=37cc37fe3b14",
+      "escalation_latest": "- key=8daa9a85bcc7",
       "next_open": [
         "[code] [boss-accept] A3 anti-fabrication verifier for the staged counting-audit "
       ],
       "open": 1,
-      "status_updated": "2026-11-20T19:02:45Z",
+      "status_updated": "2026-11-20T19:03:16Z",
       "total": 30,
       "workstream": "pool-optimization"
     },
@@ -36,7 +36,7 @@
       "escalation_latest": "- key=b9cc0e50ce8f",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-20T18:49:26Z",
+      "status_updated": "2026-11-20T19:04:27Z",
       "total": 8,
       "workstream": "operations"
     },
@@ -52,9 +52,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T19:02:45Z",
-  "generated_at": "2026-11-20T19:03:00Z",
-  "generated_at_utc": "2026-11-20T19:03:00Z",
+  "content_latest_at": "2026-11-20T19:04:27Z",
+  "generated_at": "2026-11-20T19:05:00Z",
+  "generated_at_utc": "2026-11-20T19:05:00Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -143,7 +143,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 600
+        "used": 601
       },
       {
         "cap": 1000,
@@ -151,7 +151,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 169
+        "used": 170
       },
       {
         "cap": 300,
@@ -439,7 +439,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it",
         "provider": "google-ai-studio",
-        "used": 112
+        "used": 113
       },
       {
         "cap": 20000,
@@ -561,7 +561,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 600
+        "used": 601
       },
       {
         "cap": 1000,
@@ -569,7 +569,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 169
+        "used": 170
       },
       {
         "cap": 300,
@@ -857,7 +857,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it",
         "provider": "google-ai-studio",
-        "used": 112
+        "used": 113
       },
       {
         "cap": 20000,
@@ -941,35 +941,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 34686,
+        "age_sec": 34806,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 55014,
+        "age_sec": 55134,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 110220,
+        "age_sec": 110340,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 113820,
+        "age_sec": 113940,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 113820,
+        "age_sec": 113940,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1014,7 +1014,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T18:49:26Z"
+        "updated": "2026-11-20T19:04:27Z"
       },
       "tasks": {
         "done": 8,
@@ -1026,14 +1026,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=37cc37fe3b14"
+        "latest": "- key=8daa9a85bcc7"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-20T19:02:45Z"
+        "updated": "2026-11-20T19:03:16Z"
       },
       "tasks": {
         "done": 29,
