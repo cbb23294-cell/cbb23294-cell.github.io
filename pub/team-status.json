@@ -5,13 +5,13 @@
       "escalation_latest": "- 2026-11-20T05:15:29Z ESCALATION (dead-jobs checker): boss-direct job wp9-rollout-vm-1795150724 (model gpt-6.1-sol) died without reporting: silent death (no exit record, log stale 1005s). Last log line:  | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried.",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-20T10:57:36Z",
+      "status_updated": "2026-11-20T11:00:11Z",
       "total": 9,
       "workstream": "cloud-script-migration"
     },
     {
       "done": 19,
-      "escalation_latest": "- 2026-11-20T09:45:59Z ESCALATION (dead-jobs checker): boss-direct job boost-pool-liveness-1795166695 (model gpt-6.1-sol) silence ALERT (alert-only, no kill): no new complete session event >600s (session JSONL; dispatch log 1263s, no longer the liveness input). Last log line:  | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried.",
+      "escalation_latest": "- 2026-11-20T11:01:50Z ESCALATION (dead-jobs checker): boss-direct job wiring-fix-1730-1795170521 (model gpt-6.1-sol) died without reporting: exited with code 124. Last log line:   2026-11-20T10:58:41.490Z message role=assistant blocks=- | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried.",
       "next_open": [
         "[code] [boss-accept] Production-wiring audit fixes (claimed-by boss-dispatch gpt",
         "[code] [boss-accept] Task-store slices 2-3 (claimed-by boss-dispatch gpt-6.1-sol"
@@ -53,9 +53,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-20T10:59:11Z",
-  "generated_at": "2026-11-20T10:59:39Z",
-  "generated_at_utc": "2026-11-20T10:59:39Z",
+  "content_latest_at": "2026-11-20T11:00:11Z",
+  "generated_at": "2026-11-20T11:04:08Z",
+  "generated_at_utc": "2026-11-20T11:04:08Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -910,35 +910,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 5685,
+        "age_sec": 5953,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 26013,
+        "age_sec": 26281,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 81219,
+        "age_sec": 81487,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 84819,
+        "age_sec": 85087,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 84819,
+        "age_sec": 85087,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -964,7 +964,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-20T10:57:36Z"
+        "updated": "2026-11-20T11:00:11Z"
       },
       "tasks": {
         "done": 9,
@@ -1000,7 +1000,7 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- 2026-11-20T09:45:59Z ESCALATION (dead-jobs checker): boss-direct job boost-pool-liveness-1795166695 (model gpt-6.1-sol) silence ALERT (alert-only, no kill): no new complete session event >600s (session JSONL; dispatch log 1263s, no longer the liveness input). Last log line:  | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried."
+        "latest": "- 2026-11-20T11:01:50Z ESCALATION (dead-jobs checker): boss-direct job wiring-fix-1730-1795170521 (model gpt-6.1-sol) died without reporting: exited with code 124. Last log line:   2026-11-20T10:58:41.490Z message role=assistant blocks=- | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried."
       },
       "status": {
         "exists": true,
