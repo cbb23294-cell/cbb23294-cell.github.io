@@ -10,12 +10,10 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "done": 20,
-      "escalation_latest": "- 2026-11-20T11:01:50Z ESCALATION (dead-jobs checker): boss-direct job wiring-fix-1730-1795170521 (model gpt-6.1-sol) died without reporting: exited with code 124. Last log line:   2026-11-20T10:58:41.490Z message role=assistant blocks=- | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried.",
-      "next_open": [
-        "[code] [boss-accept] Task-store slices 2-3 (claimed-by boss-dispatch gpt-6.1-sol"
-      ],
-      "open": 1,
+      "done": 21,
+      "escalation_latest": "- key=693b42277dce",
+      "next_open": [],
+      "open": 0,
       "status_updated": "2026-11-20T12:07:43Z",
       "total": 21,
       "workstream": "pool-optimization"
@@ -53,8 +51,8 @@
     }
   ],
   "content_latest_at": "2026-11-20T12:10:01Z",
-  "generated_at": "2026-11-20T12:13:26Z",
-  "generated_at_utc": "2026-11-20T12:13:26Z",
+  "generated_at": "2026-11-20T12:15:26Z",
+  "generated_at_utc": "2026-11-20T12:15:26Z",
   "live_pi_workers": {
     "by_model": {
       "ai-cf/free-large-4t": 1
@@ -145,7 +143,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 64
+        "used": 65
       },
       {
         "cap": 1000,
@@ -321,7 +319,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -329,7 +327,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -337,7 +335,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -345,7 +343,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -353,7 +351,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -361,7 +359,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -369,7 +367,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -377,7 +375,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -385,7 +383,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -393,7 +391,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -401,7 +399,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -409,7 +407,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 500,
@@ -547,7 +545,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 64
+        "used": 65
       },
       {
         "cap": 1000,
@@ -723,7 +721,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -731,7 +729,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -739,7 +737,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -747,7 +745,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -755,7 +753,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -763,7 +761,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -771,7 +769,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -779,7 +777,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -787,7 +785,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -795,7 +793,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -803,7 +801,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 3000,
@@ -811,7 +809,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 369
+        "used": 383
       },
       {
         "cap": 500,
@@ -911,35 +909,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 10111,
+        "age_sec": 10232,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 30439,
+        "age_sec": 30560,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 85645,
+        "age_sec": 85766,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 89245,
+        "age_sec": 89366,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 89245,
+        "age_sec": 89366,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1008,7 +1006,7 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- 2026-11-20T11:01:50Z ESCALATION (dead-jobs checker): boss-direct job wiring-fix-1730-1795170521 (model gpt-6.1-sol) died without reporting: exited with code 124. Last log line:   2026-11-20T10:58:41.490Z message role=assistant blocks=- | Manager: recover this work (re-dispatch to a DIFFERENT model) or escalate to the boss with what you tried."
+        "latest": "- key=693b42277dce"
       },
       "status": {
         "exists": true,
@@ -1018,15 +1016,10 @@
         "updated": "2026-11-20T12:07:43Z"
       },
       "tasks": {
-        "done": 20,
+        "done": 21,
         "exists": true,
-        "next_open": [
-          {
-            "full": true,
-            "title": "[code] [boss-accept] Task-store slices 2-3 (claimed-by boss-dispatch gpt-6.1-sol"
-          }
-        ],
-        "open": 1
+        "next_open": [],
+        "open": 0
       }
     },
     "security": {
