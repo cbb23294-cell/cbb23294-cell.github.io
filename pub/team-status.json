@@ -55,8 +55,8 @@
     }
   ],
   "content_latest_at": "2026-11-20T18:00:11Z",
-  "generated_at": "2026-11-20T18:03:08Z",
-  "generated_at_utc": "2026-11-20T18:03:08Z",
+  "generated_at": "2026-11-20T18:05:09Z",
+  "generated_at_utc": "2026-11-20T18:05:09Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -449,7 +449,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 61
+        "used": 62
       },
       {
         "cap": 20000,
@@ -457,7 +457,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 117
+        "used": 120
       },
       {
         "cap": 20000,
@@ -481,7 +481,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 702
+        "used": 703
       },
       {
         "cap": 200000,
@@ -489,7 +489,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 177
+        "used": 180
       },
       {
         "cap": 200000,
@@ -497,7 +497,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 190
+        "used": 191
       },
       {
         "cap": 200000,
@@ -505,7 +505,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 266
+        "used": 268
       },
       {
         "cap": 200000,
@@ -867,7 +867,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 61
+        "used": 62
       },
       {
         "cap": 20000,
@@ -875,7 +875,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 117
+        "used": 120
       },
       {
         "cap": 20000,
@@ -899,7 +899,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 702
+        "used": 703
       },
       {
         "cap": 200000,
@@ -907,7 +907,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 177
+        "used": 180
       },
       {
         "cap": 200000,
@@ -915,7 +915,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 190
+        "used": 191
       },
       {
         "cap": 200000,
@@ -923,7 +923,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 266
+        "used": 268
       },
       {
         "cap": 200000,
@@ -943,35 +943,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 31094,
+        "age_sec": 31214,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 51422,
+        "age_sec": 51542,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 106628,
+        "age_sec": 106748,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 110228,
+        "age_sec": 110348,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 110228,
+        "age_sec": 110348,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
