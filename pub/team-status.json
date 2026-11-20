@@ -51,8 +51,8 @@
     }
   ],
   "content_latest_at": "2026-11-20T12:22:45Z",
-  "generated_at": "2026-11-20T12:26:21Z",
-  "generated_at_utc": "2026-11-20T12:26:21Z",
+  "generated_at": "2026-11-20T12:29:13Z",
+  "generated_at_utc": "2026-11-20T12:29:13Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -141,7 +141,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 70
+        "used": 71
       },
       {
         "cap": 1000,
@@ -543,7 +543,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 70
+        "used": 71
       },
       {
         "cap": 1000,
@@ -907,35 +907,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 10887,
+        "age_sec": 11059,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 31215,
+        "age_sec": 31387,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 86421,
+        "age_sec": 86593,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 90021,
+        "age_sec": 90193,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 90021,
+        "age_sec": 90193,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
