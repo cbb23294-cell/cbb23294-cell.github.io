@@ -1,9 +1,8 @@
 {
-  "ok": false,
-  "reason": "载荷结构不可用：payload.results has 13 entries (zod max 12)",
-  "generatedAt": "2026-11-21T08:51:13Z",
+  "ok": true,
+  "generatedAt": "2026-11-21T08:52:51Z",
   "round": "panel-daily",
-  "summary": "本轮核对整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)",
+  "summary": "核对 13 个服务：1 个实查通过、12 个未核对，7 个仅端点可达，首轮基准",
   "changes": [],
   "results": [
     {
@@ -11,161 +10,232 @@
       "checked": false,
       "status": null,
       "statusLabel": null,
-      "specUpdates": []
+      "specUpdates": [],
+      "checkType": "none",
+      "checkNote": "box_status returned no machine state"
     },
     {
       "slug": "openrouter",
       "checked": false,
       "status": null,
       "statusLabel": null,
-      "specUpdates": []
+      "specUpdates": [],
+      "checkType": "none",
+      "checkNote": "openrouter/usage: exit 2: client.py: error: argument cmd: invalid choice: 'call-tool' (choose from 'key-info', 'chat')"
     },
     {
       "slug": "google-colab",
       "checked": false,
       "status": null,
       "statusLabel": null,
-      "specUpdates": []
+      "specUpdates": [],
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://colab.research.google.com/: HTTP 200 at https://colab.research.google.com/ (redirects=0); reachability only; account not checked."
     },
     {
       "slug": "cloady",
       "checked": false,
       "status": null,
       "statusLabel": null,
-      "specUpdates": []
+      "specUpdates": [],
+      "checkType": "none",
+      "checkNote": "listWorkspaces returned no valid workspace list"
     },
     {
       "slug": "kaggle",
       "checked": false,
       "status": null,
       "statusLabel": null,
-      "specUpdates": []
+      "specUpdates": [],
+      "checkType": "account",
+      "checkNote": "API 凭据有效 · 竞赛列表可读（20 项）；手机验证无 API 可核，面板状态维持人工冻结。"
     },
     {
       "slug": "sakupa",
       "checked": false,
       "status": null,
       "statusLabel": null,
-      "specUpdates": []
+      "specUpdates": [],
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://sakupa.com/: HTTP 200 at https://sakupa.com/ (redirects=0); reachability only; account not checked."
     },
     {
       "slug": "instabox",
-      "checked": false,
-      "status": null,
-      "statusLabel": null,
-      "specUpdates": []
+      "checked": true,
+      "status": "ok",
+      "statusLabel": "可用 · 已连接",
+      "specUpdates": [
+        {
+          "label": "免费机器",
+          "value": "1 台：main 运行中"
+        }
+      ],
+      "checkType": "account",
+      "checkNote": "Account data returned by instabox/ls."
     },
     {
       "slug": "uppcoder",
       "checked": false,
       "status": null,
       "statusLabel": null,
-      "specUpdates": []
+      "specUpdates": [],
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://uppcoder.com/: HTTP 200 at https://portal.uppcoder.com/ (redirects=1); reachability only; account not checked."
     },
     {
       "slug": "free-hosting",
       "checked": false,
       "status": null,
       "statusLabel": null,
-      "specUpdates": []
+      "specUpdates": [],
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://free-hosting.org/: HTTP 200 at https://free-hosting.org/ (redirects=0); reachability only; account not checked."
     },
     {
       "slug": "urnetwork",
       "checked": false,
       "status": null,
       "statusLabel": null,
-      "specUpdates": []
+      "specUpdates": [],
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://ur.io/: HTTP 200 at https://ur.io/ (redirects=0); reachability only; account not checked."
     },
     {
       "slug": "yunamo",
       "checked": false,
       "status": null,
       "statusLabel": null,
-      "specUpdates": []
+      "specUpdates": [],
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://yunamo.com/: HTTP 200 at https://yunamo.com/ (redirects=0); reachability only; account not checked."
     },
     {
       "slug": "pxxl",
       "checked": false,
       "status": null,
       "statusLabel": null,
-      "specUpdates": []
+      "specUpdates": [],
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://pxxl.app/: HTTP 200 at https://pxxl.app/ (redirects=0); reachability only; account not checked."
+    },
+    {
+      "slug": "site-ac",
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": [],
+      "checkType": "none",
+      "checkNote": "public-https/https://site.ac/: HTTPS GET https://site.ac/: HTTP 403 at https://site.ac/ (redirects=0)"
     }
   ],
-  "resultCount": 12,
-  "checkedCount": 0,
+  "resultCount": 13,
+  "checkedCount": 1,
   "connectorStatus": [
     {
       "slug": "simular-box",
       "ok": false,
       "checked": false,
-      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
+      "note": "box_status returned no machine state",
+      "checkType": "none",
+      "checkNote": "box_status returned no machine state"
     },
     {
       "slug": "openrouter",
       "ok": false,
       "checked": false,
-      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
+      "note": "openrouter/usage: exit 2: client.py: error: argument cmd: invalid choice: 'call-tool' (choose from 'key-info', 'chat')",
+      "checkType": "none",
+      "checkNote": "openrouter/usage: exit 2: client.py: error: argument cmd: invalid choice: 'call-tool' (choose from 'key-info', 'chat')"
     },
     {
       "slug": "google-colab",
-      "ok": false,
+      "ok": true,
       "checked": false,
-      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
+      "note": "Public HTTPS GET https://colab.research.google.com/: HTTP 200 at https://colab.research.google.com/ (redirects=0); reachability only; account not checked.",
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://colab.research.google.com/: HTTP 200 at https://colab.research.google.com/ (redirects=0); reachability only; account not checked."
     },
     {
       "slug": "cloady",
       "ok": false,
       "checked": false,
-      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
+      "note": "listWorkspaces returned no valid workspace list",
+      "checkType": "none",
+      "checkNote": "listWorkspaces returned no valid workspace list"
     },
     {
       "slug": "kaggle",
-      "ok": false,
+      "ok": true,
       "checked": false,
-      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
+      "note": "API 凭据有效 · 竞赛列表可读（20 项）；手机验证无 API 可核，面板状态维持人工冻结。",
+      "checkType": "account",
+      "checkNote": "API 凭据有效 · 竞赛列表可读（20 项）；手机验证无 API 可核，面板状态维持人工冻结。"
     },
     {
       "slug": "sakupa",
-      "ok": false,
+      "ok": true,
       "checked": false,
-      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
+      "note": "Public HTTPS GET https://sakupa.com/: HTTP 200 at https://sakupa.com/ (redirects=0); reachability only; account not checked.",
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://sakupa.com/: HTTP 200 at https://sakupa.com/ (redirects=0); reachability only; account not checked."
     },
     {
       "slug": "instabox",
-      "ok": false,
-      "checked": false,
-      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
+      "ok": true,
+      "checked": true,
+      "note": "Account data returned by instabox/ls.",
+      "checkType": "account",
+      "checkNote": "Account data returned by instabox/ls."
     },
     {
       "slug": "uppcoder",
-      "ok": false,
+      "ok": true,
       "checked": false,
-      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
+      "note": "Public HTTPS GET https://uppcoder.com/: HTTP 200 at https://portal.uppcoder.com/ (redirects=1); reachability only; account not checked.",
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://uppcoder.com/: HTTP 200 at https://portal.uppcoder.com/ (redirects=1); reachability only; account not checked."
     },
     {
       "slug": "free-hosting",
-      "ok": false,
+      "ok": true,
       "checked": false,
-      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
+      "note": "Public HTTPS GET https://free-hosting.org/: HTTP 200 at https://free-hosting.org/ (redirects=0); reachability only; account not checked.",
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://free-hosting.org/: HTTP 200 at https://free-hosting.org/ (redirects=0); reachability only; account not checked."
     },
     {
       "slug": "urnetwork",
-      "ok": false,
+      "ok": true,
       "checked": false,
-      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
+      "note": "Public HTTPS GET https://ur.io/: HTTP 200 at https://ur.io/ (redirects=0); reachability only; account not checked.",
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://ur.io/: HTTP 200 at https://ur.io/ (redirects=0); reachability only; account not checked."
     },
     {
       "slug": "yunamo",
-      "ok": false,
+      "ok": true,
       "checked": false,
-      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
+      "note": "Public HTTPS GET https://yunamo.com/: HTTP 200 at https://yunamo.com/ (redirects=0); reachability only; account not checked.",
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://yunamo.com/: HTTP 200 at https://yunamo.com/ (redirects=0); reachability only; account not checked."
     },
     {
       "slug": "pxxl",
+      "ok": true,
+      "checked": false,
+      "note": "Public HTTPS GET https://pxxl.app/: HTTP 200 at https://pxxl.app/ (redirects=0); reachability only; account not checked.",
+      "checkType": "endpoint",
+      "checkNote": "Public HTTPS GET https://pxxl.app/: HTTP 200 at https://pxxl.app/ (redirects=0); reachability only; account not checked."
+    },
+    {
+      "slug": "site-ac",
       "ok": false,
       "checked": false,
-      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
+      "note": "public-https/https://site.ac/: HTTPS GET https://site.ac/: HTTP 403 at https://site.ac/ (redirects=0)",
+      "checkType": "none",
+      "checkNote": "public-https/https://site.ac/: HTTPS GET https://site.ac/: HTTP 403 at https://site.ac/ (redirects=0)"
     }
   ],
-  "maxAgeSec": 259200
+  "maxAgeSec": 259200,
+  "cronIntervalSec": 86400
 }
