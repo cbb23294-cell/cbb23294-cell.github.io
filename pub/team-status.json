@@ -17,9 +17,9 @@
         "[code] [boss-accept] Dispatch/report hardening package (boss ruling 2026-11-21, ",
         "[code] [boss-accept] Auto-reinforcement package (boss ruling 2026-11-21, meeting"
       ],
-      "open": 4,
+      "open": 5,
       "status_updated": "2026-11-21T10:35:07Z",
-      "total": 37,
+      "total": 38,
       "workstream": "pool-optimization"
     },
     {
@@ -27,7 +27,7 @@
       "escalation_latest": "- key=74e8d3f77cc3",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-21T10:35:05Z",
+      "status_updated": "2026-11-21T10:55:27Z",
       "total": 11,
       "workstream": "security"
     },
@@ -39,7 +39,7 @@
         "[code] [boss-accept] Reinforcement threshold calibration with labeled samples (b"
       ],
       "open": 2,
-      "status_updated": "2026-11-21T10:37:48Z",
+      "status_updated": "2026-11-21T10:55:58Z",
       "total": 12,
       "workstream": "operations"
     },
@@ -53,9 +53,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T10:37:48Z",
-  "generated_at": "2026-11-21T10:54:21Z",
-  "generated_at_utc": "2026-11-21T10:54:21Z",
+  "content_latest_at": "2026-11-21T10:55:58Z",
+  "generated_at": "2026-11-21T10:56:21Z",
+  "generated_at_utc": "2026-11-21T10:56:21Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -112,7 +112,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 223
+        "used": 224
       },
       {
         "cap": 300,
@@ -120,7 +120,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 169
+        "used": 170
       },
       {
         "cap": 1000,
@@ -128,7 +128,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 322
+        "used": 326
       },
       {
         "cap": 1000,
@@ -136,7 +136,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 805
+        "used": 810
       },
       {
         "cap": 1000,
@@ -530,7 +530,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 223
+        "used": 224
       },
       {
         "cap": 300,
@@ -538,7 +538,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 169
+        "used": 170
       },
       {
         "cap": 1000,
@@ -546,7 +546,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 322
+        "used": 326
       },
       {
         "cap": 1000,
@@ -554,7 +554,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 805
+        "used": 810
       },
       {
         "cap": 1000,
@@ -942,35 +942,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 91767,
+        "age_sec": 91886,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 112095,
+        "age_sec": 112214,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 167301,
+        "age_sec": 167420,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 170901,
+        "age_sec": 171020,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 170901,
+        "age_sec": 171020,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1015,7 +1015,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T10:37:48Z"
+        "updated": "2026-11-21T10:55:58Z"
       },
       "tasks": {
         "done": 10,
@@ -1062,7 +1062,7 @@
             "title": "[code] [boss-accept] Auto-reinforcement package (boss ruling 2026-11-21, meeting"
           }
         ],
-        "open": 4
+        "open": 5
       }
     },
     "security": {
@@ -1075,7 +1075,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T10:35:05Z"
+        "updated": "2026-11-21T10:55:27Z"
       },
       "tasks": {
         "done": 11,
