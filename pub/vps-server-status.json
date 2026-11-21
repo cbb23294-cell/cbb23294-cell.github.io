@@ -1,17 +1,17 @@
 {
-  "collectedAt": "2026-11-21T06:12:58Z",
+  "collectedAt": "2026-11-21T06:18:28Z",
   "servers": [
     {
       "serverId": 1,
       "ok": true,
       "error": "",
       "note": "",
-      "cpuPct": 6.2,
-      "load1": 0.12,
-      "load5": 0.09,
-      "load15": 0.09,
+      "cpuPct": 6.5,
+      "load1": 0.0,
+      "load5": 0.06,
+      "load15": 0.07,
       "uptimeDays": 148.6,
-      "memUsedMb": 440,
+      "memUsedMb": 438,
       "memTotalMb": 1019,
       "diskUsedGb": 3.4,
       "diskTotalGb": 18.2,
@@ -20,24 +20,24 @@
       "netRxTotalGb": 189.6,
       "netTxTotalGb": 195.3,
       "netRxMbps": 0.03,
-      "netTxMbps": 0.04,
+      "netTxMbps": 0.03,
       "gpuModel": null,
       "gpuPct": null,
       "threeNet": [
         {
           "carrier": "telecom",
-          "latencyMs": 153.433,
+          "latencyMs": 153.351,
           "packetLoss": 0.0
         },
         {
           "carrier": "unicom",
-          "latencyMs": 184.594,
+          "latencyMs": 184.023,
           "packetLoss": 0.0
         },
         {
           "carrier": "mobile",
-          "latencyMs": 189.905,
-          "packetLoss": 0.0
+          "latencyMs": 189.88,
+          "packetLoss": 40.0
         }
       ]
     },
@@ -46,12 +46,12 @@
       "ok": true,
       "error": "",
       "note": "无 vnstat，本月流量填 null",
-      "cpuPct": 9.1,
-      "load1": 0.0,
-      "load5": 0.0,
+      "cpuPct": 13.6,
+      "load1": 0.01,
+      "load5": 0.01,
       "load15": 0.0,
       "uptimeDays": 4.7,
-      "memUsedMb": 477,
+      "memUsedMb": 457,
       "memTotalMb": 1775,
       "diskUsedGb": 5.2,
       "diskTotalGb": 39.3,
@@ -66,17 +66,17 @@
       "threeNet": [
         {
           "carrier": "telecom",
-          "latencyMs": 24.346,
+          "latencyMs": 24.506,
           "packetLoss": 0.0
         },
         {
           "carrier": "unicom",
-          "latencyMs": 38.475,
+          "latencyMs": 38.483,
           "packetLoss": 0.0
         },
         {
           "carrier": "mobile",
-          "latencyMs": 7.152,
+          "latencyMs": 7.126,
           "packetLoss": 0.0
         }
       ]
