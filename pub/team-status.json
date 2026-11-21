@@ -37,7 +37,7 @@
         "[mechanical] Precheck contention hardening (second-round meeting ruling 2026-11-"
       ],
       "open": 2,
-      "status_updated": "2026-11-21T04:24:44Z",
+      "status_updated": "2026-11-21T04:38:13Z",
       "total": 10,
       "workstream": "operations"
     },
@@ -54,9 +54,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T04:33:27Z",
-  "generated_at": "2026-11-21T04:37:20Z",
-  "generated_at_utc": "2026-11-21T04:37:20Z",
+  "content_latest_at": "2026-11-21T04:38:13Z",
+  "generated_at": "2026-11-21T04:39:21Z",
+  "generated_at_utc": "2026-11-21T04:39:21Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -113,7 +113,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 130
+        "used": 131
       },
       {
         "cap": 300,
@@ -129,7 +129,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 26
+        "used": 32
       },
       {
         "cap": 1000,
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 425
+        "used": 428
       },
       {
         "cap": 1000,
@@ -169,7 +169,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 7
+        "used": 10
       },
       {
         "cap": 500,
@@ -531,7 +531,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 130
+        "used": 131
       },
       {
         "cap": 300,
@@ -547,7 +547,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 26
+        "used": 32
       },
       {
         "cap": 1000,
@@ -555,7 +555,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 425
+        "used": 428
       },
       {
         "cap": 1000,
@@ -587,7 +587,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 7
+        "used": 10
       },
       {
         "cap": 500,
@@ -943,35 +943,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 69146,
+        "age_sec": 69266,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 89474,
+        "age_sec": 89594,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 144680,
+        "age_sec": 144800,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 148280,
+        "age_sec": 148400,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 148280,
+        "age_sec": 148400,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1014,9 +1014,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-21T04:24:44Z"
+        "tasks_open": 2,
+        "tasks_total": 2,
+        "updated": "2026-11-21T04:38:13Z"
       },
       "tasks": {
         "done": 8,
