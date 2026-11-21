@@ -13,20 +13,23 @@
       "done": 32,
       "escalation_latest": "- key=8838e12cb491",
       "next_open": [
-        "[code] [boss-accept] Manager-silence substitute mechanism, deterministic half (b"
+        "[code] [boss-accept] Manager-silence substitute mechanism, deterministic half (b",
+        "[code] [boss-accept] Pool-mode hardening (boss ruling 2026-11-21, meeting 202611"
       ],
-      "open": 1,
+      "open": 2,
       "status_updated": "2026-11-21T08:55:08Z",
-      "total": 33,
+      "total": 34,
       "workstream": "pool-optimization"
     },
     {
       "done": 10,
       "escalation_latest": "- key=74e8d3f77cc3",
-      "next_open": [],
-      "open": 0,
+      "next_open": [
+        "[code] [boss-accept] Thompson bandit graduation checklist (boss ruling 2026-11-2"
+      ],
+      "open": 1,
       "status_updated": "2026-11-21T08:54:53Z",
-      "total": 10,
+      "total": 11,
       "workstream": "security"
     },
     {
@@ -49,8 +52,8 @@
     }
   ],
   "content_latest_at": "2026-11-21T08:55:08Z",
-  "generated_at": "2026-11-21T08:57:21Z",
-  "generated_at_utc": "2026-11-21T08:57:21Z",
+  "generated_at": "2026-11-21T08:59:22Z",
+  "generated_at_utc": "2026-11-21T08:59:22Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -131,7 +134,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 539
+        "used": 546
       },
       {
         "cap": 1000,
@@ -475,7 +478,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 81
+        "used": 85
       },
       {
         "cap": 200000,
@@ -483,7 +486,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 200000,
@@ -499,7 +502,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 19
+        "used": 20
       },
       {
         "cap": 200000,
@@ -549,7 +552,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 539
+        "used": 546
       },
       {
         "cap": 1000,
@@ -893,7 +896,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 81
+        "used": 85
       },
       {
         "cap": 200000,
@@ -901,7 +904,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-3",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 200000,
@@ -917,7 +920,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-5",
-        "used": 19
+        "used": 20
       },
       {
         "cap": 200000,
@@ -937,35 +940,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 84746,
+        "age_sec": 84867,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 105074,
+        "age_sec": 105195,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 160280,
+        "age_sec": 160401,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 163880,
+        "age_sec": 164001,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 163880,
+        "age_sec": 164001,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1038,9 +1041,13 @@
           {
             "full": true,
             "title": "[code] [boss-accept] Manager-silence substitute mechanism, deterministic half (b"
+          },
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Pool-mode hardening (boss ruling 2026-11-21, meeting 202611"
           }
         ],
-        "open": 1
+        "open": 2
       }
     },
     "security": {
@@ -1058,8 +1065,13 @@
       "tasks": {
         "done": 10,
         "exists": true,
-        "next_open": [],
-        "open": 0
+        "next_open": [
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Thompson bandit graduation checklist (boss ruling 2026-11-2"
+          }
+        ],
+        "open": 1
       }
     },
     "spaces-data": {
