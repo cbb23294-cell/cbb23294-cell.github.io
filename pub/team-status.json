@@ -55,8 +55,8 @@
     }
   ],
   "content_latest_at": "2026-11-21T04:24:44Z",
-  "generated_at": "2026-11-21T04:25:17Z",
-  "generated_at_utc": "2026-11-21T04:25:17Z",
+  "generated_at": "2026-11-21T04:27:17Z",
+  "generated_at_utc": "2026-11-21T04:27:17Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -113,7 +113,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 124
+        "used": 125
       },
       {
         "cap": 300,
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 380
+        "used": 385
       },
       {
         "cap": 1000,
@@ -531,7 +531,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 124
+        "used": 125
       },
       {
         "cap": 300,
@@ -555,7 +555,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 380
+        "used": 385
       },
       {
         "cap": 1000,
@@ -943,35 +943,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 68422,
+        "age_sec": 68542,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 88750,
+        "age_sec": 88870,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 143956,
+        "age_sec": 144076,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 147556,
+        "age_sec": 147676,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 147556,
+        "age_sec": 147676,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
