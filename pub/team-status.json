@@ -34,7 +34,7 @@
         "[mechanical] Precheck contention hardening (second-round meeting ruling 2026-11-"
       ],
       "open": 1,
-      "status_updated": "2026-11-21T06:33:58Z",
+      "status_updated": "2026-11-21T06:34:44Z",
       "total": 10,
       "workstream": "operations"
     },
@@ -48,9 +48,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T06:33:58Z",
-  "generated_at": "2026-11-21T06:34:33Z",
-  "generated_at_utc": "2026-11-21T06:34:33Z",
+  "content_latest_at": "2026-11-21T06:34:44Z",
+  "generated_at": "2026-11-21T06:36:40Z",
+  "generated_at_utc": "2026-11-21T06:36:40Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -115,7 +115,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 50
+        "used": 52
       },
       {
         "cap": 1000,
@@ -533,7 +533,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 50
+        "used": 52
       },
       {
         "cap": 1000,
@@ -937,35 +937,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 76178,
+        "age_sec": 76305,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 96506,
+        "age_sec": 96633,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 151712,
+        "age_sec": 151839,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 155312,
+        "age_sec": 155439,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 155312,
+        "age_sec": 155439,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1010,7 +1010,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T06:33:58Z"
+        "updated": "2026-11-21T06:34:44Z"
       },
       "tasks": {
         "done": 9,
