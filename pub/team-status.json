@@ -17,9 +17,9 @@
         "[code] [boss-accept] Dispatch/report hardening package (boss ruling 2026-11-21, ",
         "[code] [boss-accept] Auto-reinforcement package (boss ruling 2026-11-21, meeting"
       ],
-      "open": 3,
+      "open": 4,
       "status_updated": "2026-11-21T10:35:07Z",
-      "total": 36,
+      "total": 37,
       "workstream": "pool-optimization"
     },
     {
@@ -54,8 +54,8 @@
     }
   ],
   "content_latest_at": "2026-11-21T10:37:48Z",
-  "generated_at": "2026-11-21T10:40:13Z",
-  "generated_at_utc": "2026-11-21T10:40:13Z",
+  "generated_at": "2026-11-21T10:42:13Z",
+  "generated_at_utc": "2026-11-21T10:42:13Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -112,7 +112,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 221
+        "used": 222
       },
       {
         "cap": 300,
@@ -120,7 +120,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 167
+        "used": 168
       },
       {
         "cap": 1000,
@@ -128,7 +128,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 301
+        "used": 303
       },
       {
         "cap": 1000,
@@ -136,7 +136,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 754
+        "used": 763
       },
       {
         "cap": 1000,
@@ -160,7 +160,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 25
+        "used": 26
       },
       {
         "cap": 1000,
@@ -530,7 +530,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 221
+        "used": 222
       },
       {
         "cap": 300,
@@ -538,7 +538,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 167
+        "used": 168
       },
       {
         "cap": 1000,
@@ -546,7 +546,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 301
+        "used": 303
       },
       {
         "cap": 1000,
@@ -554,7 +554,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 754
+        "used": 763
       },
       {
         "cap": 1000,
@@ -578,7 +578,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 25
+        "used": 26
       },
       {
         "cap": 1000,
@@ -942,35 +942,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 90918,
+        "age_sec": 91039,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 111246,
+        "age_sec": 111367,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 166452,
+        "age_sec": 166573,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 170052,
+        "age_sec": 170173,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 170052,
+        "age_sec": 170173,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1062,7 +1062,7 @@
             "title": "[code] [boss-accept] Auto-reinforcement package (boss ruling 2026-11-21, meeting"
           }
         ],
-        "open": 3
+        "open": 4
       }
     },
     "security": {
