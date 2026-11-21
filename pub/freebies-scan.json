@@ -1,46 +1,71 @@
 {
   "ok": true,
-  "generatedAt": "2026-11-21T07:40:25Z",
+  "generatedAt": "2026-11-21T07:43:01Z",
   "round": "freebie-scan",
   "judged": true,
   "deals": [
     {
       "title": "免费 deepseek",
-      "summary": "在 packet.ai 注册后即可免费调用 DeepSeek 模型，活动截止 12 月 15 日。",
+      "summary": "在 packet.ai 的 serverless 平台注册后即可免费使用 DeepSeek 模型额度。",
       "category": "AI 与 API",
       "sourceKey": "linuxdo",
       "url": "https://linux.do/t/topic/3213470",
       "expiresAt": "2026-12-15",
       "conditions": [
-        "需注册"
+        "需注册",
+        "限新用户"
       ],
       "isHot": false
     },
     {
-      "title": "【免费分发50份】zcode臭鸡蛋 ，glm5.3 flash ，10B 来蹬 ，周一早上九点失效",
-      "summary": "免费发放 50 份 GLM5.3 Flash 等模型 API 密钥，RPM 50、并发 5。",
-      "category": "AI 与 API",
-      "sourceKey": "linuxdo",
-      "url": "https://linux.do/t/topic/3213173",
-      "conditions": [],
-      "isHot": false
-    },
-    {
       "title": "支付宝app,智谱新用户免费领7天Coding Plan体验卡",
-      "summary": "通过支付宝可免费领取智谱 Coding Plan 7 天体验卡，面向新用户。",
+      "summary": "在支付宝 App 内领取智谱 Coding Plan 7 天体验卡，新用户可免费使用。",
       "category": "AI 与 API",
       "sourceKey": "linuxdo",
       "url": "https://linux.do/t/topic/3211683",
       "conditions": [
-        "需客户端领取",
+        "需注册",
+        "限新用户",
+        "需客户端领取"
+      ],
+      "isHot": true
+    },
+    {
+      "title": "hub站免费6.1 sol",
+      "summary": "使用文中提供的密钥，即可免费调用 hub.linux.do 的 GPT-6.1 Sol 接口，额度充足。",
+      "category": "AI 与 API",
+      "sourceKey": "linuxdo",
+      "url": "https://linux.do/t/topic/3208275",
+      "conditions": [],
+      "isHot": false,
+      "content": "url：https://hub.linux.do/v1\nbase64key: YWgtYWVlYmUyMjcyMmVkM2FiMDU4YjQ3NGMwNDJkMGU0MDY0NWU5ZTMxNzhiZWM2ZjBiZDVlOTExMWRkZTY4MmZjMw==\n渠道的限速无法控制，所以改用密钥；密钥额度充足，可以尽快登录使用。"
+    },
+    {
+      "title": "【免费分发50份】zcode臭鸡蛋 ，glm5.3 flash ，10B 来蹬 ，周一早上九点失效",
+      "summary": "免费领取 GLM 5.3 Flash 的接口密钥，共 50 份，RPM 50、并发 5，周一早上九点失效。",
+      "category": "AI 与 API",
+      "sourceKey": "linuxdo",
+      "url": "https://linux.do/t/topic/3213173",
+      "expiresAt": "2026-11-23T09:00:00+08:00",
+      "conditions": [],
+      "isHot": false
+    },
+    {
+      "title": "【RelayRouter】留 ID 送 3.5 元｜Suno 能续写你的 MIDI 了！另上新 Scribe v2/v3 语音转文字、Seedance 2.5 Flash 视频",
+      "summary": "新注册后回复站内 ID，即可领取 3.5 元人民币体验额度，用于试用站点模型。",
+      "category": "AI 与 API",
+      "sourceKey": "linuxdo",
+      "url": "https://linux.do/t/topic/3210315",
+      "conditions": [
+        "需注册",
         "限新用户"
       ],
       "isHot": false
     },
     {
       "title": "Qoder CN新注册用户加赠猫超卡和咖啡免单卡",
-      "summary": "Qoder CN 新注册用户完成体验任务，可领 10 元天猫超市卡和 18 元咖啡免单卡。",
-      "category": "开发工具",
+      "summary": "在 Qoder CN 桌面端完成新用户体验任务，即可领取 10 元天猫超市卡和 18 元咖啡免单卡。",
+      "category": "其他福利",
       "sourceKey": "linuxdo",
       "url": "https://linux.do/t/topic/3211046",
       "conditions": [
@@ -52,7 +77,7 @@
     },
     {
       "title": "荣耀手机免费兑视频、音乐会员、E卡、话费",
-      "summary": "在荣耀钱包 App 做任务攒时长，免费兑换视频、音乐会员、E 卡和话费。",
+      "summary": "在荣耀钱包 App 内完成任务，积累时长后即可兑换视频或音乐会员、E卡、话费等。",
       "category": "其他福利",
       "sourceKey": "linuxdo",
       "url": "https://linux.do/t/topic/3210353",
@@ -62,42 +87,30 @@
       "isHot": false
     },
     {
-      "title": "【RelayRouter】留 ID 送 3.5 元｜Suno 能续写你的 MIDI 了！另上新 Scribe v2/v3 语音转文字、Seedance 2.5 Flash 视频",
-      "summary": "RelayRouter 新注册用户在帖内回复站内 ID，可领 3.5 元免费体验额度。",
-      "category": "AI 与 API",
-      "sourceKey": "linuxdo",
-      "url": "https://linux.do/t/topic/3210315",
-      "conditions": [
-        "需注册",
-        "限新用户"
-      ],
-      "isHot": false
-    },
-    {
-      "title": "hub站免费6.1 sol",
-      "summary": "公开分享 hub.linux.do 的免费 GPT-6.1 Sol 接入地址与密钥，额度充足。",
-      "category": "AI 与 API",
-      "sourceKey": "linuxdo",
-      "url": "https://linux.do/t/topic/3208275",
-      "conditions": [],
-      "isHot": false,
-      "content": "hub.linux.do/v1\nbase64key: YWgtYWVlYmUyMjcyMmVkM2FiMDU4YjQ3NGMwNDJkMGU0MDY0NWU5ZTMxNzhiZWM2ZjBiZDVlOTExMWRkZTY4MmZjMw==\n渠道控制不了限速 改用密钥吧base64解码 额度充足 速登"
-    },
-    {
-      "title": "RelayRouter 新人送 ¥3.5 体验额度",
-      "summary": "注册 7 天内回帖留站内 ID，可免费领 ¥3.5 额度用于跑图",
+      "title": "我用 ai 半小时做了一个日语视频生成工具，新用户签到可以免费送积分，有没有日本的朋友。评论区留言送积分。",
+      "summary": "日语 AI 视频生成站，新用户签到即可获赠免费生成积分",
       "category": "AI 与 API",
       "sourceKey": "v2ex",
-      "url": "https://www.v2ex.com/t/1258270#reply4",
+      "url": "https://www.v2ex.com/t/1258626#reply0",
       "conditions": [
-        "需注册",
-        "限新用户"
+        "需注册"
       ],
       "isHot": false
     },
     {
-      "title": "MiniMax 开源 H3 Image 模型权重",
-      "summary": "可生图与改图的图片模型已在 Hugging Face、GitHub 免费下载权重",
+      "title": "1024proxy 免费试用｜纯净住宅 IP 零成本上手，跨境 / 采集 / 多号测试友好🚀",
+      "summary": "注册后可免费试用住宅代理 IP，无需先充值即可测试质量",
+      "category": "其他福利",
+      "sourceKey": "v2ex",
+      "url": "https://www.v2ex.com/t/1258276#reply0",
+      "conditions": [
+        "需注册"
+      ],
+      "isHot": false
+    },
+    {
+      "title": "MiniMax 开源 H3 Image ！一个模型同时生图和改图，最多吃 16 张参考图，还能接 H3 直接出视频",
+      "summary": "MiniMax H3 Image 图像模型权重已在 Hugging Face 与 GitHub 免费开放下载",
       "category": "AI 与 API",
       "sourceKey": "v2ex",
       "url": "https://www.v2ex.com/t/1258382#reply0",
@@ -106,11 +119,11 @@
     },
     {
       "title": "Mark of the Deep",
-      "summary": "Epic 商店限时免费领取，领取后永久入库",
+      "summary": "Epic 商店限时免费领取《Mark of the Deep》，领取后永久入库",
       "category": "游戏",
       "sourceKey": "epic",
       "url": "https://store.epicgames.com/zh-CN/p/mark-of-the-deep-f7dc08",
-      "originalPriceText": "¥5500",
+      "originalPriceText": "¥55",
       "expiresAt": "2026-11-26T16:00:00Z",
       "conditions": [
         "需注册"
@@ -119,7 +132,7 @@
     },
     {
       "title": "Pogget(效率工具) v1.2.90 绿色版",
-      "summary": "免费的文件交互效率工具，绿色便携版可直接下载使用",
+      "summary": "Pogget 轻量文件交互效率工具完全免费，提供绿色版直接下载",
       "category": "软件限免",
       "sourceKey": "ghxi",
       "url": "https://www.ghxi.com/pogget.html",
@@ -127,8 +140,8 @@
       "isHot": false
     },
     {
-      "title": "BiglyBT(开源免费BT种子客户端) v4.2.0.0 官方中文版",
-      "summary": "开源无广告 BT 客户端，官方中文版免费下载使用",
+      "title": "BiglyBT(开源免费BT种子客户端 ) v4.2.0.0 官方中文版",
+      "summary": "开源免费无广告的 BitTorrent 客户端 BiglyBT，可免费下载官方中文版",
       "category": "软件限免",
       "sourceKey": "ghxi",
       "url": "https://www.ghxi.com/biglybt.html",
@@ -137,7 +150,7 @@
     },
     {
       "title": "全新微软中文输入法 - 免费极简无广告，最大特点是无 AI，清爽新设计！",
-      "summary": "微软新上线的中文输入法，界面极简、无广告无弹窗也不含 AI，可免费下载使用。",
+      "summary": "微软推出的全新中文输入法，免费使用，界面简洁、无广告无弹窗，支持词库迁移。",
       "category": "软件限免",
       "sourceKey": "iplaysoft",
       "url": "https://www.iplaysoft.com/weiruanshurufa.html",
@@ -146,7 +159,7 @@
     },
     {
       "title": "比 IDM 快 5 倍的平替？免费开源下载器 MDM (支持 BT 磁力/视频嗅探/跨平台Mac)",
-      "summary": "免费开源的下载管理器 MDM，支持 BT 磁力、视频嗅探和跨平台，可替代付费 IDM。",
+      "summary": "免费开源的跨平台下载管理器，支持 BT/磁力链接与视频嗅探，Win/Mac/Linux 均可用。",
       "category": "软件限免",
       "sourceKey": "iplaysoft",
       "url": "https://www.iplaysoft.com/mdm.html",
@@ -155,7 +168,7 @@
     },
     {
       "title": "MarkText - 开源轻量流畅极简的 Markdown 编辑器 (免费 Typora 平替)",
-      "summary": "开源免费的极简 Markdown 编辑器，单屏码字体验，可作付费 Typora 的平替。",
+      "summary": "开源免费的 Markdown 编辑器，采用单屏即时渲染，可用作 Typora 的免费替代。",
       "category": "软件限免",
       "sourceKey": "iplaysoft",
       "url": "https://www.iplaysoft.com/marktext.html",
@@ -163,26 +176,28 @@
       "isHot": false
     },
     {
+      "title": "腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)",
+      "summary": "腾讯 WorkBuddy 办公智能体提供免费模型额度，可用于文档处理、编程与电脑操作类任务。",
+      "category": "AI 与 API",
+      "sourceKey": "iplaysoft",
+      "url": "https://www.iplaysoft.com/workbuddy.html",
+      "conditions": [
+        "需注册"
+      ],
+      "isHot": true
+    },
+    {
       "title": "免费开源版 Adobe 全家桶！ArtCraft 像素级复刻 PS / AE / PR / AI 等软件",
-      "summary": "开源免费项目 ArtCraft，复刻 PS、AE、PR 等 Adobe 设计软件的核心操作体验。",
+      "summary": "开源免费的 Adobe 替代工具集，复刻 PS/AE/PR/AI 的界面与操作，可免费下载使用。",
       "category": "软件限免",
       "sourceKey": "iplaysoft",
       "url": "https://www.iplaysoft.com/artcraft.html",
       "conditions": [],
-      "isHot": false
-    },
-    {
-      "title": "Scrcpy 5 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏/镜像/免Root)",
-      "summary": "开源免费的安卓投屏控制工具，通过 USB 或 WiFi 在电脑显示并操作手机画面。",
-      "category": "软件限免",
-      "sourceKey": "iplaysoft",
-      "url": "https://www.iplaysoft.com/scrcpy.html",
-      "conditions": [],
-      "isHot": false
+      "isHot": true
     },
     {
       "title": "Konode - 开源浏览器同步工具！跨 Chrome/Edge/Firefox 同步书签/标签页/历史",
-      "summary": "开源免费工具，可跨设备同步 Chrome、Edge、Firefox 的书签、标签页与历史记录。",
+      "summary": "开源免费，可跨 Chrome、Edge、Firefox 同步书签、标签页与浏览历史，数据自持。",
       "category": "软件限免",
       "sourceKey": "iplaysoft",
       "url": "https://www.iplaysoft.com/konode.html",
@@ -190,8 +205,17 @@
       "isHot": false
     },
     {
+      "title": "Scrcpy 5 - 开源免费在电脑显示手机画面并控制安卓手机工具 (投屏/录屏/镜像/免Root)",
+      "summary": "开源免费，通过 USB 或 WiFi 把安卓手机画面投屏到电脑，并用键盘鼠标远程控制。",
+      "category": "软件限免",
+      "sourceKey": "iplaysoft",
+      "url": "https://www.iplaysoft.com/scrcpy.html",
+      "conditions": [],
+      "isHot": false
+    },
+    {
       "title": "闲置电脑别吃灰！TinyPlay 秒变客厅电视盒子 (开源免费/投屏/手机当遥控器)",
-      "summary": "开源免费，把闲置电脑变成客厅电视盒子，支持投屏播放与手机遥控操作。",
+      "summary": "开源免费，把闲置的 Windows 或 Mac 电脑变成电视盒子，支持投屏与手机遥控。",
       "category": "软件限免",
       "sourceKey": "iplaysoft",
       "url": "https://www.iplaysoft.com/tinyplay.html",
@@ -199,13 +223,31 @@
       "isHot": false
     },
     {
-      "title": "腾讯 WorkBuddy 免费白嫖 DeepSeek 新模型 (国产 Codex / Claude Code 替代)",
-      "summary": "腾讯 WorkBuddy 提供可免费使用的 DeepSeek 模型，无需绑卡即可尝试 AI 办公智能体。",
-      "category": "AI 与 API",
-      "sourceKey": "iplaysoft",
-      "url": "https://www.iplaysoft.com/workbuddy.html",
+      "title": "ripienaar/free-for-dev 清单近期更新（2026-11-20）",
+      "summary": "清单收录大量 SaaS/PaaS/IaaS 的免费套餐，可查询各服务的永久免费额度。",
+      "category": "云与算力",
+      "sourceKey": "github",
+      "url": "https://github.com/ripienaar/free-for-dev",
       "conditions": [],
-      "isHot": true
+      "isHot": false
+    },
+    {
+      "title": "mnfst/awesome-free-llm-apis 清单近期更新（2026-11-20）",
+      "summary": "汇总提供永久免费 LLM API Key 的服务清单，可直接查阅各家的申请渠道。",
+      "category": "AI 与 API",
+      "sourceKey": "github",
+      "url": "https://github.com/mnfst/awesome-free-llm-apis",
+      "conditions": [],
+      "isHot": false
+    },
+    {
+      "title": "jiuyuan233/wool-gathering 清单近期更新（2026-11-20）",
+      "summary": "自动收集 AI 与游戏免费福利、代金券、免费额度和限免活动的清单仓库。",
+      "category": "其他福利",
+      "sourceKey": "github",
+      "url": "https://github.com/jiuyuan233/wool-gathering",
+      "conditions": [],
+      "isHot": false
     }
   ],
   "sourceResults": [
@@ -213,59 +255,59 @@
       "sourceKey": "linuxdo",
       "status": "ok",
       "newCount": 7,
-      "error": "已抓到 · 数据未公示（论坛列表页摘要取数，13 条候选逐条按免费口径筛选，价格与截止时间仅采信摘要原文）"
+      "error": "已抓到 · 数据未公示：抓取 linux.do 福利羊毛版块的列表页摘要（仅包含标题、链接和摘要，正文需要登录后才能查看），本批共 13 条候选，逐条核对是否为真正免费后留下 7 条。"
     },
     {
       "sourceKey": "v2ex",
       "status": "ok",
-      "newCount": 2,
-      "error": "已抓到 · 数据未公示 + 抓取推广节点帖子列表与正文摘要，人工剔除打折/中转/代理等付费推广，仅保留明确零成本额度与开源资源"
+      "newCount": 3,
+      "error": "已抓到 · 数据未公示；按推广版最新主题逐帖取标题与正文，15 条候选中 8 条为 $0 福利（CDK 赠送、新人额度、免费试用、开源权重新闻）"
     },
     {
       "sourceKey": "nodeseek",
       "status": "ok",
       "newCount": 0,
-      "error": "无新增 + 本轮未产出候选条目"
+      "error": "无新增；本批未返回候选条目"
     },
     {
       "sourceKey": "hostloc",
       "status": "ok",
       "newCount": 0,
-      "error": "无新增 + 本轮未产出候选条目"
+      "error": "无新增；本批未返回候选条目"
     },
     {
       "sourceKey": "epic",
       "status": "ok",
       "newCount": 1,
-      "error": "已抓到 · 数据未公示 + 抓取商店免费游戏页，原价与截止时间随页面原文记录"
+      "error": "已抓到 · 数据未公示；Epic 商店免费游戏页，原价与截止时间逐字取自页面；仅 1 条在免"
     },
     {
       "sourceKey": "appinn",
       "status": "ok",
       "newCount": 0,
-      "error": "已抓到 · 数据未公示 + 抓取站点文章列表，本批仅收费变更新闻，无免费条目"
+      "error": "无新增；抓到 1 条为 UU 远程转为付费会员的报道，免费版缩水，不构成 $0 福利"
     },
     {
       "sourceKey": "ghxi",
       "status": "ok",
       "newCount": 2,
-      "error": "已抓到 · 数据未公示 + 抓取站点文章列表，按标题与摘要判定是否明确免费"
+      "error": "已抓到 · 数据未公示；果核剥壳最新文章页，2 条均为免费软件（免费绿色版/开源客户端）"
     },
     {
       "sourceKey": "iplaysoft",
       "status": "ok",
       "newCount": 8,
-      "error": "已抓到 · 数据未公示：仅按列表页标题与摘要取数，未打开正文核对价格与截止时间，付费折扣类和不确定项已剔除"
+      "error": "已抓到 · 数据未公示 — 按站点列表逐条获取标题、链接与摘要，摘要仅含功能描述，未公示原价与截止时间，仅收录明确标注免费/开源免费的条目"
     },
     {
       "sourceKey": "github",
       "status": "ok",
-      "newCount": 0,
-      "error": "已抓到 · 数据未公示：仅获取到清单仓库的近期更新标记与仓库简介，未公示具体可领条目、额度与条件"
+      "newCount": 3,
+      "error": "已抓到 · 数据未公示 — 按仓库主页取标题、链接与简介，仅知清单近期更新，未公示具体条目价格与截止时间"
     }
   ],
   "sourceCount": 9,
-  "dealCount": 20,
+  "dealCount": 24,
   "maxAgeSec": 259200,
   "cronIntervalSec": 86400,
   "hostlocQueries": [
@@ -275,5 +317,27 @@
     "site:hostloc.com 羊毛",
     "site:hostloc.com 免费领取"
   ],
-  "egress": "instabox"
+  "egress": "instabox",
+  "filtered": [
+    {
+      "title": "送 10 个 ZooProxy 动态住宅 IP 1G CDK，先到先得",
+      "reason": "无明确免费信号"
+    },
+    {
+      "title": "一键使用 Claude Code Opus 5.5，不用折腾账号和 API",
+      "reason": "无明确免费信号"
+    },
+    {
+      "title": "[RelayRouter] 留 ID 送 3.5 元 | Seedream 5.5 首发上新，丢一张海报进去，拆出 99",
+      "reason": "无明确免费信号"
+    },
+    {
+      "title": "GPT Claude 中转接口，注册账号送 1 美元体验额度，300 个送完为止",
+      "reason": "无明确免费信号"
+    },
+    {
+      "title": "[全场 8 折] 0x567 中转站,注册送 5 刀，纯 GPT pro 号池 不降智,活动套餐倍率 0.15！",
+      "reason": "仍要花钱：(?i)\\b\\d+(?:\\.\\d+)?\\s*折"
+    }
+  ]
 }
