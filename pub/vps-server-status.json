@@ -1,17 +1,17 @@
 {
-  "collectedAt": "2026-11-21T04:14:26Z",
+  "collectedAt": "2026-11-21T04:19:27Z",
   "servers": [
     {
       "serverId": 1,
       "ok": true,
       "error": "",
       "note": "",
-      "cpuPct": 6.2,
+      "cpuPct": 3.2,
       "load1": 0.01,
-      "load5": 0.02,
+      "load5": 0.03,
       "load15": 0.0,
       "uptimeDays": 148.6,
-      "memUsedMb": 419,
+      "memUsedMb": 416,
       "memTotalMb": 1019,
       "diskUsedGb": 3.4,
       "diskTotalGb": 18.2,
@@ -19,25 +19,25 @@
       "netMonthLimitGb": 1000.0,
       "netRxTotalGb": 189.6,
       "netTxTotalGb": 195.2,
-      "netRxMbps": 0.03,
+      "netRxMbps": 0.18,
       "netTxMbps": 0.21,
       "gpuModel": null,
       "gpuPct": null,
       "threeNet": [
         {
           "carrier": "telecom",
-          "latencyMs": 153.602,
+          "latencyMs": 153.446,
           "packetLoss": 0.0
         },
         {
           "carrier": "unicom",
-          "latencyMs": 182.423,
+          "latencyMs": 178.679,
           "packetLoss": 0.0
         },
         {
           "carrier": "mobile",
-          "latencyMs": 189.718,
-          "packetLoss": 0.0
+          "latencyMs": 194.197,
+          "packetLoss": 20.0
         }
       ]
     },
@@ -46,12 +46,12 @@
       "ok": true,
       "error": "",
       "note": "无 vnstat，本月流量填 null",
-      "cpuPct": 0.0,
+      "cpuPct": 4.5,
       "load1": 0.04,
-      "load5": 0.03,
+      "load5": 0.02,
       "load15": 0.0,
       "uptimeDays": 4.6,
-      "memUsedMb": 458,
+      "memUsedMb": 469,
       "memTotalMb": 1775,
       "diskUsedGb": 5.2,
       "diskTotalGb": 39.3,
@@ -71,12 +71,12 @@
         },
         {
           "carrier": "unicom",
-          "latencyMs": 38.465,
+          "latencyMs": 38.506,
           "packetLoss": 0.0
         },
         {
           "carrier": "mobile",
-          "latencyMs": 7.25,
+          "latencyMs": 7.248,
           "packetLoss": 0.0
         }
       ]
