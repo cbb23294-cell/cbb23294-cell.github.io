@@ -49,14 +49,14 @@
         "[code] [boss-accept] Fix the spac-009 cache BLOCKING flaws (security review cach"
       ],
       "open": 2,
-      "status_updated": "2026-11-21T04:20:01Z",
+      "status_updated": "2026-11-21T04:33:27Z",
       "total": 8,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T04:33:17Z",
-  "generated_at": "2026-11-21T04:33:20Z",
-  "generated_at_utc": "2026-11-21T04:33:20Z",
+  "content_latest_at": "2026-11-21T04:33:27Z",
+  "generated_at": "2026-11-21T04:35:20Z",
+  "generated_at_utc": "2026-11-21T04:35:20Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -113,7 +113,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 128
+        "used": 129
       },
       {
         "cap": 300,
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 414
+        "used": 422
       },
       {
         "cap": 1000,
@@ -531,7 +531,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 128
+        "used": 129
       },
       {
         "cap": 300,
@@ -555,7 +555,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 414
+        "used": 422
       },
       {
         "cap": 1000,
@@ -943,35 +943,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 68905,
+        "age_sec": 69026,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 89233,
+        "age_sec": 89354,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 144439,
+        "age_sec": 144560,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 148039,
+        "age_sec": 148160,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 148039,
+        "age_sec": 148160,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1087,7 +1087,7 @@
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-21T04:20:01Z"
+        "updated": "2026-11-21T04:33:27Z"
       },
       "tasks": {
         "done": 6,
