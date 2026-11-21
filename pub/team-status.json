@@ -5,7 +5,7 @@
       "escalation_latest": "- key=1ceae659671f",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-21T09:10:59Z",
+      "status_updated": "2026-11-21T09:20:00Z",
       "total": 12,
       "workstream": "cloud-script-migration"
     },
@@ -22,12 +22,10 @@
       "workstream": "pool-optimization"
     },
     {
-      "done": 10,
+      "done": 11,
       "escalation_latest": "- key=74e8d3f77cc3",
-      "next_open": [
-        "[code] [boss-accept] Thompson bandit graduation checklist (boss ruling 2026-11-2"
-      ],
-      "open": 1,
+      "next_open": [],
+      "open": 0,
       "status_updated": "2026-11-21T09:16:24Z",
       "total": 11,
       "workstream": "security"
@@ -51,9 +49,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T09:16:24Z",
-  "generated_at": "2026-11-21T09:19:25Z",
-  "generated_at_utc": "2026-11-21T09:19:25Z",
+  "content_latest_at": "2026-11-21T09:20:00Z",
+  "generated_at": "2026-11-21T09:21:25Z",
+  "generated_at_utc": "2026-11-21T09:21:25Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -110,7 +108,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 208
+        "used": 209
       },
       {
         "cap": 300,
@@ -118,7 +116,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 154
+        "used": 155
       },
       {
         "cap": 1000,
@@ -126,7 +124,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 219
+        "used": 224
       },
       {
         "cap": 1000,
@@ -134,7 +132,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 597
+        "used": 600
       },
       {
         "cap": 1000,
@@ -528,7 +526,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 208
+        "used": 209
       },
       {
         "cap": 300,
@@ -536,7 +534,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 154
+        "used": 155
       },
       {
         "cap": 1000,
@@ -544,7 +542,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 219
+        "used": 224
       },
       {
         "cap": 1000,
@@ -552,7 +550,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 597
+        "used": 600
       },
       {
         "cap": 1000,
@@ -940,35 +938,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 86070,
+        "age_sec": 86190,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 106398,
+        "age_sec": 106518,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 161604,
+        "age_sec": 161724,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 165204,
+        "age_sec": 165324,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 165204,
+        "age_sec": 165324,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -994,7 +992,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T09:10:59Z"
+        "updated": "2026-11-21T09:20:00Z"
       },
       "tasks": {
         "done": 12,
@@ -1063,15 +1061,10 @@
         "updated": "2026-11-21T09:16:24Z"
       },
       "tasks": {
-        "done": 10,
+        "done": 11,
         "exists": true,
-        "next_open": [
-          {
-            "full": true,
-            "title": "[code] [boss-accept] Thompson bandit graduation checklist (boss ruling 2026-11-2"
-          }
-        ],
-        "open": 1
+        "next_open": [],
+        "open": 0
       }
     },
     "spaces-data": {
