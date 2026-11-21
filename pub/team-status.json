@@ -51,14 +51,14 @@
         "[code] [boss-accept] Space performance phase 2 (from spac-007 ranking + second-r"
       ],
       "open": 1,
-      "status_updated": "2026-11-21T03:48:12Z",
+      "status_updated": "2026-11-21T03:48:57Z",
       "total": 7,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T03:48:12Z",
-  "generated_at": "2026-11-21T03:48:47Z",
-  "generated_at_utc": "2026-11-21T03:48:47Z",
+  "content_latest_at": "2026-11-21T03:48:57Z",
+  "generated_at": "2026-11-21T03:50:48Z",
+  "generated_at_utc": "2026-11-21T03:50:48Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -115,7 +115,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 110
+        "used": 111
       },
       {
         "cap": 300,
@@ -139,7 +139,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 258
+        "used": 266
       },
       {
         "cap": 1000,
@@ -459,7 +459,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 64
+        "used": 68
       },
       {
         "cap": 20000,
@@ -533,7 +533,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 110
+        "used": 111
       },
       {
         "cap": 300,
@@ -557,7 +557,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 258
+        "used": 266
       },
       {
         "cap": 1000,
@@ -877,7 +877,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 64
+        "used": 68
       },
       {
         "cap": 20000,
@@ -945,35 +945,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 66232,
+        "age_sec": 66353,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 86560,
+        "age_sec": 86681,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 141766,
+        "age_sec": 141887,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 145366,
+        "age_sec": 145487,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 145366,
+        "age_sec": 145487,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1098,7 +1098,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T03:48:12Z"
+        "updated": "2026-11-21T03:48:57Z"
       },
       "tasks": {
         "done": 6,
