@@ -30,13 +30,12 @@
       "workstream": "security"
     },
     {
-      "done": 8,
+      "done": 9,
       "escalation_latest": "- key=c65450b9de22",
       "next_open": [
-        "[code] [boss-accept] oper-008 transform (second-round meeting ruling 2026-11-21)",
         "[mechanical] Precheck contention hardening (second-round meeting ruling 2026-11-"
       ],
-      "open": 2,
+      "open": 1,
       "status_updated": "2026-11-21T04:49:59Z",
       "total": 10,
       "workstream": "operations"
@@ -49,14 +48,14 @@
         "[code] [boss-accept] Fix the spac-009 cache BLOCKING flaws (security review cach"
       ],
       "open": 2,
-      "status_updated": "2026-11-21T04:50:56Z",
+      "status_updated": "2026-11-21T04:51:42Z",
       "total": 8,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T04:50:56Z",
-  "generated_at": "2026-11-21T04:51:22Z",
-  "generated_at_utc": "2026-11-21T04:51:22Z",
+  "content_latest_at": "2026-11-21T04:51:42Z",
+  "generated_at": "2026-11-21T04:53:26Z",
+  "generated_at_utc": "2026-11-21T04:53:26Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -113,7 +112,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 134
+        "used": 135
       },
       {
         "cap": 300,
@@ -531,7 +530,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 134
+        "used": 135
       },
       {
         "cap": 300,
@@ -943,35 +942,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 69988,
+        "age_sec": 70111,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 90316,
+        "age_sec": 90439,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 145522,
+        "age_sec": 145645,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 149122,
+        "age_sec": 149245,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 149122,
+        "age_sec": 149245,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1019,19 +1018,15 @@
         "updated": "2026-11-21T04:49:59Z"
       },
       "tasks": {
-        "done": 8,
+        "done": 9,
         "exists": true,
         "next_open": [
-          {
-            "full": true,
-            "title": "[code] [boss-accept] oper-008 transform (second-round meeting ruling 2026-11-21)"
-          },
           {
             "full": true,
             "title": "[mechanical] Precheck contention hardening (second-round meeting ruling 2026-11-"
           }
         ],
-        "open": 2
+        "open": 1
       }
     },
     "pool-optimization": {
@@ -1087,7 +1082,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T04:50:56Z"
+        "updated": "2026-11-21T04:51:42Z"
       },
       "tasks": {
         "done": 6,
