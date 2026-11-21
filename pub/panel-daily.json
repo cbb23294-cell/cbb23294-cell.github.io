@@ -1,27 +1,45 @@
 {
   "ok": true,
-  "generatedAt": "2026-11-21T08:52:51Z",
+  "generatedAt": "2026-11-21T08:55:41Z",
   "round": "panel-daily",
-  "summary": "核对 13 个服务：1 个实查通过、12 个未核对，7 个仅端点可达，首轮基准",
+  "summary": "核对 13 个服务：4 个实查通过、9 个未核对，7 个仅端点可达，首轮基准",
   "changes": [],
   "results": [
     {
       "slug": "simular-box",
-      "checked": false,
-      "status": null,
-      "statusLabel": null,
-      "specUpdates": [],
-      "checkType": "none",
-      "checkNote": "box_status returned no machine state"
+      "checked": true,
+      "status": "wait",
+      "statusLabel": "hibernated · 已连接",
+      "specUpdates": [
+        {
+          "label": "镜像",
+          "value": "sbxdesk:v13（最新 sbxdesk:v27，可升级）"
+        }
+      ],
+      "checkType": "account",
+      "checkNote": "Account data returned by simular-box-key/box_status, simular-box-key/usage."
     },
     {
       "slug": "openrouter",
-      "checked": false,
-      "status": null,
-      "statusLabel": null,
-      "specUpdates": [],
-      "checkType": "none",
-      "checkNote": "openrouter/usage: exit 2: client.py: error: argument cmd: invalid choice: 'call-tool' (choose from 'key-info', 'chat')"
+      "checked": true,
+      "status": "ok",
+      "statusLabel": "已连接可用",
+      "specUpdates": [
+        {
+          "label": "今日用量",
+          "value": "已用 0"
+        },
+        {
+          "label": "累计用量",
+          "value": "0"
+        },
+        {
+          "label": "密钥限额",
+          "value": "未设硬限额（免费层按模型计，见轮换板）"
+        }
+      ],
+      "checkType": "account",
+      "checkNote": "Account data returned by openrouter/key-info."
     },
     {
       "slug": "google-colab",
@@ -34,12 +52,21 @@
     },
     {
       "slug": "cloady",
-      "checked": false,
-      "status": null,
-      "statusLabel": null,
-      "specUpdates": [],
-      "checkType": "none",
-      "checkNote": "listWorkspaces returned no valid workspace list"
+      "checked": true,
+      "status": "ok",
+      "statusLabel": "已连接可用",
+      "specUpdates": [
+        {
+          "label": "工作区",
+          "value": "1 个 · 0 个应用"
+        },
+        {
+          "label": "费用",
+          "value": "$0.00 / 月"
+        }
+      ],
+      "checkType": "account",
+      "checkNote": "Account data returned by cloady/getMe, cloady/listWorkspaces."
     },
     {
       "slug": "kaggle",
@@ -129,23 +156,23 @@
     }
   ],
   "resultCount": 13,
-  "checkedCount": 1,
+  "checkedCount": 4,
   "connectorStatus": [
     {
       "slug": "simular-box",
-      "ok": false,
-      "checked": false,
-      "note": "box_status returned no machine state",
-      "checkType": "none",
-      "checkNote": "box_status returned no machine state"
+      "ok": true,
+      "checked": true,
+      "note": "Account data returned by simular-box-key/box_status, simular-box-key/usage.",
+      "checkType": "account",
+      "checkNote": "Account data returned by simular-box-key/box_status, simular-box-key/usage."
     },
     {
       "slug": "openrouter",
-      "ok": false,
-      "checked": false,
-      "note": "openrouter/usage: exit 2: client.py: error: argument cmd: invalid choice: 'call-tool' (choose from 'key-info', 'chat')",
-      "checkType": "none",
-      "checkNote": "openrouter/usage: exit 2: client.py: error: argument cmd: invalid choice: 'call-tool' (choose from 'key-info', 'chat')"
+      "ok": true,
+      "checked": true,
+      "note": "Account data returned by openrouter/key-info.",
+      "checkType": "account",
+      "checkNote": "Account data returned by openrouter/key-info."
     },
     {
       "slug": "google-colab",
@@ -157,11 +184,11 @@
     },
     {
       "slug": "cloady",
-      "ok": false,
-      "checked": false,
-      "note": "listWorkspaces returned no valid workspace list",
-      "checkType": "none",
-      "checkNote": "listWorkspaces returned no valid workspace list"
+      "ok": true,
+      "checked": true,
+      "note": "Account data returned by cloady/getMe, cloady/listWorkspaces.",
+      "checkType": "account",
+      "checkNote": "Account data returned by cloady/getMe, cloady/listWorkspaces."
     },
     {
       "slug": "kaggle",
