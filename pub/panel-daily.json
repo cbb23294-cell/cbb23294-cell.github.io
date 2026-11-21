@@ -1,15 +1,16 @@
 {
-  "ok": true,
-  "generatedAt": "2026-11-21T07:55:06Z",
+  "ok": false,
+  "reason": "载荷结构不可用：payload.results has 13 entries (zod max 12)",
+  "generatedAt": "2026-11-21T08:49:12Z",
   "round": "panel-daily",
-  "summary": "核对 12 个服务：3 个实查通过、9 个未核对，首轮基准",
+  "summary": "本轮核对整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)",
   "changes": [],
   "results": [
     {
       "slug": "simular-box",
-      "checked": true,
-      "status": "wait",
-      "statusLabel": "状态未知 · 已连接",
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
       "specUpdates": []
     },
     {
@@ -28,15 +29,10 @@
     },
     {
       "slug": "cloady",
-      "checked": true,
-      "status": "ok",
-      "statusLabel": "已连接可用",
-      "specUpdates": [
-        {
-          "label": "工作区",
-          "value": "0 个 · 0 个应用"
-        }
-      ]
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": []
     },
     {
       "slug": "kaggle",
@@ -54,15 +50,10 @@
     },
     {
       "slug": "instabox",
-      "checked": true,
-      "status": "ok",
-      "statusLabel": "可用 · 已连接",
-      "specUpdates": [
-        {
-          "label": "免费机器",
-          "value": "1 台：main 运行中"
-        }
-      ]
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": []
     },
     {
       "slug": "uppcoder",
@@ -101,81 +92,80 @@
     }
   ],
   "resultCount": 12,
-  "checkedCount": 3,
+  "checkedCount": 0,
   "connectorStatus": [
     {
       "slug": "simular-box",
-      "ok": true,
-      "checked": true,
-      "note": "连接器实查通过"
+      "ok": false,
+      "checked": false,
+      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
     },
     {
       "slug": "openrouter",
       "ok": false,
       "checked": false,
-      "note": "usage 未取到：exit 2: client.py: error: argument cmd: invalid choice: 'call-tool' (choose from 'key-info', 'chat')"
+      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
     },
     {
       "slug": "google-colab",
       "ok": false,
       "checked": false,
-      "note": "无账号级查询通道，未核对"
+      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
     },
     {
       "slug": "cloady",
-      "ok": true,
-      "checked": true,
-      "note": "连接器实查通过"
+      "ok": false,
+      "checked": false,
+      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
     },
     {
       "slug": "kaggle",
       "ok": false,
       "checked": false,
-      "note": "验证状态 API 查不到，保持原状态"
+      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
     },
     {
       "slug": "sakupa",
       "ok": false,
       "checked": false,
-      "note": "无账号级查询通道，未核对"
+      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
     },
     {
       "slug": "instabox",
-      "ok": true,
-      "checked": true,
-      "note": "连接器实查通过"
+      "ok": false,
+      "checked": false,
+      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
     },
     {
       "slug": "uppcoder",
       "ok": false,
       "checked": false,
-      "note": "无账号级查询通道，未核对"
+      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
     },
     {
       "slug": "free-hosting",
       "ok": false,
       "checked": false,
-      "note": "无账号级查询通道，未核对"
+      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
     },
     {
       "slug": "urnetwork",
       "ok": false,
       "checked": false,
-      "note": "无账号级查询通道，未核对"
+      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
     },
     {
       "slug": "yunamo",
       "ok": false,
       "checked": false,
-      "note": "无账号级查询通道，未核对"
+      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
     },
     {
       "slug": "pxxl",
       "ok": false,
       "checked": false,
-      "note": "无账号级查询通道，未核对"
+      "note": "本轮整体失败：载荷结构不可用：payload.results has 13 entries (zod max 12)"
     }
   ],
-  "maxAgeSec": 259200,
-  "cronIntervalSec": 86400
+  "maxAgeSec": 259200
 }
