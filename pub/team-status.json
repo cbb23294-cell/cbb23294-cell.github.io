@@ -43,20 +43,20 @@
     },
     {
       "done": 6,
-      "escalation_latest": "- key=118918fc86e0",
+      "escalation_latest": "- key=b0fd42cb1a4c",
       "next_open": [
         "[code] [boss-accept] Space performance phase 2 (from spac-007 ranking + second-r",
         "[code] [boss-accept] Fix the spac-009 cache BLOCKING flaws (security review cach"
       ],
       "open": 2,
-      "status_updated": "2026-11-21T04:33:27Z",
+      "status_updated": "2026-11-21T04:46:38Z",
       "total": 8,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T04:44:51Z",
-  "generated_at": "2026-11-21T04:45:22Z",
-  "generated_at_utc": "2026-11-21T04:45:22Z",
+  "content_latest_at": "2026-11-21T04:46:38Z",
+  "generated_at": "2026-11-21T04:47:22Z",
+  "generated_at_utc": "2026-11-21T04:47:22Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 439
+        "used": 445
       },
       {
         "cap": 1000,
@@ -193,7 +193,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 11
+        "used": 23
       },
       {
         "cap": 500,
@@ -201,7 +201,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 11
+        "used": 23
       },
       {
         "cap": 1000,
@@ -555,7 +555,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 439
+        "used": 445
       },
       {
         "cap": 1000,
@@ -611,7 +611,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 11
+        "used": 23
       },
       {
         "cap": 500,
@@ -619,7 +619,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 11
+        "used": 23
       },
       {
         "cap": 1000,
@@ -943,35 +943,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 69627,
+        "age_sec": 69747,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 89955,
+        "age_sec": 90075,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 145161,
+        "age_sec": 145281,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 148761,
+        "age_sec": 148881,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 148761,
+        "age_sec": 148881,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1080,14 +1080,14 @@
     "spaces-data": {
       "escalation": {
         "exists": true,
-        "latest": "- key=118918fc86e0"
+        "latest": "- key=b0fd42cb1a4c"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-21T04:33:27Z"
+        "updated": "2026-11-21T04:46:38Z"
       },
       "tasks": {
         "done": 6,
