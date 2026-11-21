@@ -14,7 +14,7 @@
       "escalation_latest": "- key=00cfe7dfdc11",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-21T04:06:27Z",
+      "status_updated": "2026-11-21T04:18:13Z",
       "total": 32,
       "workstream": "pool-optimization"
     },
@@ -47,14 +47,14 @@
         "[code] [boss-accept] Fix the spac-009 cache BLOCKING flaws (security review cach"
       ],
       "open": 2,
-      "status_updated": "2026-11-21T04:16:26Z",
+      "status_updated": "2026-11-21T04:17:57Z",
       "total": 8,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T04:16:26Z",
-  "generated_at": "2026-11-21T04:16:51Z",
-  "generated_at_utc": "2026-11-21T04:16:51Z",
+  "content_latest_at": "2026-11-21T04:18:13Z",
+  "generated_at": "2026-11-21T04:19:16Z",
+  "generated_at_utc": "2026-11-21T04:19:16Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -111,7 +111,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 121
+        "used": 122
       },
       {
         "cap": 300,
@@ -119,7 +119,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 25
+        "used": 26
       },
       {
         "cap": 1000,
@@ -135,7 +135,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 349
+        "used": 352
       },
       {
         "cap": 1000,
@@ -529,7 +529,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 121
+        "used": 122
       },
       {
         "cap": 300,
@@ -537,7 +537,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 25
+        "used": 26
       },
       {
         "cap": 1000,
@@ -553,7 +553,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 349
+        "used": 352
       },
       {
         "cap": 1000,
@@ -941,35 +941,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 67917,
+        "age_sec": 68061,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 88245,
+        "age_sec": 88389,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 143451,
+        "age_sec": 143595,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 147051,
+        "age_sec": 147195,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 147051,
+        "age_sec": 147195,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1042,7 +1042,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T04:06:27Z"
+        "updated": "2026-11-21T04:18:13Z"
       },
       "tasks": {
         "done": 32,
@@ -1078,9 +1078,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-21T04:16:26Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-21T04:17:57Z"
       },
       "tasks": {
         "done": 6,
