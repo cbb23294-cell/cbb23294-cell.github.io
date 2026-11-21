@@ -14,7 +14,7 @@
       "escalation_latest": "- key=00cfe7dfdc11",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-21T07:17:58Z",
+      "status_updated": "2026-11-21T07:21:54Z",
       "total": 32,
       "workstream": "pool-optimization"
     },
@@ -23,7 +23,7 @@
       "escalation_latest": "- key=74e8d3f77cc3",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-21T07:00:23Z",
+      "status_updated": "2026-11-21T07:20:23Z",
       "total": 10,
       "workstream": "security"
     },
@@ -34,7 +34,7 @@
         "[mechanical] Precheck contention hardening (second-round meeting ruling 2026-11-"
       ],
       "open": 1,
-      "status_updated": "2026-11-21T07:19:28Z",
+      "status_updated": "2026-11-21T07:21:54Z",
       "total": 10,
       "workstream": "operations"
     },
@@ -48,9 +48,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T07:20:00Z",
-  "generated_at": "2026-11-21T07:20:13Z",
-  "generated_at_utc": "2026-11-21T07:20:13Z",
+  "content_latest_at": "2026-11-21T07:21:54Z",
+  "generated_at": "2026-11-21T07:22:14Z",
+  "generated_at_utc": "2026-11-21T07:22:14Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -115,7 +115,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 103
+        "used": 106
       },
       {
         "cap": 1000,
@@ -163,7 +163,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 32
+        "used": 34
       },
       {
         "cap": 500,
@@ -475,7 +475,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 47
+        "used": 49
       },
       {
         "cap": 200000,
@@ -491,7 +491,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 23
+        "used": 24
       },
       {
         "cap": 200000,
@@ -533,7 +533,7 @@
         "healthy": true,
         "model": "glm-5.3-flashx",
         "provider": "zhipu-pack",
-        "used": 103
+        "used": 106
       },
       {
         "cap": 1000,
@@ -581,7 +581,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 32
+        "used": 34
       },
       {
         "cap": 500,
@@ -893,7 +893,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 47
+        "used": 49
       },
       {
         "cap": 200000,
@@ -909,7 +909,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 23
+        "used": 24
       },
       {
         "cap": 200000,
@@ -937,35 +937,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 78919,
+        "age_sec": 79039,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 99247,
+        "age_sec": 99367,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 154453,
+        "age_sec": 154573,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 158053,
+        "age_sec": 158173,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 158053,
+        "age_sec": 158173,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1008,9 +1008,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-21T07:19:28Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-21T07:21:54Z"
       },
       "tasks": {
         "done": 9,
@@ -1034,7 +1034,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T07:17:58Z"
+        "updated": "2026-11-21T07:21:54Z"
       },
       "tasks": {
         "done": 32,
@@ -1053,7 +1053,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T07:00:23Z"
+        "updated": "2026-11-21T07:20:23Z"
       },
       "tasks": {
         "done": 10,
