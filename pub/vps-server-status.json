@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-21T05:18:54Z",
+  "collectedAt": "2026-11-21T05:24:08Z",
   "servers": [
     {
       "serverId": 1,
@@ -8,10 +8,10 @@
       "note": "",
       "cpuPct": 3.2,
       "load1": 0.0,
-      "load5": 0.0,
+      "load5": 0.01,
       "load15": 0.0,
       "uptimeDays": 148.6,
-      "memUsedMb": 423,
+      "memUsedMb": 418,
       "memTotalMb": 1019,
       "diskUsedGb": 3.4,
       "diskTotalGb": 18.2,
@@ -19,25 +19,25 @@
       "netMonthLimitGb": 1000.0,
       "netRxTotalGb": 189.6,
       "netTxTotalGb": 195.2,
-      "netRxMbps": 0.03,
-      "netTxMbps": 0.23,
+      "netRxMbps": 0.04,
+      "netTxMbps": 0.04,
       "gpuModel": null,
       "gpuPct": null,
       "threeNet": [
         {
           "carrier": "telecom",
-          "latencyMs": 153.648,
+          "latencyMs": 153.377,
           "packetLoss": 0.0
         },
         {
           "carrier": "unicom",
-          "latencyMs": 188.206,
-          "packetLoss": 0.0
+          "latencyMs": 184.573,
+          "packetLoss": 20.0
         },
         {
           "carrier": "mobile",
-          "latencyMs": 189.84,
-          "packetLoss": 40.0
+          "latencyMs": 189.863,
+          "packetLoss": 20.0
         }
       ]
     },
@@ -48,10 +48,10 @@
       "note": "无 vnstat，本月流量填 null",
       "cpuPct": 0.0,
       "load1": 0.0,
-      "load5": 0.01,
+      "load5": 0.0,
       "load15": 0.0,
       "uptimeDays": 4.6,
-      "memUsedMb": 450,
+      "memUsedMb": 457,
       "memTotalMb": 1775,
       "diskUsedGb": 5.2,
       "diskTotalGb": 39.3,
@@ -66,17 +66,17 @@
       "threeNet": [
         {
           "carrier": "telecom",
-          "latencyMs": 24.485,
+          "latencyMs": 24.502,
           "packetLoss": 0.0
         },
         {
           "carrier": "unicom",
-          "latencyMs": 38.27,
+          "latencyMs": 38.318,
           "packetLoss": 0.0
         },
         {
           "carrier": "mobile",
-          "latencyMs": 7.193,
+          "latencyMs": 7.246,
           "packetLoss": 0.0
         }
       ]
