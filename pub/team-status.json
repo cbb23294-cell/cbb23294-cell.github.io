@@ -21,14 +21,14 @@
       "workstream": "pool-optimization"
     },
     {
-      "done": 4,
+      "done": 5,
       "escalation_latest": "- key=93c762a1a211",
       "next_open": [
-        "[code] [boss-accept] audit_bw.sh fixture self-test + firewall preconditions codi"
+        "[code] [boss-accept] secu-006: Identify what serves TCP 443 on the Huawei Flexus"
       ],
       "open": 1,
-      "status_updated": "2026-11-21T01:00:07Z",
-      "total": 5,
+      "status_updated": "2026-11-21T01:18:19Z",
+      "total": 6,
       "workstream": "security"
     },
     {
@@ -36,7 +36,7 @@
       "escalation_latest": "- key=b9cc0e50ce8f",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-21T01:03:07Z",
+      "status_updated": "2026-11-21T01:16:34Z",
       "total": 8,
       "workstream": "operations"
     },
@@ -47,14 +47,14 @@
         "[code] [boss-accept] Six-space performance: MEASUREMENT first, fixes second (spa"
       ],
       "open": 1,
-      "status_updated": "2026-11-21T00:51:41Z",
+      "status_updated": "2026-11-21T01:18:30Z",
       "total": 6,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T01:10:08Z",
-  "generated_at": "2026-11-21T01:16:32Z",
-  "generated_at_utc": "2026-11-21T01:16:32Z",
+  "content_latest_at": "2026-11-21T01:18:30Z",
+  "generated_at": "2026-11-21T01:18:32Z",
+  "generated_at_utc": "2026-11-21T01:18:32Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -111,7 +111,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 16
+        "used": 18
       },
       {
         "cap": 300,
@@ -135,7 +135,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 31
+        "used": 33
       },
       {
         "cap": 1000,
@@ -529,7 +529,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 16
+        "used": 18
       },
       {
         "cap": 300,
@@ -553,7 +553,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 31
+        "used": 33
       },
       {
         "cap": 1000,
@@ -941,35 +941,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 57097,
+        "age_sec": 57217,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 77425,
+        "age_sec": 77545,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 132631,
+        "age_sec": 132751,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 136231,
+        "age_sec": 136351,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 136231,
+        "age_sec": 136351,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -1014,7 +1014,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T01:03:07Z"
+        "updated": "2026-11-21T01:16:34Z"
       },
       "tasks": {
         "done": 8,
@@ -1057,15 +1057,15 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T01:00:07Z"
+        "updated": "2026-11-21T01:18:19Z"
       },
       "tasks": {
-        "done": 4,
+        "done": 5,
         "exists": true,
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] audit_bw.sh fixture self-test + firewall preconditions codi"
+            "title": "[code] [boss-accept] secu-006: Identify what serves TCP 443 on the Huawei Flexus"
           }
         ],
         "open": 1
@@ -1081,7 +1081,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T00:51:41Z"
+        "updated": "2026-11-21T01:18:30Z"
       },
       "tasks": {
         "done": 5,
