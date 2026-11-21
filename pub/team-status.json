@@ -1,13 +1,11 @@
 {
   "boards": [
     {
-      "done": 11,
+      "done": 12,
       "escalation_latest": "- key=1ceae659671f",
-      "next_open": [
-        "[mechanical] [boss-accept] WP9 queue backlog alert (second-round meeting ruling "
-      ],
-      "open": 1,
-      "status_updated": "2026-11-21T04:00:47Z",
+      "next_open": [],
+      "open": 0,
+      "status_updated": "2026-11-21T04:01:32Z",
       "total": 12,
       "workstream": "cloud-script-migration"
     },
@@ -21,12 +19,10 @@
       "workstream": "pool-optimization"
     },
     {
-      "done": 8,
+      "done": 9,
       "escalation_latest": "- key=b431b529e815",
-      "next_open": [
-        "[mechanical] Edge fingerprint for Huawei 443 (from secu-006 §8, read-only): from"
-      ],
-      "open": 1,
+      "next_open": [],
+      "open": 0,
       "status_updated": "2026-11-21T03:56:58Z",
       "total": 9,
       "workstream": "security"
@@ -47,17 +43,18 @@
       "done": 6,
       "escalation_latest": "- key=118918fc86e0",
       "next_open": [
-        "[code] [boss-accept] Space performance phase 2 (from spac-007 ranking + second-r"
+        "[code] [boss-accept] Space performance phase 2 (from spac-007 ranking + second-r",
+        "[code] [boss-accept] Fix the spac-009 cache BLOCKING flaws (security review cach"
       ],
-      "open": 1,
-      "status_updated": "2026-11-21T03:48:57Z",
-      "total": 7,
+      "open": 2,
+      "status_updated": "2026-11-21T04:01:26Z",
+      "total": 8,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T04:00:47Z",
-  "generated_at": "2026-11-21T04:00:49Z",
-  "generated_at_utc": "2026-11-21T04:00:49Z",
+  "content_latest_at": "2026-11-21T04:01:32Z",
+  "generated_at": "2026-11-21T04:02:49Z",
+  "generated_at_utc": "2026-11-21T04:02:49Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -114,7 +111,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 115
+        "used": 116
       },
       {
         "cap": 300,
@@ -138,7 +135,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 310
+        "used": 322
       },
       {
         "cap": 1000,
@@ -532,7 +529,7 @@
         "healthy": true,
         "model": "glm-5.3-flash",
         "provider": "zhipu-pack",
-        "used": 115
+        "used": 116
       },
       {
         "cap": 300,
@@ -556,7 +553,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 310
+        "used": 322
       },
       {
         "cap": 1000,
@@ -944,35 +941,35 @@
     "done": 53,
     "running": [
       {
-        "age_sec": 66954,
+        "age_sec": 67074,
         "id": "boost-pool-liveness-1795166695",
         "model": "gpt-6.1-sol",
         "started_at": "2026-11-20T09:24:55Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 87282,
+        "age_sec": 87402,
         "id": "boost3-pool-routingintent-1795146367",
         "model": "glm-5.3-flash",
         "started_at": "2026-11-20T03:46:07Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 142488,
+        "age_sec": 142608,
         "id": "fix12-mgrspeed2",
         "model": "cohere/north-mini-code:free",
         "started_at": "2026-11-19T12:26:01Z",
         "workstream": "pool-optimization"
       },
       {
-        "age_sec": 146088,
+        "age_sec": 146208,
         "id": "fix8-wp9-dead",
         "model": "deepseek-v4.1-flash-free",
         "started_at": "2026-11-19T11:26:01Z",
         "workstream": "cloud-script-migration"
       },
       {
-        "age_sec": 146088,
+        "age_sec": 146208,
         "id": "fix9-mgrspeed-dead",
         "model": "openai/gpt-oss-120b",
         "started_at": "2026-11-19T11:26:01Z",
@@ -998,18 +995,13 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T04:00:47Z"
+        "updated": "2026-11-21T04:01:32Z"
       },
       "tasks": {
-        "done": 11,
+        "done": 12,
         "exists": true,
-        "next_open": [
-          {
-            "full": true,
-            "title": "[mechanical] [boss-accept] WP9 queue backlog alert (second-round meeting ruling "
-          }
-        ],
-        "open": 1
+        "next_open": [],
+        "open": 0
       }
     },
     "operations": {
@@ -1072,15 +1064,10 @@
         "updated": "2026-11-21T03:56:58Z"
       },
       "tasks": {
-        "done": 8,
+        "done": 9,
         "exists": true,
-        "next_open": [
-          {
-            "full": true,
-            "title": "[mechanical] Edge fingerprint for Huawei 443 (from secu-006 §8, read-only): from"
-          }
-        ],
-        "open": 1
+        "next_open": [],
+        "open": 0
       }
     },
     "spaces-data": {
@@ -1091,9 +1078,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-21T03:48:57Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-21T04:01:26Z"
       },
       "tasks": {
         "done": 6,
@@ -1102,9 +1089,13 @@
           {
             "full": true,
             "title": "[code] [boss-accept] Space performance phase 2 (from spac-007 ranking + second-r"
+          },
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Fix the spac-009 cache BLOCKING flaws (security review cach"
           }
         ],
-        "open": 1
+        "open": 2
       }
     }
   }
