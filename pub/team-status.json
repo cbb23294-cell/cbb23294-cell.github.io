@@ -2,13 +2,13 @@
   "boards": [
     {
       "done": 13,
-      "escalation_latest": "2026-11-22T05:59:18Z ALERT pub_stale trigger=pub file=vps-deals.json local_state=fresh local_age_sec=0 primary_state=stale primary_age_sec=7200 github_state=stale github_age_sec=7200 threshold_sec=1800 scenario=STUB_BOTH_STALE drill=1 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload.",
+      "escalation_latest": "- key=423d7a6f55a3",
       "next_open": [
         "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala",
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
       "open": 2,
-      "status_updated": "2026-11-22T06:05:47Z",
+      "status_updated": "2026-11-22T06:20:48Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
@@ -53,9 +53,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T06:18:25Z",
-  "generated_at": "2026-11-22T06:19:22Z",
-  "generated_at_utc": "2026-11-22T06:19:22Z",
+  "content_latest_at": "2026-11-22T06:20:48Z",
+  "generated_at": "2026-11-22T06:21:22Z",
+  "generated_at_utc": "2026-11-22T06:21:22Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -131,7 +131,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 809
+        "used": 825
       },
       {
         "cap": 1000,
@@ -155,7 +155,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 213
+        "used": 221
       },
       {
         "cap": 1000,
@@ -171,7 +171,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 235
+        "used": 237
       },
       {
         "cap": 500,
@@ -179,7 +179,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 235
+        "used": 237
       },
       {
         "cap": 500,
@@ -283,7 +283,7 @@
         "healthy": true,
         "model": "gemini-3.8-flash",
         "provider": "google-ai-studio",
-        "used": 35
+        "used": 36
       },
       {
         "cap": 500,
@@ -1072,7 +1072,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 809
+        "used": 825
       },
       {
         "cap": 1000,
@@ -1096,7 +1096,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 213
+        "used": 221
       },
       {
         "cap": 1000,
@@ -1112,7 +1112,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 235
+        "used": 237
       },
       {
         "cap": 500,
@@ -1120,7 +1120,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 235
+        "used": 237
       },
       {
         "cap": 500,
@@ -1224,7 +1224,7 @@
         "healthy": true,
         "model": "gemini-3.8-flash",
         "provider": "google-ai-studio",
-        "used": 35
+        "used": 36
       },
       {
         "cap": 500,
@@ -1999,14 +1999,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "2026-11-22T05:59:18Z ALERT pub_stale trigger=pub file=vps-deals.json local_state=fresh local_age_sec=0 primary_state=stale primary_age_sec=7200 github_state=stale github_age_sec=7200 threshold_sec=1800 scenario=STUB_BOTH_STALE drill=1 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload."
+        "latest": "- key=423d7a6f55a3"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 2,
-        "tasks_total": 2,
-        "updated": "2026-11-22T06:05:47Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-22T06:20:48Z"
       },
       "tasks": {
         "done": 13,
