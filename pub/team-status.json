@@ -12,10 +12,12 @@
     {
       "done": 52,
       "escalation_latest": "- key=9b07af766077",
-      "next_open": [],
-      "open": 0,
+      "next_open": [
+        "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion ("
+      ],
+      "open": 1,
       "status_updated": "2026-11-22T13:28:12Z",
-      "total": 52,
+      "total": 53,
       "workstream": "pool-optimization"
     },
     {
@@ -47,8 +49,8 @@
     }
   ],
   "content_latest_at": "2026-11-22T13:47:37Z",
-  "generated_at": "2026-11-22T13:50:27Z",
-  "generated_at_utc": "2026-11-22T13:50:27Z",
+  "generated_at": "2026-11-22T13:52:52Z",
+  "generated_at_utc": "2026-11-22T13:52:52Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -150,7 +152,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 136
+        "used": 137
       },
       {
         "cap": 300,
@@ -166,7 +168,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 213
+        "used": 215
       },
       {
         "cap": 500,
@@ -470,7 +472,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 300,
@@ -518,7 +520,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 300,
@@ -1291,7 +1293,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 136
+        "used": 137
       },
       {
         "cap": 300,
@@ -1307,7 +1309,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 213
+        "used": 215
       },
       {
         "cap": 500,
@@ -1611,7 +1613,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 300,
@@ -1659,7 +1661,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 300,
@@ -2452,8 +2454,13 @@
       "tasks": {
         "done": 52,
         "exists": true,
-        "next_open": [],
-        "open": 0
+        "next_open": [
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion ("
+          }
+        ],
+        "open": 1
       }
     },
     "security": {
