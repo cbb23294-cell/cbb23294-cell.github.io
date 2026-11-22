@@ -1,7 +1,8 @@
 {
   "ok": true,
   "reason": "",
-  "generated_at": "2026-11-22T11:30:57Z",
+  "generated_at": "2026-11-22T14:59:07Z",
+  "round": "ai-quota-refresh",
   "findings": [
     {
       "guid": "https://github.com/rockbenben/free-llm-intel#76-trae-字节跳动-ai-ide--中国版为主",
@@ -128,50 +129,59 @@
       "providerName": "额度变化 · Anthropic Claude：官方调整高级订阅体系并细化限额：新增 Ultra 计划（$200/月，含 $200 API 额度），Max 计划固定为 $100/月（含 $100 API 额度），并明确免费版同时存在每 5",
       "changeText": "validity：网页免费版额度每 5 小时滚动重置；API 测试额度以账户到账为准 → 网页免费版额度受每 5 小时与每周双重限制（Limited usage every 5 hours and every week）；API 测试额度以账户到账为准 promotions：Pro 订阅 $20/月（年付 $17/月）含 Claude Code；Max 从 $100/月起，含每月 $100 至 $200 的 Claude Platform API 额度；Team 计划含最高 $500/月池化 API 额度；Batch 5 折、提示缓存读低至 0.1x。 → Pro 订阅 $20/月（年付 $17/月）含 Claude Code；Max 为 $100/月（含每月 $100 API 额度，5x Pro 额度）；新增 Ultra 计划 $200/月（含每月 $200 API 额度，10x Pro 周额度，认证账号无 5 小时限制）；Team 计划含最高 $500/月池化 AP…",
       "changeDate": "Sun, 01 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "refresh-2026-11-22-trae",
+      "providerName": "Trae",
+      "changeText": "国际版（trae.ai）免费层由「定价卡无 Free 档（从 Lite $3/月起）」→ 正式上线 Free 免费档：仅限 Auto 模式、含一次性使用额度（不按月重置）+ 每月 5,000 次代码补全 + 2 个并发云端任务；付费档由 Lite $3/月起（Pro 首月 $0 促销）→ Pro $20/月、Pro+ $60/月、Ultra $200/月，早先的 Lite $3 与首月 $0 促销已下线。中国版仍为每月 500 积分体系未变（依据：free-llm-intel 变更日志 2026-11-22）",
+      "changeDate": "2026-11-22"
     }
   ],
-  "warnings": [
-    "feed[7] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
-    "feed[9] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
-    "feed[17] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
-    "feed[20] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
-    "feed[21] duplicate guid 'https://github.com/rockbenben/free-llm-intel#46-morph-labs' dropped (kept first)",
-    "feed[23] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
-    "feed[25] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
-    "feed[26] duplicate guid 'https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云' dropped (kept first)",
-    "feed[27] duplicate guid 'https://github.com/rockbenben/free-llm-intel#16-云知声-token-hu' dropped (kept first)",
-    "feed[30] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[31] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[32] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[33] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[34] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[35] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[36] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[37] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[38] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[39] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[40] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[41] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[42] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[43] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[44] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[45] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[46] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[47] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[48] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[49] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[50] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[51] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[52] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[53] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[54] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[55] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[56] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[57] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[58] dropped (over MAX_FINDINGS=30 cap)",
-    "feed[59] dropped (over MAX_FINDINGS=30 cap)"
-  ],
+  "findingsCount": 22,
   "no_change": false,
+  "warnings": [
+    "fetch: feed[7] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
+    "fetch: feed[9] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
+    "fetch: feed[17] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
+    "fetch: feed[20] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
+    "fetch: feed[21] duplicate guid 'https://github.com/rockbenben/free-llm-intel#46-morph-labs' dropped (kept first)",
+    "fetch: feed[23] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
+    "fetch: feed[25] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
+    "fetch: feed[26] duplicate guid 'https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云' dropped (kept first)",
+    "fetch: feed[27] duplicate guid 'https://github.com/rockbenben/free-llm-intel#16-云知声-token-hu' dropped (kept first)",
+    "fetch: feed[30] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[31] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[32] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[33] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[34] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[35] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[36] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[37] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[38] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[39] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[40] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[41] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[42] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[43] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[44] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[45] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[46] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[47] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[48] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[49] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[50] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[51] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[52] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[53] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[54] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[55] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[56] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[57] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[58] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[59] dropped (over MAX_FINDINGS=30 cap)",
+    "verify: 页面抓取失败 OpenRouter 免费模型与定价：HTTP Error 403: Forbidden",
+    "verify: 页面抓取失败 Groq 限速文档：HTTP Error 403: Forbidden"
+  ],
   "sources": {
     "openrouter": {
       "ok": true,
@@ -185,5 +195,59 @@
       "ok": true,
       "items": 75
     }
-  }
+  },
+  "pool": {
+    "ok": true,
+    "path": "/chat/completions",
+    "attempt": 1
+  },
+  "pages": [
+    {
+      "name": "free-llm-intel README",
+      "url": "https://raw.githubusercontent.com/rockbenben/free-llm-intel/main/README.md",
+      "ok": true,
+      "chars": 12006
+    },
+    {
+      "name": "free-llm-intel 变更日志",
+      "url": "https://raw.githubusercontent.com/rockbenben/free-llm-intel/main/llm-intel-changelog.md",
+      "ok": true,
+      "chars": 12006
+    },
+    {
+      "name": "OpenRouter 免费模型与定价",
+      "url": "https://openrouter.ai/docs/pricing",
+      "ok": false,
+      "chars": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "智谱 GLM 定价页",
+      "url": "https://open.bigmodel.cn/pricing",
+      "ok": true,
+      "chars": 14
+    },
+    {
+      "name": "Google AI Studio 免费层",
+      "url": "https://ai.google.dev/pricing",
+      "ok": true,
+      "chars": 12006
+    },
+    {
+      "name": "Groq 限速文档",
+      "url": "https://console.groq.com/docs/rate-limits",
+      "ok": false,
+      "chars": 0,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "name": "商汤日日新 Token Plan",
+      "url": "https://platform.sensenova.cn/docs",
+      "ok": true,
+      "chars": 24
+    }
+  ],
+  "judged": true,
+  "maxAgeSec": 259200,
+  "cronIntervalSec": 86400
 }
