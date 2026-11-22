@@ -1,7 +1,7 @@
 {
   "ok": true,
   "reason": "",
-  "generated_at": "2026-11-22T14:59:07Z",
+  "generated_at": "2026-11-22T17:18:57Z",
   "round": "ai-quota-refresh",
   "findings": [
     {
@@ -129,15 +129,9 @@
       "providerName": "额度变化 · Anthropic Claude：官方调整高级订阅体系并细化限额：新增 Ultra 计划（$200/月，含 $200 API 额度），Max 计划固定为 $100/月（含 $100 API 额度），并明确免费版同时存在每 5",
       "changeText": "validity：网页免费版额度每 5 小时滚动重置；API 测试额度以账户到账为准 → 网页免费版额度受每 5 小时与每周双重限制（Limited usage every 5 hours and every week）；API 测试额度以账户到账为准 promotions：Pro 订阅 $20/月（年付 $17/月）含 Claude Code；Max 从 $100/月起，含每月 $100 至 $200 的 Claude Platform API 额度；Team 计划含最高 $500/月池化 API 额度；Batch 5 折、提示缓存读低至 0.1x。 → Pro 订阅 $20/月（年付 $17/月）含 Claude Code；Max 为 $100/月（含每月 $100 API 额度，5x Pro 额度）；新增 Ultra 计划 $200/月（含每月 $200 API 额度，10x Pro 周额度，认证账号无 5 小时限制）；Team 计划含最高 $500/月池化 AP…",
       "changeDate": "Sun, 01 Nov 2026 00:00:00 +0000"
-    },
-    {
-      "guid": "refresh-2026-11-22-trae",
-      "providerName": "Trae",
-      "changeText": "国际版（trae.ai）免费层由「定价卡无 Free 档（从 Lite $3/月起）」→ 正式上线 Free 免费档：仅限 Auto 模式、含一次性使用额度（不按月重置）+ 每月 5,000 次代码补全 + 2 个并发云端任务；付费档由 Lite $3/月起（Pro 首月 $0 促销）→ Pro $20/月、Pro+ $60/月、Ultra $200/月，早先的 Lite $3 与首月 $0 促销已下线。中国版仍为每月 500 积分体系未变（依据：free-llm-intel 变更日志 2026-11-22）",
-      "changeDate": "2026-11-22"
     }
   ],
-  "findingsCount": 22,
+  "findingsCount": 21,
   "no_change": false,
   "warnings": [
     "fetch: feed[7] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
