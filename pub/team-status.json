@@ -2,7 +2,7 @@
   "boards": [
     {
       "done": 13,
-      "escalation_latest": "- key=2c78fb44cb52",
+      "escalation_latest": "- key=89703e03d723",
       "next_open": [
         "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala",
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
@@ -19,7 +19,7 @@
         "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing "
       ],
       "open": 1,
-      "status_updated": "2026-11-22T09:26:14Z",
+      "status_updated": "2026-11-22T09:43:19Z",
       "total": 52,
       "workstream": "pool-optimization"
     },
@@ -51,9 +51,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T09:40:24Z",
-  "generated_at": "2026-11-22T09:41:21Z",
-  "generated_at_utc": "2026-11-22T09:41:21Z",
+  "content_latest_at": "2026-11-22T09:43:19Z",
+  "generated_at": "2026-11-22T09:43:21Z",
+  "generated_at_utc": "2026-11-22T09:43:21Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 561
+        "used": 567
       },
       {
         "cap": 1000,
@@ -185,7 +185,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 29
+        "used": 32
       },
       {
         "cap": 500,
@@ -193,7 +193,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 29
+        "used": 32
       },
       {
         "cap": 1000,
@@ -209,7 +209,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 191
+        "used": 192
       },
       {
         "cap": 1000,
@@ -273,7 +273,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 326
+        "used": 330
       },
       {
         "cap": 500,
@@ -1078,7 +1078,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 561
+        "used": 567
       },
       {
         "cap": 1000,
@@ -1126,7 +1126,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 29
+        "used": 32
       },
       {
         "cap": 500,
@@ -1134,7 +1134,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 29
+        "used": 32
       },
       {
         "cap": 1000,
@@ -1150,7 +1150,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 191
+        "used": 192
       },
       {
         "cap": 1000,
@@ -1214,7 +1214,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 326
+        "used": 330
       },
       {
         "cap": 500,
@@ -1997,7 +1997,7 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=2c78fb44cb52"
+        "latest": "- key=89703e03d723"
       },
       "status": {
         "exists": true,
@@ -2049,9 +2049,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-22T09:26:14Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-22T09:43:19Z"
       },
       "tasks": {
         "done": 51,
