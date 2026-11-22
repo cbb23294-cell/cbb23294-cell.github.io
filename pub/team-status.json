@@ -2,7 +2,7 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "2026-11-22T18:09:32Z ALERT pub_stale trigger=pub kind=collector_dead file=ai-quota-catalog.json local_state=missing local_age_sec=none primary_state=missing primary_age_sec=none github_state=missing github_age_sec=none threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss.",
+      "escalation_latest": "2026-11-22T18:20:13Z ALERT pub_stale trigger=pub kind=collector_dead file=token-perks.json local_state=missing local_age_sec=none primary_state=stale primary_age_sec=149404 github_state=stale github_age_sec=149404 threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss.",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
@@ -14,14 +14,14 @@
     },
     {
       "done": 53,
-      "escalation_latest": "- key=9148deeafd93",
+      "escalation_latest": "- key=48ba8195d4bf",
       "next_open": [
         "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion (",
         "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261",
         "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
       ],
       "open": 9,
-      "status_updated": "2026-11-22T18:04:40Z",
+      "status_updated": "2026-11-22T18:19:44Z",
       "total": 62,
       "workstream": "pool-optimization"
     },
@@ -55,9 +55,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T18:14:48Z",
-  "generated_at": "2026-11-22T18:17:53Z",
-  "generated_at_utc": "2026-11-22T18:17:53Z",
+  "content_latest_at": "2026-11-22T18:19:44Z",
+  "generated_at": "2026-11-22T18:20:28Z",
+  "generated_at_utc": "2026-11-22T18:20:28Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -167,7 +167,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 466
+        "used": 468
       },
       {
         "cap": 500,
@@ -615,7 +615,7 @@
         "healthy": true,
         "model": "z-ai/glm-5.3:free",
         "provider": "numes",
-        "used": 33
+        "used": 36
       },
       {
         "cap": 300,
@@ -1476,7 +1476,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 466
+        "used": 468
       },
       {
         "cap": 500,
@@ -1924,7 +1924,7 @@
         "healthy": true,
         "model": "z-ai/glm-5.3:free",
         "provider": "numes",
-        "used": 33
+        "used": 36
       },
       {
         "cap": 300,
@@ -2747,7 +2747,7 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "2026-11-22T18:09:32Z ALERT pub_stale trigger=pub kind=collector_dead file=ai-quota-catalog.json local_state=missing local_age_sec=none primary_state=missing primary_age_sec=none github_state=missing github_age_sec=none threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss."
+        "latest": "2026-11-22T18:20:13Z ALERT pub_stale trigger=pub kind=collector_dead file=token-perks.json local_state=missing local_age_sec=none primary_state=stale primary_age_sec=149404 github_state=stale github_age_sec=149404 threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss."
       },
       "status": {
         "exists": true,
@@ -2799,14 +2799,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=9148deeafd93"
+        "latest": "- key=48ba8195d4bf"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 6,
-        "tasks_total": 6,
-        "updated": "2026-11-22T18:04:40Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-22T18:19:44Z"
       },
       "tasks": {
         "done": 53,
