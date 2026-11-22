@@ -8,18 +8,18 @@
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
       "open": 2,
-      "status_updated": "2026-11-22T10:25:30Z",
+      "status_updated": "2026-11-22T10:32:04Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
     {
       "done": 51,
-      "escalation_latest": "- key=51a32e99ffbb",
+      "escalation_latest": "- key=76a49a55087d",
       "next_open": [
         "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing "
       ],
       "open": 1,
-      "status_updated": "2026-11-22T10:14:06Z",
+      "status_updated": "2026-11-22T10:29:54Z",
       "total": 52,
       "workstream": "pool-optimization"
     },
@@ -51,9 +51,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T10:27:20Z",
-  "generated_at": "2026-11-22T10:29:17Z",
-  "generated_at_utc": "2026-11-22T10:29:17Z",
+  "content_latest_at": "2026-11-22T10:32:04Z",
+  "generated_at": "2026-11-22T10:32:04Z",
+  "generated_at_utc": "2026-11-22T10:32:04Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 711
+        "used": 716
       },
       {
         "cap": 1000,
@@ -145,7 +145,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 105
+        "used": 106
       },
       {
         "cap": 300,
@@ -209,7 +209,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 209
+        "used": 213
       },
       {
         "cap": 1000,
@@ -1078,7 +1078,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 711
+        "used": 716
       },
       {
         "cap": 1000,
@@ -1086,7 +1086,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 105
+        "used": 106
       },
       {
         "cap": 300,
@@ -1150,7 +1150,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 209
+        "used": 213
       },
       {
         "cap": 1000,
@@ -2002,9 +2002,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 2,
-        "tasks_total": 2,
-        "updated": "2026-11-22T10:25:30Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-22T10:32:04Z"
       },
       "tasks": {
         "done": 13,
@@ -2044,14 +2044,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=51a32e99ffbb"
+        "latest": "- key=76a49a55087d"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-22T10:14:06Z"
+        "updated": "2026-11-22T10:29:54Z"
       },
       "tasks": {
         "done": 51,
