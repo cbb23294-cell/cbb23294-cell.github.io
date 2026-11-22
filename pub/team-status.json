@@ -14,7 +14,7 @@
     },
     {
       "done": 53,
-      "escalation_latest": "- key=f2748d565ad4",
+      "escalation_latest": "- key=ce803dd48a5c",
       "next_open": [
         "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion (",
         "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261",
@@ -30,7 +30,7 @@
       "escalation_latest": "- key=3c0f441978e3",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T22:29:20Z",
+      "status_updated": "2026-11-22T22:49:51Z",
       "total": 12,
       "workstream": "security"
     },
@@ -55,9 +55,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T22:44:06Z",
-  "generated_at": "2026-11-22T22:48:11Z",
-  "generated_at_utc": "2026-11-22T22:48:11Z",
+  "content_latest_at": "2026-11-22T22:49:51Z",
+  "generated_at": "2026-11-22T22:50:36Z",
+  "generated_at_utc": "2026-11-22T22:50:36Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -167,7 +167,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 729
+        "used": 731
       },
       {
         "cap": 500,
@@ -207,7 +207,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 214
+        "used": 215
       },
       {
         "cap": 1000,
@@ -215,7 +215,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 441
+        "used": 442
       },
       {
         "cap": 1000,
@@ -223,7 +223,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 209
+        "used": 211
       },
       {
         "cap": 300,
@@ -319,7 +319,7 @@
         "healthy": false,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-2",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -335,7 +335,7 @@
         "healthy": false,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -367,7 +367,7 @@
         "healthy": false,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 1000,
@@ -391,7 +391,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 55
+        "used": 56
       },
       {
         "cap": 300,
@@ -399,7 +399,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 60
+        "used": 61
       },
       {
         "cap": 300,
@@ -407,7 +407,7 @@
         "healthy": true,
         "model": "allam-2-7b:free",
         "provider": "unorouter",
-        "used": 235
+        "used": 238
       },
       {
         "cap": 300,
@@ -415,7 +415,7 @@
         "healthy": true,
         "model": "crow-roleplay:free",
         "provider": "crowllm",
-        "used": 29
+        "used": 30
       },
       {
         "cap": 300,
@@ -423,7 +423,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1:free",
         "provider": "crowllm",
-        "used": 39
+        "used": 40
       },
       {
         "cap": 300,
@@ -431,7 +431,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1-uncensored:free",
         "provider": "crowllm",
-        "used": 34
+        "used": 35
       },
       {
         "cap": 300,
@@ -463,7 +463,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-bolt-e4b:free",
         "provider": "crowllm",
-        "used": 30
+        "used": 31
       },
       {
         "cap": 300,
@@ -471,7 +471,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
         "provider": "crowllm",
-        "used": 30
+        "used": 31
       },
       {
         "cap": 300,
@@ -479,7 +479,7 @@
         "healthy": true,
         "model": "nemotron-3.5-super-vl:free",
         "provider": "crowllm",
-        "used": 42
+        "used": 45
       },
       {
         "cap": 300,
@@ -495,7 +495,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 41
+        "used": 42
       },
       {
         "cap": 300,
@@ -503,7 +503,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b-uncensored:free",
         "provider": "crowllm",
-        "used": 35
+        "used": 36
       },
       {
         "cap": 300,
@@ -511,7 +511,7 @@
         "healthy": true,
         "model": "particle-1:free",
         "provider": "crowllm",
-        "used": 35
+        "used": 36
       },
       {
         "cap": 300,
@@ -527,7 +527,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 27
+        "used": 28
       },
       {
         "cap": 300,
@@ -543,7 +543,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b:free",
         "provider": "crowllm",
-        "used": 27
+        "used": 29
       },
       {
         "cap": 300,
@@ -551,7 +551,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-safeguard-20b:free",
         "provider": "crowllm",
-        "used": 25
+        "used": 27
       },
       {
         "cap": 300,
@@ -631,7 +631,7 @@
         "healthy": true,
         "model": "dealignai/glm-5.3-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 61
+        "used": 63
       },
       {
         "cap": 300,
@@ -951,7 +951,7 @@
         "healthy": false,
         "model": "codex-auto-review",
         "provider": "xingchi",
-        "used": 0
+        "used": 2
       },
       {
         "cap": 200000,
@@ -1071,7 +1071,7 @@
         "healthy": false,
         "model": "codex-auto-review",
         "provider": "xingchi-4",
-        "used": 0
+        "used": 3
       },
       {
         "cap": 200000,
@@ -1191,7 +1191,7 @@
         "healthy": false,
         "model": "codex-auto-review",
         "provider": "xingchi-2",
-        "used": 0
+        "used": 2
       },
       {
         "cap": 200000,
@@ -1311,7 +1311,7 @@
         "healthy": false,
         "model": "codex-auto-review",
         "provider": "xingchi-6",
-        "used": 0
+        "used": 3
       },
       {
         "cap": 200000,
@@ -1476,7 +1476,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 729
+        "used": 731
       },
       {
         "cap": 500,
@@ -1516,7 +1516,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 214
+        "used": 215
       },
       {
         "cap": 1000,
@@ -1524,7 +1524,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 441
+        "used": 442
       },
       {
         "cap": 1000,
@@ -1532,7 +1532,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 209
+        "used": 211
       },
       {
         "cap": 300,
@@ -1628,7 +1628,7 @@
         "healthy": false,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-2",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1644,7 +1644,7 @@
         "healthy": false,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1676,7 +1676,7 @@
         "healthy": false,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 1000,
@@ -1700,7 +1700,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 55
+        "used": 56
       },
       {
         "cap": 300,
@@ -1708,7 +1708,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 60
+        "used": 61
       },
       {
         "cap": 300,
@@ -1716,7 +1716,7 @@
         "healthy": true,
         "model": "allam-2-7b:free",
         "provider": "unorouter",
-        "used": 235
+        "used": 238
       },
       {
         "cap": 300,
@@ -1724,7 +1724,7 @@
         "healthy": true,
         "model": "crow-roleplay:free",
         "provider": "crowllm",
-        "used": 29
+        "used": 30
       },
       {
         "cap": 300,
@@ -1732,7 +1732,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1:free",
         "provider": "crowllm",
-        "used": 39
+        "used": 40
       },
       {
         "cap": 300,
@@ -1740,7 +1740,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1-uncensored:free",
         "provider": "crowllm",
-        "used": 34
+        "used": 35
       },
       {
         "cap": 300,
@@ -1772,7 +1772,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-bolt-e4b:free",
         "provider": "crowllm",
-        "used": 30
+        "used": 31
       },
       {
         "cap": 300,
@@ -1780,7 +1780,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
         "provider": "crowllm",
-        "used": 30
+        "used": 31
       },
       {
         "cap": 300,
@@ -1788,7 +1788,7 @@
         "healthy": true,
         "model": "nemotron-3.5-super-vl:free",
         "provider": "crowllm",
-        "used": 42
+        "used": 45
       },
       {
         "cap": 300,
@@ -1804,7 +1804,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 41
+        "used": 42
       },
       {
         "cap": 300,
@@ -1812,7 +1812,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b-uncensored:free",
         "provider": "crowllm",
-        "used": 35
+        "used": 36
       },
       {
         "cap": 300,
@@ -1820,7 +1820,7 @@
         "healthy": true,
         "model": "particle-1:free",
         "provider": "crowllm",
-        "used": 35
+        "used": 36
       },
       {
         "cap": 300,
@@ -1836,7 +1836,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 27
+        "used": 28
       },
       {
         "cap": 300,
@@ -1852,7 +1852,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b:free",
         "provider": "crowllm",
-        "used": 27
+        "used": 29
       },
       {
         "cap": 300,
@@ -1860,7 +1860,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-safeguard-20b:free",
         "provider": "crowllm",
-        "used": 25
+        "used": 27
       },
       {
         "cap": 300,
@@ -1940,7 +1940,7 @@
         "healthy": true,
         "model": "dealignai/glm-5.3-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 61
+        "used": 63
       },
       {
         "cap": 300,
@@ -2260,7 +2260,7 @@
         "healthy": false,
         "model": "codex-auto-review",
         "provider": "xingchi",
-        "used": 0
+        "used": 2
       },
       {
         "cap": 200000,
@@ -2380,7 +2380,7 @@
         "healthy": false,
         "model": "codex-auto-review",
         "provider": "xingchi-4",
-        "used": 0
+        "used": 3
       },
       {
         "cap": 200000,
@@ -2500,7 +2500,7 @@
         "healthy": false,
         "model": "codex-auto-review",
         "provider": "xingchi-2",
-        "used": 0
+        "used": 2
       },
       {
         "cap": 200000,
@@ -2620,7 +2620,7 @@
         "healthy": false,
         "model": "codex-auto-review",
         "provider": "xingchi-6",
-        "used": 0
+        "used": 3
       },
       {
         "cap": 200000,
@@ -2799,7 +2799,7 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=f2748d565ad4"
+        "latest": "- key=ce803dd48a5c"
       },
       "status": {
         "exists": true,
@@ -2838,7 +2838,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T22:29:20Z"
+        "updated": "2026-11-22T22:49:51Z"
       },
       "tasks": {
         "done": 12,
