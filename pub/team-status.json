@@ -58,8 +58,8 @@
     }
   ],
   "content_latest_at": "2026-11-22T03:21:37Z",
-  "generated_at": "2026-11-22T03:24:00Z",
-  "generated_at_utc": "2026-11-22T03:24:00Z",
+  "generated_at": "2026-11-22T03:26:00Z",
+  "generated_at_utc": "2026-11-22T03:26:00Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -127,7 +127,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 860
+        "used": 874
       },
       {
         "cap": 1000,
@@ -135,7 +135,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 53
+        "used": 57
       },
       {
         "cap": 1000,
@@ -175,7 +175,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 131
+        "used": 137
       },
       {
         "cap": 500,
@@ -183,7 +183,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 131
+        "used": 137
       },
       {
         "cap": 500,
@@ -215,7 +215,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 2
+        "used": 4
       },
       {
         "cap": 1000,
@@ -255,7 +255,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "openrouter",
-        "used": 31
+        "used": 33
       },
       {
         "cap": 45,
@@ -263,7 +263,7 @@
         "healthy": true,
         "model": "google/gemma-4-31b-it:free",
         "provider": "openrouter",
-        "used": 31
+        "used": 33
       },
       {
         "cap": 45,
@@ -271,7 +271,7 @@
         "healthy": true,
         "model": "cohere/north-mini-code:free",
         "provider": "openrouter",
-        "used": 31
+        "used": 33
       },
       {
         "cap": 500,
@@ -287,7 +287,7 @@
         "healthy": true,
         "model": "gemini-3.8-flash",
         "provider": "google-ai-studio",
-        "used": 15
+        "used": 17
       },
       {
         "cap": 500,
@@ -407,7 +407,31 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 5
+        "used": 10
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "agnes-2.5-flash:free",
+        "provider": "unorouter",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "agnes-3.0-flash:free",
+        "provider": "unorouter",
+        "used": 1
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "allam-2-7b:free",
+        "provider": "unorouter",
+        "used": 1
       },
       {
         "cap": 200000,
@@ -1018,10 +1042,10 @@
         "used": 0
       }
     ],
-    "healthy_entries": 36,
+    "healthy_entries": 39,
     "ok": true,
     "reachable": true,
-    "used_today": 31
+    "used_today": 33
   },
   "pool_health": {
     "cap": 45,
@@ -1044,7 +1068,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 860
+        "used": 874
       },
       {
         "cap": 1000,
@@ -1052,7 +1076,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 53
+        "used": 57
       },
       {
         "cap": 1000,
@@ -1092,7 +1116,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 131
+        "used": 137
       },
       {
         "cap": 500,
@@ -1100,7 +1124,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 131
+        "used": 137
       },
       {
         "cap": 500,
@@ -1132,7 +1156,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 2
+        "used": 4
       },
       {
         "cap": 1000,
@@ -1172,7 +1196,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "openrouter",
-        "used": 31
+        "used": 33
       },
       {
         "cap": 45,
@@ -1180,7 +1204,7 @@
         "healthy": true,
         "model": "google/gemma-4-31b-it:free",
         "provider": "openrouter",
-        "used": 31
+        "used": 33
       },
       {
         "cap": 45,
@@ -1188,7 +1212,7 @@
         "healthy": true,
         "model": "cohere/north-mini-code:free",
         "provider": "openrouter",
-        "used": 31
+        "used": 33
       },
       {
         "cap": 500,
@@ -1204,7 +1228,7 @@
         "healthy": true,
         "model": "gemini-3.8-flash",
         "provider": "google-ai-studio",
-        "used": 15
+        "used": 17
       },
       {
         "cap": 500,
@@ -1324,7 +1348,31 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 5
+        "used": 10
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "agnes-2.5-flash:free",
+        "provider": "unorouter",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "agnes-3.0-flash:free",
+        "provider": "unorouter",
+        "used": 1
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "allam-2-7b:free",
+        "provider": "unorouter",
+        "used": 1
       },
       {
         "cap": 200000,
@@ -1935,10 +1983,10 @@
         "used": 0
       }
     ],
-    "healthy_entries": 36,
+    "healthy_entries": 39,
     "ok": true,
     "reachable": true,
-    "used_today": 31
+    "used_today": 33
   },
   "tracked_jobs": {
     "done": 58,
