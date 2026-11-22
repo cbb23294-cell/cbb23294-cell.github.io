@@ -32,7 +32,7 @@
       "escalation_latest": "- key=cc14636f3caa",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T13:06:05Z",
+      "status_updated": "2026-11-22T13:21:51Z",
       "total": 18,
       "workstream": "operations"
     },
@@ -46,9 +46,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T13:17:35Z",
-  "generated_at": "2026-11-22T13:19:25Z",
-  "generated_at_utc": "2026-11-22T13:19:25Z",
+  "content_latest_at": "2026-11-22T13:21:51Z",
+  "generated_at": "2026-11-22T13:21:55Z",
+  "generated_at_utc": "2026-11-22T13:21:55Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -127,12 +127,12 @@
         "used": 1050
       },
       {
-        "cap": 1278,
+        "cap": 1000,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 1277
+        "used": 1280
       },
       {
         "cap": 1000,
@@ -140,7 +140,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 128
+        "used": 129
       },
       {
         "cap": 300,
@@ -421,6 +421,174 @@
         "model": "allam-2-7b:free",
         "provider": "unorouter",
         "used": 1
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "crow-roleplay:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "laguna-xs-2.1:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "laguna-xs-2.1-uncensored:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/mistral-large-4-1t-a52b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nemotron-3-ultra-550b-a55b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3.5-bolt-e4b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nemotron-3.5-super-vl:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "jais-3-mova-36b-a4b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "k2-horizon-375b-a23b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "k2-horizon-375b-a23b-uncensored:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "particle-1:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "step-5-preview:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "grok-4.7:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "grok-4.7-fast:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "openai/gpt-oss-20b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "openai/gpt-oss-safeguard-20b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia-deepseek-v4-1-flash-nvfp4",
+        "provider": "packet-ai",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "minimaxai-minimax-m3-1-flash",
+        "provider": "packet-ai",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "qwen-qwen2-5-1-5b-instruct",
+        "provider": "packet-ai",
+        "used": 0
       },
       {
         "cap": 200000,
@@ -1031,7 +1199,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 31,
+    "healthy_entries": 51,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -1068,12 +1236,12 @@
         "used": 1050
       },
       {
-        "cap": 1278,
+        "cap": 1000,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 1277
+        "used": 1280
       },
       {
         "cap": 1000,
@@ -1081,7 +1249,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 128
+        "used": 129
       },
       {
         "cap": 300,
@@ -1362,6 +1530,174 @@
         "model": "allam-2-7b:free",
         "provider": "unorouter",
         "used": 1
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "crow-roleplay:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "laguna-xs-2.1:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "laguna-xs-2.1-uncensored:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/mistral-large-4-1t-a52b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nemotron-3-ultra-550b-a55b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3.5-bolt-e4b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nemotron-3.5-super-vl:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "jais-3-mova-36b-a4b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "k2-horizon-375b-a23b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "k2-horizon-375b-a23b-uncensored:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "particle-1:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "step-5-preview:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "grok-4.7:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "grok-4.7-fast:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "openai/gpt-oss-20b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "openai/gpt-oss-safeguard-20b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia-deepseek-v4-1-flash-nvfp4",
+        "provider": "packet-ai",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "minimaxai-minimax-m3-1-flash",
+        "provider": "packet-ai",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "qwen-qwen2-5-1-5b-instruct",
+        "provider": "packet-ai",
+        "used": 0
       },
       {
         "cap": 200000,
@@ -1972,7 +2308,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 31,
+    "healthy_entries": 51,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -2018,7 +2354,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T13:06:05Z"
+        "updated": "2026-11-22T13:21:51Z"
       },
       "tasks": {
         "done": 18,
