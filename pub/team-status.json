@@ -8,19 +8,18 @@
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
       "open": 2,
-      "status_updated": "2026-11-22T03:41:34Z",
+      "status_updated": "2026-11-22T03:50:02Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
     {
-      "done": 49,
+      "done": 50,
       "escalation_latest": "- key=5007d7dc9d12",
       "next_open": [
         "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing ",
-        "[code] [boss-accept] Event-stream flapping fix: REINFORCE line identity in board",
         "[mech] Slice-failure classification ledger (meeting 20261122T024728Z ruling R-1)"
       ],
-      "open": 3,
+      "open": 2,
       "status_updated": "2026-11-22T03:41:35Z",
       "total": 52,
       "workstream": "pool-optimization"
@@ -55,9 +54,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T03:47:26Z",
-  "generated_at": "2026-11-22T03:49:05Z",
-  "generated_at_utc": "2026-11-22T03:49:05Z",
+  "content_latest_at": "2026-11-22T03:50:02Z",
+  "generated_at": "2026-11-22T03:53:05Z",
+  "generated_at_utc": "2026-11-22T03:53:05Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -125,7 +124,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 960
+        "used": 981
       },
       {
         "cap": 1000,
@@ -277,7 +276,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 23
+        "used": 28
       },
       {
         "cap": 500,
@@ -1066,7 +1065,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 960
+        "used": 981
       },
       {
         "cap": 1000,
@@ -1218,7 +1217,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 23
+        "used": 28
       },
       {
         "cap": 500,
@@ -2006,9 +2005,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-22T03:41:34Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-22T03:50:02Z"
       },
       "tasks": {
         "done": 13,
@@ -2063,7 +2062,7 @@
         "updated": "2026-11-22T03:41:35Z"
       },
       "tasks": {
-        "done": 49,
+        "done": 50,
         "exists": true,
         "next_open": [
           {
@@ -2072,14 +2071,10 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Event-stream flapping fix: REINFORCE line identity in board"
-          },
-          {
-            "full": true,
             "title": "[mech] Slice-failure classification ledger (meeting 20261122T024728Z ruling R-1)"
           }
         ],
-        "open": 3
+        "open": 2
       }
     },
     "security": {
