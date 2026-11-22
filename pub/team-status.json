@@ -20,7 +20,7 @@
         "[mech] Slice-failure classification ledger (meeting 20261122T024728Z ruling R-1)"
       ],
       "open": 2,
-      "status_updated": "2026-11-22T04:01:42Z",
+      "status_updated": "2026-11-22T04:14:04Z",
       "total": 52,
       "workstream": "pool-optimization"
     },
@@ -40,7 +40,7 @@
         "[boss-accept] User-found mapping table (meeting 20261122T024728Z ruling R-4, sec"
       ],
       "open": 1,
-      "status_updated": "2026-11-22T04:05:47Z",
+      "status_updated": "2026-11-22T04:15:35Z",
       "total": 17,
       "workstream": "operations"
     },
@@ -54,9 +54,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T04:05:47Z",
-  "generated_at": "2026-11-22T04:09:08Z",
-  "generated_at_utc": "2026-11-22T04:09:08Z",
+  "content_latest_at": "2026-11-22T04:15:35Z",
+  "generated_at": "2026-11-22T04:15:52Z",
+  "generated_at_utc": "2026-11-22T04:15:52Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -119,12 +119,12 @@
     ],
     "entries": [
       {
-        "cap": 1103,
+        "cap": 1000,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 1062
+        "used": 1076
       },
       {
         "cap": 1000,
@@ -132,7 +132,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 67
+        "used": 82
       },
       {
         "cap": 1000,
@@ -140,7 +140,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 1000,
@@ -148,7 +148,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 300,
@@ -156,7 +156,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 1000,
@@ -164,7 +164,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 500,
@@ -172,7 +172,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 181
+        "used": 187
       },
       {
         "cap": 500,
@@ -180,7 +180,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 181
+        "used": 187
       },
       {
         "cap": 500,
@@ -228,7 +228,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 16
+        "used": 19
       },
       {
         "cap": 300,
@@ -236,7 +236,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 16
+        "used": 19
       },
       {
         "cap": 300,
@@ -244,7 +244,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 16
+        "used": 19
       },
       {
         "cap": 45,
@@ -1039,7 +1039,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 36,
+    "healthy_entries": 35,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -1060,12 +1060,12 @@
     ],
     "entries": [
       {
-        "cap": 1103,
+        "cap": 1000,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 1062
+        "used": 1076
       },
       {
         "cap": 1000,
@@ -1073,7 +1073,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 67
+        "used": 82
       },
       {
         "cap": 1000,
@@ -1081,7 +1081,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 1000,
@@ -1089,7 +1089,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 300,
@@ -1097,7 +1097,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 1000,
@@ -1105,7 +1105,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 500,
@@ -1113,7 +1113,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 181
+        "used": 187
       },
       {
         "cap": 500,
@@ -1121,7 +1121,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 181
+        "used": 187
       },
       {
         "cap": 500,
@@ -1169,7 +1169,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 16
+        "used": 19
       },
       {
         "cap": 300,
@@ -1177,7 +1177,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 16
+        "used": 19
       },
       {
         "cap": 300,
@@ -1185,7 +1185,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 16
+        "used": 19
       },
       {
         "cap": 45,
@@ -1980,7 +1980,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 36,
+    "healthy_entries": 35,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -2033,9 +2033,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-22T04:05:47Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-22T04:15:35Z"
       },
       "tasks": {
         "done": 16,
@@ -2057,9 +2057,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 2,
-        "tasks_total": 2,
-        "updated": "2026-11-22T04:01:42Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-22T04:14:04Z"
       },
       "tasks": {
         "done": 50,
