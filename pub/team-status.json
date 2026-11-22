@@ -14,12 +14,12 @@
     },
     {
       "done": 51,
-      "escalation_latest": "- key=669e48f4512e",
+      "escalation_latest": "- key=c8915e3ebdfe",
       "next_open": [
         "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing "
       ],
       "open": 1,
-      "status_updated": "2026-11-22T10:57:34Z",
+      "status_updated": "2026-11-22T11:04:37Z",
       "total": 52,
       "workstream": "pool-optimization"
     },
@@ -51,9 +51,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T11:00:09Z",
-  "generated_at": "2026-11-22T11:03:58Z",
-  "generated_at_utc": "2026-11-22T11:03:58Z",
+  "content_latest_at": "2026-11-22T11:04:37Z",
+  "generated_at": "2026-11-22T11:06:24Z",
+  "generated_at_utc": "2026-11-22T11:06:24Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 786
+        "used": 794
       },
       {
         "cap": 1000,
@@ -209,7 +209,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 225
+        "used": 228
       },
       {
         "cap": 1000,
@@ -1078,7 +1078,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 786
+        "used": 794
       },
       {
         "cap": 1000,
@@ -1150,7 +1150,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 225
+        "used": 228
       },
       {
         "cap": 1000,
@@ -2044,14 +2044,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=669e48f4512e"
+        "latest": "- key=c8915e3ebdfe"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-22T10:57:34Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-22T11:04:37Z"
       },
       "tasks": {
         "done": 51,
