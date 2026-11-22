@@ -2,7 +2,7 @@
   "boards": [
     {
       "done": 13,
-      "escalation_latest": "2026-11-22T01:28:31Z ALERT pub_stale trigger=pub file=vps-deals.json local_state=fresh local_age_sec=0 primary_state=stale primary_age_sec=7200 github_state=stale github_age_sec=7200 threshold_sec=1800 scenario=STUB_BOTH_STALE drill=1 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload.",
+      "escalation_latest": "2026-11-22T01:58:36Z ALERT pub_stale trigger=pub file=vps-deals.json local_state=fresh local_age_sec=0 primary_state=stale primary_age_sec=7200 github_state=stale github_age_sec=7200 threshold_sec=1800 scenario=STUB_BOTH_STALE drill=1 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload.",
       "next_open": [
         "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala",
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
@@ -29,7 +29,7 @@
       "escalation_latest": "- key=3c0f441978e3",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T01:39:15Z",
+      "status_updated": "2026-11-22T01:59:16Z",
       "total": 12,
       "workstream": "security"
     },
@@ -52,9 +52,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T01:51:16Z",
-  "generated_at": "2026-11-22T01:54:39Z",
-  "generated_at_utc": "2026-11-22T01:54:39Z",
+  "content_latest_at": "2026-11-22T01:59:16Z",
+  "generated_at": "2026-11-22T02:00:41Z",
+  "generated_at_utc": "2026-11-22T02:00:41Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -111,7 +111,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 455
+        "used": 486
       },
       {
         "cap": 1000,
@@ -119,7 +119,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 1000,
@@ -1009,7 +1009,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 455
+        "used": 486
       },
       {
         "cap": 1000,
@@ -1017,7 +1017,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 1000,
@@ -1912,7 +1912,7 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "2026-11-22T01:28:31Z ALERT pub_stale trigger=pub file=vps-deals.json local_state=fresh local_age_sec=0 primary_state=stale primary_age_sec=7200 github_state=stale github_age_sec=7200 threshold_sec=1800 scenario=STUB_BOTH_STALE drill=1 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload."
+        "latest": "2026-11-22T01:58:36Z ALERT pub_stale trigger=pub file=vps-deals.json local_state=fresh local_age_sec=0 primary_state=stale primary_age_sec=7200 github_state=stale github_age_sec=7200 threshold_sec=1800 scenario=STUB_BOTH_STALE drill=1 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload."
       },
       "status": {
         "exists": true,
@@ -1994,7 +1994,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T01:39:15Z"
+        "updated": "2026-11-22T01:59:16Z"
       },
       "tasks": {
         "done": 12,
