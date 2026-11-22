@@ -35,15 +35,13 @@
       "workstream": "security"
     },
     {
-      "done": 14,
+      "done": 16,
       "escalation_latest": "- key=b1f76738cf60",
       "next_open": [
-        "[boss-accept] Simple-task node table + process deletions (meeting 20261122T02472",
-        "[boss-accept] Acceptance spot-check separation with labor swap (meeting 20261122",
         "[boss-accept] User-found mapping table (meeting 20261122T024728Z ruling R-4, sec"
       ],
-      "open": 3,
-      "status_updated": "2026-11-22T03:31:35Z",
+      "open": 1,
+      "status_updated": "2026-11-22T03:32:21Z",
       "total": 17,
       "workstream": "operations"
     },
@@ -57,9 +55,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T03:31:35Z",
-  "generated_at": "2026-11-22T03:32:01Z",
-  "generated_at_utc": "2026-11-22T03:32:01Z",
+  "content_latest_at": "2026-11-22T03:32:21Z",
+  "generated_at": "2026-11-22T03:34:02Z",
+  "generated_at_utc": "2026-11-22T03:34:02Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -127,7 +125,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 899
+        "used": 909
       },
       {
         "cap": 1000,
@@ -215,7 +213,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 9
+        "used": 11
       },
       {
         "cap": 1000,
@@ -255,7 +253,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "openrouter",
-        "used": 37
+        "used": 39
       },
       {
         "cap": 45,
@@ -263,7 +261,7 @@
         "healthy": true,
         "model": "google/gemma-4-31b-it:free",
         "provider": "openrouter",
-        "used": 37
+        "used": 39
       },
       {
         "cap": 45,
@@ -271,7 +269,7 @@
         "healthy": true,
         "model": "cohere/north-mini-code:free",
         "provider": "openrouter",
-        "used": 37
+        "used": 39
       },
       {
         "cap": 500,
@@ -407,7 +405,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 21
+        "used": 23
       },
       {
         "cap": 300,
@@ -1045,7 +1043,7 @@
     "healthy_entries": 39,
     "ok": true,
     "reachable": true,
-    "used_today": 37
+    "used_today": 39
   },
   "pool_health": {
     "cap": 45,
@@ -1068,7 +1066,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 899
+        "used": 909
       },
       {
         "cap": 1000,
@@ -1156,7 +1154,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 9
+        "used": 11
       },
       {
         "cap": 1000,
@@ -1196,7 +1194,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "openrouter",
-        "used": 37
+        "used": 39
       },
       {
         "cap": 45,
@@ -1204,7 +1202,7 @@
         "healthy": true,
         "model": "google/gemma-4-31b-it:free",
         "provider": "openrouter",
-        "used": 37
+        "used": 39
       },
       {
         "cap": 45,
@@ -1212,7 +1210,7 @@
         "healthy": true,
         "model": "cohere/north-mini-code:free",
         "provider": "openrouter",
-        "used": 37
+        "used": 39
       },
       {
         "cap": 500,
@@ -1348,7 +1346,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 21
+        "used": 23
       },
       {
         "cap": 300,
@@ -1986,7 +1984,7 @@
     "healthy_entries": 39,
     "ok": true,
     "reachable": true,
-    "used_today": 37
+    "used_today": 39
   },
   "tracked_jobs": {
     "done": 58,
@@ -2038,26 +2036,18 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T03:31:35Z"
+        "updated": "2026-11-22T03:32:21Z"
       },
       "tasks": {
-        "done": 14,
+        "done": 16,
         "exists": true,
         "next_open": [
-          {
-            "full": true,
-            "title": "[boss-accept] Simple-task node table + process deletions (meeting 20261122T02472"
-          },
-          {
-            "full": true,
-            "title": "[boss-accept] Acceptance spot-check separation with labor swap (meeting 20261122"
-          },
           {
             "full": true,
             "title": "[boss-accept] User-found mapping table (meeting 20261122T024728Z ruling R-4, sec"
           }
         ],
-        "open": 3
+        "open": 1
       }
     },
     "pool-optimization": {
