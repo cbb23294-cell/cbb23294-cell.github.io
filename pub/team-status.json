@@ -2,26 +2,26 @@
   "boards": [
     {
       "done": 13,
-      "escalation_latest": "- key=e66bd6268d0d",
+      "escalation_latest": "2026-11-22T01:28:31Z ALERT pub_stale trigger=pub file=vps-deals.json local_state=fresh local_age_sec=0 primary_state=stale primary_age_sec=7200 github_state=stale github_age_sec=7200 threshold_sec=1800 scenario=STUB_BOTH_STALE drill=1 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload.",
       "next_open": [
-        "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala"
+        "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala",
+        "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
-      "open": 1,
-      "status_updated": "2026-11-21T17:41:32Z",
-      "total": 14,
+      "open": 2,
+      "status_updated": "2026-11-22T01:31:32Z",
+      "total": 15,
       "workstream": "cloud-script-migration"
     },
     {
-      "done": 46,
-      "escalation_latest": "- key=782d28eb8080",
+      "done": 48,
+      "escalation_latest": "- key=711c25408a67",
       "next_open": [
-        "[code] [boss-accept] Retire the 5 zero-share OpenRouter pool entries [est:8m] | ",
-        "[code] Path-level re-verification of retire candidates (boss executes moves) [es",
-        "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing "
+        "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing ",
+        "[code] [boss-accept] Meeting call-chain repair: seat health gate + ask() curl tr"
       ],
-      "open": 3,
-      "status_updated": "2026-11-21T17:41:11Z",
-      "total": 49,
+      "open": 2,
+      "status_updated": "2026-11-22T01:30:40Z",
+      "total": 50,
       "workstream": "pool-optimization"
     },
     {
@@ -29,7 +29,7 @@
       "escalation_latest": "- key=3c0f441978e3",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-21T17:33:50Z",
+      "status_updated": "2026-11-22T01:19:15Z",
       "total": 12,
       "workstream": "security"
     },
@@ -38,25 +38,23 @@
       "escalation_latest": "- key=0abd3863a104",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-21T17:44:09Z",
+      "status_updated": "2026-11-22T01:18:16Z",
       "total": 14,
       "workstream": "operations"
     },
     {
-      "done": 8,
-      "escalation_latest": "- key=77a91859c0d3",
-      "next_open": [
-        "[code] [boss-accept] Panel space: verify/kill the agent-dispatch daily check sch"
-      ],
-      "open": 1,
-      "status_updated": "2026-11-21T17:33:30Z",
-      "total": 9,
+      "done": 10,
+      "escalation_latest": "- key=520cb7f0c761",
+      "next_open": [],
+      "open": 0,
+      "status_updated": "2026-11-22T01:21:14Z",
+      "total": 10,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-21T17:44:09Z",
-  "generated_at": "2026-11-21T17:49:05Z",
-  "generated_at_utc": "2026-11-21T17:49:05Z",
+  "content_latest_at": "2026-11-22T01:31:32Z",
+  "generated_at": "2026-11-22T01:31:47Z",
+  "generated_at_utc": "2026-11-22T01:31:47Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -110,26 +108,26 @@
       {
         "cap": 1000,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 1000
+        "used": 374
       },
       {
         "cap": 1000,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 1000
+        "used": 15
       },
       {
         "cap": 1000,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 1000
+        "used": 3
       },
       {
         "cap": 1000,
@@ -137,15 +135,15 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 185
+        "used": 3
       },
       {
         "cap": 300,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 300
+        "used": 7
       },
       {
         "cap": 1000,
@@ -153,39 +151,39 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 595
+        "used": 3
       },
       {
         "cap": 500,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 500
+        "used": 0
       },
       {
         "cap": 500,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 500
+        "used": 0
       },
       {
         "cap": 500,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 500
+        "used": 0
       },
       {
         "cap": 500,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 500
+        "used": 0
       },
       {
         "cap": 1000,
@@ -193,7 +191,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 225
+        "used": 0
       },
       {
         "cap": 1000,
@@ -201,7 +199,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 259
+        "used": 0
       },
       {
         "cap": 1000,
@@ -209,7 +207,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 239
+        "used": 0
       },
       {
         "cap": 300,
@@ -217,7 +215,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 151
+        "used": 0
       },
       {
         "cap": 300,
@@ -225,7 +223,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 151
+        "used": 0
       },
       {
         "cap": 300,
@@ -233,71 +231,31 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 151
+        "used": 0
       },
       {
         "cap": 45,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "openrouter",
-        "used": 45
+        "used": 0
       },
       {
         "cap": 45,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "google/gemma-4-31b-it:free",
         "provider": "openrouter",
-        "used": 45
+        "used": 0
       },
       {
         "cap": 45,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "cohere/north-mini-code:free",
         "provider": "openrouter",
-        "used": 45
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": false,
-        "model": "inclusionai/ling-3.2-flash:free",
-        "provider": "openrouter",
-        "used": 45
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": false,
-        "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-        "provider": "openrouter",
-        "used": 45
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": false,
-        "model": "baidu/ernie-5.5-flash-preview:free",
-        "provider": "openrouter",
-        "used": 45
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": false,
-        "model": "google/gemma-4-26b-a4b-it:free",
-        "provider": "openrouter",
-        "used": 45
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": false,
-        "model": "recursive/flint-v1.0:free",
-        "provider": "openrouter",
-        "used": 45
+        "used": 0
       },
       {
         "cap": 500,
@@ -305,7 +263,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 119
+        "used": 0
       },
       {
         "cap": 500,
@@ -313,7 +271,7 @@
         "healthy": true,
         "model": "gemini-3.8-flash",
         "provider": "google-ai-studio",
-        "used": 38
+        "used": 0
       },
       {
         "cap": 500,
@@ -321,7 +279,7 @@
         "healthy": true,
         "model": "gemma-4-31b-it",
         "provider": "google-ai-studio",
-        "used": 34
+        "used": 0
       },
       {
         "cap": 500,
@@ -329,7 +287,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it",
         "provider": "google-ai-studio",
-        "used": 14
+        "used": 0
       },
       {
         "cap": 20000,
@@ -337,7 +295,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 18
+        "used": 0
       },
       {
         "cap": 20000,
@@ -345,7 +303,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 169
+        "used": 0
       },
       {
         "cap": 20000,
@@ -353,7 +311,7 @@
         "healthy": true,
         "model": "free-gemma-4",
         "provider": "ai-cf",
-        "used": 14
+        "used": 0
       },
       {
         "cap": 200000,
@@ -361,7 +319,71 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 38
+        "used": 0
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-large-4t",
+        "provider": "ai-cf-2",
+        "used": 0
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-m3.1-flash",
+        "provider": "ai-cf-2",
+        "used": 0
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-gemma-4",
+        "provider": "ai-cf-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol–free",
+        "provider": "ai-cf-sol-2",
+        "used": 0
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-large-4t",
+        "provider": "ai-cf-3",
+        "used": 0
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-m3.1-flash",
+        "provider": "ai-cf-3",
+        "used": 0
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-gemma-4",
+        "provider": "ai-cf-3",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol–free",
+        "provider": "ai-cf-sol-3",
+        "used": 0
       },
       {
         "cap": 200000,
@@ -369,15 +391,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 146
-      },
-      {
-        "cap": 200000,
-        "enabled": true,
-        "healthy": true,
-        "model": "gpt-6.1-sol",
-        "provider": "xingchi-3",
-        "used": 36
+        "used": 0
       },
       {
         "cap": 200000,
@@ -385,15 +399,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 71
-      },
-      {
-        "cap": 200000,
-        "enabled": true,
-        "healthy": true,
-        "model": "gpt-6.1-sol",
-        "provider": "xingchi-5",
-        "used": 34
+        "used": 0
       },
       {
         "cap": 200000,
@@ -401,7 +407,495 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 35
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-sol",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-terra",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-luna",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-terra",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-sol",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-luna",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-astra",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.5",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4-mini",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.3-codex-spark",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "codex-auto-review",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.2",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-sol",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-terra",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-luna",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-terra",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-sol",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-luna",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-astra",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.5",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4-mini",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.3-codex-spark",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "codex-auto-review",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.2",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-sol",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-terra",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-luna",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-terra",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-sol",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-luna",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-astra",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.5",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4-mini",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.3-codex-spark",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "codex-auto-review",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.2",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-sol",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-terra",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-luna",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-terra",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-sol",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-luna",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-astra",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.5",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4-mini",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.3-codex-spark",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "codex-auto-review",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.2",
+        "provider": "xingchi-6",
+        "used": 0
       },
       {
         "cap": 3000,
@@ -409,7 +903,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -417,7 +911,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -425,7 +919,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -433,7 +927,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -441,7 +935,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -449,7 +943,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -457,7 +951,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -465,7 +959,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -473,7 +967,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -481,7 +975,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -489,7 +983,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -497,13 +991,13 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       }
     ],
-    "healthy_entries": 33,
+    "healthy_entries": 111,
     "ok": true,
     "reachable": true,
-    "used_today": 45
+    "used_today": 0
   },
   "pool_health": {
     "cap": 45,
@@ -512,26 +1006,26 @@
       {
         "cap": 1000,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 1000
+        "used": 374
       },
       {
         "cap": 1000,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 1000
+        "used": 15
       },
       {
         "cap": 1000,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 1000
+        "used": 3
       },
       {
         "cap": 1000,
@@ -539,15 +1033,15 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 185
+        "used": 3
       },
       {
         "cap": 300,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 300
+        "used": 7
       },
       {
         "cap": 1000,
@@ -555,39 +1049,39 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 595
+        "used": 3
       },
       {
         "cap": 500,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 500
+        "used": 0
       },
       {
         "cap": 500,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 500
+        "used": 0
       },
       {
         "cap": 500,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 500
+        "used": 0
       },
       {
         "cap": 500,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 500
+        "used": 0
       },
       {
         "cap": 1000,
@@ -595,7 +1089,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 225
+        "used": 0
       },
       {
         "cap": 1000,
@@ -603,7 +1097,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 259
+        "used": 0
       },
       {
         "cap": 1000,
@@ -611,7 +1105,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 239
+        "used": 0
       },
       {
         "cap": 300,
@@ -619,7 +1113,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 151
+        "used": 0
       },
       {
         "cap": 300,
@@ -627,7 +1121,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 151
+        "used": 0
       },
       {
         "cap": 300,
@@ -635,71 +1129,31 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 151
+        "used": 0
       },
       {
         "cap": 45,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "openrouter",
-        "used": 45
+        "used": 0
       },
       {
         "cap": 45,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "google/gemma-4-31b-it:free",
         "provider": "openrouter",
-        "used": 45
+        "used": 0
       },
       {
         "cap": 45,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "cohere/north-mini-code:free",
         "provider": "openrouter",
-        "used": 45
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": false,
-        "model": "inclusionai/ling-3.2-flash:free",
-        "provider": "openrouter",
-        "used": 45
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": false,
-        "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
-        "provider": "openrouter",
-        "used": 45
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": false,
-        "model": "baidu/ernie-5.5-flash-preview:free",
-        "provider": "openrouter",
-        "used": 45
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": false,
-        "model": "google/gemma-4-26b-a4b-it:free",
-        "provider": "openrouter",
-        "used": 45
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": false,
-        "model": "recursive/flint-v1.0:free",
-        "provider": "openrouter",
-        "used": 45
+        "used": 0
       },
       {
         "cap": 500,
@@ -707,7 +1161,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 119
+        "used": 0
       },
       {
         "cap": 500,
@@ -715,7 +1169,7 @@
         "healthy": true,
         "model": "gemini-3.8-flash",
         "provider": "google-ai-studio",
-        "used": 38
+        "used": 0
       },
       {
         "cap": 500,
@@ -723,7 +1177,7 @@
         "healthy": true,
         "model": "gemma-4-31b-it",
         "provider": "google-ai-studio",
-        "used": 34
+        "used": 0
       },
       {
         "cap": 500,
@@ -731,7 +1185,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it",
         "provider": "google-ai-studio",
-        "used": 14
+        "used": 0
       },
       {
         "cap": 20000,
@@ -739,7 +1193,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 18
+        "used": 0
       },
       {
         "cap": 20000,
@@ -747,7 +1201,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 169
+        "used": 0
       },
       {
         "cap": 20000,
@@ -755,7 +1209,7 @@
         "healthy": true,
         "model": "free-gemma-4",
         "provider": "ai-cf",
-        "used": 14
+        "used": 0
       },
       {
         "cap": 200000,
@@ -763,7 +1217,71 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 38
+        "used": 0
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-large-4t",
+        "provider": "ai-cf-2",
+        "used": 0
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-m3.1-flash",
+        "provider": "ai-cf-2",
+        "used": 0
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-gemma-4",
+        "provider": "ai-cf-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol–free",
+        "provider": "ai-cf-sol-2",
+        "used": 0
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-large-4t",
+        "provider": "ai-cf-3",
+        "used": 0
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-m3.1-flash",
+        "provider": "ai-cf-3",
+        "used": 0
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-gemma-4",
+        "provider": "ai-cf-3",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol–free",
+        "provider": "ai-cf-sol-3",
+        "used": 0
       },
       {
         "cap": 200000,
@@ -771,15 +1289,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 146
-      },
-      {
-        "cap": 200000,
-        "enabled": true,
-        "healthy": true,
-        "model": "gpt-6.1-sol",
-        "provider": "xingchi-3",
-        "used": 36
+        "used": 0
       },
       {
         "cap": 200000,
@@ -787,15 +1297,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 71
-      },
-      {
-        "cap": 200000,
-        "enabled": true,
-        "healthy": true,
-        "model": "gpt-6.1-sol",
-        "provider": "xingchi-5",
-        "used": 34
+        "used": 0
       },
       {
         "cap": 200000,
@@ -803,7 +1305,495 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 35
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-sol",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-terra",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-luna",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-terra",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-sol",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-luna",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-astra",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.5",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4-mini",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.3-codex-spark",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "codex-auto-review",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.2",
+        "provider": "xingchi",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-sol",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-terra",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-luna",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-terra",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-sol",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-luna",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-astra",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.5",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4-mini",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.3-codex-spark",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "codex-auto-review",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.2",
+        "provider": "xingchi-4",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-sol",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-terra",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-luna",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-terra",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-sol",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-luna",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-astra",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.5",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4-mini",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.3-codex-spark",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "codex-auto-review",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.2",
+        "provider": "xingchi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-sol",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-terra",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.6-luna",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-terra",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-sol",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-luna",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6-astra",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.5",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.4-mini",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.3-codex-spark",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "codex-auto-review",
+        "provider": "xingchi-6",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-5.2",
+        "provider": "xingchi-6",
+        "used": 0
       },
       {
         "cap": 3000,
@@ -811,7 +1801,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -819,7 +1809,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -827,7 +1817,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -835,7 +1825,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -843,7 +1833,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -851,7 +1841,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -859,7 +1849,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -867,7 +1857,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -875,7 +1865,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -883,7 +1873,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -891,7 +1881,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       },
       {
         "cap": 3000,
@@ -899,13 +1889,13 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 60
+        "used": 0
       }
     ],
-    "healthy_entries": 33,
+    "healthy_entries": 111,
     "ok": true,
     "reachable": true,
-    "used_today": 45
+    "used_today": 0
   },
   "tracked_jobs": {
     "done": 58,
@@ -922,14 +1912,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=e66bd6268d0d"
+        "latest": "2026-11-22T01:28:31Z ALERT pub_stale trigger=pub file=vps-deals.json local_state=fresh local_age_sec=0 primary_state=stale primary_age_sec=7200 github_state=stale github_age_sec=7200 threshold_sec=1800 scenario=STUB_BOTH_STALE drill=1 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload."
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T17:41:32Z"
+        "updated": "2026-11-22T01:31:32Z"
       },
       "tasks": {
         "done": 13,
@@ -938,9 +1928,13 @@
           {
             "full": true,
             "title": "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala"
+          },
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
           }
         ],
-        "open": 1
+        "open": 2
       }
     },
     "operations": {
@@ -953,7 +1947,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T17:44:09Z"
+        "updated": "2026-11-22T01:18:16Z"
       },
       "tasks": {
         "done": 14,
@@ -965,33 +1959,29 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=782d28eb8080"
+        "latest": "- key=711c25408a67"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-21T17:41:11Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-22T01:30:40Z"
       },
       "tasks": {
-        "done": 46,
+        "done": 48,
         "exists": true,
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] Retire the 5 zero-share OpenRouter pool entries [est:8m] | "
-          },
-          {
-            "full": true,
-            "title": "[code] Path-level re-verification of retire candidates (boss executes moves) [es"
-          },
-          {
-            "full": true,
             "title": "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing "
+          },
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Meeting call-chain repair: seat health gate + ask() curl tr"
           }
         ],
-        "open": 3
+        "open": 2
       }
     },
     "security": {
@@ -1004,7 +1994,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T17:33:50Z"
+        "updated": "2026-11-22T01:19:15Z"
       },
       "tasks": {
         "done": 12,
@@ -1016,25 +2006,20 @@
     "spaces-data": {
       "escalation": {
         "exists": true,
-        "latest": "- key=77a91859c0d3"
+        "latest": "- key=520cb7f0c761"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-21T17:33:30Z"
+        "updated": "2026-11-22T01:21:14Z"
       },
       "tasks": {
-        "done": 8,
+        "done": 10,
         "exists": true,
-        "next_open": [
-          {
-            "full": true,
-            "title": "[code] [boss-accept] Panel space: verify/kill the agent-dispatch daily check sch"
-          }
-        ],
-        "open": 1
+        "next_open": [],
+        "open": 0
       }
     }
   }
