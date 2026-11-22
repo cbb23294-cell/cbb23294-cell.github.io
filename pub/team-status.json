@@ -5,7 +5,7 @@
       "escalation_latest": "2026-11-22T13:58:02Z ALERT pub_stale trigger=pub file=freebies-scan.json local_state=fresh local_age_sec=332 primary_state=stale primary_age_sec=83996 github_state=stale github_age_sec=97225 threshold_sec=1800 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload.",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T14:10:34Z",
+      "status_updated": "2026-11-22T14:26:27Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
@@ -50,9 +50,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T14:19:54Z",
-  "generated_at": "2026-11-22T14:25:09Z",
-  "generated_at_utc": "2026-11-22T14:25:09Z",
+  "content_latest_at": "2026-11-22T14:26:27Z",
+  "generated_at": "2026-11-22T14:27:29Z",
+  "generated_at_utc": "2026-11-22T14:27:29Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -162,7 +162,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 232
+        "used": 235
       },
       {
         "cap": 500,
@@ -514,7 +514,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b:free",
         "provider": "crowllm",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 300,
@@ -1247,7 +1247,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 232
+        "used": 235
       },
       {
         "cap": 500,
@@ -1599,7 +1599,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b:free",
         "provider": "crowllm",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 300,
@@ -2301,7 +2301,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T14:10:34Z"
+        "updated": "2026-11-22T14:26:27Z"
       },
       "tasks": {
         "done": 15,
