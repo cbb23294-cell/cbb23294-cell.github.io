@@ -8,18 +8,18 @@
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
       "open": 2,
-      "status_updated": "2026-11-22T08:14:14Z",
+      "status_updated": "2026-11-22T08:16:46Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
     {
       "done": 51,
-      "escalation_latest": "- key=2c59f12852c2",
+      "escalation_latest": "- key=27a71b4c6d59",
       "next_open": [
         "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing "
       ],
       "open": 1,
-      "status_updated": "2026-11-22T07:58:19Z",
+      "status_updated": "2026-11-22T08:17:01Z",
       "total": 52,
       "workstream": "pool-optimization"
     },
@@ -46,14 +46,14 @@
       "escalation_latest": "- key=520cb7f0c761",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T07:45:22Z",
+      "status_updated": "2026-11-22T08:15:24Z",
       "total": 10,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T08:14:14Z",
-  "generated_at": "2026-11-22T08:15:23Z",
-  "generated_at_utc": "2026-11-22T08:15:23Z",
+  "content_latest_at": "2026-11-22T08:17:01Z",
+  "generated_at": "2026-11-22T08:17:23Z",
+  "generated_at_utc": "2026-11-22T08:17:23Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 362
+        "used": 376
       },
       {
         "cap": 1000,
@@ -145,7 +145,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 64
+        "used": 65
       },
       {
         "cap": 300,
@@ -161,7 +161,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 109
+        "used": 114
       },
       {
         "cap": 525,
@@ -209,7 +209,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 182
+        "used": 183
       },
       {
         "cap": 1000,
@@ -273,7 +273,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 219
+        "used": 232
       },
       {
         "cap": 500,
@@ -401,7 +401,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 172
+        "used": 178
       },
       {
         "cap": 300,
@@ -1078,7 +1078,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 362
+        "used": 376
       },
       {
         "cap": 1000,
@@ -1086,7 +1086,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 64
+        "used": 65
       },
       {
         "cap": 300,
@@ -1102,7 +1102,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 109
+        "used": 114
       },
       {
         "cap": 525,
@@ -1150,7 +1150,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 182
+        "used": 183
       },
       {
         "cap": 1000,
@@ -1214,7 +1214,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 219
+        "used": 232
       },
       {
         "cap": 500,
@@ -1342,7 +1342,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 172
+        "used": 178
       },
       {
         "cap": 300,
@@ -2002,9 +2002,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-22T08:14:14Z"
+        "tasks_open": 2,
+        "tasks_total": 2,
+        "updated": "2026-11-22T08:16:46Z"
       },
       "tasks": {
         "done": 13,
@@ -2044,14 +2044,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=2c59f12852c2"
+        "latest": "- key=27a71b4c6d59"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-22T07:58:19Z"
+        "updated": "2026-11-22T08:17:01Z"
       },
       "tasks": {
         "done": 51,
@@ -2094,7 +2094,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T07:45:22Z"
+        "updated": "2026-11-22T08:15:24Z"
       },
       "tasks": {
         "done": 10,
