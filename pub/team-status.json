@@ -8,21 +8,21 @@
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
       ],
       "open": 2,
-      "status_updated": "2026-11-22T15:44:43Z",
+      "status_updated": "2026-11-22T15:45:28Z",
       "total": 17,
       "workstream": "cloud-script-migration"
     },
     {
-      "done": 53,
+      "done": 52,
       "escalation_latest": "- key=9aa5b6f64fdb",
       "next_open": [
         "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion (",
         "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261",
-        "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
+        "[mech] Cooldown failure classification + cycle wall-clock data pack for the 2026"
       ],
-      "open": 8,
+      "open": 10,
       "status_updated": "2026-11-22T15:38:12Z",
-      "total": 61,
+      "total": 62,
       "workstream": "pool-optimization"
     },
     {
@@ -55,9 +55,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T15:44:43Z",
-  "generated_at": "2026-11-22T15:45:13Z",
-  "generated_at_utc": "2026-11-22T15:45:13Z",
+  "content_latest_at": "2026-11-22T15:45:28Z",
+  "generated_at": "2026-11-22T15:49:44Z",
+  "generated_at_utc": "2026-11-22T15:49:44Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -167,7 +167,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 305
+        "used": 308
       },
       {
         "cap": 500,
@@ -191,7 +191,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 153
+        "used": 162
       },
       {
         "cap": 500,
@@ -199,7 +199,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 153
+        "used": 162
       },
       {
         "cap": 1000,
@@ -583,7 +583,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 211
+        "used": 222
       },
       {
         "cap": 300,
@@ -607,7 +607,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 15
+        "used": 25
       },
       {
         "cap": 300,
@@ -1380,7 +1380,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 305
+        "used": 308
       },
       {
         "cap": 500,
@@ -1404,7 +1404,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 153
+        "used": 162
       },
       {
         "cap": 500,
@@ -1412,7 +1412,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 153
+        "used": 162
       },
       {
         "cap": 1000,
@@ -1796,7 +1796,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 211
+        "used": 222
       },
       {
         "cap": 300,
@@ -1820,7 +1820,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 15
+        "used": 25
       },
       {
         "cap": 300,
@@ -2562,7 +2562,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T15:44:43Z"
+        "updated": "2026-11-22T15:45:28Z"
       },
       "tasks": {
         "done": 15,
@@ -2617,7 +2617,7 @@
         "updated": "2026-11-22T15:38:12Z"
       },
       "tasks": {
-        "done": 53,
+        "done": 52,
         "exists": true,
         "next_open": [
           {
@@ -2630,10 +2630,10 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
+            "title": "[mech] Cooldown failure classification + cycle wall-clock data pack for the 2026"
           }
         ],
-        "open": 8
+        "open": 10
       }
     },
     "security": {
