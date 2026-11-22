@@ -19,7 +19,7 @@
         "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing "
       ],
       "open": 1,
-      "status_updated": "2026-11-22T05:34:43Z",
+      "status_updated": "2026-11-22T05:39:44Z",
       "total": 52,
       "workstream": "pool-optimization"
     },
@@ -36,11 +36,12 @@
       "done": 16,
       "escalation_latest": "- key=852b59885e08",
       "next_open": [
-        "[boss-accept] User-found mapping table (meeting 20261122T024728Z ruling R-4, sec"
+        "[boss-accept] User-found mapping table (meeting 20261122T024728Z ruling R-4, sec",
+        "[mech] [inputs: llm-workers/meetings/20261122T024728Z.md] DRILL (boss-filed 2026"
       ],
-      "open": 1,
+      "open": 2,
       "status_updated": "2026-11-22T04:15:35Z",
-      "total": 17,
+      "total": 18,
       "workstream": "operations"
     },
     {
@@ -53,9 +54,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T05:34:43Z",
-  "generated_at": "2026-11-22T05:38:04Z",
-  "generated_at_utc": "2026-11-22T05:38:04Z",
+  "content_latest_at": "2026-11-22T05:39:44Z",
+  "generated_at": "2026-11-22T05:40:05Z",
+  "generated_at_utc": "2026-11-22T05:40:05Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -131,7 +132,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 583
+        "used": 594
       },
       {
         "cap": 1000,
@@ -171,7 +172,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 210
+        "used": 215
       },
       {
         "cap": 500,
@@ -179,7 +180,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 210
+        "used": 215
       },
       {
         "cap": 500,
@@ -211,7 +212,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 71
+        "used": 72
       },
       {
         "cap": 1000,
@@ -1072,7 +1073,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 583
+        "used": 594
       },
       {
         "cap": 1000,
@@ -1112,7 +1113,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 210
+        "used": 215
       },
       {
         "cap": 500,
@@ -1120,7 +1121,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 210
+        "used": 215
       },
       {
         "cap": 500,
@@ -1152,7 +1153,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 71
+        "used": 72
       },
       {
         "cap": 1000,
@@ -2043,9 +2044,13 @@
           {
             "full": true,
             "title": "[boss-accept] User-found mapping table (meeting 20261122T024728Z ruling R-4, sec"
+          },
+          {
+            "full": true,
+            "title": "[mech] [inputs: llm-workers/meetings/20261122T024728Z.md] DRILL (boss-filed 2026"
           }
         ],
-        "open": 1
+        "open": 2
       }
     },
     "pool-optimization": {
@@ -2055,10 +2060,10 @@
       },
       "status": {
         "exists": true,
-        "tasks_done": 1,
+        "tasks_done": 0,
         "tasks_open": 1,
-        "tasks_total": 2,
-        "updated": "2026-11-22T05:34:43Z"
+        "tasks_total": 1,
+        "updated": "2026-11-22T05:39:44Z"
       },
       "tasks": {
         "done": 51,
