@@ -5,7 +5,7 @@
       "escalation_latest": "- key=1740b0ac6958",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T13:42:22Z",
+      "status_updated": "2026-11-22T13:47:37Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
@@ -46,21 +46,21 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T13:42:22Z",
-  "generated_at": "2026-11-22T13:43:52Z",
-  "generated_at_utc": "2026-11-22T13:43:52Z",
+  "content_latest_at": "2026-11-22T13:47:37Z",
+  "generated_at": "2026-11-22T13:48:17Z",
+  "generated_at_utc": "2026-11-22T13:48:17Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
   },
   "managers": [
     {
-      "model": "grok-4.7:free",
+      "model": "deepseek-v4.1-flash-free",
       "source": "pool",
       "workstream": "cloud-script-migration"
     },
     {
-      "model": "gemini-3.8-flash",
+      "model": "nemotron-3-ultra-550b-a55b:free",
       "source": "pool",
       "workstream": "pool-optimization"
     },
@@ -70,7 +70,7 @@
       "workstream": "security"
     },
     {
-      "model": "gemini-3.8-flash",
+      "model": "k2-horizon-375b-a23b:free",
       "source": "pool",
       "workstream": "operations"
     },
@@ -80,7 +80,7 @@
       "workstream": "spaces-data"
     },
     {
-      "model": "grok-4.7-fast:free",
+      "model": "sensenova-6.8-flash-lite",
       "source": "pool",
       "workstream": "float"
     },
@@ -93,6 +93,16 @@
       "model": "nex-n2.6",
       "source": "pool",
       "workstream": "float-3"
+    },
+    {
+      "model": "ganymede-1.1",
+      "source": "pool",
+      "workstream": "float-4"
+    },
+    {
+      "model": "XingChenAGI/Xing4.0-29B",
+      "source": "pool",
+      "workstream": "float-5"
     }
   ],
   "pool": {
@@ -140,7 +150,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 300,
@@ -156,7 +166,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 210
+        "used": 212
       },
       {
         "cap": 500,
@@ -180,7 +190,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 126
+        "used": 127
       },
       {
         "cap": 500,
@@ -188,7 +198,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 126
+        "used": 127
       },
       {
         "cap": 1000,
@@ -1281,7 +1291,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 300,
@@ -1297,7 +1307,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 210
+        "used": 212
       },
       {
         "cap": 500,
@@ -1321,7 +1331,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 126
+        "used": 127
       },
       {
         "cap": 500,
@@ -1329,7 +1339,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 126
+        "used": 127
       },
       {
         "cap": 1000,
@@ -2399,7 +2409,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T13:42:22Z"
+        "updated": "2026-11-22T13:47:37Z"
       },
       "tasks": {
         "done": 15,
