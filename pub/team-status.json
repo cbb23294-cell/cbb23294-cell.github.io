@@ -2,16 +2,16 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "- key=1740b0ac6958",
+      "escalation_latest": "2026-11-22T13:58:02Z ALERT pub_stale trigger=pub file=freebies-scan.json local_state=fresh local_age_sec=332 primary_state=stale primary_age_sec=83996 github_state=stale github_age_sec=97225 threshold_sec=1800 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload.",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T13:47:37Z",
+      "status_updated": "2026-11-22T13:59:13Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
     {
       "done": 52,
-      "escalation_latest": "- key=7647384e9096",
+      "escalation_latest": "- key=4103328c27fe",
       "next_open": [
         "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion (",
         "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261",
@@ -27,7 +27,7 @@
       "escalation_latest": "- key=3c0f441978e3",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T13:37:47Z",
+      "status_updated": "2026-11-22T13:58:43Z",
       "total": 12,
       "workstream": "security"
     },
@@ -50,9 +50,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T13:54:48Z",
-  "generated_at": "2026-11-22T13:57:43Z",
-  "generated_at_utc": "2026-11-22T13:57:43Z",
+  "content_latest_at": "2026-11-22T13:59:13Z",
+  "generated_at": "2026-11-22T13:59:53Z",
+  "generated_at_utc": "2026-11-22T13:59:53Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -149,14 +149,6 @@
         "used": 1280
       },
       {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "glm-4.7-flash",
-        "provider": "zhipu",
-        "used": 138
-      },
-      {
         "cap": 300,
         "enabled": true,
         "healthy": false,
@@ -170,7 +162,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 218
+        "used": 221
       },
       {
         "cap": 500,
@@ -203,30 +195,6 @@
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
         "used": 129
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "qwen/qwen3.8-27b",
-        "provider": "groq",
-        "used": 2
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "openai/gpt-oss-120b",
-        "provider": "groq",
-        "used": 254
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "openai/gpt-oss-20b",
-        "provider": "groq",
-        "used": 1
       },
       {
         "cap": 300,
@@ -283,22 +251,6 @@
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
         "used": 463
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemini-3.8-flash",
-        "provider": "google-ai-studio",
-        "used": 69
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-31b-it",
-        "provider": "google-ai-studio",
-        "used": 0
       },
       {
         "cap": 20000,
@@ -403,14 +355,6 @@
         "model": "GLM-5.3-Flash",
         "provider": "amd-tokenlab",
         "used": 1
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "DeepSeek-V4.1-Flash",
-        "provider": "amd-tokenlab",
-        "used": 255
       },
       {
         "cap": 300,
@@ -610,7 +554,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 16
+        "used": 31
       },
       {
         "cap": 300,
@@ -1245,7 +1189,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 55,
+    "healthy_entries": 48,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -1290,14 +1234,6 @@
         "used": 1280
       },
       {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "glm-4.7-flash",
-        "provider": "zhipu",
-        "used": 138
-      },
-      {
         "cap": 300,
         "enabled": true,
         "healthy": false,
@@ -1311,7 +1247,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 218
+        "used": 221
       },
       {
         "cap": 500,
@@ -1344,30 +1280,6 @@
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
         "used": 129
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "qwen/qwen3.8-27b",
-        "provider": "groq",
-        "used": 2
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "openai/gpt-oss-120b",
-        "provider": "groq",
-        "used": 254
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "openai/gpt-oss-20b",
-        "provider": "groq",
-        "used": 1
       },
       {
         "cap": 300,
@@ -1424,22 +1336,6 @@
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
         "used": 463
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemini-3.8-flash",
-        "provider": "google-ai-studio",
-        "used": 69
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-31b-it",
-        "provider": "google-ai-studio",
-        "used": 0
       },
       {
         "cap": 20000,
@@ -1544,14 +1440,6 @@
         "model": "GLM-5.3-Flash",
         "provider": "amd-tokenlab",
         "used": 1
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "DeepSeek-V4.1-Flash",
-        "provider": "amd-tokenlab",
-        "used": 255
       },
       {
         "cap": 300,
@@ -1751,7 +1639,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 16
+        "used": 31
       },
       {
         "cap": 300,
@@ -2386,7 +2274,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 55,
+    "healthy_entries": 48,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -2406,14 +2294,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=1740b0ac6958"
+        "latest": "2026-11-22T13:58:02Z ALERT pub_stale trigger=pub file=freebies-scan.json local_state=fresh local_age_sec=332 primary_state=stale primary_age_sec=83996 github_state=stale github_age_sec=97225 threshold_sec=1800 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload."
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T13:47:37Z"
+        "updated": "2026-11-22T13:59:13Z"
       },
       "tasks": {
         "done": 15,
@@ -2444,7 +2332,7 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=7647384e9096"
+        "latest": "- key=4103328c27fe"
       },
       "status": {
         "exists": true,
@@ -2483,7 +2371,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T13:37:47Z"
+        "updated": "2026-11-22T13:58:43Z"
       },
       "tasks": {
         "done": 12,
