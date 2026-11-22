@@ -2,13 +2,13 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "2026-11-22T23:28:45Z ALERT pub_stale trigger=pub kind=collector_dead file=ai-quota-catalog.json local_state=missing local_age_sec=none primary_state=missing primary_age_sec=none github_state=missing github_age_sec=none threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss.",
+      "escalation_latest": "- key=9f27182bf7e9",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
       ],
       "open": 2,
-      "status_updated": "2026-11-22T23:23:09Z",
+      "status_updated": "2026-11-22T23:31:57Z",
       "total": 17,
       "workstream": "cloud-script-migration"
     },
@@ -55,9 +55,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T23:28:57Z",
-  "generated_at": "2026-11-22T23:31:45Z",
-  "generated_at_utc": "2026-11-22T23:31:45Z",
+  "content_latest_at": "2026-11-22T23:31:57Z",
+  "generated_at": "2026-11-22T23:33:55Z",
+  "generated_at_utc": "2026-11-22T23:33:55Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -167,7 +167,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 828
+        "used": 836
       },
       {
         "cap": 500,
@@ -207,7 +207,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 251
+        "used": 252
       },
       {
         "cap": 1000,
@@ -215,7 +215,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 472
+        "used": 473
       },
       {
         "cap": 1000,
@@ -223,7 +223,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 242
+        "used": 243
       },
       {
         "cap": 300,
@@ -231,7 +231,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 176
+        "used": 178
       },
       {
         "cap": 300,
@@ -239,7 +239,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 176
+        "used": 178
       },
       {
         "cap": 300,
@@ -247,7 +247,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 176
+        "used": 178
       },
       {
         "cap": 45,
@@ -383,7 +383,7 @@
         "healthy": true,
         "model": "GLM-5.3-Flash",
         "provider": "amd-tokenlab",
-        "used": 161
+        "used": 162
       },
       {
         "cap": 300,
@@ -391,7 +391,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 82
+        "used": 83
       },
       {
         "cap": 300,
@@ -399,7 +399,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 88
+        "used": 89
       },
       {
         "cap": 300,
@@ -407,7 +407,7 @@
         "healthy": true,
         "model": "allam-2-7b:free",
         "provider": "unorouter",
-        "used": 283
+        "used": 284
       },
       {
         "cap": 300,
@@ -455,7 +455,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
         "provider": "crowllm",
-        "used": 44
+        "used": 45
       },
       {
         "cap": 300,
@@ -543,7 +543,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b:free",
         "provider": "crowllm",
-        "used": 36
+        "used": 37
       },
       {
         "cap": 300,
@@ -655,7 +655,7 @@
         "healthy": true,
         "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 39
+        "used": 41
       },
       {
         "cap": 200,
@@ -1476,7 +1476,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 828
+        "used": 836
       },
       {
         "cap": 500,
@@ -1516,7 +1516,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 251
+        "used": 252
       },
       {
         "cap": 1000,
@@ -1524,7 +1524,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 472
+        "used": 473
       },
       {
         "cap": 1000,
@@ -1532,7 +1532,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 242
+        "used": 243
       },
       {
         "cap": 300,
@@ -1540,7 +1540,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 176
+        "used": 178
       },
       {
         "cap": 300,
@@ -1548,7 +1548,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 176
+        "used": 178
       },
       {
         "cap": 300,
@@ -1556,7 +1556,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 176
+        "used": 178
       },
       {
         "cap": 45,
@@ -1692,7 +1692,7 @@
         "healthy": true,
         "model": "GLM-5.3-Flash",
         "provider": "amd-tokenlab",
-        "used": 161
+        "used": 162
       },
       {
         "cap": 300,
@@ -1700,7 +1700,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 82
+        "used": 83
       },
       {
         "cap": 300,
@@ -1708,7 +1708,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 88
+        "used": 89
       },
       {
         "cap": 300,
@@ -1716,7 +1716,7 @@
         "healthy": true,
         "model": "allam-2-7b:free",
         "provider": "unorouter",
-        "used": 283
+        "used": 284
       },
       {
         "cap": 300,
@@ -1764,7 +1764,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
         "provider": "crowllm",
-        "used": 44
+        "used": 45
       },
       {
         "cap": 300,
@@ -1852,7 +1852,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b:free",
         "provider": "crowllm",
-        "used": 36
+        "used": 37
       },
       {
         "cap": 300,
@@ -1964,7 +1964,7 @@
         "healthy": true,
         "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 39
+        "used": 41
       },
       {
         "cap": 200,
@@ -2747,14 +2747,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "2026-11-22T23:28:45Z ALERT pub_stale trigger=pub kind=collector_dead file=ai-quota-catalog.json local_state=missing local_age_sec=none primary_state=missing primary_age_sec=none github_state=missing github_age_sec=none threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss."
+        "latest": "- key=9f27182bf7e9"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 2,
         "tasks_total": 2,
-        "updated": "2026-11-22T23:23:09Z"
+        "updated": "2026-11-22T23:31:57Z"
       },
       "tasks": {
         "done": 15,
