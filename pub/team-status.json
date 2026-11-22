@@ -47,8 +47,8 @@
     }
   ],
   "content_latest_at": "2026-11-22T13:28:12Z",
-  "generated_at": "2026-11-22T13:29:06Z",
-  "generated_at_utc": "2026-11-22T13:29:06Z",
+  "generated_at": "2026-11-22T13:31:41Z",
+  "generated_at_utc": "2026-11-22T13:31:41Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -140,7 +140,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 130
+        "used": 131
       },
       {
         "cap": 300,
@@ -156,7 +156,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 204
+        "used": 205
       },
       {
         "cap": 500,
@@ -589,6 +589,38 @@
         "model": "qwen-qwen2-5-1-5b-instruct",
         "provider": "packet-ai",
         "used": 1
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4.1-flash:free",
+        "provider": "token-harbor",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "mimo-v2.6-flash:free",
+        "provider": "token-harbor",
+        "used": 1
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4-flash:free",
+        "provider": "token-harbor",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "mimo-v2.5:free",
+        "provider": "token-harbor",
+        "used": 0
       },
       {
         "cap": 200000,
@@ -1199,7 +1231,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 51,
+    "healthy_entries": 55,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -1249,7 +1281,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 130
+        "used": 131
       },
       {
         "cap": 300,
@@ -1265,7 +1297,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 204
+        "used": 205
       },
       {
         "cap": 500,
@@ -1698,6 +1730,38 @@
         "model": "qwen-qwen2-5-1-5b-instruct",
         "provider": "packet-ai",
         "used": 1
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4.1-flash:free",
+        "provider": "token-harbor",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "mimo-v2.6-flash:free",
+        "provider": "token-harbor",
+        "used": 1
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4-flash:free",
+        "provider": "token-harbor",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "mimo-v2.5:free",
+        "provider": "token-harbor",
+        "used": 0
       },
       {
         "cap": 200000,
@@ -2308,7 +2372,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 51,
+    "healthy_entries": 55,
     "ok": true,
     "reachable": true,
     "used_today": 45
