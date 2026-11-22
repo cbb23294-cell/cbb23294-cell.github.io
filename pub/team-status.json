@@ -2,13 +2,13 @@
   "boards": [
     {
       "done": 13,
-      "escalation_latest": "- key=077fab756f7d",
+      "escalation_latest": "- key=7464059c889c",
       "next_open": [
         "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala",
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
       "open": 2,
-      "status_updated": "2026-11-22T08:52:54Z",
+      "status_updated": "2026-11-22T08:55:44Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
@@ -37,7 +37,7 @@
       "escalation_latest": "- key=cc14636f3caa",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T08:40:36Z",
+      "status_updated": "2026-11-22T08:55:36Z",
       "total": 18,
       "workstream": "operations"
     },
@@ -51,9 +51,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T08:52:54Z",
-  "generated_at": "2026-11-22T08:53:44Z",
-  "generated_at_utc": "2026-11-22T08:53:44Z",
+  "content_latest_at": "2026-11-22T08:55:44Z",
+  "generated_at": "2026-11-22T08:58:31Z",
+  "generated_at_utc": "2026-11-22T08:58:31Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 459
+        "used": 473
       },
       {
         "cap": 1000,
@@ -401,7 +401,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 223
+        "used": 234
       },
       {
         "cap": 300,
@@ -1078,7 +1078,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 459
+        "used": 473
       },
       {
         "cap": 1000,
@@ -1342,7 +1342,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 223
+        "used": 234
       },
       {
         "cap": 300,
@@ -1997,14 +1997,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=077fab756f7d"
+        "latest": "- key=7464059c889c"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-22T08:52:54Z"
+        "updated": "2026-11-22T08:55:44Z"
       },
       "tasks": {
         "done": 13,
@@ -2032,7 +2032,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T08:40:36Z"
+        "updated": "2026-11-22T08:55:36Z"
       },
       "tasks": {
         "done": 18,
