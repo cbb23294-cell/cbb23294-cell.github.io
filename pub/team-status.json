@@ -3,10 +3,13 @@
     {
       "done": 15,
       "escalation_latest": "2026-11-22T15:09:30Z ALERT pub_stale trigger=pub kind=collector_dead file=token-perks.json local_state=missing local_age_sec=none primary_state=stale primary_age_sec=137961 github_state=stale github_age_sec=137961 threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss.",
-      "next_open": [],
-      "open": 0,
-      "status_updated": "2026-11-22T15:03:22Z",
-      "total": 15,
+      "next_open": [
+        "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
+        "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
+      ],
+      "open": 2,
+      "status_updated": "2026-11-22T15:12:42Z",
+      "total": 17,
       "workstream": "cloud-script-migration"
     },
     {
@@ -36,7 +39,7 @@
       "escalation_latest": "- key=cc14636f3caa",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T14:56:41Z",
+      "status_updated": "2026-11-22T15:13:27Z",
       "total": 18,
       "workstream": "operations"
     },
@@ -50,9 +53,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T15:10:52Z",
-  "generated_at": "2026-11-22T15:12:12Z",
-  "generated_at_utc": "2026-11-22T15:12:12Z",
+  "content_latest_at": "2026-11-22T15:13:27Z",
+  "generated_at": "2026-11-22T15:14:37Z",
+  "generated_at_utc": "2026-11-22T15:14:37Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -162,7 +165,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 258
+        "used": 264
       },
       {
         "cap": 500,
@@ -578,7 +581,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 114
+        "used": 125
       },
       {
         "cap": 300,
@@ -1271,7 +1274,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 258
+        "used": 264
       },
       {
         "cap": 500,
@@ -1687,7 +1690,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 114
+        "used": 125
       },
       {
         "cap": 300,
@@ -2347,15 +2350,24 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-22T15:03:22Z"
+        "tasks_open": 2,
+        "tasks_total": 2,
+        "updated": "2026-11-22T15:12:42Z"
       },
       "tasks": {
         "done": 15,
         "exists": true,
-        "next_open": [],
-        "open": 0
+        "next_open": [
+          {
+            "full": true,
+            "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
+          },
+          {
+            "full": true,
+            "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
+          }
+        ],
+        "open": 2
       }
     },
     "operations": {
@@ -2368,7 +2380,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T14:56:41Z"
+        "updated": "2026-11-22T15:13:27Z"
       },
       "tasks": {
         "done": 18,
