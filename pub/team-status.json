@@ -8,7 +8,7 @@
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
       ],
       "open": 2,
-      "status_updated": "2026-11-22T15:28:38Z",
+      "status_updated": "2026-11-22T15:30:09Z",
       "total": 17,
       "workstream": "cloud-script-migration"
     },
@@ -20,9 +20,9 @@
         "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261",
         "[mech] Cooldown failure classification + cycle wall-clock data pack for the 2026"
       ],
-      "open": 4,
-      "status_updated": "2026-11-22T15:27:23Z",
-      "total": 56,
+      "open": 8,
+      "status_updated": "2026-11-22T15:31:18Z",
+      "total": 60,
       "workstream": "pool-optimization"
     },
     {
@@ -37,10 +37,12 @@
     {
       "done": 18,
       "escalation_latest": "- key=cc14636f3caa",
-      "next_open": [],
-      "open": 0,
-      "status_updated": "2026-11-22T15:13:27Z",
-      "total": 18,
+      "next_open": [
+        "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
+      ],
+      "open": 1,
+      "status_updated": "2026-11-22T15:31:18Z",
+      "total": 19,
       "workstream": "operations"
     },
     {
@@ -53,9 +55,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T15:28:38Z",
-  "generated_at": "2026-11-22T15:29:12Z",
-  "generated_at_utc": "2026-11-22T15:29:12Z",
+  "content_latest_at": "2026-11-22T15:31:18Z",
+  "generated_at": "2026-11-22T15:31:33Z",
+  "generated_at_utc": "2026-11-22T15:31:33Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -67,7 +69,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "model": "nemotron-3-ultra-550b-a55b:free",
+      "model": "mimo-v2.5:free",
       "source": "pool",
       "workstream": "pool-optimization"
     },
@@ -165,7 +167,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 272
+        "used": 278
       },
       {
         "cap": 500,
@@ -437,7 +439,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 0
+        "used": 7
       },
       {
         "cap": 300,
@@ -581,7 +583,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 134
+        "used": 135
       },
       {
         "cap": 300,
@@ -1322,7 +1324,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 272
+        "used": 278
       },
       {
         "cap": 500,
@@ -1594,7 +1596,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 0
+        "used": 7
       },
       {
         "cap": 300,
@@ -1738,7 +1740,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 134
+        "used": 135
       },
       {
         "cap": 300,
@@ -2448,7 +2450,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T15:28:38Z"
+        "updated": "2026-11-22T15:30:09Z"
       },
       "tasks": {
         "done": 15,
@@ -2474,15 +2476,20 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-22T15:13:27Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-22T15:31:18Z"
       },
       "tasks": {
         "done": 18,
         "exists": true,
-        "next_open": [],
-        "open": 0
+        "next_open": [
+          {
+            "full": true,
+            "title": "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
+          }
+        ],
+        "open": 1
       }
     },
     "pool-optimization": {
@@ -2493,9 +2500,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-22T15:27:23Z"
+        "tasks_open": 4,
+        "tasks_total": 4,
+        "updated": "2026-11-22T15:31:18Z"
       },
       "tasks": {
         "done": 52,
@@ -2514,7 +2521,7 @@
             "title": "[mech] Cooldown failure classification + cycle wall-clock data pack for the 2026"
           }
         ],
-        "open": 4
+        "open": 8
       }
     },
     "security": {
