@@ -2,24 +2,24 @@
   "boards": [
     {
       "done": 13,
-      "escalation_latest": "- key=22a7f7821c3e",
+      "escalation_latest": "- key=3d3afe8b4c4d",
       "next_open": [
         "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala",
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
       "open": 2,
-      "status_updated": "2026-11-22T07:28:02Z",
+      "status_updated": "2026-11-22T07:36:23Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
     {
       "done": 51,
-      "escalation_latest": "- key=77ff3dabfe25",
+      "escalation_latest": "- key=b6cefc95adee",
       "next_open": [
         "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing "
       ],
       "open": 1,
-      "status_updated": "2026-11-22T07:21:35Z",
+      "status_updated": "2026-11-22T07:42:08Z",
       "total": 52,
       "workstream": "pool-optimization"
     },
@@ -28,7 +28,7 @@
       "escalation_latest": "- key=3c0f441978e3",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T07:16:08Z",
+      "status_updated": "2026-11-22T07:36:08Z",
       "total": 12,
       "workstream": "security"
     },
@@ -39,7 +39,7 @@
         "[boss-accept] User-found mapping table (meeting 20261122T024728Z ruling R-4, sec"
       ],
       "open": 1,
-      "status_updated": "2026-11-22T07:33:36Z",
+      "status_updated": "2026-11-22T07:41:28Z",
       "total": 18,
       "workstream": "operations"
     },
@@ -53,9 +53,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T07:33:36Z",
-  "generated_at": "2026-11-22T07:35:35Z",
-  "generated_at_utc": "2026-11-22T07:35:35Z",
+  "content_latest_at": "2026-11-22T07:42:08Z",
+  "generated_at": "2026-11-22T07:43:13Z",
+  "generated_at_utc": "2026-11-22T07:43:13Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -126,7 +126,7 @@
         "used": 1076
       },
       {
-        "cap": 1050,
+        "cap": 1000,
         "enabled": true,
         "healthy": false,
         "model": "deepseek-v4.1-flash-free",
@@ -139,7 +139,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 119
+        "used": 155
       },
       {
         "cap": 1000,
@@ -147,10 +147,10 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 37
+        "used": 45
       },
       {
-        "cap": 315,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "nex-n2.6",
@@ -163,7 +163,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 43
+        "used": 62
       },
       {
         "cap": 500,
@@ -171,7 +171,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 352
+        "used": 369
       },
       {
         "cap": 500,
@@ -179,7 +179,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 352
+        "used": 369
       },
       {
         "cap": 500,
@@ -187,7 +187,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 0
+        "used": 3
       },
       {
         "cap": 500,
@@ -195,7 +195,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 0
+        "used": 3
       },
       {
         "cap": 1000,
@@ -275,7 +275,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 129
+        "used": 133
       },
       {
         "cap": 500,
@@ -283,7 +283,7 @@
         "healthy": true,
         "model": "gemini-3.8-flash",
         "provider": "google-ai-studio",
-        "used": 47
+        "used": 49
       },
       {
         "cap": 500,
@@ -403,7 +403,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 141
+        "used": 155
       },
       {
         "cap": 300,
@@ -1067,7 +1067,7 @@
         "used": 1076
       },
       {
-        "cap": 1050,
+        "cap": 1000,
         "enabled": true,
         "healthy": false,
         "model": "deepseek-v4.1-flash-free",
@@ -1080,7 +1080,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 119
+        "used": 155
       },
       {
         "cap": 1000,
@@ -1088,10 +1088,10 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 37
+        "used": 45
       },
       {
-        "cap": 315,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "nex-n2.6",
@@ -1104,7 +1104,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 43
+        "used": 62
       },
       {
         "cap": 500,
@@ -1112,7 +1112,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 352
+        "used": 369
       },
       {
         "cap": 500,
@@ -1120,7 +1120,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 352
+        "used": 369
       },
       {
         "cap": 500,
@@ -1128,7 +1128,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 0
+        "used": 3
       },
       {
         "cap": 500,
@@ -1136,7 +1136,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 0
+        "used": 3
       },
       {
         "cap": 1000,
@@ -1216,7 +1216,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 129
+        "used": 133
       },
       {
         "cap": 500,
@@ -1224,7 +1224,7 @@
         "healthy": true,
         "model": "gemini-3.8-flash",
         "provider": "google-ai-studio",
-        "used": 47
+        "used": 49
       },
       {
         "cap": 500,
@@ -1344,7 +1344,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 141
+        "used": 155
       },
       {
         "cap": 300,
@@ -1999,14 +1999,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=22a7f7821c3e"
+        "latest": "- key=3d3afe8b4c4d"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-22T07:28:02Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-22T07:36:23Z"
       },
       "tasks": {
         "done": 13,
@@ -2032,9 +2032,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-22T07:33:36Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-22T07:41:28Z"
       },
       "tasks": {
         "done": 17,
@@ -2051,14 +2051,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=77ff3dabfe25"
+        "latest": "- key=b6cefc95adee"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-22T07:21:35Z"
+        "updated": "2026-11-22T07:42:08Z"
       },
       "tasks": {
         "done": 51,
@@ -2082,7 +2082,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T07:16:08Z"
+        "updated": "2026-11-22T07:36:08Z"
       },
       "tasks": {
         "done": 12,
