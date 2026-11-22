@@ -2,24 +2,24 @@
   "boards": [
     {
       "done": 13,
-      "escalation_latest": "- key=6a65b20683f6",
+      "escalation_latest": "- key=54cdb155d9a9",
       "next_open": [
         "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala",
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
       "open": 2,
-      "status_updated": "2026-11-22T10:41:15Z",
+      "status_updated": "2026-11-22T10:47:33Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
     {
       "done": 51,
-      "escalation_latest": "- key=76a49a55087d",
+      "escalation_latest": "- key=669e48f4512e",
       "next_open": [
         "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing "
       ],
       "open": 1,
-      "status_updated": "2026-11-22T10:29:54Z",
+      "status_updated": "2026-11-22T10:46:31Z",
       "total": 52,
       "workstream": "pool-optimization"
     },
@@ -28,7 +28,7 @@
       "escalation_latest": "- key=3c0f441978e3",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T10:25:18Z",
+      "status_updated": "2026-11-22T10:46:00Z",
       "total": 12,
       "workstream": "security"
     },
@@ -37,7 +37,7 @@
       "escalation_latest": "- key=cc14636f3caa",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T10:39:20Z",
+      "status_updated": "2026-11-22T10:46:01Z",
       "total": 18,
       "workstream": "operations"
     },
@@ -46,14 +46,14 @@
       "escalation_latest": "- key=520cb7f0c761",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T10:27:20Z",
+      "status_updated": "2026-11-22T10:46:01Z",
       "total": 10,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T10:41:15Z",
-  "generated_at": "2026-11-22T10:45:35Z",
-  "generated_at_utc": "2026-11-22T10:45:35Z",
+  "content_latest_at": "2026-11-22T10:47:33Z",
+  "generated_at": "2026-11-22T10:47:45Z",
+  "generated_at_utc": "2026-11-22T10:47:45Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 738
+        "used": 752
       },
       {
         "cap": 1000,
@@ -209,7 +209,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 217
+        "used": 221
       },
       {
         "cap": 1000,
@@ -1078,7 +1078,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 738
+        "used": 752
       },
       {
         "cap": 1000,
@@ -1150,7 +1150,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 217
+        "used": 221
       },
       {
         "cap": 1000,
@@ -1997,14 +1997,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=6a65b20683f6"
+        "latest": "- key=54cdb155d9a9"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 2,
-        "tasks_total": 2,
-        "updated": "2026-11-22T10:41:15Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-22T10:47:33Z"
       },
       "tasks": {
         "done": 13,
@@ -2032,7 +2032,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T10:39:20Z"
+        "updated": "2026-11-22T10:46:01Z"
       },
       "tasks": {
         "done": 18,
@@ -2044,14 +2044,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=76a49a55087d"
+        "latest": "- key=669e48f4512e"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-22T10:29:54Z"
+        "updated": "2026-11-22T10:46:31Z"
       },
       "tasks": {
         "done": 51,
@@ -2075,7 +2075,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T10:25:18Z"
+        "updated": "2026-11-22T10:46:00Z"
       },
       "tasks": {
         "done": 12,
@@ -2094,7 +2094,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T10:27:20Z"
+        "updated": "2026-11-22T10:46:01Z"
       },
       "tasks": {
         "done": 10,
