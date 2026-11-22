@@ -1,1 +1,76 @@
-{"ok":false,"reason":"freebie pipeline failed before publish"}
+{
+  "ok": true,
+  "generatedAt": "2026-11-22T15:04:44Z",
+  "round": "freebie-scan",
+  "judged": false,
+  "deals": [],
+  "sourceResults": [
+    {
+      "sourceKey": "linuxdo",
+      "status": "ok",
+      "newCount": 0,
+      "error": "无新增；未判断（free-pool 判断不可用：3 批全部失败（最后错误：连接失败：[Errno 111] Connection refused））"
+    },
+    {
+      "sourceKey": "v2ex",
+      "status": "ok",
+      "newCount": 0,
+      "error": "无新增；未判断（free-pool 判断不可用：3 批全部失败（最后错误：连接失败：[Errno 111] Connection refused））"
+    },
+    {
+      "sourceKey": "nodeseek",
+      "status": "ok",
+      "newCount": 0,
+      "error": "无新增；未判断（free-pool 判断不可用：3 批全部失败（最后错误：连接失败：[Errno 111] Connection refused））"
+    },
+    {
+      "sourceKey": "hostloc",
+      "status": "ok",
+      "newCount": 0,
+      "error": "搜索索引发现：本轮无符合条目；未判断（free-pool 判断不可用：3 批全部失败（最后错误：连接失败：[Errno 111] Connection refused））"
+    },
+    {
+      "sourceKey": "epic",
+      "status": "ok",
+      "newCount": 0,
+      "error": "无新增；未判断（free-pool 判断不可用：3 批全部失败（最后错误：连接失败：[Errno 111] Connection refused））"
+    },
+    {
+      "sourceKey": "appinn",
+      "status": "ok",
+      "newCount": 0,
+      "error": "无新增；未判断（free-pool 判断不可用：3 批全部失败（最后错误：连接失败：[Errno 111] Connection refused））"
+    },
+    {
+      "sourceKey": "ghxi",
+      "status": "ok",
+      "newCount": 0,
+      "error": "无新增；未判断（free-pool 判断不可用：3 批全部失败（最后错误：连接失败：[Errno 111] Connection refused））"
+    },
+    {
+      "sourceKey": "iplaysoft",
+      "status": "ok",
+      "newCount": 0,
+      "error": "无新增；未判断（free-pool 判断不可用：3 批全部失败（最后错误：连接失败：[Errno 111] Connection refused））"
+    },
+    {
+      "sourceKey": "github",
+      "status": "ok",
+      "newCount": 0,
+      "error": "无新增；未判断（free-pool 判断不可用：3 批全部失败（最后错误：连接失败：[Errno 111] Connection refused））"
+    }
+  ],
+  "sourceCount": 9,
+  "dealCount": 0,
+  "maxAgeSec": 259200,
+  "cronIntervalSec": 86400,
+  "hostlocQueries": [
+    "site:hostloc.com 免费",
+    "site:hostloc.com 赠送",
+    "site:hostloc.com 试用",
+    "site:hostloc.com 羊毛",
+    "site:hostloc.com 免费领取"
+  ],
+  "egress": "instabox",
+  "judgeError": "free-pool 判断不可用：3 批全部失败（最后错误：连接失败：[Errno 111] Connection refused）"
+}
