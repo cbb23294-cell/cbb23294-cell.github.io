@@ -8,19 +8,19 @@
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
       "open": 2,
-      "status_updated": "2026-11-22T03:21:37Z",
+      "status_updated": "2026-11-22T03:37:27Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
     {
-      "done": 48,
+      "done": 49,
       "escalation_latest": "- key=5007d7dc9d12",
       "next_open": [
         "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing ",
-        "[code] [boss-accept] Meeting call-chain repair: seat health gate + ask() curl tr",
-        "[code] [boss-accept] Event-stream flapping fix: REINFORCE line identity in board"
+        "[code] [boss-accept] Event-stream flapping fix: REINFORCE line identity in board",
+        "[mech] Slice-failure classification ledger (meeting 20261122T024728Z ruling R-1)"
       ],
-      "open": 4,
+      "open": 3,
       "status_updated": "2026-11-22T03:34:47Z",
       "total": 52,
       "workstream": "pool-optimization"
@@ -55,9 +55,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T03:34:47Z",
-  "generated_at": "2026-11-22T03:36:03Z",
-  "generated_at_utc": "2026-11-22T03:36:03Z",
+  "content_latest_at": "2026-11-22T03:37:27Z",
+  "generated_at": "2026-11-22T03:38:03Z",
+  "generated_at_utc": "2026-11-22T03:38:03Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -125,7 +125,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 915
+        "used": 927
       },
       {
         "cap": 1000,
@@ -213,7 +213,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 13
+        "used": 16
       },
       {
         "cap": 1000,
@@ -250,26 +250,26 @@
       {
         "cap": 45,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "openrouter",
-        "used": 42
+        "used": 45
       },
       {
         "cap": 45,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "google/gemma-4-31b-it:free",
         "provider": "openrouter",
-        "used": 42
+        "used": 45
       },
       {
         "cap": 45,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "cohere/north-mini-code:free",
         "provider": "openrouter",
-        "used": 42
+        "used": 45
       },
       {
         "cap": 500,
@@ -277,7 +277,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 0
+        "used": 6
       },
       {
         "cap": 500,
@@ -1040,10 +1040,10 @@
         "used": 0
       }
     ],
-    "healthy_entries": 39,
+    "healthy_entries": 36,
     "ok": true,
     "reachable": true,
-    "used_today": 42
+    "used_today": 45
   },
   "pool_health": {
     "cap": 45,
@@ -1066,7 +1066,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 915
+        "used": 927
       },
       {
         "cap": 1000,
@@ -1154,7 +1154,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 13
+        "used": 16
       },
       {
         "cap": 1000,
@@ -1191,26 +1191,26 @@
       {
         "cap": 45,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "openrouter",
-        "used": 42
+        "used": 45
       },
       {
         "cap": 45,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "google/gemma-4-31b-it:free",
         "provider": "openrouter",
-        "used": 42
+        "used": 45
       },
       {
         "cap": 45,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "cohere/north-mini-code:free",
         "provider": "openrouter",
-        "used": 42
+        "used": 45
       },
       {
         "cap": 500,
@@ -1218,7 +1218,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 0
+        "used": 6
       },
       {
         "cap": 500,
@@ -1981,10 +1981,10 @@
         "used": 0
       }
     ],
-    "healthy_entries": 39,
+    "healthy_entries": 36,
     "ok": true,
     "reachable": true,
-    "used_today": 42
+    "used_today": 45
   },
   "tracked_jobs": {
     "done": 58,
@@ -2008,7 +2008,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T03:21:37Z"
+        "updated": "2026-11-22T03:37:27Z"
       },
       "tasks": {
         "done": 13,
@@ -2063,7 +2063,7 @@
         "updated": "2026-11-22T03:34:47Z"
       },
       "tasks": {
-        "done": 48,
+        "done": 49,
         "exists": true,
         "next_open": [
           {
@@ -2072,14 +2072,14 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Meeting call-chain repair: seat health gate + ask() curl tr"
+            "title": "[code] [boss-accept] Event-stream flapping fix: REINFORCE line identity in board"
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Event-stream flapping fix: REINFORCE line identity in board"
+            "title": "[mech] Slice-failure classification ledger (meeting 20261122T024728Z ruling R-1)"
           }
         ],
-        "open": 4
+        "open": 3
       }
     },
     "security": {
