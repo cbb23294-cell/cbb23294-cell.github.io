@@ -13,13 +13,11 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "done": 51,
-      "escalation_latest": "- key=f971175163b8",
-      "next_open": [
-        "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing "
-      ],
-      "open": 1,
-      "status_updated": "2026-11-22T12:07:57Z",
+      "done": 52,
+      "escalation_latest": "- key=9b07af766077",
+      "next_open": [],
+      "open": 0,
+      "status_updated": "2026-11-22T12:08:24Z",
       "total": 52,
       "workstream": "pool-optimization"
     },
@@ -51,9 +49,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T12:07:57Z",
-  "generated_at": "2026-11-22T12:08:02Z",
-  "generated_at_utc": "2026-11-22T12:08:02Z",
+  "content_latest_at": "2026-11-22T12:08:24Z",
+  "generated_at": "2026-11-22T12:10:17Z",
+  "generated_at_utc": "2026-11-22T12:10:17Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -137,7 +135,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 1189
+        "used": 1207
       },
       {
         "cap": 1000,
@@ -145,7 +143,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 122
+        "used": 123
       },
       {
         "cap": 300,
@@ -161,7 +159,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 500,
@@ -209,7 +207,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 248
+        "used": 250
       },
       {
         "cap": 1000,
@@ -225,7 +223,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 120
+        "used": 124
       },
       {
         "cap": 300,
@@ -233,7 +231,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 120
+        "used": 124
       },
       {
         "cap": 300,
@@ -241,7 +239,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 120
+        "used": 124
       },
       {
         "cap": 45,
@@ -1078,7 +1076,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 1189
+        "used": 1207
       },
       {
         "cap": 1000,
@@ -1086,7 +1084,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 122
+        "used": 123
       },
       {
         "cap": 300,
@@ -1102,7 +1100,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 500,
@@ -1150,7 +1148,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 248
+        "used": 250
       },
       {
         "cap": 1000,
@@ -1166,7 +1164,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 120
+        "used": 124
       },
       {
         "cap": 300,
@@ -1174,7 +1172,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 120
+        "used": 124
       },
       {
         "cap": 300,
@@ -1182,7 +1180,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 120
+        "used": 124
       },
       {
         "cap": 45,
@@ -2044,25 +2042,20 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=f971175163b8"
+        "latest": "- key=9b07af766077"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-22T12:07:57Z"
+        "updated": "2026-11-22T12:08:24Z"
       },
       "tasks": {
-        "done": 51,
+        "done": 52,
         "exists": true,
-        "next_open": [
-          {
-            "full": true,
-            "title": "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing "
-          }
-        ],
-        "open": 1
+        "next_open": [],
+        "open": 0
       }
     },
     "security": {
