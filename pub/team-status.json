@@ -2,13 +2,13 @@
   "boards": [
     {
       "done": 13,
-      "escalation_latest": "- key=8b369405ec58",
+      "escalation_latest": "- key=9a7d940c38c3",
       "next_open": [
         "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala",
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
       "open": 2,
-      "status_updated": "2026-11-22T08:16:46Z",
+      "status_updated": "2026-11-22T08:27:04Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
@@ -37,7 +37,7 @@
       "escalation_latest": "- key=cc14636f3caa",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T08:10:35Z",
+      "status_updated": "2026-11-22T08:25:35Z",
       "total": 18,
       "workstream": "operations"
     },
@@ -51,9 +51,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T08:23:23Z",
-  "generated_at": "2026-11-22T08:25:26Z",
-  "generated_at_utc": "2026-11-22T08:25:26Z",
+  "content_latest_at": "2026-11-22T08:27:04Z",
+  "generated_at": "2026-11-22T08:27:33Z",
+  "generated_at_utc": "2026-11-22T08:27:33Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 412
+        "used": 414
       },
       {
         "cap": 1000,
@@ -145,7 +145,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 66
+        "used": 70
       },
       {
         "cap": 300,
@@ -161,7 +161,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 124
+        "used": 125
       },
       {
         "cap": 552,
@@ -273,7 +273,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 255
+        "used": 261
       },
       {
         "cap": 500,
@@ -1078,7 +1078,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 412
+        "used": 414
       },
       {
         "cap": 1000,
@@ -1086,7 +1086,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 66
+        "used": 70
       },
       {
         "cap": 300,
@@ -1102,7 +1102,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 124
+        "used": 125
       },
       {
         "cap": 552,
@@ -1214,7 +1214,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 255
+        "used": 261
       },
       {
         "cap": 500,
@@ -1997,14 +1997,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=8b369405ec58"
+        "latest": "- key=9a7d940c38c3"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 2,
         "tasks_total": 2,
-        "updated": "2026-11-22T08:16:46Z"
+        "updated": "2026-11-22T08:27:04Z"
       },
       "tasks": {
         "done": 13,
@@ -2032,7 +2032,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T08:10:35Z"
+        "updated": "2026-11-22T08:25:35Z"
       },
       "tasks": {
         "done": 18,
