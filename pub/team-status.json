@@ -11,13 +11,15 @@
     },
     {
       "done": 52,
-      "escalation_latest": "- key=9b07af766077",
+      "escalation_latest": "- key=7647384e9096",
       "next_open": [
-        "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion ("
+        "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion (",
+        "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261",
+        "[mech] Cooldown failure classification + cycle wall-clock data pack for the 2026"
       ],
-      "open": 1,
+      "open": 3,
       "status_updated": "2026-11-22T13:54:48Z",
-      "total": 53,
+      "total": 55,
       "workstream": "pool-optimization"
     },
     {
@@ -49,8 +51,8 @@
     }
   ],
   "content_latest_at": "2026-11-22T13:54:48Z",
-  "generated_at": "2026-11-22T13:55:17Z",
-  "generated_at_utc": "2026-11-22T13:55:17Z",
+  "generated_at": "2026-11-22T13:57:43Z",
+  "generated_at_utc": "2026-11-22T13:57:43Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -152,7 +154,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 137
+        "used": 138
       },
       {
         "cap": 300,
@@ -168,7 +170,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 216
+        "used": 218
       },
       {
         "cap": 500,
@@ -608,7 +610,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 7
+        "used": 16
       },
       {
         "cap": 300,
@@ -1293,7 +1295,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 137
+        "used": 138
       },
       {
         "cap": 300,
@@ -1309,7 +1311,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 216
+        "used": 218
       },
       {
         "cap": 500,
@@ -1749,7 +1751,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 7
+        "used": 16
       },
       {
         "cap": 300,
@@ -2442,7 +2444,7 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=9b07af766077"
+        "latest": "- key=7647384e9096"
       },
       "status": {
         "exists": true,
@@ -2458,9 +2460,17 @@
           {
             "full": true,
             "title": "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion ("
+          },
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
+          },
+          {
+            "full": true,
+            "title": "[mech] Cooldown failure classification + cycle wall-clock data pack for the 2026"
           }
         ],
-        "open": 1
+        "open": 3
       }
     },
     "security": {
