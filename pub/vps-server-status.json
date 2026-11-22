@@ -1,17 +1,17 @@
 {
-  "collectedAt": "2026-11-22T15:07:06Z",
+  "collectedAt": "2026-11-22T15:17:09Z",
   "servers": [
     {
       "serverId": 1,
       "ok": true,
       "error": "",
       "note": "",
-      "cpuPct": 35.5,
-      "load1": 0.0,
-      "load5": 0.0,
-      "load15": 0.0,
+      "cpuPct": 12.1,
+      "load1": 0.26,
+      "load5": 0.08,
+      "load15": 0.02,
       "uptimeDays": 150.0,
-      "memUsedMb": 410,
+      "memUsedMb": 412,
       "memTotalMb": 1019,
       "diskUsedGb": 3.7,
       "diskTotalGb": 18.2,
@@ -19,25 +19,25 @@
       "netMonthLimitGb": 1000.0,
       "netRxTotalGb": 191.9,
       "netTxTotalGb": 198.1,
-      "netRxMbps": 1.01,
-      "netTxMbps": 0.55,
+      "netRxMbps": 0.28,
+      "netTxMbps": 0.07,
       "gpuModel": null,
       "gpuPct": null,
       "threeNet": [
         {
           "carrier": "telecom",
-          "latencyMs": 153.32,
-          "packetLoss": 0.0
+          "latencyMs": 153.377,
+          "packetLoss": 20.0
         },
         {
           "carrier": "unicom",
-          "latencyMs": 185.094,
-          "packetLoss": 0.0
+          "latencyMs": 183.478,
+          "packetLoss": 20.0
         },
         {
           "carrier": "mobile",
-          "latencyMs": 190.645,
-          "packetLoss": 20.0
+          "latencyMs": 190.064,
+          "packetLoss": 0.0
         }
       ]
     },
@@ -46,9 +46,9 @@
       "ok": true,
       "error": "",
       "note": "无 vnstat，本月流量填 null",
-      "cpuPct": 4.8,
-      "load1": 0.06,
-      "load5": 0.02,
+      "cpuPct": 4.5,
+      "load1": 0.0,
+      "load5": 0.0,
       "load15": 0.0,
       "uptimeDays": 6.0,
       "memUsedMb": 480,
@@ -66,17 +66,17 @@
       "threeNet": [
         {
           "carrier": "telecom",
-          "latencyMs": 24.498,
+          "latencyMs": 24.268,
           "packetLoss": 0.0
         },
         {
           "carrier": "unicom",
-          "latencyMs": 38.476,
+          "latencyMs": 38.276,
           "packetLoss": 0.0
         },
         {
           "carrier": "mobile",
-          "latencyMs": 7.194,
+          "latencyMs": 7.15,
           "packetLoss": 0.0
         }
       ]
