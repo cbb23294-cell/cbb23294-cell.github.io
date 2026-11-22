@@ -2,13 +2,13 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "- key=3aba906857ab",
+      "escalation_latest": "2026-11-22T17:19:20Z ALERT pub_stale trigger=pub kind=collector_dead file=token-perks.json local_state=missing local_age_sec=none primary_state=stale primary_age_sec=145751 github_state=stale github_age_sec=145751 threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss.",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
       ],
       "open": 2,
-      "status_updated": "2026-11-22T17:06:23Z",
+      "status_updated": "2026-11-22T17:19:21Z",
       "total": 17,
       "workstream": "cloud-script-migration"
     },
@@ -21,7 +21,7 @@
         "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
       ],
       "open": 9,
-      "status_updated": "2026-11-22T17:11:13Z",
+      "status_updated": "2026-11-22T17:17:30Z",
       "total": 62,
       "workstream": "pool-optimization"
     },
@@ -30,18 +30,18 @@
       "escalation_latest": "- key=3c0f441978e3",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T16:56:23Z",
+      "status_updated": "2026-11-22T17:17:35Z",
       "total": 12,
       "workstream": "security"
     },
     {
       "done": 18,
-      "escalation_latest": "- key=7078eb3a3f9f",
+      "escalation_latest": "- key=f2ab04c7ec3e",
       "next_open": [
         "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
       ],
       "open": 1,
-      "status_updated": "2026-11-22T17:10:22Z",
+      "status_updated": "2026-11-22T17:17:40Z",
       "total": 19,
       "workstream": "operations"
     },
@@ -50,14 +50,14 @@
       "escalation_latest": "- key=520cb7f0c761",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T16:47:42Z",
+      "status_updated": "2026-11-22T17:17:45Z",
       "total": 10,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T17:11:13Z",
-  "generated_at": "2026-11-22T17:17:10Z",
-  "generated_at_utc": "2026-11-22T17:17:10Z",
+  "content_latest_at": "2026-11-22T17:19:21Z",
+  "generated_at": "2026-11-22T17:19:35Z",
+  "generated_at_utc": "2026-11-22T17:19:35Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -167,7 +167,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 378
+        "used": 381
       },
       {
         "cap": 500,
@@ -575,7 +575,7 @@
         "healthy": true,
         "model": "qwen-qwen2-5-1-5b-instruct",
         "provider": "packet-ai",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -719,7 +719,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -727,7 +727,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -735,7 +735,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -743,7 +743,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -751,7 +751,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -759,7 +759,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -767,7 +767,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -775,7 +775,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -783,7 +783,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -791,7 +791,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -799,7 +799,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -807,7 +807,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 200000,
@@ -1476,7 +1476,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 378
+        "used": 381
       },
       {
         "cap": 500,
@@ -1884,7 +1884,7 @@
         "healthy": true,
         "model": "qwen-qwen2-5-1-5b-instruct",
         "provider": "packet-ai",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2028,7 +2028,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -2036,7 +2036,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -2044,7 +2044,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -2052,7 +2052,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -2060,7 +2060,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -2068,7 +2068,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -2076,7 +2076,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -2084,7 +2084,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -2092,7 +2092,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -2100,7 +2100,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -2108,7 +2108,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 3000,
@@ -2116,7 +2116,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 200000,
@@ -2747,14 +2747,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=3aba906857ab"
+        "latest": "2026-11-22T17:19:20Z ALERT pub_stale trigger=pub kind=collector_dead file=token-perks.json local_state=missing local_age_sec=none primary_state=stale primary_age_sec=145751 github_state=stale github_age_sec=145751 threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss."
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 2,
-        "tasks_total": 2,
-        "updated": "2026-11-22T17:06:23Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-22T17:19:21Z"
       },
       "tasks": {
         "done": 15,
@@ -2775,14 +2775,14 @@
     "operations": {
       "escalation": {
         "exists": true,
-        "latest": "- key=7078eb3a3f9f"
+        "latest": "- key=f2ab04c7ec3e"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-22T17:10:22Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-22T17:17:40Z"
       },
       "tasks": {
         "done": 18,
@@ -2804,9 +2804,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 3,
-        "tasks_total": 3,
-        "updated": "2026-11-22T17:11:13Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-22T17:17:30Z"
       },
       "tasks": {
         "done": 53,
@@ -2838,7 +2838,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T16:56:23Z"
+        "updated": "2026-11-22T17:17:35Z"
       },
       "tasks": {
         "done": 12,
@@ -2857,7 +2857,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T16:47:42Z"
+        "updated": "2026-11-22T17:17:45Z"
       },
       "tasks": {
         "done": 10,
