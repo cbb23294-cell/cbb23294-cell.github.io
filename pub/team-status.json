@@ -2,7 +2,7 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "- key=e8a776589fbd",
+      "escalation_latest": "- key=bcbef1af48ac",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
@@ -13,15 +13,15 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "done": 52,
-      "escalation_latest": "- key=3e9c3cc7b5b8",
+      "done": 53,
+      "escalation_latest": "- key=2a231f564a9b",
       "next_open": [
         "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion (",
         "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261",
-        "[mech] Cooldown failure classification + cycle wall-clock data pack for the 2026"
+        "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
       ],
-      "open": 10,
-      "status_updated": "2026-11-22T15:38:12Z",
+      "open": 9,
+      "status_updated": "2026-11-22T15:53:42Z",
       "total": 62,
       "workstream": "pool-optimization"
     },
@@ -41,7 +41,7 @@
         "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
       ],
       "open": 1,
-      "status_updated": "2026-11-22T15:38:12Z",
+      "status_updated": "2026-11-22T15:53:24Z",
       "total": 19,
       "workstream": "operations"
     },
@@ -55,9 +55,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T15:45:28Z",
-  "generated_at": "2026-11-22T15:52:04Z",
-  "generated_at_utc": "2026-11-22T15:52:04Z",
+  "content_latest_at": "2026-11-22T15:53:42Z",
+  "generated_at": "2026-11-22T15:54:19Z",
+  "generated_at_utc": "2026-11-22T15:54:19Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -167,7 +167,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 308
+        "used": 310
       },
       {
         "cap": 500,
@@ -191,7 +191,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 171
+        "used": 180
       },
       {
         "cap": 500,
@@ -199,7 +199,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 171
+        "used": 180
       },
       {
         "cap": 1000,
@@ -207,7 +207,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 5
+        "used": 7
       },
       {
         "cap": 1000,
@@ -279,7 +279,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 463
+        "used": 464
       },
       {
         "cap": 20000,
@@ -607,7 +607,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 28
+        "used": 30
       },
       {
         "cap": 300,
@@ -655,7 +655,7 @@
         "healthy": true,
         "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 8
+        "used": 10
       },
       {
         "cap": 200,
@@ -1380,7 +1380,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 308
+        "used": 310
       },
       {
         "cap": 500,
@@ -1404,7 +1404,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 171
+        "used": 180
       },
       {
         "cap": 500,
@@ -1412,7 +1412,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 171
+        "used": 180
       },
       {
         "cap": 1000,
@@ -1420,7 +1420,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 5
+        "used": 7
       },
       {
         "cap": 1000,
@@ -1492,7 +1492,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 463
+        "used": 464
       },
       {
         "cap": 20000,
@@ -1820,7 +1820,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 28
+        "used": 30
       },
       {
         "cap": 300,
@@ -1868,7 +1868,7 @@
         "healthy": true,
         "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 8
+        "used": 10
       },
       {
         "cap": 200,
@@ -2555,7 +2555,7 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=e8a776589fbd"
+        "latest": "- key=bcbef1af48ac"
       },
       "status": {
         "exists": true,
@@ -2588,9 +2588,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-22T15:38:12Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-22T15:53:24Z"
       },
       "tasks": {
         "done": 18,
@@ -2607,17 +2607,17 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=3e9c3cc7b5b8"
+        "latest": "- key=2a231f564a9b"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 4,
-        "tasks_total": 4,
-        "updated": "2026-11-22T15:38:12Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-22T15:53:42Z"
       },
       "tasks": {
-        "done": 52,
+        "done": 53,
         "exists": true,
         "next_open": [
           {
@@ -2630,10 +2630,10 @@
           },
           {
             "full": true,
-            "title": "[mech] Cooldown failure classification + cycle wall-clock data pack for the 2026"
+            "title": "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
           }
         ],
-        "open": 10
+        "open": 9
       }
     },
     "security": {
