@@ -2,7 +2,7 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "- key=2305f7536ad1",
+      "escalation_latest": "2026-11-22T23:17:24Z ALERT pub_stale trigger=pub kind=collector_dead file=token-perks.json local_state=missing local_age_sec=none primary_state=stale primary_age_sec=167235 github_state=stale github_age_sec=167235 threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss.",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
@@ -56,8 +56,8 @@
     }
   ],
   "content_latest_at": "2026-11-22T23:16:41Z",
-  "generated_at": "2026-11-22T23:17:29Z",
-  "generated_at_utc": "2026-11-22T23:17:29Z",
+  "generated_at": "2026-11-22T23:19:50Z",
+  "generated_at_utc": "2026-11-22T23:19:50Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -167,7 +167,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 805
+        "used": 807
       },
       {
         "cap": 500,
@@ -383,7 +383,7 @@
         "healthy": true,
         "model": "GLM-5.3-Flash",
         "provider": "amd-tokenlab",
-        "used": 152
+        "used": 155
       },
       {
         "cap": 300,
@@ -391,7 +391,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 78
+        "used": 80
       },
       {
         "cap": 300,
@@ -399,7 +399,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 84
+        "used": 86
       },
       {
         "cap": 300,
@@ -407,7 +407,7 @@
         "healthy": true,
         "model": "allam-2-7b:free",
         "provider": "unorouter",
-        "used": 276
+        "used": 278
       },
       {
         "cap": 300,
@@ -415,7 +415,7 @@
         "healthy": true,
         "model": "crow-roleplay:free",
         "provider": "crowllm",
-        "used": 51
+        "used": 52
       },
       {
         "cap": 300,
@@ -431,7 +431,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1-uncensored:free",
         "provider": "crowllm",
-        "used": 54
+        "used": 55
       },
       {
         "cap": 300,
@@ -471,7 +471,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
         "provider": "crowllm",
-        "used": 40
+        "used": 41
       },
       {
         "cap": 300,
@@ -719,7 +719,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -727,7 +727,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -735,7 +735,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -743,7 +743,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -751,7 +751,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -759,7 +759,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -767,7 +767,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -775,7 +775,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -783,7 +783,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -791,7 +791,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -799,7 +799,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -807,7 +807,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 200000,
@@ -1476,7 +1476,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 805
+        "used": 807
       },
       {
         "cap": 500,
@@ -1692,7 +1692,7 @@
         "healthy": true,
         "model": "GLM-5.3-Flash",
         "provider": "amd-tokenlab",
-        "used": 152
+        "used": 155
       },
       {
         "cap": 300,
@@ -1700,7 +1700,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 78
+        "used": 80
       },
       {
         "cap": 300,
@@ -1708,7 +1708,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 84
+        "used": 86
       },
       {
         "cap": 300,
@@ -1716,7 +1716,7 @@
         "healthy": true,
         "model": "allam-2-7b:free",
         "provider": "unorouter",
-        "used": 276
+        "used": 278
       },
       {
         "cap": 300,
@@ -1724,7 +1724,7 @@
         "healthy": true,
         "model": "crow-roleplay:free",
         "provider": "crowllm",
-        "used": 51
+        "used": 52
       },
       {
         "cap": 300,
@@ -1740,7 +1740,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1-uncensored:free",
         "provider": "crowllm",
-        "used": 54
+        "used": 55
       },
       {
         "cap": 300,
@@ -1780,7 +1780,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
         "provider": "crowllm",
-        "used": 40
+        "used": 41
       },
       {
         "cap": 300,
@@ -2028,7 +2028,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -2036,7 +2036,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -2044,7 +2044,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -2052,7 +2052,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -2060,7 +2060,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -2068,7 +2068,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -2076,7 +2076,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -2084,7 +2084,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -2092,7 +2092,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -2100,7 +2100,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -2108,7 +2108,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 3000,
@@ -2116,7 +2116,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 592
+        "used": 628
       },
       {
         "cap": 200000,
@@ -2747,7 +2747,7 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=2305f7536ad1"
+        "latest": "2026-11-22T23:17:24Z ALERT pub_stale trigger=pub kind=collector_dead file=token-perks.json local_state=missing local_age_sec=none primary_state=stale primary_age_sec=167235 github_state=stale github_age_sec=167235 threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss."
       },
       "status": {
         "exists": true,
