@@ -2,7 +2,7 @@
   "boards": [
     {
       "done": 13,
-      "escalation_latest": "- key=7f960b65b172",
+      "escalation_latest": "- key=8b369405ec58",
       "next_open": [
         "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala",
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
@@ -14,7 +14,7 @@
     },
     {
       "done": 51,
-      "escalation_latest": "- key=f0ad86078748",
+      "escalation_latest": "- key=2c59f12852c2",
       "next_open": [
         "[code] [boss-accept] Empirical pool tuning: stats digest + self-set cap probing "
       ],
@@ -37,7 +37,7 @@
       "escalation_latest": "- key=cc14636f3caa",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T07:50:27Z",
+      "status_updated": "2026-11-22T08:10:35Z",
       "total": 18,
       "workstream": "operations"
     },
@@ -51,9 +51,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T08:03:23Z",
-  "generated_at": "2026-11-22T08:09:18Z",
-  "generated_at_utc": "2026-11-22T08:09:18Z",
+  "content_latest_at": "2026-11-22T08:10:35Z",
+  "generated_at": "2026-11-22T08:11:18Z",
+  "generated_at_utc": "2026-11-22T08:11:18Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 318
+        "used": 353
       },
       {
         "cap": 1000,
@@ -145,7 +145,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 60
+        "used": 64
       },
       {
         "cap": 300,
@@ -164,20 +164,20 @@
         "used": 104
       },
       {
-        "cap": 500,
+        "cap": 525,
         "enabled": true,
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 473
+        "used": 501
       },
       {
-        "cap": 500,
+        "cap": 525,
         "enabled": true,
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 473
+        "used": 501
       },
       {
         "cap": 500,
@@ -209,7 +209,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 178
+        "used": 182
       },
       {
         "cap": 1000,
@@ -273,7 +273,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 194
+        "used": 213
       },
       {
         "cap": 500,
@@ -401,7 +401,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 170
+        "used": 172
       },
       {
         "cap": 300,
@@ -1078,7 +1078,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 318
+        "used": 353
       },
       {
         "cap": 1000,
@@ -1086,7 +1086,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 60
+        "used": 64
       },
       {
         "cap": 300,
@@ -1105,20 +1105,20 @@
         "used": 104
       },
       {
-        "cap": 500,
+        "cap": 525,
         "enabled": true,
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 473
+        "used": 501
       },
       {
-        "cap": 500,
+        "cap": 525,
         "enabled": true,
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 473
+        "used": 501
       },
       {
         "cap": 500,
@@ -1150,7 +1150,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 178
+        "used": 182
       },
       {
         "cap": 1000,
@@ -1214,7 +1214,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 194
+        "used": 213
       },
       {
         "cap": 500,
@@ -1342,7 +1342,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 170
+        "used": 172
       },
       {
         "cap": 300,
@@ -1997,7 +1997,7 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=7f960b65b172"
+        "latest": "- key=8b369405ec58"
       },
       "status": {
         "exists": true,
@@ -2030,9 +2030,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-22T07:50:27Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-22T08:10:35Z"
       },
       "tasks": {
         "done": 18,
@@ -2044,7 +2044,7 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=f0ad86078748"
+        "latest": "- key=2c59f12852c2"
       },
       "status": {
         "exists": true,
