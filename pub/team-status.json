@@ -2,13 +2,13 @@
   "boards": [
     {
       "done": 13,
-      "escalation_latest": "- key=1a7bdde0bc65",
+      "escalation_latest": "- key=b54e178d311b",
       "next_open": [
         "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala",
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
       "open": 2,
-      "status_updated": "2026-11-22T10:24:23Z",
+      "status_updated": "2026-11-22T10:25:30Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
@@ -28,7 +28,7 @@
       "escalation_latest": "- key=3c0f441978e3",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T10:05:17Z",
+      "status_updated": "2026-11-22T10:25:18Z",
       "total": 12,
       "workstream": "security"
     },
@@ -46,14 +46,14 @@
       "escalation_latest": "- key=520cb7f0c761",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T09:57:15Z",
+      "status_updated": "2026-11-22T10:27:20Z",
       "total": 10,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T10:24:23Z",
-  "generated_at": "2026-11-22T10:24:49Z",
-  "generated_at_utc": "2026-11-22T10:24:49Z",
+  "content_latest_at": "2026-11-22T10:27:20Z",
+  "generated_at": "2026-11-22T10:29:17Z",
+  "generated_at_utc": "2026-11-22T10:29:17Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 705
+        "used": 711
       },
       {
         "cap": 1000,
@@ -145,7 +145,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 104
+        "used": 105
       },
       {
         "cap": 300,
@@ -1078,7 +1078,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 705
+        "used": 711
       },
       {
         "cap": 1000,
@@ -1086,7 +1086,7 @@
         "healthy": true,
         "model": "glm-4.7-flash",
         "provider": "zhipu",
-        "used": 104
+        "used": 105
       },
       {
         "cap": 300,
@@ -1997,14 +1997,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=1a7bdde0bc65"
+        "latest": "- key=b54e178d311b"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 2,
         "tasks_total": 2,
-        "updated": "2026-11-22T10:24:23Z"
+        "updated": "2026-11-22T10:25:30Z"
       },
       "tasks": {
         "done": 13,
@@ -2075,7 +2075,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T10:05:17Z"
+        "updated": "2026-11-22T10:25:18Z"
       },
       "tasks": {
         "done": 12,
@@ -2094,7 +2094,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T09:57:15Z"
+        "updated": "2026-11-22T10:27:20Z"
       },
       "tasks": {
         "done": 10,
