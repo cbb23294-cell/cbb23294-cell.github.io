@@ -34,12 +34,12 @@
     },
     {
       "done": 17,
-      "escalation_latest": "- key=330fa8f11c46",
+      "escalation_latest": "- key=3b7691f2dff2",
       "next_open": [
         "[boss-accept] User-found mapping table (meeting 20261122T024728Z ruling R-4, sec"
       ],
       "open": 1,
-      "status_updated": "2026-11-22T06:56:14Z",
+      "status_updated": "2026-11-22T07:11:14Z",
       "total": 18,
       "workstream": "operations"
     },
@@ -53,9 +53,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T07:00:07Z",
-  "generated_at": "2026-11-22T07:09:30Z",
-  "generated_at_utc": "2026-11-22T07:09:30Z",
+  "content_latest_at": "2026-11-22T07:11:14Z",
+  "generated_at": "2026-11-22T07:11:31Z",
+  "generated_at_utc": "2026-11-22T07:11:31Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -128,10 +128,10 @@
       {
         "cap": 1050,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 1043
+        "used": 1050
       },
       {
         "cap": 1000,
@@ -155,7 +155,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 273
+        "used": 274
       },
       {
         "cap": 1000,
@@ -171,7 +171,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 294
+        "used": 301
       },
       {
         "cap": 500,
@@ -179,7 +179,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 294
+        "used": 301
       },
       {
         "cap": 500,
@@ -211,7 +211,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 119
+        "used": 123
       },
       {
         "cap": 1000,
@@ -227,7 +227,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 36
+        "used": 38
       },
       {
         "cap": 300,
@@ -235,7 +235,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 36
+        "used": 38
       },
       {
         "cap": 300,
@@ -243,7 +243,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 36
+        "used": 38
       },
       {
         "cap": 45,
@@ -403,7 +403,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 125
+        "used": 127
       },
       {
         "cap": 300,
@@ -1038,7 +1038,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 35,
+    "healthy_entries": 34,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -1069,10 +1069,10 @@
       {
         "cap": 1050,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 1043
+        "used": 1050
       },
       {
         "cap": 1000,
@@ -1096,7 +1096,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 273
+        "used": 274
       },
       {
         "cap": 1000,
@@ -1112,7 +1112,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 294
+        "used": 301
       },
       {
         "cap": 500,
@@ -1120,7 +1120,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 294
+        "used": 301
       },
       {
         "cap": 500,
@@ -1152,7 +1152,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 119
+        "used": 123
       },
       {
         "cap": 1000,
@@ -1168,7 +1168,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 36
+        "used": 38
       },
       {
         "cap": 300,
@@ -1176,7 +1176,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 36
+        "used": 38
       },
       {
         "cap": 300,
@@ -1184,7 +1184,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 36
+        "used": 38
       },
       {
         "cap": 45,
@@ -1344,7 +1344,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 125
+        "used": 127
       },
       {
         "cap": 300,
@@ -1979,7 +1979,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 35,
+    "healthy_entries": 34,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -2027,14 +2027,14 @@
     "operations": {
       "escalation": {
         "exists": true,
-        "latest": "- key=330fa8f11c46"
+        "latest": "- key=3b7691f2dff2"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-22T06:56:14Z"
+        "updated": "2026-11-22T07:11:14Z"
       },
       "tasks": {
         "done": 17,
