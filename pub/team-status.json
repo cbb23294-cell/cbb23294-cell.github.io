@@ -21,7 +21,7 @@
         "[mech] Cooldown failure classification + cycle wall-clock data pack for the 2026"
       ],
       "open": 9,
-      "status_updated": "2026-11-22T15:31:18Z",
+      "status_updated": "2026-11-22T15:38:12Z",
       "total": 61,
       "workstream": "pool-optimization"
     },
@@ -36,12 +36,12 @@
     },
     {
       "done": 18,
-      "escalation_latest": "- key=cc14636f3caa",
+      "escalation_latest": "- key=dea3c56f9562",
       "next_open": [
         "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
       ],
       "open": 1,
-      "status_updated": "2026-11-22T15:35:25Z",
+      "status_updated": "2026-11-22T15:38:12Z",
       "total": 19,
       "workstream": "operations"
     },
@@ -55,9 +55,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T15:35:25Z",
-  "generated_at": "2026-11-22T15:36:28Z",
-  "generated_at_utc": "2026-11-22T15:36:28Z",
+  "content_latest_at": "2026-11-22T15:38:12Z",
+  "generated_at": "2026-11-22T15:38:38Z",
+  "generated_at_utc": "2026-11-22T15:38:38Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -167,7 +167,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 284
+        "used": 288
       },
       {
         "cap": 500,
@@ -439,7 +439,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 11
+        "used": 13
       },
       {
         "cap": 300,
@@ -583,7 +583,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 166
+        "used": 171
       },
       {
         "cap": 300,
@@ -607,7 +607,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 0
+        "used": 2
       },
       {
         "cap": 300,
@@ -656,6 +656,62 @@
         "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "provider": "numes",
         "used": 2
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-chimerax:free",
+        "provider": "routeway",
+        "used": 1
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-darksoul:free",
+        "provider": "routeway",
+        "used": 1
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-luminous:free",
+        "provider": "routeway",
+        "used": 1
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-moonlight:free",
+        "provider": "routeway",
+        "used": 1
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-musica:free",
+        "provider": "routeway",
+        "used": 1
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-meromero:free",
+        "provider": "routeway",
+        "used": 1
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "minimax-m3.1-flash:free",
+        "provider": "routeway",
+        "used": 1
       },
       {
         "cap": 200000,
@@ -1266,7 +1322,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 57,
+    "healthy_entries": 64,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -1324,7 +1380,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 284
+        "used": 288
       },
       {
         "cap": 500,
@@ -1596,7 +1652,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 11
+        "used": 13
       },
       {
         "cap": 300,
@@ -1740,7 +1796,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 166
+        "used": 171
       },
       {
         "cap": 300,
@@ -1764,7 +1820,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 0
+        "used": 2
       },
       {
         "cap": 300,
@@ -1813,6 +1869,62 @@
         "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "provider": "numes",
         "used": 2
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-chimerax:free",
+        "provider": "routeway",
+        "used": 1
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-darksoul:free",
+        "provider": "routeway",
+        "used": 1
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-luminous:free",
+        "provider": "routeway",
+        "used": 1
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-moonlight:free",
+        "provider": "routeway",
+        "used": 1
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-musica:free",
+        "provider": "routeway",
+        "used": 1
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-meromero:free",
+        "provider": "routeway",
+        "used": 1
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "minimax-m3.1-flash:free",
+        "provider": "routeway",
+        "used": 1
       },
       {
         "cap": 200000,
@@ -2423,7 +2535,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 57,
+    "healthy_entries": 64,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -2471,14 +2583,14 @@
     "operations": {
       "escalation": {
         "exists": true,
-        "latest": "- key=cc14636f3caa"
+        "latest": "- key=dea3c56f9562"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-22T15:35:25Z"
+        "updated": "2026-11-22T15:38:12Z"
       },
       "tasks": {
         "done": 18,
@@ -2502,7 +2614,7 @@
         "tasks_done": 0,
         "tasks_open": 4,
         "tasks_total": 4,
-        "updated": "2026-11-22T15:31:18Z"
+        "updated": "2026-11-22T15:38:12Z"
       },
       "tasks": {
         "done": 52,
