@@ -20,9 +20,9 @@
         "[code] [boss-accept] Meeting call-chain repair: seat health gate + ask() curl tr",
         "[code] [boss-accept] Event-stream flapping fix: REINFORCE line identity in board"
       ],
-      "open": 3,
+      "open": 4,
       "status_updated": "2026-11-22T02:51:34Z",
-      "total": 51,
+      "total": 52,
       "workstream": "pool-optimization"
     },
     {
@@ -37,10 +37,14 @@
     {
       "done": 14,
       "escalation_latest": "- key=0abd3863a104",
-      "next_open": [],
-      "open": 0,
+      "next_open": [
+        "[boss-accept] Simple-task node table + process deletions (meeting 20261122T02472",
+        "[boss-accept] Acceptance spot-check separation with labor swap (meeting 20261122",
+        "[boss-accept] User-found mapping table (meeting 20261122T024728Z ruling R-4, sec"
+      ],
+      "open": 3,
       "status_updated": "2026-11-22T02:42:07Z",
-      "total": 14,
+      "total": 17,
       "workstream": "operations"
     },
     {
@@ -54,8 +58,8 @@
     }
   ],
   "content_latest_at": "2026-11-22T02:51:34Z",
-  "generated_at": "2026-11-22T02:53:54Z",
-  "generated_at_utc": "2026-11-22T02:53:54Z",
+  "generated_at": "2026-11-22T02:55:55Z",
+  "generated_at_utc": "2026-11-22T02:55:55Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -123,7 +127,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 688
+        "used": 699
       },
       {
         "cap": 1000,
@@ -1040,7 +1044,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 688
+        "used": 699
       },
       {
         "cap": 1000,
@@ -1991,8 +1995,21 @@
       "tasks": {
         "done": 14,
         "exists": true,
-        "next_open": [],
-        "open": 0
+        "next_open": [
+          {
+            "full": true,
+            "title": "[boss-accept] Simple-task node table + process deletions (meeting 20261122T02472"
+          },
+          {
+            "full": true,
+            "title": "[boss-accept] Acceptance spot-check separation with labor swap (meeting 20261122"
+          },
+          {
+            "full": true,
+            "title": "[boss-accept] User-found mapping table (meeting 20261122T024728Z ruling R-4, sec"
+          }
+        ],
+        "open": 3
       }
     },
     "pool-optimization": {
@@ -2024,7 +2041,7 @@
             "title": "[code] [boss-accept] Event-stream flapping fix: REINFORCE line identity in board"
           }
         ],
-        "open": 3
+        "open": 4
       }
     },
     "security": {
