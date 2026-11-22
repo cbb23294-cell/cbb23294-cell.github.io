@@ -54,8 +54,8 @@
     }
   ],
   "content_latest_at": "2026-11-22T15:18:10Z",
-  "generated_at": "2026-11-22T15:19:27Z",
-  "generated_at_utc": "2026-11-22T15:19:27Z",
+  "generated_at": "2026-11-22T15:21:57Z",
+  "generated_at_utc": "2026-11-22T15:21:57Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -165,7 +165,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 266
+        "used": 268
       },
       {
         "cap": 500,
@@ -581,7 +581,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 133
+        "used": 134
       },
       {
         "cap": 300,
@@ -630,6 +630,30 @@
         "model": "dealignai/glm-5.3-flash-uncensored-fp8:free",
         "provider": "numes",
         "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek/deepseek-v4.1-flash:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
+        "provider": "numes",
+        "used": 1
       },
       {
         "cap": 200000,
@@ -1240,7 +1264,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 54,
+    "healthy_entries": 57,
     "ok": true,
     "reachable": true,
     "used_today": 45
@@ -1298,7 +1322,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 266
+        "used": 268
       },
       {
         "cap": 500,
@@ -1714,7 +1738,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 133
+        "used": 134
       },
       {
         "cap": 300,
@@ -1763,6 +1787,30 @@
         "model": "dealignai/glm-5.3-flash-uncensored-fp8:free",
         "provider": "numes",
         "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek/deepseek-v4.1-flash:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
+        "provider": "numes",
+        "used": 1
       },
       {
         "cap": 200000,
@@ -2373,7 +2421,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 54,
+    "healthy_entries": 57,
     "ok": true,
     "reachable": true,
     "used_today": 45
