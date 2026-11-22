@@ -2,13 +2,13 @@
   "boards": [
     {
       "done": 13,
-      "escalation_latest": "- key=ce887438efec",
+      "escalation_latest": "- key=077fab756f7d",
       "next_open": [
         "[code] [boss-accept] Publish-leg hardening: SSH reuse + both-endpoints-stale ala",
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
       "open": 2,
-      "status_updated": "2026-11-22T08:41:04Z",
+      "status_updated": "2026-11-22T08:52:54Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
@@ -51,9 +51,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T08:47:42Z",
-  "generated_at": "2026-11-22T08:49:25Z",
-  "generated_at_utc": "2026-11-22T08:49:25Z",
+  "content_latest_at": "2026-11-22T08:52:54Z",
+  "generated_at": "2026-11-22T08:53:44Z",
+  "generated_at_utc": "2026-11-22T08:53:44Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -137,7 +137,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 448
+        "used": 459
       },
       {
         "cap": 1000,
@@ -401,7 +401,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 211
+        "used": 223
       },
       {
         "cap": 300,
@@ -1078,7 +1078,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 448
+        "used": 459
       },
       {
         "cap": 1000,
@@ -1342,7 +1342,7 @@
         "healthy": true,
         "model": "DeepSeek-V4.1-Flash",
         "provider": "amd-tokenlab",
-        "used": 211
+        "used": 223
       },
       {
         "cap": 300,
@@ -1997,14 +1997,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=ce887438efec"
+        "latest": "- key=077fab756f7d"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 2,
-        "tasks_total": 2,
-        "updated": "2026-11-22T08:41:04Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-22T08:52:54Z"
       },
       "tasks": {
         "done": 13,
