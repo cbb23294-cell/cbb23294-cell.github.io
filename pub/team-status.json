@@ -8,7 +8,7 @@
         "[code] [boss-accept] Publish-chain hardening [est:10m] | Boss ruling 2026-11-22 "
       ],
       "open": 2,
-      "status_updated": "2026-11-22T02:41:34Z",
+      "status_updated": "2026-11-22T02:50:02Z",
       "total": 15,
       "workstream": "cloud-script-migration"
     },
@@ -21,7 +21,7 @@
         "[code] [boss-accept] Event-stream flapping fix: REINFORCE line identity in board"
       ],
       "open": 3,
-      "status_updated": "2026-11-22T02:29:07Z",
+      "status_updated": "2026-11-22T02:51:34Z",
       "total": 51,
       "workstream": "pool-optimization"
     },
@@ -53,9 +53,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-22T02:48:07Z",
-  "generated_at": "2026-11-22T02:49:54Z",
-  "generated_at_utc": "2026-11-22T02:49:54Z",
+  "content_latest_at": "2026-11-22T02:51:34Z",
+  "generated_at": "2026-11-22T02:51:54Z",
+  "generated_at_utc": "2026-11-22T02:51:54Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -123,7 +123,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 667
+        "used": 680
       },
       {
         "cap": 1000,
@@ -388,6 +388,22 @@
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
         "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "GLM-5.3-Flash",
+        "provider": "amd-tokenlab",
+        "used": 1
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "DeepSeek-V4.1-Flash",
+        "provider": "amd-tokenlab",
+        "used": 1
       },
       {
         "cap": 200000,
@@ -998,7 +1014,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 34,
+    "healthy_entries": 36,
     "ok": true,
     "reachable": true,
     "used_today": 0
@@ -1024,7 +1040,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 667
+        "used": 680
       },
       {
         "cap": 1000,
@@ -1289,6 +1305,22 @@
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
         "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "GLM-5.3-Flash",
+        "provider": "amd-tokenlab",
+        "used": 1
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "DeepSeek-V4.1-Flash",
+        "provider": "amd-tokenlab",
+        "used": 1
       },
       {
         "cap": 200000,
@@ -1899,7 +1931,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 34,
+    "healthy_entries": 36,
     "ok": true,
     "reachable": true,
     "used_today": 0
@@ -1924,9 +1956,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-22T02:41:34Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-22T02:50:02Z"
       },
       "tasks": {
         "done": 13,
@@ -1971,9 +2003,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-22T02:29:07Z"
+        "tasks_open": 3,
+        "tasks_total": 3,
+        "updated": "2026-11-22T02:51:34Z"
       },
       "tasks": {
         "done": 48,
