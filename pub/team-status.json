@@ -2,7 +2,7 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "2026-11-22T15:09:30Z ALERT pub_stale trigger=pub kind=collector_dead file=token-perks.json local_state=missing local_age_sec=none primary_state=stale primary_age_sec=137961 github_state=stale github_age_sec=137961 threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss.",
+      "escalation_latest": "2026-11-22T15:15:06Z ALERT pub_stale trigger=pub kind=publish_leg file=vps-deals.json local_state=fresh local_age_sec=4915 primary_state=stale primary_age_sec=87909 github_state=stale github_age_sec=87909 threshold_sec=21600 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload.",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
@@ -54,8 +54,8 @@
     }
   ],
   "content_latest_at": "2026-11-22T15:13:27Z",
-  "generated_at": "2026-11-22T15:14:37Z",
-  "generated_at_utc": "2026-11-22T15:14:37Z",
+  "generated_at": "2026-11-22T15:17:07Z",
+  "generated_at_utc": "2026-11-22T15:17:07Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -165,7 +165,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 264
+        "used": 265
       },
       {
         "cap": 500,
@@ -581,7 +581,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 125
+        "used": 133
       },
       {
         "cap": 300,
@@ -1274,7 +1274,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 264
+        "used": 265
       },
       {
         "cap": 500,
@@ -1690,7 +1690,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 125
+        "used": 133
       },
       {
         "cap": 300,
@@ -2345,7 +2345,7 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "2026-11-22T15:09:30Z ALERT pub_stale trigger=pub kind=collector_dead file=token-perks.json local_state=missing local_age_sec=none primary_state=stale primary_age_sec=137961 github_state=stale github_age_sec=137961 threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss."
+        "latest": "2026-11-22T15:15:06Z ALERT pub_stale trigger=pub kind=publish_leg file=vps-deals.json local_state=fresh local_age_sec=4915 primary_state=stale primary_age_sec=87909 github_state=stale github_age_sec=87909 threshold_sec=21600 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload."
       },
       "status": {
         "exists": true,
