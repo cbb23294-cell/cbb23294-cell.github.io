@@ -1,69 +1,401 @@
 {
+  "activity": {
+    "activity_generated_at": "2026-11-23T09:38:57Z",
+    "empty_reasons": {
+      "claimed_now": null,
+      "recent_completions": null,
+      "workers_running": "no jobs/*.json without a .done/.closed marker"
+    }
+  },
+  "admin_cycles": [
+    {
+      "active_jobs": 0,
+      "claimed_count": 4,
+      "current_task": {
+        "claimed_at": "2026-11-23T09:38:15Z",
+        "claimed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+        "claimed_by_zh": "云脚本迁移 席位2738",
+        "claimed_for": "42秒",
+        "task_id": "clou-020",
+        "title": "发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-manifest-vm.json…"
+      },
+      "cycle_started_at": "2026-11-23T09:38:15Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "42秒",
+      "elapsed_sec": 42,
+      "last_cycle_ended": "2026-11-23T09:38:56Z",
+      "name_zh": "云脚本迁移",
+      "state": "running",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "active_jobs": 0,
+      "claimed_count": 3,
+      "current_task": {
+        "claimed_at": "2026-11-23T09:38:55Z",
+        "claimed_by": "pool-optimization-seat-1-2579-959e7c5d",
+        "claimed_by_zh": "池优化 席位2579",
+        "claimed_for": "2秒",
+        "task_id": "pool-064",
+        "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…"
+      },
+      "cycle_started_at": "2026-11-23T09:38:55Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "2秒",
+      "elapsed_sec": 2,
+      "last_cycle_ended": "2026-11-23T09:38:57Z",
+      "name_zh": "池优化",
+      "state": "running",
+      "workstream": "pool-optimization"
+    },
+    {
+      "active_jobs": 0,
+      "claimed_count": 1,
+      "current_task": {
+        "claimed_at": "2026-11-23T08:14:54Z",
+        "claimed_by": "cloud-script-migration",
+        "claimed_by_zh": "云脚本迁移",
+        "claimed_for": "1小时24分",
+        "task_id": "secu-013",
+        "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…"
+      },
+      "cycle_started_at": "2026-11-23T08:14:54Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "1小时24分",
+      "elapsed_sec": 5043,
+      "last_cycle_ended": null,
+      "name_zh": "安全",
+      "state": "running",
+      "workstream": "security"
+    },
+    {
+      "active_jobs": 0,
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
+      "last_cycle_ended": null,
+      "name_zh": "运维",
+      "state": "idle",
+      "workstream": "operations"
+    },
+    {
+      "active_jobs": 0,
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
+      "last_cycle_ended": "2026-11-23T09:29:14Z",
+      "name_zh": "空间数据",
+      "state": "idle",
+      "workstream": "spaces-data"
+    },
+    {
+      "active_jobs": 0,
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
+      "last_cycle_ended": "2026-11-23T09:34:48Z",
+      "name_zh": "机动",
+      "state": "idle",
+      "workstream": "float"
+    }
+  ],
   "boards": [
     {
-      "done": 15,
-      "escalation_latest": "- key=89ddd3425877",
-      "next_open": [
-        "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
-        "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th",
-        "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+      "claimed_now": [
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 42,
+          "claimed_at": "2026-11-23T09:38:15Z",
+          "claimed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+          "claimed_by_zh": "云脚本迁移 席位2738",
+          "claimed_for": "42秒",
+          "task_id": "clou-017",
+          "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 42,
+          "claimed_at": "2026-11-23T09:38:15Z",
+          "claimed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+          "claimed_by_zh": "云脚本迁移 席位2738",
+          "claimed_for": "42秒",
+          "task_id": "clou-018",
+          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 42,
+          "claimed_at": "2026-11-23T09:38:15Z",
+          "claimed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+          "claimed_by_zh": "云脚本迁移 席位2738",
+          "claimed_for": "42秒",
+          "task_id": "clou-019",
+          "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 42,
+          "claimed_at": "2026-11-23T09:38:15Z",
+          "claimed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+          "claimed_by_zh": "云脚本迁移 席位2738",
+          "claimed_for": "42秒",
+          "task_id": "clou-020",
+          "title": "发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-manifest-vm.json…",
+          "workstream": "cloud-script-migration"
+        }
       ],
-      "open": 6,
-      "status_updated": "2026-11-23T08:26:59Z",
+      "done": 16,
+      "escalation_latest": "2026-11-23T09:30:20Z ALERT pub_stale trigger=pub kind=collector_dead file=vps-server-status.json local_state=stale local_age_sec=426672…",
+      "name_zh": "云脚本迁移",
+      "next_open": [
+        "VPS pull-from-GitHub healer (publish redundancy, second hal",
+        "ai-quota-catalog.json producer (boss filing 2026-11-22): th",
+        "freebies-scan pipeline 9-source pre-publish failure (boss f"
+      ],
+      "open": 5,
+      "status_updated": "2026-11-23T09:37:43Z",
       "total": 21,
       "workstream": "cloud-script-migration"
     },
     {
-      "done": 59,
-      "escalation_latest": "- key=8fd0603a4850",
-      "next_open": [
-        "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion (",
-        "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261",
-        "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
+      "claimed_now": [
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 2,
+          "claimed_at": "2026-11-23T09:38:55Z",
+          "claimed_by": "pool-optimization-seat-1-2579-959e7c5d",
+          "claimed_by_zh": "池优化 席位2579",
+          "claimed_for": "2秒",
+          "task_id": "pool-054",
+          "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 2,
+          "claimed_at": "2026-11-23T09:38:55Z",
+          "claimed_by": "pool-optimization-seat-1-2579-959e7c5d",
+          "claimed_by_zh": "池优化 席位2579",
+          "claimed_for": "2秒",
+          "task_id": "pool-057",
+          "title": "Seat-liveness trigger (mechanism meeting ruling 2026-11-22, transcript…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 2,
+          "claimed_at": "2026-11-23T09:38:55Z",
+          "claimed_by": "pool-optimization-seat-1-2579-959e7c5d",
+          "claimed_by_zh": "池优化 席位2579",
+          "claimed_for": "2秒",
+          "task_id": "pool-064",
+          "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
+          "workstream": "pool-optimization"
+        }
       ],
-      "open": 8,
-      "status_updated": "2026-11-23T08:30:14Z",
+      "done": 60,
+      "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
+      "name_zh": "池优化",
+      "next_open": [
+        "Pool tuning + slimming pass after the 140-entry expansion (",
+        "Upstream-aware help re-dispatch (cycle meeting re-run 20261",
+        "Long-request 502 root cause at the pool door (cycle meeting"
+      ],
+      "open": 7,
+      "status_updated": "2026-11-23T09:29:04Z",
       "total": 67,
       "workstream": "pool-optimization"
     },
     {
+      "claimed_now": [
+        {
+          "board_zh": "安全",
+          "claimed_age_sec": 5043,
+          "claimed_at": "2026-11-23T08:14:54Z",
+          "claimed_by": "cloud-script-migration",
+          "claimed_by_zh": "云脚本迁移",
+          "claimed_for": "1小时24分",
+          "task_id": "secu-013",
+          "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…",
+          "workstream": "security"
+        }
+      ],
       "done": 12,
-      "escalation_latest": "- key=3c0f441978e3",
+      "escalation_latest": "runner exit: 0",
+      "name_zh": "安全",
       "next_open": [
-        "[judgment] [boss-accept] Thompson bandit graduation grading — run the FORMAL G1–"
+        "[judgment] Thompson bandit graduation grading — run the FORMAL G1–"
       ],
       "open": 1,
-      "status_updated": "2026-11-23T08:30:04Z",
+      "status_updated": "2026-11-23T09:17:50Z",
       "total": 13,
       "workstream": "security"
     },
     {
+      "claimed_now": [],
       "done": 19,
-      "escalation_latest": "- key=01c8d10d79cb",
+      "escalation_latest": "runner exit: 0",
+      "name_zh": "运维",
       "next_open": [
-        "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
+        "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22)…"
       ],
       "open": 1,
-      "status_updated": "2026-11-23T08:28:28Z",
+      "status_updated": "2026-11-23T09:17:43Z",
       "total": 20,
       "workstream": "operations"
     },
     {
+      "claimed_now": [],
       "done": 14,
-      "escalation_latest": "- key=520cb7f0c761",
+      "escalation_latest": "runner exit: 1",
+      "name_zh": "空间数据",
       "next_open": [
-        "[code] [boss-accept] ai-e-du CrowLLM 活数根治（升级会 20261123T073315Z 裁定 3）：卡面 claimNot",
-        "[code] [boss-accept] 团队动态改成「在干什么」实时活动面（用户 2026-11-23 点名：面板看不出团队在干什么）：老板实测当前 gett"
+        "ai-e-du CrowLLM 活数根治（升级会 20261123T073315Z 裁定 3）：卡面 claimNot",
+        "团队动态改成「在干什么」实时活动面（用户 2026-11-23 点名：面板看不出团队在干什么）：老板实测当前 gett"
       ],
       "open": 2,
-      "status_updated": "2026-11-23T08:28:41Z",
+      "status_updated": "2026-11-23T09:29:16Z",
       "total": 16,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-23T08:30:14Z",
-  "generated_at": "2026-11-23T08:31:23Z",
-  "generated_at_utc": "2026-11-23T08:31:23Z",
+  "claimed_now": [
+    {
+      "board_zh": "安全",
+      "claimed_age_sec": 5043,
+      "claimed_at": "2026-11-23T08:14:54Z",
+      "claimed_by": "cloud-script-migration",
+      "claimed_by_zh": "云脚本迁移",
+      "claimed_for": "1小时24分",
+      "task_id": "secu-013",
+      "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…",
+      "workstream": "security"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 42,
+      "claimed_at": "2026-11-23T09:38:15Z",
+      "claimed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+      "claimed_by_zh": "云脚本迁移 席位2738",
+      "claimed_for": "42秒",
+      "task_id": "clou-017",
+      "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 42,
+      "claimed_at": "2026-11-23T09:38:15Z",
+      "claimed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+      "claimed_by_zh": "云脚本迁移 席位2738",
+      "claimed_for": "42秒",
+      "task_id": "clou-018",
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 42,
+      "claimed_at": "2026-11-23T09:38:15Z",
+      "claimed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+      "claimed_by_zh": "云脚本迁移 席位2738",
+      "claimed_for": "42秒",
+      "task_id": "clou-019",
+      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 42,
+      "claimed_at": "2026-11-23T09:38:15Z",
+      "claimed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+      "claimed_by_zh": "云脚本迁移 席位2738",
+      "claimed_for": "42秒",
+      "task_id": "clou-020",
+      "title": "发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-manifest-vm.json…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 2,
+      "claimed_at": "2026-11-23T09:38:55Z",
+      "claimed_by": "pool-optimization-seat-1-2579-959e7c5d",
+      "claimed_by_zh": "池优化 席位2579",
+      "claimed_for": "2秒",
+      "task_id": "pool-054",
+      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 2,
+      "claimed_at": "2026-11-23T09:38:55Z",
+      "claimed_by": "pool-optimization-seat-1-2579-959e7c5d",
+      "claimed_by_zh": "池优化 席位2579",
+      "claimed_for": "2秒",
+      "task_id": "pool-057",
+      "title": "Seat-liveness trigger (mechanism meeting ruling 2026-11-22, transcript…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 2,
+      "claimed_at": "2026-11-23T09:38:55Z",
+      "claimed_by": "pool-optimization-seat-1-2579-959e7c5d",
+      "claimed_by_zh": "池优化 席位2579",
+      "claimed_for": "2秒",
+      "task_id": "pool-064",
+      "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
+      "workstream": "pool-optimization"
+    }
+  ],
+  "content_latest_at": "2026-11-23T09:37:43Z",
+  "escalations_human": {
+    "cloud-script-migration": {
+      "dropped_hash_keys": 151,
+      "exists": true,
+      "latest": "2026-11-23T09:30:20Z ALERT pub_stale trigger=pub kind=collector_dead file=vps-server-status.json local_state=stale local_age_sec=426672…"
+    },
+    "float": {
+      "dropped_hash_keys": 208,
+      "exists": true,
+      "latest": "level: manager (retry budget exhausted; lowest level could not fix it)"
+    },
+    "operations": {
+      "dropped_hash_keys": 43,
+      "exists": true,
+      "latest": "runner exit: 0"
+    },
+    "pool-optimization": {
+      "dropped_hash_keys": 203,
+      "exists": true,
+      "latest": "level: manager (retry budget exhausted; lowest level could not fix it)"
+    },
+    "security": {
+      "dropped_hash_keys": 10,
+      "exists": true,
+      "latest": "runner exit: 0"
+    },
+    "spaces-data": {
+      "dropped_hash_keys": 16,
+      "exists": true,
+      "latest": "runner exit: 1"
+    }
+  },
+  "generated_at": "2026-11-23T09:38:57Z",
+  "generated_at_utc": "2026-11-23T09:38:57Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -120,6 +452,14 @@
       "workstream": "float-5"
     }
   ],
+  "name_zh": {
+    "cloud-script-migration": "云脚本迁移",
+    "float": "机动",
+    "operations": "运维",
+    "pool-optimization": "池优化",
+    "security": "安全",
+    "spaces-data": "空间数据"
+  },
   "pool": {
     "cap": 45,
     "disabled": [
@@ -152,12 +492,12 @@
         "used": 1079
       },
       {
-        "cap": 1217,
+        "cap": 1000,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 1164
+        "used": 1321
       },
       {
         "cap": 300,
@@ -181,7 +521,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 30
+        "used": 93
       },
       {
         "cap": 500,
@@ -189,7 +529,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 201
+        "used": 333
       },
       {
         "cap": 500,
@@ -197,7 +537,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 201
+        "used": 333
       },
       {
         "cap": 500,
@@ -229,7 +569,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 36
+        "used": 44
       },
       {
         "cap": 1000,
@@ -469,7 +809,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 300,
@@ -477,7 +817,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 10
+        "used": 26
       },
       {
         "cap": 300,
@@ -693,7 +1033,7 @@
         "healthy": true,
         "model": "xing4.0-29b-a4b:free",
         "provider": "crowllm",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 300,
@@ -709,7 +1049,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 46
+        "used": 49
       },
       {
         "cap": 300,
@@ -741,7 +1081,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 209
+        "used": 213
       },
       {
         "cap": 300,
@@ -797,7 +1137,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 116
+        "used": 166
       },
       {
         "cap": 300,
@@ -837,7 +1177,7 @@
         "healthy": true,
         "model": "uniboshi/kimi-k3-abliterated-v1:free",
         "provider": "numes",
-        "used": 12
+        "used": 14
       },
       {
         "cap": 200,
@@ -909,7 +1249,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -917,7 +1257,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -925,7 +1265,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -933,7 +1273,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -941,7 +1281,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -949,7 +1289,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -957,7 +1297,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -965,7 +1305,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -973,7 +1313,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -981,7 +1321,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -989,7 +1329,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -997,7 +1337,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 200000,
@@ -1608,7 +1948,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 104,
+    "healthy_entries": 103,
     "ok": true,
     "reachable": true,
     "used_today": 18
@@ -1645,12 +1985,12 @@
         "used": 1079
       },
       {
-        "cap": 1217,
+        "cap": 1000,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 1164
+        "used": 1321
       },
       {
         "cap": 300,
@@ -1674,7 +2014,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 30
+        "used": 93
       },
       {
         "cap": 500,
@@ -1682,7 +2022,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 201
+        "used": 333
       },
       {
         "cap": 500,
@@ -1690,7 +2030,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 201
+        "used": 333
       },
       {
         "cap": 500,
@@ -1722,7 +2062,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 36
+        "used": 44
       },
       {
         "cap": 1000,
@@ -1962,7 +2302,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 300,
@@ -1970,7 +2310,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 10
+        "used": 26
       },
       {
         "cap": 300,
@@ -2186,7 +2526,7 @@
         "healthy": true,
         "model": "xing4.0-29b-a4b:free",
         "provider": "crowllm",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 300,
@@ -2202,7 +2542,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 46
+        "used": 49
       },
       {
         "cap": 300,
@@ -2234,7 +2574,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 209
+        "used": 213
       },
       {
         "cap": 300,
@@ -2290,7 +2630,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 116
+        "used": 166
       },
       {
         "cap": 300,
@@ -2330,7 +2670,7 @@
         "healthy": true,
         "model": "uniboshi/kimi-k3-abliterated-v1:free",
         "provider": "numes",
-        "used": 12
+        "used": 14
       },
       {
         "cap": 200,
@@ -2402,7 +2742,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -2410,7 +2750,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -2418,7 +2758,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -2426,7 +2766,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -2434,7 +2774,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -2442,7 +2782,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -2450,7 +2790,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -2458,7 +2798,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -2466,7 +2806,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -2474,7 +2814,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -2482,7 +2822,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 3000,
@@ -2490,7 +2830,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1711
+        "used": 2012
       },
       {
         "cap": 200000,
@@ -3101,11 +3441,133 @@
         "used": 0
       }
     ],
-    "healthy_entries": 104,
+    "healthy_entries": 103,
     "ok": true,
     "reachable": true,
     "used_today": 18
   },
+  "recent_completions": [
+    {
+      "age_sec": 0,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-23T09:38:57Z",
+      "completed_by": "pool-optimization-seat-1-2579-959e7c5d",
+      "completed_by_zh": "池优化 席位2579",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-054",
+      "task_no": 54,
+      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 0,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T09:38:56Z",
+      "completed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+      "completed_by_zh": "云脚本迁移 席位2738",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-017",
+      "task_no": 17,
+      "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 6,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T09:38:50Z",
+      "completed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+      "completed_by_zh": "云脚本迁移 席位2738",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-018",
+      "task_no": 18,
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 32,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-23T09:38:25Z",
+      "completed_by": "pool-optimization-seat-1-2579-959e7c5d",
+      "completed_by_zh": "池优化 席位2579",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-057",
+      "task_no": 57,
+      "title": "Seat-liveness trigger (mechanism meeting ruling 2026-11-22, transcript…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 74,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T09:37:43Z",
+      "completed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+      "completed_by_zh": "云脚本迁移 席位2738",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-020",
+      "task_no": 20,
+      "title": "发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-manifest-vm.json…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 249,
+      "board_zh": "机动",
+      "completed_at": "2026-11-23T09:34:48Z",
+      "completed_by": "float-seat-1-2826-d842a9f5",
+      "completed_by_zh": "机动 席位2826",
+      "completed_ts_source": "result.txt",
+      "task_id": "floa-067",
+      "task_no": 67,
+      "title": "REINFORCE cloud-script-migration (triggered:stall): float help on…",
+      "workstream": "float"
+    },
+    {
+      "age_sec": 542,
+      "board_zh": "机动",
+      "completed_at": "2026-11-23T09:29:55Z",
+      "completed_by": "float-seat-1-2826-d842a9f5",
+      "completed_by_zh": "机动 席位2826",
+      "completed_ts_source": "done",
+      "task_id": "floa-068",
+      "task_no": 68,
+      "title": "REINFORCE float (triggered:stall): float help on floa-116",
+      "workstream": "float"
+    },
+    {
+      "age_sec": 582,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T09:29:14Z",
+      "completed_by": "cloud-script-migration-seat-1-2738-7bda6c15",
+      "completed_by_zh": "云脚本迁移 席位2738",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-019",
+      "task_no": 19,
+      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 582,
+      "board_zh": "空间数据",
+      "completed_at": "2026-11-23T09:29:14Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "done",
+      "task_id": "spac-011",
+      "task_no": 11,
+      "title": "ai-e-du CrowLLM 活数根治（升级会 20261123T073315Z 裁定 3）：卡面 claimNote 写死的「池内 19…",
+      "workstream": "spaces-data"
+    },
+    {
+      "age_sec": 683,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-23T09:27:34Z",
+      "completed_by": "pool-optimization-seat-1-2579-959e7c5d",
+      "completed_by_zh": "池优化 席位2579",
+      "completed_ts_source": "done",
+      "task_id": "pool-062",
+      "task_no": 62,
+      "title": "Auto-reject gate covers only one settlement door (boss filing…",
+      "workstream": "pool-optimization"
+    }
+  ],
   "tracked_jobs": {
     "done": 58,
     "running": [],
@@ -3117,21 +3579,22 @@
     "total": 0
   },
   "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=89ddd3425877"
+        "latest": "2026-11-23T09:30:20Z ALERT pub_stale trigger=pub kind=collector_dead file=vps-server-status.json local_state=stale local_age_sec=426672 primary_state=stale primary_age_sec=1906 github_state=stale github_age_sec=1906 threshold_sec=1800 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss."
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 3,
-        "tasks_total": 3,
-        "updated": "2026-11-23T08:26:59Z"
+        "tasks_open": 4,
+        "tasks_total": 4,
+        "updated": "2026-11-23T09:37:43Z"
       },
       "tasks": {
-        "done": 15,
+        "done": 16,
         "exists": true,
         "next_open": [
           {
@@ -3147,7 +3610,7 @@
             "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
           }
         ],
-        "open": 6
+        "open": 5
       }
     },
     "operations": {
@@ -3160,7 +3623,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-23T08:28:28Z"
+        "updated": "2026-11-23T09:17:43Z"
       },
       "tasks": {
         "done": 19,
@@ -3177,17 +3640,17 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=8fd0603a4850"
+        "latest": "- key=31604c6db163"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-23T08:30:14Z"
+        "tasks_open": 4,
+        "tasks_total": 4,
+        "updated": "2026-11-23T09:29:04Z"
       },
       "tasks": {
-        "done": 59,
+        "done": 60,
         "exists": true,
         "next_open": [
           {
@@ -3203,7 +3666,7 @@
             "title": "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
           }
         ],
-        "open": 8
+        "open": 7
       }
     },
     "security": {
@@ -3216,7 +3679,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-23T08:30:04Z"
+        "updated": "2026-11-23T09:17:50Z"
       },
       "tasks": {
         "done": 12,
@@ -3233,14 +3696,14 @@
     "spaces-data": {
       "escalation": {
         "exists": true,
-        "latest": "- key=520cb7f0c761"
+        "latest": "- key=1a9a104cbe17"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-23T08:28:41Z"
+        "tasks_open": 2,
+        "tasks_total": 2,
+        "updated": "2026-11-23T09:29:16Z"
       },
       "tasks": {
         "done": 14,
