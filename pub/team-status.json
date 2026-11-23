@@ -2,14 +2,14 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "- key=fd2628112ec3",
+      "escalation_latest": "- key=d075beee6857",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th",
         "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       ],
       "open": 4,
-      "status_updated": "2026-11-23T07:25:59Z",
+      "status_updated": "2026-11-23T07:27:17Z",
       "total": 19,
       "workstream": "cloud-script-migration"
     },
@@ -22,7 +22,7 @@
         "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
       ],
       "open": 7,
-      "status_updated": "2026-11-23T07:21:45Z",
+      "status_updated": "2026-11-23T07:28:06Z",
       "total": 66,
       "workstream": "pool-optimization"
     },
@@ -44,7 +44,7 @@
         "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
       ],
       "open": 1,
-      "status_updated": "2026-11-23T07:24:07Z",
+      "status_updated": "2026-11-23T07:28:06Z",
       "total": 20,
       "workstream": "operations"
     },
@@ -58,9 +58,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-23T07:25:59Z",
-  "generated_at": "2026-11-23T07:26:15Z",
-  "generated_at_utc": "2026-11-23T07:26:15Z",
+  "content_latest_at": "2026-11-23T07:28:06Z",
+  "generated_at": "2026-11-23T07:28:29Z",
+  "generated_at_utc": "2026-11-23T07:28:29Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -154,7 +154,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 706
+        "used": 733
       },
       {
         "cap": 300,
@@ -466,7 +466,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 300,
@@ -706,7 +706,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 300,
@@ -834,7 +834,7 @@
         "healthy": true,
         "model": "uniboshi/kimi-k3-abliterated-v1:free",
         "provider": "numes",
-        "used": 5
+        "used": 9
       },
       {
         "cap": 200,
@@ -1647,7 +1647,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 706
+        "used": 733
       },
       {
         "cap": 300,
@@ -1959,7 +1959,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 300,
@@ -2199,7 +2199,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 300,
@@ -2327,7 +2327,7 @@
         "healthy": true,
         "model": "uniboshi/kimi-k3-abliterated-v1:free",
         "provider": "numes",
-        "used": 5
+        "used": 9
       },
       {
         "cap": 200,
@@ -3118,14 +3118,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=fd2628112ec3"
+        "latest": "- key=d075beee6857"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 3,
         "tasks_total": 3,
-        "updated": "2026-11-23T07:25:59Z"
+        "updated": "2026-11-23T07:27:17Z"
       },
       "tasks": {
         "done": 15,
@@ -3157,7 +3157,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-23T07:24:07Z"
+        "updated": "2026-11-23T07:28:06Z"
       },
       "tasks": {
         "done": 19,
@@ -3179,9 +3179,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-23T07:21:45Z"
+        "tasks_open": 2,
+        "tasks_total": 2,
+        "updated": "2026-11-23T07:28:06Z"
       },
       "tasks": {
         "done": 59,
