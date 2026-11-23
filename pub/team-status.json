@@ -2,14 +2,14 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "- key=1bb707de6bb5",
+      "escalation_latest": "- key=89ddd3425877",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th",
         "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       ],
       "open": 6,
-      "status_updated": "2026-11-23T08:11:03Z",
+      "status_updated": "2026-11-23T08:14:23Z",
       "total": 21,
       "workstream": "cloud-script-migration"
     },
@@ -22,7 +22,7 @@
         "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
       ],
       "open": 7,
-      "status_updated": "2026-11-23T08:05:52Z",
+      "status_updated": "2026-11-23T08:14:19Z",
       "total": 66,
       "workstream": "pool-optimization"
     },
@@ -62,9 +62,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-23T08:11:04Z",
-  "generated_at": "2026-11-23T08:12:12Z",
-  "generated_at_utc": "2026-11-23T08:12:12Z",
+  "content_latest_at": "2026-11-23T08:14:23Z",
+  "generated_at": "2026-11-23T08:14:47Z",
+  "generated_at_utc": "2026-11-23T08:14:47Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -158,7 +158,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 998
+        "used": 1031
       },
       {
         "cap": 300,
@@ -710,7 +710,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 29
+        "used": 35
       },
       {
         "cap": 300,
@@ -742,7 +742,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 206
+        "used": 207
       },
       {
         "cap": 300,
@@ -798,7 +798,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 56
+        "used": 71
       },
       {
         "cap": 300,
@@ -1651,7 +1651,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 998
+        "used": 1031
       },
       {
         "cap": 300,
@@ -2203,7 +2203,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 29
+        "used": 35
       },
       {
         "cap": 300,
@@ -2235,7 +2235,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 206
+        "used": 207
       },
       {
         "cap": 300,
@@ -2291,7 +2291,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 56
+        "used": 71
       },
       {
         "cap": 300,
@@ -3122,14 +3122,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=1bb707de6bb5"
+        "latest": "- key=89ddd3425877"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 4,
-        "tasks_total": 4,
-        "updated": "2026-11-23T08:11:03Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-23T08:14:23Z"
       },
       "tasks": {
         "done": 15,
@@ -3183,9 +3183,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-23T08:05:52Z"
+        "tasks_open": 4,
+        "tasks_total": 4,
+        "updated": "2026-11-23T08:14:19Z"
       },
       "tasks": {
         "done": 59,
