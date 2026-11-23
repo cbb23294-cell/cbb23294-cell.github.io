@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T13:52:28Z",
+    "activity_generated_at": "2026-11-23T13:55:03Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -10,40 +10,40 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 3,
+      "claimed_count": 4,
       "current_task": {
-        "claimed_at": "2026-11-23T13:51:51Z",
-        "claimed_by": "cloud-script-migration-seat-1-6605-885527d1",
-        "claimed_by_zh": "云脚本迁移 席位6605",
-        "claimed_for": "37秒",
-        "task_id": "clou-018",
-        "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
+        "claimed_at": "2026-11-23T13:54:50Z",
+        "claimed_by": "cloud-script-migration-seat-1-9528-0cea52d6",
+        "claimed_by_zh": "云脚本迁移 席位9528",
+        "claimed_for": "14秒",
+        "task_id": "clou-019",
+        "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…"
       },
-      "cycle_started_at": "2026-11-23T13:51:51Z",
+      "cycle_started_at": "2026-11-23T13:52:51Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "37秒",
-      "elapsed_sec": 37,
-      "last_cycle_ended": "2026-11-23T13:50:17Z",
+      "elapsed": "2分钟",
+      "elapsed_sec": 133,
+      "last_cycle_ended": "2026-11-23T13:54:58Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 2,
+      "claimed_count": 5,
       "current_task": {
-        "claimed_at": "2026-11-23T13:47:55Z",
-        "claimed_by": "pool-optimization-seat-1-7037-358cddea",
-        "claimed_by_zh": "池优化 席位7037",
-        "claimed_for": "4分钟",
-        "task_id": "pool-064",
-        "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…"
+        "claimed_at": "2026-11-23T13:54:30Z",
+        "claimed_by": "pool-optimization-seat-1-9751-cee284c3",
+        "claimed_by_zh": "池优化 席位9751",
+        "claimed_for": "34秒",
+        "task_id": "pool-069",
+        "title": "Done-transition replay after restarts (boss filing 2026-11-23 ~21:40)…"
       },
       "cycle_started_at": "2026-11-23T13:47:55Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "4分钟",
-      "elapsed_sec": 273,
-      "last_cycle_ended": "2026-11-23T13:48:48Z",
+      "elapsed": "7分钟",
+      "elapsed_sec": 429,
+      "last_cycle_ended": "2026-11-23T13:54:57Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -106,35 +106,46 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 37,
-          "claimed_at": "2026-11-23T13:51:51Z",
+          "claimed_age_sec": 133,
+          "claimed_at": "2026-11-23T13:52:51Z",
           "claimed_by": "cloud-script-migration-seat-1-6605-885527d1",
           "claimed_by_zh": "云脚本迁移 席位6605",
-          "claimed_for": "37秒",
+          "claimed_for": "2分钟",
           "task_id": "clou-016",
           "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 37,
-          "claimed_at": "2026-11-23T13:51:51Z",
+          "claimed_age_sec": 133,
+          "claimed_at": "2026-11-23T13:52:51Z",
           "claimed_by": "cloud-script-migration-seat-1-6605-885527d1",
           "claimed_by_zh": "云脚本迁移 席位6605",
-          "claimed_for": "37秒",
+          "claimed_for": "2分钟",
           "task_id": "clou-017",
           "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 37,
-          "claimed_at": "2026-11-23T13:51:51Z",
+          "claimed_age_sec": 133,
+          "claimed_at": "2026-11-23T13:52:51Z",
           "claimed_by": "cloud-script-migration-seat-1-6605-885527d1",
           "claimed_by_zh": "云脚本迁移 席位6605",
-          "claimed_for": "37秒",
+          "claimed_for": "2分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 14,
+          "claimed_at": "2026-11-23T13:54:50Z",
+          "claimed_by": "cloud-script-migration-seat-1-9528-0cea52d6",
+          "claimed_by_zh": "云脚本迁移 席位9528",
+          "claimed_for": "14秒",
+          "task_id": "clou-019",
+          "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
           "workstream": "cloud-script-migration"
         }
       ],
@@ -147,7 +158,7 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 5,
-      "status_updated": "2026-11-23T13:43:48Z",
+      "status_updated": "2026-11-23T13:54:57Z",
       "total": 22,
       "workstream": "cloud-script-migration"
     },
@@ -155,24 +166,57 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 273,
+          "claimed_age_sec": 429,
           "claimed_at": "2026-11-23T13:47:55Z",
           "claimed_by": "pool-optimization-seat-1-7037-358cddea",
           "claimed_by_zh": "池优化 席位7037",
-          "claimed_for": "4分钟",
+          "claimed_for": "7分钟",
           "task_id": "pool-054",
           "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 273,
+          "claimed_age_sec": 429,
           "claimed_at": "2026-11-23T13:47:55Z",
           "claimed_by": "pool-optimization-seat-1-7037-358cddea",
           "claimed_by_zh": "池优化 席位7037",
-          "claimed_for": "4分钟",
+          "claimed_for": "7分钟",
           "task_id": "pool-064",
           "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 34,
+          "claimed_at": "2026-11-23T13:54:30Z",
+          "claimed_by": "pool-optimization-seat-1-9751-cee284c3",
+          "claimed_by_zh": "池优化 席位9751",
+          "claimed_for": "34秒",
+          "task_id": "pool-065",
+          "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 34,
+          "claimed_at": "2026-11-23T13:54:30Z",
+          "claimed_by": "pool-optimization-seat-1-9751-cee284c3",
+          "claimed_by_zh": "池优化 席位9751",
+          "claimed_for": "34秒",
+          "task_id": "pool-067",
+          "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 34,
+          "claimed_at": "2026-11-23T13:54:30Z",
+          "claimed_by": "pool-optimization-seat-1-9751-cee284c3",
+          "claimed_by_zh": "池优化 席位9751",
+          "claimed_for": "34秒",
+          "task_id": "pool-069",
+          "title": "Done-transition replay after restarts (boss filing 2026-11-23 ~21:40)…",
           "workstream": "pool-optimization"
         }
       ],
@@ -185,7 +229,7 @@
         "Long-request 502 root cause at the pool door (cycle meeting re-run S1…"
       ],
       "open": 7,
-      "status_updated": "2026-11-23T13:48:48Z",
+      "status_updated": "2026-11-23T13:54:30Z",
       "total": 68,
       "workstream": "pool-optimization"
     },
@@ -228,61 +272,105 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 273,
+      "claimed_age_sec": 429,
       "claimed_at": "2026-11-23T13:47:55Z",
       "claimed_by": "pool-optimization-seat-1-7037-358cddea",
       "claimed_by_zh": "池优化 席位7037",
-      "claimed_for": "4分钟",
+      "claimed_for": "7分钟",
       "task_id": "pool-054",
       "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 273,
+      "claimed_age_sec": 429,
       "claimed_at": "2026-11-23T13:47:55Z",
       "claimed_by": "pool-optimization-seat-1-7037-358cddea",
       "claimed_by_zh": "池优化 席位7037",
-      "claimed_for": "4分钟",
+      "claimed_for": "7分钟",
       "task_id": "pool-064",
       "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 37,
-      "claimed_at": "2026-11-23T13:51:51Z",
+      "claimed_age_sec": 133,
+      "claimed_at": "2026-11-23T13:52:51Z",
       "claimed_by": "cloud-script-migration-seat-1-6605-885527d1",
       "claimed_by_zh": "云脚本迁移 席位6605",
-      "claimed_for": "37秒",
+      "claimed_for": "2分钟",
       "task_id": "clou-016",
       "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 37,
-      "claimed_at": "2026-11-23T13:51:51Z",
+      "claimed_age_sec": 133,
+      "claimed_at": "2026-11-23T13:52:51Z",
       "claimed_by": "cloud-script-migration-seat-1-6605-885527d1",
       "claimed_by_zh": "云脚本迁移 席位6605",
-      "claimed_for": "37秒",
+      "claimed_for": "2分钟",
       "task_id": "clou-017",
       "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 37,
-      "claimed_at": "2026-11-23T13:51:51Z",
+      "claimed_age_sec": 133,
+      "claimed_at": "2026-11-23T13:52:51Z",
       "claimed_by": "cloud-script-migration-seat-1-6605-885527d1",
       "claimed_by_zh": "云脚本迁移 席位6605",
-      "claimed_for": "37秒",
+      "claimed_for": "2分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 34,
+      "claimed_at": "2026-11-23T13:54:30Z",
+      "claimed_by": "pool-optimization-seat-1-9751-cee284c3",
+      "claimed_by_zh": "池优化 席位9751",
+      "claimed_for": "34秒",
+      "task_id": "pool-065",
+      "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 34,
+      "claimed_at": "2026-11-23T13:54:30Z",
+      "claimed_by": "pool-optimization-seat-1-9751-cee284c3",
+      "claimed_by_zh": "池优化 席位9751",
+      "claimed_for": "34秒",
+      "task_id": "pool-067",
+      "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 34,
+      "claimed_at": "2026-11-23T13:54:30Z",
+      "claimed_by": "pool-optimization-seat-1-9751-cee284c3",
+      "claimed_by_zh": "池优化 席位9751",
+      "claimed_for": "34秒",
+      "task_id": "pool-069",
+      "title": "Done-transition replay after restarts (boss filing 2026-11-23 ~21:40)…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 14,
+      "claimed_at": "2026-11-23T13:54:50Z",
+      "claimed_by": "cloud-script-migration-seat-1-9528-0cea52d6",
+      "claimed_by_zh": "云脚本迁移 席位9528",
+      "claimed_for": "14秒",
+      "task_id": "clou-019",
+      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+      "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-23T13:49:04Z",
+  "content_latest_at": "2026-11-23T13:54:57Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 173,
@@ -315,33 +403,33 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T13:52:28Z",
-  "generated_at_utc": "2026-11-23T13:52:28Z",
+  "generated_at": "2026-11-23T13:55:04Z",
+  "generated_at_utc": "2026-11-23T13:55:04Z",
   "live_pi_workers": {
     "by_model": {
-      "crowllm/deepseek-v4-flash-0731-thinking:free": 2,
-      "ws/gpt-5.6-terra:free": 2
+      "deepseek-v4.1-flash-free": 2,
+      "token-harbor/deepseek-v4.1-flash:free": 2
     },
     "running": [
       {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 6636,
-        "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 10200,
+        "title": "[code] Done-transition replay after restarts (boss filing 2026-11-23 ~21:40): al"
       },
       {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 6637,
-        "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 10201,
+        "title": "[code] Done-transition replay after restarts (boss filing 2026-11-23 ~21:40): al"
       },
       {
-        "model": "ws/gpt-5.6-terra:free",
-        "pid": 8049,
-        "title": "TASK (boss direct dispatch): Done-transition replay after restarts - diagnose an"
+        "model": "deepseek-v4.1-flash-free",
+        "pid": 10222,
+        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
       },
       {
-        "model": "ws/gpt-5.6-terra:free",
-        "pid": 8050,
-        "title": "TASK (boss direct dispatch): Done-transition replay after restarts - diagnose an"
+        "model": "deepseek-v4.1-flash-free",
+        "pid": 10223,
+        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
       }
     ],
     "total": 4
@@ -407,3076 +495,56 @@
     "spaces-data": "空间数据"
   },
   "pool": {
-    "cap": 45,
-    "disabled": [
-      "ai-cf",
-      "ai-cf-2",
-      "ai-cf-3",
-      "ai-cf-sol",
-      "ai-cf-sol-2",
-      "ai-cf-sol-3",
-      "xingchi",
-      "xingchi-2",
-      "xingchi-4",
-      "xingchi-6"
-    ],
-    "entries": [
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": false,
-        "model": "deepseek-v4.1-flash-free",
-        "provider": "100milionseek",
-        "used": 1097
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": false,
-        "model": "deepseek-v4.1-flash-free",
-        "provider": "100milionseek-2",
-        "used": 1079
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": false,
-        "model": "glm-4-flash-250414",
-        "provider": "zhipu",
-        "used": 1321
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": false,
-        "model": "nex-n2.6",
-        "provider": "moss",
-        "used": 418
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": false,
-        "model": "nex-n2.6-2026-11-05",
-        "provider": "moss",
-        "used": 405
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "XingChenAGI/Xing4.0-29B",
-        "provider": "siliconflow",
-        "used": 580
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": false,
-        "model": "sensenova-6.8-flash",
-        "provider": "sensenova",
-        "used": 703
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": false,
-        "model": "sensenova-6.8-flash-lite",
-        "provider": "sensenova",
-        "used": 703
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": false,
-        "model": "sensenova-6.8-flash",
-        "provider": "sensenova-2",
-        "used": 704
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": false,
-        "model": "sensenova-6.8-flash-lite",
-        "provider": "sensenova-2",
-        "used": 704
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "qwen/qwen3.8-27b",
-        "provider": "groq",
-        "used": 42
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "openai/gpt-oss-120b",
-        "provider": "groq",
-        "used": 89
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "openai/gpt-oss-20b",
-        "provider": "groq",
-        "used": 90
-      },
-      {
-        "cap": 7000,
-        "enabled": true,
-        "healthy": true,
-        "model": "allam-2-7b",
-        "provider": "groq",
-        "used": 77
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "ceres-1.1",
-        "provider": "merkium",
-        "used": 255
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "pluto-1.1-flash",
-        "provider": "merkium",
-        "used": 255
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "ganymede-1.1",
-        "provider": "merkium",
-        "used": 255
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "pluto-1.2-flash",
-        "provider": "merkium",
-        "used": 255
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "pluto-1.2-pro",
-        "provider": "merkium",
-        "used": 255
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "pluto-1.1-pro",
-        "provider": "merkium",
-        "used": 255
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
-        "provider": "openrouter",
-        "used": 18
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": true,
-        "model": "google/gemma-4-31b-it:free",
-        "provider": "openrouter",
-        "used": 18
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": true,
-        "model": "particle-ai/particle-1:free",
-        "provider": "openrouter",
-        "used": 18
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": true,
-        "model": "recursive/flint-v1.0:free",
-        "provider": "openrouter",
-        "used": 18
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": true,
-        "model": "baidu/ernie-5.5-flash-preview:free",
-        "provider": "openrouter",
-        "used": 18
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia/nemotron-3.5-lightning:free",
-        "provider": "openrouter",
-        "used": 18
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemini-3.5-flash-lite",
-        "provider": "google-ai-studio",
-        "used": 82
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-large-4t",
-        "provider": "ai-cf",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-m3.1-flash",
-        "provider": "ai-cf",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-gemma-4",
-        "provider": "ai-cf",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol–free",
-        "provider": "ai-cf-sol",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-large-4t",
-        "provider": "ai-cf-2",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-m3.1-flash",
-        "provider": "ai-cf-2",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-gemma-4",
-        "provider": "ai-cf-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol–free",
-        "provider": "ai-cf-sol-2",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-large-4t",
-        "provider": "ai-cf-3",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-m3.1-flash",
-        "provider": "ai-cf-3",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-gemma-4",
-        "provider": "ai-cf-3",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol–free",
-        "provider": "ai-cf-sol-3",
-        "used": 0
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "XingChenAGI/Xing4.0-29B",
-        "provider": "siliconflow-2",
-        "used": 0
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "GLM-5.3-Flash",
-        "provider": "amd-tokenlab",
-        "used": 45
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "agnes-2.5-flash:free",
-        "provider": "unorouter",
-        "used": 23
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "agnes-3.0-flash:free",
-        "provider": "unorouter",
-        "used": 35
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "allam-2-7b:free",
-        "provider": "unorouter",
-        "used": 57
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "crow-roleplay:free",
-        "provider": "crowllm",
-        "used": 11
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "laguna-xs-2.1:free",
-        "provider": "crowllm",
-        "used": 4
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "laguna-xs-2.1-uncensored:free",
-        "provider": "crowllm",
-        "used": 10
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia/mistral-large-4-1t-a52b:free",
-        "provider": "crowllm",
-        "used": 21
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nemotron-3-ultra-550b-a55b:free",
-        "provider": "crowllm",
-        "used": 11
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
-        "provider": "crowllm",
-        "used": 1
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia/nemotron-3.5-bolt-e4b:free",
-        "provider": "crowllm",
-        "used": 9
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
-        "provider": "crowllm",
-        "used": 6
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nemotron-3.5-super-vl:free",
-        "provider": "crowllm",
-        "used": 8
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "jais-3-mova-36b-a4b:free",
-        "provider": "crowllm",
-        "used": 9
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "k2-horizon-375b-a23b:free",
-        "provider": "crowllm",
-        "used": 12
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "k2-horizon-375b-a23b-uncensored:free",
-        "provider": "crowllm",
-        "used": 11
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "particle-1:free",
-        "provider": "crowllm",
-        "used": 11
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "step-5-preview:free",
-        "provider": "crowllm",
-        "used": 4
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "grok-4.7:free",
-        "provider": "crowllm",
-        "used": 4
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "grok-4.7-fast:free",
-        "provider": "crowllm",
-        "used": 2
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-31b-it:free",
-        "provider": "crowllm",
-        "used": 24
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "glm-4.6v-flash:free",
-        "provider": "crowllm",
-        "used": 23
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "longcat-2.5:free",
-        "provider": "crowllm",
-        "used": 8
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "minimax-m3.1-flash:free",
-        "provider": "crowllm",
-        "used": 20
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "dots-3-note-preview:free",
-        "provider": "crowllm",
-        "used": 13
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "flint-v1.0:free",
-        "provider": "crowllm",
-        "used": 5
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "llama-3.3-70b:free",
-        "provider": "crowllm",
-        "used": 10
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "llama-3.3-70b-instruct:free",
-        "provider": "crowllm",
-        "used": 24
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "solar-mini4:free",
-        "provider": "crowllm",
-        "used": 15
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "xing4.0-29b-a4b:free",
-        "provider": "crowllm",
-        "used": 21
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "caw/glm-5.3-flash-thinking:free",
-        "provider": "crowllm",
-        "used": 38
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-v4-flash-0731-thinking:free",
-        "provider": "crowllm",
-        "used": 134
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia-deepseek-v4-1-flash-nvfp4",
-        "provider": "packet-ai",
-        "used": 32
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "minimaxai-minimax-m3-1-flash",
-        "provider": "packet-ai",
-        "used": 1
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "qwen-qwen2-5-1-5b-instruct",
-        "provider": "packet-ai",
-        "used": 23
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-v4.1-flash:free",
-        "provider": "token-harbor",
-        "used": 234
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "mimo-v2.6-flash:free",
-        "provider": "token-harbor",
-        "used": 0
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-v4-flash:free",
-        "provider": "token-harbor",
-        "used": 7
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "mimo-v2.5:free",
-        "provider": "token-harbor",
-        "used": 6
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "z-ai/glm-5.3:free",
-        "provider": "numes",
-        "used": 21
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "moonshotai/kimi-k3.1-pro:free",
-        "provider": "numes",
-        "used": 1
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "dealignai/glm-5.3-flash-uncensored-fp8:free",
-        "provider": "numes",
-        "used": 45
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek/deepseek-v4.1-flash:free",
-        "provider": "numes",
-        "used": 293
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
-        "provider": "numes",
-        "used": 0
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
-        "provider": "numes",
-        "used": 103
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "z-ai/glm-5.3-flash:free",
-        "provider": "numes",
-        "used": 29
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "dealignai/glm-5.3-uncensored-fp8:free",
-        "provider": "numes",
-        "used": 26
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "uniboshi/kimi-k3-abliterated-v1:free",
-        "provider": "numes",
-        "used": 14
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-26b-a4b-it-chimerax:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-26b-a4b-it-darksoul:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-26b-a4b-it-luminous:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-26b-a4b-it-moonlight:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-26b-a4b-it-musica:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-26b-a4b-it-meromero:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "minimax-m3.1-flash:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "muse-glimmer-30b:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "zai-org/glm-5.3-flash:free",
-        "provider": "wusrouter",
-        "used": 45
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "ws/gpt-5.6-terra:free",
-        "provider": "wusrouter",
-        "used": 45
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "mimo-v2.5:free",
-        "provider": "wusrouter",
-        "used": 45
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "codex/gpt-5:free",
-        "provider": "wusrouter",
-        "used": 45
-      },
-      {
-        "cap": 100000,
-        "enabled": true,
-        "healthy": true,
-        "model": "gpt-6.2-sol",
-        "provider": "egg-krphp",
-        "used": 3
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3.5-35B-A3B",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "zai-org/GLM-4.5-Air",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3.5-27B",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-ai/DeepSeek-R1",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen2.5-72B-Instruct",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-VL-32B-Instruct",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "inclusionAI/Ling-flash-2.0",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-sol",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-terra",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-luna",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-terra",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-sol",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-luna",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-astra",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.5",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4-mini",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.3-codex-spark",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "codex-auto-review",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.2",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-sol",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-terra",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-luna",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-terra",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-sol",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-luna",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-astra",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.5",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4-mini",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.3-codex-spark",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "codex-auto-review",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.2",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-sol",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-terra",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-luna",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-terra",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-sol",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-luna",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-astra",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.5",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4-mini",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.3-codex-spark",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "codex-auto-review",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.2",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-sol",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-terra",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-luna",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-terra",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-sol",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-luna",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-astra",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.5",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4-mini",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.3-codex-spark",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "codex-auto-review",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.2",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3.5-35B-A3B",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "zai-org/GLM-4.5-Air",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3.5-27B",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-ai/DeepSeek-R1",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen2.5-72B-Instruct",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-VL-32B-Instruct",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "inclusionAI/Ling-flash-2.0",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      }
-    ],
-    "healthy_entries": 104,
-    "ok": true,
-    "reachable": true,
-    "used_today": 18
+    "entries": [],
+    "healthy_entries": 0,
+    "reachable": false
   },
   "pool_health": {
-    "cap": 45,
-    "disabled": [
-      "ai-cf",
-      "ai-cf-2",
-      "ai-cf-3",
-      "ai-cf-sol",
-      "ai-cf-sol-2",
-      "ai-cf-sol-3",
-      "xingchi",
-      "xingchi-2",
-      "xingchi-4",
-      "xingchi-6"
-    ],
-    "entries": [
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": false,
-        "model": "deepseek-v4.1-flash-free",
-        "provider": "100milionseek",
-        "used": 1097
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": false,
-        "model": "deepseek-v4.1-flash-free",
-        "provider": "100milionseek-2",
-        "used": 1079
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": false,
-        "model": "glm-4-flash-250414",
-        "provider": "zhipu",
-        "used": 1321
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": false,
-        "model": "nex-n2.6",
-        "provider": "moss",
-        "used": 418
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": false,
-        "model": "nex-n2.6-2026-11-05",
-        "provider": "moss",
-        "used": 405
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "XingChenAGI/Xing4.0-29B",
-        "provider": "siliconflow",
-        "used": 580
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": false,
-        "model": "sensenova-6.8-flash",
-        "provider": "sensenova",
-        "used": 703
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": false,
-        "model": "sensenova-6.8-flash-lite",
-        "provider": "sensenova",
-        "used": 703
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": false,
-        "model": "sensenova-6.8-flash",
-        "provider": "sensenova-2",
-        "used": 704
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": false,
-        "model": "sensenova-6.8-flash-lite",
-        "provider": "sensenova-2",
-        "used": 704
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "qwen/qwen3.8-27b",
-        "provider": "groq",
-        "used": 42
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "openai/gpt-oss-120b",
-        "provider": "groq",
-        "used": 89
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "openai/gpt-oss-20b",
-        "provider": "groq",
-        "used": 90
-      },
-      {
-        "cap": 7000,
-        "enabled": true,
-        "healthy": true,
-        "model": "allam-2-7b",
-        "provider": "groq",
-        "used": 77
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "ceres-1.1",
-        "provider": "merkium",
-        "used": 255
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "pluto-1.1-flash",
-        "provider": "merkium",
-        "used": 255
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "ganymede-1.1",
-        "provider": "merkium",
-        "used": 255
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "pluto-1.2-flash",
-        "provider": "merkium",
-        "used": 255
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "pluto-1.2-pro",
-        "provider": "merkium",
-        "used": 255
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "pluto-1.1-pro",
-        "provider": "merkium",
-        "used": 255
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
-        "provider": "openrouter",
-        "used": 18
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": true,
-        "model": "google/gemma-4-31b-it:free",
-        "provider": "openrouter",
-        "used": 18
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": true,
-        "model": "particle-ai/particle-1:free",
-        "provider": "openrouter",
-        "used": 18
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": true,
-        "model": "recursive/flint-v1.0:free",
-        "provider": "openrouter",
-        "used": 18
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": true,
-        "model": "baidu/ernie-5.5-flash-preview:free",
-        "provider": "openrouter",
-        "used": 18
-      },
-      {
-        "cap": 45,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia/nemotron-3.5-lightning:free",
-        "provider": "openrouter",
-        "used": 18
-      },
-      {
-        "cap": 500,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemini-3.5-flash-lite",
-        "provider": "google-ai-studio",
-        "used": 82
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-large-4t",
-        "provider": "ai-cf",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-m3.1-flash",
-        "provider": "ai-cf",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-gemma-4",
-        "provider": "ai-cf",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol–free",
-        "provider": "ai-cf-sol",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-large-4t",
-        "provider": "ai-cf-2",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-m3.1-flash",
-        "provider": "ai-cf-2",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-gemma-4",
-        "provider": "ai-cf-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol–free",
-        "provider": "ai-cf-sol-2",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-large-4t",
-        "provider": "ai-cf-3",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-m3.1-flash",
-        "provider": "ai-cf-3",
-        "used": 0
-      },
-      {
-        "cap": 20000,
-        "enabled": false,
-        "healthy": false,
-        "model": "free-gemma-4",
-        "provider": "ai-cf-3",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol–free",
-        "provider": "ai-cf-sol-3",
-        "used": 0
-      },
-      {
-        "cap": 1000,
-        "enabled": true,
-        "healthy": true,
-        "model": "XingChenAGI/Xing4.0-29B",
-        "provider": "siliconflow-2",
-        "used": 0
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "GLM-5.3-Flash",
-        "provider": "amd-tokenlab",
-        "used": 45
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "agnes-2.5-flash:free",
-        "provider": "unorouter",
-        "used": 23
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "agnes-3.0-flash:free",
-        "provider": "unorouter",
-        "used": 35
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "allam-2-7b:free",
-        "provider": "unorouter",
-        "used": 57
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "crow-roleplay:free",
-        "provider": "crowllm",
-        "used": 11
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "laguna-xs-2.1:free",
-        "provider": "crowllm",
-        "used": 4
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "laguna-xs-2.1-uncensored:free",
-        "provider": "crowllm",
-        "used": 10
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia/mistral-large-4-1t-a52b:free",
-        "provider": "crowllm",
-        "used": 21
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nemotron-3-ultra-550b-a55b:free",
-        "provider": "crowllm",
-        "used": 11
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
-        "provider": "crowllm",
-        "used": 1
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia/nemotron-3.5-bolt-e4b:free",
-        "provider": "crowllm",
-        "used": 9
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
-        "provider": "crowllm",
-        "used": 6
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nemotron-3.5-super-vl:free",
-        "provider": "crowllm",
-        "used": 8
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "jais-3-mova-36b-a4b:free",
-        "provider": "crowllm",
-        "used": 9
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "k2-horizon-375b-a23b:free",
-        "provider": "crowllm",
-        "used": 12
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "k2-horizon-375b-a23b-uncensored:free",
-        "provider": "crowllm",
-        "used": 11
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "particle-1:free",
-        "provider": "crowllm",
-        "used": 11
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "step-5-preview:free",
-        "provider": "crowllm",
-        "used": 4
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "grok-4.7:free",
-        "provider": "crowllm",
-        "used": 4
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "grok-4.7-fast:free",
-        "provider": "crowllm",
-        "used": 2
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-31b-it:free",
-        "provider": "crowllm",
-        "used": 24
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "glm-4.6v-flash:free",
-        "provider": "crowllm",
-        "used": 23
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "longcat-2.5:free",
-        "provider": "crowllm",
-        "used": 8
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "minimax-m3.1-flash:free",
-        "provider": "crowllm",
-        "used": 20
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "dots-3-note-preview:free",
-        "provider": "crowllm",
-        "used": 13
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "flint-v1.0:free",
-        "provider": "crowllm",
-        "used": 5
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "llama-3.3-70b:free",
-        "provider": "crowllm",
-        "used": 10
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "llama-3.3-70b-instruct:free",
-        "provider": "crowllm",
-        "used": 24
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "solar-mini4:free",
-        "provider": "crowllm",
-        "used": 15
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "xing4.0-29b-a4b:free",
-        "provider": "crowllm",
-        "used": 21
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "caw/glm-5.3-flash-thinking:free",
-        "provider": "crowllm",
-        "used": 38
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-v4-flash-0731-thinking:free",
-        "provider": "crowllm",
-        "used": 134
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia-deepseek-v4-1-flash-nvfp4",
-        "provider": "packet-ai",
-        "used": 32
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "minimaxai-minimax-m3-1-flash",
-        "provider": "packet-ai",
-        "used": 1
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "qwen-qwen2-5-1-5b-instruct",
-        "provider": "packet-ai",
-        "used": 23
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-v4.1-flash:free",
-        "provider": "token-harbor",
-        "used": 234
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "mimo-v2.6-flash:free",
-        "provider": "token-harbor",
-        "used": 0
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-v4-flash:free",
-        "provider": "token-harbor",
-        "used": 7
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "mimo-v2.5:free",
-        "provider": "token-harbor",
-        "used": 6
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "z-ai/glm-5.3:free",
-        "provider": "numes",
-        "used": 21
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "moonshotai/kimi-k3.1-pro:free",
-        "provider": "numes",
-        "used": 1
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "dealignai/glm-5.3-flash-uncensored-fp8:free",
-        "provider": "numes",
-        "used": 45
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek/deepseek-v4.1-flash:free",
-        "provider": "numes",
-        "used": 293
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
-        "provider": "numes",
-        "used": 0
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
-        "provider": "numes",
-        "used": 103
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "z-ai/glm-5.3-flash:free",
-        "provider": "numes",
-        "used": 29
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "dealignai/glm-5.3-uncensored-fp8:free",
-        "provider": "numes",
-        "used": 26
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "uniboshi/kimi-k3-abliterated-v1:free",
-        "provider": "numes",
-        "used": 14
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-26b-a4b-it-chimerax:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-26b-a4b-it-darksoul:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-26b-a4b-it-luminous:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-26b-a4b-it-moonlight:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-26b-a4b-it-musica:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "gemma-4-26b-a4b-it-meromero:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "minimax-m3.1-flash:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 200,
-        "enabled": true,
-        "healthy": true,
-        "model": "muse-glimmer-30b:free",
-        "provider": "routeway",
-        "used": 13
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "zai-org/glm-5.3-flash:free",
-        "provider": "wusrouter",
-        "used": 45
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "ws/gpt-5.6-terra:free",
-        "provider": "wusrouter",
-        "used": 45
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "mimo-v2.5:free",
-        "provider": "wusrouter",
-        "used": 45
-      },
-      {
-        "cap": 300,
-        "enabled": true,
-        "healthy": true,
-        "model": "codex/gpt-5:free",
-        "provider": "wusrouter",
-        "used": 45
-      },
-      {
-        "cap": 100000,
-        "enabled": true,
-        "healthy": true,
-        "model": "gpt-6.2-sol",
-        "provider": "egg-krphp",
-        "used": 3
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3.5-35B-A3B",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "zai-org/GLM-4.5-Air",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3.5-27B",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-ai/DeepSeek-R1",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen2.5-72B-Instruct",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-VL-32B-Instruct",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "inclusionAI/Ling-flash-2.0",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
-        "provider": "siliconflow-voucher-2",
-        "used": 2557
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-sol",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-sol",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-terra",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-luna",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-terra",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-sol",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-luna",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-astra",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.5",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4-mini",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.3-codex-spark",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "codex-auto-review",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.2",
-        "provider": "xingchi",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-sol",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-terra",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-luna",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-terra",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-sol",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-luna",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-astra",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.5",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4-mini",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.3-codex-spark",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "codex-auto-review",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.2",
-        "provider": "xingchi-4",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-sol",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-terra",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-luna",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-terra",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-sol",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-luna",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-astra",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.5",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4-mini",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.3-codex-spark",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "codex-auto-review",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.2",
-        "provider": "xingchi-2",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-sol",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-terra",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.6-luna",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6.1-terra",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-sol",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-luna",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-6-astra",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.5",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.4-mini",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.3-codex-spark",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "codex-auto-review",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 200000,
-        "enabled": false,
-        "healthy": false,
-        "model": "gpt-5.2",
-        "provider": "xingchi-6",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-ai/DeepSeek-V3.2",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3.5-35B-A3B",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "zai-org/GLM-4.5-Air",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3.5-27B",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "deepseek-ai/DeepSeek-R1",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen2.5-72B-Instruct",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-VL-32B-Instruct",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "inclusionAI/Ling-flash-2.0",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      },
-      {
-        "cap": 3000,
-        "enabled": true,
-        "healthy": true,
-        "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
-        "provider": "siliconflow-voucher",
-        "used": 0
-      }
-    ],
-    "healthy_entries": 104,
-    "ok": true,
-    "reachable": true,
-    "used_today": 18
+    "entries": [],
+    "healthy_entries": 0,
+    "reachable": false
   },
   "recent_completions": [
     {
-      "age_sec": 130,
+      "age_sec": 5,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T13:50:17Z",
+      "completed_at": "2026-11-23T13:54:58Z",
+      "completed_by": "cloud-script-migration-seat-1-9528-0cea52d6",
+      "completed_by_zh": "云脚本迁移 席位9528",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-019",
+      "task_no": 19,
+      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 6,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-23T13:54:57Z",
+      "completed_by": "pool-optimization-seat-1-9751-cee284c3",
+      "completed_by_zh": "池优化 席位9751",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-065",
+      "task_no": 65,
+      "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 6,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-23T13:54:57Z",
+      "completed_by": "pool-optimization-seat-1-9751-cee284c3",
+      "completed_by_zh": "池优化 席位9751",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-069",
+      "task_no": 68,
+      "title": "Done-transition replay after restarts (boss filing 2026-11-23 ~21:40)…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 7,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T13:54:56Z",
       "completed_by": "cloud-script-migration-seat-1-6605-885527d1",
       "completed_by_zh": "云脚本迁移 席位6605",
       "completed_ts_source": "result.txt",
@@ -3486,19 +554,31 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 219,
+      "age_sec": 7,
       "board_zh": "池优化",
-      "completed_at": "2026-11-23T13:48:48Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
-      "task_id": "pool-069",
-      "task_no": 68,
-      "title": "Done-transition replay after restarts (boss filing 2026-11-23 ~21:40)…",
+      "completed_at": "2026-11-23T13:54:56Z",
+      "completed_by": "pool-optimization-seat-1-9751-cee284c3",
+      "completed_by_zh": "池优化 席位9751",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-067",
+      "task_no": 67,
+      "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 319,
+      "age_sec": 9,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-23T13:54:54Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "result.txt",
+      "task_id": "task-065-gpt2",
+      "task_no": 652,
+      "title": null,
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 474,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:47:09Z",
       "completed_by": "pool-optimization-seat-1-7037-358cddea",
@@ -3510,31 +590,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 381,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-23T13:46:07Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "result.txt",
-      "task_id": "pool-065",
-      "task_no": 65,
-      "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 382,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-23T13:46:06Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "result.txt",
-      "task_id": "pool-067",
-      "task_no": 67,
-      "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 396,
+      "age_sec": 551,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:45:52Z",
       "completed_by": "cloud-script-migration-seat-1-6605-885527d1",
@@ -3546,7 +602,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 482,
+      "age_sec": 637,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:44:25Z",
       "completed_by": "cloud-script-migration-seat-1-6605-885527d1",
@@ -3558,7 +614,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 607,
+      "age_sec": 763,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
@@ -3567,30 +623,6 @@
       "task_id": "clou-022",
       "task_no": 22,
       "title": "Fleet-wide publish flip, second half (boss filing 2026-11-23 20:00…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 1075,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T13:34:32Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
-      "task_id": "clou-019",
-      "task_no": 19,
-      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 1921,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T13:20:26Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
-      "task_id": "clou-020",
-      "task_no": 20,
-      "title": "发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-manifest-vm.json…",
       "workstream": "cloud-script-migration"
     }
   ],
@@ -3602,29 +634,29 @@
   },
   "workers": {
     "by_model": {
-      "crowllm/deepseek-v4-flash-0731-thinking:free": 2,
-      "ws/gpt-5.6-terra:free": 2
+      "deepseek-v4.1-flash-free": 2,
+      "token-harbor/deepseek-v4.1-flash:free": 2
     },
     "running": [
       {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 6636,
-        "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 10200,
+        "title": "[code] Done-transition replay after restarts (boss filing 2026-11-23 ~21:40): al"
       },
       {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 6637,
-        "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 10201,
+        "title": "[code] Done-transition replay after restarts (boss filing 2026-11-23 ~21:40): al"
       },
       {
-        "model": "ws/gpt-5.6-terra:free",
-        "pid": 8049,
-        "title": "TASK (boss direct dispatch): Done-transition replay after restarts - diagnose an"
+        "model": "deepseek-v4.1-flash-free",
+        "pid": 10222,
+        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
       },
       {
-        "model": "ws/gpt-5.6-terra:free",
-        "pid": 8050,
-        "title": "TASK (boss direct dispatch): Done-transition replay after restarts - diagnose an"
+        "model": "deepseek-v4.1-flash-free",
+        "pid": 10223,
+        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
       }
     ],
     "total": 4
@@ -3632,33 +664,33 @@
   "workers_detail": [
     {
       "count": 2,
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free"
+      "model": "deepseek-v4.1-flash-free"
     },
     {
       "count": 2,
-      "model": "ws/gpt-5.6-terra:free"
+      "model": "token-harbor/deepseek-v4.1-flash:free"
     }
   ],
   "workers_running": [
     {
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-      "pid": 6636,
-      "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
+      "model": "token-harbor/deepseek-v4.1-flash:free",
+      "pid": 10200,
+      "title": "[code] Done-transition replay after restarts (boss filing 2026-11-23 ~21:40): al"
     },
     {
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-      "pid": 6637,
-      "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
+      "model": "token-harbor/deepseek-v4.1-flash:free",
+      "pid": 10201,
+      "title": "[code] Done-transition replay after restarts (boss filing 2026-11-23 ~21:40): al"
     },
     {
-      "model": "ws/gpt-5.6-terra:free",
-      "pid": 8049,
-      "title": "TASK (boss direct dispatch): Done-transition replay after restarts - diagnose an"
+      "model": "deepseek-v4.1-flash-free",
+      "pid": 10222,
+      "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
     },
     {
-      "model": "ws/gpt-5.6-terra:free",
-      "pid": 8050,
-      "title": "TASK (boss direct dispatch): Done-transition replay after restarts - diagnose an"
+      "model": "deepseek-v4.1-flash-free",
+      "pid": 10223,
+      "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
     }
   ],
   "workstreams": {
@@ -3670,9 +702,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 3,
-        "tasks_total": 3,
-        "updated": "2026-11-23T13:43:48Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-23T13:54:57Z"
       },
       "tasks": {
         "done": 17,
@@ -3680,15 +712,15 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second half; boss filing 2026-11-22 after [user-found] #17): install ON the BandwagonHost VPS a small script + systemd timer (5 min) that, for each of the 9 pub files (the stale-alarm manifest set + team-status.json), fetches the GitHub Pages copy and compares its payload stamp with the locally served /srv/migrate-pub copy; when GitHub is newer it replaces the served file atomically (tmp + rename, preserving ownership/permissions). Steady state runs entirely on the VPS (no SSH). The install itself is boss-relay: ONE SSH session with ControlMaster reuse - the 2026-11-22 abuse lock was caused by our own connection churn, never repeat that pattern. Acceptance (boss, from public URLs): a test payload published ONLY to GitHub appears on the primary endpoint within 2 timer cycles; before/after served stamps reported. | audit/pub-manifest-vm.json + migrate-glue/pub_mirror.py (the VM-side opposite-direction twin, live 2026-11-22) | served-stamp drill evidence [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - it was a pre-patch legacy freeze, never dispositioned; the gate now refuses every claim on this line, which is why this task sat idle. Task is executable tonight (20:00 list): claim freely.] (executed-by operations failed 2026-11-23T13:34:06Z) (claimed-by cloud-script-migration-seat-1-6605-885527d1 2026-11-23T13:51:51Z)"
+            "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second half; boss filing 2026-11-22 after [user-found] #17): install ON the BandwagonHost VPS a small script + systemd timer (5 min) that, for each of the 9 pub files (the stale-alarm manifest set + team-status.json), fetches the GitHub Pages copy and compares its payload stamp with the locally served /srv/migrate-pub copy; when GitHub is newer it replaces the served file atomically (tmp + rename, preserving ownership/permissions). Steady state runs entirely on the VPS (no SSH). The install itself is boss-relay: ONE SSH session with ControlMaster reuse - the 2026-11-22 abuse lock was caused by our own connection churn, never repeat that pattern. Acceptance (boss, from public URLs): a test payload published ONLY to GitHub appears on the primary endpoint within 2 timer cycles; before/after served stamps reported. | audit/pub-manifest-vm.json + migrate-glue/pub_mirror.py (the VM-side opposite-direction twin, live 2026-11-22) | served-stamp drill evidence [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - it was a pre-patch legacy freeze, never dispositioned; the gate now refuses every claim on this line, which is why this task sat idle. Task is executable tonight (20:00 list): claim freely.] (executed-by operations failed 2026-11-23T13:34:06Z) (claimed-by cloud-script-migration-seat-1-6605-885527d1 2026-11-23T13:52:51Z)"
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du space's importCatalog action fetches this file from the two pub endpoints but NOBODY produces it (both 404) - first determine the exact payload schema importCatalog accepts (publish a one-entry probe file, observe the import result, adjust), then build a deterministic producer in migrate-glue/ that emits the verified catalog (17 entries as of 2026-11-22; updates flow from the daily verification conclusions) to migrate-glue/out/ai-quota-catalog.json (github_pub_watch publishes the GitHub leg), add the file to the InstaBox publish set and to the stale-alarm manifest (threshold_sec 129600). Acceptance: both endpoints serve the file with generatedAt < 26h old AND a production importCatalog call consumes it without error; the space's provider_state / changes / rotation data untouched. | ai-e-du actions importCatalog/saveCatalogUpdates | endpoint stamps + import result — BOSS ACCEPTANCE HOLD 2026-11-23: the producer's first local output (2026-11-22T18:12:26Z, ok=True) carries providerCount=9 (repo-3/10/14/18/28/31/33, supp-opencode-zen, supp-100milionseek) against the 17 catalog entries this task must emit. Before any completion claim: (1) explain the 9-vs-17 gap with the schema-probe evidence (what importCatalog actually accepts), and (2) prove a production importCatalog run is NON-DESTRUCTIVE - all 17 entries still present afterwards. Endpoints are still 404 at hold time; publish + import proof outstanding. — BOSS NOTE 2026-11-23: the line fixed the count (local payload providerCount=17, fresh) but the publish leg was never wired: the producer writes the local file and stops; no step carries it to the endpoints (all three 404 while the local payload sat fresh). The boss pushed the current payload manually via the pool-state route (push_to_insta -> box ~/migrate/team/ -> team-publish -> primary; pub-mirror then carries it to GitHub). REMAINING for acceptance: (1) wire the leg durably into the producer cycle so the next generated payload reaches the endpoints with no manual step; (2) the non-destructive importCatalog proof from the original hold. The 9-vs-17 item is CLOSED. (executed-by operations failed 2026-11-23T13:34:35Z) (claimed-by cloud-script-migration-seat-1-6605-885527d1 2026-11-23T13:51:51Z)"
+            "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du space's importCatalog action fetches this file from the two pub endpoints but NOBODY produces it (both 404) - first determine the exact payload schema importCatalog accepts (publish a one-entry probe file, observe the import result, adjust), then build a deterministic producer in migrate-glue/ that emits the verified catalog (17 entries as of 2026-11-22; updates flow from the daily verification conclusions) to migrate-glue/out/ai-quota-catalog.json (github_pub_watch publishes the GitHub leg), add the file to the InstaBox publish set and to the stale-alarm manifest (threshold_sec 129600). Acceptance: both endpoints serve the file with generatedAt < 26h old AND a production importCatalog call consumes it without error; the space's provider_state / changes / rotation data untouched. | ai-e-du actions importCatalog/saveCatalogUpdates | endpoint stamps + import result — BOSS ACCEPTANCE HOLD 2026-11-23: the producer's first local output (2026-11-22T18:12:26Z, ok=True) carries providerCount=9 (repo-3/10/14/18/28/31/33, supp-opencode-zen, supp-100milionseek) against the 17 catalog entries this task must emit. Before any completion claim: (1) explain the 9-vs-17 gap with the schema-probe evidence (what importCatalog actually accepts), and (2) prove a production importCatalog run is NON-DESTRUCTIVE - all 17 entries still present afterwards. Endpoints are still 404 at hold time; publish + import proof outstanding. — BOSS NOTE 2026-11-23: the line fixed the count (local payload providerCount=17, fresh) but the publish leg was never wired: the producer writes the local file and stops; no step carries it to the endpoints (all three 404 while the local payload sat fresh). The boss pushed the current payload manually via the pool-state route (push_to_insta -> box ~/migrate/team/ -> team-publish -> primary; pub-mirror then carries it to GitHub). REMAINING for acceptance: (1) wire the leg durably into the producer cycle so the next generated payload reaches the endpoints with no manual step; (2) the non-destructive importCatalog proof from the original hold. The 9-vs-17 item is CLOSED. (executed-by operations failed 2026-11-23T13:34:35Z) (claimed-by cloud-script-migration-seat-1-6605-885527d1 2026-11-23T13:52:51Z)"
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints (executed-by float failed 2026-11-23T13:34:52Z) (claimed-by cloud-script-migration-seat-1-6605-885527d1 2026-11-23T13:51:51Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints (executed-by float failed 2026-11-23T13:34:52Z) (claimed-by cloud-script-migration-seat-1-6605-885527d1 2026-11-23T13:52:51Z)"
           }
         ],
         "open": 5
@@ -3720,10 +752,10 @@
       },
       "status": {
         "exists": true,
-        "tasks_done": 1,
-        "tasks_open": 4,
-        "tasks_total": 5,
-        "updated": "2026-11-23T13:48:48Z"
+        "tasks_done": 0,
+        "tasks_open": 3,
+        "tasks_total": 3,
+        "updated": "2026-11-23T13:54:30Z"
       },
       "tasks": {
         "done": 61,
