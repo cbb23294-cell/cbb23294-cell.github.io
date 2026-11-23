@@ -8,7 +8,7 @@
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
       ],
       "open": 2,
-      "status_updated": "2026-11-23T01:00:58Z",
+      "status_updated": "2026-11-23T01:09:55Z",
       "total": 17,
       "workstream": "cloud-script-migration"
     },
@@ -21,7 +21,7 @@
         "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
       ],
       "open": 10,
-      "status_updated": "2026-11-23T00:50:47Z",
+      "status_updated": "2026-11-23T01:09:35Z",
       "total": 63,
       "workstream": "pool-optimization"
     },
@@ -30,7 +30,7 @@
       "escalation_latest": "- key=3c0f441978e3",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-23T00:43:40Z",
+      "status_updated": "2026-11-23T01:09:40Z",
       "total": 12,
       "workstream": "security"
     },
@@ -41,7 +41,7 @@
         "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
       ],
       "open": 1,
-      "status_updated": "2026-11-23T00:48:00Z",
+      "status_updated": "2026-11-23T01:09:30Z",
       "total": 19,
       "workstream": "operations"
     },
@@ -50,14 +50,14 @@
       "escalation_latest": "- key=520cb7f0c761",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-22T23:47:52Z",
+      "status_updated": "2026-11-23T01:09:50Z",
       "total": 10,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-23T01:00:58Z",
-  "generated_at": "2026-11-23T01:09:15Z",
-  "generated_at_utc": "2026-11-23T01:09:15Z",
+  "content_latest_at": "2026-11-23T01:09:55Z",
+  "generated_at": "2026-11-23T01:14:00Z",
+  "generated_at_utc": "2026-11-23T01:14:00Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -135,7 +135,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 327
+        "used": 356
       },
       {
         "cap": 1000,
@@ -143,7 +143,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 225
+        "used": 252
       },
       {
         "cap": 1000,
@@ -151,7 +151,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 3
+        "used": 4
       },
       {
         "cap": 300,
@@ -159,7 +159,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 1000,
@@ -231,7 +231,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 55
+        "used": 67
       },
       {
         "cap": 300,
@@ -239,7 +239,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 55
+        "used": 67
       },
       {
         "cap": 300,
@@ -247,7 +247,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 55
+        "used": 67
       },
       {
         "cap": 45,
@@ -255,7 +255,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "openrouter",
-        "used": 0
+        "used": 5
       },
       {
         "cap": 45,
@@ -263,7 +263,7 @@
         "healthy": true,
         "model": "google/gemma-4-31b-it:free",
         "provider": "openrouter",
-        "used": 0
+        "used": 5
       },
       {
         "cap": 500,
@@ -583,7 +583,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 145
+        "used": 146
       },
       {
         "cap": 300,
@@ -1421,7 +1421,7 @@
     "healthy_entries": 85,
     "ok": true,
     "reachable": true,
-    "used_today": 0
+    "used_today": 5
   },
   "pool_health": {
     "cap": 45,
@@ -1444,7 +1444,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 327
+        "used": 356
       },
       {
         "cap": 1000,
@@ -1452,7 +1452,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 225
+        "used": 252
       },
       {
         "cap": 1000,
@@ -1460,7 +1460,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 3
+        "used": 4
       },
       {
         "cap": 300,
@@ -1468,7 +1468,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 1000,
@@ -1540,7 +1540,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 55
+        "used": 67
       },
       {
         "cap": 300,
@@ -1548,7 +1548,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 55
+        "used": 67
       },
       {
         "cap": 300,
@@ -1556,7 +1556,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 55
+        "used": 67
       },
       {
         "cap": 45,
@@ -1564,7 +1564,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "openrouter",
-        "used": 0
+        "used": 5
       },
       {
         "cap": 45,
@@ -1572,7 +1572,7 @@
         "healthy": true,
         "model": "google/gemma-4-31b-it:free",
         "provider": "openrouter",
-        "used": 0
+        "used": 5
       },
       {
         "cap": 500,
@@ -1892,7 +1892,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 145
+        "used": 146
       },
       {
         "cap": 300,
@@ -2730,7 +2730,7 @@
     "healthy_entries": 85,
     "ok": true,
     "reachable": true,
-    "used_today": 0
+    "used_today": 5
   },
   "tracked_jobs": {
     "done": 58,
@@ -2752,9 +2752,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 2,
-        "tasks_total": 2,
-        "updated": "2026-11-23T01:00:58Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-23T01:09:55Z"
       },
       "tasks": {
         "done": 15,
@@ -2780,9 +2780,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-23T00:48:00Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-23T01:09:30Z"
       },
       "tasks": {
         "done": 18,
@@ -2804,9 +2804,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-23T00:50:47Z"
+        "tasks_open": 4,
+        "tasks_total": 4,
+        "updated": "2026-11-23T01:09:35Z"
       },
       "tasks": {
         "done": 53,
@@ -2838,7 +2838,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-23T00:43:40Z"
+        "updated": "2026-11-23T01:09:40Z"
       },
       "tasks": {
         "done": 12,
@@ -2857,7 +2857,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-22T23:47:52Z"
+        "updated": "2026-11-23T01:09:50Z"
       },
       "tasks": {
         "done": 10,
