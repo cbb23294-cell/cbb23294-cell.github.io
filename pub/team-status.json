@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T20:58:00Z",
+    "activity_generated_at": "2026-11-23T21:00:25Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -12,33 +12,40 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-23T20:57:07Z",
+        "claimed_at": "2026-11-23T21:00:08Z",
         "claimed_by": "cloud-script-migration-seat-1-22378-3ba24bdd",
         "claimed_by_zh": "云脚本迁移 席位22378",
-        "claimed_for": "53秒",
+        "claimed_for": "17秒",
         "task_id": "clou-019",
         "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…"
       },
-      "cycle_started_at": "2026-11-23T20:57:07Z",
+      "cycle_started_at": "2026-11-23T21:00:08Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "53秒",
-      "elapsed_sec": 53,
-      "last_cycle_ended": "2026-11-23T20:57:57Z",
+      "elapsed": "17秒",
+      "elapsed_sec": 17,
+      "last_cycle_ended": "2026-11-23T20:59:41Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
-      "last_cycle_ended": "2026-11-23T20:48:45Z",
+      "claimed_count": 2,
+      "current_task": {
+        "claimed_at": "2026-11-23T21:00:17Z",
+        "claimed_by": "pool-optimization-seat-1-23443-e39b0d2b",
+        "claimed_by_zh": "池优化 席位23443",
+        "claimed_for": "8秒",
+        "task_id": "pool-064",
+        "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…"
+      },
+      "cycle_started_at": "2026-11-23T21:00:17Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "8秒",
+      "elapsed_sec": 8,
+      "last_cycle_ended": "2026-11-23T21:00:22Z",
       "name_zh": "池优化",
-      "state": "idle",
+      "state": "running",
       "workstream": "pool-optimization"
     },
     {
@@ -99,11 +106,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 53,
-          "claimed_at": "2026-11-23T20:57:07Z",
+          "claimed_age_sec": 17,
+          "claimed_at": "2026-11-23T21:00:08Z",
           "claimed_by": "cloud-script-migration-seat-1-22378-3ba24bdd",
           "claimed_by_zh": "云脚本迁移 席位22378",
-          "claimed_for": "53秒",
+          "claimed_for": "17秒",
           "task_id": "clou-019",
           "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
           "workstream": "cloud-script-migration"
@@ -123,7 +130,30 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 8,
+          "claimed_at": "2026-11-23T21:00:17Z",
+          "claimed_by": "pool-optimization-seat-1-23443-e39b0d2b",
+          "claimed_by_zh": "池优化 席位23443",
+          "claimed_for": "8秒",
+          "task_id": "pool-054",
+          "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 8,
+          "claimed_at": "2026-11-23T21:00:17Z",
+          "claimed_by": "pool-optimization-seat-1-23443-e39b0d2b",
+          "claimed_by_zh": "池优化 席位23443",
+          "claimed_for": "8秒",
+          "task_id": "pool-064",
+          "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
+          "workstream": "pool-optimization"
+        }
+      ],
       "done": 61,
       "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "池优化",
@@ -133,7 +163,7 @@
         "Long-request 502 root cause at the pool door (cycle meeting re-run S1…"
       ],
       "open": 7,
-      "status_updated": "2026-11-23T20:42:41Z",
+      "status_updated": "2026-11-23T20:58:17Z",
       "total": 68,
       "workstream": "pool-optimization"
     },
@@ -176,17 +206,39 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 53,
-      "claimed_at": "2026-11-23T20:57:07Z",
+      "claimed_age_sec": 17,
+      "claimed_at": "2026-11-23T21:00:08Z",
       "claimed_by": "cloud-script-migration-seat-1-22378-3ba24bdd",
       "claimed_by_zh": "云脚本迁移 席位22378",
-      "claimed_for": "53秒",
+      "claimed_for": "17秒",
       "task_id": "clou-019",
       "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
       "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 8,
+      "claimed_at": "2026-11-23T21:00:17Z",
+      "claimed_by": "pool-optimization-seat-1-23443-e39b0d2b",
+      "claimed_by_zh": "池优化 席位23443",
+      "claimed_for": "8秒",
+      "task_id": "pool-054",
+      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 8,
+      "claimed_at": "2026-11-23T21:00:17Z",
+      "claimed_by": "pool-optimization-seat-1-23443-e39b0d2b",
+      "claimed_by_zh": "池优化 席位23443",
+      "claimed_for": "8秒",
+      "task_id": "pool-064",
+      "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
+      "workstream": "pool-optimization"
     }
   ],
-  "content_latest_at": "2026-11-23T20:56:51Z",
+  "content_latest_at": "2026-11-23T20:58:17Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 217,
@@ -219,10 +271,11 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T20:58:00Z",
-  "generated_at_utc": "2026-11-23T20:58:00Z",
+  "generated_at": "2026-11-23T21:00:26Z",
+  "generated_at_utc": "2026-11-23T21:00:26Z",
   "live_pi_workers": {
     "by_model": {
+      "groq/allam-2-7b": 2,
       "routeway/gemma-4-26b-a4b-it-chimerax:free": 4
     },
     "running": [
@@ -245,9 +298,19 @@
         "model": "routeway/gemma-4-26b-a4b-it-chimerax:free",
         "pid": 22989,
         "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
+      },
+      {
+        "model": "groq/allam-2-7b",
+        "pid": 23460,
+        "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
+      },
+      {
+        "model": "groq/allam-2-7b",
+        "pid": 23461,
+        "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
       }
     ],
-    "total": 4
+    "total": 6
   },
   "managers": [
     {
@@ -434,7 +497,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 1606
+        "used": 1628
       },
       {
         "cap": 331,
@@ -442,7 +505,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 322
+        "used": 323
       },
       {
         "cap": 331,
@@ -450,7 +513,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 322
+        "used": 323
       },
       {
         "cap": 331,
@@ -458,7 +521,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 322
+        "used": 323
       },
       {
         "cap": 331,
@@ -466,7 +529,7 @@
         "healthy": true,
         "model": "pluto-1.2-flash",
         "provider": "merkium",
-        "used": 322
+        "used": 323
       },
       {
         "cap": 331,
@@ -474,7 +537,7 @@
         "healthy": true,
         "model": "pluto-1.2-pro",
         "provider": "merkium",
-        "used": 322
+        "used": 323
       },
       {
         "cap": 331,
@@ -482,7 +545,7 @@
         "healthy": true,
         "model": "pluto-1.1-pro",
         "provider": "merkium",
-        "used": 322
+        "used": 323
       },
       {
         "cap": 45,
@@ -538,7 +601,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 193
+        "used": 200
       },
       {
         "cap": 20000,
@@ -666,7 +729,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 216
+        "used": 217
       },
       {
         "cap": 300,
@@ -682,7 +745,7 @@
         "healthy": true,
         "model": "crow-roleplay:free",
         "provider": "crowllm",
-        "used": 186
+        "used": 189
       },
       {
         "cap": 300,
@@ -690,7 +753,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1:free",
         "provider": "crowllm",
-        "used": 159
+        "used": 163
       },
       {
         "cap": 300,
@@ -698,7 +761,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1-uncensored:free",
         "provider": "crowllm",
-        "used": 217
+        "used": 220
       },
       {
         "cap": 300,
@@ -706,7 +769,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 93
+        "used": 96
       },
       {
         "cap": 300,
@@ -714,7 +777,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 152
+        "used": 154
       },
       {
         "cap": 300,
@@ -722,7 +785,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
         "provider": "crowllm",
-        "used": 101
+        "used": 109
       },
       {
         "cap": 300,
@@ -730,7 +793,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-bolt-e4b:free",
         "provider": "crowllm",
-        "used": 133
+        "used": 135
       },
       {
         "cap": 300,
@@ -738,7 +801,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
         "provider": "crowllm",
-        "used": 125
+        "used": 129
       },
       {
         "cap": 300,
@@ -746,7 +809,7 @@
         "healthy": true,
         "model": "nemotron-3.5-super-vl:free",
         "provider": "crowllm",
-        "used": 122
+        "used": 123
       },
       {
         "cap": 300,
@@ -754,7 +817,7 @@
         "healthy": true,
         "model": "jais-3-mova-36b-a4b:free",
         "provider": "crowllm",
-        "used": 109
+        "used": 112
       },
       {
         "cap": 300,
@@ -762,7 +825,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 116
+        "used": 117
       },
       {
         "cap": 300,
@@ -778,7 +841,7 @@
         "healthy": true,
         "model": "particle-1:free",
         "provider": "crowllm",
-        "used": 101
+        "used": 102
       },
       {
         "cap": 300,
@@ -794,7 +857,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 150
+        "used": 151
       },
       {
         "cap": 300,
@@ -802,7 +865,7 @@
         "healthy": true,
         "model": "grok-4.7-fast:free",
         "provider": "crowllm",
-        "used": 117
+        "used": 118
       },
       {
         "cap": 300,
@@ -818,7 +881,7 @@
         "healthy": true,
         "model": "glm-4.6v-flash:free",
         "provider": "crowllm",
-        "used": 94
+        "used": 95
       },
       {
         "cap": 300,
@@ -842,7 +905,7 @@
         "healthy": true,
         "model": "dots-3-note-preview:free",
         "provider": "crowllm",
-        "used": 126
+        "used": 127
       },
       {
         "cap": 300,
@@ -850,7 +913,7 @@
         "healthy": true,
         "model": "flint-v1.0:free",
         "provider": "crowllm",
-        "used": 65
+        "used": 66
       },
       {
         "cap": 300,
@@ -866,7 +929,7 @@
         "healthy": true,
         "model": "llama-3.3-70b-instruct:free",
         "provider": "crowllm",
-        "used": 89
+        "used": 90
       },
       {
         "cap": 300,
@@ -882,7 +945,7 @@
         "healthy": true,
         "model": "xing4.0-29b-a4b:free",
         "provider": "crowllm",
-        "used": 84
+        "used": 86
       },
       {
         "cap": 300,
@@ -890,7 +953,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 88
+        "used": 89
       },
       {
         "cap": 300,
@@ -898,7 +961,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 297
+        "used": 298
       },
       {
         "cap": 300,
@@ -914,7 +977,7 @@
         "healthy": true,
         "model": "minimaxai-minimax-m3-1-flash",
         "provider": "packet-ai",
-        "used": 274
+        "used": 286
       },
       {
         "cap": 300,
@@ -978,7 +1041,7 @@
         "healthy": true,
         "model": "dealignai/glm-5.3-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 50
+        "used": 53
       },
       {
         "cap": 300,
@@ -1034,7 +1097,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-chimerax:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -1042,7 +1105,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-darksoul:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -1050,7 +1113,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-luminous:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -1058,7 +1121,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-moonlight:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -1066,7 +1129,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-musica:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -1074,7 +1137,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-meromero:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -1082,7 +1145,7 @@
         "healthy": true,
         "model": "minimax-m3.1-flash:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -1090,7 +1153,7 @@
         "healthy": true,
         "model": "muse-glimmer-30b:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 50,
@@ -1146,7 +1209,7 @@
         "healthy": true,
         "model": "gpt-6.2-sol",
         "provider": "egg-krphp",
-        "used": 8
+        "used": 14
       },
       {
         "cap": 3000,
@@ -1983,7 +2046,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 1606
+        "used": 1628
       },
       {
         "cap": 331,
@@ -1991,7 +2054,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 322
+        "used": 323
       },
       {
         "cap": 331,
@@ -1999,7 +2062,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 322
+        "used": 323
       },
       {
         "cap": 331,
@@ -2007,7 +2070,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 322
+        "used": 323
       },
       {
         "cap": 331,
@@ -2015,7 +2078,7 @@
         "healthy": true,
         "model": "pluto-1.2-flash",
         "provider": "merkium",
-        "used": 322
+        "used": 323
       },
       {
         "cap": 331,
@@ -2023,7 +2086,7 @@
         "healthy": true,
         "model": "pluto-1.2-pro",
         "provider": "merkium",
-        "used": 322
+        "used": 323
       },
       {
         "cap": 331,
@@ -2031,7 +2094,7 @@
         "healthy": true,
         "model": "pluto-1.1-pro",
         "provider": "merkium",
-        "used": 322
+        "used": 323
       },
       {
         "cap": 45,
@@ -2087,7 +2150,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 193
+        "used": 200
       },
       {
         "cap": 20000,
@@ -2215,7 +2278,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 216
+        "used": 217
       },
       {
         "cap": 300,
@@ -2231,7 +2294,7 @@
         "healthy": true,
         "model": "crow-roleplay:free",
         "provider": "crowllm",
-        "used": 186
+        "used": 189
       },
       {
         "cap": 300,
@@ -2239,7 +2302,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1:free",
         "provider": "crowllm",
-        "used": 159
+        "used": 163
       },
       {
         "cap": 300,
@@ -2247,7 +2310,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1-uncensored:free",
         "provider": "crowllm",
-        "used": 217
+        "used": 220
       },
       {
         "cap": 300,
@@ -2255,7 +2318,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 93
+        "used": 96
       },
       {
         "cap": 300,
@@ -2263,7 +2326,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 152
+        "used": 154
       },
       {
         "cap": 300,
@@ -2271,7 +2334,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
         "provider": "crowllm",
-        "used": 101
+        "used": 109
       },
       {
         "cap": 300,
@@ -2279,7 +2342,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-bolt-e4b:free",
         "provider": "crowllm",
-        "used": 133
+        "used": 135
       },
       {
         "cap": 300,
@@ -2287,7 +2350,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
         "provider": "crowllm",
-        "used": 125
+        "used": 129
       },
       {
         "cap": 300,
@@ -2295,7 +2358,7 @@
         "healthy": true,
         "model": "nemotron-3.5-super-vl:free",
         "provider": "crowllm",
-        "used": 122
+        "used": 123
       },
       {
         "cap": 300,
@@ -2303,7 +2366,7 @@
         "healthy": true,
         "model": "jais-3-mova-36b-a4b:free",
         "provider": "crowllm",
-        "used": 109
+        "used": 112
       },
       {
         "cap": 300,
@@ -2311,7 +2374,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 116
+        "used": 117
       },
       {
         "cap": 300,
@@ -2327,7 +2390,7 @@
         "healthy": true,
         "model": "particle-1:free",
         "provider": "crowllm",
-        "used": 101
+        "used": 102
       },
       {
         "cap": 300,
@@ -2343,7 +2406,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 150
+        "used": 151
       },
       {
         "cap": 300,
@@ -2351,7 +2414,7 @@
         "healthy": true,
         "model": "grok-4.7-fast:free",
         "provider": "crowllm",
-        "used": 117
+        "used": 118
       },
       {
         "cap": 300,
@@ -2367,7 +2430,7 @@
         "healthy": true,
         "model": "glm-4.6v-flash:free",
         "provider": "crowllm",
-        "used": 94
+        "used": 95
       },
       {
         "cap": 300,
@@ -2391,7 +2454,7 @@
         "healthy": true,
         "model": "dots-3-note-preview:free",
         "provider": "crowllm",
-        "used": 126
+        "used": 127
       },
       {
         "cap": 300,
@@ -2399,7 +2462,7 @@
         "healthy": true,
         "model": "flint-v1.0:free",
         "provider": "crowllm",
-        "used": 65
+        "used": 66
       },
       {
         "cap": 300,
@@ -2415,7 +2478,7 @@
         "healthy": true,
         "model": "llama-3.3-70b-instruct:free",
         "provider": "crowllm",
-        "used": 89
+        "used": 90
       },
       {
         "cap": 300,
@@ -2431,7 +2494,7 @@
         "healthy": true,
         "model": "xing4.0-29b-a4b:free",
         "provider": "crowllm",
-        "used": 84
+        "used": 86
       },
       {
         "cap": 300,
@@ -2439,7 +2502,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 88
+        "used": 89
       },
       {
         "cap": 300,
@@ -2447,7 +2510,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 297
+        "used": 298
       },
       {
         "cap": 300,
@@ -2463,7 +2526,7 @@
         "healthy": true,
         "model": "minimaxai-minimax-m3-1-flash",
         "provider": "packet-ai",
-        "used": 274
+        "used": 286
       },
       {
         "cap": 300,
@@ -2527,7 +2590,7 @@
         "healthy": true,
         "model": "dealignai/glm-5.3-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 50
+        "used": 53
       },
       {
         "cap": 300,
@@ -2583,7 +2646,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-chimerax:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -2591,7 +2654,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-darksoul:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -2599,7 +2662,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-luminous:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -2607,7 +2670,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-moonlight:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -2615,7 +2678,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-musica:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -2623,7 +2686,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-meromero:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -2631,7 +2694,7 @@
         "healthy": true,
         "model": "minimax-m3.1-flash:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 200,
@@ -2639,7 +2702,7 @@
         "healthy": true,
         "model": "muse-glimmer-30b:free",
         "provider": "routeway",
-        "used": 55
+        "used": 58
       },
       {
         "cap": 50,
@@ -2695,7 +2758,7 @@
         "healthy": true,
         "model": "gpt-6.2-sol",
         "provider": "egg-krphp",
-        "used": 8
+        "used": 14
       },
       {
         "cap": 3000,
@@ -3410,8 +3473,20 @@
   "recent_completions": [
     {
       "age_sec": 2,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-23T21:00:22Z",
+      "completed_by": "pool-optimization-seat-1-23443-e39b0d2b",
+      "completed_by_zh": "池优化 席位23443",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-054",
+      "task_no": 54,
+      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 43,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T20:57:57Z",
+      "completed_at": "2026-11-23T20:59:41Z",
       "completed_by": "cloud-script-migration-seat-1-22378-3ba24bdd",
       "completed_by_zh": "云脚本迁移 席位22378",
       "completed_ts_source": "result.txt",
@@ -3421,7 +3496,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 46,
+      "age_sec": 191,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T20:57:13Z",
       "completed_by": null,
@@ -3433,7 +3508,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 359,
+      "age_sec": 504,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T20:52:00Z",
       "completed_by": null,
@@ -3445,7 +3520,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 442,
+      "age_sec": 587,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T20:50:38Z",
       "completed_by": null,
@@ -3457,19 +3532,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 554,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-23T20:48:45Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "result.txt",
-      "task_id": "pool-054",
-      "task_no": 54,
-      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 22021,
+      "age_sec": 22166,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3481,7 +3544,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 22029,
+      "age_sec": 22174,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3493,7 +3556,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 22074,
+      "age_sec": 22219,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3505,7 +3568,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 25385,
+      "age_sec": 25531,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3517,7 +3580,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 26139,
+      "age_sec": 26285,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
@@ -3537,6 +3600,7 @@
   },
   "workers": {
     "by_model": {
+      "groq/allam-2-7b": 2,
       "routeway/gemma-4-26b-a4b-it-chimerax:free": 4
     },
     "running": [
@@ -3559,14 +3623,28 @@
         "model": "routeway/gemma-4-26b-a4b-it-chimerax:free",
         "pid": 22989,
         "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
+      },
+      {
+        "model": "groq/allam-2-7b",
+        "pid": 23460,
+        "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
+      },
+      {
+        "model": "groq/allam-2-7b",
+        "pid": 23461,
+        "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
       }
     ],
-    "total": 4
+    "total": 6
   },
   "workers_detail": [
     {
       "count": 4,
       "model": "routeway/gemma-4-26b-a4b-it-chimerax:free"
+    },
+    {
+      "count": 2,
+      "model": "groq/allam-2-7b"
     }
   ],
   "workers_running": [
@@ -3589,6 +3667,16 @@
       "model": "routeway/gemma-4-26b-a4b-it-chimerax:free",
       "pid": 22989,
       "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
+    },
+    {
+      "model": "groq/allam-2-7b",
+      "pid": 23460,
+      "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
+    },
+    {
+      "model": "groq/allam-2-7b",
+      "pid": 23461,
+      "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
     }
   ],
   "workstreams": {
@@ -3651,9 +3739,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-23T20:42:41Z"
+        "tasks_open": 2,
+        "tasks_total": 2,
+        "updated": "2026-11-23T20:58:17Z"
       },
       "tasks": {
         "done": 61,
@@ -3665,7 +3753,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z ruling A) [est:45m] | Contract (3 segments): (1) worker edits a copy inside the task dir out/pool-059/; (2) production merge is a PATCH against production manager.py, applied by the pool-optimization manager (named owner), no parallel rewrite; (3) acceptance requires production-path evidence: a real help-failure cycle whose help-cooldown.json entry carries the new field and a later dispatch log line showing the exclusion. Change spec: when a help attempt fails and record_help_failure writes the cooldown entry, also write providers: string[] = the providers actually attempted this round, taken from the dispatch/attempt context (never parsed from reason text). dispatch_task / help candidate selection reads that field for the task: exclude every entry of those providers while the cooldown is active; if exclusion empties the candidate set, fall back to same-provider with a WARN log line (do not block). The operations line's last_up concept is merged into this field - no separate field, no rate threshold (boss rejected the 0.6 threshold as a guessed number). Metrics: cross-provider re-dispatch success rate inside cooldown windows, baseline 0/0 (new metric), target >=90% at the 2026-11-29 digest; security line's cross-check rides the same digest: providers fields joined against attempt logs, any mismatch is a finding. Recheck 2026-11-29. — BOSS UNFREEZE 2026-11-23: the failure was a goose action-cap truncation mid-work, not a task defect; the work copy out/pool-059/manager.py was modified AFTER the failure stamp. Resume from that copy; do not restart from scratch. — MEETING AMENDMENT 2026-11-23 (help-mechanism meeting ruling 1, transcript meetings/20261123T044829Z.md): (a) failure classification is written AT record time in record_help_failure: class in {acceptance, selftest, upstream} alongside the providers field; (b) backfill the 19 existing help-cooldown.json records from the pool-072 datapack (out/pool-060/digest-datapack.md) — records that cannot be classified from evidence are marked unknown, never guessed; (c) EFFECT MEASUREMENT (security challenge, adopted): every help dispatch records dispatch timestamp + target task id in its help event; the pool line watch re-reads the target board after 2 of the helped line's manager cycles and writes help.advanced or help.no_advance — \"advanced\" means the target task changed state (claim/start/settle) inside the window; (d) metrics added: classification coverage 19/19 by 2026-11-30; advancement rate baseline from the decomposition task, target >=80%; recheck 2026-12-03 digest. — BOSS AMENDMENT 2 2026-11-23 (IAO distillation): the advancement write-backs aggregate per HELPER MODEL into the existing digest pool-health face (helper model -> dispatched / advanced / no_advance), so repeat no-advance helpers are deprioritized through the existing bandit shadow scores. No new analytics module; no busy-rate metric anywhere in the system. — BOSS AMENDMENT 3 2026-11-23 (from the accepted pool-085 decomposition): the help.completed writer must propagate assigner + dispatch_path (idle_sweep | reinforce_ticket | manual) + dispatch_timestamp from the dispatch decision into the event (extend the writer's allowed fields or encode in evidence_pointer); same-(helped,task) echoes from multiple helper lines must collapse or be marked echo; writer selftests must NEVER write to the production stream with event_class real (use a drill stream). Acceptance: the next 10 production help events all carry the three fields and zero selftest rows appear in the production stream. (executed-by security failed 2026-11-23T06:56:35Z)"
+            "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z ruling A) [est:45m] | Contract (3 segments): (1) worker edits a copy inside the task dir out/pool-059/; (2) production merge is a PATCH against production manager.py, applied by the pool-optimization manager (named owner), no parallel rewrite; (3) acceptance requires production-path evidence: a real help-failure cycle whose help-cooldown.json entry carries the new field and a later dispatch log line showing the exclusion. Change spec: when a help attempt fails and record_help_failure writes the cooldown entry, also write providers: string[] = the providers actually attempted this round, taken from the dispatch/attempt context (never parsed from reason text). dispatch_task / help candidate selection reads that field for the task: exclude every entry of those providers while the cooldown is active; if exclusion empties the candidate set, fall back to same-provider with a WARN log line (do not block). The operations line's last_up concept is merged into this field - no separate field, no rate threshold (boss rejected the 0.6 threshold as a guessed number). Metrics: cross-provider re-dispatch success rate inside cooldown windows, baseline 0/0 (new metric), target >=90% at the 2026-11-29 digest; security line's cross-check rides the same digest: providers fields joined against attempt logs, any mismatch is a finding. Recheck 2026-11-29. — BOSS UNFREEZE 2026-11-23: the failure was a goose action-cap truncation mid-work, not a task defect; the work copy out/pool-059/manager.py was modified AFTER the failure stamp. Resume from that copy; do not restart from scratch. — MEETING AMENDMENT 2026-11-23 (help-mechanism meeting ruling 1, transcript meetings/20261123T044829Z.md): (a) failure classification is written AT record time in record_help_failure: class in {acceptance, selftest, upstream} alongside the providers field; (b) backfill the 19 existing help-cooldown.json records from the pool-072 datapack (out/pool-060/digest-datapack.md) — records that cannot be classified from evidence are marked unknown, never guessed; (c) EFFECT MEASUREMENT (security challenge, adopted): every help dispatch records dispatch timestamp + target task id in its help event; the pool line watch re-reads the target board after 2 of the helped line's manager cycles and writes help.advanced or help.no_advance — \"advanced\" means the target task changed state (claim/start/settle) inside the window; (d) metrics added: classification coverage 19/19 by 2026-11-30; advancement rate baseline from the decomposition task, target >=80%; recheck 2026-12-03 digest. — BOSS AMENDMENT 2 2026-11-23 (IAO distillation): the advancement write-backs aggregate per HELPER MODEL into the existing digest pool-health face (helper model -> dispatched / advanced / no_advance), so repeat no-advance helpers are deprioritized through the existing bandit shadow scores. No new analytics module; no busy-rate metric anywhere in the system. — BOSS AMENDMENT 3 2026-11-23 (from the accepted pool-085 decomposition): the help.completed writer must propagate assigner + dispatch_path (idle_sweep | reinforce_ticket | manual) + dispatch_timestamp from the dispatch decision into the event (extend the writer's allowed fields or encode in evidence_pointer); same-(helped,task) echoes from multiple helper lines must collapse or be marked echo; writer selftests must NEVER write to the production stream with event_class real (use a drill stream). Acceptance: the next 10 production help events all carry the three fields and zero selftest rows appear in the production stream. (executed-by security failed 2026-11-23T06:56:35Z) (claimed-by pool-optimization-seat-1-23443-e39b0d2b 2026-11-23T21:00:17Z)"
           },
           {
             "full": true,
