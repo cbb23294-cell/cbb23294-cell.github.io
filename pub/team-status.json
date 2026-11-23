@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T18:31:14Z",
+    "activity_generated_at": "2026-11-23T18:33:49Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-23T18:28:54Z",
         "claimed_by": "pool-optimization",
         "claimed_by_zh": "池优化",
-        "claimed_for": "2分钟",
+        "claimed_for": "4分钟",
         "task_id": "clou-019",
         "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…"
       },
       "cycle_started_at": "2026-11-23T18:28:54Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "2分钟",
-      "elapsed_sec": 140,
+      "elapsed": "4分钟",
+      "elapsed_sec": 295,
       "last_cycle_ended": "2026-11-23T18:28:58Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -36,7 +36,7 @@
       "cycle_started_source": null,
       "elapsed": null,
       "elapsed_sec": null,
-      "last_cycle_ended": "2026-11-23T18:27:42Z",
+      "last_cycle_ended": "2026-11-23T18:32:50Z",
       "name_zh": "池优化",
       "state": "idle",
       "workstream": "pool-optimization"
@@ -99,33 +99,33 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 140,
+          "claimed_age_sec": 295,
           "claimed_at": "2026-11-23T18:28:54Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "2分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-017",
           "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 140,
+          "claimed_age_sec": 295,
           "claimed_at": "2026-11-23T18:28:54Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "2分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 140,
+          "claimed_age_sec": 295,
           "claimed_at": "2026-11-23T18:28:54Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "2分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-019",
           "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
           "workstream": "cloud-script-migration"
@@ -179,7 +179,7 @@
       "name_zh": "运维",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-23T18:16:29Z",
+      "status_updated": "2026-11-23T18:32:15Z",
       "total": 20,
       "workstream": "operations"
     },
@@ -198,39 +198,39 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 140,
+      "claimed_age_sec": 295,
       "claimed_at": "2026-11-23T18:28:54Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "2分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-017",
       "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 140,
+      "claimed_age_sec": 295,
       "claimed_at": "2026-11-23T18:28:54Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "2分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 140,
+      "claimed_age_sec": 295,
       "claimed_at": "2026-11-23T18:28:54Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "2分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-019",
       "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-23T18:25:40Z",
+  "content_latest_at": "2026-11-23T18:32:15Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 211,
@@ -263,23 +263,13 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T18:31:14Z",
-  "generated_at_utc": "2026-11-23T18:31:14Z",
+  "generated_at": "2026-11-23T18:33:49Z",
+  "generated_at_utc": "2026-11-23T18:33:49Z",
   "live_pi_workers": {
     "by_model": {
-      "groq/allam-2-7b": 4
+      "groq/allam-2-7b": 2
     },
     "running": [
-      {
-        "model": "groq/allam-2-7b",
-        "pid": 14134,
-        "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
-      },
-      {
-        "model": "groq/allam-2-7b",
-        "pid": 14135,
-        "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
-      },
       {
         "model": "groq/allam-2-7b",
         "pid": 17474,
@@ -291,7 +281,7 @@
         "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
       }
     ],
-    "total": 4
+    "total": 2
   },
   "managers": [
     {
@@ -454,7 +444,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 149
+        "used": 151
       },
       {
         "cap": 1000,
@@ -462,7 +452,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 192
+        "used": 193
       },
       {
         "cap": 1000,
@@ -470,7 +460,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 179
+        "used": 180
       },
       {
         "cap": 7000,
@@ -478,7 +468,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 735
+        "used": 741
       },
       {
         "cap": 300,
@@ -694,7 +684,7 @@
         "healthy": true,
         "model": "GLM-5.3-Flash",
         "provider": "amd-tokenlab",
-        "used": 204
+        "used": 207
       },
       {
         "cap": 300,
@@ -702,7 +692,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 110
+        "used": 111
       },
       {
         "cap": 300,
@@ -710,7 +700,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 125
+        "used": 126
       },
       {
         "cap": 300,
@@ -758,7 +748,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 83
+        "used": 84
       },
       {
         "cap": 300,
@@ -838,7 +828,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 53
+        "used": 54
       },
       {
         "cap": 300,
@@ -2003,7 +1993,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 149
+        "used": 151
       },
       {
         "cap": 1000,
@@ -2011,7 +2001,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 192
+        "used": 193
       },
       {
         "cap": 1000,
@@ -2019,7 +2009,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 179
+        "used": 180
       },
       {
         "cap": 7000,
@@ -2027,7 +2017,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 735
+        "used": 741
       },
       {
         "cap": 300,
@@ -2243,7 +2233,7 @@
         "healthy": true,
         "model": "GLM-5.3-Flash",
         "provider": "amd-tokenlab",
-        "used": 204
+        "used": 207
       },
       {
         "cap": 300,
@@ -2251,7 +2241,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 110
+        "used": 111
       },
       {
         "cap": 300,
@@ -2259,7 +2249,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 125
+        "used": 126
       },
       {
         "cap": 300,
@@ -2307,7 +2297,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 83
+        "used": 84
       },
       {
         "cap": 300,
@@ -2387,7 +2377,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 53
+        "used": 54
       },
       {
         "cap": 300,
@@ -3453,7 +3443,19 @@
   },
   "recent_completions": [
     {
-      "age_sec": 135,
+      "age_sec": 58,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-23T18:32:50Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "done",
+      "task_id": "pool-054",
+      "task_no": 54,
+      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 290,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T18:28:58Z",
       "completed_by": "pool-optimization",
@@ -3465,19 +3467,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 211,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-23T18:27:42Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "result.txt",
-      "task_id": "pool-054",
-      "task_no": 54,
-      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 430,
+      "age_sec": 585,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T18:24:04Z",
       "completed_by": null,
@@ -3489,7 +3479,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 503,
+      "age_sec": 658,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T18:22:50Z",
       "completed_by": "pool-optimization",
@@ -3501,7 +3491,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 679,
+      "age_sec": 834,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T18:19:54Z",
       "completed_by": "pool-optimization",
@@ -3513,7 +3503,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 13215,
+      "age_sec": 13370,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3525,7 +3515,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 13223,
+      "age_sec": 13378,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3537,7 +3527,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 13268,
+      "age_sec": 13423,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3549,7 +3539,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 16580,
+      "age_sec": 16735,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3561,7 +3551,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 17333,
+      "age_sec": 17488,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
@@ -3581,19 +3571,9 @@
   },
   "workers": {
     "by_model": {
-      "groq/allam-2-7b": 4
+      "groq/allam-2-7b": 2
     },
     "running": [
-      {
-        "model": "groq/allam-2-7b",
-        "pid": 14134,
-        "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
-      },
-      {
-        "model": "groq/allam-2-7b",
-        "pid": 14135,
-        "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
-      },
       {
         "model": "groq/allam-2-7b",
         "pid": 17474,
@@ -3605,25 +3585,15 @@
         "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
       }
     ],
-    "total": 4
+    "total": 2
   },
   "workers_detail": [
     {
-      "count": 4,
+      "count": 2,
       "model": "groq/allam-2-7b"
     }
   ],
   "workers_running": [
-    {
-      "model": "groq/allam-2-7b",
-      "pid": 14134,
-      "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
-    },
-    {
-      "model": "groq/allam-2-7b",
-      "pid": 14135,
-      "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
-    },
     {
       "model": "groq/allam-2-7b",
       "pid": 17474,
@@ -3678,7 +3648,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-23T18:16:29Z"
+        "updated": "2026-11-23T18:32:15Z"
       },
       "tasks": {
         "done": 20,
