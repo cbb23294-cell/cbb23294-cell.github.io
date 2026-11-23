@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T10:46:39Z",
+    "activity_generated_at": "2026-11-23T10:48:54Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -10,63 +10,23 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 3,
+      "claimed_count": 5,
       "current_task": {
-        "claimed_at": "2026-11-23T10:45:48Z",
-        "claimed_by": "pool-optimization",
-        "claimed_by_zh": "池优化",
-        "claimed_for": "52秒",
-        "task_id": "clou-019",
-        "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…"
+        "claimed_at": "2026-11-23T10:48:52Z",
+        "claimed_by": "cloud-script-migration-seat-1-29095-a93ba81a",
+        "claimed_by_zh": "云脚本迁移 席位29095",
+        "claimed_for": "3秒",
+        "task_id": "clou-020",
+        "title": "发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-manifest-vm.json…"
       },
       "cycle_started_at": "2026-11-23T10:44:00Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "2分钟",
-      "elapsed_sec": 160,
-      "last_cycle_ended": "2026-11-23T10:46:35Z",
+      "elapsed": "4分钟",
+      "elapsed_sec": 295,
+      "last_cycle_ended": "2026-11-23T10:48:54Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
-    },
-    {
-      "active_jobs": 0,
-      "claimed_count": 1,
-      "current_task": {
-        "claimed_at": "2026-11-23T10:40:08Z",
-        "claimed_by": "pool-optimization-seat-1-26882-23f18685",
-        "claimed_by_zh": "池优化 席位26882",
-        "claimed_for": "6分钟",
-        "task_id": "pool-067",
-        "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…"
-      },
-      "cycle_started_at": "2026-11-23T10:40:08Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "6分钟",
-      "elapsed_sec": 392,
-      "last_cycle_ended": "2026-11-23T10:40:37Z",
-      "name_zh": "池优化",
-      "state": "running",
-      "workstream": "pool-optimization"
-    },
-    {
-      "active_jobs": 0,
-      "claimed_count": 1,
-      "current_task": {
-        "claimed_at": "2026-11-23T08:14:54Z",
-        "claimed_by": "cloud-script-migration",
-        "claimed_by_zh": "云脚本迁移",
-        "claimed_for": "2小时31分",
-        "task_id": "secu-013",
-        "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…"
-      },
-      "cycle_started_at": "2026-11-23T08:14:54Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "2小时31分",
-      "elapsed_sec": 9106,
-      "last_cycle_ended": null,
-      "name_zh": "安全",
-      "state": "running",
-      "workstream": "security"
     },
     {
       "active_jobs": 0,
@@ -76,9 +36,49 @@
       "cycle_started_source": null,
       "elapsed": null,
       "elapsed_sec": null,
-      "last_cycle_ended": "2026-11-23T10:36:59Z",
-      "name_zh": "运维",
+      "last_cycle_ended": "2026-11-23T10:40:37Z",
+      "name_zh": "池优化",
       "state": "idle",
+      "workstream": "pool-optimization"
+    },
+    {
+      "active_jobs": 0,
+      "claimed_count": 1,
+      "current_task": {
+        "claimed_at": "2026-11-23T08:14:54Z",
+        "claimed_by": "cloud-script-migration",
+        "claimed_by_zh": "云脚本迁移",
+        "claimed_for": "2小时34分",
+        "task_id": "secu-013",
+        "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…"
+      },
+      "cycle_started_at": "2026-11-23T08:14:54Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "2小时34分",
+      "elapsed_sec": 9241,
+      "last_cycle_ended": null,
+      "name_zh": "安全",
+      "state": "running",
+      "workstream": "security"
+    },
+    {
+      "active_jobs": 0,
+      "claimed_count": 1,
+      "current_task": {
+        "claimed_at": "2026-11-23T10:48:52Z",
+        "claimed_by": "operations-seat-1-29099-164209a9",
+        "claimed_by_zh": "运维 席位29099",
+        "claimed_for": "3秒",
+        "task_id": "oper-019",
+        "title": "Void-distribution report (mechanism meeting ruling 2026-11-22): from…"
+      },
+      "cycle_started_at": "2026-11-23T10:48:52Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "3秒",
+      "elapsed_sec": 3,
+      "last_cycle_ended": "2026-11-23T10:48:51Z",
+      "name_zh": "运维",
+      "state": "running",
       "workstream": "operations"
     },
     {
@@ -113,40 +113,62 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 160,
+          "claimed_age_sec": 295,
           "claimed_at": "2026-11-23T10:44:00Z",
           "claimed_by": "security",
           "claimed_by_zh": "安全",
-          "claimed_for": "2分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-017",
           "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 119,
+          "claimed_age_sec": 254,
           "claimed_at": "2026-11-23T10:44:41Z",
           "claimed_by": "spaces-data",
           "claimed_by_zh": "空间数据",
-          "claimed_for": "1分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-016",
           "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 52,
-          "claimed_at": "2026-11-23T10:45:48Z",
+          "claimed_age_sec": 66,
+          "claimed_at": "2026-11-23T10:47:49Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "52秒",
+          "claimed_for": "66秒",
           "task_id": "clou-019",
           "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 3,
+          "claimed_at": "2026-11-23T10:48:52Z",
+          "claimed_by": "cloud-script-migration-seat-1-29095-a93ba81a",
+          "claimed_by_zh": "云脚本迁移 席位29095",
+          "claimed_for": "3秒",
+          "task_id": "clou-018",
+          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 3,
+          "claimed_at": "2026-11-23T10:48:52Z",
+          "claimed_by": "cloud-script-migration-seat-1-29095-a93ba81a",
+          "claimed_by_zh": "云脚本迁移 席位29095",
+          "claimed_for": "3秒",
+          "task_id": "clou-020",
+          "title": "发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-manifest-vm.json…",
           "workstream": "cloud-script-migration"
         }
       ],
       "done": 16,
-      "escalation_latest": "runner exit: 0",
+      "escalation_latest": "runner exit: 1",
       "name_zh": "云脚本迁移",
       "next_open": [
         "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
@@ -154,24 +176,12 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 5,
-      "status_updated": "2026-11-23T10:37:00Z",
+      "status_updated": "2026-11-23T10:47:52Z",
       "total": 21,
       "workstream": "cloud-script-migration"
     },
     {
-      "claimed_now": [
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 392,
-          "claimed_at": "2026-11-23T10:40:08Z",
-          "claimed_by": "pool-optimization-seat-1-26882-23f18685",
-          "claimed_by_zh": "池优化 席位26882",
-          "claimed_for": "6分钟",
-          "task_id": "pool-067",
-          "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…",
-          "workstream": "pool-optimization"
-        }
-      ],
+      "claimed_now": [],
       "done": 61,
       "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "池优化",
@@ -189,11 +199,11 @@
       "claimed_now": [
         {
           "board_zh": "安全",
-          "claimed_age_sec": 9106,
+          "claimed_age_sec": 9241,
           "claimed_at": "2026-11-23T08:14:54Z",
           "claimed_by": "cloud-script-migration",
           "claimed_by_zh": "云脚本迁移",
-          "claimed_for": "2小时31分",
+          "claimed_for": "2小时34分",
           "task_id": "secu-013",
           "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…",
           "workstream": "security"
@@ -211,7 +221,19 @@
       "workstream": "security"
     },
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "运维",
+          "claimed_age_sec": 3,
+          "claimed_at": "2026-11-23T10:48:52Z",
+          "claimed_by": "operations-seat-1-29099-164209a9",
+          "claimed_by_zh": "运维 席位29099",
+          "claimed_for": "3秒",
+          "task_id": "oper-019",
+          "title": "Void-distribution report (mechanism meeting ruling 2026-11-22): from…",
+          "workstream": "operations"
+        }
+      ],
       "done": 19,
       "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "运维",
@@ -219,7 +241,7 @@
         "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22)…"
       ],
       "open": 1,
-      "status_updated": "2026-11-23T10:37:06Z",
+      "status_updated": "2026-11-23T10:47:52Z",
       "total": 20,
       "workstream": "operations"
     },
@@ -238,66 +260,88 @@
   "claimed_now": [
     {
       "board_zh": "安全",
-      "claimed_age_sec": 9106,
+      "claimed_age_sec": 9241,
       "claimed_at": "2026-11-23T08:14:54Z",
       "claimed_by": "cloud-script-migration",
       "claimed_by_zh": "云脚本迁移",
-      "claimed_for": "2小时31分",
+      "claimed_for": "2小时34分",
       "task_id": "secu-013",
       "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…",
       "workstream": "security"
     },
     {
-      "board_zh": "池优化",
-      "claimed_age_sec": 392,
-      "claimed_at": "2026-11-23T10:40:08Z",
-      "claimed_by": "pool-optimization-seat-1-26882-23f18685",
-      "claimed_by_zh": "池优化 席位26882",
-      "claimed_for": "6分钟",
-      "task_id": "pool-067",
-      "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…",
-      "workstream": "pool-optimization"
-    },
-    {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 160,
+      "claimed_age_sec": 295,
       "claimed_at": "2026-11-23T10:44:00Z",
       "claimed_by": "security",
       "claimed_by_zh": "安全",
-      "claimed_for": "2分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-017",
       "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 119,
+      "claimed_age_sec": 254,
       "claimed_at": "2026-11-23T10:44:41Z",
       "claimed_by": "spaces-data",
       "claimed_by_zh": "空间数据",
-      "claimed_for": "1分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-016",
       "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 52,
-      "claimed_at": "2026-11-23T10:45:48Z",
+      "claimed_age_sec": 66,
+      "claimed_at": "2026-11-23T10:47:49Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "52秒",
+      "claimed_for": "66秒",
       "task_id": "clou-019",
       "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
       "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 3,
+      "claimed_at": "2026-11-23T10:48:52Z",
+      "claimed_by": "cloud-script-migration-seat-1-29095-a93ba81a",
+      "claimed_by_zh": "云脚本迁移 席位29095",
+      "claimed_for": "3秒",
+      "task_id": "clou-018",
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 3,
+      "claimed_at": "2026-11-23T10:48:52Z",
+      "claimed_by": "cloud-script-migration-seat-1-29095-a93ba81a",
+      "claimed_by_zh": "云脚本迁移 席位29095",
+      "claimed_for": "3秒",
+      "task_id": "clou-020",
+      "title": "发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-manifest-vm.json…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "运维",
+      "claimed_age_sec": 3,
+      "claimed_at": "2026-11-23T10:48:52Z",
+      "claimed_by": "operations-seat-1-29099-164209a9",
+      "claimed_by_zh": "运维 席位29099",
+      "claimed_for": "3秒",
+      "task_id": "oper-019",
+      "title": "Void-distribution report (mechanism meeting ruling 2026-11-22): from…",
+      "workstream": "operations"
     }
   ],
-  "content_latest_at": "2026-11-23T10:44:57Z",
+  "content_latest_at": "2026-11-23T10:47:52Z",
   "escalations_human": {
     "cloud-script-migration": {
-      "dropped_hash_keys": 156,
+      "dropped_hash_keys": 157,
       "exists": true,
-      "latest": "runner exit: 0"
+      "latest": "runner exit: 1"
     },
     "float": {
       "dropped_hash_keys": 208,
@@ -325,23 +369,14 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T10:46:40Z",
-  "generated_at_utc": "2026-11-23T10:46:40Z",
+  "generated_at": "2026-11-23T10:48:55Z",
+  "generated_at_utc": "2026-11-23T10:48:55Z",
   "live_pi_workers": {
     "by_model": {
-      "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2": 4
+      "numes/dealignai/glm-5.3-uncensored-fp8:free": 2,
+      "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2": 6
     },
     "running": [
-      {
-        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-        "pid": 27750,
-        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
-      },
-      {
-        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-        "pid": 27751,
-        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
-      },
       {
         "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
         "pid": 28307,
@@ -351,9 +386,39 @@
         "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
         "pid": 28308,
         "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
+      },
+      {
+        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
+        "pid": 29134,
+        "title": "[code] [boss-accept] 发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-mani"
+      },
+      {
+        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
+        "pid": 29135,
+        "title": "[code] [boss-accept] 发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-mani"
+      },
+      {
+        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
+        "pid": 29137,
+        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+      },
+      {
+        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
+        "pid": 29138,
+        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+      },
+      {
+        "model": "numes/dealignai/glm-5.3-uncensored-fp8:free",
+        "pid": 29140,
+        "title": "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
+      },
+      {
+        "model": "numes/dealignai/glm-5.3-uncensored-fp8:free",
+        "pid": 29141,
+        "title": "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
       }
     ],
-    "total": 4
+    "total": 8
   },
   "managers": [
     {
@@ -476,7 +541,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 158
+        "used": 162
       },
       {
         "cap": 500,
@@ -484,7 +549,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 341
+        "used": 342
       },
       {
         "cap": 500,
@@ -492,7 +557,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 341
+        "used": 342
       },
       {
         "cap": 500,
@@ -1124,7 +1189,7 @@
         "healthy": true,
         "model": "dealignai/glm-5.3-uncensored-fp8:free",
         "provider": "numes",
-        "used": 15
+        "used": 17
       },
       {
         "cap": 300,
@@ -1244,7 +1309,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -1252,7 +1317,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -1260,7 +1325,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -1268,7 +1333,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -1276,7 +1341,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -1284,7 +1349,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -1292,7 +1357,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -1300,7 +1365,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -1308,7 +1373,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -1316,7 +1381,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -1324,7 +1389,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -1332,7 +1397,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 200000,
@@ -2009,7 +2074,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 158
+        "used": 162
       },
       {
         "cap": 500,
@@ -2017,7 +2082,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 341
+        "used": 342
       },
       {
         "cap": 500,
@@ -2025,7 +2090,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 341
+        "used": 342
       },
       {
         "cap": 500,
@@ -2657,7 +2722,7 @@
         "healthy": true,
         "model": "dealignai/glm-5.3-uncensored-fp8:free",
         "provider": "numes",
-        "used": 15
+        "used": 17
       },
       {
         "cap": 300,
@@ -2777,7 +2842,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -2785,7 +2850,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -2793,7 +2858,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -2801,7 +2866,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -2809,7 +2874,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -2817,7 +2882,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -2825,7 +2890,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -2833,7 +2898,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -2841,7 +2906,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -2849,7 +2914,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -2857,7 +2922,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 3000,
@@ -2865,7 +2930,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2342
+        "used": 2368
       },
       {
         "cap": 200000,
@@ -3483,9 +3548,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 4,
+      "age_sec": 0,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T10:46:35Z",
+      "completed_at": "2026-11-23T10:48:54Z",
       "completed_by": "security",
       "completed_by_zh": "安全",
       "completed_ts_source": "result.txt",
@@ -3495,9 +3560,45 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 26,
+      "age_sec": 1,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T10:46:13Z",
+      "completed_at": "2026-11-23T10:48:52Z",
+      "completed_by": "cloud-script-migration-seat-1-29095-a93ba81a",
+      "completed_by_zh": "云脚本迁移 席位29095",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-018",
+      "task_no": 18,
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 3,
+      "board_zh": "运维",
+      "completed_at": "2026-11-23T10:48:51Z",
+      "completed_by": "operations-seat-1-29099-164209a9",
+      "completed_by_zh": "运维 席位29099",
+      "completed_ts_source": "result.txt",
+      "task_id": "oper-019",
+      "task_no": 19,
+      "title": "Void-distribution report (mechanism meeting ruling 2026-11-22): from…",
+      "workstream": "operations"
+    },
+    {
+      "age_sec": 6,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T10:48:48Z",
+      "completed_by": "cloud-script-migration-seat-1-29095-a93ba81a",
+      "completed_by_zh": "云脚本迁移 席位29095",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-020",
+      "task_no": 20,
+      "title": "发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-manifest-vm.json…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 22,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T10:48:32Z",
       "completed_by": "pool-optimization",
       "completed_by_zh": "池优化",
       "completed_ts_source": "result.txt",
@@ -3507,7 +3608,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 115,
+      "age_sec": 250,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T10:44:44Z",
       "completed_by": "spaces-data",
@@ -3519,11 +3620,11 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 361,
+      "age_sec": 496,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T10:40:37Z",
-      "completed_by": "pool-optimization-seat-1-26882-23f18685",
-      "completed_by_zh": "池优化 席位26882",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "result.txt",
       "task_id": "pool-067",
       "task_no": 67,
@@ -3531,7 +3632,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 577,
+      "age_sec": 712,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T10:37:02Z",
       "completed_by": null,
@@ -3543,7 +3644,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 578,
+      "age_sec": 713,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T10:37:01Z",
       "completed_by": null,
@@ -3555,43 +3656,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 580,
-      "board_zh": "运维",
-      "completed_at": "2026-11-23T10:36:59Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "result.txt",
-      "task_id": "oper-019",
-      "task_no": 19,
-      "title": "Void-distribution report (mechanism meeting ruling 2026-11-22): from…",
-      "workstream": "operations"
-    },
-    {
-      "age_sec": 585,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T10:36:54Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "result.txt",
-      "task_id": "clou-020",
-      "task_no": 20,
-      "title": "发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-manifest-vm.json…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 821,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T10:32:58Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "result.txt",
-      "task_id": "clou-018",
-      "task_no": 18,
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 2707,
+      "age_sec": 2842,
       "board_zh": "空间数据",
       "completed_at": "2026-11-23T10:01:32Z",
       "completed_by": "pool-optimization",
@@ -3611,19 +3676,10 @@
   },
   "workers": {
     "by_model": {
-      "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2": 4
+      "numes/dealignai/glm-5.3-uncensored-fp8:free": 2,
+      "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2": 6
     },
     "running": [
-      {
-        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-        "pid": 27750,
-        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
-      },
-      {
-        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-        "pid": 27751,
-        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
-      },
       {
         "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
         "pid": 28307,
@@ -3633,27 +3689,51 @@
         "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
         "pid": 28308,
         "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
+      },
+      {
+        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
+        "pid": 29134,
+        "title": "[code] [boss-accept] 发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-mani"
+      },
+      {
+        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
+        "pid": 29135,
+        "title": "[code] [boss-accept] 发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-mani"
+      },
+      {
+        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
+        "pid": 29137,
+        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+      },
+      {
+        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
+        "pid": 29138,
+        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+      },
+      {
+        "model": "numes/dealignai/glm-5.3-uncensored-fp8:free",
+        "pid": 29140,
+        "title": "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
+      },
+      {
+        "model": "numes/dealignai/glm-5.3-uncensored-fp8:free",
+        "pid": 29141,
+        "title": "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
       }
     ],
-    "total": 4
+    "total": 8
   },
   "workers_detail": [
     {
-      "count": 4,
+      "count": 6,
       "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2"
+    },
+    {
+      "count": 2,
+      "model": "numes/dealignai/glm-5.3-uncensored-fp8:free"
     }
   ],
   "workers_running": [
-    {
-      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-      "pid": 27750,
-      "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
-    },
-    {
-      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-      "pid": 27751,
-      "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
-    },
     {
       "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
       "pid": 28307,
@@ -3663,20 +3743,50 @@
       "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
       "pid": 28308,
       "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
+    },
+    {
+      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
+      "pid": 29134,
+      "title": "[code] [boss-accept] 发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-mani"
+    },
+    {
+      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
+      "pid": 29135,
+      "title": "[code] [boss-accept] 发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-mani"
+    },
+    {
+      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
+      "pid": 29137,
+      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+    },
+    {
+      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
+      "pid": 29138,
+      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+    },
+    {
+      "model": "numes/dealignai/glm-5.3-uncensored-fp8:free",
+      "pid": 29140,
+      "title": "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
+    },
+    {
+      "model": "numes/dealignai/glm-5.3-uncensored-fp8:free",
+      "pid": 29141,
+      "title": "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
     }
   ],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=c5b2c062a888"
+        "latest": "- key=a05590bbcec9"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-23T10:37:00Z"
+        "tasks_open": 2,
+        "tasks_total": 2,
+        "updated": "2026-11-23T10:47:52Z"
       },
       "tasks": {
         "done": 16,
@@ -3692,7 +3802,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints (executed-by pool-optimization failed 2026-11-23T10:32:59Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints (executed-by pool-optimization failed 2026-11-23T10:32:59Z) (claimed-by cloud-script-migration-seat-1-29095-a93ba81a 2026-11-23T10:48:52Z)"
           }
         ],
         "open": 5
@@ -3706,9 +3816,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-23T10:37:06Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-23T10:47:52Z"
       },
       "tasks": {
         "done": 19,
@@ -3716,7 +3826,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event_stream.jsonl, tabulate claim_voided + stalled for the last 7 days by line x worker model, with each cell's failure rate against that model's task.done count; flag every model at >=15%. This report gates any dispatch-filter work - no filter code before the boss accepts the distribution. Metric: report completeness = 1/1 with the full line x model table (baseline: never computed; raw 72h counts claim_voided 181, stalled 39, done 1487); recheck 2026-11-29 digest. | event_stream.jsonl | report file in the task out dir, boss-accepted — BOSS NOTE 2026-11-23 (help-mechanism meeting ruling 5): this task is a MONOLITH (single indivisible analysis) — no REINFORCE/help dispatch applies to it ever (it collected 9 duplicate passes in the cascade, all closed by the boss). If it stalls, the operations manager escalates to the boss (event + ESCALATIONS.md); the boss rules split / reassign / reschedule. Work it directly. (executed-by security failed 2026-11-23T06:57:30Z) [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - pre-patch legacy, never dispositioned. Executable tonight (20:00 list): claim freely.]"
+            "title": "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event_stream.jsonl, tabulate claim_voided + stalled for the last 7 days by line x worker model, with each cell's failure rate against that model's task.done count; flag every model at >=15%. This report gates any dispatch-filter work - no filter code before the boss accepts the distribution. Metric: report completeness = 1/1 with the full line x model table (baseline: never computed; raw 72h counts claim_voided 181, stalled 39, done 1487); recheck 2026-11-29 digest. | event_stream.jsonl | report file in the task out dir, boss-accepted — BOSS NOTE 2026-11-23 (help-mechanism meeting ruling 5): this task is a MONOLITH (single indivisible analysis) — no REINFORCE/help dispatch applies to it ever (it collected 9 duplicate passes in the cascade, all closed by the boss). If it stalls, the operations manager escalates to the boss (event + ESCALATIONS.md); the boss rules split / reassign / reschedule. Work it directly. (executed-by security failed 2026-11-23T06:57:30Z) [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - pre-patch legacy, never dispositioned. Executable tonight (20:00 list): claim freely.] (claimed-by operations-seat-1-29099-164209a9 2026-11-23T10:48:52Z)"
           }
         ],
         "open": 1
