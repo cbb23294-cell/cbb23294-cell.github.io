@@ -1,8 +1,8 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T17:12:31Z",
+    "activity_generated_at": "2026-11-23T17:15:24Z",
     "empty_reasons": {
-      "claimed_now": null,
+      "claimed_now": "no open board task carries a live claim record",
       "recent_completions": null,
       "workers_running": "no jobs/*.json without a .done/.closed marker"
     }
@@ -10,22 +10,15 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 3,
-      "current_task": {
-        "claimed_at": "2026-11-23T17:11:39Z",
-        "claimed_by": "cloud-script-migration-seat-1-23482-b2f74e8c",
-        "claimed_by_zh": "云脚本迁移 席位23482",
-        "claimed_for": "52秒",
-        "task_id": "clou-019",
-        "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…"
-      },
-      "cycle_started_at": "2026-11-23T17:11:39Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "52秒",
-      "elapsed_sec": 52,
-      "last_cycle_ended": "2026-11-23T17:12:25Z",
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
+      "last_cycle_ended": "2026-11-23T17:14:35Z",
       "name_zh": "云脚本迁移",
-      "state": "running",
+      "state": "idle",
       "workstream": "cloud-script-migration"
     },
     {
@@ -96,41 +89,7 @@
   ],
   "boards": [
     {
-      "claimed_now": [
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 52,
-          "claimed_at": "2026-11-23T17:11:39Z",
-          "claimed_by": "cloud-script-migration-seat-1-23482-b2f74e8c",
-          "claimed_by_zh": "云脚本迁移 席位23482",
-          "claimed_for": "52秒",
-          "task_id": "clou-016",
-          "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
-          "workstream": "cloud-script-migration"
-        },
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 52,
-          "claimed_at": "2026-11-23T17:11:39Z",
-          "claimed_by": "cloud-script-migration-seat-1-23482-b2f74e8c",
-          "claimed_by_zh": "云脚本迁移 席位23482",
-          "claimed_for": "52秒",
-          "task_id": "clou-018",
-          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-          "workstream": "cloud-script-migration"
-        },
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 52,
-          "claimed_at": "2026-11-23T17:11:39Z",
-          "claimed_by": "cloud-script-migration-seat-1-23482-b2f74e8c",
-          "claimed_by_zh": "云脚本迁移 席位23482",
-          "claimed_for": "52秒",
-          "task_id": "clou-019",
-          "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
-          "workstream": "cloud-script-migration"
-        }
-      ],
+      "claimed_now": [],
       "done": 17,
       "escalation_latest": "runner exit: 0",
       "name_zh": "云脚本迁移",
@@ -195,41 +154,7 @@
       "workstream": "spaces-data"
     }
   ],
-  "claimed_now": [
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 52,
-      "claimed_at": "2026-11-23T17:11:39Z",
-      "claimed_by": "cloud-script-migration-seat-1-23482-b2f74e8c",
-      "claimed_by_zh": "云脚本迁移 席位23482",
-      "claimed_for": "52秒",
-      "task_id": "clou-016",
-      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 52,
-      "claimed_at": "2026-11-23T17:11:39Z",
-      "claimed_by": "cloud-script-migration-seat-1-23482-b2f74e8c",
-      "claimed_by_zh": "云脚本迁移 席位23482",
-      "claimed_for": "52秒",
-      "task_id": "clou-018",
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 52,
-      "claimed_at": "2026-11-23T17:11:39Z",
-      "claimed_by": "cloud-script-migration-seat-1-23482-b2f74e8c",
-      "claimed_by_zh": "云脚本迁移 席位23482",
-      "claimed_for": "52秒",
-      "task_id": "clou-019",
-      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
-      "workstream": "cloud-script-migration"
-    }
-  ],
+  "claimed_now": [],
   "content_latest_at": "2026-11-23T17:09:12Z",
   "escalations_human": {
     "cloud-script-migration": {
@@ -263,35 +188,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T17:12:31Z",
-  "generated_at_utc": "2026-11-23T17:12:31Z",
+  "generated_at": "2026-11-23T17:15:25Z",
+  "generated_at_utc": "2026-11-23T17:15:25Z",
   "live_pi_workers": {
-    "by_model": {
-      "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4": 4
-    },
-    "running": [
-      {
-        "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4",
-        "pid": 23506,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4",
-        "pid": 23507,
-        "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-      },
-      {
-        "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4",
-        "pid": 23508,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4",
-        "pid": 23509,
-        "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-      }
-    ],
-    "total": 4
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -414,7 +316,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 967
+        "used": 968
       },
       {
         "cap": 500,
@@ -950,7 +852,7 @@
         "healthy": true,
         "model": "nvidia-deepseek-v4-1-flash-nvfp4",
         "provider": "packet-ai",
-        "used": 198
+        "used": 205
       },
       {
         "cap": 300,
@@ -1963,7 +1865,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 967
+        "used": 968
       },
       {
         "cap": 500,
@@ -2499,7 +2401,7 @@
         "healthy": true,
         "model": "nvidia-deepseek-v4-1-flash-nvfp4",
         "provider": "packet-ai",
-        "used": 198
+        "used": 205
       },
       {
         "cap": 300,
@@ -3453,103 +3355,103 @@
   },
   "recent_completions": [
     {
-      "age_sec": 5,
+      "age_sec": 49,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T17:12:25Z",
-      "completed_by": "cloud-script-migration-seat-1-23482-b2f74e8c",
-      "completed_by_zh": "云脚本迁移 席位23482",
+      "completed_at": "2026-11-23T17:14:35Z",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "clou-016",
-      "task_no": 16,
-      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 48,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T17:11:42Z",
-      "completed_by": "cloud-script-migration-seat-1-23482-b2f74e8c",
-      "completed_by_zh": "云脚本迁移 席位23482",
-      "completed_ts_source": "result.txt",
-      "task_id": "clou-018",
+      "task_id": "task-018",
       "task_no": 18,
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 460,
+      "age_sec": 91,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T17:13:53Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "result.txt",
+      "task_id": "task-019",
+      "task_no": 19,
+      "title": null,
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 146,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T17:12:57Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "done",
+      "task_id": "task-016",
+      "task_no": 16,
+      "title": null,
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 633,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T17:04:51Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "clou-017",
+      "task_id": "task-017",
       "task_no": 17,
-      "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 530,
+      "age_sec": 703,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T17:03:41Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-054",
+      "task_id": "task-054",
       "task_no": 54,
-      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 1222,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T16:52:08Z",
-      "completed_by": "cloud-script-migration-seat-1-23482-b2f74e8c",
-      "completed_by_zh": "云脚本迁移 席位23482",
-      "completed_ts_source": "done",
-      "task_id": "clou-019",
-      "task_no": 19,
-      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 8492,
+      "age_sec": 8665,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-068",
+      "task_id": "task-068",
       "task_no": 68,
-      "title": "Done-transition replay after restarts (boss filing 2026-11-23 ~21:40)…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 8500,
+      "age_sec": 8673,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-067",
+      "task_id": "task-067",
       "task_no": 67,
-      "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 8545,
+      "age_sec": 8718,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-065",
+      "task_id": "task-065",
       "task_no": 65,
-      "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 11857,
+      "age_sec": 12030,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3561,15 +3463,15 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 12610,
+      "age_sec": 12784,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "clou-022",
+      "task_id": "task-022",
       "task_no": 22,
-      "title": "Fleet-wide publish flip, second half (boss filing 2026-11-23 20:00…",
+      "title": null,
       "workstream": "cloud-script-migration"
     }
   ],
@@ -3580,61 +3482,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4": 4
-    },
-    "running": [
-      {
-        "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4",
-        "pid": 23506,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4",
-        "pid": 23507,
-        "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-      },
-      {
-        "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4",
-        "pid": 23508,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4",
-        "pid": 23509,
-        "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-      }
-    ],
-    "total": 4
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 4,
-      "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4",
-      "pid": 23506,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4",
-      "pid": 23507,
-      "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-    },
-    {
-      "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4",
-      "pid": 23508,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4",
-      "pid": 23509,
-      "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -3654,7 +3507,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second half; boss filing 2026-11-22 after [user-found] #17): install ON the BandwagonHost VPS a small script + systemd timer (5 min) that, for each of the 9 pub files (the stale-alarm manifest set + team-status.json), fetches the GitHub Pages copy and compares its payload stamp with the locally served /srv/migrate-pub copy; when GitHub is newer it replaces the served file atomically (tmp + rename, preserving ownership/permissions). Steady state runs entirely on the VPS (no SSH). The install itself is boss-relay: ONE SSH session with ControlMaster reuse - the 2026-11-22 abuse lock was caused by our own connection churn, never repeat that pattern. Acceptance (boss, from public URLs): a test payload published ONLY to GitHub appears on the primary endpoint within 2 timer cycles; before/after served stamps reported. | audit/pub-manifest-vm.json + migrate-glue/pub_mirror.py (the VM-side opposite-direction twin, live 2026-11-22) | served-stamp drill evidence [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - it was a pre-patch legacy freeze, never dispositioned; the gate now refuses every claim on this line, which is why this task sat idle. Task is executable tonight (20:00 list): claim freely.] (executed-by pool-optimization failed 2026-11-23T16:54:18Z) (claimed-by cloud-script-migration-seat-1-23482-b2f74e8c 2026-11-23T17:11:39Z)"
+            "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second half; boss filing 2026-11-22 after [user-found] #17): install ON the BandwagonHost VPS a small script + systemd timer (5 min) that, for each of the 9 pub files (the stale-alarm manifest set + team-status.json), fetches the GitHub Pages copy and compares its payload stamp with the locally served /srv/migrate-pub copy; when GitHub is newer it replaces the served file atomically (tmp + rename, preserving ownership/permissions). Steady state runs entirely on the VPS (no SSH). The install itself is boss-relay: ONE SSH session with ControlMaster reuse - the 2026-11-22 abuse lock was caused by our own connection churn, never repeat that pattern. Acceptance (boss, from public URLs): a test payload published ONLY to GitHub appears on the primary endpoint within 2 timer cycles; before/after served stamps reported. | audit/pub-manifest-vm.json + migrate-glue/pub_mirror.py (the VM-side opposite-direction twin, live 2026-11-22) | served-stamp drill evidence [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - it was a pre-patch legacy freeze, never dispositioned; the gate now refuses every claim on this line, which is why this task sat idle. Task is executable tonight (20:00 list): claim freely.] (executed-by pool-optimization failed 2026-11-23T16:54:18Z) (claimed-by cloud-script-migration-seat-1-23482-b2f74e8c 2026-11-23T17:13:40Z)"
           },
           {
             "full": true,
@@ -3662,7 +3515,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints (executed-by pool-optimization failed 2026-11-23T16:49:23Z) (claimed-by cloud-script-migration-seat-1-23482-b2f74e8c 2026-11-23T17:11:39Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints (executed-by pool-optimization failed 2026-11-23T16:49:23Z) (claimed-by cloud-script-migration-seat-1-23482-b2f74e8c 2026-11-23T17:13:40Z)"
           }
         ],
         "open": 5
