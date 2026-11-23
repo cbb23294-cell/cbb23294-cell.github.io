@@ -2,27 +2,27 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "- key=3b01b4e5e31b",
+      "escalation_latest": "- key=1bb707de6bb5",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th",
         "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       ],
       "open": 6,
-      "status_updated": "2026-11-23T07:49:31Z",
+      "status_updated": "2026-11-23T08:00:26Z",
       "total": 21,
       "workstream": "cloud-script-migration"
     },
     {
       "done": 59,
-      "escalation_latest": "- key=a109086e460d",
+      "escalation_latest": "- key=62071c1f525c",
       "next_open": [
         "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion (",
         "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261",
         "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
       ],
       "open": 7,
-      "status_updated": "2026-11-23T07:46:29Z",
+      "status_updated": "2026-11-23T08:02:19Z",
       "total": 66,
       "workstream": "pool-optimization"
     },
@@ -44,7 +44,7 @@
         "[ops] Void-distribution report (mechanism meeting ruling 2026-11-22): from event"
       ],
       "open": 1,
-      "status_updated": "2026-11-23T07:46:21Z",
+      "status_updated": "2026-11-23T08:00:42Z",
       "total": 20,
       "workstream": "operations"
     },
@@ -57,14 +57,14 @@
         "[ops] ai-e-du iOS 验证（升级会裁定 7，紧随布局合并落地后做）：5 个面逐面在 iOS WebView 验拖拽落位、弹窗滚动、键盘弹出时光标与"
       ],
       "open": 5,
-      "status_updated": "2026-11-23T07:54:27Z",
+      "status_updated": "2026-11-23T08:01:35Z",
       "total": 16,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-23T07:54:27Z",
-  "generated_at": "2026-11-23T08:00:16Z",
-  "generated_at_utc": "2026-11-23T08:00:16Z",
+  "content_latest_at": "2026-11-23T08:02:19Z",
+  "generated_at": "2026-11-23T08:02:31Z",
+  "generated_at_utc": "2026-11-23T08:02:31Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -158,7 +158,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 918
+        "used": 935
       },
       {
         "cap": 300,
@@ -230,7 +230,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 25
+        "used": 26
       },
       {
         "cap": 1000,
@@ -742,7 +742,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 204
+        "used": 205
       },
       {
         "cap": 300,
@@ -798,7 +798,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 34
+        "used": 46
       },
       {
         "cap": 300,
@@ -814,7 +814,7 @@
         "healthy": true,
         "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 47
+        "used": 48
       },
       {
         "cap": 300,
@@ -910,7 +910,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -918,7 +918,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -926,7 +926,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -934,7 +934,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -942,7 +942,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -950,7 +950,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -958,7 +958,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -966,7 +966,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -974,7 +974,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -982,7 +982,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -990,7 +990,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -998,7 +998,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 200000,
@@ -1651,7 +1651,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 918
+        "used": 935
       },
       {
         "cap": 300,
@@ -1723,7 +1723,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 25
+        "used": 26
       },
       {
         "cap": 1000,
@@ -2235,7 +2235,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 204
+        "used": 205
       },
       {
         "cap": 300,
@@ -2291,7 +2291,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 34
+        "used": 46
       },
       {
         "cap": 300,
@@ -2307,7 +2307,7 @@
         "healthy": true,
         "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 47
+        "used": 48
       },
       {
         "cap": 300,
@@ -2403,7 +2403,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -2411,7 +2411,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -2419,7 +2419,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -2427,7 +2427,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -2435,7 +2435,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -2443,7 +2443,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -2451,7 +2451,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -2459,7 +2459,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -2467,7 +2467,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -2475,7 +2475,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -2483,7 +2483,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 3000,
@@ -2491,7 +2491,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1624
+        "used": 1650
       },
       {
         "cap": 200000,
@@ -3122,14 +3122,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=3b01b4e5e31b"
+        "latest": "- key=1bb707de6bb5"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-23T07:49:31Z"
+        "updated": "2026-11-23T08:00:26Z"
       },
       "tasks": {
         "done": 15,
@@ -3161,7 +3161,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-23T07:46:21Z"
+        "updated": "2026-11-23T08:00:42Z"
       },
       "tasks": {
         "done": 19,
@@ -3178,14 +3178,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=a109086e460d"
+        "latest": "- key=62071c1f525c"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 3,
         "tasks_total": 3,
-        "updated": "2026-11-23T07:46:29Z"
+        "updated": "2026-11-23T08:02:19Z"
       },
       "tasks": {
         "done": 59,
@@ -3241,7 +3241,7 @@
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-23T07:54:27Z"
+        "updated": "2026-11-23T08:01:35Z"
       },
       "tasks": {
         "done": 11,
