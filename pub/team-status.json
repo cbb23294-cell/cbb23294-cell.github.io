@@ -2,14 +2,14 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "- key=0e66846edeb9",
+      "escalation_latest": "- key=e42cfcca9cef",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th",
         "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       ],
       "open": 4,
-      "status_updated": "2026-11-23T06:57:44Z",
+      "status_updated": "2026-11-23T06:58:12Z",
       "total": 19,
       "workstream": "cloud-script-migration"
     },
@@ -51,14 +51,14 @@
       "escalation_latest": "- key=520cb7f0c761",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-23T06:27:58Z",
+      "status_updated": "2026-11-23T06:58:20Z",
       "total": 10,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-23T06:57:44Z",
-  "generated_at": "2026-11-23T06:57:54Z",
-  "generated_at_utc": "2026-11-23T06:57:54Z",
+  "content_latest_at": "2026-11-23T06:58:20Z",
+  "generated_at": "2026-11-23T07:00:29Z",
+  "generated_at_utc": "2026-11-23T07:00:29Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -152,7 +152,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 546
+        "used": 554
       },
       {
         "cap": 300,
@@ -232,7 +232,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 5
+        "used": 9
       },
       {
         "cap": 7000,
@@ -472,7 +472,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 300,
@@ -712,7 +712,7 @@
         "healthy": true,
         "model": "nvidia-deepseek-v4-1-flash-nvfp4",
         "provider": "packet-ai",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 300,
@@ -768,7 +768,7 @@
         "healthy": true,
         "model": "z-ai/glm-5.3:free",
         "provider": "numes",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 300,
@@ -904,7 +904,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -912,7 +912,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -920,7 +920,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -928,7 +928,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -936,7 +936,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -944,7 +944,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -952,7 +952,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -960,7 +960,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -968,7 +968,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -976,7 +976,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -984,7 +984,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -992,7 +992,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 200000,
@@ -1645,7 +1645,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 546
+        "used": 554
       },
       {
         "cap": 300,
@@ -1725,7 +1725,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 5
+        "used": 9
       },
       {
         "cap": 7000,
@@ -1965,7 +1965,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 300,
@@ -2205,7 +2205,7 @@
         "healthy": true,
         "model": "nvidia-deepseek-v4-1-flash-nvfp4",
         "provider": "packet-ai",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 300,
@@ -2261,7 +2261,7 @@
         "healthy": true,
         "model": "z-ai/glm-5.3:free",
         "provider": "numes",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 300,
@@ -2397,7 +2397,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -2405,7 +2405,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -2413,7 +2413,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -2421,7 +2421,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -2429,7 +2429,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -2437,7 +2437,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -2445,7 +2445,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -2453,7 +2453,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -2461,7 +2461,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -2469,7 +2469,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -2477,7 +2477,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 3000,
@@ -2485,7 +2485,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1380
+        "used": 1401
       },
       {
         "cap": 200000,
@@ -3116,14 +3116,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=0e66846edeb9"
+        "latest": "- key=e42cfcca9cef"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 3,
         "tasks_total": 3,
-        "updated": "2026-11-23T06:57:44Z"
+        "updated": "2026-11-23T06:58:12Z"
       },
       "tasks": {
         "done": 15,
@@ -3230,7 +3230,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-23T06:27:58Z"
+        "updated": "2026-11-23T06:58:20Z"
       },
       "tasks": {
         "done": 10,
