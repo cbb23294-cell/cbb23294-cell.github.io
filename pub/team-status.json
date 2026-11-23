@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T15:47:11Z",
+    "activity_generated_at": "2026-11-23T15:49:41Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -10,20 +10,20 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 1,
+      "claimed_count": 4,
       "current_task": {
-        "claimed_at": "2026-11-23T15:42:43Z",
-        "claimed_by": "cloud-script-migration-seat-1-6975-e56d6a5d",
-        "claimed_by_zh": "云脚本迁移 席位6975",
-        "claimed_for": "4分钟",
-        "task_id": "clou-016",
-        "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…"
+        "claimed_at": "2026-11-23T15:49:13Z",
+        "claimed_by": "cloud-script-migration-seat-1-8616-582f220b",
+        "claimed_by_zh": "云脚本迁移 席位8616",
+        "claimed_for": "28秒",
+        "task_id": "clou-019",
+        "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…"
       },
       "cycle_started_at": "2026-11-23T15:42:43Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "4分钟",
-      "elapsed_sec": 268,
-      "last_cycle_ended": "2026-11-23T15:45:45Z",
+      "elapsed": "6分钟",
+      "elapsed_sec": 418,
+      "last_cycle_ended": "2026-11-23T15:49:25Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -35,14 +35,14 @@
         "claimed_at": "2026-11-23T15:46:02Z",
         "claimed_by": "pool-optimization-seat-1-8059-d1dbbc6a",
         "claimed_by_zh": "池优化 席位8059",
-        "claimed_for": "69秒",
+        "claimed_for": "3分钟",
         "task_id": "pool-064",
         "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…"
       },
       "cycle_started_at": "2026-11-23T15:46:02Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "69秒",
-      "elapsed_sec": 69,
+      "elapsed": "3分钟",
+      "elapsed_sec": 219,
       "last_cycle_ended": "2026-11-23T15:47:02Z",
       "name_zh": "池优化",
       "state": "running",
@@ -106,13 +106,46 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 268,
+          "claimed_age_sec": 418,
           "claimed_at": "2026-11-23T15:42:43Z",
           "claimed_by": "cloud-script-migration-seat-1-6975-e56d6a5d",
           "claimed_by_zh": "云脚本迁移 席位6975",
-          "claimed_for": "4分钟",
+          "claimed_for": "6分钟",
           "task_id": "clou-016",
           "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 28,
+          "claimed_at": "2026-11-23T15:49:13Z",
+          "claimed_by": "cloud-script-migration-seat-1-8616-582f220b",
+          "claimed_by_zh": "云脚本迁移 席位8616",
+          "claimed_for": "28秒",
+          "task_id": "clou-017",
+          "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 28,
+          "claimed_at": "2026-11-23T15:49:13Z",
+          "claimed_by": "cloud-script-migration-seat-1-8616-582f220b",
+          "claimed_by_zh": "云脚本迁移 席位8616",
+          "claimed_for": "28秒",
+          "task_id": "clou-018",
+          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 28,
+          "claimed_at": "2026-11-23T15:49:13Z",
+          "claimed_by": "cloud-script-migration-seat-1-8616-582f220b",
+          "claimed_by_zh": "云脚本迁移 席位8616",
+          "claimed_for": "28秒",
+          "task_id": "clou-019",
+          "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
           "workstream": "cloud-script-migration"
         }
       ],
@@ -125,7 +158,7 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 5,
-      "status_updated": "2026-11-23T15:42:56Z",
+      "status_updated": "2026-11-23T15:48:13Z",
       "total": 22,
       "workstream": "cloud-script-migration"
     },
@@ -133,22 +166,22 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 69,
+          "claimed_age_sec": 219,
           "claimed_at": "2026-11-23T15:46:02Z",
           "claimed_by": "pool-optimization-seat-1-8059-d1dbbc6a",
           "claimed_by_zh": "池优化 席位8059",
-          "claimed_for": "69秒",
+          "claimed_for": "3分钟",
           "task_id": "pool-054",
           "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 69,
+          "claimed_age_sec": 219,
           "claimed_at": "2026-11-23T15:46:02Z",
           "claimed_by": "pool-optimization-seat-1-8059-d1dbbc6a",
           "claimed_by_zh": "池优化 席位8059",
-          "claimed_for": "69秒",
+          "claimed_for": "3分钟",
           "task_id": "pool-064",
           "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
           "workstream": "pool-optimization"
@@ -187,7 +220,7 @@
       "name_zh": "运维",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-23T15:33:06Z",
+      "status_updated": "2026-11-23T15:48:57Z",
       "total": 20,
       "workstream": "operations"
     },
@@ -198,7 +231,7 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-23T15:33:17Z",
+      "status_updated": "2026-11-23T15:49:07Z",
       "total": 16,
       "workstream": "spaces-data"
     }
@@ -206,39 +239,72 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 268,
+      "claimed_age_sec": 418,
       "claimed_at": "2026-11-23T15:42:43Z",
       "claimed_by": "cloud-script-migration-seat-1-6975-e56d6a5d",
       "claimed_by_zh": "云脚本迁移 席位6975",
-      "claimed_for": "4分钟",
+      "claimed_for": "6分钟",
       "task_id": "clou-016",
       "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 69,
+      "claimed_age_sec": 219,
       "claimed_at": "2026-11-23T15:46:02Z",
       "claimed_by": "pool-optimization-seat-1-8059-d1dbbc6a",
       "claimed_by_zh": "池优化 席位8059",
-      "claimed_for": "69秒",
+      "claimed_for": "3分钟",
       "task_id": "pool-054",
       "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 69,
+      "claimed_age_sec": 219,
       "claimed_at": "2026-11-23T15:46:02Z",
       "claimed_by": "pool-optimization-seat-1-8059-d1dbbc6a",
       "claimed_by_zh": "池优化 席位8059",
-      "claimed_for": "69秒",
+      "claimed_for": "3分钟",
       "task_id": "pool-064",
       "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
       "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 28,
+      "claimed_at": "2026-11-23T15:49:13Z",
+      "claimed_by": "cloud-script-migration-seat-1-8616-582f220b",
+      "claimed_by_zh": "云脚本迁移 席位8616",
+      "claimed_for": "28秒",
+      "task_id": "clou-017",
+      "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 28,
+      "claimed_at": "2026-11-23T15:49:13Z",
+      "claimed_by": "cloud-script-migration-seat-1-8616-582f220b",
+      "claimed_by_zh": "云脚本迁移 席位8616",
+      "claimed_for": "28秒",
+      "task_id": "clou-018",
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 28,
+      "claimed_at": "2026-11-23T15:49:13Z",
+      "claimed_by": "cloud-script-migration-seat-1-8616-582f220b",
+      "claimed_by_zh": "云脚本迁移 席位8616",
+      "claimed_for": "28秒",
+      "task_id": "clou-019",
+      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+      "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-23T15:47:02Z",
+  "content_latest_at": "2026-11-23T15:49:07Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 195,
@@ -271,11 +337,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T15:47:11Z",
-  "generated_at_utc": "2026-11-23T15:47:11Z",
+  "generated_at": "2026-11-23T15:49:42Z",
+  "generated_at_utc": "2026-11-23T15:49:42Z",
   "live_pi_workers": {
     "by_model": {
-      "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free": 2
+      "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free": 2,
+      "token-harbor/deepseek-v4-flash:free": 2
     },
     "running": [
       {
@@ -287,9 +354,19 @@
         "model": "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "pid": 5185,
         "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+      },
+      {
+        "model": "token-harbor/deepseek-v4-flash:free",
+        "pid": 8932,
+        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
+      },
+      {
+        "model": "token-harbor/deepseek-v4-flash:free",
+        "pid": 8933,
+        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
       }
     ],
-    "total": 2
+    "total": 4
   },
   "managers": [
     {
@@ -412,7 +489,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 819
+        "used": 828
       },
       {
         "cap": 500,
@@ -460,7 +537,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 134
+        "used": 135
       },
       {
         "cap": 1000,
@@ -476,7 +553,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 321
+        "used": 323
       },
       {
         "cap": 300,
@@ -988,7 +1065,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 300,
@@ -1961,7 +2038,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 819
+        "used": 828
       },
       {
         "cap": 500,
@@ -2009,7 +2086,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 134
+        "used": 135
       },
       {
         "cap": 1000,
@@ -2025,7 +2102,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 321
+        "used": 323
       },
       {
         "cap": 300,
@@ -2537,7 +2614,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 300,
@@ -3451,7 +3528,43 @@
   },
   "recent_completions": [
     {
-      "age_sec": 9,
+      "age_sec": 16,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T15:49:25Z",
+      "completed_by": "cloud-script-migration-seat-1-8616-582f220b",
+      "completed_by_zh": "云脚本迁移 席位8616",
+      "completed_ts_source": "done",
+      "task_id": "clou-017",
+      "task_no": 17,
+      "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 26,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T15:49:15Z",
+      "completed_by": "cloud-script-migration-seat-1-8616-582f220b",
+      "completed_by_zh": "云脚本迁移 席位8616",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-019",
+      "task_no": 19,
+      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 27,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T15:49:14Z",
+      "completed_by": "cloud-script-migration-seat-1-8616-582f220b",
+      "completed_by_zh": "云脚本迁移 席位8616",
+      "completed_ts_source": "done",
+      "task_id": "clou-018",
+      "task_no": 18,
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 159,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T15:47:02Z",
       "completed_by": "pool-optimization-seat-1-8059-d1dbbc6a",
@@ -3463,19 +3576,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 85,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T15:45:45Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "result.txt",
-      "task_id": "clou-018",
-      "task_no": 18,
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 254,
+      "age_sec": 404,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T15:42:56Z",
       "completed_by": "cloud-script-migration-seat-1-6975-e56d6a5d",
@@ -3487,31 +3588,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 715,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T15:35:15Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
-      "task_id": "clou-019",
-      "task_no": 19,
-      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 1026,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T15:30:04Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
-      "task_id": "clou-017",
-      "task_no": 17,
-      "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 3372,
+      "age_sec": 3522,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3523,7 +3600,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 3380,
+      "age_sec": 3530,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3535,7 +3612,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 3425,
+      "age_sec": 3575,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3547,7 +3624,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 6737,
+      "age_sec": 6887,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3559,7 +3636,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 7490,
+      "age_sec": 7640,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
@@ -3579,7 +3656,8 @@
   },
   "workers": {
     "by_model": {
-      "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free": 2
+      "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free": 2,
+      "token-harbor/deepseek-v4-flash:free": 2
     },
     "running": [
       {
@@ -3591,14 +3669,28 @@
         "model": "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "pid": 5185,
         "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+      },
+      {
+        "model": "token-harbor/deepseek-v4-flash:free",
+        "pid": 8932,
+        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
+      },
+      {
+        "model": "token-harbor/deepseek-v4-flash:free",
+        "pid": 8933,
+        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
       }
     ],
-    "total": 2
+    "total": 4
   },
   "workers_detail": [
     {
       "count": 2,
       "model": "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free"
+    },
+    {
+      "count": 2,
+      "model": "token-harbor/deepseek-v4-flash:free"
     }
   ],
   "workers_running": [
@@ -3611,6 +3703,16 @@
       "model": "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
       "pid": 5185,
       "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+    },
+    {
+      "model": "token-harbor/deepseek-v4-flash:free",
+      "pid": 8932,
+      "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
+    },
+    {
+      "model": "token-harbor/deepseek-v4-flash:free",
+      "pid": 8933,
+      "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
     }
   ],
   "workstreams": {
@@ -3622,9 +3724,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-23T15:42:56Z"
+        "tasks_open": 3,
+        "tasks_total": 3,
+        "updated": "2026-11-23T15:48:13Z"
       },
       "tasks": {
         "done": 17,
@@ -3636,11 +3738,11 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du space's importCatalog action fetches this file from the two pub endpoints but NOBODY produces it (both 404) - first determine the exact payload schema importCatalog accepts (publish a one-entry probe file, observe the import result, adjust), then build a deterministic producer in migrate-glue/ that emits the verified catalog (17 entries as of 2026-11-22; updates flow from the daily verification conclusions) to migrate-glue/out/ai-quota-catalog.json (github_pub_watch publishes the GitHub leg), add the file to the InstaBox publish set and to the stale-alarm manifest (threshold_sec 129600). Acceptance: both endpoints serve the file with generatedAt < 26h old AND a production importCatalog call consumes it without error; the space's provider_state / changes / rotation data untouched. | ai-e-du actions importCatalog/saveCatalogUpdates | endpoint stamps + import result — BOSS ACCEPTANCE HOLD 2026-11-23: the producer's first local output (2026-11-22T18:12:26Z, ok=True) carries providerCount=9 (repo-3/10/14/18/28/31/33, supp-opencode-zen, supp-100milionseek) against the 17 catalog entries this task must emit. Before any completion claim: (1) explain the 9-vs-17 gap with the schema-probe evidence (what importCatalog actually accepts), and (2) prove a production importCatalog run is NON-DESTRUCTIVE - all 17 entries still present afterwards. Endpoints are still 404 at hold time; publish + import proof outstanding. — BOSS NOTE 2026-11-23: the line fixed the count (local payload providerCount=17, fresh) but the publish leg was never wired: the producer writes the local file and stops; no step carries it to the endpoints (all three 404 while the local payload sat fresh). The boss pushed the current payload manually via the pool-state route (push_to_insta -> box ~/migrate/team/ -> team-publish -> primary; pub-mirror then carries it to GitHub). REMAINING for acceptance: (1) wire the leg durably into the producer cycle so the next generated payload reaches the endpoints with no manual step; (2) the non-destructive importCatalog proof from the original hold. The 9-vs-17 item is CLOSED. (executed-by pool-optimization failed 2026-11-23T15:30:05Z)"
+            "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du space's importCatalog action fetches this file from the two pub endpoints but NOBODY produces it (both 404) - first determine the exact payload schema importCatalog accepts (publish a one-entry probe file, observe the import result, adjust), then build a deterministic producer in migrate-glue/ that emits the verified catalog (17 entries as of 2026-11-22; updates flow from the daily verification conclusions) to migrate-glue/out/ai-quota-catalog.json (github_pub_watch publishes the GitHub leg), add the file to the InstaBox publish set and to the stale-alarm manifest (threshold_sec 129600). Acceptance: both endpoints serve the file with generatedAt < 26h old AND a production importCatalog call consumes it without error; the space's provider_state / changes / rotation data untouched. | ai-e-du actions importCatalog/saveCatalogUpdates | endpoint stamps + import result — BOSS ACCEPTANCE HOLD 2026-11-23: the producer's first local output (2026-11-22T18:12:26Z, ok=True) carries providerCount=9 (repo-3/10/14/18/28/31/33, supp-opencode-zen, supp-100milionseek) against the 17 catalog entries this task must emit. Before any completion claim: (1) explain the 9-vs-17 gap with the schema-probe evidence (what importCatalog actually accepts), and (2) prove a production importCatalog run is NON-DESTRUCTIVE - all 17 entries still present afterwards. Endpoints are still 404 at hold time; publish + import proof outstanding. — BOSS NOTE 2026-11-23: the line fixed the count (local payload providerCount=17, fresh) but the publish leg was never wired: the producer writes the local file and stops; no step carries it to the endpoints (all three 404 while the local payload sat fresh). The boss pushed the current payload manually via the pool-state route (push_to_insta -> box ~/migrate/team/ -> team-publish -> primary; pub-mirror then carries it to GitHub). REMAINING for acceptance: (1) wire the leg durably into the producer cycle so the next generated payload reaches the endpoints with no manual step; (2) the non-destructive importCatalog proof from the original hold. The 9-vs-17 item is CLOSED. (executed-by pool-optimization failed 2026-11-23T15:30:05Z) (claimed-by cloud-script-migration-seat-1-8616-582f220b 2026-11-23T15:49:13Z)"
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints (executed-by pool-optimization failed 2026-11-23T15:01:07Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints (executed-by pool-optimization failed 2026-11-23T15:01:07Z) (claimed-by cloud-script-migration-seat-1-8616-582f220b 2026-11-23T15:49:13Z)"
           }
         ],
         "open": 5
@@ -3656,7 +3758,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-23T15:33:06Z"
+        "updated": "2026-11-23T15:48:57Z"
       },
       "tasks": {
         "done": 20,
@@ -3731,7 +3833,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-23T15:33:17Z"
+        "updated": "2026-11-23T15:49:07Z"
       },
       "tasks": {
         "done": 16,
