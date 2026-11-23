@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T23:06:25Z",
+    "activity_generated_at": "2026-11-23T23:08:50Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-23T23:04:52Z",
         "claimed_by": "cloud-script-migration-seat-1-6401-779e324c",
         "claimed_by_zh": "云脚本迁移 席位6401",
-        "claimed_for": "1分钟",
+        "claimed_for": "3分钟",
         "task_id": "clou-019",
         "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…"
       },
       "cycle_started_at": "2026-11-23T23:04:46Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "1分钟",
-      "elapsed_sec": 100,
+      "elapsed": "4分钟",
+      "elapsed_sec": 245,
       "last_cycle_ended": "2026-11-23T23:05:19Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -99,33 +99,33 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 100,
+          "claimed_age_sec": 245,
           "claimed_at": "2026-11-23T23:04:46Z",
           "claimed_by": "security",
           "claimed_by_zh": "安全",
-          "claimed_for": "1分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-017",
           "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 99,
+          "claimed_age_sec": 244,
           "claimed_at": "2026-11-23T23:04:47Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "1分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 94,
+          "claimed_age_sec": 239,
           "claimed_at": "2026-11-23T23:04:52Z",
           "claimed_by": "cloud-script-migration-seat-1-6401-779e324c",
           "claimed_by_zh": "云脚本迁移 席位6401",
-          "claimed_for": "1分钟",
+          "claimed_for": "3分钟",
           "task_id": "clou-019",
           "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
           "workstream": "cloud-script-migration"
@@ -198,33 +198,33 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 100,
+      "claimed_age_sec": 245,
       "claimed_at": "2026-11-23T23:04:46Z",
       "claimed_by": "security",
       "claimed_by_zh": "安全",
-      "claimed_for": "1分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-017",
       "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 99,
+      "claimed_age_sec": 244,
       "claimed_at": "2026-11-23T23:04:47Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "1分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 94,
+      "claimed_age_sec": 239,
       "claimed_at": "2026-11-23T23:04:52Z",
       "claimed_by": "cloud-script-migration-seat-1-6401-779e324c",
       "claimed_by_zh": "云脚本迁移 席位6401",
-      "claimed_for": "1分钟",
+      "claimed_for": "3分钟",
       "task_id": "clou-019",
       "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
       "workstream": "cloud-script-migration"
@@ -263,8 +263,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T23:06:25Z",
-  "generated_at_utc": "2026-11-23T23:06:25Z",
+  "generated_at": "2026-11-23T23:08:51Z",
+  "generated_at_utc": "2026-11-23T23:08:51Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -447,7 +447,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 302
+        "used": 304
       },
       {
         "cap": 7000,
@@ -455,7 +455,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 2502
+        "used": 2505
       },
       {
         "cap": 300,
@@ -711,7 +711,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1:free",
         "provider": "crowllm",
-        "used": 282
+        "used": 283
       },
       {
         "cap": 300,
@@ -727,7 +727,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 165
+        "used": 167
       },
       {
         "cap": 300,
@@ -1996,7 +1996,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 302
+        "used": 304
       },
       {
         "cap": 7000,
@@ -2004,7 +2004,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 2502
+        "used": 2505
       },
       {
         "cap": 300,
@@ -2260,7 +2260,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1:free",
         "provider": "crowllm",
-        "used": 282
+        "used": 283
       },
       {
         "cap": 300,
@@ -2276,7 +2276,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 165
+        "used": 167
       },
       {
         "cap": 300,
@@ -3430,7 +3430,7 @@
   },
   "recent_completions": [
     {
-      "age_sec": 66,
+      "age_sec": 211,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T23:05:19Z",
       "completed_by": "cloud-script-migration-seat-1-6401-779e324c",
@@ -3442,7 +3442,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 78,
+      "age_sec": 223,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T23:05:07Z",
       "completed_by": "pool-optimization",
@@ -3454,7 +3454,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 87,
+      "age_sec": 232,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T23:04:58Z",
       "completed_by": "security",
@@ -3466,7 +3466,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 562,
+      "age_sec": 707,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T22:57:02Z",
       "completed_by": null,
@@ -3478,7 +3478,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 5522,
+      "age_sec": 5667,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:34:23Z",
       "completed_by": null,
@@ -3490,7 +3490,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 29726,
+      "age_sec": 29872,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3502,7 +3502,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 29734,
+      "age_sec": 29879,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3514,7 +3514,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 29779,
+      "age_sec": 29924,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3526,7 +3526,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 33091,
+      "age_sec": 33236,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3538,7 +3538,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 33845,
+      "age_sec": 33990,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
