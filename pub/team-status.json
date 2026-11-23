@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T23:53:46Z",
+    "activity_generated_at": "2026-11-23T23:56:16Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -10,35 +10,42 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 1,
+      "claimed_count": 2,
       "current_task": {
-        "claimed_at": "2026-11-23T23:51:21Z",
-        "claimed_by": "pool-optimization",
-        "claimed_by_zh": "池优化",
-        "claimed_for": "2分钟",
-        "task_id": "clou-017",
-        "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…"
+        "claimed_at": "2026-11-23T23:55:39Z",
+        "claimed_by": "float",
+        "claimed_by_zh": "机动",
+        "claimed_for": "38秒",
+        "task_id": "clou-018",
+        "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-23T23:51:21Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "2分钟",
-      "elapsed_sec": 146,
-      "last_cycle_ended": "2026-11-23T23:53:20Z",
+      "elapsed": "4分钟",
+      "elapsed_sec": 296,
+      "last_cycle_ended": "2026-11-23T23:56:10Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
-      "last_cycle_ended": "2026-11-23T23:36:47Z",
+      "claimed_count": 2,
+      "current_task": {
+        "claimed_at": "2026-11-23T23:55:39Z",
+        "claimed_by": "pool-optimization-seat-1-9219-997b6532",
+        "claimed_by_zh": "池优化 席位9219",
+        "claimed_for": "38秒",
+        "task_id": "pool-064",
+        "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…"
+      },
+      "cycle_started_at": "2026-11-23T23:55:39Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "38秒",
+      "elapsed_sec": 38,
+      "last_cycle_ended": "2026-11-23T23:56:10Z",
       "name_zh": "池优化",
-      "state": "idle",
+      "state": "running",
       "workstream": "pool-optimization"
     },
     {
@@ -99,13 +106,24 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 146,
+          "claimed_age_sec": 296,
           "claimed_at": "2026-11-23T23:51:21Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "2分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-017",
           "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 38,
+          "claimed_at": "2026-11-23T23:55:39Z",
+          "claimed_by": "float",
+          "claimed_by_zh": "机动",
+          "claimed_for": "38秒",
+          "task_id": "clou-018",
+          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
         }
       ],
@@ -123,7 +141,30 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 38,
+          "claimed_at": "2026-11-23T23:55:39Z",
+          "claimed_by": "pool-optimization-seat-1-9219-997b6532",
+          "claimed_by_zh": "池优化 席位9219",
+          "claimed_for": "38秒",
+          "task_id": "pool-054",
+          "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 38,
+          "claimed_at": "2026-11-23T23:55:39Z",
+          "claimed_by": "pool-optimization-seat-1-9219-997b6532",
+          "claimed_by_zh": "池优化 席位9219",
+          "claimed_for": "38秒",
+          "task_id": "pool-064",
+          "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
+          "workstream": "pool-optimization"
+        }
+      ],
       "done": 61,
       "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "池优化",
@@ -133,7 +174,7 @@
         "Long-request 502 root cause at the pool door (cycle meeting re-run S1…"
       ],
       "open": 7,
-      "status_updated": "2026-11-23T23:42:17Z",
+      "status_updated": "2026-11-23T23:56:09Z",
       "total": 68,
       "workstream": "pool-optimization"
     },
@@ -176,20 +217,53 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 146,
+      "claimed_age_sec": 296,
       "claimed_at": "2026-11-23T23:51:21Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "2分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-017",
       "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
       "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 38,
+      "claimed_at": "2026-11-23T23:55:39Z",
+      "claimed_by": "float",
+      "claimed_by_zh": "机动",
+      "claimed_for": "38秒",
+      "task_id": "clou-018",
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 38,
+      "claimed_at": "2026-11-23T23:55:39Z",
+      "claimed_by": "pool-optimization-seat-1-9219-997b6532",
+      "claimed_by_zh": "池优化 席位9219",
+      "claimed_for": "38秒",
+      "task_id": "pool-054",
+      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 38,
+      "claimed_at": "2026-11-23T23:55:39Z",
+      "claimed_by": "pool-optimization-seat-1-9219-997b6532",
+      "claimed_by_zh": "池优化 席位9219",
+      "claimed_for": "38秒",
+      "task_id": "pool-064",
+      "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
+      "workstream": "pool-optimization"
     }
   ],
-  "content_latest_at": "2026-11-23T23:50:52Z",
+  "content_latest_at": "2026-11-23T23:56:09Z",
   "escalations_human": {
     "cloud-script-migration": {
-      "dropped_hash_keys": 226,
+      "dropped_hash_keys": 227,
       "exists": true,
       "latest": "runner exit: 0"
     },
@@ -219,22 +293,22 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T23:53:47Z",
-  "generated_at_utc": "2026-11-23T23:53:47Z",
+  "generated_at": "2026-11-23T23:56:17Z",
+  "generated_at_utc": "2026-11-23T23:56:17Z",
   "live_pi_workers": {
     "by_model": {
-      "token-harbor/deepseek-v4-flash:free": 2
+      "groq/allam-2-7b": 2
     },
     "running": [
       {
-        "model": "token-harbor/deepseek-v4-flash:free",
-        "pid": 8564,
-        "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
+        "model": "groq/allam-2-7b",
+        "pid": 9596,
+        "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
       },
       {
-        "model": "token-harbor/deepseek-v4-flash:free",
-        "pid": 8565,
-        "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
+        "model": "groq/allam-2-7b",
+        "pid": 9597,
+        "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
       }
     ],
     "total": 2
@@ -400,7 +474,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 295
+        "used": 296
       },
       {
         "cap": 1000,
@@ -408,7 +482,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 340
+        "used": 341
       },
       {
         "cap": 1000,
@@ -416,7 +490,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 324
+        "used": 325
       },
       {
         "cap": 7000,
@@ -424,7 +498,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 2687
+        "used": 2706
       },
       {
         "cap": 300,
@@ -648,7 +722,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 235
+        "used": 236
       },
       {
         "cap": 300,
@@ -656,7 +730,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 249
+        "used": 250
       },
       {
         "cap": 300,
@@ -696,7 +770,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 184
+        "used": 187
       },
       {
         "cap": 300,
@@ -704,7 +778,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 239
+        "used": 240
       },
       {
         "cap": 300,
@@ -712,7 +786,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
         "provider": "crowllm",
-        "used": 184
+        "used": 185
       },
       {
         "cap": 300,
@@ -720,7 +794,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-bolt-e4b:free",
         "provider": "crowllm",
-        "used": 236
+        "used": 239
       },
       {
         "cap": 300,
@@ -728,7 +802,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
         "provider": "crowllm",
-        "used": 190
+        "used": 192
       },
       {
         "cap": 300,
@@ -736,7 +810,7 @@
         "healthy": true,
         "model": "nemotron-3.5-super-vl:free",
         "provider": "crowllm",
-        "used": 201
+        "used": 203
       },
       {
         "cap": 300,
@@ -744,7 +818,7 @@
         "healthy": true,
         "model": "jais-3-mova-36b-a4b:free",
         "provider": "crowllm",
-        "used": 191
+        "used": 192
       },
       {
         "cap": 300,
@@ -752,7 +826,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 189
+        "used": 196
       },
       {
         "cap": 300,
@@ -760,7 +834,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b-uncensored:free",
         "provider": "crowllm",
-        "used": 206
+        "used": 212
       },
       {
         "cap": 300,
@@ -768,7 +842,7 @@
         "healthy": true,
         "model": "particle-1:free",
         "provider": "crowllm",
-        "used": 162
+        "used": 164
       },
       {
         "cap": 300,
@@ -776,7 +850,7 @@
         "healthy": true,
         "model": "step-5-preview:free",
         "provider": "crowllm",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 300,
@@ -784,7 +858,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 246
+        "used": 250
       },
       {
         "cap": 300,
@@ -792,7 +866,7 @@
         "healthy": true,
         "model": "grok-4.7-fast:free",
         "provider": "crowllm",
-        "used": 212
+        "used": 215
       },
       {
         "cap": 300,
@@ -800,7 +874,7 @@
         "healthy": true,
         "model": "gemma-4-31b-it:free",
         "provider": "crowllm",
-        "used": 151
+        "used": 155
       },
       {
         "cap": 300,
@@ -808,7 +882,7 @@
         "healthy": true,
         "model": "glm-4.6v-flash:free",
         "provider": "crowllm",
-        "used": 158
+        "used": 160
       },
       {
         "cap": 300,
@@ -816,7 +890,7 @@
         "healthy": true,
         "model": "longcat-2.5:free",
         "provider": "crowllm",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 300,
@@ -824,7 +898,7 @@
         "healthy": true,
         "model": "minimax-m3.1-flash:free",
         "provider": "crowllm",
-        "used": 134
+        "used": 135
       },
       {
         "cap": 300,
@@ -832,7 +906,7 @@
         "healthy": true,
         "model": "dots-3-note-preview:free",
         "provider": "crowllm",
-        "used": 219
+        "used": 220
       },
       {
         "cap": 300,
@@ -840,7 +914,7 @@
         "healthy": true,
         "model": "flint-v1.0:free",
         "provider": "crowllm",
-        "used": 102
+        "used": 103
       },
       {
         "cap": 300,
@@ -848,7 +922,7 @@
         "healthy": true,
         "model": "llama-3.3-70b:free",
         "provider": "crowllm",
-        "used": 136
+        "used": 137
       },
       {
         "cap": 300,
@@ -856,7 +930,7 @@
         "healthy": true,
         "model": "llama-3.3-70b-instruct:free",
         "provider": "crowllm",
-        "used": 133
+        "used": 134
       },
       {
         "cap": 300,
@@ -864,7 +938,7 @@
         "healthy": true,
         "model": "solar-mini4:free",
         "provider": "crowllm",
-        "used": 132
+        "used": 139
       },
       {
         "cap": 300,
@@ -872,7 +946,7 @@
         "healthy": true,
         "model": "xing4.0-29b-a4b:free",
         "provider": "crowllm",
-        "used": 126
+        "used": 131
       },
       {
         "cap": 300,
@@ -880,7 +954,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 126
+        "used": 128
       },
       {
         "cap": 300,
@@ -920,7 +994,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 292
+        "used": 293
       },
       {
         "cap": 300,
@@ -944,7 +1018,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 38
+        "used": 39
       },
       {
         "cap": 300,
@@ -1024,7 +1098,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-chimerax:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -1032,7 +1106,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-darksoul:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -1040,7 +1114,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-luminous:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -1048,7 +1122,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-moonlight:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -1056,7 +1130,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-musica:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -1064,7 +1138,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-meromero:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -1072,7 +1146,7 @@
         "healthy": true,
         "model": "minimax-m3.1-flash:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -1080,7 +1154,7 @@
         "healthy": true,
         "model": "muse-glimmer-30b:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 50,
@@ -1136,7 +1210,7 @@
         "healthy": true,
         "model": "gpt-6.2-sol",
         "provider": "egg-krphp",
-        "used": 522
+        "used": 527
       },
       {
         "cap": 3000,
@@ -1144,7 +1218,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -1152,7 +1226,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -1160,7 +1234,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -1168,7 +1242,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -1176,7 +1250,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -1184,7 +1258,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -1192,7 +1266,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -1200,7 +1274,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -1208,7 +1282,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -1216,7 +1290,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -1224,7 +1298,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -1232,7 +1306,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 200000,
@@ -1949,7 +2023,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 295
+        "used": 296
       },
       {
         "cap": 1000,
@@ -1957,7 +2031,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 340
+        "used": 341
       },
       {
         "cap": 1000,
@@ -1965,7 +2039,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 324
+        "used": 325
       },
       {
         "cap": 7000,
@@ -1973,7 +2047,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 2687
+        "used": 2706
       },
       {
         "cap": 300,
@@ -2197,7 +2271,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 235
+        "used": 236
       },
       {
         "cap": 300,
@@ -2205,7 +2279,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 249
+        "used": 250
       },
       {
         "cap": 300,
@@ -2245,7 +2319,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 184
+        "used": 187
       },
       {
         "cap": 300,
@@ -2253,7 +2327,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 239
+        "used": 240
       },
       {
         "cap": 300,
@@ -2261,7 +2335,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
         "provider": "crowllm",
-        "used": 184
+        "used": 185
       },
       {
         "cap": 300,
@@ -2269,7 +2343,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-bolt-e4b:free",
         "provider": "crowllm",
-        "used": 236
+        "used": 239
       },
       {
         "cap": 300,
@@ -2277,7 +2351,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
         "provider": "crowllm",
-        "used": 190
+        "used": 192
       },
       {
         "cap": 300,
@@ -2285,7 +2359,7 @@
         "healthy": true,
         "model": "nemotron-3.5-super-vl:free",
         "provider": "crowllm",
-        "used": 201
+        "used": 203
       },
       {
         "cap": 300,
@@ -2293,7 +2367,7 @@
         "healthy": true,
         "model": "jais-3-mova-36b-a4b:free",
         "provider": "crowllm",
-        "used": 191
+        "used": 192
       },
       {
         "cap": 300,
@@ -2301,7 +2375,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 189
+        "used": 196
       },
       {
         "cap": 300,
@@ -2309,7 +2383,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b-uncensored:free",
         "provider": "crowllm",
-        "used": 206
+        "used": 212
       },
       {
         "cap": 300,
@@ -2317,7 +2391,7 @@
         "healthy": true,
         "model": "particle-1:free",
         "provider": "crowllm",
-        "used": 162
+        "used": 164
       },
       {
         "cap": 300,
@@ -2325,7 +2399,7 @@
         "healthy": true,
         "model": "step-5-preview:free",
         "provider": "crowllm",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 300,
@@ -2333,7 +2407,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 246
+        "used": 250
       },
       {
         "cap": 300,
@@ -2341,7 +2415,7 @@
         "healthy": true,
         "model": "grok-4.7-fast:free",
         "provider": "crowllm",
-        "used": 212
+        "used": 215
       },
       {
         "cap": 300,
@@ -2349,7 +2423,7 @@
         "healthy": true,
         "model": "gemma-4-31b-it:free",
         "provider": "crowllm",
-        "used": 151
+        "used": 155
       },
       {
         "cap": 300,
@@ -2357,7 +2431,7 @@
         "healthy": true,
         "model": "glm-4.6v-flash:free",
         "provider": "crowllm",
-        "used": 158
+        "used": 160
       },
       {
         "cap": 300,
@@ -2365,7 +2439,7 @@
         "healthy": true,
         "model": "longcat-2.5:free",
         "provider": "crowllm",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 300,
@@ -2373,7 +2447,7 @@
         "healthy": true,
         "model": "minimax-m3.1-flash:free",
         "provider": "crowllm",
-        "used": 134
+        "used": 135
       },
       {
         "cap": 300,
@@ -2381,7 +2455,7 @@
         "healthy": true,
         "model": "dots-3-note-preview:free",
         "provider": "crowllm",
-        "used": 219
+        "used": 220
       },
       {
         "cap": 300,
@@ -2389,7 +2463,7 @@
         "healthy": true,
         "model": "flint-v1.0:free",
         "provider": "crowllm",
-        "used": 102
+        "used": 103
       },
       {
         "cap": 300,
@@ -2397,7 +2471,7 @@
         "healthy": true,
         "model": "llama-3.3-70b:free",
         "provider": "crowllm",
-        "used": 136
+        "used": 137
       },
       {
         "cap": 300,
@@ -2405,7 +2479,7 @@
         "healthy": true,
         "model": "llama-3.3-70b-instruct:free",
         "provider": "crowllm",
-        "used": 133
+        "used": 134
       },
       {
         "cap": 300,
@@ -2413,7 +2487,7 @@
         "healthy": true,
         "model": "solar-mini4:free",
         "provider": "crowllm",
-        "used": 132
+        "used": 139
       },
       {
         "cap": 300,
@@ -2421,7 +2495,7 @@
         "healthy": true,
         "model": "xing4.0-29b-a4b:free",
         "provider": "crowllm",
-        "used": 126
+        "used": 131
       },
       {
         "cap": 300,
@@ -2429,7 +2503,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 126
+        "used": 128
       },
       {
         "cap": 300,
@@ -2469,7 +2543,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 292
+        "used": 293
       },
       {
         "cap": 300,
@@ -2493,7 +2567,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 38
+        "used": 39
       },
       {
         "cap": 300,
@@ -2573,7 +2647,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-chimerax:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -2581,7 +2655,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-darksoul:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -2589,7 +2663,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-luminous:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -2597,7 +2671,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-moonlight:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -2605,7 +2679,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-musica:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -2613,7 +2687,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-meromero:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -2621,7 +2695,7 @@
         "healthy": true,
         "model": "minimax-m3.1-flash:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 200,
@@ -2629,7 +2703,7 @@
         "healthy": true,
         "model": "muse-glimmer-30b:free",
         "provider": "routeway",
-        "used": 155
+        "used": 158
       },
       {
         "cap": 50,
@@ -2685,7 +2759,7 @@
         "healthy": true,
         "model": "gpt-6.2-sol",
         "provider": "egg-krphp",
-        "used": 522
+        "used": 527
       },
       {
         "cap": 3000,
@@ -2693,7 +2767,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -2701,7 +2775,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -2709,7 +2783,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -2717,7 +2791,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -2725,7 +2799,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -2733,7 +2807,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -2741,7 +2815,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -2749,7 +2823,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -2757,7 +2831,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -2765,7 +2839,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -2773,7 +2847,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 3000,
@@ -2781,7 +2855,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 2757
+        "used": 2759
       },
       {
         "cap": 200000,
@@ -3399,23 +3473,35 @@
   },
   "recent_completions": [
     {
-      "age_sec": 25,
+      "age_sec": 5,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T23:53:20Z",
+      "completed_at": "2026-11-23T23:56:10Z",
       "completed_by": "pool-optimization",
       "completed_by_zh": "池优化",
-      "completed_ts_source": "result.txt",
+      "completed_ts_source": "done",
       "task_id": "clou-017",
       "task_no": 17,
       "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 529,
+      "age_sec": 6,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-23T23:56:10Z",
+      "completed_by": "pool-optimization-seat-1-9219-997b6532",
+      "completed_by_zh": "池优化 席位9219",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-054",
+      "task_no": 54,
+      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 10,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T23:44:57Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_at": "2026-11-23T23:56:05Z",
+      "completed_by": "float",
+      "completed_by_zh": "机动",
       "completed_ts_source": "done",
       "task_id": "clou-018",
       "task_no": 18,
@@ -3423,7 +3509,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 767,
+      "age_sec": 917,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T23:40:59Z",
       "completed_by": null,
@@ -3435,19 +3521,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 1018,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-23T23:36:47Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
-      "task_id": "pool-054",
-      "task_no": 54,
-      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 8363,
+      "age_sec": 8513,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:34:23Z",
       "completed_by": null,
@@ -3459,7 +3533,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 32567,
+      "age_sec": 32717,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3471,7 +3545,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 32575,
+      "age_sec": 32725,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3483,7 +3557,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 32620,
+      "age_sec": 32770,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3495,7 +3569,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 35932,
+      "age_sec": 36082,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3507,7 +3581,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 36686,
+      "age_sec": 36836,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
@@ -3527,18 +3601,18 @@
   },
   "workers": {
     "by_model": {
-      "token-harbor/deepseek-v4-flash:free": 2
+      "groq/allam-2-7b": 2
     },
     "running": [
       {
-        "model": "token-harbor/deepseek-v4-flash:free",
-        "pid": 8564,
-        "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
+        "model": "groq/allam-2-7b",
+        "pid": 9596,
+        "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
       },
       {
-        "model": "token-harbor/deepseek-v4-flash:free",
-        "pid": 8565,
-        "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
+        "model": "groq/allam-2-7b",
+        "pid": 9597,
+        "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
       }
     ],
     "total": 2
@@ -3546,26 +3620,26 @@
   "workers_detail": [
     {
       "count": 2,
-      "model": "token-harbor/deepseek-v4-flash:free"
+      "model": "groq/allam-2-7b"
     }
   ],
   "workers_running": [
     {
-      "model": "token-harbor/deepseek-v4-flash:free",
-      "pid": 8564,
-      "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
+      "model": "groq/allam-2-7b",
+      "pid": 9596,
+      "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
     },
     {
-      "model": "token-harbor/deepseek-v4-flash:free",
-      "pid": 8565,
-      "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
+      "model": "groq/allam-2-7b",
+      "pid": 9597,
+      "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
     }
   ],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=496c8e6979ce"
+        "latest": "- key=5478ed3a9e48"
       },
       "status": {
         "exists": true,
@@ -3588,7 +3662,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] (executed-by pool-optimization failed 2026-11-23T23:22:39Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] (claimed-by float 2026-11-23T23:55:39Z) (executed-by float failed 2026-11-23T23:56:06Z)"
           }
         ],
         "open": 5
@@ -3621,9 +3695,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-23T23:42:17Z"
+        "tasks_open": 2,
+        "tasks_total": 2,
+        "updated": "2026-11-23T23:56:09Z"
       },
       "tasks": {
         "done": 61,
@@ -3635,7 +3709,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z ruling A) [est:45m] | Contract (3 segments): (1) worker edits a copy inside the task dir out/pool-059/; (2) production merge is a PATCH against production manager.py, applied by the pool-optimization manager (named owner), no parallel rewrite; (3) acceptance requires production-path evidence: a real help-failure cycle whose help-cooldown.json entry carries the new field and a later dispatch log line showing the exclusion. Change spec: when a help attempt fails and record_help_failure writes the cooldown entry, also write providers: string[] = the providers actually attempted this round, taken from the dispatch/attempt context (never parsed from reason text). dispatch_task / help candidate selection reads that field for the task: exclude every entry of those providers while the cooldown is active; if exclusion empties the candidate set, fall back to same-provider with a WARN log line (do not block). The operations line's last_up concept is merged into this field - no separate field, no rate threshold (boss rejected the 0.6 threshold as a guessed number). Metrics: cross-provider re-dispatch success rate inside cooldown windows, baseline 0/0 (new metric), target >=90% at the 2026-11-29 digest; security line's cross-check rides the same digest: providers fields joined against attempt logs, any mismatch is a finding. Recheck 2026-11-29. — BOSS UNFREEZE 2026-11-23: the failure was a goose action-cap truncation mid-work, not a task defect; the work copy out/pool-059/manager.py was modified AFTER the failure stamp. Resume from that copy; do not restart from scratch. — MEETING AMENDMENT 2026-11-23 (help-mechanism meeting ruling 1, transcript meetings/20261123T044829Z.md): (a) failure classification is written AT record time in record_help_failure: class in {acceptance, selftest, upstream} alongside the providers field; (b) backfill the 19 existing help-cooldown.json records from the pool-072 datapack (out/pool-060/digest-datapack.md) — records that cannot be classified from evidence are marked unknown, never guessed; (c) EFFECT MEASUREMENT (security challenge, adopted): every help dispatch records dispatch timestamp + target task id in its help event; the pool line watch re-reads the target board after 2 of the helped line's manager cycles and writes help.advanced or help.no_advance — \"advanced\" means the target task changed state (claim/start/settle) inside the window; (d) metrics added: classification coverage 19/19 by 2026-11-30; advancement rate baseline from the decomposition task, target >=80%; recheck 2026-12-03 digest. — BOSS AMENDMENT 2 2026-11-23 (IAO distillation): the advancement write-backs aggregate per HELPER MODEL into the existing digest pool-health face (helper model -> dispatched / advanced / no_advance), so repeat no-advance helpers are deprioritized through the existing bandit shadow scores. No new analytics module; no busy-rate metric anywhere in the system. — BOSS AMENDMENT 3 2026-11-23 (from the accepted pool-085 decomposition): the help.completed writer must propagate assigner + dispatch_path (idle_sweep | reinforce_ticket | manual) + dispatch_timestamp from the dispatch decision into the event (extend the writer's allowed fields or encode in evidence_pointer); same-(helped,task) echoes from multiple helper lines must collapse or be marked echo; writer selftests must NEVER write to the production stream with event_class real (use a drill stream). Acceptance: the next 10 production help events all carry the three fields and zero selftest rows appear in the production stream. (executed-by security failed 2026-11-23T06:56:35Z)"
+            "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z ruling A) [est:45m] | Contract (3 segments): (1) worker edits a copy inside the task dir out/pool-059/; (2) production merge is a PATCH against production manager.py, applied by the pool-optimization manager (named owner), no parallel rewrite; (3) acceptance requires production-path evidence: a real help-failure cycle whose help-cooldown.json entry carries the new field and a later dispatch log line showing the exclusion. Change spec: when a help attempt fails and record_help_failure writes the cooldown entry, also write providers: string[] = the providers actually attempted this round, taken from the dispatch/attempt context (never parsed from reason text). dispatch_task / help candidate selection reads that field for the task: exclude every entry of those providers while the cooldown is active; if exclusion empties the candidate set, fall back to same-provider with a WARN log line (do not block). The operations line's last_up concept is merged into this field - no separate field, no rate threshold (boss rejected the 0.6 threshold as a guessed number). Metrics: cross-provider re-dispatch success rate inside cooldown windows, baseline 0/0 (new metric), target >=90% at the 2026-11-29 digest; security line's cross-check rides the same digest: providers fields joined against attempt logs, any mismatch is a finding. Recheck 2026-11-29. — BOSS UNFREEZE 2026-11-23: the failure was a goose action-cap truncation mid-work, not a task defect; the work copy out/pool-059/manager.py was modified AFTER the failure stamp. Resume from that copy; do not restart from scratch. — MEETING AMENDMENT 2026-11-23 (help-mechanism meeting ruling 1, transcript meetings/20261123T044829Z.md): (a) failure classification is written AT record time in record_help_failure: class in {acceptance, selftest, upstream} alongside the providers field; (b) backfill the 19 existing help-cooldown.json records from the pool-072 datapack (out/pool-060/digest-datapack.md) — records that cannot be classified from evidence are marked unknown, never guessed; (c) EFFECT MEASUREMENT (security challenge, adopted): every help dispatch records dispatch timestamp + target task id in its help event; the pool line watch re-reads the target board after 2 of the helped line's manager cycles and writes help.advanced or help.no_advance — \"advanced\" means the target task changed state (claim/start/settle) inside the window; (d) metrics added: classification coverage 19/19 by 2026-11-30; advancement rate baseline from the decomposition task, target >=80%; recheck 2026-12-03 digest. — BOSS AMENDMENT 2 2026-11-23 (IAO distillation): the advancement write-backs aggregate per HELPER MODEL into the existing digest pool-health face (helper model -> dispatched / advanced / no_advance), so repeat no-advance helpers are deprioritized through the existing bandit shadow scores. No new analytics module; no busy-rate metric anywhere in the system. — BOSS AMENDMENT 3 2026-11-23 (from the accepted pool-085 decomposition): the help.completed writer must propagate assigner + dispatch_path (idle_sweep | reinforce_ticket | manual) + dispatch_timestamp from the dispatch decision into the event (extend the writer's allowed fields or encode in evidence_pointer); same-(helped,task) echoes from multiple helper lines must collapse or be marked echo; writer selftests must NEVER write to the production stream with event_class real (use a drill stream). Acceptance: the next 10 production help events all carry the three fields and zero selftest rows appear in the production stream. (executed-by security failed 2026-11-23T06:56:35Z) (claimed-by pool-optimization-seat-1-9219-997b6532 2026-11-23T23:55:39Z)"
           },
           {
             "full": true,
