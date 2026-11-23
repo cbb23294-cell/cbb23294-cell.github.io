@@ -1,63 +1,75 @@
 {
   "ok": true,
-  "generatedAt": "2026-11-23T17:21:17Z",
+  "generatedAt": "2026-11-23T19:25:45Z",
   "judged": true,
   "round": "freebie-scan",
-  "deals": [],
+  "deals": [
+    {
+      "title": "Mark of the Deep",
+      "summary": "《Mark of the Deep》限时免费领取，原价 ¥5500。",
+      "category": "游戏",
+      "sourceKey": "epic",
+      "url": "https://store.epicgames.com/zh-CN/p/mark-of-the-deep-f7dc08",
+      "originalPriceText": "¥5500",
+      "expiresAt": "2026-11-26T16:00:00Z",
+      "conditions": [],
+      "isHot": true
+    }
+  ],
   "sourceResults": [
     {
       "sourceKey": "linuxdo",
       "status": "failed",
       "newCount": 0,
-      "error": "无新增"
+      "error": "端点失效：https://linux.do/c/welfare/36.rss：连接失败：Remote end closed connection without response"
     },
     {
       "sourceKey": "v2ex",
-      "status": "ok",
+      "status": "failed",
       "newCount": 0,
-      "error": "无新增"
+      "error": "端点失效：https://www.v2ex.com/feed/promotions.xml：连接失败：chunked stream ended with no data"
     },
     {
       "sourceKey": "nodeseek",
       "status": "failed",
       "newCount": 0,
-      "error": "无新增"
+      "error": "被墙：被墙（未取到）：https://rss.nodeseek.com/：连接失败：Remote end closed connection without response；https://www.nodeseek.com/：HTTP 403（疑似 Cloudflare/登录墙）"
     },
     {
       "sourceKey": "hostloc",
       "status": "ok",
       "newCount": 0,
-      "error": "无新增"
+      "error": "搜索索引发现：本轮无符合条目"
     },
     {
       "sourceKey": "epic",
-      "status": "failed",
-      "newCount": 0,
-      "error": "无新增"
+      "status": "ok",
+      "newCount": 1,
+      "error": "已抓到 · 数据未公示：1 条限时免费游戏，取原价与截止时间。"
     },
     {
       "sourceKey": "appinn",
       "status": "ok",
       "newCount": 0,
-      "error": "无新增"
+      "error": "抓到但无符合条目"
     },
     {
       "sourceKey": "ghxi",
-      "status": "failed",
+      "status": "ok",
       "newCount": 0,
-      "error": "无新增"
+      "error": "抓到但无符合条目"
     },
     {
       "sourceKey": "iplaysoft",
       "status": "ok",
       "newCount": 0,
-      "error": "无新增"
+      "error": "抓到但无符合条目"
     },
     {
       "sourceKey": "github",
-      "status": "failed",
+      "status": "ok",
       "newCount": 0,
-      "error": "无新增"
+      "error": "无新增：3 个清单更新均为聚合列表，未单列具体 $0 条目。"
     }
   ],
   "hostlocQueries": [
