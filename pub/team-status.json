@@ -2,15 +2,15 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "- key=d075beee6857",
+      "escalation_latest": "- key=9fc03e3f7e2d",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th",
         "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       ],
-      "open": 4,
-      "status_updated": "2026-11-23T07:27:17Z",
-      "total": 19,
+      "open": 6,
+      "status_updated": "2026-11-23T07:36:46Z",
+      "total": 21,
       "workstream": "cloud-script-migration"
     },
     {
@@ -33,7 +33,7 @@
         "[judgment] [boss-accept] Thompson bandit graduation grading — run the FORMAL G1–"
       ],
       "open": 1,
-      "status_updated": "2026-11-23T07:33:41Z",
+      "status_updated": "2026-11-23T07:37:11Z",
       "total": 13,
       "workstream": "security"
     },
@@ -51,16 +51,20 @@
     {
       "done": 10,
       "escalation_latest": "- key=520cb7f0c761",
-      "next_open": [],
-      "open": 0,
-      "status_updated": "2026-11-23T07:22:00Z",
-      "total": 10,
+      "next_open": [
+        "[code] [boss-accept] ai-e-du CrowLLM 活数根治（升级会 20261123T073315Z 裁定 3）：卡面 claimNot",
+        "[judgment] [boss-accept] ai-e-du 三动作 + refreshdaily 调用方审计（升级会裁定 4，2026-11-28 前交）",
+        "[code] [boss-accept] ai-e-du 布局合并 5 面 -> 4 面（升级会裁定 6，走空间构建通道 artifact edit）：轮换面并"
+      ],
+      "open": 4,
+      "status_updated": "2026-11-23T07:36:46Z",
+      "total": 14,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-23T07:33:41Z",
-  "generated_at": "2026-11-23T07:35:05Z",
-  "generated_at_utc": "2026-11-23T07:35:05Z",
+  "content_latest_at": "2026-11-23T07:37:11Z",
+  "generated_at": "2026-11-23T07:37:30Z",
+  "generated_at_utc": "2026-11-23T07:37:30Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -154,7 +158,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 788
+        "used": 813
       },
       {
         "cap": 300,
@@ -514,7 +518,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 14
+        "used": 18
       },
       {
         "cap": 300,
@@ -570,7 +574,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 300,
@@ -698,7 +702,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 17
+        "used": 19
       },
       {
         "cap": 300,
@@ -706,7 +710,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 300,
@@ -738,7 +742,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 201
+        "used": 202
       },
       {
         "cap": 300,
@@ -794,7 +798,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 12
+        "used": 19
       },
       {
         "cap": 300,
@@ -1647,7 +1651,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 788
+        "used": 813
       },
       {
         "cap": 300,
@@ -2007,7 +2011,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 14
+        "used": 18
       },
       {
         "cap": 300,
@@ -2063,7 +2067,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 300,
@@ -2191,7 +2195,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 17
+        "used": 19
       },
       {
         "cap": 300,
@@ -2199,7 +2203,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 300,
@@ -2231,7 +2235,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 201
+        "used": 202
       },
       {
         "cap": 300,
@@ -2287,7 +2291,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 12
+        "used": 19
       },
       {
         "cap": 300,
@@ -3118,14 +3122,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=d075beee6857"
+        "latest": "- key=9fc03e3f7e2d"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 3,
         "tasks_total": 3,
-        "updated": "2026-11-23T07:27:17Z"
+        "updated": "2026-11-23T07:36:46Z"
       },
       "tasks": {
         "done": 15,
@@ -3144,7 +3148,7 @@
             "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
           }
         ],
-        "open": 4
+        "open": 6
       }
     },
     "operations": {
@@ -3213,7 +3217,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-23T07:33:41Z"
+        "updated": "2026-11-23T07:37:11Z"
       },
       "tasks": {
         "done": 12,
@@ -3235,15 +3239,28 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-23T07:22:00Z"
+        "tasks_open": 4,
+        "tasks_total": 4,
+        "updated": "2026-11-23T07:36:46Z"
       },
       "tasks": {
         "done": 10,
         "exists": true,
-        "next_open": [],
-        "open": 0
+        "next_open": [
+          {
+            "full": true,
+            "title": "[code] [boss-accept] ai-e-du CrowLLM 活数根治（升级会 20261123T073315Z 裁定 3）：卡面 claimNot"
+          },
+          {
+            "full": true,
+            "title": "[judgment] [boss-accept] ai-e-du 三动作 + refreshdaily 调用方审计（升级会裁定 4，2026-11-28 前交）"
+          },
+          {
+            "full": true,
+            "title": "[code] [boss-accept] ai-e-du 布局合并 5 面 -> 4 面（升级会裁定 6，走空间构建通道 artifact edit）：轮换面并"
+          }
+        ],
+        "open": 4
       }
     }
   }
