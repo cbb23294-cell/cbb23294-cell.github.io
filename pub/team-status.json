@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T21:53:06Z",
+    "activity_generated_at": "2026-11-23T21:55:26Z",
     "empty_reasons": {
       "claimed_now": "no open board task carries a live claim record",
       "recent_completions": null,
@@ -16,7 +16,7 @@
       "cycle_started_source": null,
       "elapsed": null,
       "elapsed_sec": null,
-      "last_cycle_ended": "2026-11-23T21:53:05Z",
+      "last_cycle_ended": "2026-11-23T21:55:24Z",
       "name_zh": "云脚本迁移",
       "state": "idle",
       "workstream": "cloud-script-migration"
@@ -188,8 +188,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T21:53:06Z",
-  "generated_at_utc": "2026-11-23T21:53:06Z",
+  "generated_at": "2026-11-23T21:55:26Z",
+  "generated_at_utc": "2026-11-23T21:55:26Z",
   "live_pi_workers": {
     "by_model": {
       "groq/allam-2-7b": 2
@@ -369,7 +369,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 227
+        "used": 228
       },
       {
         "cap": 1000,
@@ -377,7 +377,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 266
+        "used": 267
       },
       {
         "cap": 1000,
@@ -385,7 +385,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 251
+        "used": 252
       },
       {
         "cap": 7000,
@@ -393,7 +393,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 1994
+        "used": 1996
       },
       {
         "cap": 300,
@@ -617,7 +617,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 213
+        "used": 214
       },
       {
         "cap": 300,
@@ -625,7 +625,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 226
+        "used": 227
       },
       {
         "cap": 300,
@@ -673,7 +673,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 179
+        "used": 180
       },
       {
         "cap": 300,
@@ -1918,7 +1918,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 227
+        "used": 228
       },
       {
         "cap": 1000,
@@ -1926,7 +1926,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 266
+        "used": 267
       },
       {
         "cap": 1000,
@@ -1934,7 +1934,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 251
+        "used": 252
       },
       {
         "cap": 7000,
@@ -1942,7 +1942,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 1994
+        "used": 1996
       },
       {
         "cap": 300,
@@ -2166,7 +2166,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 213
+        "used": 214
       },
       {
         "cap": 300,
@@ -2174,7 +2174,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 226
+        "used": 227
       },
       {
         "cap": 300,
@@ -2222,7 +2222,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 179
+        "used": 180
       },
       {
         "cap": 300,
@@ -3368,9 +3368,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 0,
+      "age_sec": 1,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T21:53:05Z",
+      "completed_at": "2026-11-23T21:55:24Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
@@ -3380,7 +3380,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 443,
+      "age_sec": 583,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:45:42Z",
       "completed_by": null,
@@ -3392,7 +3392,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 781,
+      "age_sec": 921,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T21:40:04Z",
       "completed_by": null,
@@ -3404,7 +3404,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 809,
+      "age_sec": 949,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:39:36Z",
       "completed_by": null,
@@ -3416,7 +3416,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 1122,
+      "age_sec": 1262,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:34:23Z",
       "completed_by": null,
@@ -3428,7 +3428,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 25327,
+      "age_sec": 25467,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3440,7 +3440,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 25335,
+      "age_sec": 25475,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3452,7 +3452,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 25380,
+      "age_sec": 25520,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3464,7 +3464,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 28691,
+      "age_sec": 28831,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3476,7 +3476,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 29445,
+      "age_sec": 29585,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
