@@ -1,7 +1,7 @@
 {
   "ok": true,
   "reason": "",
-  "generated_at": "2026-11-23T05:27:12Z",
+  "generated_at": "2026-11-23T07:23:13Z",
   "round": "ai-quota-refresh",
   "findings": [
     {
@@ -19,7 +19,25 @@
     {
       "guid": "refresh-2026-11-23-fudan-moss",
       "providerName": "复旦 MOSS",
-      "changeText": "MOSS-Live-1.0 结束限时免费并开始按 ¥0.15/分钟计费（依据：复旦 MOSS 变更日志）",
+      "changeText": "`moss-live-1.0` 结束限时免费并开始按 ¥0.15/分钟计费（依据：智谱 GLM 变更日志）",
+      "changeDate": "2026-11-23"
+    },
+    {
+      "guid": "refresh-2026-11-23-mistral",
+      "providerName": "Mistral AI",
+      "changeText": "Vibe 订阅套餐原来标注的随附 API credits（$25.5/月、$15/月两档）已从定价页删除，改为套餐额度用尽后按 API 价另行购买 PAYG credits（依据：Mistral AI 变更日志）",
+      "changeDate": "2026-11-23"
+    },
+    {
+      "guid": "refresh-2026-11-23-unisound-shanhai",
+      "providerName": "云知声 Token Hub",
+      "changeText": "U Plan 限时升级折扣由 5 折（低至 29.5 元/月）调整为 7 折（低至 41.3 元/月）（依据：云知声 Token Hub 变更日志）",
+      "changeDate": "2026-11-23"
+    },
+    {
+      "guid": "refresh-2026-11-23-nango",
+      "providerName": "Nango",
+      "changeText": "官方页面新增了「Startup program」限时活动：符合资格的初创最高可获 $10,000 Nango credits，并可免费使用 Growth add-on 六个月（依据：Nango 变更日志）",
       "changeDate": "2026-11-23"
     },
     {
@@ -27,14 +45,38 @@
       "providerName": "Qoder",
       "changeText": "每日领取 100 Credits 活动不再向 Free 用户开放，仅限 Pro 试用期及个人付费用户领取（依据：Qoder 变更日志）",
       "changeDate": "2026-11-23"
+    },
+    {
+      "guid": "refresh-2026-11-23-google-gemini",
+      "providerName": "Google Gemini",
+      "changeText": "Gemini 4 Neon 与 Genie 4（models/genie-4）不支持免费层（依据：Google AI Studio 免费层）",
+      "changeDate": "2026-11-23"
+    },
+    {
+      "guid": "refresh-2026-11-23-deepseek",
+      "providerName": "DeepSeek",
+      "changeText": "更新 Search 与 Fetch API 计费规则：模型调用触发的服务端搜索与网页抓取工具本身免收调用费，改为仅按 Token 计费，API 计费单位改为每 1,000 次成功请求 5 元（依据：DeepSeek 变更日志）",
+      "changeDate": "2026-11-23"
+    },
+    {
+      "guid": "refresh-2026-11-23-stepfun",
+      "providerName": "StepFun",
+      "changeText": "StepAudio 3 系列限时免费截止时间由北京时间 2026-11-17 11:59:59 顺延至 2026-11-23 11:59:59（12:00:00 起按新价格计费）（依据：StepFun 变更日志）",
+      "changeDate": "2026-11-23"
+    },
+    {
+      "guid": "refresh-2026-11-23-relace",
+      "providerName": "Relace",
+      "changeText": "官方定价页已改为全部模型按 token 计费（无订阅、无最低消费），不再出现免费套餐（free tier）与 compact/apply/rank/search 免费编程模型，模型阵容换成 DeepSeek V4、Kimi K3、GLM 5.3 等通用模型（依据：Relace 变更日志）",
+      "changeDate": "2026-11-23"
     }
   ],
-  "findingsCount": 4,
+  "findingsCount": 11,
   "no_change": false,
   "warnings": [
-    "fetch: changes feed unavailable: IncompleteRead(32768 bytes read, 85338 more expected)",
+    "fetch: changes feed unavailable: IncompleteRead(49152 bytes read, 68954 more expected)",
     "verify: 页面抓取失败 OpenRouter 免费模型与定价：HTTP Error 403: Forbidden",
-    "verify: 页面抓取失败 Groq 限速文档：HTTP Error 403: Forbidden"
+    "verify: 页面抓取失败 Groq 限速文档：Remote end closed connection without response"
   ],
   "sources": {
     "openrouter": {
@@ -47,7 +89,7 @@
     },
     "changesFeed": {
       "ok": false,
-      "error": "IncompleteRead(32768 bytes read, 85338 more expected)"
+      "error": "IncompleteRead(49152 bytes read, 68954 more expected)"
     }
   },
   "pool": {
@@ -92,7 +134,7 @@
       "url": "https://console.groq.com/docs/rate-limits",
       "ok": false,
       "chars": 0,
-      "error": "HTTP Error 403: Forbidden"
+      "error": "Remote end closed connection without response"
     },
     {
       "name": "商汤日日新 Token Plan",
