@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T17:56:32Z",
+    "activity_generated_at": "2026-11-23T17:59:07Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -10,20 +10,20 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 4,
+      "claimed_count": 2,
       "current_task": {
-        "claimed_at": "2026-11-23T17:56:11Z",
-        "claimed_by": "cloud-script-migration-seat-1-9228-0365c28c",
-        "claimed_by_zh": "云脚本迁移 席位9228",
-        "claimed_for": "21秒",
-        "task_id": "clou-019",
-        "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…"
+        "claimed_at": "2026-11-23T17:58:41Z",
+        "claimed_by": "pool-optimization",
+        "claimed_by_zh": "池优化",
+        "claimed_for": "26秒",
+        "task_id": "clou-017",
+        "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…"
       },
-      "cycle_started_at": "2026-11-23T17:55:40Z",
+      "cycle_started_at": "2026-11-23T17:56:11Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "52秒",
-      "elapsed_sec": 52,
-      "last_cycle_ended": "2026-11-23T17:56:31Z",
+      "elapsed": "2分钟",
+      "elapsed_sec": 176,
+      "last_cycle_ended": "2026-11-23T17:58:32Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,51 +99,29 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 52,
-          "claimed_at": "2026-11-23T17:55:40Z",
-          "claimed_by": "pool-optimization",
-          "claimed_by_zh": "池优化",
-          "claimed_for": "52秒",
-          "task_id": "clou-017",
-          "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
-          "workstream": "cloud-script-migration"
-        },
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 21,
+          "claimed_age_sec": 176,
           "claimed_at": "2026-11-23T17:56:11Z",
           "claimed_by": "cloud-script-migration-seat-1-9228-0365c28c",
           "claimed_by_zh": "云脚本迁移 席位9228",
-          "claimed_for": "21秒",
-          "task_id": "clou-016",
-          "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
-          "workstream": "cloud-script-migration"
-        },
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 21,
-          "claimed_at": "2026-11-23T17:56:11Z",
-          "claimed_by": "cloud-script-migration-seat-1-9228-0365c28c",
-          "claimed_by_zh": "云脚本迁移 席位9228",
-          "claimed_for": "21秒",
-          "task_id": "clou-018",
-          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-          "workstream": "cloud-script-migration"
-        },
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 21,
-          "claimed_at": "2026-11-23T17:56:11Z",
-          "claimed_by": "cloud-script-migration-seat-1-9228-0365c28c",
-          "claimed_by_zh": "云脚本迁移 席位9228",
-          "claimed_for": "21秒",
+          "claimed_for": "2分钟",
           "task_id": "clou-019",
           "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 26,
+          "claimed_at": "2026-11-23T17:58:41Z",
+          "claimed_by": "pool-optimization",
+          "claimed_by_zh": "池优化",
+          "claimed_for": "26秒",
+          "task_id": "clou-017",
+          "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
           "workstream": "cloud-script-migration"
         }
       ],
       "done": 17,
-      "escalation_latest": "runner exit: 0",
+      "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "云脚本迁移",
       "next_open": [
         "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
@@ -151,7 +129,7 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 5,
-      "status_updated": "2026-11-23T17:55:08Z",
+      "status_updated": "2026-11-23T17:57:10Z",
       "total": 22,
       "workstream": "cloud-script-migration"
     },
@@ -209,55 +187,33 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 52,
-      "claimed_at": "2026-11-23T17:55:40Z",
-      "claimed_by": "pool-optimization",
-      "claimed_by_zh": "池优化",
-      "claimed_for": "52秒",
-      "task_id": "clou-017",
-      "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 21,
+      "claimed_age_sec": 176,
       "claimed_at": "2026-11-23T17:56:11Z",
       "claimed_by": "cloud-script-migration-seat-1-9228-0365c28c",
       "claimed_by_zh": "云脚本迁移 席位9228",
-      "claimed_for": "21秒",
-      "task_id": "clou-016",
-      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 21,
-      "claimed_at": "2026-11-23T17:56:11Z",
-      "claimed_by": "cloud-script-migration-seat-1-9228-0365c28c",
-      "claimed_by_zh": "云脚本迁移 席位9228",
-      "claimed_for": "21秒",
-      "task_id": "clou-018",
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 21,
-      "claimed_at": "2026-11-23T17:56:11Z",
-      "claimed_by": "cloud-script-migration-seat-1-9228-0365c28c",
-      "claimed_by_zh": "云脚本迁移 席位9228",
-      "claimed_for": "21秒",
+      "claimed_for": "2分钟",
       "task_id": "clou-019",
       "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
       "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 26,
+      "claimed_at": "2026-11-23T17:58:41Z",
+      "claimed_by": "pool-optimization",
+      "claimed_by_zh": "池优化",
+      "claimed_for": "26秒",
+      "task_id": "clou-017",
+      "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
+      "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-23T17:55:13Z",
+  "content_latest_at": "2026-11-23T17:57:10Z",
   "escalations_human": {
     "cloud-script-migration": {
-      "dropped_hash_keys": 206,
+      "dropped_hash_keys": 207,
       "exists": true,
-      "latest": "runner exit: 0"
+      "latest": "level: manager (retry budget exhausted; lowest level could not fix it)"
     },
     "float": {
       "dropped_hash_keys": 208,
@@ -285,12 +241,11 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T17:56:32Z",
-  "generated_at_utc": "2026-11-23T17:56:32Z",
+  "generated_at": "2026-11-23T17:59:08Z",
+  "generated_at_utc": "2026-11-23T17:59:08Z",
   "live_pi_workers": {
     "by_model": {
-      "groq/allam-2-7b": 2,
-      "token-harbor/deepseek-v4-flash:free": 2
+      "groq/allam-2-7b": 2
     },
     "running": [
       {
@@ -302,19 +257,9 @@
         "model": "groq/allam-2-7b",
         "pid": 10347,
         "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
-      },
-      {
-        "model": "token-harbor/deepseek-v4-flash:free",
-        "pid": 11357,
-        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
-      },
-      {
-        "model": "token-harbor/deepseek-v4-flash:free",
-        "pid": 11358,
-        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
       }
     ],
-    "total": 4
+    "total": 2
   },
   "managers": [
     {
@@ -477,7 +422,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 134
+        "used": 135
       },
       {
         "cap": 1000,
@@ -501,7 +446,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 567
+        "used": 580
       },
       {
         "cap": 300,
@@ -717,7 +662,7 @@
         "healthy": true,
         "model": "GLM-5.3-Flash",
         "provider": "amd-tokenlab",
-        "used": 167
+        "used": 172
       },
       {
         "cap": 300,
@@ -725,7 +670,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 88
+        "used": 89
       },
       {
         "cap": 300,
@@ -749,7 +694,7 @@
         "healthy": true,
         "model": "crow-roleplay:free",
         "provider": "crowllm",
-        "used": 56
+        "used": 59
       },
       {
         "cap": 300,
@@ -765,7 +710,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1-uncensored:free",
         "provider": "crowllm",
-        "used": 93
+        "used": 96
       },
       {
         "cap": 300,
@@ -773,7 +718,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 33
+        "used": 34
       },
       {
         "cap": 300,
@@ -789,7 +734,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
         "provider": "crowllm",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 300,
@@ -797,7 +742,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-bolt-e4b:free",
         "provider": "crowllm",
-        "used": 32
+        "used": 33
       },
       {
         "cap": 300,
@@ -805,7 +750,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
         "provider": "crowllm",
-        "used": 41
+        "used": 43
       },
       {
         "cap": 300,
@@ -813,7 +758,7 @@
         "healthy": true,
         "model": "nemotron-3.5-super-vl:free",
         "provider": "crowllm",
-        "used": 43
+        "used": 44
       },
       {
         "cap": 300,
@@ -821,7 +766,7 @@
         "healthy": true,
         "model": "jais-3-mova-36b-a4b:free",
         "provider": "crowllm",
-        "used": 33
+        "used": 35
       },
       {
         "cap": 300,
@@ -837,7 +782,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b-uncensored:free",
         "provider": "crowllm",
-        "used": 36
+        "used": 37
       },
       {
         "cap": 300,
@@ -845,7 +790,7 @@
         "healthy": true,
         "model": "particle-1:free",
         "provider": "crowllm",
-        "used": 31
+        "used": 32
       },
       {
         "cap": 300,
@@ -853,7 +798,7 @@
         "healthy": true,
         "model": "step-5-preview:free",
         "provider": "crowllm",
-        "used": 22
+        "used": 23
       },
       {
         "cap": 300,
@@ -861,7 +806,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 42
+        "used": 43
       },
       {
         "cap": 300,
@@ -869,7 +814,7 @@
         "healthy": true,
         "model": "grok-4.7-fast:free",
         "provider": "crowllm",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 300,
@@ -877,7 +822,7 @@
         "healthy": true,
         "model": "gemma-4-31b-it:free",
         "provider": "crowllm",
-        "used": 43
+        "used": 44
       },
       {
         "cap": 300,
@@ -885,7 +830,7 @@
         "healthy": true,
         "model": "glm-4.6v-flash:free",
         "provider": "crowllm",
-        "used": 52
+        "used": 53
       },
       {
         "cap": 300,
@@ -909,7 +854,7 @@
         "healthy": true,
         "model": "dots-3-note-preview:free",
         "provider": "crowllm",
-        "used": 34
+        "used": 35
       },
       {
         "cap": 300,
@@ -917,7 +862,7 @@
         "healthy": true,
         "model": "flint-v1.0:free",
         "provider": "crowllm",
-        "used": 23
+        "used": 24
       },
       {
         "cap": 300,
@@ -933,7 +878,7 @@
         "healthy": true,
         "model": "llama-3.3-70b-instruct:free",
         "provider": "crowllm",
-        "used": 41
+        "used": 42
       },
       {
         "cap": 300,
@@ -949,7 +894,7 @@
         "healthy": true,
         "model": "xing4.0-29b-a4b:free",
         "provider": "crowllm",
-        "used": 40
+        "used": 41
       },
       {
         "cap": 300,
@@ -957,7 +902,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 51
+        "used": 52
       },
       {
         "cap": 300,
@@ -989,7 +934,7 @@
         "healthy": true,
         "model": "qwen-qwen2-5-1-5b-instruct",
         "provider": "packet-ai",
-        "used": 111
+        "used": 112
       },
       {
         "cap": 300,
@@ -2026,7 +1971,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 134
+        "used": 135
       },
       {
         "cap": 1000,
@@ -2050,7 +1995,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 567
+        "used": 580
       },
       {
         "cap": 300,
@@ -2266,7 +2211,7 @@
         "healthy": true,
         "model": "GLM-5.3-Flash",
         "provider": "amd-tokenlab",
-        "used": 167
+        "used": 172
       },
       {
         "cap": 300,
@@ -2274,7 +2219,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 88
+        "used": 89
       },
       {
         "cap": 300,
@@ -2298,7 +2243,7 @@
         "healthy": true,
         "model": "crow-roleplay:free",
         "provider": "crowllm",
-        "used": 56
+        "used": 59
       },
       {
         "cap": 300,
@@ -2314,7 +2259,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1-uncensored:free",
         "provider": "crowllm",
-        "used": 93
+        "used": 96
       },
       {
         "cap": 300,
@@ -2322,7 +2267,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 33
+        "used": 34
       },
       {
         "cap": 300,
@@ -2338,7 +2283,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
         "provider": "crowllm",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 300,
@@ -2346,7 +2291,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-bolt-e4b:free",
         "provider": "crowllm",
-        "used": 32
+        "used": 33
       },
       {
         "cap": 300,
@@ -2354,7 +2299,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
         "provider": "crowllm",
-        "used": 41
+        "used": 43
       },
       {
         "cap": 300,
@@ -2362,7 +2307,7 @@
         "healthy": true,
         "model": "nemotron-3.5-super-vl:free",
         "provider": "crowllm",
-        "used": 43
+        "used": 44
       },
       {
         "cap": 300,
@@ -2370,7 +2315,7 @@
         "healthy": true,
         "model": "jais-3-mova-36b-a4b:free",
         "provider": "crowllm",
-        "used": 33
+        "used": 35
       },
       {
         "cap": 300,
@@ -2386,7 +2331,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b-uncensored:free",
         "provider": "crowllm",
-        "used": 36
+        "used": 37
       },
       {
         "cap": 300,
@@ -2394,7 +2339,7 @@
         "healthy": true,
         "model": "particle-1:free",
         "provider": "crowllm",
-        "used": 31
+        "used": 32
       },
       {
         "cap": 300,
@@ -2402,7 +2347,7 @@
         "healthy": true,
         "model": "step-5-preview:free",
         "provider": "crowllm",
-        "used": 22
+        "used": 23
       },
       {
         "cap": 300,
@@ -2410,7 +2355,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 42
+        "used": 43
       },
       {
         "cap": 300,
@@ -2418,7 +2363,7 @@
         "healthy": true,
         "model": "grok-4.7-fast:free",
         "provider": "crowllm",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 300,
@@ -2426,7 +2371,7 @@
         "healthy": true,
         "model": "gemma-4-31b-it:free",
         "provider": "crowllm",
-        "used": 43
+        "used": 44
       },
       {
         "cap": 300,
@@ -2434,7 +2379,7 @@
         "healthy": true,
         "model": "glm-4.6v-flash:free",
         "provider": "crowllm",
-        "used": 52
+        "used": 53
       },
       {
         "cap": 300,
@@ -2458,7 +2403,7 @@
         "healthy": true,
         "model": "dots-3-note-preview:free",
         "provider": "crowllm",
-        "used": 34
+        "used": 35
       },
       {
         "cap": 300,
@@ -2466,7 +2411,7 @@
         "healthy": true,
         "model": "flint-v1.0:free",
         "provider": "crowllm",
-        "used": 23
+        "used": 24
       },
       {
         "cap": 300,
@@ -2482,7 +2427,7 @@
         "healthy": true,
         "model": "llama-3.3-70b-instruct:free",
         "provider": "crowllm",
-        "used": 41
+        "used": 42
       },
       {
         "cap": 300,
@@ -2498,7 +2443,7 @@
         "healthy": true,
         "model": "xing4.0-29b-a4b:free",
         "provider": "crowllm",
-        "used": 40
+        "used": 41
       },
       {
         "cap": 300,
@@ -2506,7 +2451,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 51
+        "used": 52
       },
       {
         "cap": 300,
@@ -2538,7 +2483,7 @@
         "healthy": true,
         "model": "qwen-qwen2-5-1-5b-instruct",
         "provider": "packet-ai",
-        "used": 111
+        "used": 112
       },
       {
         "cap": 300,
@@ -3476,9 +3421,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 0,
+      "age_sec": 34,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T17:56:31Z",
+      "completed_at": "2026-11-23T17:58:32Z",
       "completed_by": "pool-optimization",
       "completed_by_zh": "池优化",
       "completed_ts_source": "result.txt",
@@ -3488,19 +3433,19 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 69,
+      "age_sec": 116,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T17:55:22Z",
+      "completed_at": "2026-11-23T17:57:10Z",
       "completed_by": "cloud-script-migration-seat-1-9228-0365c28c",
       "completed_by_zh": "云脚本迁移 席位9228",
-      "completed_ts_source": "result.txt",
+      "completed_ts_source": "done",
       "task_id": "clou-019",
       "task_no": 19,
       "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 84,
+      "age_sec": 239,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T17:55:07Z",
       "completed_by": "cloud-script-migration-seat-1-9228-0365c28c",
@@ -3512,7 +3457,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 424,
+      "age_sec": 579,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T17:49:27Z",
       "completed_by": "cloud-script-migration-seat-1-9228-0365c28c",
@@ -3524,7 +3469,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 468,
+      "age_sec": 623,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T17:48:43Z",
       "completed_by": null,
@@ -3536,7 +3481,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 11133,
+      "age_sec": 11288,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3548,7 +3493,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 11141,
+      "age_sec": 11296,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3560,7 +3505,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 11186,
+      "age_sec": 11341,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3572,7 +3517,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 14497,
+      "age_sec": 14653,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3584,7 +3529,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 15251,
+      "age_sec": 15406,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
@@ -3604,8 +3549,7 @@
   },
   "workers": {
     "by_model": {
-      "groq/allam-2-7b": 2,
-      "token-harbor/deepseek-v4-flash:free": 2
+      "groq/allam-2-7b": 2
     },
     "running": [
       {
@@ -3617,28 +3561,14 @@
         "model": "groq/allam-2-7b",
         "pid": 10347,
         "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
-      },
-      {
-        "model": "token-harbor/deepseek-v4-flash:free",
-        "pid": 11357,
-        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
-      },
-      {
-        "model": "token-harbor/deepseek-v4-flash:free",
-        "pid": 11358,
-        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
       }
     ],
-    "total": 4
+    "total": 2
   },
   "workers_detail": [
     {
       "count": 2,
       "model": "groq/allam-2-7b"
-    },
-    {
-      "count": 2,
-      "model": "token-harbor/deepseek-v4-flash:free"
     }
   ],
   "workers_running": [
@@ -3651,30 +3581,20 @@
       "model": "groq/allam-2-7b",
       "pid": 10347,
       "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
-    },
-    {
-      "model": "token-harbor/deepseek-v4-flash:free",
-      "pid": 11357,
-      "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
-    },
-    {
-      "model": "token-harbor/deepseek-v4-flash:free",
-      "pid": 11358,
-      "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
     }
   ],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=e2d085bda4a7"
+        "latest": "- key=452279c63278"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 3,
         "tasks_total": 3,
-        "updated": "2026-11-23T17:55:08Z"
+        "updated": "2026-11-23T17:57:10Z"
       },
       "tasks": {
         "done": 17,
@@ -3682,15 +3602,15 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second half; boss filing 2026-11-22 after [user-found] #17): install ON the BandwagonHost VPS a small script + systemd timer (5 min) that, for each of the 9 pub files (the stale-alarm manifest set + team-status.json), fetches the GitHub Pages copy and compares its payload stamp with the locally served /srv/migrate-pub copy; when GitHub is newer it replaces the served file atomically (tmp + rename, preserving ownership/permissions). Steady state runs entirely on the VPS (no SSH). The install itself is boss-relay: ONE SSH session with ControlMaster reuse - the 2026-11-22 abuse lock was caused by our own connection churn, never repeat that pattern. Acceptance (boss, from public URLs): a test payload published ONLY to GitHub appears on the primary endpoint within 2 timer cycles; before/after served stamps reported. | audit/pub-manifest-vm.json + migrate-glue/pub_mirror.py (the VM-side opposite-direction twin, live 2026-11-22) | served-stamp drill evidence [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - it was a pre-patch legacy freeze, never dispositioned; the gate now refuses every claim on this line, which is why this task sat idle. Task is executable tonight (20:00 list): claim freely.] (executed-by pool-optimization failed 2026-11-23T16:54:18Z) (claimed-by cloud-script-migration-seat-1-9228-0365c28c 2026-11-23T17:56:11Z)"
+            "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second half; boss filing 2026-11-22 after [user-found] #17): install ON the BandwagonHost VPS a small script + systemd timer (5 min) that, for each of the 9 pub files (the stale-alarm manifest set + team-status.json), fetches the GitHub Pages copy and compares its payload stamp with the locally served /srv/migrate-pub copy; when GitHub is newer it replaces the served file atomically (tmp + rename, preserving ownership/permissions). Steady state runs entirely on the VPS (no SSH). The install itself is boss-relay: ONE SSH session with ControlMaster reuse - the 2026-11-22 abuse lock was caused by our own connection churn, never repeat that pattern. Acceptance (boss, from public URLs): a test payload published ONLY to GitHub appears on the primary endpoint within 2 timer cycles; before/after served stamps reported. | audit/pub-manifest-vm.json + migrate-glue/pub_mirror.py (the VM-side opposite-direction twin, live 2026-11-22) | served-stamp drill evidence [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - it was a pre-patch legacy freeze, never dispositioned; the gate now refuses every claim on this line, which is why this task sat idle. Task is executable tonight (20:00 list): claim freely.] (claimed-by cloud-script-migration-seat-1-9228-0365c28c 2026-11-23T17:56:11Z) (completion claimed by cloud-script-migration-seat-1-9228-0365c28c 2026-11-23T17:57:11Z - pending boss acceptance)"
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du space's importCatalog action fetches this file from the two pub endpoints but NOBODY produces it (both 404) - first determine the exact payload schema importCatalog accepts (publish a one-entry probe file, observe the import result, adjust), then build a deterministic producer in migrate-glue/ that emits the verified catalog (17 entries as of 2026-11-22; updates flow from the daily verification conclusions) to migrate-glue/out/ai-quota-catalog.json (github_pub_watch publishes the GitHub leg), add the file to the InstaBox publish set and to the stale-alarm manifest (threshold_sec 129600). Acceptance: both endpoints serve the file with generatedAt < 26h old AND a production importCatalog call consumes it without error; the space's provider_state / changes / rotation data untouched. | ai-e-du actions importCatalog/saveCatalogUpdates | endpoint stamps + import result — BOSS ACCEPTANCE HOLD 2026-11-23: the producer's first local output (2026-11-22T18:12:26Z, ok=True) carries providerCount=9 (repo-3/10/14/18/28/31/33, supp-opencode-zen, supp-100milionseek) against the 17 catalog entries this task must emit. Before any completion claim: (1) explain the 9-vs-17 gap with the schema-probe evidence (what importCatalog actually accepts), and (2) prove a production importCatalog run is NON-DESTRUCTIVE - all 17 entries still present afterwards. Endpoints are still 404 at hold time; publish + import proof outstanding. — BOSS NOTE 2026-11-23: the line fixed the count (local payload providerCount=17, fresh) but the publish leg was never wired: the producer writes the local file and stops; no step carries it to the endpoints (all three 404 while the local payload sat fresh). The boss pushed the current payload manually via the pool-state route (push_to_insta -> box ~/migrate/team/ -> team-publish -> primary; pub-mirror then carries it to GitHub). REMAINING for acceptance: (1) wire the leg durably into the producer cycle so the next generated payload reaches the endpoints with no manual step; (2) the non-destructive importCatalog proof from the original hold. The 9-vs-17 item is CLOSED. (executed-by pool-optimization failed 2026-11-23T17:28:02Z) [BOSS PROGRESS 2026-11-24 ~01:37: acceptance item (1) is DONE by the boss - the durable publish leg is wired (migrate-glue/catalog_publish_bridge.sh + supervisor job catalog-publish-bridge every 1800s, change-triggered Contents-API publish; verified live 2026-11-23 22:20 CST, GitHub generated_at 13:14:11Z). REMAINING SCOPE IS ONLY item (2): the non-destructive importCatalog proof. The 12 claim-voids today were on the full two-item scope; claim only if you will run the proof.] (claimed-by pool-optimization 2026-11-23T17:55:40Z)"
+            "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du space's importCatalog action fetches this file from the two pub endpoints but NOBODY produces it (both 404) - first determine the exact payload schema importCatalog accepts (publish a one-entry probe file, observe the import result, adjust), then build a deterministic producer in migrate-glue/ that emits the verified catalog (17 entries as of 2026-11-22; updates flow from the daily verification conclusions) to migrate-glue/out/ai-quota-catalog.json (github_pub_watch publishes the GitHub leg), add the file to the InstaBox publish set and to the stale-alarm manifest (threshold_sec 129600). Acceptance: both endpoints serve the file with generatedAt < 26h old AND a production importCatalog call consumes it without error; the space's provider_state / changes / rotation data untouched. | ai-e-du actions importCatalog/saveCatalogUpdates | endpoint stamps + import result — BOSS ACCEPTANCE HOLD 2026-11-23: the producer's first local output (2026-11-22T18:12:26Z, ok=True) carries providerCount=9 (repo-3/10/14/18/28/31/33, supp-opencode-zen, supp-100milionseek) against the 17 catalog entries this task must emit. Before any completion claim: (1) explain the 9-vs-17 gap with the schema-probe evidence (what importCatalog actually accepts), and (2) prove a production importCatalog run is NON-DESTRUCTIVE - all 17 entries still present afterwards. Endpoints are still 404 at hold time; publish + import proof outstanding. — BOSS NOTE 2026-11-23: the line fixed the count (local payload providerCount=17, fresh) but the publish leg was never wired: the producer writes the local file and stops; no step carries it to the endpoints (all three 404 while the local payload sat fresh). The boss pushed the current payload manually via the pool-state route (push_to_insta -> box ~/migrate/team/ -> team-publish -> primary; pub-mirror then carries it to GitHub). REMAINING for acceptance: (1) wire the leg durably into the producer cycle so the next generated payload reaches the endpoints with no manual step; (2) the non-destructive importCatalog proof from the original hold. The 9-vs-17 item is CLOSED. (executed-by pool-optimization failed 2026-11-23T17:28:02Z) [BOSS PROGRESS 2026-11-24 ~01:37: acceptance item (1) is DONE by the boss - the durable publish leg is wired (migrate-glue/catalog_publish_bridge.sh + supervisor job catalog-publish-bridge every 1800s, change-triggered Contents-API publish; verified live 2026-11-23 22:20 CST, GitHub generated_at 13:14:11Z). REMAINING SCOPE IS ONLY item (2): the non-destructive importCatalog proof. The 12 claim-voids today were on the full two-item scope; claim only if you will run the proof.] (claimed-by pool-optimization 2026-11-23T17:58:41Z)"
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints (executed-by pool-optimization failed 2026-11-23T16:49:23Z) (claimed-by cloud-script-migration-seat-1-9228-0365c28c 2026-11-23T17:56:11Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints (claimed-by cloud-script-migration-seat-1-9228-0365c28c 2026-11-23T17:56:11Z) (completion claimed by cloud-script-migration-seat-1-9228-0365c28c 2026-11-23T17:57:12Z - pending boss acceptance)"
           }
         ],
         "open": 5
