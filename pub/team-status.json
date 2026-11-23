@@ -2,14 +2,14 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "- key=6d230c1f63e1",
+      "escalation_latest": "- key=3b01b4e5e31b",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th",
         "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       ],
       "open": 6,
-      "status_updated": "2026-11-23T07:46:24Z",
+      "status_updated": "2026-11-23T07:47:22Z",
       "total": 21,
       "workstream": "cloud-script-migration"
     },
@@ -49,22 +49,22 @@
       "workstream": "operations"
     },
     {
-      "done": 10,
+      "done": 11,
       "escalation_latest": "- key=520cb7f0c761",
       "next_open": [
         "[code] [boss-accept] ai-e-du CrowLLM 活数根治（升级会 20261123T073315Z 裁定 3）：卡面 claimNot",
-        "[judgment] [boss-accept] ai-e-du 三动作 + refreshdaily 调用方审计（升级会裁定 4，2026-11-28 前交）",
-        "[code] [boss-accept] ai-e-du 布局合并 5 面 -> 4 面（升级会裁定 6，走空间构建通道 artifact edit）：轮换面并"
+        "[code] [boss-accept] ai-e-du 布局合并 5 面 -> 4 面（升级会裁定 6，走空间构建通道 artifact edit）：轮换面并",
+        "[ops] ai-e-du iOS 验证（升级会裁定 7，紧随布局合并落地后做）：5 个面逐面在 iOS WebView 验拖拽落位、弹窗滚动、键盘弹出时光标与"
       ],
-      "open": 6,
-      "status_updated": "2026-11-23T07:46:21Z",
+      "open": 5,
+      "status_updated": "2026-11-23T07:47:07Z",
       "total": 16,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-23T07:46:29Z",
-  "generated_at": "2026-11-23T07:46:45Z",
-  "generated_at_utc": "2026-11-23T07:46:45Z",
+  "content_latest_at": "2026-11-23T07:47:22Z",
+  "generated_at": "2026-11-23T07:48:55Z",
+  "generated_at_utc": "2026-11-23T07:48:55Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -158,7 +158,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 897
+        "used": 903
       },
       {
         "cap": 300,
@@ -798,7 +798,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 32
+        "used": 33
       },
       {
         "cap": 300,
@@ -814,7 +814,7 @@
         "healthy": true,
         "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 21
+        "used": 23
       },
       {
         "cap": 300,
@@ -910,7 +910,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -918,7 +918,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -926,7 +926,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -934,7 +934,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -942,7 +942,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -950,7 +950,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -958,7 +958,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -966,7 +966,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -974,7 +974,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -982,7 +982,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -990,7 +990,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -998,7 +998,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 200000,
@@ -1651,7 +1651,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 897
+        "used": 903
       },
       {
         "cap": 300,
@@ -2291,7 +2291,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 32
+        "used": 33
       },
       {
         "cap": 300,
@@ -2307,7 +2307,7 @@
         "healthy": true,
         "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 21
+        "used": 23
       },
       {
         "cap": 300,
@@ -2403,7 +2403,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -2411,7 +2411,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -2419,7 +2419,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -2427,7 +2427,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -2435,7 +2435,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -2443,7 +2443,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -2451,7 +2451,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -2459,7 +2459,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -2467,7 +2467,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -2475,7 +2475,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -2483,7 +2483,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 3000,
@@ -2491,7 +2491,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1526
+        "used": 1539
       },
       {
         "cap": 200000,
@@ -3122,14 +3122,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=6d230c1f63e1"
+        "latest": "- key=3b01b4e5e31b"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 3,
-        "tasks_total": 3,
-        "updated": "2026-11-23T07:46:24Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-23T07:47:22Z"
       },
       "tasks": {
         "done": 15,
@@ -3239,12 +3239,12 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-23T07:46:21Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-23T07:47:07Z"
       },
       "tasks": {
-        "done": 10,
+        "done": 11,
         "exists": true,
         "next_open": [
           {
@@ -3253,14 +3253,14 @@
           },
           {
             "full": true,
-            "title": "[judgment] [boss-accept] ai-e-du 三动作 + refreshdaily 调用方审计（升级会裁定 4，2026-11-28 前交）"
+            "title": "[code] [boss-accept] ai-e-du 布局合并 5 面 -> 4 面（升级会裁定 6，走空间构建通道 artifact edit）：轮换面并"
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] ai-e-du 布局合并 5 面 -> 4 面（升级会裁定 6，走空间构建通道 artifact edit）：轮换面并"
+            "title": "[ops] ai-e-du iOS 验证（升级会裁定 7，紧随布局合并落地后做）：5 个面逐面在 iOS WebView 验拖拽落位、弹窗滚动、键盘弹出时光标与"
           }
         ],
-        "open": 6
+        "open": 5
       }
     }
   }
