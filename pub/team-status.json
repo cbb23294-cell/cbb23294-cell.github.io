@@ -15,7 +15,7 @@
     },
     {
       "done": 53,
-      "escalation_latest": "- key=333f9b52dceb",
+      "escalation_latest": "- key=f7e23c573005",
       "next_open": [
         "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion (",
         "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261",
@@ -57,8 +57,8 @@
     }
   ],
   "content_latest_at": "2026-11-23T03:52:44Z",
-  "generated_at": "2026-11-23T04:00:02Z",
-  "generated_at_utc": "2026-11-23T04:00:02Z",
+  "generated_at": "2026-11-23T04:02:32Z",
+  "generated_at_utc": "2026-11-23T04:02:32Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -141,10 +141,10 @@
       {
         "cap": 1000,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 988
+        "used": 1000
       },
       {
         "cap": 1000,
@@ -160,7 +160,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 276
+        "used": 282
       },
       {
         "cap": 300,
@@ -168,7 +168,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 8
+        "used": 21
       },
       {
         "cap": 1000,
@@ -248,7 +248,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 300,
@@ -256,7 +256,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 300,
@@ -264,7 +264,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 300,
@@ -272,7 +272,7 @@
         "healthy": true,
         "model": "pluto-1.2-flash",
         "provider": "merkium",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 300,
@@ -280,7 +280,7 @@
         "healthy": true,
         "model": "pluto-1.2-pro",
         "provider": "merkium",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 300,
@@ -288,7 +288,7 @@
         "healthy": true,
         "model": "pluto-1.1-pro",
         "provider": "merkium",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 45,
@@ -648,7 +648,7 @@
         "healthy": true,
         "model": "dots-3-note-preview:free",
         "provider": "crowllm",
-        "used": 1
+        "used": 2
       },
       {
         "cap": 300,
@@ -832,7 +832,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-chimerax:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -840,7 +840,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-darksoul:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -848,7 +848,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-luminous:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -856,7 +856,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-moonlight:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -864,7 +864,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-musica:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -872,7 +872,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-meromero:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -880,7 +880,7 @@
         "healthy": true,
         "model": "minimax-m3.1-flash:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -888,7 +888,7 @@
         "healthy": true,
         "model": "muse-glimmer-30b:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 3000,
@@ -1595,7 +1595,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 106,
+    "healthy_entries": 105,
     "ok": true,
     "reachable": true,
     "used_today": 18
@@ -1626,10 +1626,10 @@
       {
         "cap": 1000,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 988
+        "used": 1000
       },
       {
         "cap": 1000,
@@ -1645,7 +1645,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 276
+        "used": 282
       },
       {
         "cap": 300,
@@ -1653,7 +1653,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 8
+        "used": 21
       },
       {
         "cap": 1000,
@@ -1733,7 +1733,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 300,
@@ -1741,7 +1741,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 300,
@@ -1749,7 +1749,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 300,
@@ -1757,7 +1757,7 @@
         "healthy": true,
         "model": "pluto-1.2-flash",
         "provider": "merkium",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 300,
@@ -1765,7 +1765,7 @@
         "healthy": true,
         "model": "pluto-1.2-pro",
         "provider": "merkium",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 300,
@@ -1773,7 +1773,7 @@
         "healthy": true,
         "model": "pluto-1.1-pro",
         "provider": "merkium",
-        "used": 199
+        "used": 200
       },
       {
         "cap": 45,
@@ -2133,7 +2133,7 @@
         "healthy": true,
         "model": "dots-3-note-preview:free",
         "provider": "crowllm",
-        "used": 1
+        "used": 2
       },
       {
         "cap": 300,
@@ -2317,7 +2317,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-chimerax:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -2325,7 +2325,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-darksoul:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -2333,7 +2333,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-luminous:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -2341,7 +2341,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-moonlight:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -2349,7 +2349,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-musica:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -2357,7 +2357,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-meromero:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -2365,7 +2365,7 @@
         "healthy": true,
         "model": "minimax-m3.1-flash:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200,
@@ -2373,7 +2373,7 @@
         "healthy": true,
         "model": "muse-glimmer-30b:free",
         "provider": "routeway",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 3000,
@@ -3080,7 +3080,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 106,
+    "healthy_entries": 105,
     "ok": true,
     "reachable": true,
     "used_today": 18
@@ -3156,7 +3156,7 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=333f9b52dceb"
+        "latest": "- key=f7e23c573005"
       },
       "status": {
         "exists": true,
