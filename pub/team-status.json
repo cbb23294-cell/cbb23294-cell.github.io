@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T11:29:30Z",
+    "activity_generated_at": "2026-11-23T11:32:00Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -10,40 +10,40 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 4,
+      "claimed_count": 5,
       "current_task": {
-        "claimed_at": "2026-11-23T11:29:27Z",
-        "claimed_by": "float",
-        "claimed_by_zh": "机动",
-        "claimed_for": "3秒",
-        "task_id": "clou-016",
-        "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…"
+        "claimed_at": "2026-11-23T11:31:27Z",
+        "claimed_by": "cloud-script-migration-seat-1-7388-e810fd0a",
+        "claimed_by_zh": "云脚本迁移 席位7388",
+        "claimed_for": "33秒",
+        "task_id": "clou-019",
+        "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…"
       },
       "cycle_started_at": "2026-11-23T11:26:47Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "2分钟",
-      "elapsed_sec": 163,
-      "last_cycle_ended": "2026-11-23T11:29:08Z",
+      "elapsed": "5分钟",
+      "elapsed_sec": 313,
+      "last_cycle_ended": "2026-11-23T11:31:56Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 3,
+      "claimed_count": 4,
       "current_task": {
-        "claimed_at": "2026-11-23T11:28:47Z",
-        "claimed_by": "pool-optimization-seat-1-2454-370e3d04",
-        "claimed_by_zh": "池优化 席位2454",
-        "claimed_for": "43秒",
-        "task_id": "pool-067",
-        "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…"
+        "claimed_at": "2026-11-23T11:31:27Z",
+        "claimed_by": "pool-optimization-seat-1-7397-6f92248a",
+        "claimed_by_zh": "池优化 席位7397",
+        "claimed_for": "33秒",
+        "task_id": "pool-065",
+        "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…"
       },
       "cycle_started_at": "2026-11-23T11:28:47Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "43秒",
-      "elapsed_sec": 43,
-      "last_cycle_ended": "2026-11-23T11:29:23Z",
+      "elapsed": "3分钟",
+      "elapsed_sec": 193,
+      "last_cycle_ended": "2026-11-23T11:31:44Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -55,14 +55,14 @@
         "claimed_at": "2026-11-23T08:14:54Z",
         "claimed_by": "cloud-script-migration",
         "claimed_by_zh": "云脚本迁移",
-        "claimed_for": "3小时14分",
+        "claimed_for": "3小时17分",
         "task_id": "secu-013",
         "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…"
       },
       "cycle_started_at": "2026-11-23T08:14:54Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "3小时14分",
-      "elapsed_sec": 11676,
+      "elapsed": "3小时17分",
+      "elapsed_sec": 11826,
       "last_cycle_ended": null,
       "name_zh": "安全",
       "state": "running",
@@ -113,46 +113,57 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 163,
+          "claimed_age_sec": 313,
           "claimed_at": "2026-11-23T11:26:47Z",
           "claimed_by": "operations",
           "claimed_by_zh": "运维",
-          "claimed_for": "2分钟",
+          "claimed_for": "5分钟",
           "task_id": "clou-017",
           "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 98,
+          "claimed_age_sec": 248,
           "claimed_at": "2026-11-23T11:27:52Z",
           "claimed_by": "security",
           "claimed_by_zh": "安全",
-          "claimed_for": "1分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 22,
+          "claimed_age_sec": 172,
           "claimed_at": "2026-11-23T11:29:08Z",
           "claimed_by": "cloud-script-migration-seat-1-2633-a74246f1",
           "claimed_by_zh": "云脚本迁移 席位2633",
-          "claimed_for": "22秒",
+          "claimed_for": "2分钟",
           "task_id": "clou-020",
           "title": "发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-manifest-vm.json…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 3,
+          "claimed_age_sec": 153,
           "claimed_at": "2026-11-23T11:29:27Z",
           "claimed_by": "float",
           "claimed_by_zh": "机动",
-          "claimed_for": "3秒",
+          "claimed_for": "2分钟",
           "task_id": "clou-016",
           "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 33,
+          "claimed_at": "2026-11-23T11:31:27Z",
+          "claimed_by": "cloud-script-migration-seat-1-7388-e810fd0a",
+          "claimed_by_zh": "云脚本迁移 席位7388",
+          "claimed_for": "33秒",
+          "task_id": "clou-019",
+          "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
           "workstream": "cloud-script-migration"
         }
       ],
@@ -165,7 +176,7 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 5,
-      "status_updated": "2026-11-23T11:20:05Z",
+      "status_updated": "2026-11-23T11:31:27Z",
       "total": 21,
       "workstream": "cloud-script-migration"
     },
@@ -173,35 +184,46 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 43,
+          "claimed_age_sec": 193,
           "claimed_at": "2026-11-23T11:28:47Z",
           "claimed_by": "pool-optimization-seat-1-2454-370e3d04",
           "claimed_by_zh": "池优化 席位2454",
-          "claimed_for": "43秒",
+          "claimed_for": "3分钟",
           "task_id": "pool-054",
           "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 43,
+          "claimed_age_sec": 193,
           "claimed_at": "2026-11-23T11:28:47Z",
           "claimed_by": "pool-optimization-seat-1-2454-370e3d04",
           "claimed_by_zh": "池优化 席位2454",
-          "claimed_for": "43秒",
+          "claimed_for": "3分钟",
           "task_id": "pool-064",
           "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 43,
+          "claimed_age_sec": 193,
           "claimed_at": "2026-11-23T11:28:47Z",
           "claimed_by": "pool-optimization-seat-1-2454-370e3d04",
           "claimed_by_zh": "池优化 席位2454",
-          "claimed_for": "43秒",
+          "claimed_for": "3分钟",
           "task_id": "pool-067",
           "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 33,
+          "claimed_at": "2026-11-23T11:31:27Z",
+          "claimed_by": "pool-optimization-seat-1-7397-6f92248a",
+          "claimed_by_zh": "池优化 席位7397",
+          "claimed_for": "33秒",
+          "task_id": "pool-065",
+          "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…",
           "workstream": "pool-optimization"
         }
       ],
@@ -214,7 +236,7 @@
         "Long-request 502 root cause at the pool door (cycle meeting re-run S1…"
       ],
       "open": 6,
-      "status_updated": "2026-11-23T11:20:30Z",
+      "status_updated": "2026-11-23T11:31:28Z",
       "total": 67,
       "workstream": "pool-optimization"
     },
@@ -222,11 +244,11 @@
       "claimed_now": [
         {
           "board_zh": "安全",
-          "claimed_age_sec": 11676,
+          "claimed_age_sec": 11826,
           "claimed_at": "2026-11-23T08:14:54Z",
           "claimed_by": "cloud-script-migration",
           "claimed_by_zh": "云脚本迁移",
-          "claimed_for": "3小时14分",
+          "claimed_for": "3小时17分",
           "task_id": "secu-013",
           "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…",
           "workstream": "security"
@@ -239,7 +261,7 @@
         "[judgment] Thompson bandit graduation grading — run the FORMAL G1–G7…"
       ],
       "open": 1,
-      "status_updated": "2026-11-23T11:19:50Z",
+      "status_updated": "2026-11-23T11:31:27Z",
       "total": 13,
       "workstream": "security"
     },
@@ -269,94 +291,116 @@
   "claimed_now": [
     {
       "board_zh": "安全",
-      "claimed_age_sec": 11676,
+      "claimed_age_sec": 11826,
       "claimed_at": "2026-11-23T08:14:54Z",
       "claimed_by": "cloud-script-migration",
       "claimed_by_zh": "云脚本迁移",
-      "claimed_for": "3小时14分",
+      "claimed_for": "3小时17分",
       "task_id": "secu-013",
       "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…",
       "workstream": "security"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 163,
+      "claimed_age_sec": 313,
       "claimed_at": "2026-11-23T11:26:47Z",
       "claimed_by": "operations",
       "claimed_by_zh": "运维",
-      "claimed_for": "2分钟",
+      "claimed_for": "5分钟",
       "task_id": "clou-017",
       "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 98,
+      "claimed_age_sec": 248,
       "claimed_at": "2026-11-23T11:27:52Z",
       "claimed_by": "security",
       "claimed_by_zh": "安全",
-      "claimed_for": "1分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 43,
+      "claimed_age_sec": 193,
       "claimed_at": "2026-11-23T11:28:47Z",
       "claimed_by": "pool-optimization-seat-1-2454-370e3d04",
       "claimed_by_zh": "池优化 席位2454",
-      "claimed_for": "43秒",
+      "claimed_for": "3分钟",
       "task_id": "pool-054",
       "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 43,
+      "claimed_age_sec": 193,
       "claimed_at": "2026-11-23T11:28:47Z",
       "claimed_by": "pool-optimization-seat-1-2454-370e3d04",
       "claimed_by_zh": "池优化 席位2454",
-      "claimed_for": "43秒",
+      "claimed_for": "3分钟",
       "task_id": "pool-064",
       "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 43,
+      "claimed_age_sec": 193,
       "claimed_at": "2026-11-23T11:28:47Z",
       "claimed_by": "pool-optimization-seat-1-2454-370e3d04",
       "claimed_by_zh": "池优化 席位2454",
-      "claimed_for": "43秒",
+      "claimed_for": "3分钟",
       "task_id": "pool-067",
       "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 22,
+      "claimed_age_sec": 172,
       "claimed_at": "2026-11-23T11:29:08Z",
       "claimed_by": "cloud-script-migration-seat-1-2633-a74246f1",
       "claimed_by_zh": "云脚本迁移 席位2633",
-      "claimed_for": "22秒",
+      "claimed_for": "2分钟",
       "task_id": "clou-020",
       "title": "发布清单一处登记、自动生成（升级会 20261123T073315Z 裁定 1）：现状三套清单并存——pub-manifest-vm.json…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 3,
+      "claimed_age_sec": 153,
       "claimed_at": "2026-11-23T11:29:27Z",
       "claimed_by": "float",
       "claimed_by_zh": "机动",
-      "claimed_for": "3秒",
+      "claimed_for": "2分钟",
       "task_id": "clou-016",
       "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 33,
+      "claimed_at": "2026-11-23T11:31:27Z",
+      "claimed_by": "cloud-script-migration-seat-1-7388-e810fd0a",
+      "claimed_by_zh": "云脚本迁移 席位7388",
+      "claimed_for": "33秒",
+      "task_id": "clou-019",
+      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 33,
+      "claimed_at": "2026-11-23T11:31:27Z",
+      "claimed_by": "pool-optimization-seat-1-7397-6f92248a",
+      "claimed_by_zh": "池优化 席位7397",
+      "claimed_for": "33秒",
+      "task_id": "pool-065",
+      "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…",
+      "workstream": "pool-optimization"
     }
   ],
-  "content_latest_at": "2026-11-23T11:20:30Z",
+  "content_latest_at": "2026-11-23T11:31:28Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 161,
@@ -389,11 +433,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T11:29:30Z",
-  "generated_at_utc": "2026-11-23T11:29:30Z",
+  "generated_at": "2026-11-23T11:32:00Z",
+  "generated_at_utc": "2026-11-23T11:32:00Z",
   "live_pi_workers": {
     "by_model": {
-      "numes/deepseek/deepseek-v4.1-flash:free": 6
+      "numes/deepseek/deepseek-v4.1-flash:free": 8,
+      "token-harbor/deepseek-v4.1-flash:free": 2
     },
     "running": [
       {
@@ -425,9 +470,29 @@
         "model": "numes/deepseek/deepseek-v4.1-flash:free",
         "pid": 2830,
         "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
+      },
+      {
+        "model": "numes/deepseek/deepseek-v4.1-flash:free",
+        "pid": 7442,
+        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
+      },
+      {
+        "model": "numes/deepseek/deepseek-v4.1-flash:free",
+        "pid": 7443,
+        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
+      },
+      {
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 7459,
+        "title": "[code] [boss-accept] Reinforcement generator cascade fix (boss filing 2026-11-23"
+      },
+      {
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 7460,
+        "title": "[code] [boss-accept] Reinforcement generator cascade fix (boss filing 2026-11-23"
       }
     ],
-    "total": 6
+    "total": 10
   },
   "managers": [
     {
@@ -550,7 +615,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 255
+        "used": 259
       },
       {
         "cap": 500,
@@ -558,7 +623,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 435
+        "used": 438
       },
       {
         "cap": 500,
@@ -566,7 +631,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 435
+        "used": 438
       },
       {
         "cap": 500,
@@ -1110,7 +1175,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 219
+        "used": 220
       },
       {
         "cap": 300,
@@ -1166,7 +1231,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 222
+        "used": 226
       },
       {
         "cap": 300,
@@ -2083,7 +2148,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 255
+        "used": 259
       },
       {
         "cap": 500,
@@ -2091,7 +2156,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 435
+        "used": 438
       },
       {
         "cap": 500,
@@ -2099,7 +2164,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 435
+        "used": 438
       },
       {
         "cap": 500,
@@ -2643,7 +2708,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 219
+        "used": 220
       },
       {
         "cap": 300,
@@ -2699,7 +2764,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 222
+        "used": 226
       },
       {
         "cap": 300,
@@ -3557,9 +3622,33 @@
   },
   "recent_completions": [
     {
-      "age_sec": 6,
+      "age_sec": 3,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-23T11:31:56Z",
+      "completed_by": "cloud-script-migration-seat-1-7388-e810fd0a",
+      "completed_by_zh": "云脚本迁移 席位7388",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-019",
+      "task_no": 19,
+      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 16,
       "board_zh": "池优化",
-      "completed_at": "2026-11-23T11:29:23Z",
+      "completed_at": "2026-11-23T11:31:44Z",
+      "completed_by": "pool-optimization-seat-1-7397-6f92248a",
+      "completed_by_zh": "池优化 席位7397",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-065",
+      "task_no": 65,
+      "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 110,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-23T11:30:09Z",
       "completed_by": "pool-optimization-seat-1-2454-370e3d04",
       "completed_by_zh": "池优化 席位2454",
       "completed_ts_source": "result.txt",
@@ -3569,7 +3658,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 22,
+      "age_sec": 172,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T11:29:08Z",
       "completed_by": "float",
@@ -3581,7 +3670,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 25,
+      "age_sec": 175,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T11:29:04Z",
       "completed_by": "cloud-script-migration-seat-1-2633-a74246f1",
@@ -3593,7 +3682,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 65,
+      "age_sec": 215,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T11:28:24Z",
       "completed_by": "security",
@@ -3605,7 +3694,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 158,
+      "age_sec": 309,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T11:26:51Z",
       "completed_by": "operations",
@@ -3617,7 +3706,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 540,
+      "age_sec": 690,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T11:20:30Z",
       "completed_by": "pool-optimization-seat-1-2454-370e3d04",
@@ -3629,31 +3718,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 920,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T11:14:09Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
-      "task_id": "clou-019",
-      "task_no": 19,
-      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 940,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-23T11:13:49Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "result.txt",
-      "task_id": "pool-065",
-      "task_no": 65,
-      "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 1221,
+      "age_sec": 1371,
       "board_zh": "运维",
       "completed_at": "2026-11-23T11:09:08Z",
       "completed_by": null,
@@ -3665,7 +3730,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 5277,
+      "age_sec": 5427,
       "board_zh": "空间数据",
       "completed_at": "2026-11-23T10:01:32Z",
       "completed_by": "pool-optimization",
@@ -3685,7 +3750,8 @@
   },
   "workers": {
     "by_model": {
-      "numes/deepseek/deepseek-v4.1-flash:free": 6
+      "numes/deepseek/deepseek-v4.1-flash:free": 8,
+      "token-harbor/deepseek-v4.1-flash:free": 2
     },
     "running": [
       {
@@ -3717,14 +3783,38 @@
         "model": "numes/deepseek/deepseek-v4.1-flash:free",
         "pid": 2830,
         "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
+      },
+      {
+        "model": "numes/deepseek/deepseek-v4.1-flash:free",
+        "pid": 7442,
+        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
+      },
+      {
+        "model": "numes/deepseek/deepseek-v4.1-flash:free",
+        "pid": 7443,
+        "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
+      },
+      {
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 7459,
+        "title": "[code] [boss-accept] Reinforcement generator cascade fix (boss filing 2026-11-23"
+      },
+      {
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 7460,
+        "title": "[code] [boss-accept] Reinforcement generator cascade fix (boss filing 2026-11-23"
       }
     ],
-    "total": 6
+    "total": 10
   },
   "workers_detail": [
     {
-      "count": 6,
+      "count": 8,
       "model": "numes/deepseek/deepseek-v4.1-flash:free"
+    },
+    {
+      "count": 2,
+      "model": "token-harbor/deepseek-v4.1-flash:free"
     }
   ],
   "workers_running": [
@@ -3757,6 +3847,26 @@
       "model": "numes/deepseek/deepseek-v4.1-flash:free",
       "pid": 2830,
       "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261"
+    },
+    {
+      "model": "numes/deepseek/deepseek-v4.1-flash:free",
+      "pid": 7442,
+      "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
+    },
+    {
+      "model": "numes/deepseek/deepseek-v4.1-flash:free",
+      "pid": 7443,
+      "title": "[code] 单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss 2"
+    },
+    {
+      "model": "token-harbor/deepseek-v4.1-flash:free",
+      "pid": 7459,
+      "title": "[code] [boss-accept] Reinforcement generator cascade fix (boss filing 2026-11-23"
+    },
+    {
+      "model": "token-harbor/deepseek-v4.1-flash:free",
+      "pid": 7460,
+      "title": "[code] [boss-accept] Reinforcement generator cascade fix (boss filing 2026-11-23"
     }
   ],
   "workstreams": {
@@ -3770,7 +3880,7 @@
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-23T11:20:05Z"
+        "updated": "2026-11-23T11:31:27Z"
       },
       "tasks": {
         "done": 16,
@@ -3819,9 +3929,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 3,
-        "tasks_total": 3,
-        "updated": "2026-11-23T11:20:30Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-23T11:31:28Z"
       },
       "tasks": {
         "done": 61,
@@ -3853,7 +3963,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-23T11:19:50Z"
+        "updated": "2026-11-23T11:31:27Z"
       },
       "tasks": {
         "done": 12,
