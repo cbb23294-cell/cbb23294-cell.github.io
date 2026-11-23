@@ -9,7 +9,7 @@
         "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       ],
       "open": 4,
-      "status_updated": "2026-11-23T03:35:16Z",
+      "status_updated": "2026-11-23T03:47:03Z",
       "total": 19,
       "workstream": "cloud-script-migration"
     },
@@ -56,9 +56,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-23T03:35:16Z",
-  "generated_at": "2026-11-23T03:46:06Z",
-  "generated_at_utc": "2026-11-23T03:46:06Z",
+  "content_latest_at": "2026-11-23T03:47:03Z",
+  "generated_at": "2026-11-23T03:48:21Z",
+  "generated_at_utc": "2026-11-23T03:48:21Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -131,12 +131,12 @@
     ],
     "entries": [
       {
-        "cap": 1103,
+        "cap": 1000,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 1094
+        "used": 1097
       },
       {
         "cap": 1000,
@@ -144,7 +144,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 916
+        "used": 930
       },
       {
         "cap": 1000,
@@ -160,7 +160,15 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 263
+        "used": 267
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nex-n2.6-2026-11-05",
+        "provider": "moss",
+        "used": 0
       },
       {
         "cap": 1000,
@@ -176,7 +184,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 10
+        "used": 28
       },
       {
         "cap": 500,
@@ -184,7 +192,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 10
+        "used": 28
       },
       {
         "cap": 500,
@@ -192,7 +200,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 12
+        "used": 13
       },
       {
         "cap": 500,
@@ -200,7 +208,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 12
+        "used": 13
       },
       {
         "cap": 1000,
@@ -227,12 +235,20 @@
         "used": 1
       },
       {
+        "cap": 7000,
+        "enabled": true,
+        "healthy": true,
+        "model": "allam-2-7b",
+        "provider": "groq",
+        "used": 1
+      },
+      {
         "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 187
+        "used": 190
       },
       {
         "cap": 300,
@@ -240,7 +256,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 187
+        "used": 190
       },
       {
         "cap": 300,
@@ -248,7 +264,31 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 187
+        "used": 190
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.2-flash",
+        "provider": "merkium",
+        "used": 190
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.2-pro",
+        "provider": "merkium",
+        "used": 190
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.1-pro",
+        "provider": "merkium",
+        "used": 190
       },
       {
         "cap": 45,
@@ -263,6 +303,38 @@
         "enabled": true,
         "healthy": true,
         "model": "google/gemma-4-31b-it:free",
+        "provider": "openrouter",
+        "used": 14
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "particle-ai/particle-1:free",
+        "provider": "openrouter",
+        "used": 14
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "recursive/flint-v1.0:free",
+        "provider": "openrouter",
+        "used": 14
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "baidu/ernie-5.5-flash-preview:free",
+        "provider": "openrouter",
+        "used": 14
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3.5-lightning:free",
         "provider": "openrouter",
         "used": 14
       },
@@ -542,17 +614,89 @@
         "cap": 300,
         "enabled": true,
         "healthy": true,
-        "model": "openai/gpt-oss-20b:free",
+        "model": "gemma-4-31b-it:free",
         "provider": "crowllm",
-        "used": 6
+        "used": 1
       },
       {
         "cap": 300,
         "enabled": true,
         "healthy": true,
-        "model": "openai/gpt-oss-safeguard-20b:free",
+        "model": "glm-4.6v-flash:free",
         "provider": "crowllm",
-        "used": 2
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "longcat-2.5:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "minimax-m3.1-flash:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "dots-3-note-preview:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "flint-v1.0:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "llama-3.3-70b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "llama-3.3-70b-instruct:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "solar-mini4:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "xing4.0-29b-a4b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "caw/glm-5.3-flash-thinking:free",
+        "provider": "crowllm",
+        "used": 0
       },
       {
         "cap": 300,
@@ -659,6 +803,30 @@
         "used": 0
       },
       {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "z-ai/glm-5.3-flash:free",
+        "provider": "numes",
+        "used": 1
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "dealignai/glm-5.3-uncensored-fp8:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "uniboshi/kimi-k3-abliterated-v1:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
         "cap": 200,
         "enabled": true,
         "healthy": true,
@@ -715,12 +883,20 @@
         "used": 6
       },
       {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "muse-glimmer-30b:free",
+        "provider": "routeway",
+        "used": 6
+      },
+      {
         "cap": 3000,
         "enabled": true,
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -728,7 +904,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -736,7 +912,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -744,7 +920,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -752,7 +928,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -760,7 +936,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -768,7 +944,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -776,7 +952,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -784,7 +960,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -792,7 +968,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -800,7 +976,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -808,7 +984,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 200000,
@@ -1419,7 +1595,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 85,
+    "healthy_entries": 106,
     "ok": true,
     "reachable": true,
     "used_today": 14
@@ -1440,12 +1616,12 @@
     ],
     "entries": [
       {
-        "cap": 1103,
+        "cap": 1000,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 1094
+        "used": 1097
       },
       {
         "cap": 1000,
@@ -1453,7 +1629,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 916
+        "used": 930
       },
       {
         "cap": 1000,
@@ -1469,7 +1645,15 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 263
+        "used": 267
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nex-n2.6-2026-11-05",
+        "provider": "moss",
+        "used": 0
       },
       {
         "cap": 1000,
@@ -1485,7 +1669,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 10
+        "used": 28
       },
       {
         "cap": 500,
@@ -1493,7 +1677,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 10
+        "used": 28
       },
       {
         "cap": 500,
@@ -1501,7 +1685,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 12
+        "used": 13
       },
       {
         "cap": 500,
@@ -1509,7 +1693,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 12
+        "used": 13
       },
       {
         "cap": 1000,
@@ -1536,12 +1720,20 @@
         "used": 1
       },
       {
+        "cap": 7000,
+        "enabled": true,
+        "healthy": true,
+        "model": "allam-2-7b",
+        "provider": "groq",
+        "used": 1
+      },
+      {
         "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 187
+        "used": 190
       },
       {
         "cap": 300,
@@ -1549,7 +1741,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 187
+        "used": 190
       },
       {
         "cap": 300,
@@ -1557,7 +1749,31 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 187
+        "used": 190
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.2-flash",
+        "provider": "merkium",
+        "used": 190
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.2-pro",
+        "provider": "merkium",
+        "used": 190
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.1-pro",
+        "provider": "merkium",
+        "used": 190
       },
       {
         "cap": 45,
@@ -1572,6 +1788,38 @@
         "enabled": true,
         "healthy": true,
         "model": "google/gemma-4-31b-it:free",
+        "provider": "openrouter",
+        "used": 14
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "particle-ai/particle-1:free",
+        "provider": "openrouter",
+        "used": 14
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "recursive/flint-v1.0:free",
+        "provider": "openrouter",
+        "used": 14
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "baidu/ernie-5.5-flash-preview:free",
+        "provider": "openrouter",
+        "used": 14
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3.5-lightning:free",
         "provider": "openrouter",
         "used": 14
       },
@@ -1851,17 +2099,89 @@
         "cap": 300,
         "enabled": true,
         "healthy": true,
-        "model": "openai/gpt-oss-20b:free",
+        "model": "gemma-4-31b-it:free",
         "provider": "crowllm",
-        "used": 6
+        "used": 1
       },
       {
         "cap": 300,
         "enabled": true,
         "healthy": true,
-        "model": "openai/gpt-oss-safeguard-20b:free",
+        "model": "glm-4.6v-flash:free",
         "provider": "crowllm",
-        "used": 2
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "longcat-2.5:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "minimax-m3.1-flash:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "dots-3-note-preview:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "flint-v1.0:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "llama-3.3-70b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "llama-3.3-70b-instruct:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "solar-mini4:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "xing4.0-29b-a4b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "caw/glm-5.3-flash-thinking:free",
+        "provider": "crowllm",
+        "used": 0
       },
       {
         "cap": 300,
@@ -1968,6 +2288,30 @@
         "used": 0
       },
       {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "z-ai/glm-5.3-flash:free",
+        "provider": "numes",
+        "used": 1
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "dealignai/glm-5.3-uncensored-fp8:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "uniboshi/kimi-k3-abliterated-v1:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
         "cap": 200,
         "enabled": true,
         "healthy": true,
@@ -2024,12 +2368,20 @@
         "used": 6
       },
       {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "muse-glimmer-30b:free",
+        "provider": "routeway",
+        "used": 6
+      },
+      {
         "cap": 3000,
         "enabled": true,
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -2037,7 +2389,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -2045,7 +2397,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -2053,7 +2405,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -2061,7 +2413,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -2069,7 +2421,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -2077,7 +2429,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -2085,7 +2437,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -2093,7 +2445,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -2101,7 +2453,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -2109,7 +2461,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 3000,
@@ -2117,7 +2469,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 697
+        "used": 707
       },
       {
         "cap": 200000,
@@ -2728,7 +3080,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 85,
+    "healthy_entries": 106,
     "ok": true,
     "reachable": true,
     "used_today": 14
@@ -2755,7 +3107,7 @@
         "tasks_done": 0,
         "tasks_open": 3,
         "tasks_total": 3,
-        "updated": "2026-11-23T03:35:16Z"
+        "updated": "2026-11-23T03:47:03Z"
       },
       "tasks": {
         "done": 15,
