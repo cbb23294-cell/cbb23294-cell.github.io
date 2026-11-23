@@ -22,7 +22,7 @@
         "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
       ],
       "open": 8,
-      "status_updated": "2026-11-23T08:24:24Z",
+      "status_updated": "2026-11-23T08:30:14Z",
       "total": 67,
       "workstream": "pool-optimization"
     },
@@ -33,7 +33,7 @@
         "[judgment] [boss-accept] Thompson bandit graduation grading — run the FORMAL G1–"
       ],
       "open": 1,
-      "status_updated": "2026-11-23T08:08:13Z",
+      "status_updated": "2026-11-23T08:30:04Z",
       "total": 13,
       "workstream": "security"
     },
@@ -49,22 +49,21 @@
       "workstream": "operations"
     },
     {
-      "done": 12,
+      "done": 14,
       "escalation_latest": "- key=520cb7f0c761",
       "next_open": [
         "[code] [boss-accept] ai-e-du CrowLLM 活数根治（升级会 20261123T073315Z 裁定 3）：卡面 claimNot",
-        "[code] [boss-accept] ai-e-du 布局合并 5 面 -> 4 面（升级会裁定 6，走空间构建通道 artifact edit）：轮换面并",
-        "[ops] ai-e-du iOS 验证（升级会裁定 7，紧随布局合并落地后做）：5 个面逐面在 iOS WebView 验拖拽落位、弹窗滚动、键盘弹出时光标与"
+        "[code] [boss-accept] 团队动态改成「在干什么」实时活动面（用户 2026-11-23 点名：面板看不出团队在干什么）：老板实测当前 gett"
       ],
-      "open": 4,
+      "open": 2,
       "status_updated": "2026-11-23T08:28:41Z",
       "total": 16,
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-23T08:28:41Z",
-  "generated_at": "2026-11-23T08:29:03Z",
-  "generated_at_utc": "2026-11-23T08:29:03Z",
+  "content_latest_at": "2026-11-23T08:30:14Z",
+  "generated_at": "2026-11-23T08:31:23Z",
+  "generated_at_utc": "2026-11-23T08:31:23Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -153,12 +152,12 @@
         "used": 1079
       },
       {
-        "cap": 1159,
+        "cap": 1217,
         "enabled": true,
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 1151
+        "used": 1164
       },
       {
         "cap": 300,
@@ -238,7 +237,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 43
+        "used": 44
       },
       {
         "cap": 7000,
@@ -710,7 +709,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 42
+        "used": 46
       },
       {
         "cap": 300,
@@ -798,7 +797,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 113
+        "used": 116
       },
       {
         "cap": 300,
@@ -910,7 +909,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -918,7 +917,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -926,7 +925,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -934,7 +933,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -942,7 +941,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -950,7 +949,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -958,7 +957,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -966,7 +965,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -974,7 +973,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -982,7 +981,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -990,7 +989,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -998,7 +997,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 200000,
@@ -1646,12 +1645,12 @@
         "used": 1079
       },
       {
-        "cap": 1159,
+        "cap": 1217,
         "enabled": true,
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 1151
+        "used": 1164
       },
       {
         "cap": 300,
@@ -1731,7 +1730,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 43
+        "used": 44
       },
       {
         "cap": 7000,
@@ -2203,7 +2202,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 42
+        "used": 46
       },
       {
         "cap": 300,
@@ -2291,7 +2290,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 113
+        "used": 116
       },
       {
         "cap": 300,
@@ -2403,7 +2402,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -2411,7 +2410,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -2419,7 +2418,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -2427,7 +2426,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -2435,7 +2434,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -2443,7 +2442,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -2451,7 +2450,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -2459,7 +2458,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -2467,7 +2466,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -2475,7 +2474,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -2483,7 +2482,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 3000,
@@ -2491,7 +2490,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1700
+        "used": 1711
       },
       {
         "cap": 200000,
@@ -3183,9 +3182,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 4,
-        "tasks_total": 4,
-        "updated": "2026-11-23T08:24:24Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-23T08:30:14Z"
       },
       "tasks": {
         "done": 59,
@@ -3217,7 +3216,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-23T08:08:13Z"
+        "updated": "2026-11-23T08:30:04Z"
       },
       "tasks": {
         "done": 12,
@@ -3244,7 +3243,7 @@
         "updated": "2026-11-23T08:28:41Z"
       },
       "tasks": {
-        "done": 12,
+        "done": 14,
         "exists": true,
         "next_open": [
           {
@@ -3253,14 +3252,10 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] ai-e-du 布局合并 5 面 -> 4 面（升级会裁定 6，走空间构建通道 artifact edit）：轮换面并"
-          },
-          {
-            "full": true,
-            "title": "[ops] ai-e-du iOS 验证（升级会裁定 7，紧随布局合并落地后做）：5 个面逐面在 iOS WebView 验拖拽落位、弹窗滚动、键盘弹出时光标与"
+            "title": "[code] [boss-accept] 团队动态改成「在干什么」实时活动面（用户 2026-11-23 点名：面板看不出团队在干什么）：老板实测当前 gett"
           }
         ],
-        "open": 4
+        "open": 2
       }
     }
   }
