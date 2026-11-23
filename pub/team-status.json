@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T23:08:50Z",
+    "activity_generated_at": "2026-11-23T23:11:21Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-23T23:04:52Z",
         "claimed_by": "cloud-script-migration-seat-1-6401-779e324c",
         "claimed_by_zh": "云脚本迁移 席位6401",
-        "claimed_for": "3分钟",
+        "claimed_for": "6分钟",
         "task_id": "clou-019",
         "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…"
       },
       "cycle_started_at": "2026-11-23T23:04:46Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "4分钟",
-      "elapsed_sec": 245,
+      "elapsed": "6分钟",
+      "elapsed_sec": 395,
       "last_cycle_ended": "2026-11-23T23:05:19Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -99,33 +99,33 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 245,
+          "claimed_age_sec": 395,
           "claimed_at": "2026-11-23T23:04:46Z",
           "claimed_by": "security",
           "claimed_by_zh": "安全",
-          "claimed_for": "4分钟",
+          "claimed_for": "6分钟",
           "task_id": "clou-017",
           "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 244,
+          "claimed_age_sec": 394,
           "claimed_at": "2026-11-23T23:04:47Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "4分钟",
+          "claimed_for": "6分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 239,
+          "claimed_age_sec": 389,
           "claimed_at": "2026-11-23T23:04:52Z",
           "claimed_by": "cloud-script-migration-seat-1-6401-779e324c",
           "claimed_by_zh": "云脚本迁移 席位6401",
-          "claimed_for": "3分钟",
+          "claimed_for": "6分钟",
           "task_id": "clou-019",
           "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
           "workstream": "cloud-script-migration"
@@ -140,7 +140,7 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 5,
-      "status_updated": "2026-11-23T23:05:19Z",
+      "status_updated": "2026-11-23T23:11:02Z",
       "total": 22,
       "workstream": "cloud-script-migration"
     },
@@ -198,39 +198,39 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 245,
+      "claimed_age_sec": 395,
       "claimed_at": "2026-11-23T23:04:46Z",
       "claimed_by": "security",
       "claimed_by_zh": "安全",
-      "claimed_for": "4分钟",
+      "claimed_for": "6分钟",
       "task_id": "clou-017",
       "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 244,
+      "claimed_age_sec": 394,
       "claimed_at": "2026-11-23T23:04:47Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "4分钟",
+      "claimed_for": "6分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 239,
+      "claimed_age_sec": 389,
       "claimed_at": "2026-11-23T23:04:52Z",
       "claimed_by": "cloud-script-migration-seat-1-6401-779e324c",
       "claimed_by_zh": "云脚本迁移 席位6401",
-      "claimed_for": "3分钟",
+      "claimed_for": "6分钟",
       "task_id": "clou-019",
       "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-23T23:05:22Z",
+  "content_latest_at": "2026-11-23T23:11:02Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 224,
@@ -263,8 +263,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T23:08:51Z",
-  "generated_at_utc": "2026-11-23T23:08:51Z",
+  "generated_at": "2026-11-23T23:11:22Z",
+  "generated_at_utc": "2026-11-23T23:11:22Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -447,7 +447,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 304
+        "used": 305
       },
       {
         "cap": 7000,
@@ -751,7 +751,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-bolt-e4b:free",
         "provider": "crowllm",
-        "used": 201
+        "used": 203
       },
       {
         "cap": 300,
@@ -1996,7 +1996,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 304
+        "used": 305
       },
       {
         "cap": 7000,
@@ -2300,7 +2300,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-bolt-e4b:free",
         "provider": "crowllm",
-        "used": 201
+        "used": 203
       },
       {
         "cap": 300,
@@ -3430,7 +3430,7 @@
   },
   "recent_completions": [
     {
-      "age_sec": 211,
+      "age_sec": 361,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T23:05:19Z",
       "completed_by": "cloud-script-migration-seat-1-6401-779e324c",
@@ -3442,7 +3442,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 223,
+      "age_sec": 374,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T23:05:07Z",
       "completed_by": "pool-optimization",
@@ -3454,7 +3454,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 232,
+      "age_sec": 382,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T23:04:58Z",
       "completed_by": "security",
@@ -3466,7 +3466,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 707,
+      "age_sec": 858,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T22:57:02Z",
       "completed_by": null,
@@ -3478,7 +3478,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 5667,
+      "age_sec": 5817,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:34:23Z",
       "completed_by": null,
@@ -3490,7 +3490,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 29872,
+      "age_sec": 30022,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3502,7 +3502,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 29879,
+      "age_sec": 30030,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3514,7 +3514,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 29924,
+      "age_sec": 30075,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3526,7 +3526,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 33236,
+      "age_sec": 33387,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3538,7 +3538,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 33990,
+      "age_sec": 34140,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
@@ -3572,9 +3572,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-23T23:05:19Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-23T23:11:02Z"
       },
       "tasks": {
         "done": 17,
