@@ -14,15 +14,15 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "done": 53,
+      "done": 58,
       "escalation_latest": "- key=0e4b08a81378",
       "next_open": [
         "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion (",
         "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261",
         "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
       ],
-      "open": 11,
-      "status_updated": "2026-11-23T04:14:03Z",
+      "open": 6,
+      "status_updated": "2026-11-23T04:18:13Z",
       "total": 64,
       "workstream": "pool-optimization"
     },
@@ -56,9 +56,9 @@
       "workstream": "spaces-data"
     }
   ],
-  "content_latest_at": "2026-11-23T04:14:03Z",
-  "generated_at": "2026-11-23T04:16:28Z",
-  "generated_at_utc": "2026-11-23T04:16:28Z",
+  "content_latest_at": "2026-11-23T04:18:13Z",
+  "generated_at": "2026-11-23T04:19:03Z",
+  "generated_at_utc": "2026-11-23T04:19:03Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -139,12 +139,12 @@
         "used": 1097
       },
       {
-        "cap": 1103,
+        "cap": 1000,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 1071
+        "used": 1079
       },
       {
         "cap": 1000,
@@ -152,23 +152,23 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 36
+        "used": 42
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 325
+        "used": 327
       },
       {
-        "cap": 315,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 30
+        "used": 42
       },
       {
         "cap": 1000,
@@ -184,7 +184,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 52
+        "used": 61
       },
       {
         "cap": 500,
@@ -192,7 +192,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 52
+        "used": 61
       },
       {
         "cap": 500,
@@ -248,7 +248,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 218
+        "used": 220
       },
       {
         "cap": 300,
@@ -256,7 +256,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 218
+        "used": 220
       },
       {
         "cap": 300,
@@ -264,7 +264,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 218
+        "used": 220
       },
       {
         "cap": 300,
@@ -272,7 +272,7 @@
         "healthy": true,
         "model": "pluto-1.2-flash",
         "provider": "merkium",
-        "used": 218
+        "used": 220
       },
       {
         "cap": 300,
@@ -280,7 +280,7 @@
         "healthy": true,
         "model": "pluto-1.2-pro",
         "provider": "merkium",
-        "used": 218
+        "used": 220
       },
       {
         "cap": 300,
@@ -288,7 +288,7 @@
         "healthy": true,
         "model": "pluto-1.1-pro",
         "provider": "merkium",
-        "used": 218
+        "used": 220
       },
       {
         "cap": 45,
@@ -568,7 +568,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 300,
@@ -702,6 +702,14 @@
         "cap": 300,
         "enabled": true,
         "healthy": true,
+        "model": "deepseek-v4-flash-0731-thinking:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
         "model": "nvidia-deepseek-v4-1-flash-nvfp4",
         "provider": "packet-ai",
         "used": 0
@@ -752,7 +760,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 300,
@@ -1595,7 +1603,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 106,
+    "healthy_entries": 105,
     "ok": true,
     "reachable": true,
     "used_today": 18
@@ -1624,12 +1632,12 @@
         "used": 1097
       },
       {
-        "cap": 1103,
+        "cap": 1000,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 1071
+        "used": 1079
       },
       {
         "cap": 1000,
@@ -1637,23 +1645,23 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 36
+        "used": 42
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 325
+        "used": 327
       },
       {
-        "cap": 315,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 30
+        "used": 42
       },
       {
         "cap": 1000,
@@ -1669,7 +1677,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 52
+        "used": 61
       },
       {
         "cap": 500,
@@ -1677,7 +1685,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 52
+        "used": 61
       },
       {
         "cap": 500,
@@ -1733,7 +1741,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 218
+        "used": 220
       },
       {
         "cap": 300,
@@ -1741,7 +1749,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 218
+        "used": 220
       },
       {
         "cap": 300,
@@ -1749,7 +1757,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 218
+        "used": 220
       },
       {
         "cap": 300,
@@ -1757,7 +1765,7 @@
         "healthy": true,
         "model": "pluto-1.2-flash",
         "provider": "merkium",
-        "used": 218
+        "used": 220
       },
       {
         "cap": 300,
@@ -1765,7 +1773,7 @@
         "healthy": true,
         "model": "pluto-1.2-pro",
         "provider": "merkium",
-        "used": 218
+        "used": 220
       },
       {
         "cap": 300,
@@ -1773,7 +1781,7 @@
         "healthy": true,
         "model": "pluto-1.1-pro",
         "provider": "merkium",
-        "used": 218
+        "used": 220
       },
       {
         "cap": 45,
@@ -2053,7 +2061,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 300,
@@ -2187,6 +2195,14 @@
         "cap": 300,
         "enabled": true,
         "healthy": true,
+        "model": "deepseek-v4-flash-0731-thinking:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
         "model": "nvidia-deepseek-v4-1-flash-nvfp4",
         "provider": "packet-ai",
         "used": 0
@@ -2237,7 +2253,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 300,
@@ -3080,7 +3096,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 106,
+    "healthy_entries": 105,
     "ok": true,
     "reachable": true,
     "used_today": 18
@@ -3163,10 +3179,10 @@
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-23T04:14:03Z"
+        "updated": "2026-11-23T04:18:13Z"
       },
       "tasks": {
-        "done": 53,
+        "done": 58,
         "exists": true,
         "next_open": [
           {
@@ -3182,7 +3198,7 @@
             "title": "[code] [boss-accept] Long-request 502 root cause at the pool door (cycle meeting"
           }
         ],
-        "open": 11
+        "open": 6
       }
     },
     "security": {
