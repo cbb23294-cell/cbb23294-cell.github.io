@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T22:40:18Z",
+    "activity_generated_at": "2026-11-23T22:42:33Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -10,20 +10,20 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 3,
+      "claimed_count": 2,
       "current_task": {
-        "claimed_at": "2026-11-23T22:39:20Z",
+        "claimed_at": "2026-11-23T22:42:22Z",
         "claimed_by": "cloud-script-migration-seat-1-18977-04ead501",
         "claimed_by_zh": "云脚本迁移 席位18977",
-        "claimed_for": "58秒",
+        "claimed_for": "11秒",
         "task_id": "clou-019",
         "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…"
       },
-      "cycle_started_at": "2026-11-23T22:33:34Z",
+      "cycle_started_at": "2026-11-23T22:39:14Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "6分钟",
-      "elapsed_sec": 404,
-      "last_cycle_ended": "2026-11-23T22:40:08Z",
+      "elapsed": "3分钟",
+      "elapsed_sec": 199,
+      "last_cycle_ended": "2026-11-23T22:42:14Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,33 +99,22 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 404,
-          "claimed_at": "2026-11-23T22:33:34Z",
-          "claimed_by": "float",
-          "claimed_by_zh": "机动",
-          "claimed_for": "6分钟",
-          "task_id": "clou-018",
-          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-          "workstream": "cloud-script-migration"
-        },
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 64,
+          "claimed_age_sec": 199,
           "claimed_at": "2026-11-23T22:39:14Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "64秒",
+          "claimed_for": "3分钟",
           "task_id": "clou-017",
           "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 58,
-          "claimed_at": "2026-11-23T22:39:20Z",
+          "claimed_age_sec": 11,
+          "claimed_at": "2026-11-23T22:42:22Z",
           "claimed_by": "cloud-script-migration-seat-1-18977-04ead501",
           "claimed_by_zh": "云脚本迁移 席位18977",
-          "claimed_for": "58秒",
+          "claimed_for": "11秒",
           "task_id": "clou-019",
           "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
           "workstream": "cloud-script-migration"
@@ -198,33 +187,22 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 404,
-      "claimed_at": "2026-11-23T22:33:34Z",
-      "claimed_by": "float",
-      "claimed_by_zh": "机动",
-      "claimed_for": "6分钟",
-      "task_id": "clou-018",
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 64,
+      "claimed_age_sec": 199,
       "claimed_at": "2026-11-23T22:39:14Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "64秒",
+      "claimed_for": "3分钟",
       "task_id": "clou-017",
       "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 58,
-      "claimed_at": "2026-11-23T22:39:20Z",
+      "claimed_age_sec": 11,
+      "claimed_at": "2026-11-23T22:42:22Z",
       "claimed_by": "cloud-script-migration-seat-1-18977-04ead501",
       "claimed_by_zh": "云脚本迁移 席位18977",
-      "claimed_for": "58秒",
+      "claimed_for": "11秒",
       "task_id": "clou-019",
       "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
       "workstream": "cloud-script-migration"
@@ -263,8 +241,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T22:40:18Z",
-  "generated_at_utc": "2026-11-23T22:40:18Z",
+  "generated_at": "2026-11-23T22:42:33Z",
+  "generated_at_utc": "2026-11-23T22:42:33Z",
   "live_pi_workers": {
     "by_model": {
       "egg-krphp/gpt-6.2-sol": 2
@@ -444,7 +422,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 251
+        "used": 260
       },
       {
         "cap": 1000,
@@ -452,7 +430,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 289
+        "used": 297
       },
       {
         "cap": 1000,
@@ -460,7 +438,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 278
+        "used": 286
       },
       {
         "cap": 7000,
@@ -468,7 +446,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 2341
+        "used": 2360
       },
       {
         "cap": 300,
@@ -572,7 +550,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 447
+        "used": 451
       },
       {
         "cap": 20000,
@@ -716,7 +694,7 @@
         "healthy": true,
         "model": "crow-roleplay:free",
         "provider": "crowllm",
-        "used": 282
+        "used": 284
       },
       {
         "cap": 300,
@@ -724,7 +702,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1:free",
         "provider": "crowllm",
-        "used": 264
+        "used": 266
       },
       {
         "cap": 300,
@@ -740,7 +718,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 151
+        "used": 153
       },
       {
         "cap": 300,
@@ -748,7 +726,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 212
+        "used": 215
       },
       {
         "cap": 300,
@@ -780,7 +758,7 @@
         "healthy": true,
         "model": "nemotron-3.5-super-vl:free",
         "provider": "crowllm",
-        "used": 163
+        "used": 165
       },
       {
         "cap": 300,
@@ -804,7 +782,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b-uncensored:free",
         "provider": "crowllm",
-        "used": 174
+        "used": 176
       },
       {
         "cap": 300,
@@ -820,7 +798,7 @@
         "healthy": true,
         "model": "step-5-preview:free",
         "provider": "crowllm",
-        "used": 127
+        "used": 129
       },
       {
         "cap": 300,
@@ -836,7 +814,7 @@
         "healthy": true,
         "model": "grok-4.7-fast:free",
         "provider": "crowllm",
-        "used": 175
+        "used": 180
       },
       {
         "cap": 300,
@@ -852,7 +830,7 @@
         "healthy": true,
         "model": "glm-4.6v-flash:free",
         "provider": "crowllm",
-        "used": 134
+        "used": 135
       },
       {
         "cap": 300,
@@ -876,7 +854,7 @@
         "healthy": true,
         "model": "dots-3-note-preview:free",
         "provider": "crowllm",
-        "used": 198
+        "used": 203
       },
       {
         "cap": 300,
@@ -964,7 +942,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 283
+        "used": 284
       },
       {
         "cap": 300,
@@ -1068,7 +1046,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-chimerax:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -1076,7 +1054,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-darksoul:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -1084,7 +1062,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-luminous:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -1092,7 +1070,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-moonlight:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -1100,7 +1078,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-musica:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -1108,7 +1086,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-meromero:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -1116,7 +1094,7 @@
         "healthy": true,
         "model": "minimax-m3.1-flash:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -1124,7 +1102,7 @@
         "healthy": true,
         "model": "muse-glimmer-30b:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 50,
@@ -1164,7 +1142,7 @@
         "healthy": true,
         "model": "freeapi-random",
         "provider": "freeapi",
-        "used": 310
+        "used": 314
       },
       {
         "cap": 315,
@@ -1172,7 +1150,7 @@
         "healthy": true,
         "model": "freeapi-random",
         "provider": "freeapi-2",
-        "used": 310
+        "used": 314
       },
       {
         "cap": 100000,
@@ -1180,7 +1158,7 @@
         "healthy": true,
         "model": "gpt-6.2-sol",
         "provider": "egg-krphp",
-        "used": 332
+        "used": 348
       },
       {
         "cap": 3000,
@@ -1993,7 +1971,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 251
+        "used": 260
       },
       {
         "cap": 1000,
@@ -2001,7 +1979,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 289
+        "used": 297
       },
       {
         "cap": 1000,
@@ -2009,7 +1987,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 278
+        "used": 286
       },
       {
         "cap": 7000,
@@ -2017,7 +1995,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 2341
+        "used": 2360
       },
       {
         "cap": 300,
@@ -2121,7 +2099,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 447
+        "used": 451
       },
       {
         "cap": 20000,
@@ -2265,7 +2243,7 @@
         "healthy": true,
         "model": "crow-roleplay:free",
         "provider": "crowllm",
-        "used": 282
+        "used": 284
       },
       {
         "cap": 300,
@@ -2273,7 +2251,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1:free",
         "provider": "crowllm",
-        "used": 264
+        "used": 266
       },
       {
         "cap": 300,
@@ -2289,7 +2267,7 @@
         "healthy": true,
         "model": "nvidia/mistral-large-4-1t-a52b:free",
         "provider": "crowllm",
-        "used": 151
+        "used": 153
       },
       {
         "cap": 300,
@@ -2297,7 +2275,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 212
+        "used": 215
       },
       {
         "cap": 300,
@@ -2329,7 +2307,7 @@
         "healthy": true,
         "model": "nemotron-3.5-super-vl:free",
         "provider": "crowllm",
-        "used": 163
+        "used": 165
       },
       {
         "cap": 300,
@@ -2353,7 +2331,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b-uncensored:free",
         "provider": "crowllm",
-        "used": 174
+        "used": 176
       },
       {
         "cap": 300,
@@ -2369,7 +2347,7 @@
         "healthy": true,
         "model": "step-5-preview:free",
         "provider": "crowllm",
-        "used": 127
+        "used": 129
       },
       {
         "cap": 300,
@@ -2385,7 +2363,7 @@
         "healthy": true,
         "model": "grok-4.7-fast:free",
         "provider": "crowllm",
-        "used": 175
+        "used": 180
       },
       {
         "cap": 300,
@@ -2401,7 +2379,7 @@
         "healthy": true,
         "model": "glm-4.6v-flash:free",
         "provider": "crowllm",
-        "used": 134
+        "used": 135
       },
       {
         "cap": 300,
@@ -2425,7 +2403,7 @@
         "healthy": true,
         "model": "dots-3-note-preview:free",
         "provider": "crowllm",
-        "used": 198
+        "used": 203
       },
       {
         "cap": 300,
@@ -2513,7 +2491,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 283
+        "used": 284
       },
       {
         "cap": 300,
@@ -2617,7 +2595,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-chimerax:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -2625,7 +2603,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-darksoul:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -2633,7 +2611,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-luminous:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -2641,7 +2619,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-moonlight:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -2649,7 +2627,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-musica:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -2657,7 +2635,7 @@
         "healthy": true,
         "model": "gemma-4-26b-a4b-it-meromero:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -2665,7 +2643,7 @@
         "healthy": true,
         "model": "minimax-m3.1-flash:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 200,
@@ -2673,7 +2651,7 @@
         "healthy": true,
         "model": "muse-glimmer-30b:free",
         "provider": "routeway",
-        "used": 115
+        "used": 118
       },
       {
         "cap": 50,
@@ -2713,7 +2691,7 @@
         "healthy": true,
         "model": "freeapi-random",
         "provider": "freeapi",
-        "used": 310
+        "used": 314
       },
       {
         "cap": 315,
@@ -2721,7 +2699,7 @@
         "healthy": true,
         "model": "freeapi-random",
         "provider": "freeapi-2",
-        "used": 310
+        "used": 314
       },
       {
         "cap": 100000,
@@ -2729,7 +2707,7 @@
         "healthy": true,
         "model": "gpt-6.2-sol",
         "provider": "egg-krphp",
-        "used": 332
+        "used": 348
       },
       {
         "cap": 3000,
@@ -3443,9 +3421,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 10,
+      "age_sec": 18,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-23T22:40:08Z",
+      "completed_at": "2026-11-23T22:42:14Z",
       "completed_by": "cloud-script-migration-seat-1-18977-04ead501",
       "completed_by_zh": "云脚本迁移 席位18977",
       "completed_ts_source": "result.txt",
@@ -3455,7 +3433,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 27,
+      "age_sec": 162,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T22:39:50Z",
       "completed_by": "pool-optimization",
@@ -3467,11 +3445,11 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 260,
+      "age_sec": 395,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T22:35:57Z",
-      "completed_by": "float",
-      "completed_by_zh": "机动",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
       "task_id": "clou-018",
       "task_no": 18,
@@ -3479,7 +3457,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 431,
+      "age_sec": 565,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T22:33:07Z",
       "completed_by": null,
@@ -3491,7 +3469,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 3954,
+      "age_sec": 4089,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:34:23Z",
       "completed_by": null,
@@ -3503,7 +3481,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 28159,
+      "age_sec": 28294,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3515,7 +3493,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 28167,
+      "age_sec": 28302,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3527,7 +3505,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 28212,
+      "age_sec": 28347,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3539,7 +3517,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 31524,
+      "age_sec": 31659,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3551,7 +3529,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 32278,
+      "age_sec": 32412,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
@@ -3632,7 +3610,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] (executed-by pool-optimization failed 2026-11-23T18:22:51Z) (claimed-by float 2026-11-23T22:33:34Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] (executed-by pool-optimization failed 2026-11-23T18:22:51Z)"
           }
         ],
         "open": 5
