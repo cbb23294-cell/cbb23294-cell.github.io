@@ -1,8 +1,8 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-23T21:24:51Z",
+    "activity_generated_at": "2026-11-23T21:31:24Z",
     "empty_reasons": {
-      "claimed_now": null,
+      "claimed_now": "no open board task carries a live claim record",
       "recent_completions": null,
       "workers_running": "no jobs/*.json without a .done/.closed marker"
     }
@@ -10,22 +10,15 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 1,
-      "current_task": {
-        "claimed_at": "2026-11-23T21:20:38Z",
-        "claimed_by": "pool-optimization",
-        "claimed_by_zh": "池优化",
-        "claimed_for": "4分钟",
-        "task_id": "clou-016",
-        "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…"
-      },
-      "cycle_started_at": "2026-11-23T21:20:38Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "4分钟",
-      "elapsed_sec": 254,
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
       "last_cycle_ended": "2026-11-23T21:21:58Z",
       "name_zh": "云脚本迁移",
-      "state": "running",
+      "state": "idle",
       "workstream": "cloud-script-migration"
     },
     {
@@ -96,19 +89,7 @@
   ],
   "boards": [
     {
-      "claimed_now": [
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 254,
-          "claimed_at": "2026-11-23T21:20:38Z",
-          "claimed_by": "pool-optimization",
-          "claimed_by_zh": "池优化",
-          "claimed_for": "4分钟",
-          "task_id": "clou-016",
-          "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
-          "workstream": "cloud-script-migration"
-        }
-      ],
+      "claimed_now": [],
       "done": 17,
       "escalation_latest": "runner exit: 0",
       "name_zh": "云脚本迁移",
@@ -173,19 +154,7 @@
       "workstream": "spaces-data"
     }
   ],
-  "claimed_now": [
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 254,
-      "claimed_at": "2026-11-23T21:20:38Z",
-      "claimed_by": "pool-optimization",
-      "claimed_by_zh": "池优化",
-      "claimed_for": "4分钟",
-      "task_id": "clou-016",
-      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
-      "workstream": "cloud-script-migration"
-    }
-  ],
+  "claimed_now": [],
   "content_latest_at": "2026-11-23T21:24:27Z",
   "escalations_human": {
     "cloud-script-migration": {
@@ -219,8 +188,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-23T21:24:52Z",
-  "generated_at_utc": "2026-11-23T21:24:52Z",
+  "generated_at": "2026-11-23T21:31:25Z",
+  "generated_at_utc": "2026-11-23T21:31:25Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -387,7 +356,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 215
+        "used": 216
       },
       {
         "cap": 1000,
@@ -395,7 +364,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 256
+        "used": 257
       },
       {
         "cap": 1000,
@@ -403,7 +372,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 241
+        "used": 242
       },
       {
         "cap": 7000,
@@ -411,10 +380,10 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 1821
+        "used": 1824
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "ceres-1.1",
@@ -422,7 +391,7 @@
         "used": 331
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "pluto-1.1-flash",
@@ -430,7 +399,7 @@
         "used": 331
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "ganymede-1.1",
@@ -438,7 +407,7 @@
         "used": 331
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "pluto-1.2-flash",
@@ -446,7 +415,7 @@
         "used": 331
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "pluto-1.2-pro",
@@ -454,7 +423,7 @@
         "used": 331
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "pluto-1.1-pro",
@@ -622,7 +591,7 @@
         "used": 0
       },
       {
-        "cap": 315,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "GLM-5.3-Flash",
@@ -635,7 +604,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 208
+        "used": 209
       },
       {
         "cap": 300,
@@ -643,7 +612,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 221
+        "used": 222
       },
       {
         "cap": 300,
@@ -659,7 +628,7 @@
         "healthy": true,
         "model": "crow-roleplay:free",
         "provider": "crowllm",
-        "used": 207
+        "used": 209
       },
       {
         "cap": 300,
@@ -667,7 +636,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1:free",
         "provider": "crowllm",
-        "used": 187
+        "used": 188
       },
       {
         "cap": 300,
@@ -691,7 +660,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 172
+        "used": 173
       },
       {
         "cap": 300,
@@ -699,7 +668,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
         "provider": "crowllm",
-        "used": 129
+        "used": 130
       },
       {
         "cap": 300,
@@ -707,7 +676,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-bolt-e4b:free",
         "provider": "crowllm",
-        "used": 154
+        "used": 155
       },
       {
         "cap": 300,
@@ -731,7 +700,7 @@
         "healthy": true,
         "model": "jais-3-mova-36b-a4b:free",
         "provider": "crowllm",
-        "used": 123
+        "used": 124
       },
       {
         "cap": 300,
@@ -739,7 +708,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 126
+        "used": 127
       },
       {
         "cap": 300,
@@ -747,7 +716,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b-uncensored:free",
         "provider": "crowllm",
-        "used": 132
+        "used": 133
       },
       {
         "cap": 300,
@@ -771,7 +740,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 165
+        "used": 166
       },
       {
         "cap": 300,
@@ -779,7 +748,7 @@
         "healthy": true,
         "model": "grok-4.7-fast:free",
         "provider": "crowllm",
-        "used": 129
+        "used": 130
       },
       {
         "cap": 300,
@@ -795,7 +764,7 @@
         "healthy": true,
         "model": "glm-4.6v-flash:free",
         "provider": "crowllm",
-        "used": 103
+        "used": 104
       },
       {
         "cap": 300,
@@ -803,7 +772,7 @@
         "healthy": true,
         "model": "longcat-2.5:free",
         "provider": "crowllm",
-        "used": 81
+        "used": 82
       },
       {
         "cap": 300,
@@ -811,7 +780,7 @@
         "healthy": true,
         "model": "minimax-m3.1-flash:free",
         "provider": "crowllm",
-        "used": 96
+        "used": 97
       },
       {
         "cap": 300,
@@ -819,7 +788,7 @@
         "healthy": true,
         "model": "dots-3-note-preview:free",
         "provider": "crowllm",
-        "used": 144
+        "used": 145
       },
       {
         "cap": 300,
@@ -859,7 +828,7 @@
         "healthy": true,
         "model": "xing4.0-29b-a4b:free",
         "provider": "crowllm",
-        "used": 93
+        "used": 94
       },
       {
         "cap": 300,
@@ -867,7 +836,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 95
+        "used": 96
       },
       {
         "cap": 300,
@@ -1936,7 +1905,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 215
+        "used": 216
       },
       {
         "cap": 1000,
@@ -1944,7 +1913,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 256
+        "used": 257
       },
       {
         "cap": 1000,
@@ -1952,7 +1921,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 241
+        "used": 242
       },
       {
         "cap": 7000,
@@ -1960,10 +1929,10 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 1821
+        "used": 1824
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "ceres-1.1",
@@ -1971,7 +1940,7 @@
         "used": 331
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "pluto-1.1-flash",
@@ -1979,7 +1948,7 @@
         "used": 331
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "ganymede-1.1",
@@ -1987,7 +1956,7 @@
         "used": 331
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "pluto-1.2-flash",
@@ -1995,7 +1964,7 @@
         "used": 331
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "pluto-1.2-pro",
@@ -2003,7 +1972,7 @@
         "used": 331
       },
       {
-        "cap": 331,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "pluto-1.1-pro",
@@ -2171,7 +2140,7 @@
         "used": 0
       },
       {
-        "cap": 315,
+        "cap": 300,
         "enabled": true,
         "healthy": false,
         "model": "GLM-5.3-Flash",
@@ -2184,7 +2153,7 @@
         "healthy": true,
         "model": "agnes-2.5-flash:free",
         "provider": "unorouter",
-        "used": 208
+        "used": 209
       },
       {
         "cap": 300,
@@ -2192,7 +2161,7 @@
         "healthy": true,
         "model": "agnes-3.0-flash:free",
         "provider": "unorouter",
-        "used": 221
+        "used": 222
       },
       {
         "cap": 300,
@@ -2208,7 +2177,7 @@
         "healthy": true,
         "model": "crow-roleplay:free",
         "provider": "crowllm",
-        "used": 207
+        "used": 209
       },
       {
         "cap": 300,
@@ -2216,7 +2185,7 @@
         "healthy": true,
         "model": "laguna-xs-2.1:free",
         "provider": "crowllm",
-        "used": 187
+        "used": 188
       },
       {
         "cap": 300,
@@ -2240,7 +2209,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 172
+        "used": 173
       },
       {
         "cap": 300,
@@ -2248,7 +2217,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
         "provider": "crowllm",
-        "used": 129
+        "used": 130
       },
       {
         "cap": 300,
@@ -2256,7 +2225,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3.5-bolt-e4b:free",
         "provider": "crowllm",
-        "used": 154
+        "used": 155
       },
       {
         "cap": 300,
@@ -2280,7 +2249,7 @@
         "healthy": true,
         "model": "jais-3-mova-36b-a4b:free",
         "provider": "crowllm",
-        "used": 123
+        "used": 124
       },
       {
         "cap": 300,
@@ -2288,7 +2257,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b:free",
         "provider": "crowllm",
-        "used": 126
+        "used": 127
       },
       {
         "cap": 300,
@@ -2296,7 +2265,7 @@
         "healthy": true,
         "model": "k2-horizon-375b-a23b-uncensored:free",
         "provider": "crowllm",
-        "used": 132
+        "used": 133
       },
       {
         "cap": 300,
@@ -2320,7 +2289,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 165
+        "used": 166
       },
       {
         "cap": 300,
@@ -2328,7 +2297,7 @@
         "healthy": true,
         "model": "grok-4.7-fast:free",
         "provider": "crowllm",
-        "used": 129
+        "used": 130
       },
       {
         "cap": 300,
@@ -2344,7 +2313,7 @@
         "healthy": true,
         "model": "glm-4.6v-flash:free",
         "provider": "crowllm",
-        "used": 103
+        "used": 104
       },
       {
         "cap": 300,
@@ -2352,7 +2321,7 @@
         "healthy": true,
         "model": "longcat-2.5:free",
         "provider": "crowllm",
-        "used": 81
+        "used": 82
       },
       {
         "cap": 300,
@@ -2360,7 +2329,7 @@
         "healthy": true,
         "model": "minimax-m3.1-flash:free",
         "provider": "crowllm",
-        "used": 96
+        "used": 97
       },
       {
         "cap": 300,
@@ -2368,7 +2337,7 @@
         "healthy": true,
         "model": "dots-3-note-preview:free",
         "provider": "crowllm",
-        "used": 144
+        "used": 145
       },
       {
         "cap": 300,
@@ -2408,7 +2377,7 @@
         "healthy": true,
         "model": "xing4.0-29b-a4b:free",
         "provider": "crowllm",
-        "used": 93
+        "used": 94
       },
       {
         "cap": 300,
@@ -2416,7 +2385,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 95
+        "used": 96
       },
       {
         "cap": 300,
@@ -3386,103 +3355,103 @@
   },
   "recent_completions": [
     {
-      "age_sec": 173,
+      "age_sec": 566,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:21:58Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "clou-019",
+      "task_id": "task-019",
       "task_no": 19,
-      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 246,
+      "age_sec": 639,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:20:44Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "clou-018",
+      "task_id": "task-018",
       "task_no": 18,
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 409,
+      "age_sec": 802,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:18:01Z",
-      "completed_by": "pool-optimization",
-      "completed_by_zh": "池优化",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "clou-016",
+      "task_id": "task-016",
       "task_no": 16,
-      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 440,
+      "age_sec": 833,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:17:31Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "clou-017",
+      "task_id": "task-017",
       "task_no": 17,
-      "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 770,
+      "age_sec": 1163,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T21:12:01Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "pool-054",
+      "task_id": "task-054",
       "task_no": 54,
-      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 23632,
+      "age_sec": 24025,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-068",
+      "task_id": "task-068",
       "task_no": 68,
-      "title": "Done-transition replay after restarts (boss filing 2026-11-23 ~21:40)…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 23640,
+      "age_sec": 24033,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-067",
+      "task_id": "task-067",
       "task_no": 67,
-      "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 23685,
+      "age_sec": 24078,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-065",
+      "task_id": "task-065",
       "task_no": 65,
-      "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 26997,
+      "age_sec": 27390,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3494,15 +3463,15 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 27751,
+      "age_sec": 28144,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "clou-022",
+      "task_id": "task-022",
       "task_no": 22,
-      "title": "Fleet-wide publish flip, second half (boss filing 2026-11-23 20:00…",
+      "title": null,
       "workstream": "cloud-script-migration"
     }
   ],
