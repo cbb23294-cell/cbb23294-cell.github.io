@@ -15,7 +15,7 @@
     },
     {
       "done": 53,
-      "escalation_latest": "- key=f7e23c573005",
+      "escalation_latest": "- key=a393d9d48a67",
       "next_open": [
         "[code] [boss-accept] Pool tuning + slimming pass after the 140-entry expansion (",
         "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261",
@@ -57,8 +57,8 @@
     }
   ],
   "content_latest_at": "2026-11-23T03:52:44Z",
-  "generated_at": "2026-11-23T04:02:32Z",
-  "generated_at_utc": "2026-11-23T04:02:32Z",
+  "generated_at": "2026-11-23T04:05:07Z",
+  "generated_at_utc": "2026-11-23T04:05:07Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -139,12 +139,12 @@
         "used": 1097
       },
       {
-        "cap": 1000,
+        "cap": 1050,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 1000
+        "used": 1013
       },
       {
         "cap": 1000,
@@ -152,7 +152,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 30
+        "used": 31
       },
       {
         "cap": 300,
@@ -160,7 +160,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 282
+        "used": 289
       },
       {
         "cap": 300,
@@ -168,7 +168,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 21
+        "used": 22
       },
       {
         "cap": 1000,
@@ -248,7 +248,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 200
+        "used": 202
       },
       {
         "cap": 300,
@@ -256,7 +256,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 200
+        "used": 202
       },
       {
         "cap": 300,
@@ -264,7 +264,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 200
+        "used": 202
       },
       {
         "cap": 300,
@@ -272,7 +272,7 @@
         "healthy": true,
         "model": "pluto-1.2-flash",
         "provider": "merkium",
-        "used": 200
+        "used": 202
       },
       {
         "cap": 300,
@@ -280,7 +280,7 @@
         "healthy": true,
         "model": "pluto-1.2-pro",
         "provider": "merkium",
-        "used": 200
+        "used": 202
       },
       {
         "cap": 300,
@@ -288,7 +288,7 @@
         "healthy": true,
         "model": "pluto-1.1-pro",
         "provider": "merkium",
-        "used": 200
+        "used": 202
       },
       {
         "cap": 45,
@@ -728,7 +728,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 174
+        "used": 175
       },
       {
         "cap": 300,
@@ -1595,7 +1595,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 105,
+    "healthy_entries": 106,
     "ok": true,
     "reachable": true,
     "used_today": 18
@@ -1624,12 +1624,12 @@
         "used": 1097
       },
       {
-        "cap": 1000,
+        "cap": 1050,
         "enabled": true,
-        "healthy": false,
+        "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 1000
+        "used": 1013
       },
       {
         "cap": 1000,
@@ -1637,7 +1637,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 30
+        "used": 31
       },
       {
         "cap": 300,
@@ -1645,7 +1645,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 282
+        "used": 289
       },
       {
         "cap": 300,
@@ -1653,7 +1653,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 21
+        "used": 22
       },
       {
         "cap": 1000,
@@ -1733,7 +1733,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 200
+        "used": 202
       },
       {
         "cap": 300,
@@ -1741,7 +1741,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 200
+        "used": 202
       },
       {
         "cap": 300,
@@ -1749,7 +1749,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 200
+        "used": 202
       },
       {
         "cap": 300,
@@ -1757,7 +1757,7 @@
         "healthy": true,
         "model": "pluto-1.2-flash",
         "provider": "merkium",
-        "used": 200
+        "used": 202
       },
       {
         "cap": 300,
@@ -1765,7 +1765,7 @@
         "healthy": true,
         "model": "pluto-1.2-pro",
         "provider": "merkium",
-        "used": 200
+        "used": 202
       },
       {
         "cap": 300,
@@ -1773,7 +1773,7 @@
         "healthy": true,
         "model": "pluto-1.1-pro",
         "provider": "merkium",
-        "used": 200
+        "used": 202
       },
       {
         "cap": 45,
@@ -2213,7 +2213,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 174
+        "used": 175
       },
       {
         "cap": 300,
@@ -3080,7 +3080,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 105,
+    "healthy_entries": 106,
     "ok": true,
     "reachable": true,
     "used_today": 18
@@ -3156,7 +3156,7 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=f7e23c573005"
+        "latest": "- key=a393d9d48a67"
       },
       "status": {
         "exists": true,
