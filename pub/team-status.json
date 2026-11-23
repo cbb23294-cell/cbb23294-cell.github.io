@@ -2,7 +2,7 @@
   "boards": [
     {
       "done": 15,
-      "escalation_latest": "- key=7acb6e9cc009",
+      "escalation_latest": "2026-11-23T01:22:35Z ALERT pub_stale trigger=pub kind=collector_dead file=token-perks.json local_state=missing local_age_sec=none primary_state=stale primary_age_sec=174746 github_state=stale github_age_sec=174746 threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss.",
       "next_open": [
         "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal",
         "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): th"
@@ -56,8 +56,8 @@
     }
   ],
   "content_latest_at": "2026-11-23T01:09:55Z",
-  "generated_at": "2026-11-23T01:21:25Z",
-  "generated_at_utc": "2026-11-23T01:21:25Z",
+  "generated_at": "2026-11-23T01:23:45Z",
+  "generated_at_utc": "2026-11-23T01:23:45Z",
   "live_pi_workers": {
     "by_model": {},
     "total": 0
@@ -135,7 +135,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 392
+        "used": 402
       },
       {
         "cap": 1000,
@@ -143,7 +143,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 286
+        "used": 297
       },
       {
         "cap": 1000,
@@ -231,7 +231,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 75
+        "used": 76
       },
       {
         "cap": 300,
@@ -239,7 +239,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 75
+        "used": 76
       },
       {
         "cap": 300,
@@ -247,7 +247,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 75
+        "used": 76
       },
       {
         "cap": 45,
@@ -255,7 +255,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "openrouter",
-        "used": 9
+        "used": 11
       },
       {
         "cap": 45,
@@ -263,7 +263,7 @@
         "healthy": true,
         "model": "google/gemma-4-31b-it:free",
         "provider": "openrouter",
-        "used": 9
+        "used": 11
       },
       {
         "cap": 500,
@@ -1421,7 +1421,7 @@
     "healthy_entries": 85,
     "ok": true,
     "reachable": true,
-    "used_today": 9
+    "used_today": 11
   },
   "pool_health": {
     "cap": 45,
@@ -1444,7 +1444,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 392
+        "used": 402
       },
       {
         "cap": 1000,
@@ -1452,7 +1452,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 286
+        "used": 297
       },
       {
         "cap": 1000,
@@ -1540,7 +1540,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 75
+        "used": 76
       },
       {
         "cap": 300,
@@ -1548,7 +1548,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 75
+        "used": 76
       },
       {
         "cap": 300,
@@ -1556,7 +1556,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 75
+        "used": 76
       },
       {
         "cap": 45,
@@ -1564,7 +1564,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "openrouter",
-        "used": 9
+        "used": 11
       },
       {
         "cap": 45,
@@ -1572,7 +1572,7 @@
         "healthy": true,
         "model": "google/gemma-4-31b-it:free",
         "provider": "openrouter",
-        "used": 9
+        "used": 11
       },
       {
         "cap": 500,
@@ -2730,7 +2730,7 @@
     "healthy_entries": 85,
     "ok": true,
     "reachable": true,
-    "used_today": 9
+    "used_today": 11
   },
   "tracked_jobs": {
     "done": 58,
@@ -2747,7 +2747,7 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=7acb6e9cc009"
+        "latest": "2026-11-23T01:22:35Z ALERT pub_stale trigger=pub kind=collector_dead file=token-perks.json local_state=missing local_age_sec=none primary_state=stale primary_age_sec=174746 github_state=stale github_age_sec=174746 threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss."
       },
       "status": {
         "exists": true,
