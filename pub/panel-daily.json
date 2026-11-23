@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": "2026-11-23T15:18:59Z",
+  "generatedAt": "2026-11-23T17:16:59Z",
   "round": "panel-daily",
-  "summary": "核对 13 个服务：4 个实查通过、9 个未核对，7 个仅端点可达，首轮基准",
+  "summary": "核对 13 个服务：4 个实查通过、9 个未核对，6 个仅端点可达，首轮基准",
   "changes": [],
   "results": [
     {
@@ -133,8 +133,8 @@
       "status": null,
       "statusLabel": null,
       "specUpdates": [],
-      "checkType": "endpoint",
-      "checkNote": "Public HTTPS GET https://yunamo.com/: HTTP 200 at https://yunamo.com/ (redirects=0); reachability only; account not checked."
+      "checkType": "none",
+      "checkNote": "public-https/https://yunamo.com/: exit 28: curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received"
     },
     {
       "slug": "pxxl",
@@ -240,11 +240,11 @@
     },
     {
       "slug": "yunamo",
-      "ok": true,
+      "ok": false,
       "checked": false,
-      "note": "Public HTTPS GET https://yunamo.com/: HTTP 200 at https://yunamo.com/ (redirects=0); reachability only; account not checked.",
-      "checkType": "endpoint",
-      "checkNote": "Public HTTPS GET https://yunamo.com/: HTTP 200 at https://yunamo.com/ (redirects=0); reachability only; account not checked."
+      "note": "public-https/https://yunamo.com/: exit 28: curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received",
+      "checkType": "none",
+      "checkNote": "public-https/https://yunamo.com/: exit 28: curl: (28) Operation timed out after 15002 milliseconds with 0 bytes received"
     },
     {
       "slug": "pxxl",
