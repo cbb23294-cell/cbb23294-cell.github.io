@@ -1,12 +1,24 @@
 {
   "ok": true,
-  "generatedAt": "2026-11-23T23:23:45Z",
+  "generatedAt": "2026-11-24T00:12:46Z",
   "judged": true,
   "round": "freebie-scan",
   "deals": [
     {
+      "title": "🌶️ 辣椒 HTTP｜开发者友好+API 集成+指纹浏览器全兼容｜送 CDK",
+      "summary": "注册后可在后台用户中心领取代理 HTTP 服务 CDK 兑换码，正文另附多组码。",
+      "category": "其他福利",
+      "sourceKey": "v2ex",
+      "url": "https://www.v2ex.com/t/1259231#reply0",
+      "conditions": [
+        "需注册"
+      ],
+      "isHot": false,
+      "content": "✅ 开发者友好，不折腾 完整的 API 集成能力，账密认证+API 白名单两种接入方式。 C/C++、Go、Node.js、PHP、JAVA、Python 全支持，开箱即用。 ✅主流指纹浏览器全线兼容 支持 AdsPower 等主流指纹浏览器，静态住宅 IP 配合使用，一账号一 IP，环境彻底隔离。 🎁 CDK 福利 2GBU-G8GW-Y2ST N7KG-V7V6-2QAY 4QUM-WPSN-XT9X BGDD-8YDG-MRFM 6L5D-HXMW-DAZJ K7FD-23VC-V4XP RCDT-TGHU-ZMXJ G7XJ-VJMH-AJZG 📝 领取方式 注册 👉 点击辣椒 HTTP 官网 登录后台 → 用户中心 → C"
+    },
+    {
       "title": "Mark of the Deep",
-      "summary": "《Mark of the Deep》在Epic免费领取，原价¥5500",
+      "summary": "Epic 商店限时免费领取游戏 Mark of the Deep，可直接入库。",
       "category": "游戏",
       "sourceKey": "epic",
       "url": "https://store.epicgames.com/zh-CN/p/mark-of-the-deep-f7dc08",
@@ -16,11 +28,29 @@
       "isHot": true
     },
     {
-      "title": "全新微软中文输入法",
-      "summary": "全新微软中文输入法可免费下载安装，无广告无 AI",
-      "category": "软件限免",
-      "sourceKey": "iplaysoft",
-      "url": "https://www.iplaysoft.com/weiruanshurufa.html",
+      "title": "ripienaar/free-for-dev 清单近期更新（2026-11-23）",
+      "summary": "免费查看持续更新的 SaaS、PaaS、IaaS 免费层服务清单。",
+      "category": "开发工具",
+      "sourceKey": "github",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "conditions": [],
+      "isHot": false
+    },
+    {
+      "title": "mnfst/awesome-free-llm-apis 清单近期更新（2026-11-23）",
+      "summary": "免费查看可长期使用的 LLM API 免费 Key 清单，仓库持续更新。",
+      "category": "AI 与 API",
+      "sourceKey": "github",
+      "url": "https://github.com/mnfst/awesome-free-llm-apis",
+      "conditions": [],
+      "isHot": false
+    },
+    {
+      "title": "jiuyuan233/wool-gathering 清单近期更新（2026-11-23）",
+      "summary": "免费查看自动汇总的 AI 与游戏、云厂商免费额度福利清单。",
+      "category": "其他福利",
+      "sourceKey": "github",
+      "url": "https://github.com/jiuyuan233/wool-gathering",
       "conditions": [],
       "isHot": false
     }
@@ -30,19 +60,19 @@
       "sourceKey": "linuxdo",
       "status": "failed",
       "newCount": 0,
-      "error": "被墙：被墙（未取到）：https://linux.do/c/welfare/36.rss：HTTP 403（疑似 Cloudflare/登录墙）"
+      "error": "端点失效：https://linux.do/c/welfare/36.rss：连接失败：Remote end closed connection without response"
     },
     {
       "sourceKey": "v2ex",
-      "status": "failed",
-      "newCount": 0,
-      "error": "端点失效：https://www.v2ex.com/feed/promotions.xml：连接失败：chunked stream ended with no data"
+      "status": "ok",
+      "newCount": 1,
+      "error": "已抓到 · 数据未公示；取数方式：抓取 V2EX 推广节点最新主题标题、正文摘要与链接，逐条按是否 $0 可领取筛选"
     },
     {
       "sourceKey": "nodeseek",
-      "status": "failed",
+      "status": "ok",
       "newCount": 0,
-      "error": "被墙：被墙（未取到）：https://rss.nodeseek.com/：HTTP 403（疑似 Cloudflare/登录墙）；https://www.nodeseek.com/：HTTP 403（疑似 Cloudflare/登录墙）"
+      "error": "抓到但无符合条目"
     },
     {
       "sourceKey": "hostloc",
@@ -54,7 +84,7 @@
       "sourceKey": "epic",
       "status": "ok",
       "newCount": 1,
-      "error": "已抓到 · 数据未公示"
+      "error": "已抓到 · 数据未公示；取数方式：抓取 Epic 商店免费游戏页面的标题、原价标注与截止时间"
     },
     {
       "sourceKey": "appinn",
@@ -71,14 +101,14 @@
     {
       "sourceKey": "iplaysoft",
       "status": "ok",
-      "newCount": 1,
-      "error": "已抓到 · 数据未公示"
+      "newCount": 0,
+      "error": "抓到但无符合条目"
     },
     {
       "sourceKey": "github",
       "status": "ok",
-      "newCount": 0,
-      "error": "无新增"
+      "newCount": 3,
+      "error": "已抓到 · 数据未公示；取数方式：抓取清单仓库 README 描述与最近提交日期，仅收录清单本体"
     }
   ],
   "hostlocQueries": [
@@ -87,6 +117,12 @@
     "site:hostloc.com 试用",
     "site:hostloc.com 羊毛",
     "site:hostloc.com 免费领取"
+  ],
+  "filtered": [
+    {
+      "title": "一个 Key 调 300+ 模型：Gemini 4、GPT-6.2、Seedream 5.5、Seedance 2.5 ",
+      "reason": "无明确免费信号"
+    }
   ],
   "egress": "vm"
 }
