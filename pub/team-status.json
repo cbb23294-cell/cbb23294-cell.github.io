@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-24T12:15:52Z",
+    "activity_generated_at": "2026-11-24T12:17:57Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -10,19 +10,19 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 3,
+      "claimed_count": 1,
       "current_task": {
         "claimed_at": "2026-11-24T12:14:42Z",
         "claimed_by": "pool-optimization",
         "claimed_by_zh": "池优化",
-        "claimed_for": "70秒",
+        "claimed_for": "3分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
-      "cycle_started_at": "2026-11-24T01:13:15Z",
+      "cycle_started_at": "2026-11-24T12:14:42Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "11小时2分",
-      "elapsed_sec": 39757,
+      "elapsed": "3分钟",
+      "elapsed_sec": 195,
       "last_cycle_ended": "2026-11-24T12:15:00Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -30,22 +30,15 @@
     },
     {
       "active_jobs": 0,
-      "claimed_count": 1,
-      "current_task": {
-        "claimed_at": "2026-11-24T12:03:57Z",
-        "claimed_by": "pool-optimization-seat-1-11474-e85e8c46",
-        "claimed_by_zh": "池优化 席位11474",
-        "claimed_for": "11分钟",
-        "task_id": "pool-064",
-        "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…"
-      },
-      "cycle_started_at": "2026-11-24T12:03:57Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "11分钟",
-      "elapsed_sec": 715,
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
       "last_cycle_ended": "2026-11-24T12:14:40Z",
       "name_zh": "池优化",
-      "state": "running",
+      "state": "idle",
       "workstream": "pool-optimization"
     },
     {
@@ -106,33 +99,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 39757,
-          "claimed_at": "2026-11-24T01:13:15Z",
-          "claimed_by": "pool-optimization",
-          "claimed_by_zh": "池优化",
-          "claimed_for": "11小时2分",
-          "task_id": "clou-017",
-          "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
-          "workstream": "cloud-script-migration"
-        },
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 39753,
-          "claimed_at": "2026-11-24T01:13:19Z",
-          "claimed_by": "cloud-script-migration-seat-1-10536-50408aa1",
-          "claimed_by_zh": "云脚本迁移 席位10536",
-          "claimed_for": "11小时2分",
-          "task_id": "clou-019",
-          "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
-          "workstream": "cloud-script-migration"
-        },
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 70,
+          "claimed_age_sec": 195,
           "claimed_at": "2026-11-24T12:14:42Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "70秒",
+          "claimed_for": "3分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -152,19 +123,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "claimed_now": [
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 715,
-          "claimed_at": "2026-11-24T12:03:57Z",
-          "claimed_by": "pool-optimization-seat-1-11474-e85e8c46",
-          "claimed_by_zh": "池优化 席位11474",
-          "claimed_for": "11分钟",
-          "task_id": "pool-064",
-          "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
-          "workstream": "pool-optimization"
-        }
-      ],
+      "claimed_now": [],
       "done": 62,
       "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "池优化",
@@ -217,44 +176,11 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 39757,
-      "claimed_at": "2026-11-24T01:13:15Z",
-      "claimed_by": "pool-optimization",
-      "claimed_by_zh": "池优化",
-      "claimed_for": "11小时2分",
-      "task_id": "clou-017",
-      "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 39753,
-      "claimed_at": "2026-11-24T01:13:19Z",
-      "claimed_by": "cloud-script-migration-seat-1-10536-50408aa1",
-      "claimed_by_zh": "云脚本迁移 席位10536",
-      "claimed_for": "11小时2分",
-      "task_id": "clou-019",
-      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "board_zh": "池优化",
-      "claimed_age_sec": 715,
-      "claimed_at": "2026-11-24T12:03:57Z",
-      "claimed_by": "pool-optimization-seat-1-11474-e85e8c46",
-      "claimed_by_zh": "池优化 席位11474",
-      "claimed_for": "11分钟",
-      "task_id": "pool-064",
-      "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 70,
+      "claimed_age_sec": 195,
       "claimed_at": "2026-11-24T12:14:42Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "70秒",
+      "claimed_for": "3分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
@@ -293,8 +219,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-24T12:15:52Z",
-  "generated_at_utc": "2026-11-24T12:15:52Z",
+  "generated_at": "2026-11-24T12:17:57Z",
+  "generated_at_utc": "2026-11-24T12:17:57Z",
   "live_pi_workers": {
     "by_model": {
       "token-harbor/deepseek-v4.1-flash:free": 2
@@ -418,7 +344,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 132
+        "used": 133
       },
       {
         "cap": 300,
@@ -426,7 +352,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 144
+        "used": 155
       },
       {
         "cap": 1000,
@@ -2167,7 +2093,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 132
+        "used": 133
       },
       {
         "cap": 300,
@@ -2175,7 +2101,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 144
+        "used": 155
       },
       {
         "cap": 1000,
@@ -3873,7 +3799,7 @@
   },
   "recent_completions": [
     {
-      "age_sec": 51,
+      "age_sec": 176,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T12:15:00Z",
       "completed_by": "pool-optimization",
@@ -3885,7 +3811,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 71,
+      "age_sec": 196,
       "board_zh": "池优化",
       "completed_at": "2026-11-24T12:14:40Z",
       "completed_by": "pool-optimization-seat-1-12644-7c6dc7e0",
@@ -3897,11 +3823,11 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 39458,
+      "age_sec": 39583,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:13Z",
-      "completed_by": "pool-optimization",
-      "completed_by_zh": "池优化",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "result.txt",
       "task_id": "clou-017",
       "task_no": 17,
@@ -3909,11 +3835,11 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 39459,
+      "age_sec": 39584,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:12Z",
-      "completed_by": "cloud-script-migration-seat-1-10536-50408aa1",
-      "completed_by_zh": "云脚本迁移 席位10536",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "result.txt",
       "task_id": "clou-019",
       "task_no": 19,
@@ -3921,7 +3847,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 52888,
+      "age_sec": 53013,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:34:23Z",
       "completed_by": null,
@@ -3933,7 +3859,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 77093,
+      "age_sec": 77218,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3945,7 +3871,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 77101,
+      "age_sec": 77226,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3957,7 +3883,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 77146,
+      "age_sec": 77271,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3969,7 +3895,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 80457,
+      "age_sec": 80583,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3981,7 +3907,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 81211,
+      "age_sec": 81336,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
@@ -4058,7 +3984,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du space's importCatalog action fetches this file from the two pub endpoints but NOBODY produces it (both 404) - first determine the exact payload schema importCatalog accepts (publish a one-entry probe file, observe the import result, adjust), then build a deterministic producer in migrate-glue/ that emits the verified catalog (17 entries as of 2026-11-22; updates flow from the daily verification conclusions) to migrate-glue/out/ai-quota-catalog.json (github_pub_watch publishes the GitHub leg), add the file to the InstaBox publish set and to the stale-alarm manifest (threshold_sec 129600). Acceptance: both endpoints serve the file with generatedAt < 26h old AND a production importCatalog call consumes it without error; the space's provider_state / changes / rotation data untouched. | ai-e-du actions importCatalog/saveCatalogUpdates | endpoint stamps + import result — BOSS ACCEPTANCE HOLD 2026-11-23: the producer's first local output (2026-11-22T18:12:26Z, ok=True) carries providerCount=9 (repo-3/10/14/18/28/31/33, supp-opencode-zen, supp-100milionseek) against the 17 catalog entries this task must emit. Before any completion claim: (1) explain the 9-vs-17 gap with the schema-probe evidence (what importCatalog actually accepts), and (2) prove a production importCatalog run is NON-DESTRUCTIVE - all 17 entries still present afterwards. Endpoints are still 404 at hold time; publish + import proof outstanding. — BOSS NOTE 2026-11-23: the line fixed the count (local payload providerCount=17, fresh) but the publish leg was never wired: the producer writes the local file and stops; no step carries it to the endpoints (all three 404 while the local payload sat fresh). The boss pushed the current payload manually via the pool-state route (push_to_insta -> box ~/migrate/team/ -> team-publish -> primary; pub-mirror then carries it to GitHub). REMAINING for acceptance: (1) wire the leg durably into the producer cycle so the next generated payload reaches the endpoints with no manual step; (2) the non-destructive importCatalog proof from the original hold. The 9-vs-17 item is CLOSED. [BOSS PROGRESS 2026-11-24 ~01:37: acceptance item (1) is DONE by the boss - the durable publish leg is wired (migrate-glue/catalog_publish_bridge.sh + supervisor job catalog-publish-bridge every 1800s, change-triggered Contents-API publish; verified live 2026-11-23 22:20 CST, GitHub generated_at 13:14:11Z). REMAINING SCOPE IS ONLY item (2): the non-destructive importCatalog proof. The 12 claim-voids today were on the full two-item scope; claim only if you will run the proof.] [BOSS PROOF RESULT 2026-11-24 ~05:06: the boss ran the non-destructive importCatalog proof personally through the space's own action. Result: imported=0, skipped=0, source=\"none\", stale=true - the import pulled NOTHING even though the published GitHub catalog (generated_at 2026-11-23T13:14:11Z, 17 providers) is newer than the stored catalogUpdatedAt 2026-11-22. Item (2) is therefore NOT a pass: the space-side import fetch or its stale guard is broken. Remaining scope is now precise: root-cause why importcatalog sees no usable candidate from either endpoint (fetch failure vs stale-guard mis-comparison), fix, and re-run until imported>0 with the stored catalog matching the published 17 providers.] (executed-by float failed 2026-11-23T23:59:53Z) (claimed-by pool-optimization 2026-11-24T01:13:15Z) (frozen by auto-reject - boss review) [BOSS HARD LOCK 2026-11-24 ~09:20: remaining scope is the space-side importCatalog root-cause, which only the boss can run through the artifact channel - worker claims cannot execute it and only churn. Boss-owned; do not claim.]"
+            "title": "[code] [boss-accept] ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du space's importCatalog action fetches this file from the two pub endpoints but NOBODY produces it (both 404) - first determine the exact payload schema importCatalog accepts (publish a one-entry probe file, observe the import result, adjust), then build a deterministic producer in migrate-glue/ that emits the verified catalog (17 entries as of 2026-11-22; updates flow from the daily verification conclusions) to migrate-glue/out/ai-quota-catalog.json (github_pub_watch publishes the GitHub leg), add the file to the InstaBox publish set and to the stale-alarm manifest (threshold_sec 129600). Acceptance: both endpoints serve the file with generatedAt < 26h old AND a production importCatalog call consumes it without error; the space's provider_state / changes / rotation data untouched. | ai-e-du actions importCatalog/saveCatalogUpdates | endpoint stamps + import result — BOSS ACCEPTANCE HOLD 2026-11-23: the producer's first local output (2026-11-22T18:12:26Z, ok=True) carries providerCount=9 (repo-3/10/14/18/28/31/33, supp-opencode-zen, supp-100milionseek) against the 17 catalog entries this task must emit. Before any completion claim: (1) explain the 9-vs-17 gap with the schema-probe evidence (what importCatalog actually accepts), and (2) prove a production importCatalog run is NON-DESTRUCTIVE - all 17 entries still present afterwards. Endpoints are still 404 at hold time; publish + import proof outstanding. — BOSS NOTE 2026-11-23: the line fixed the count (local payload providerCount=17, fresh) but the publish leg was never wired: the producer writes the local file and stops; no step carries it to the endpoints (all three 404 while the local payload sat fresh). The boss pushed the current payload manually via the pool-state route (push_to_insta -> box ~/migrate/team/ -> team-publish -> primary; pub-mirror then carries it to GitHub). REMAINING for acceptance: (1) wire the leg durably into the producer cycle so the next generated payload reaches the endpoints with no manual step; (2) the non-destructive importCatalog proof from the original hold. The 9-vs-17 item is CLOSED. [BOSS PROGRESS 2026-11-24 ~01:37: acceptance item (1) is DONE by the boss - the durable publish leg is wired (migrate-glue/catalog_publish_bridge.sh + supervisor job catalog-publish-bridge every 1800s, change-triggered Contents-API publish; verified live 2026-11-23 22:20 CST, GitHub generated_at 13:14:11Z). REMAINING SCOPE IS ONLY item (2): the non-destructive importCatalog proof. The 12 claim-voids today were on the full two-item scope; claim only if you will run the proof.] [BOSS PROOF RESULT 2026-11-24 ~05:06: the boss ran the non-destructive importCatalog proof personally through the space's own action. Result: imported=0, skipped=0, source=\"none\", stale=true - the import pulled NOTHING even though the published GitHub catalog (generated_at 2026-11-23T13:14:11Z, 17 providers) is newer than the stored catalogUpdatedAt 2026-11-22. Item (2) is therefore NOT a pass: the space-side import fetch or its stale guard is broken. Remaining scope is now precise: root-cause why importcatalog sees no usable candidate from either endpoint (fetch failure vs stale-guard mis-comparison), fix, and re-run until imported>0 with the stored catalog matching the published 17 providers.] (executed-by float failed 2026-11-23T23:59:53Z) (frozen by auto-reject - boss review) [BOSS HARD LOCK 2026-11-24 ~09:20: remaining scope is the space-side importCatalog root-cause, which only the boss can run through the artifact channel - worker claims cannot execute it and only churn. Boss-owned; do not claim.]"
           },
           {
             "full": true,
