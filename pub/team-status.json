@@ -1,8 +1,8 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-24T13:17:25Z",
+    "activity_generated_at": "2026-11-24T13:19:31Z",
     "empty_reasons": {
-      "claimed_now": null,
+      "claimed_now": "no open board task carries a live claim record",
       "recent_completions": null,
       "workers_running": "no jobs/*.json without a .done/.closed marker"
     }
@@ -10,42 +10,28 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 1,
-      "current_task": {
-        "claimed_at": "2026-11-24T13:16:40Z",
-        "claimed_by": "operations",
-        "claimed_by_zh": "运维",
-        "claimed_for": "45秒",
-        "task_id": "clou-018",
-        "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
-      },
-      "cycle_started_at": "2026-11-24T13:16:40Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "45秒",
-      "elapsed_sec": 45,
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
       "last_cycle_ended": "2026-11-24T13:16:58Z",
       "name_zh": "云脚本迁移",
-      "state": "running",
+      "state": "idle",
       "workstream": "cloud-script-migration"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 2,
-      "current_task": {
-        "claimed_at": "2026-11-24T13:13:07Z",
-        "claimed_by": "pool-optimization-seat-1-28047-9b9d1dd6",
-        "claimed_by_zh": "池优化 席位28047",
-        "claimed_for": "4分钟",
-        "task_id": "pool-064",
-        "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…"
-      },
-      "cycle_started_at": "2026-11-24T13:06:45Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "10分钟",
-      "elapsed_sec": 640,
-      "last_cycle_ended": "2026-11-24T13:12:21Z",
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
+      "last_cycle_ended": "2026-11-24T13:19:02Z",
       "name_zh": "池优化",
-      "state": "running",
+      "state": "idle",
       "workstream": "pool-optimization"
     },
     {
@@ -103,19 +89,7 @@
   ],
   "boards": [
     {
-      "claimed_now": [
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 45,
-          "claimed_at": "2026-11-24T13:16:40Z",
-          "claimed_by": "operations",
-          "claimed_by_zh": "运维",
-          "claimed_for": "45秒",
-          "task_id": "clou-018",
-          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-          "workstream": "cloud-script-migration"
-        }
-      ],
+      "claimed_now": [],
       "done": 17,
       "escalation_latest": "runner exit: 0",
       "name_zh": "云脚本迁移",
@@ -130,30 +104,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "claimed_now": [
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 640,
-          "claimed_at": "2026-11-24T13:06:45Z",
-          "claimed_by": "pool-optimization-seat-1-26677-6765c39a",
-          "claimed_by_zh": "池优化 席位26677",
-          "claimed_for": "10分钟",
-          "task_id": "pool-054",
-          "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
-          "workstream": "pool-optimization"
-        },
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 258,
-          "claimed_at": "2026-11-24T13:13:07Z",
-          "claimed_by": "pool-optimization-seat-1-28047-9b9d1dd6",
-          "claimed_by_zh": "池优化 席位28047",
-          "claimed_for": "4分钟",
-          "task_id": "pool-064",
-          "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
-          "workstream": "pool-optimization"
-        }
-      ],
+      "claimed_now": [],
       "done": 63,
       "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "池优化",
@@ -163,7 +114,7 @@
         "[judgment] 每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-swee…"
       ],
       "open": 5,
-      "status_updated": "2026-11-24T13:13:08Z",
+      "status_updated": "2026-11-24T13:18:38Z",
       "total": 68,
       "workstream": "pool-optimization"
     },
@@ -201,42 +152,8 @@
       "workstream": "spaces-data"
     }
   ],
-  "claimed_now": [
-    {
-      "board_zh": "池优化",
-      "claimed_age_sec": 640,
-      "claimed_at": "2026-11-24T13:06:45Z",
-      "claimed_by": "pool-optimization-seat-1-26677-6765c39a",
-      "claimed_by_zh": "池优化 席位26677",
-      "claimed_for": "10分钟",
-      "task_id": "pool-054",
-      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "board_zh": "池优化",
-      "claimed_age_sec": 258,
-      "claimed_at": "2026-11-24T13:13:07Z",
-      "claimed_by": "pool-optimization-seat-1-28047-9b9d1dd6",
-      "claimed_by_zh": "池优化 席位28047",
-      "claimed_for": "4分钟",
-      "task_id": "pool-064",
-      "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 45,
-      "claimed_at": "2026-11-24T13:16:40Z",
-      "claimed_by": "operations",
-      "claimed_by_zh": "运维",
-      "claimed_for": "45秒",
-      "task_id": "clou-018",
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    }
-  ],
-  "content_latest_at": "2026-11-24T13:13:08Z",
+  "claimed_now": [],
+  "content_latest_at": "2026-11-24T13:18:38Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 237,
@@ -269,8 +186,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-24T13:17:25Z",
-  "generated_at_utc": "2026-11-24T13:17:25Z",
+  "generated_at": "2026-11-24T13:19:32Z",
+  "generated_at_utc": "2026-11-24T13:19:32Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -373,7 +290,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 96
+        "used": 98
       },
       {
         "cap": 300,
@@ -381,7 +298,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 273
+        "used": 275
       },
       {
         "cap": 300,
@@ -389,7 +306,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 291
+        "used": 295
       },
       {
         "cap": 1000,
@@ -397,7 +314,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 500,
@@ -405,7 +322,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 23
+        "used": 25
       },
       {
         "cap": 500,
@@ -413,7 +330,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 23
+        "used": 25
       },
       {
         "cap": 500,
@@ -1157,7 +1074,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 72
+        "used": 73
       },
       {
         "cap": 300,
@@ -2122,7 +2039,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 96
+        "used": 98
       },
       {
         "cap": 300,
@@ -2130,7 +2047,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 273
+        "used": 275
       },
       {
         "cap": 300,
@@ -2138,7 +2055,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 291
+        "used": 295
       },
       {
         "cap": 1000,
@@ -2146,7 +2063,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 500,
@@ -2154,7 +2071,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 23
+        "used": 25
       },
       {
         "cap": 500,
@@ -2162,7 +2079,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 23
+        "used": 25
       },
       {
         "cap": 500,
@@ -2906,7 +2823,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 72
+        "used": 73
       },
       {
         "cap": 300,
@@ -3836,123 +3753,123 @@
   },
   "recent_completions": [
     {
-      "age_sec": 26,
+      "age_sec": 28,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-24T13:19:02Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "result.txt",
+      "task_id": "task-054",
+      "task_no": 54,
+      "title": null,
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 153,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T13:16:58Z",
-      "completed_by": "operations",
-      "completed_by_zh": "运维",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "clou-018",
+      "task_id": "task-018",
       "task_no": 18,
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 303,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-24T13:12:21Z",
-      "completed_by": "pool-optimization-seat-1-26677-6765c39a",
-      "completed_by_zh": "池优化 席位26677",
-      "completed_ts_source": "done",
-      "task_id": "pool-054",
-      "task_no": 54,
-      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 1018,
+      "age_sec": 1145,
       "board_zh": "安全",
       "completed_at": "2026-11-24T13:00:26Z",
-      "completed_by": "security-seat-1-23773-27542a78",
-      "completed_by_zh": "安全 席位23773",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "secu-015",
+      "task_id": "task-013",
       "task_no": 13,
-      "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…",
+      "title": null,
       "workstream": "security"
     },
     {
-      "age_sec": 2827,
+      "age_sec": 2953,
       "board_zh": "池优化",
       "completed_at": "2026-11-24T12:30:18Z",
-      "completed_by": "pool-optimization-seat-1-15972-95e36549",
-      "completed_by_zh": "池优化 席位15972",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-056",
+      "task_id": "task-056",
       "task_no": 56,
-      "title": "Long-request 502 root cause at the pool door (cycle meeting re-run S1…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 43151,
+      "age_sec": 43277,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:13Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "clou-017",
+      "task_id": "task-017",
       "task_no": 17,
-      "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 43152,
+      "age_sec": 43279,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:12Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "clou-019",
+      "task_id": "task-019",
       "task_no": 19,
-      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 56581,
+      "age_sec": 56708,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:34:23Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "clou-016",
+      "task_id": "task-016",
       "task_no": 16,
-      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 80786,
+      "age_sec": 80912,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-068",
+      "task_id": "task-068",
       "task_no": 68,
-      "title": "Done-transition replay after restarts (boss filing 2026-11-23 ~21:40)…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 80794,
+      "age_sec": 80920,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-067",
+      "task_id": "task-067",
       "task_no": 67,
-      "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 80839,
+      "age_sec": 80965,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-065",
+      "task_id": "task-065",
       "task_no": 65,
-      "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…",
+      "title": null,
       "workstream": "pool-optimization"
     }
   ],
@@ -4031,7 +3948,7 @@
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-24T13:13:08Z"
+        "updated": "2026-11-24T13:18:38Z"
       },
       "tasks": {
         "done": 63,
@@ -4043,7 +3960,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z ruling A) [est:45m] | Contract (3 segments): (1) worker edits a copy inside the task dir out/pool-059/; (2) production merge is a PATCH against production manager.py, applied by the pool-optimization manager (named owner), no parallel rewrite; (3) acceptance requires production-path evidence: a real help-failure cycle whose help-cooldown.json entry carries the new field and a later dispatch log line showing the exclusion. Change spec: when a help attempt fails and record_help_failure writes the cooldown entry, also write providers: string[] = the providers actually attempted this round, taken from the dispatch/attempt context (never parsed from reason text). dispatch_task / help candidate selection reads that field for the task: exclude every entry of those providers while the cooldown is active; if exclusion empties the candidate set, fall back to same-provider with a WARN log line (do not block). The operations line's last_up concept is merged into this field - no separate field, no rate threshold (boss rejected the 0.6 threshold as a guessed number). Metrics: cross-provider re-dispatch success rate inside cooldown windows, baseline 0/0 (new metric), target >=90% at the 2026-11-29 digest; security line's cross-check rides the same digest: providers fields joined against attempt logs, any mismatch is a finding. Recheck 2026-11-29. — BOSS UNFREEZE 2026-11-23: the failure was a goose action-cap truncation mid-work, not a task defect; the work copy out/pool-059/manager.py was modified AFTER the failure stamp. Resume from that copy; do not restart from scratch. — MEETING AMENDMENT 2026-11-23 (help-mechanism meeting ruling 1, transcript meetings/20261123T044829Z.md): (a) failure classification is written AT record time in record_help_failure: class in {acceptance, selftest, upstream} alongside the providers field; (b) backfill the 19 existing help-cooldown.json records from the pool-072 datapack (out/pool-060/digest-datapack.md) — records that cannot be classified from evidence are marked unknown, never guessed; (c) EFFECT MEASUREMENT (security challenge, adopted): every help dispatch records dispatch timestamp + target task id in its help event; the pool line watch re-reads the target board after 2 of the helped line's manager cycles and writes help.advanced or help.no_advance — \"advanced\" means the target task changed state (claim/start/settle) inside the window; (d) metrics added: classification coverage 19/19 by 2026-11-30; advancement rate baseline from the decomposition task, target >=80%; recheck 2026-12-03 digest. — BOSS AMENDMENT 2 2026-11-23 (IAO distillation): the advancement write-backs aggregate per HELPER MODEL into the existing digest pool-health face (helper model -> dispatched / advanced / no_advance), so repeat no-advance helpers are deprioritized through the existing bandit shadow scores. No new analytics module; no busy-rate metric anywhere in the system. — BOSS AMENDMENT 3 2026-11-23 (from the accepted pool-085 decomposition): the help.completed writer must propagate assigner + dispatch_path (idle_sweep | reinforce_ticket | manual) + dispatch_timestamp from the dispatch decision into the event (extend the writer's allowed fields or encode in evidence_pointer); same-(helped,task) echoes from multiple helper lines must collapse or be marked echo; writer selftests must NEVER write to the production stream with event_class real (use a drill stream). Acceptance: the next 10 production help events all carry the three fields and zero selftest rows appear in the production stream. (completion claimed by pool-optimization-seat-1-12644-7c6dc7e0 2026-11-24T12:14:41Z - pending boss ~~acceptance~~ REJECTED by boss 2026-11-24) — BOSS REJECTED 2026-11-24 ~20:25: the claim is VOID. The worker's own SEGMENT3-STATUS-20261124T1215Z.md and result.txt state Segment 3 is unmet (0/0 post-merge help events; the observer exits 1 'merged, awaiting a real help-failure cycle'); the claim's stated basis was the verbatim-marker satisfiability already recorded as a FALSE-PASS HAZARD. Segments 1-2 stand verified live (production manager.py anchors present, 66/66 cooldown records carry the class field, zero selftest rows in the production stream). The task stays OPEN: acceptance requires ONE real post-merge help-failure cycle (cooldown record with the new fields + the dispatch log exclusion line) - no marker-only claim will be accepted. The two environmental blockers are now fixed by the boss: manager_watch crash loop (0-byte state file) repaired 2026-11-24 ~20:20 and the plan-gate dual-directory resolution repaired the same evening, so the next natural cycle can produce the evidence. (claimed-by pool-optimization-seat-1-26677-6765c39a 2026-11-24T13:06:45Z)"
+            "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z ruling A) [est:45m] | Contract (3 segments): (1) worker edits a copy inside the task dir out/pool-059/; (2) production merge is a PATCH against production manager.py, applied by the pool-optimization manager (named owner), no parallel rewrite; (3) acceptance requires production-path evidence: a real help-failure cycle whose help-cooldown.json entry carries the new field and a later dispatch log line showing the exclusion. Change spec: when a help attempt fails and record_help_failure writes the cooldown entry, also write providers: string[] = the providers actually attempted this round, taken from the dispatch/attempt context (never parsed from reason text). dispatch_task / help candidate selection reads that field for the task: exclude every entry of those providers while the cooldown is active; if exclusion empties the candidate set, fall back to same-provider with a WARN log line (do not block). The operations line's last_up concept is merged into this field - no separate field, no rate threshold (boss rejected the 0.6 threshold as a guessed number). Metrics: cross-provider re-dispatch success rate inside cooldown windows, baseline 0/0 (new metric), target >=90% at the 2026-11-29 digest; security line's cross-check rides the same digest: providers fields joined against attempt logs, any mismatch is a finding. Recheck 2026-11-29. — BOSS UNFREEZE 2026-11-23: the failure was a goose action-cap truncation mid-work, not a task defect; the work copy out/pool-059/manager.py was modified AFTER the failure stamp. Resume from that copy; do not restart from scratch. — MEETING AMENDMENT 2026-11-23 (help-mechanism meeting ruling 1, transcript meetings/20261123T044829Z.md): (a) failure classification is written AT record time in record_help_failure: class in {acceptance, selftest, upstream} alongside the providers field; (b) backfill the 19 existing help-cooldown.json records from the pool-072 datapack (out/pool-060/digest-datapack.md) — records that cannot be classified from evidence are marked unknown, never guessed; (c) EFFECT MEASUREMENT (security challenge, adopted): every help dispatch records dispatch timestamp + target task id in its help event; the pool line watch re-reads the target board after 2 of the helped line's manager cycles and writes help.advanced or help.no_advance — \"advanced\" means the target task changed state (claim/start/settle) inside the window; (d) metrics added: classification coverage 19/19 by 2026-11-30; advancement rate baseline from the decomposition task, target >=80%; recheck 2026-12-03 digest. — BOSS AMENDMENT 2 2026-11-23 (IAO distillation): the advancement write-backs aggregate per HELPER MODEL into the existing digest pool-health face (helper model -> dispatched / advanced / no_advance), so repeat no-advance helpers are deprioritized through the existing bandit shadow scores. No new analytics module; no busy-rate metric anywhere in the system. — BOSS AMENDMENT 3 2026-11-23 (from the accepted pool-085 decomposition): the help.completed writer must propagate assigner + dispatch_path (idle_sweep | reinforce_ticket | manual) + dispatch_timestamp from the dispatch decision into the event (extend the writer's allowed fields or encode in evidence_pointer); same-(helped,task) echoes from multiple helper lines must collapse or be marked echo; writer selftests must NEVER write to the production stream with event_class real (use a drill stream). Acceptance: the next 10 production help events all carry the three fields and zero selftest rows appear in the production stream. (completion claimed by pool-optimization-seat-1-12644-7c6dc7e0 2026-11-24T12:14:41Z - pending boss ~~acceptance~~ REJECTED by boss 2026-11-24) — BOSS REJECTED 2026-11-24 ~20:25: the claim is VOID. The worker's own SEGMENT3-STATUS-20261124T1215Z.md and result.txt state Segment 3 is unmet (0/0 post-merge help events; the observer exits 1 'merged, awaiting a real help-failure cycle'); the claim's stated basis was the verbatim-marker satisfiability already recorded as a FALSE-PASS HAZARD. Segments 1-2 stand verified live (production manager.py anchors present, 66/66 cooldown records carry the class field, zero selftest rows in the production stream). The task stays OPEN: acceptance requires ONE real post-merge help-failure cycle (cooldown record with the new fields + the dispatch log exclusion line) - no marker-only claim will be accepted. The two environmental blockers are now fixed by the boss: manager_watch crash loop (0-byte state file) repaired 2026-11-24 ~20:20 and the plan-gate dual-directory resolution repaired the same evening, so the next natural cycle can produce the evidence. (claimed-by pool-optimization-seat-1-29115-a6720959 2026-11-24T13:18:37Z)"
           },
           {
             "full": true,
