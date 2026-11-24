@@ -1,18 +1,18 @@
 {
- "collectedAt": "2026-11-24T09:29:48Z",
+ "collectedAt": "2026-11-24T09:35:12Z",
  "servers": [
   {
    "serverId": 1,
    "ok": true,
    "error": "",
    "note": "KiwiVM API 桥接刷新（全量采集恢复前）；cpu/流量/三网字段 API 无诚实来源，置 null",
-   "collectedAt": "2026-11-24T09:29:48Z",
-   "cpuPct": 9.1,
-   "load1": 0.06,
-   "load5": 0.11,
-   "load15": 0.11,
+   "collectedAt": "2026-11-24T09:35:12Z",
+   "cpuPct": 9.4,
+   "load1": 0.0,
+   "load5": 0.0,
+   "load15": 0.0,
    "uptimeDays": 151.8,
-   "memUsedMb": 304,
+   "memUsedMb": 1019,
    "memTotalMb": 1019,
    "diskUsedGb": 5.1,
    "diskTotalGb": 20.0,
@@ -20,25 +20,25 @@
    "netMonthLimitGb": 1074,
    "netRxTotalGb": 197.5,
    "netTxTotalGb": 204.8,
-   "netRxMbps": 0.45,
-   "netTxMbps": 0.32,
+   "netRxMbps": 0.12,
+   "netTxMbps": 0.13,
    "gpuModel": null,
    "gpuPct": null,
    "threeNet": [
     {
      "carrier": "telecom",
-     "latencyMs": 152.226,
+     "latencyMs": 152.463,
      "packetLoss": 0.0
     },
     {
      "carrier": "unicom",
-     "latencyMs": 181.139,
+     "latencyMs": 185.428,
      "packetLoss": 0.0
     },
     {
      "carrier": "mobile",
-     "latencyMs": 189.302,
-     "packetLoss": 60.0
+     "latencyMs": 190.115,
+     "packetLoss": 0.0
     }
    ]
   },
@@ -47,12 +47,12 @@
    "ok": true,
    "error": "",
    "note": "无 vnstat，本月流量填 null",
-   "cpuPct": 4.5,
+   "cpuPct": 0.0,
    "load1": 0.0,
    "load5": 0.0,
    "load15": 0.0,
    "uptimeDays": 7.8,
-   "memUsedMb": 509,
+   "memUsedMb": 480,
    "memTotalMb": 1775,
    "diskUsedGb": 6.3,
    "diskTotalGb": 39.3,
@@ -67,21 +67,21 @@
    "threeNet": [
     {
      "carrier": "telecom",
-     "latencyMs": 24.597,
+     "latencyMs": 24.603,
      "packetLoss": 0.0
     },
     {
      "carrier": "unicom",
-     "latencyMs": 36.371,
+     "latencyMs": 36.699,
      "packetLoss": 0.0
     },
     {
      "carrier": "mobile",
-     "latencyMs": 7.299,
+     "latencyMs": 7.335,
      "packetLoss": 0.0
     }
    ],
-   "collectedAt": "2026-11-24T09:26:54Z"
+   "collectedAt": "2026-11-24T09:31:57Z"
   }
  ]
 }
