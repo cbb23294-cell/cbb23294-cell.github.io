@@ -1,18 +1,18 @@
 {
- "collectedAt": "2026-11-24T09:11:18Z",
+ "collectedAt": "2026-11-24T09:24:12Z",
  "servers": [
   {
    "serverId": 1,
    "ok": true,
    "error": "",
    "note": "KiwiVM API 桥接刷新（全量采集恢复前）；cpu/流量/三网字段 API 无诚实来源，置 null",
-   "collectedAt": "2026-11-24T09:11:18Z",
-   "cpuPct": 35.9,
-   "load1": 0.33,
-   "load5": 0.22,
+   "collectedAt": "2026-11-24T09:24:12Z",
+   "cpuPct": 12.5,
+   "load1": 0.13,
+   "load5": 0.15,
    "load15": 0.13,
    "uptimeDays": 151.8,
-   "memUsedMb": 307,
+   "memUsedMb": 303,
    "memTotalMb": 1019,
    "diskUsedGb": 5.1,
    "diskTotalGb": 20.0,
@@ -20,24 +20,24 @@
    "netMonthLimitGb": 1074,
    "netRxTotalGb": 197.5,
    "netTxTotalGb": 204.8,
-   "netRxMbps": 0.11,
-   "netTxMbps": 0.19,
+   "netRxMbps": 0.29,
+   "netTxMbps": 0.15,
    "gpuModel": null,
    "gpuPct": null,
    "threeNet": [
     {
      "carrier": "telecom",
-     "latencyMs": 165.565,
+     "latencyMs": 153.962,
      "packetLoss": 0.0
     },
     {
      "carrier": "unicom",
-     "latencyMs": 180.928,
+     "latencyMs": 178.826,
      "packetLoss": 0.0
     },
     {
      "carrier": "mobile",
-     "latencyMs": 189.337,
+     "latencyMs": 189.637,
      "packetLoss": 0.0
     }
    ]
@@ -47,12 +47,12 @@
    "ok": true,
    "error": "",
    "note": "无 vnstat，本月流量填 null",
-   "cpuPct": 9.1,
+   "cpuPct": 0.0,
    "load1": 0.0,
    "load5": 0.0,
    "load15": 0.0,
    "uptimeDays": 7.8,
-   "memUsedMb": 464,
+   "memUsedMb": 482,
    "memTotalMb": 1775,
    "diskUsedGb": 6.3,
    "diskTotalGb": 39.3,
@@ -67,21 +67,21 @@
    "threeNet": [
     {
      "carrier": "telecom",
-     "latencyMs": 24.343,
+     "latencyMs": 24.583,
      "packetLoss": 0.0
     },
     {
      "carrier": "unicom",
-     "latencyMs": 36.372,
+     "latencyMs": 36.716,
      "packetLoss": 0.0
     },
     {
      "carrier": "mobile",
-     "latencyMs": 7.311,
+     "latencyMs": 7.361,
      "packetLoss": 0.0
     }
    ],
-   "collectedAt": "2026-11-24T09:06:13Z"
+   "collectedAt": "2026-11-24T09:21:51Z"
   }
  ]
 }
