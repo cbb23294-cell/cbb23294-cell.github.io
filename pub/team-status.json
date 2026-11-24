@@ -1,8 +1,8 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-24T13:19:31Z",
+    "activity_generated_at": "2026-11-24T13:22:06Z",
     "empty_reasons": {
-      "claimed_now": "no open board task carries a live claim record",
+      "claimed_now": null,
       "recent_completions": null,
       "workers_running": "no jobs/*.json without a .done/.closed marker"
     }
@@ -10,28 +10,42 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
+      "claimed_count": 1,
+      "current_task": {
+        "claimed_at": "2026-11-24T13:16:40Z",
+        "claimed_by": "operations",
+        "claimed_by_zh": "运维",
+        "claimed_for": "5分钟",
+        "task_id": "clou-018",
+        "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
+      },
+      "cycle_started_at": "2026-11-24T13:16:40Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "5分钟",
+      "elapsed_sec": 327,
       "last_cycle_ended": "2026-11-24T13:16:58Z",
       "name_zh": "云脚本迁移",
-      "state": "idle",
+      "state": "running",
       "workstream": "cloud-script-migration"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
+      "claimed_count": 1,
+      "current_task": {
+        "claimed_at": "2026-11-24T13:18:37Z",
+        "claimed_by": "pool-optimization-seat-1-29115-a6720959",
+        "claimed_by_zh": "池优化 席位29115",
+        "claimed_for": "3分钟",
+        "task_id": "pool-054",
+        "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…"
+      },
+      "cycle_started_at": "2026-11-24T13:18:37Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "3分钟",
+      "elapsed_sec": 210,
       "last_cycle_ended": "2026-11-24T13:19:02Z",
       "name_zh": "池优化",
-      "state": "idle",
+      "state": "running",
       "workstream": "pool-optimization"
     },
     {
@@ -89,7 +103,19 @@
   ],
   "boards": [
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 327,
+          "claimed_at": "2026-11-24T13:16:40Z",
+          "claimed_by": "operations",
+          "claimed_by_zh": "运维",
+          "claimed_for": "5分钟",
+          "task_id": "clou-018",
+          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+          "workstream": "cloud-script-migration"
+        }
+      ],
       "done": 17,
       "escalation_latest": "runner exit: 0",
       "name_zh": "云脚本迁移",
@@ -99,12 +125,24 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 5,
-      "status_updated": "2026-11-24T13:10:41Z",
+      "status_updated": "2026-11-24T13:20:13Z",
       "total": 22,
       "workstream": "cloud-script-migration"
     },
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 210,
+          "claimed_at": "2026-11-24T13:18:37Z",
+          "claimed_by": "pool-optimization-seat-1-29115-a6720959",
+          "claimed_by_zh": "池优化 席位29115",
+          "claimed_for": "3分钟",
+          "task_id": "pool-054",
+          "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+          "workstream": "pool-optimization"
+        }
+      ],
       "done": 63,
       "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "池优化",
@@ -114,7 +152,7 @@
         "[judgment] 每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-swee…"
       ],
       "open": 5,
-      "status_updated": "2026-11-24T13:18:38Z",
+      "status_updated": "2026-11-24T13:19:52Z",
       "total": 68,
       "workstream": "pool-optimization"
     },
@@ -125,7 +163,7 @@
       "name_zh": "安全",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-24T13:08:15Z",
+      "status_updated": "2026-11-24T13:19:57Z",
       "total": 13,
       "workstream": "security"
     },
@@ -136,7 +174,7 @@
       "name_zh": "运维",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-24T13:10:26Z",
+      "status_updated": "2026-11-24T13:19:47Z",
       "total": 20,
       "workstream": "operations"
     },
@@ -147,13 +185,36 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-24T13:10:21Z",
+      "status_updated": "2026-11-24T13:20:08Z",
       "total": 16,
       "workstream": "spaces-data"
     }
   ],
-  "claimed_now": [],
-  "content_latest_at": "2026-11-24T13:18:38Z",
+  "claimed_now": [
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 327,
+      "claimed_at": "2026-11-24T13:16:40Z",
+      "claimed_by": "operations",
+      "claimed_by_zh": "运维",
+      "claimed_for": "5分钟",
+      "task_id": "clou-018",
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 210,
+      "claimed_at": "2026-11-24T13:18:37Z",
+      "claimed_by": "pool-optimization-seat-1-29115-a6720959",
+      "claimed_by_zh": "池优化 席位29115",
+      "claimed_for": "3分钟",
+      "task_id": "pool-054",
+      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
+      "workstream": "pool-optimization"
+    }
+  ],
+  "content_latest_at": "2026-11-24T13:20:13Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 237,
@@ -186,8 +247,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-24T13:19:32Z",
-  "generated_at_utc": "2026-11-24T13:19:32Z",
+  "generated_at": "2026-11-24T13:22:07Z",
+  "generated_at_utc": "2026-11-24T13:22:07Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -290,7 +351,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 98
+        "used": 100
       },
       {
         "cap": 300,
@@ -298,15 +359,15 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 275
+        "used": 276
       },
       {
         "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 295
+        "used": 300
       },
       {
         "cap": 1000,
@@ -1997,7 +2058,7 @@
         "used": 0
       }
     ],
-    "healthy_entries": 113,
+    "healthy_entries": 112,
     "ok": true,
     "reachable": true,
     "used_today": 0
@@ -2039,7 +2100,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 98
+        "used": 100
       },
       {
         "cap": 300,
@@ -2047,15 +2108,15 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 275
+        "used": 276
       },
       {
         "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 295
+        "used": 300
       },
       {
         "cap": 1000,
@@ -3746,130 +3807,130 @@
         "used": 0
       }
     ],
-    "healthy_entries": 113,
+    "healthy_entries": 112,
     "ok": true,
     "reachable": true,
     "used_today": 0
   },
   "recent_completions": [
     {
-      "age_sec": 28,
+      "age_sec": 184,
       "board_zh": "池优化",
       "completed_at": "2026-11-24T13:19:02Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-29115-a6720959",
+      "completed_by_zh": "池优化 席位29115",
       "completed_ts_source": "result.txt",
-      "task_id": "task-054",
+      "task_id": "pool-054",
       "task_no": 54,
-      "title": null,
+      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 153,
+      "age_sec": 308,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T13:16:58Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "operations",
+      "completed_by_zh": "运维",
       "completed_ts_source": "done",
-      "task_id": "task-018",
+      "task_id": "clou-018",
       "task_no": 18,
-      "title": null,
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 1145,
+      "age_sec": 1300,
       "board_zh": "安全",
       "completed_at": "2026-11-24T13:00:26Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "security-seat-1-23773-27542a78",
+      "completed_by_zh": "安全 席位23773",
       "completed_ts_source": "done",
-      "task_id": "task-013",
+      "task_id": "secu-013",
       "task_no": 13,
-      "title": null,
+      "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…",
       "workstream": "security"
     },
     {
-      "age_sec": 2953,
+      "age_sec": 3108,
       "board_zh": "池优化",
       "completed_at": "2026-11-24T12:30:18Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-15972-95e36549",
+      "completed_by_zh": "池优化 席位15972",
       "completed_ts_source": "done",
-      "task_id": "task-056",
+      "task_id": "pool-056",
       "task_no": 56,
-      "title": null,
+      "title": "Long-request 502 root cause at the pool door (cycle meeting re-run S1…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 43277,
+      "age_sec": 43433,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:13Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "task-017",
+      "task_id": "clou-017",
       "task_no": 17,
-      "title": null,
+      "title": "ai-quota-catalog.json producer (boss filing 2026-11-22): the ai-e-du…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 43279,
+      "age_sec": 43434,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:12Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "task-019",
+      "task_id": "clou-019",
       "task_no": 19,
-      "title": null,
+      "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 56708,
+      "age_sec": 56863,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:34:23Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "task-016",
+      "task_id": "clou-016",
       "task_no": 16,
-      "title": null,
+      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 80912,
+      "age_sec": 81068,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "task-068",
+      "task_id": "pool-068",
       "task_no": 68,
-      "title": null,
+      "title": "Done-transition replay after restarts (boss filing 2026-11-23 ~21:40)…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 80920,
+      "age_sec": 81075,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "task-067",
+      "task_id": "pool-067",
       "task_no": 67,
-      "title": null,
+      "title": "Manager as supervisor, not scheduler (boss filing 2026-11-23, user…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 80965,
+      "age_sec": 81120,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "task-065",
+      "task_id": "pool-065",
       "task_no": 65,
-      "title": null,
+      "title": "Reinforcement generator cascade fix (boss filing 2026-11-23, evidence…",
       "workstream": "pool-optimization"
     }
   ],
@@ -3897,7 +3958,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-24T13:10:41Z"
+        "updated": "2026-11-24T13:20:13Z"
       },
       "tasks": {
         "done": 17,
@@ -3929,7 +3990,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-24T13:10:26Z"
+        "updated": "2026-11-24T13:19:47Z"
       },
       "tasks": {
         "done": 20,
@@ -3946,9 +4007,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-24T13:18:38Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-24T13:19:52Z"
       },
       "tasks": {
         "done": 63,
@@ -3964,7 +4025,7 @@
           },
           {
             "full": true,
-            "title": "[judgment] 每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在池供应商与已注册未入池供应商的官方公告/定价/更新日志页，只报相对 2026-11-22 基线的变化；目录对比与生成探针由老板另行完成，本任务不探活、不调任何模型 API、不做账号操作。 [inputs: goals/free-model-quota-pool-and-worker-team/hidden_files/sweep-20261123/registry-snapshot.json, goals/free-model-quota-pool-and-worker-team/hidden_files/sweep-20261123/diff.md] | sweep-20261123-patrol.md | out/pool-083/patrol.md 存在，快照内每一家都有带日期的核查记录，每条变化带来源 URL，无无来源的死亡断言 (executed-by operations failed 2026-11-23T08:32:45Z) (claimed-by pool-optimization-seat-1-28047-9b9d1dd6 2026-11-24T13:13:07Z)"
+            "title": "[judgment] 每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在池供应商与已注册未入池供应商的官方公告/定价/更新日志页，只报相对 2026-11-22 基线的变化；目录对比与生成探针由老板另行完成，本任务不探活、不调任何模型 API、不做账号操作。 [inputs: goals/free-model-quota-pool-and-worker-team/hidden_files/sweep-20261123/registry-snapshot.json, goals/free-model-quota-pool-and-worker-team/hidden_files/sweep-20261123/diff.md] | sweep-20261123-patrol.md | out/pool-083/patrol.md 存在，快照内每一家都有带日期的核查记录，每条变化带来源 URL，无无来源的死亡断言 (executed-by operations failed 2026-11-23T08:32:45Z)"
           }
         ],
         "open": 5
@@ -3980,7 +4041,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-24T13:08:15Z"
+        "updated": "2026-11-24T13:19:57Z"
       },
       "tasks": {
         "done": 13,
@@ -3999,7 +4060,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-24T13:10:21Z"
+        "updated": "2026-11-24T13:20:08Z"
       },
       "tasks": {
         "done": 16,
