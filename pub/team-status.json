@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-24T12:37:08Z",
+    "activity_generated_at": "2026-11-24T12:39:23Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-24T12:31:53Z",
         "claimed_by": "operations",
         "claimed_by_zh": "运维",
-        "claimed_for": "5分钟",
+        "claimed_for": "7分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-24T12:31:53Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "5分钟",
-      "elapsed_sec": 315,
+      "elapsed": "7分钟",
+      "elapsed_sec": 450,
       "last_cycle_ended": "2026-11-24T12:32:06Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -30,40 +30,33 @@
     },
     {
       "active_jobs": 0,
-      "claimed_count": 2,
-      "current_task": {
-        "claimed_at": "2026-11-24T12:30:44Z",
-        "claimed_by": "pool-optimization-seat-1-15972-95e36549",
-        "claimed_by_zh": "池优化 席位15972",
-        "claimed_for": "6分钟",
-        "task_id": "pool-064",
-        "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…"
-      },
-      "cycle_started_at": "2026-11-24T12:30:44Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "6分钟",
-      "elapsed_sec": 384,
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
       "last_cycle_ended": "2026-11-24T12:30:47Z",
       "name_zh": "池优化",
-      "state": "running",
+      "state": "idle",
       "workstream": "pool-optimization"
     },
     {
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-24T12:36:35Z",
+        "claimed_at": "2026-11-24T12:38:36Z",
         "claimed_by": "pool-optimization",
         "claimed_by_zh": "池优化",
-        "claimed_for": "33秒",
+        "claimed_for": "47秒",
         "task_id": "secu-013",
         "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…"
       },
-      "cycle_started_at": "2026-11-24T12:36:35Z",
+      "cycle_started_at": "2026-11-24T12:38:36Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "33秒",
-      "elapsed_sec": 33,
-      "last_cycle_ended": "2026-11-24T12:37:06Z",
+      "elapsed": "47秒",
+      "elapsed_sec": 47,
+      "last_cycle_ended": "2026-11-24T12:38:47Z",
       "name_zh": "安全",
       "state": "running",
       "workstream": "security"
@@ -113,11 +106,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 315,
+          "claimed_age_sec": 450,
           "claimed_at": "2026-11-24T12:31:53Z",
           "claimed_by": "operations",
           "claimed_by_zh": "运维",
-          "claimed_for": "5分钟",
+          "claimed_for": "7分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -137,30 +130,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "claimed_now": [
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 384,
-          "claimed_at": "2026-11-24T12:30:44Z",
-          "claimed_by": "pool-optimization-seat-1-15972-95e36549",
-          "claimed_by_zh": "池优化 席位15972",
-          "claimed_for": "6分钟",
-          "task_id": "pool-054",
-          "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
-          "workstream": "pool-optimization"
-        },
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 384,
-          "claimed_at": "2026-11-24T12:30:44Z",
-          "claimed_by": "pool-optimization-seat-1-15972-95e36549",
-          "claimed_by_zh": "池优化 席位15972",
-          "claimed_for": "6分钟",
-          "task_id": "pool-064",
-          "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
-          "workstream": "pool-optimization"
-        }
-      ],
+      "claimed_now": [],
       "done": 63,
       "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "池优化",
@@ -178,11 +148,11 @@
       "claimed_now": [
         {
           "board_zh": "安全",
-          "claimed_age_sec": 33,
-          "claimed_at": "2026-11-24T12:36:35Z",
+          "claimed_age_sec": 47,
+          "claimed_at": "2026-11-24T12:38:36Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "33秒",
+          "claimed_for": "47秒",
           "task_id": "secu-013",
           "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…",
           "workstream": "security"
@@ -195,7 +165,7 @@
         "[judgment] Thompson bandit graduation grading — run the FORMAL G1–G7…"
       ],
       "open": 1,
-      "status_updated": "2026-11-24T12:21:58Z",
+      "status_updated": "2026-11-24T12:37:19Z",
       "total": 13,
       "workstream": "security"
     },
@@ -206,7 +176,7 @@
       "name_zh": "运维",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-24T12:23:44Z",
+      "status_updated": "2026-11-24T12:39:19Z",
       "total": 20,
       "workstream": "operations"
     },
@@ -224,51 +194,29 @@
   ],
   "claimed_now": [
     {
-      "board_zh": "池优化",
-      "claimed_age_sec": 384,
-      "claimed_at": "2026-11-24T12:30:44Z",
-      "claimed_by": "pool-optimization-seat-1-15972-95e36549",
-      "claimed_by_zh": "池优化 席位15972",
-      "claimed_for": "6分钟",
-      "task_id": "pool-054",
-      "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "board_zh": "池优化",
-      "claimed_age_sec": 384,
-      "claimed_at": "2026-11-24T12:30:44Z",
-      "claimed_by": "pool-optimization-seat-1-15972-95e36549",
-      "claimed_by_zh": "池优化 席位15972",
-      "claimed_for": "6分钟",
-      "task_id": "pool-064",
-      "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
-      "workstream": "pool-optimization"
-    },
-    {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 315,
+      "claimed_age_sec": 450,
       "claimed_at": "2026-11-24T12:31:53Z",
       "claimed_by": "operations",
       "claimed_by_zh": "运维",
-      "claimed_for": "5分钟",
+      "claimed_for": "7分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "安全",
-      "claimed_age_sec": 33,
-      "claimed_at": "2026-11-24T12:36:35Z",
+      "claimed_age_sec": 47,
+      "claimed_at": "2026-11-24T12:38:36Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "33秒",
+      "claimed_for": "47秒",
       "task_id": "secu-013",
       "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…",
       "workstream": "security"
     }
   ],
-  "content_latest_at": "2026-11-24T12:36:34Z",
+  "content_latest_at": "2026-11-24T12:39:19Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 233,
@@ -301,8 +249,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-24T12:37:08Z",
-  "generated_at_utc": "2026-11-24T12:37:08Z",
+  "generated_at": "2026-11-24T12:39:23Z",
+  "generated_at_utc": "2026-11-24T12:39:23Z",
   "live_pi_workers": {
     "by_model": {
       "crowllm/caw/glm-5.3-flash-thinking:free": 2,
@@ -437,7 +385,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 176
+        "used": 184
       },
       {
         "cap": 300,
@@ -445,7 +393,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 227
+        "used": 230
       },
       {
         "cap": 1000,
@@ -1173,7 +1121,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 300,
@@ -2186,7 +2134,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 176
+        "used": 184
       },
       {
         "cap": 300,
@@ -2194,7 +2142,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 227
+        "used": 230
       },
       {
         "cap": 1000,
@@ -2922,7 +2870,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 300,
@@ -3892,9 +3840,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 1,
+      "age_sec": 36,
       "board_zh": "安全",
-      "completed_at": "2026-11-24T12:37:06Z",
+      "completed_at": "2026-11-24T12:38:47Z",
       "completed_by": "pool-optimization",
       "completed_by_zh": "池优化",
       "completed_ts_source": "result.txt",
@@ -3904,7 +3852,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 302,
+      "age_sec": 437,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T12:32:06Z",
       "completed_by": "operations",
@@ -3916,11 +3864,11 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 380,
+      "age_sec": 515,
       "board_zh": "池优化",
       "completed_at": "2026-11-24T12:30:47Z",
-      "completed_by": "pool-optimization-seat-1-15972-95e36549",
-      "completed_by_zh": "池优化 席位15972",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
       "task_id": "pool-054",
       "task_no": 54,
@@ -3928,7 +3876,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 410,
+      "age_sec": 545,
       "board_zh": "池优化",
       "completed_at": "2026-11-24T12:30:18Z",
       "completed_by": "pool-optimization-seat-1-15972-95e36549",
@@ -3940,7 +3888,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 40734,
+      "age_sec": 40869,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:13Z",
       "completed_by": null,
@@ -3952,7 +3900,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 40735,
+      "age_sec": 40870,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:12Z",
       "completed_by": null,
@@ -3964,7 +3912,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 54164,
+      "age_sec": 54299,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:34:23Z",
       "completed_by": null,
@@ -3976,7 +3924,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 78369,
+      "age_sec": 78504,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3988,7 +3936,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 78377,
+      "age_sec": 78512,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -4000,7 +3948,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 78422,
+      "age_sec": 78557,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -4122,7 +4070,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-24T12:23:44Z"
+        "updated": "2026-11-24T12:39:19Z"
       },
       "tasks": {
         "done": 20,
@@ -4153,11 +4101,11 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z ruling A) [est:45m] | Contract (3 segments): (1) worker edits a copy inside the task dir out/pool-059/; (2) production merge is a PATCH against production manager.py, applied by the pool-optimization manager (named owner), no parallel rewrite; (3) acceptance requires production-path evidence: a real help-failure cycle whose help-cooldown.json entry carries the new field and a later dispatch log line showing the exclusion. Change spec: when a help attempt fails and record_help_failure writes the cooldown entry, also write providers: string[] = the providers actually attempted this round, taken from the dispatch/attempt context (never parsed from reason text). dispatch_task / help candidate selection reads that field for the task: exclude every entry of those providers while the cooldown is active; if exclusion empties the candidate set, fall back to same-provider with a WARN log line (do not block). The operations line's last_up concept is merged into this field - no separate field, no rate threshold (boss rejected the 0.6 threshold as a guessed number). Metrics: cross-provider re-dispatch success rate inside cooldown windows, baseline 0/0 (new metric), target >=90% at the 2026-11-29 digest; security line's cross-check rides the same digest: providers fields joined against attempt logs, any mismatch is a finding. Recheck 2026-11-29. — BOSS UNFREEZE 2026-11-23: the failure was a goose action-cap truncation mid-work, not a task defect; the work copy out/pool-059/manager.py was modified AFTER the failure stamp. Resume from that copy; do not restart from scratch. — MEETING AMENDMENT 2026-11-23 (help-mechanism meeting ruling 1, transcript meetings/20261123T044829Z.md): (a) failure classification is written AT record time in record_help_failure: class in {acceptance, selftest, upstream} alongside the providers field; (b) backfill the 19 existing help-cooldown.json records from the pool-072 datapack (out/pool-060/digest-datapack.md) — records that cannot be classified from evidence are marked unknown, never guessed; (c) EFFECT MEASUREMENT (security challenge, adopted): every help dispatch records dispatch timestamp + target task id in its help event; the pool line watch re-reads the target board after 2 of the helped line's manager cycles and writes help.advanced or help.no_advance — \"advanced\" means the target task changed state (claim/start/settle) inside the window; (d) metrics added: classification coverage 19/19 by 2026-11-30; advancement rate baseline from the decomposition task, target >=80%; recheck 2026-12-03 digest. — BOSS AMENDMENT 2 2026-11-23 (IAO distillation): the advancement write-backs aggregate per HELPER MODEL into the existing digest pool-health face (helper model -> dispatched / advanced / no_advance), so repeat no-advance helpers are deprioritized through the existing bandit shadow scores. No new analytics module; no busy-rate metric anywhere in the system. — BOSS AMENDMENT 3 2026-11-23 (from the accepted pool-085 decomposition): the help.completed writer must propagate assigner + dispatch_path (idle_sweep | reinforce_ticket | manual) + dispatch_timestamp from the dispatch decision into the event (extend the writer's allowed fields or encode in evidence_pointer); same-(helped,task) echoes from multiple helper lines must collapse or be marked echo; writer selftests must NEVER write to the production stream with event_class real (use a drill stream). Acceptance: the next 10 production help events all carry the three fields and zero selftest rows appear in the production stream. (completion claimed by pool-optimization-seat-1-12644-7c6dc7e0 2026-11-24T12:14:41Z - pending boss ~~acceptance~~ REJECTED by boss 2026-11-24) — BOSS REJECTED 2026-11-24 ~20:25: the claim is VOID. The worker's own SEGMENT3-STATUS-20261124T1215Z.md and result.txt state Segment 3 is unmet (0/0 post-merge help events; the observer exits 1 'merged, awaiting a real help-failure cycle'); the claim's stated basis was the verbatim-marker satisfiability already recorded as a FALSE-PASS HAZARD. Segments 1-2 stand verified live (production manager.py anchors present, 66/66 cooldown records carry the class field, zero selftest rows in the production stream). The task stays OPEN: acceptance requires ONE real post-merge help-failure cycle (cooldown record with the new fields + the dispatch log exclusion line) - no marker-only claim will be accepted. The two environmental blockers are now fixed by the boss: manager_watch crash loop (0-byte state file) repaired 2026-11-24 ~20:20 and the plan-gate dual-directory resolution repaired the same evening, so the next natural cycle can produce the evidence. (claimed-by pool-optimization-seat-1-15972-95e36549 2026-11-24T12:30:44Z)"
+            "title": "[code] [boss-accept] Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z ruling A) [est:45m] | Contract (3 segments): (1) worker edits a copy inside the task dir out/pool-059/; (2) production merge is a PATCH against production manager.py, applied by the pool-optimization manager (named owner), no parallel rewrite; (3) acceptance requires production-path evidence: a real help-failure cycle whose help-cooldown.json entry carries the new field and a later dispatch log line showing the exclusion. Change spec: when a help attempt fails and record_help_failure writes the cooldown entry, also write providers: string[] = the providers actually attempted this round, taken from the dispatch/attempt context (never parsed from reason text). dispatch_task / help candidate selection reads that field for the task: exclude every entry of those providers while the cooldown is active; if exclusion empties the candidate set, fall back to same-provider with a WARN log line (do not block). The operations line's last_up concept is merged into this field - no separate field, no rate threshold (boss rejected the 0.6 threshold as a guessed number). Metrics: cross-provider re-dispatch success rate inside cooldown windows, baseline 0/0 (new metric), target >=90% at the 2026-11-29 digest; security line's cross-check rides the same digest: providers fields joined against attempt logs, any mismatch is a finding. Recheck 2026-11-29. — BOSS UNFREEZE 2026-11-23: the failure was a goose action-cap truncation mid-work, not a task defect; the work copy out/pool-059/manager.py was modified AFTER the failure stamp. Resume from that copy; do not restart from scratch. — MEETING AMENDMENT 2026-11-23 (help-mechanism meeting ruling 1, transcript meetings/20261123T044829Z.md): (a) failure classification is written AT record time in record_help_failure: class in {acceptance, selftest, upstream} alongside the providers field; (b) backfill the 19 existing help-cooldown.json records from the pool-072 datapack (out/pool-060/digest-datapack.md) — records that cannot be classified from evidence are marked unknown, never guessed; (c) EFFECT MEASUREMENT (security challenge, adopted): every help dispatch records dispatch timestamp + target task id in its help event; the pool line watch re-reads the target board after 2 of the helped line's manager cycles and writes help.advanced or help.no_advance — \"advanced\" means the target task changed state (claim/start/settle) inside the window; (d) metrics added: classification coverage 19/19 by 2026-11-30; advancement rate baseline from the decomposition task, target >=80%; recheck 2026-12-03 digest. — BOSS AMENDMENT 2 2026-11-23 (IAO distillation): the advancement write-backs aggregate per HELPER MODEL into the existing digest pool-health face (helper model -> dispatched / advanced / no_advance), so repeat no-advance helpers are deprioritized through the existing bandit shadow scores. No new analytics module; no busy-rate metric anywhere in the system. — BOSS AMENDMENT 3 2026-11-23 (from the accepted pool-085 decomposition): the help.completed writer must propagate assigner + dispatch_path (idle_sweep | reinforce_ticket | manual) + dispatch_timestamp from the dispatch decision into the event (extend the writer's allowed fields or encode in evidence_pointer); same-(helped,task) echoes from multiple helper lines must collapse or be marked echo; writer selftests must NEVER write to the production stream with event_class real (use a drill stream). Acceptance: the next 10 production help events all carry the three fields and zero selftest rows appear in the production stream. (completion claimed by pool-optimization-seat-1-12644-7c6dc7e0 2026-11-24T12:14:41Z - pending boss ~~acceptance~~ REJECTED by boss 2026-11-24) — BOSS REJECTED 2026-11-24 ~20:25: the claim is VOID. The worker's own SEGMENT3-STATUS-20261124T1215Z.md and result.txt state Segment 3 is unmet (0/0 post-merge help events; the observer exits 1 'merged, awaiting a real help-failure cycle'); the claim's stated basis was the verbatim-marker satisfiability already recorded as a FALSE-PASS HAZARD. Segments 1-2 stand verified live (production manager.py anchors present, 66/66 cooldown records carry the class field, zero selftest rows in the production stream). The task stays OPEN: acceptance requires ONE real post-merge help-failure cycle (cooldown record with the new fields + the dispatch log exclusion line) - no marker-only claim will be accepted. The two environmental blockers are now fixed by the boss: manager_watch crash loop (0-byte state file) repaired 2026-11-24 ~20:20 and the plan-gate dual-directory resolution repaired the same evening, so the next natural cycle can produce the evidence."
           },
           {
             "full": true,
-            "title": "[judgment] 每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在池供应商与已注册未入池供应商的官方公告/定价/更新日志页，只报相对 2026-11-22 基线的变化；目录对比与生成探针由老板另行完成，本任务不探活、不调任何模型 API、不做账号操作。 [inputs: goals/free-model-quota-pool-and-worker-team/hidden_files/sweep-20261123/registry-snapshot.json, goals/free-model-quota-pool-and-worker-team/hidden_files/sweep-20261123/diff.md] | sweep-20261123-patrol.md | out/pool-083/patrol.md 存在，快照内每一家都有带日期的核查记录，每条变化带来源 URL，无无来源的死亡断言 (executed-by operations failed 2026-11-23T08:32:45Z) (claimed-by pool-optimization-seat-1-15972-95e36549 2026-11-24T12:30:44Z)"
+            "title": "[judgment] 每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在池供应商与已注册未入池供应商的官方公告/定价/更新日志页，只报相对 2026-11-22 基线的变化；目录对比与生成探针由老板另行完成，本任务不探活、不调任何模型 API、不做账号操作。 [inputs: goals/free-model-quota-pool-and-worker-team/hidden_files/sweep-20261123/registry-snapshot.json, goals/free-model-quota-pool-and-worker-team/hidden_files/sweep-20261123/diff.md] | sweep-20261123-patrol.md | out/pool-083/patrol.md 存在，快照内每一家都有带日期的核查记录，每条变化带来源 URL，无无来源的死亡断言 (executed-by operations failed 2026-11-23T08:32:45Z)"
           }
         ],
         "open": 5
@@ -4171,9 +4119,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-24T12:21:58Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-24T12:37:19Z"
       },
       "tasks": {
         "done": 12,
@@ -4181,7 +4129,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[judgment] [boss-accept] Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation exactly once (boss filing 2026-11-23, user-approved in the rules side chat after the not-adopted inventory review found this item hanging ungraded since 2026-11-21) [est:60m] | Standard: bandit-graduation-checklist.md in this dir (frozen v1.0 — do NOT amend any threshold; a lowered bar is a FAIL of the standard itself). You are the independent grader: the pool line supplies the §9 evidence pack (window ledger, raw gateway log slices + hashes, baseline slice, pinned policy snapshot, grader script + hash + G7 fixture P/C run output, tier-violation report, latency report, attrition table, mid-window change statement) and MUST NOT grade itself, pre-filter samples, or define thresholds. Grade gate by gate into the §11 worksheet: every gate PASS/FAIL/INCONCLUSIVE with observed numbers, never a pooled impression. Known hazard to check FIRST under G1: the pool changed membership repeatedly during the shadow period (most recently 2026-11-23, 161→184 entries) — if the arm set / provider list / policy or grader hash drifted mid-window, or no freeze point (§9.3) was ever pinned, G1 is FAIL/INCONCLUSIVE on that evidence and the verdict is a re-pinned fresh 7-day window with a recorded start timestamp, NOT a stitched pass. Missing artifacts = the corresponding gate is UNKNOWN = no graduation. G7 is run by you on the pinned script: poisoned fixture must FAIL, clean fixture must PASS, two runs byte-identical. Deliverable: the filled worksheet + verdict (PASS → graduation recommendation to the boss; FAIL → named gates + reason codes; INCONCLUSIVE → the exact re-run/window-restart spec) in this workstream dir, and an update proposal for blessed/decided.json topic \"Thompson 选臂\" reflecting the verdict (boss applies it). Metrics: baseline = pilot in shadow since ~2026-11-20 with zero formal gradings (this is grading #1); target = one complete worksheet with all 7 gates evidenced; recheck at the 2026-11-29 digest or at window close if a fresh window is pinned. [BOSS 2026-11-23: two cross-line claims by spaces-data VOIDED as fake completions (12-second \"done\", zero deliverables - this is the security line's grading task, NOT help-eligible; security line claims it alone, other lines do not touch it). Boss-authored plan approved and persisted (out/secu-013/plan.json, 6 segments S1-S6, hash 71e04a797f7e417a) - the plan gate is satisfied; claim and grade.] [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - pre-patch legacy. Gated on its 7-day shadow window (verdict ~2026-11-29); the security line works it as the window matures.] [gated] [BOSS 2026-11-23 ~20:35: zombie claim by cloud-script-migration (08:14:54Z, ~12 h dead, cross-line on a security-only task) CLEARED by the boss after the new sweep starved on it. Window-gated to ~2026-11-29 - the [gated] token keeps the supervision sweep and float help off it until the window matures.] (claimed-by pool-optimization 2026-11-24T12:36:35Z)"
+            "title": "[judgment] [boss-accept] Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation exactly once (boss filing 2026-11-23, user-approved in the rules side chat after the not-adopted inventory review found this item hanging ungraded since 2026-11-21) [est:60m] | Standard: bandit-graduation-checklist.md in this dir (frozen v1.0 — do NOT amend any threshold; a lowered bar is a FAIL of the standard itself). You are the independent grader: the pool line supplies the §9 evidence pack (window ledger, raw gateway log slices + hashes, baseline slice, pinned policy snapshot, grader script + hash + G7 fixture P/C run output, tier-violation report, latency report, attrition table, mid-window change statement) and MUST NOT grade itself, pre-filter samples, or define thresholds. Grade gate by gate into the §11 worksheet: every gate PASS/FAIL/INCONCLUSIVE with observed numbers, never a pooled impression. Known hazard to check FIRST under G1: the pool changed membership repeatedly during the shadow period (most recently 2026-11-23, 161→184 entries) — if the arm set / provider list / policy or grader hash drifted mid-window, or no freeze point (§9.3) was ever pinned, G1 is FAIL/INCONCLUSIVE on that evidence and the verdict is a re-pinned fresh 7-day window with a recorded start timestamp, NOT a stitched pass. Missing artifacts = the corresponding gate is UNKNOWN = no graduation. G7 is run by you on the pinned script: poisoned fixture must FAIL, clean fixture must PASS, two runs byte-identical. Deliverable: the filled worksheet + verdict (PASS → graduation recommendation to the boss; FAIL → named gates + reason codes; INCONCLUSIVE → the exact re-run/window-restart spec) in this workstream dir, and an update proposal for blessed/decided.json topic \"Thompson 选臂\" reflecting the verdict (boss applies it). Metrics: baseline = pilot in shadow since ~2026-11-20 with zero formal gradings (this is grading #1); target = one complete worksheet with all 7 gates evidenced; recheck at the 2026-11-29 digest or at window close if a fresh window is pinned. [BOSS 2026-11-23: two cross-line claims by spaces-data VOIDED as fake completions (12-second \"done\", zero deliverables - this is the security line's grading task, NOT help-eligible; security line claims it alone, other lines do not touch it). Boss-authored plan approved and persisted (out/secu-013/plan.json, 6 segments S1-S6, hash 71e04a797f7e417a) - the plan gate is satisfied; claim and grade.] [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - pre-patch legacy. Gated on its 7-day shadow window (verdict ~2026-11-29); the security line works it as the window matures.] [gated] [BOSS 2026-11-23 ~20:35: zombie claim by cloud-script-migration (08:14:54Z, ~12 h dead, cross-line on a security-only task) CLEARED by the boss after the new sweep starved on it. Window-gated to ~2026-11-29 - the [gated] token keeps the supervision sweep and float help off it until the window matures.] (claimed-by pool-optimization 2026-11-24T12:38:36Z)"
           }
         ],
         "open": 1
