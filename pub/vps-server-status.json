@@ -1,43 +1,43 @@
 {
- "collectedAt": "2026-11-24T09:05:52Z",
+ "collectedAt": "2026-11-24T09:11:18Z",
  "servers": [
   {
    "serverId": 1,
    "ok": true,
    "error": "",
    "note": "KiwiVM API 桥接刷新（全量采集恢复前）；cpu/流量/三网字段 API 无诚实来源，置 null",
-   "collectedAt": "2026-11-24T09:05:52Z",
-   "cpuPct": 6.5,
-   "load1": 0.31,
-   "load5": 0.14,
-   "load15": 0.09,
-   "uptimeDays": 150.8,
-   "memUsedMb": 305,
+   "collectedAt": "2026-11-24T09:11:18Z",
+   "cpuPct": 35.9,
+   "load1": 0.33,
+   "load5": 0.22,
+   "load15": 0.13,
+   "uptimeDays": 151.8,
+   "memUsedMb": 307,
    "memTotalMb": 1019,
    "diskUsedGb": 5.1,
    "diskTotalGb": 20.0,
-   "netMonthUsedGb": 25.2,
+   "netMonthUsedGb": 30.7,
    "netMonthLimitGb": 1074,
-   "netRxTotalGb": 195.1,
-   "netTxTotalGb": 201.8,
-   "netRxMbps": 0.09,
+   "netRxTotalGb": 197.5,
+   "netTxTotalGb": 204.8,
+   "netRxMbps": 0.11,
    "netTxMbps": 0.19,
    "gpuModel": null,
    "gpuPct": null,
    "threeNet": [
     {
      "carrier": "telecom",
-     "latencyMs": 154.2,
+     "latencyMs": 165.565,
      "packetLoss": 0.0
     },
     {
      "carrier": "unicom",
-     "latencyMs": 181.409,
+     "latencyMs": 180.928,
      "packetLoss": 0.0
     },
     {
      "carrier": "mobile",
-     "latencyMs": 189.843,
+     "latencyMs": 189.337,
      "packetLoss": 0.0
     }
    ]
@@ -47,19 +47,19 @@
    "ok": true,
    "error": "",
    "note": "无 vnstat，本月流量填 null",
-   "cpuPct": 4.5,
-   "load1": 0.05,
-   "load5": 0.01,
+   "cpuPct": 9.1,
+   "load1": 0.0,
+   "load5": 0.0,
    "load15": 0.0,
-   "uptimeDays": 6.8,
-   "memUsedMb": 459,
+   "uptimeDays": 7.8,
+   "memUsedMb": 464,
    "memTotalMb": 1775,
    "diskUsedGb": 6.3,
    "diskTotalGb": 39.3,
    "netMonthUsedGb": null,
    "netMonthLimitGb": 100.0,
-   "netRxTotalGb": 0.6,
-   "netTxTotalGb": 0.4,
+   "netRxTotalGb": 0.7,
+   "netTxTotalGb": 0.5,
    "netRxMbps": 0.01,
    "netTxMbps": 0.01,
    "gpuModel": null,
@@ -67,21 +67,21 @@
    "threeNet": [
     {
      "carrier": "telecom",
-     "latencyMs": 24.323,
+     "latencyMs": 24.343,
      "packetLoss": 0.0
     },
     {
      "carrier": "unicom",
-     "latencyMs": 36.599,
+     "latencyMs": 36.372,
      "packetLoss": 0.0
     },
     {
      "carrier": "mobile",
-     "latencyMs": 7.21,
+     "latencyMs": 7.311,
      "packetLoss": 0.0
     }
    ],
-   "collectedAt": "2026-11-23T08:58:34Z"
+   "collectedAt": "2026-11-24T09:06:13Z"
   }
  ]
 }
