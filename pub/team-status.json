@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-24T12:44:23Z",
+    "activity_generated_at": "2026-11-24T12:46:33Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -12,18 +12,18 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-24T12:31:53Z",
-        "claimed_by": "operations",
-        "claimed_by_zh": "运维",
-        "claimed_for": "12分钟",
+        "claimed_at": "2026-11-24T12:46:04Z",
+        "claimed_by": "cloud-script-migration-seat-1-22135-de283d0e",
+        "claimed_by_zh": "云脚本迁移 席位22135",
+        "claimed_for": "30秒",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
-      "cycle_started_at": "2026-11-24T12:31:53Z",
+      "cycle_started_at": "2026-11-24T12:46:04Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "12分钟",
-      "elapsed_sec": 751,
-      "last_cycle_ended": "2026-11-24T12:40:54Z",
+      "elapsed": "30秒",
+      "elapsed_sec": 30,
+      "last_cycle_ended": "2026-11-24T12:46:33Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -45,18 +45,18 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-24T12:43:38Z",
+        "claimed_at": "2026-11-24T12:45:38Z",
         "claimed_by": "pool-optimization",
         "claimed_by_zh": "池优化",
-        "claimed_for": "46秒",
+        "claimed_for": "56秒",
         "task_id": "secu-013",
         "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…"
       },
-      "cycle_started_at": "2026-11-24T12:43:38Z",
+      "cycle_started_at": "2026-11-24T12:45:38Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "46秒",
-      "elapsed_sec": 46,
-      "last_cycle_ended": "2026-11-24T12:44:11Z",
+      "elapsed": "56秒",
+      "elapsed_sec": 56,
+      "last_cycle_ended": "2026-11-24T12:45:30Z",
       "name_zh": "安全",
       "state": "running",
       "workstream": "security"
@@ -106,11 +106,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 751,
-          "claimed_at": "2026-11-24T12:31:53Z",
-          "claimed_by": "operations",
-          "claimed_by_zh": "运维",
-          "claimed_for": "12分钟",
+          "claimed_age_sec": 30,
+          "claimed_at": "2026-11-24T12:46:04Z",
+          "claimed_by": "cloud-script-migration-seat-1-22135-de283d0e",
+          "claimed_by_zh": "云脚本迁移 席位22135",
+          "claimed_for": "30秒",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -125,7 +125,7 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 5,
-      "status_updated": "2026-11-24T12:31:59Z",
+      "status_updated": "2026-11-24T12:46:27Z",
       "total": 22,
       "workstream": "cloud-script-migration"
     },
@@ -148,11 +148,11 @@
       "claimed_now": [
         {
           "board_zh": "安全",
-          "claimed_age_sec": 46,
-          "claimed_at": "2026-11-24T12:43:38Z",
+          "claimed_age_sec": 56,
+          "claimed_at": "2026-11-24T12:45:38Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "46秒",
+          "claimed_for": "56秒",
           "task_id": "secu-013",
           "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…",
           "workstream": "security"
@@ -194,29 +194,29 @@
   ],
   "claimed_now": [
     {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 751,
-      "claimed_at": "2026-11-24T12:31:53Z",
-      "claimed_by": "operations",
-      "claimed_by_zh": "运维",
-      "claimed_for": "12分钟",
-      "task_id": "clou-018",
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    },
-    {
       "board_zh": "安全",
-      "claimed_age_sec": 46,
-      "claimed_at": "2026-11-24T12:43:38Z",
+      "claimed_age_sec": 56,
+      "claimed_at": "2026-11-24T12:45:38Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "46秒",
+      "claimed_for": "56秒",
       "task_id": "secu-013",
       "title": "Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation…",
       "workstream": "security"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 30,
+      "claimed_at": "2026-11-24T12:46:04Z",
+      "claimed_by": "cloud-script-migration-seat-1-22135-de283d0e",
+      "claimed_by_zh": "云脚本迁移 席位22135",
+      "claimed_for": "30秒",
+      "task_id": "clou-018",
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-24T12:39:50Z",
+  "content_latest_at": "2026-11-24T12:46:27Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 233,
@@ -249,11 +249,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-24T12:44:24Z",
-  "generated_at_utc": "2026-11-24T12:44:24Z",
+  "generated_at": "2026-11-24T12:46:34Z",
+  "generated_at_utc": "2026-11-24T12:46:34Z",
   "live_pi_workers": {
     "by_model": {
-      "crowllm/caw/glm-5.3-flash-thinking:free": 2
+      "crowllm/caw/glm-5.3-flash-thinking:free": 2,
+      "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct": 2
     },
     "running": [
       {
@@ -265,9 +266,19 @@
         "model": "crowllm/caw/glm-5.3-flash-thinking:free",
         "pid": 20147,
         "title": "[judgment] [boss-accept] Thompson bandit graduation grading — run the FORMAL G1–"
+      },
+      {
+        "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "pid": 22261,
+        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+      },
+      {
+        "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "pid": 22262,
+        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       }
     ],
-    "total": 2
+    "total": 4
   },
   "managers": [
     {
@@ -366,7 +377,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 75
+        "used": 78
       },
       {
         "cap": 300,
@@ -374,7 +385,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 205
+        "used": 213
       },
       {
         "cap": 300,
@@ -382,7 +393,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 234
+        "used": 236
       },
       {
         "cap": 1000,
@@ -1118,7 +1129,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 168
+        "used": 170
       },
       {
         "cap": 300,
@@ -1374,7 +1385,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -1382,7 +1393,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -1390,7 +1401,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -1398,7 +1409,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -1406,7 +1417,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -1414,7 +1425,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -1422,7 +1433,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -1430,7 +1441,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -1438,7 +1449,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -1446,7 +1457,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -1454,7 +1465,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -1462,7 +1473,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 200000,
@@ -2115,7 +2126,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 75
+        "used": 78
       },
       {
         "cap": 300,
@@ -2123,7 +2134,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 205
+        "used": 213
       },
       {
         "cap": 300,
@@ -2131,7 +2142,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 234
+        "used": 236
       },
       {
         "cap": 1000,
@@ -2867,7 +2878,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 168
+        "used": 170
       },
       {
         "cap": 300,
@@ -3123,7 +3134,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -3131,7 +3142,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -3139,7 +3150,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -3147,7 +3158,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -3155,7 +3166,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -3163,7 +3174,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -3171,7 +3182,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -3179,7 +3190,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -3187,7 +3198,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -3195,7 +3206,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -3203,7 +3214,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 3000,
@@ -3211,7 +3222,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 85
+        "used": 87
       },
       {
         "cap": 200000,
@@ -3829,9 +3840,21 @@
   },
   "recent_completions": [
     {
-      "age_sec": 12,
+      "age_sec": 0,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-24T12:46:33Z",
+      "completed_by": "cloud-script-migration-seat-1-22135-de283d0e",
+      "completed_by_zh": "云脚本迁移 席位22135",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-018",
+      "task_no": 18,
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 62,
       "board_zh": "安全",
-      "completed_at": "2026-11-24T12:44:11Z",
+      "completed_at": "2026-11-24T12:45:30Z",
       "completed_by": "pool-optimization",
       "completed_by_zh": "池优化",
       "completed_ts_source": "result.txt",
@@ -3841,19 +3864,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 208,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-24T12:40:54Z",
-      "completed_by": "operations",
-      "completed_by_zh": "运维",
-      "completed_ts_source": "done",
-      "task_id": "clou-018",
-      "task_no": 18,
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 815,
+      "age_sec": 945,
       "board_zh": "池优化",
       "completed_at": "2026-11-24T12:30:47Z",
       "completed_by": null,
@@ -3865,7 +3876,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 845,
+      "age_sec": 975,
       "board_zh": "池优化",
       "completed_at": "2026-11-24T12:30:18Z",
       "completed_by": "pool-optimization-seat-1-15972-95e36549",
@@ -3877,7 +3888,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 41169,
+      "age_sec": 41299,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:13Z",
       "completed_by": null,
@@ -3889,7 +3900,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 41170,
+      "age_sec": 41301,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:12Z",
       "completed_by": null,
@@ -3901,7 +3912,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 54600,
+      "age_sec": 54730,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:34:23Z",
       "completed_by": null,
@@ -3913,7 +3924,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 78804,
+      "age_sec": 78935,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3925,7 +3936,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 78812,
+      "age_sec": 78942,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3937,7 +3948,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 78857,
+      "age_sec": 78987,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3957,7 +3968,8 @@
   },
   "workers": {
     "by_model": {
-      "crowllm/caw/glm-5.3-flash-thinking:free": 2
+      "crowllm/caw/glm-5.3-flash-thinking:free": 2,
+      "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct": 2
     },
     "running": [
       {
@@ -3969,14 +3981,28 @@
         "model": "crowllm/caw/glm-5.3-flash-thinking:free",
         "pid": 20147,
         "title": "[judgment] [boss-accept] Thompson bandit graduation grading — run the FORMAL G1–"
+      },
+      {
+        "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "pid": 22261,
+        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+      },
+      {
+        "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "pid": 22262,
+        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       }
     ],
-    "total": 2
+    "total": 4
   },
   "workers_detail": [
     {
       "count": 2,
       "model": "crowllm/caw/glm-5.3-flash-thinking:free"
+    },
+    {
+      "count": 2,
+      "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct"
     }
   ],
   "workers_running": [
@@ -3989,6 +4015,16 @@
       "model": "crowllm/caw/glm-5.3-flash-thinking:free",
       "pid": 20147,
       "title": "[judgment] [boss-accept] Thompson bandit graduation grading — run the FORMAL G1–"
+    },
+    {
+      "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "pid": 22261,
+      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+    },
+    {
+      "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "pid": 22262,
+      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
     }
   ],
   "workstreams": {
@@ -4000,9 +4036,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-24T12:31:59Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-24T12:46:27Z"
       },
       "tasks": {
         "done": 17,
@@ -4018,7 +4054,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] (claimed-by operations 2026-11-24T12:31:53Z) (executed-by operations failed 2026-11-24T12:32:06Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] (executed-by operations failed 2026-11-24T12:32:06Z) (claimed-by cloud-script-migration-seat-1-22135-de283d0e 2026-11-24T12:46:04Z)"
           }
         ],
         "open": 5
@@ -4093,7 +4129,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[judgment] [boss-accept] Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation exactly once (boss filing 2026-11-23, user-approved in the rules side chat after the not-adopted inventory review found this item hanging ungraded since 2026-11-21) [est:60m] | Standard: bandit-graduation-checklist.md in this dir (frozen v1.0 — do NOT amend any threshold; a lowered bar is a FAIL of the standard itself). You are the independent grader: the pool line supplies the §9 evidence pack (window ledger, raw gateway log slices + hashes, baseline slice, pinned policy snapshot, grader script + hash + G7 fixture P/C run output, tier-violation report, latency report, attrition table, mid-window change statement) and MUST NOT grade itself, pre-filter samples, or define thresholds. Grade gate by gate into the §11 worksheet: every gate PASS/FAIL/INCONCLUSIVE with observed numbers, never a pooled impression. Known hazard to check FIRST under G1: the pool changed membership repeatedly during the shadow period (most recently 2026-11-23, 161→184 entries) — if the arm set / provider list / policy or grader hash drifted mid-window, or no freeze point (§9.3) was ever pinned, G1 is FAIL/INCONCLUSIVE on that evidence and the verdict is a re-pinned fresh 7-day window with a recorded start timestamp, NOT a stitched pass. Missing artifacts = the corresponding gate is UNKNOWN = no graduation. G7 is run by you on the pinned script: poisoned fixture must FAIL, clean fixture must PASS, two runs byte-identical. Deliverable: the filled worksheet + verdict (PASS → graduation recommendation to the boss; FAIL → named gates + reason codes; INCONCLUSIVE → the exact re-run/window-restart spec) in this workstream dir, and an update proposal for blessed/decided.json topic \"Thompson 选臂\" reflecting the verdict (boss applies it). Metrics: baseline = pilot in shadow since ~2026-11-20 with zero formal gradings (this is grading #1); target = one complete worksheet with all 7 gates evidenced; recheck at the 2026-11-29 digest or at window close if a fresh window is pinned. [BOSS 2026-11-23: two cross-line claims by spaces-data VOIDED as fake completions (12-second \"done\", zero deliverables - this is the security line's grading task, NOT help-eligible; security line claims it alone, other lines do not touch it). Boss-authored plan approved and persisted (out/secu-013/plan.json, 6 segments S1-S6, hash 71e04a797f7e417a) - the plan gate is satisfied; claim and grade.] [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - pre-patch legacy. Gated on its 7-day shadow window (verdict ~2026-11-29); the security line works it as the window matures.] [gated] [BOSS 2026-11-23 ~20:35: zombie claim by cloud-script-migration (08:14:54Z, ~12 h dead, cross-line on a security-only task) CLEARED by the boss after the new sweep starved on it. Window-gated to ~2026-11-29 - the [gated] token keeps the supervision sweep and float help off it until the window matures.] (claimed-by pool-optimization 2026-11-24T12:43:38Z)"
+            "title": "[judgment] [boss-accept] Thompson bandit graduation grading — run the FORMAL G1–G7 evaluation exactly once (boss filing 2026-11-23, user-approved in the rules side chat after the not-adopted inventory review found this item hanging ungraded since 2026-11-21) [est:60m] | Standard: bandit-graduation-checklist.md in this dir (frozen v1.0 — do NOT amend any threshold; a lowered bar is a FAIL of the standard itself). You are the independent grader: the pool line supplies the §9 evidence pack (window ledger, raw gateway log slices + hashes, baseline slice, pinned policy snapshot, grader script + hash + G7 fixture P/C run output, tier-violation report, latency report, attrition table, mid-window change statement) and MUST NOT grade itself, pre-filter samples, or define thresholds. Grade gate by gate into the §11 worksheet: every gate PASS/FAIL/INCONCLUSIVE with observed numbers, never a pooled impression. Known hazard to check FIRST under G1: the pool changed membership repeatedly during the shadow period (most recently 2026-11-23, 161→184 entries) — if the arm set / provider list / policy or grader hash drifted mid-window, or no freeze point (§9.3) was ever pinned, G1 is FAIL/INCONCLUSIVE on that evidence and the verdict is a re-pinned fresh 7-day window with a recorded start timestamp, NOT a stitched pass. Missing artifacts = the corresponding gate is UNKNOWN = no graduation. G7 is run by you on the pinned script: poisoned fixture must FAIL, clean fixture must PASS, two runs byte-identical. Deliverable: the filled worksheet + verdict (PASS → graduation recommendation to the boss; FAIL → named gates + reason codes; INCONCLUSIVE → the exact re-run/window-restart spec) in this workstream dir, and an update proposal for blessed/decided.json topic \"Thompson 选臂\" reflecting the verdict (boss applies it). Metrics: baseline = pilot in shadow since ~2026-11-20 with zero formal gradings (this is grading #1); target = one complete worksheet with all 7 gates evidenced; recheck at the 2026-11-29 digest or at window close if a fresh window is pinned. [BOSS 2026-11-23: two cross-line claims by spaces-data VOIDED as fake completions (12-second \"done\", zero deliverables - this is the security line's grading task, NOT help-eligible; security line claims it alone, other lines do not touch it). Boss-authored plan approved and persisted (out/secu-013/plan.json, 6 segments S1-S6, hash 71e04a797f7e417a) - the plan gate is satisfied; claim and grade.] [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - pre-patch legacy. Gated on its 7-day shadow window (verdict ~2026-11-29); the security line works it as the window matures.] [gated] [BOSS 2026-11-23 ~20:35: zombie claim by cloud-script-migration (08:14:54Z, ~12 h dead, cross-line on a security-only task) CLEARED by the boss after the new sweep starved on it. Window-gated to ~2026-11-29 - the [gated] token keeps the supervision sweep and float help off it until the window matures.] (claimed-by pool-optimization 2026-11-24T12:45:38Z)"
           }
         ],
         "open": 1
