@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-24T00:08:27Z",
+    "activity_generated_at": "2026-11-24T00:08:54Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,15 +15,15 @@
         "claimed_at": "2026-11-24T00:08:16Z",
         "claimed_by": "cloud-script-migration-seat-1-10359-399b8444",
         "claimed_by_zh": "云脚本迁移 席位10359",
-        "claimed_for": "12秒",
+        "claimed_for": "38秒",
         "task_id": "clou-019",
         "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…"
       },
       "cycle_started_at": "2026-11-24T00:08:03Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "25秒",
-      "elapsed_sec": 25,
-      "last_cycle_ended": "2026-11-24T00:08:26Z",
+      "elapsed": "51秒",
+      "elapsed_sec": 51,
+      "last_cycle_ended": "2026-11-24T00:08:35Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,22 +99,22 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 25,
+          "claimed_age_sec": 51,
           "claimed_at": "2026-11-24T00:08:03Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "25秒",
+          "claimed_for": "51秒",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 12,
+          "claimed_age_sec": 38,
           "claimed_at": "2026-11-24T00:08:16Z",
           "claimed_by": "cloud-script-migration-seat-1-10359-399b8444",
           "claimed_by_zh": "云脚本迁移 席位10359",
-          "claimed_for": "12秒",
+          "claimed_for": "38秒",
           "task_id": "clou-019",
           "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
           "workstream": "cloud-script-migration"
@@ -187,22 +187,22 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 25,
+      "claimed_age_sec": 51,
       "claimed_at": "2026-11-24T00:08:03Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "25秒",
+      "claimed_for": "51秒",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 12,
+      "claimed_age_sec": 38,
       "claimed_at": "2026-11-24T00:08:16Z",
       "claimed_by": "cloud-script-migration-seat-1-10359-399b8444",
       "claimed_by_zh": "云脚本迁移 席位10359",
-      "claimed_for": "12秒",
+      "claimed_for": "38秒",
       "task_id": "clou-019",
       "title": "单一 GitHub 写入者：盒子端 git 推送与 VM pub-mirror 的 Contents API 写入同一仓库会互相竞态（boss…",
       "workstream": "cloud-script-migration"
@@ -241,8 +241,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-24T00:08:28Z",
-  "generated_at_utc": "2026-11-24T00:08:28Z",
+  "generated_at": "2026-11-24T00:08:54Z",
+  "generated_at_utc": "2026-11-24T00:08:54Z",
   "live_pi_workers": {
     "by_model": {
       "crowllm/deepseek-v4-flash-0731-thinking:free": 4
@@ -352,7 +352,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 36
+        "used": 39
       },
       {
         "cap": 1000,
@@ -1901,7 +1901,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 36
+        "used": 39
       },
       {
         "cap": 1000,
@@ -3431,9 +3431,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 1,
+      "age_sec": 18,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-24T00:08:26Z",
+      "completed_at": "2026-11-24T00:08:35Z",
       "completed_by": "pool-optimization",
       "completed_by_zh": "池优化",
       "completed_ts_source": "result.txt",
@@ -3443,9 +3443,9 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 38,
+      "age_sec": 21,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-24T00:07:48Z",
+      "completed_at": "2026-11-24T00:08:32Z",
       "completed_by": "cloud-script-migration-seat-1-10359-399b8444",
       "completed_by_zh": "云脚本迁移 席位10359",
       "completed_ts_source": "result.txt",
@@ -3455,7 +3455,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 515,
+      "age_sec": 541,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T23:59:52Z",
       "completed_by": null,
@@ -3467,7 +3467,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 672,
+      "age_sec": 699,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T23:57:14Z",
       "completed_by": null,
@@ -3479,7 +3479,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 9244,
+      "age_sec": 9270,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:34:23Z",
       "completed_by": null,
@@ -3491,7 +3491,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 33448,
+      "age_sec": 33475,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3503,7 +3503,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 33456,
+      "age_sec": 33483,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3515,7 +3515,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 33501,
+      "age_sec": 33528,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3527,7 +3527,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 36813,
+      "age_sec": 36840,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T13:54:54Z",
       "completed_by": null,
@@ -3539,7 +3539,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 37567,
+      "age_sec": 37594,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T13:42:20Z",
       "completed_by": null,
