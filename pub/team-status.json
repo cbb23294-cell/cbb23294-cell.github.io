@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-24T20:56:16Z",
+    "activity_generated_at": "2026-11-24T20:58:31Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-24T20:54:55Z",
         "claimed_by": "spaces-data",
         "claimed_by_zh": "空间数据",
-        "claimed_for": "81秒",
+        "claimed_for": "3分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-24T20:54:55Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "81秒",
-      "elapsed_sec": 81,
+      "elapsed": "3分钟",
+      "elapsed_sec": 216,
       "last_cycle_ended": "2026-11-24T20:55:09Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -35,14 +35,14 @@
         "claimed_at": "2026-11-24T20:54:08Z",
         "claimed_by": "pool-optimization-seat-1-18344-ad2be3b0",
         "claimed_by_zh": "池优化 席位18344",
-        "claimed_for": "2分钟",
+        "claimed_for": "4分钟",
         "task_id": "pool-054",
         "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…"
       },
       "cycle_started_at": "2026-11-24T20:54:08Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "2分钟",
-      "elapsed_sec": 128,
+      "elapsed": "4分钟",
+      "elapsed_sec": 263,
       "last_cycle_ended": "2026-11-24T20:54:33Z",
       "name_zh": "池优化",
       "state": "running",
@@ -106,11 +106,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 81,
+          "claimed_age_sec": 216,
           "claimed_at": "2026-11-24T20:54:55Z",
           "claimed_by": "spaces-data",
           "claimed_by_zh": "空间数据",
-          "claimed_for": "81秒",
+          "claimed_for": "3分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -124,7 +124,7 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 2,
-      "status_updated": "2026-11-24T20:42:22Z",
+      "status_updated": "2026-11-24T20:57:47Z",
       "total": 22,
       "workstream": "cloud-script-migration"
     },
@@ -132,11 +132,11 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 128,
+          "claimed_age_sec": 263,
           "claimed_at": "2026-11-24T20:54:08Z",
           "claimed_by": "pool-optimization-seat-1-18344-ad2be3b0",
           "claimed_by_zh": "池优化 席位18344",
-          "claimed_for": "2分钟",
+          "claimed_for": "4分钟",
           "task_id": "pool-054",
           "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
           "workstream": "pool-optimization"
@@ -192,28 +192,28 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 128,
+      "claimed_age_sec": 263,
       "claimed_at": "2026-11-24T20:54:08Z",
       "claimed_by": "pool-optimization-seat-1-18344-ad2be3b0",
       "claimed_by_zh": "池优化 席位18344",
-      "claimed_for": "2分钟",
+      "claimed_for": "4分钟",
       "task_id": "pool-054",
       "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 81,
+      "claimed_age_sec": 216,
       "claimed_at": "2026-11-24T20:54:55Z",
       "claimed_by": "spaces-data",
       "claimed_by_zh": "空间数据",
-      "claimed_for": "81秒",
+      "claimed_for": "3分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-24T20:54:33Z",
+  "content_latest_at": "2026-11-24T20:57:47Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 266,
@@ -246,8 +246,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-24T20:56:16Z",
-  "generated_at_utc": "2026-11-24T20:56:16Z",
+  "generated_at": "2026-11-24T20:58:31Z",
+  "generated_at_utc": "2026-11-24T20:58:31Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -3813,7 +3813,7 @@
   },
   "recent_completions": [
     {
-      "age_sec": 66,
+      "age_sec": 201,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T20:55:09Z",
       "completed_by": "spaces-data",
@@ -3825,7 +3825,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 103,
+      "age_sec": 238,
       "board_zh": "池优化",
       "completed_at": "2026-11-24T20:54:33Z",
       "completed_by": "pool-optimization-seat-1-18344-ad2be3b0",
@@ -3837,7 +3837,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 28549,
+      "age_sec": 28684,
       "board_zh": "安全",
       "completed_at": "2026-11-24T13:00:26Z",
       "completed_by": "security-seat-1-23773-27542a78",
@@ -3849,7 +3849,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 30357,
+      "age_sec": 30493,
       "board_zh": "池优化",
       "completed_at": "2026-11-24T12:30:18Z",
       "completed_by": "pool-optimization-seat-1-15972-95e36549",
@@ -3861,7 +3861,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 70682,
+      "age_sec": 70817,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:13Z",
       "completed_by": null,
@@ -3873,7 +3873,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 70683,
+      "age_sec": 70818,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:12Z",
       "completed_by": null,
@@ -3885,7 +3885,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 84112,
+      "age_sec": 84247,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-23T21:34:23Z",
       "completed_by": null,
@@ -3897,7 +3897,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 108317,
+      "age_sec": 108452,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:58Z",
       "completed_by": null,
@@ -3909,7 +3909,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 108325,
+      "age_sec": 108460,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:50Z",
       "completed_by": null,
@@ -3921,7 +3921,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 108370,
+      "age_sec": 108505,
       "board_zh": "池优化",
       "completed_at": "2026-11-23T14:50:05Z",
       "completed_by": null,
@@ -3957,7 +3957,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-24T20:42:22Z"
+        "updated": "2026-11-24T20:57:47Z"
       },
       "tasks": {
         "done": 20,
