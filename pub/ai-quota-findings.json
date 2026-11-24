@@ -1,7 +1,7 @@
 {
   "ok": true,
   "reason": "",
-  "generated_at": "2026-11-22T14:59:07Z",
+  "generated_at": "2026-11-23T08:40:30Z",
   "round": "ai-quota-refresh",
   "findings": [
     {
@@ -139,17 +139,41 @@
     {
       "guid": "refresh-2026-11-24-siliconflow",
       "providerName": "硅基流动",
-      "changeText": "新增免费对话模型 GLM-Z1-9B-0414（0 元调用）（依据：free-llm-intel 变更日志）",
+      "changeText": "新增免费对话模型 GLM-Z1-9B-0414（0 元调用），其余免费模型与 14 元注册额度不变（依据：free-llm-intel 变更日志）",
       "changeDate": "2026-11-24"
     },
     {
       "guid": "refresh-2026-11-24-trae",
       "providerName": "Trae (字节跳动 AI IDE)",
-      "changeText": "国际版上线明确的 Free 免费档：仅限 Auto 模式，提供一次性赠送额度与每月 5,000 次代码补全，支持 2 个并发云端任务（依据：free-llm-intel 变更日志）",
+      "changeText": "国际版上线明确的 Free 免费档：仅限 Auto 模式，提供一次性赠送额度（不按月重置）与每月 5,000 次代码补全，支持 2 个并发云端任务；付费档调整为 Pro ($20/月)、Pro+ ($60/月)、Ultra ($200/月）（依据：free-llm-intel 变更日志）",
+      "changeDate": "2026-11-24"
+    },
+    {
+      "guid": "refresh-2026-11-24-tongyi-qwen",
+      "providerName": "通义千问",
+      "changeText": "关于 Token Plan 专属 API Key 的计费说明有更新：原来说是用它调用模型会「直接按量付费」，现在改为「消耗 Token Plan 的 Credits 额度、不消耗免费额度、也不会转为按量付费」（依据：free-llm-intel 变更日志）",
+      "changeDate": "2026-11-24"
+    },
+    {
+      "guid": "refresh-2026-11-24-unisound-shanhai",
+      "providerName": "云知声 Token Hub",
+      "changeText": "U Plan 限时升级折扣由 5 折（低至 29.5 元/月）调整为 7 折（低至 41.3 元/月）（依据：free-llm-intel 变更日志）",
+      "changeDate": "2026-11-24"
+    },
+    {
+      "guid": "refresh-2026-11-24-nango",
+      "providerName": "Nango",
+      "changeText": "官方页面新增了「Startup program」限时活动：符合资格的初创最高可获 $10,000 Nango credits，并可免费使用 Growth add-on 六个月（依据：free-llm-intel 变更日志）",
+      "changeDate": "2026-11-24"
+    },
+    {
+      "guid": "refresh-2026-11-24-kexin-spark-api",
+      "providerName": "科大讯飞星火",
+      "changeText": "更新 Search 与 Fetch API 计费规则：模型调用触发的服务端搜索与网页抓取工具本身免收调用费，改为仅按 Token 计费，API 计费单位改为每 1,000 次成功请求 5 元（依据：free-llm-intel 变更日志）",
       "changeDate": "2026-11-24"
     }
   ],
-  "findingsCount": 24,
+  "findingsCount": 28,
   "no_change": false,
   "warnings": [
     "fetch: feed[7] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
@@ -197,7 +221,7 @@
   "sources": {
     "openrouter": {
       "ok": true,
-      "freeModels": 12,
+      "freeModels": 13,
       "excluded": [
         "google/lyria-3-pro-preview",
         "google/lyria-3-clip-preview"
