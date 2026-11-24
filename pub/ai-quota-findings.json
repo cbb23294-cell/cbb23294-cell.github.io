@@ -1,20 +1,32 @@
 {
   "ok": true,
   "reason": "",
-  "generated_at": "2026-11-23T08:40:30Z",
+  "generated_at": "2026-11-24T09:03:45Z",
   "round": "ai-quota-refresh",
   "findings": [
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云",
+      "providerName": "额度变化 · 通义千问 Qwen：关于 Token Plan 专属 API Key 的计费说明有更新：原来说是用它调用模型会「直接按量付费」，现在改为「消耗 Token Plan 的 Credits 额度、不消耗免费额度、也不会转为按量付费",
+      "changeText": "tier_caveats：**额度按模型独立计算，不可合并或跨模型转移**：用完后系统不会自动切换模型，需手动修改 model 参数、**快照版本独立**：带日期后缀版本（如 `qwen-max-2026-05-17`）与主版本独立享有额度、**适用范围受限**：仅抵扣模型实时推理，不可抵扣批量调用、内置工具（联网搜索/图片搜索等）、微调与部署、**扣费风险**：免费额度用尽即停（安心模式）在开通千问AI平台后默认关闭，需自行前往权益页面开启以防超额按量扣费、**Key 类型限制**：Token Plan 专属 API Key 不消耗免费额度，须使用通用 API Key → **额度按模型独立计算，不可合并或跨模型转移**：用完后系统不会自动切换模型，需手动修改 model 参数、**快照版本独立**：带日期后缀版本（如 `qwen-max-2026-05-17`）与主版本独立享有额度、**适用范围受限**：仅抵扣模型实时推理，不可抵扣批量调用、内置工具（联网搜索/图片搜索等）、微调与部署、**扣费风险**：免费额度用尽即停（安心模式）在开通千问AI平台后默认关闭，需自行前往权益页面开启以防超额按量扣费、**Key 类型限制**：Token Plan 专属 API Key 不消耗免费额度，用它调用模型会直接消耗 Token Plan 的 Credits 额度，也不会转为按量付费；如",
+      "changeDate": "Tue, 24 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi",
+      "providerName": "额度变化 · 复旦 MOSS (MOSI)：官方公告 Nex-N2.6 自 11 月 25 日 21:00（北京时间）起开始计费（限时六折），nex-n2.6 不再是限免模型；仅 moss-vl-1.0 / moss-vl-realtime",
+      "changeText": "free_quota：官方公开文档未见账户级注册赠金说明；模型限免见「免费模型与额度」 → 官方公开文档未见账户级注册赠金说明；模型限免见「免费模型与额度」（Nex-N2.6 已于 11 月 25 日 21:00 起开始计费，不再限免） validity：限时免费，官方未公布截止日；随时可能恢复计费，以官方公告为准 → 限时免费仅剩 moss-vl-1.0 / moss-vl-realtime-1.0，官方未公布截止日；Nex-N2.6 已自 11 月 25 日 21:00（北京时间）起计费（限时六折），以官方公告为准 free_models：**限时免费 0 积分**：`nex-n2.6`（snapshot `nex-n2.6-2026-11-05`，多模态语言模型，文本/图片/视频→文本，`POST /v1/chat/completions`）—— 实测 HTTP 200 真实出文；注意它是**推理模型**，会先消耗大量 reasoning token，小 max_tokens 下正文为空（实测 max_tokens=64 时 63 个 token 全用于推理，finish_reason=length）、**限时免费 0 积分**：`moss-vl-1.0`（多模态理解，文本指令+图片/视频→文本，`POST /v1/responses`）、`moss-vl-realtime-",
+      "changeDate": "Tue, 24 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#14-硅基流动-siliconflow",
+      "providerName": "额度变化 · SiliconFlow 硅基流动：定价页新增一款免费对话模型 GLM-Z1-9B-0414（0 元），其余免费模型与 14 元注册额度不变；导航栏调整不构成事实变化",
+      "changeText": "free_models：对话 `Xing4.0-29B`、`PaddleOCR-VL-1.5`、`Hunyuan-MT-7B` —— 定价页标注「免费」，**0 元调用**、向量 `bge-m3`、`bge-large-zh-v1.5`、`bge-large-en-v1.5` 与重排 `bge-reranker-v2-m3` —— **0 元免费**、图像 `Kolors`、语音 `SenseVoiceSmall` 与电信 `XingChenASR/GSR` 系列 —— **0 元免费**（TTS 语音合成按量收费）、付费旗舰（可用 14 元代金券抵扣）：DeepSeek-V4 系列、GLM-5.3/5.2、Kimi-K2.7-Code、LongCat-2.0、Qwen3.x 等 → 对话 `Xing4.0-29B`、`PaddleOCR-VL-1.5`、`Hunyuan-MT-7B`、`GLM-Z1-9B-0414` —— 定价页标注「免费」，**0 元调用**、向量 `bge-m3`、`bge-large-zh-v1.5`、`bge-large-en-v1.5` 与重排 `bge-reranker-v2-m3` —— **0 元免费**（Pro 版标价 ¥0.07/M tokens）、图像 `Kolors` —— 生成图片每图片免费；语音 `SenseVoiceSmall`、`",
+      "changeDate": "Tue, 24 Nov 2026 00:00:00 +0000"
+    },
     {
       "guid": "https://github.com/rockbenben/free-llm-intel#76-trae-字节跳动-ai-ide--中国版为主",
       "providerName": "额度变化 · Trae (字节跳动 AI IDE)：国际版上线明确的 Free 免费档：仅限 Auto 模式，提供一次性赠送额度（不按月重置）与每月 5,000 次代码补全，支持 2 个并发云端任务；付费档调整为 Pro ($20/月)、P",
       "changeText": "free_quota：**中国版免费版 ¥0/月：每月 500 积分、所有功能均可免费使用**（官方定价页原文），云端任务**支持 2 个同时执行**；付费档为 Lite ¥39~49/月（2,000 积分/月）、Pro ¥69~99/月（4,000 积分/月）起。国际版（trae.ai）2026-09-26 实测**可见定价卡从 Lite $3/月起、无 Free 卡**，免费情况待核实（见 notes） → 国际版 Free 档 $0：**仅支持 Auto 模式（Auto mode only）**，包含**有限的一次性使用额度**（one-time allowance，不按月重置）以及**每月 5,000 次代码补全**（5000 / month Autocompletion），支持 **2 个云端任务并发执行**（Standard 队列）。付费档为 Pro（$20/月，$20 额度/月 + 无限补全）、Pro+（$60/月）、Ultra（$200/月）。中国版仍为每月 500 积分体系 validity：中国版免费积分按月发放；会员档另有「会员签到多得 1550 积分」与模型折扣（Seed-2.1 2.5 折、GLM / Deepseek-V4 5 折） → 国际版 Free 档的基本 AI 用量是一次性额度，用完不按月刷新（doesn&apos;t reset monthl",
       "changeDate": "Sun, 22 Nov 2026 00:00:00 +0000"
-    },
-    {
-      "guid": "https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi",
-      "providerName": "额度变化 · 复旦 MOSS (MOSI)：模型列表中 `moss-transcribe-1.0` 已下架，官方公告其于 11 月 30 日 12:00（北京时间）下线；免费模型（nex-n2.6 / moss-vl-1.0 / moss-",
-      "changeText": "free_models：**限时免费 0 积分**：`nex-n2.6`（snapshot `nex-n2.6-2026-11-05`，多模态语言模型，文本/图片/视频→文本，`POST /v1/chat/completions`）—— 实测 HTTP 200 真实出文；注意它是**推理模型**，会先消耗大量 reasoning token… → **限时免费 0 积分**：`nex-n2.6`（snapshot `nex-n2.6-2026-11-05`，多模态语言模型，文本/图片/视频→文本，`POST /v1/chat/completions`）—— 实测 HTTP 200 真实出文；注意它是**推理模型**，会先消耗大量 reasoning token…",
-      "changeDate": "Sat, 21 Nov 2026 00:00:00 +0000"
     },
     {
       "guid": "https://github.com/rockbenben/free-llm-intel#30-mistral-ai",
@@ -89,12 +101,6 @@
       "changeDate": "Tue, 17 Nov 2026 00:00:00 +0000"
     },
     {
-      "guid": "https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云",
-      "providerName": "额度变化 · 通义千问 Qwen：官方文档移除了未实名老用户自动锁定开启「用尽即停」的规则描述，统一明确用尽即停默认关闭且需手动开启。",
-      "changeText": "tier_caveats：**额度按模型独立计算，不可合并或跨模型转移**：用完后系统不会自动切换模型，需手动修改 model 参数、**快照版本独立**：带日期后缀版本（如 `qwen-max-2026-05-17`）与主版本独立享有额度、**适用范围受限**：仅抵扣模型实时推理，不可抵扣批量调用、内置工具（联网搜索/图片搜索等）、微调与部… → **额度按模型独立计算，不可合并或跨模型转移**：用完后系统不会自动切换模型，需手动修改 model 参数、**快照版本独立**：带日期后缀版本（如 `qwen-max-2026-05-17`）与主版本独立享有额度、**适用范围受限**：仅抵扣模型实时推理，不可抵扣批量调用、内置工具（联网搜索/图片搜索等）、微调与部…",
-      "changeDate": "Mon, 16 Nov 2026 00:00:00 +0000"
-    },
-    {
       "guid": "https://github.com/rockbenben/free-llm-intel#39-together-ai",
       "providerName": "额度变化 · Together AI：Tev1 4B Experimental 的输入计费微调为 $0.042/1M tokens（输出仍免费）；官方计费文档补充说明账户中的免费赠额不计入最低 $15 的充值门槛。",
       "changeText": "free_quota：**无免费试用 / 无赠送**：官方计费文档原文 “Together AI does not currently offer free trials. Access to the Together platform requires a minimum $15 credit purchase.”——首次充值最低额为 … → **无免费试用 / 无赠送**：官方计费文档明确“Together AI doesn’t currently offer free trials. To use the platform, you must purchase at least $15 of credits. Free credits on your … free_models：`Ternary Bonsai 27B` —— 输入与输出均定价为 **$0.00/1M tokens**（需充值门槛）、`Tev1 4B Experimental` —— 输出免费（Free），输入收取 **$0.04/1M tokens**（需充值门槛）、**平台调用限制**：官方计费文档明确平台不提供免费试用，… → `Ternary Bonsai 27B` —— 输入与输出均定价为 **Free**（需充值门槛）、`Tev1 4B Experimental` —— 输出免费（Free），输入收",
@@ -119,33 +125,21 @@
       "changeDate": "Sun, 08 Nov 2026 00:00:00 +0000"
     },
     {
-      "guid": "https://github.com/rockbenben/free-llm-intel#7-小米-mimo",
-      "providerName": "额度变化 · 小米 MiMo：MiMo-V2.5-Pro 与 MiMo-V2.5 已于 2026-10-21 10:00（UTC+8）正式下线且模型名称已失效",
-      "changeText": "tier_caveats：**平台按量计费，语言模型没有免费层**：免费只覆盖 TTS 系列与缓存写入（均标注「限时」）；`mimo-v2.6-pro` 等主力模型按 token 计费，或改走 Token Plan 订阅（个人版 ¥39 / ¥99 / ¥329 / ¥659 每月）、**「限时免费」官方未公布截止日**，随时可能转正式计费 … → **平台按量计费，语言模型没有免费层**：免费只覆盖 TTS 系列与缓存写入（均标注「限时」）；`mimo-v2.6-pro` 等主力模型按 token 计费，或改走 Token Plan 订阅（个人版 ¥39 / ¥99 / ¥329 / ¥659 每月）、**「限时免费」官方未公布截止日**，随时可能转正式计费 …",
-      "changeDate": "Mon, 02 Nov 2026 00:00:00 +0000"
-    },
-    {
-      "guid": "https://github.com/rockbenben/free-llm-intel#26-anthropic-claude",
-      "providerName": "额度变化 · Anthropic Claude：官方调整高级订阅体系并细化限额：新增 Ultra 计划（$200/月，含 $200 API 额度），Max 计划固定为 $100/月（含 $100 API 额度），并明确免费版同时存在每 5",
-      "changeText": "validity：网页免费版额度每 5 小时滚动重置；API 测试额度以账户到账为准 → 网页免费版额度受每 5 小时与每周双重限制（Limited usage every 5 hours and every week）；API 测试额度以账户到账为准 promotions：Pro 订阅 $20/月（年付 $17/月）含 Claude Code；Max 从 $100/月起，含每月 $100 至 $200 的 Claude Platform API 额度；Team 计划含最高 $500/月池化 API 额度；Batch 5 折、提示缓存读低至 0.1x。 → Pro 订阅 $20/月（年付 $17/月）含 Claude Code；Max 为 $100/月（含每月 $100 API 额度，5x Pro 额度）；新增 Ultra 计划 $200/月（含每月 $200 API 额度，10x Pro 周额度，认证账号无 5 小时限制）；Team 计划含最高 $500/月池化 AP…",
-      "changeDate": "Sun, 01 Nov 2026 00:00:00 +0000"
-    },
-    {
       "guid": "refresh-2026-11-24-fudan-moss-mosi",
       "providerName": "复旦 MOSS (MOSI)",
-      "changeText": "限时免费模型 Nex-N2.6 自 2026-11-25 21:00 起开始计费（限时六折）（依据：free-llm-intel 变更日志）",
+      "changeText": "限时免费模型 Nex-N2.6 已于 2026-11-25 21:00 起开始计费（限时六折）（依据：free-llm-intel 变更日志）",
       "changeDate": "2026-11-24"
     },
     {
       "guid": "refresh-2026-11-24-siliconflow",
       "providerName": "硅基流动",
-      "changeText": "新增免费对话模型 GLM-Z1-9B-0414（0 元调用），其余免费模型与 14 元注册额度不变（依据：free-llm-intel 变更日志）",
+      "changeText": "新增免费对话模型 GLM-Z1-9B-0414（0 元调用）（依据：free-llm-intel 变更日志）",
       "changeDate": "2026-11-24"
     },
     {
       "guid": "refresh-2026-11-24-trae",
       "providerName": "Trae (字节跳动 AI IDE)",
-      "changeText": "国际版上线明确的 Free 免费档：仅限 Auto 模式，提供一次性赠送额度（不按月重置）与每月 5,000 次代码补全，支持 2 个并发云端任务；付费档调整为 Pro ($20/月)、Pro+ ($60/月)、Ultra ($200/月）（依据：free-llm-intel 变更日志）",
+      "changeText": "国际版上线明确的 Free 免费档：仅限 Auto 模式，提供一次性赠送额度与每月 5,000 次代码补全，支持 2 个并发云端任务；付费档调整为 Pro ($20/月)、Pro+ ($60/月)、Ultra ($200/月）（依据：free-llm-intel 变更日志）",
       "changeDate": "2026-11-24"
     },
     {
@@ -159,32 +153,21 @@
       "providerName": "云知声 Token Hub",
       "changeText": "U Plan 限时升级折扣由 5 折（低至 29.5 元/月）调整为 7 折（低至 41.3 元/月）（依据：free-llm-intel 变更日志）",
       "changeDate": "2026-11-24"
-    },
-    {
-      "guid": "refresh-2026-11-24-nango",
-      "providerName": "Nango",
-      "changeText": "官方页面新增了「Startup program」限时活动：符合资格的初创最高可获 $10,000 Nango credits，并可免费使用 Growth add-on 六个月（依据：free-llm-intel 变更日志）",
-      "changeDate": "2026-11-24"
-    },
-    {
-      "guid": "refresh-2026-11-24-kexin-spark-api",
-      "providerName": "科大讯飞星火",
-      "changeText": "更新 Search 与 Fetch API 计费规则：模型调用触发的服务端搜索与网页抓取工具本身免收调用费，改为仅按 Token 计费，API 计费单位改为每 1,000 次成功请求 5 元（依据：free-llm-intel 变更日志）",
-      "changeDate": "2026-11-24"
     }
   ],
-  "findingsCount": 28,
+  "findingsCount": 25,
   "no_change": false,
   "warnings": [
-    "fetch: feed[7] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
-    "fetch: feed[9] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
-    "fetch: feed[17] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
-    "fetch: feed[20] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
-    "fetch: feed[21] duplicate guid 'https://github.com/rockbenben/free-llm-intel#46-morph-labs' dropped (kept first)",
-    "fetch: feed[23] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
-    "fetch: feed[25] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
-    "fetch: feed[26] duplicate guid 'https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云' dropped (kept first)",
-    "fetch: feed[27] duplicate guid 'https://github.com/rockbenben/free-llm-intel#16-云知声-token-hu' dropped (kept first)",
+    "fetch: feed[4] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
+    "fetch: feed[10] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
+    "fetch: feed[12] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
+    "fetch: feed[19] duplicate guid 'https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云' dropped (kept first)",
+    "fetch: feed[20] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
+    "fetch: feed[23] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
+    "fetch: feed[24] duplicate guid 'https://github.com/rockbenben/free-llm-intel#46-morph-labs' dropped (kept first)",
+    "fetch: feed[26] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
+    "fetch: feed[28] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
+    "fetch: feed[29] duplicate guid 'https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云' dropped (kept first)",
     "fetch: feed[30] dropped (over MAX_FINDINGS=30 cap)",
     "fetch: feed[31] dropped (over MAX_FINDINGS=30 cap)",
     "fetch: feed[32] dropped (over MAX_FINDINGS=30 cap)",
@@ -229,7 +212,7 @@
     },
     "changesFeed": {
       "ok": true,
-      "items": 75
+      "items": 78
     }
   },
   "pool": {
