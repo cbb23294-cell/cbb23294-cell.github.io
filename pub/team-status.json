@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-25T18:52:21Z",
+    "activity_generated_at": "2026-11-25T18:55:01Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -12,18 +12,18 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-25T18:51:55Z",
+        "claimed_at": "2026-11-25T18:52:55Z",
         "claimed_by": "float",
         "claimed_by_zh": "机动",
-        "claimed_for": "27秒",
+        "claimed_for": "2分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
-      "cycle_started_at": "2026-11-25T18:51:55Z",
+      "cycle_started_at": "2026-11-25T18:52:55Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "27秒",
-      "elapsed_sec": 27,
-      "last_cycle_ended": "2026-11-25T18:52:16Z",
+      "elapsed": "2分钟",
+      "elapsed_sec": 127,
+      "last_cycle_ended": "2026-11-25T18:53:39Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -36,7 +36,7 @@
       "cycle_started_source": null,
       "elapsed": null,
       "elapsed_sec": null,
-      "last_cycle_ended": "2026-11-25T18:52:17Z",
+      "last_cycle_ended": "2026-11-25T18:55:00Z",
       "name_zh": "池优化",
       "state": "idle",
       "workstream": "pool-optimization"
@@ -99,18 +99,18 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 27,
-          "claimed_at": "2026-11-25T18:51:55Z",
+          "claimed_age_sec": 127,
+          "claimed_at": "2026-11-25T18:52:55Z",
           "claimed_by": "float",
           "claimed_by_zh": "机动",
-          "claimed_for": "27秒",
+          "claimed_for": "2分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
         }
       ],
       "done": 22,
-      "escalation_latest": "runner exit: 0",
+      "escalation_latest": "runner exit: 1",
       "name_zh": "云脚本迁移",
       "next_open": [
         "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
@@ -131,7 +131,7 @@
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
       ],
       "open": 2,
-      "status_updated": "2026-11-25T18:48:02Z",
+      "status_updated": "2026-11-25T18:53:49Z",
       "total": 83,
       "workstream": "pool-optimization"
     },
@@ -172,22 +172,22 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 27,
-      "claimed_at": "2026-11-25T18:51:55Z",
+      "claimed_age_sec": 127,
+      "claimed_at": "2026-11-25T18:52:55Z",
       "claimed_by": "float",
       "claimed_by_zh": "机动",
-      "claimed_for": "27秒",
+      "claimed_for": "2分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-25T18:50:53Z",
+  "content_latest_at": "2026-11-25T18:53:49Z",
   "escalations_human": {
     "cloud-script-migration": {
-      "dropped_hash_keys": 312,
+      "dropped_hash_keys": 313,
       "exists": true,
-      "latest": "runner exit: 0"
+      "latest": "runner exit: 1"
     },
     "float": {
       "dropped_hash_keys": 208,
@@ -215,46 +215,35 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-25T18:52:22Z",
-  "generated_at_utc": "2026-11-25T18:52:22Z",
+  "generated_at": "2026-11-25T18:55:02Z",
+  "generated_at_utc": "2026-11-25T18:55:02Z",
   "live_pi_workers": {
     "by_model": {
-      "numes/deepseek/deepseek-v4.1-flash:free": 2,
-      "token-harbor/deepseek-v4.1-flash:free": 4
+      "gpt-6.1-sol–free": 4
     },
     "running": [
       {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 5282,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG3: fallback identity gate (r"
+        "model": "gpt-6.1-sol–free",
+        "pid": 7259,
+        "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
       },
       {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 5283,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG3: fallback identity gate (r"
+        "model": "gpt-6.1-sol–free",
+        "pid": 7260,
+        "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
       },
       {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 5285,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG2: Class S strictness in pro"
+        "model": "gpt-6.1-sol–free",
+        "pid": 7295,
+        "title": "[code] [boss-accept] Settlement ordering defect: BLOCKED.md must short-circuit B"
       },
       {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 5286,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG2: Class S strictness in pro"
-      },
-      {
-        "model": "numes/deepseek/deepseek-v4.1-flash:free",
-        "pid": 6259,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "numes/deepseek/deepseek-v4.1-flash:free",
-        "pid": 6260,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+        "model": "gpt-6.1-sol–free",
+        "pid": 7296,
+        "title": "[code] [boss-accept] Settlement ordering defect: BLOCKED.md must short-circuit B"
       }
     ],
-    "total": 6
+    "total": 4
   },
   "managers": [
     {
@@ -542,7 +531,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 33
+        "used": 35
       },
       {
         "cap": 20000,
@@ -550,7 +539,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 34
+        "used": 36
       },
       {
         "cap": 20000,
@@ -582,7 +571,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 79
+        "used": 81
       },
       {
         "cap": 20000,
@@ -590,7 +579,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 18
+        "used": 19
       },
       {
         "cap": 20000,
@@ -606,7 +595,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 44
+        "used": 68
       },
       {
         "cap": 20000,
@@ -622,7 +611,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 1040
+        "used": 1047
       },
       {
         "cap": 20000,
@@ -638,7 +627,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-2",
-        "used": 29
+        "used": 31
       },
       {
         "cap": 20000,
@@ -654,7 +643,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 19
+        "used": 25
       },
       {
         "cap": 20000,
@@ -702,7 +691,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 627
+        "used": 638
       },
       {
         "cap": 20000,
@@ -734,7 +723,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 8
+        "used": 9
       },
       {
         "cap": 20000,
@@ -758,7 +747,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 20000,
@@ -766,7 +755,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -782,7 +771,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 508
+        "used": 519
       },
       {
         "cap": 1000,
@@ -1078,7 +1067,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 113
+        "used": 114
       },
       {
         "cap": 300,
@@ -1134,7 +1123,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 96
+        "used": 97
       },
       {
         "cap": 300,
@@ -1294,7 +1283,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 471
+        "used": 473
       },
       {
         "cap": 200000,
@@ -1302,7 +1291,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 439
+        "used": 440
       },
       {
         "cap": 200000,
@@ -1744,7 +1733,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 33
+        "used": 35
       },
       {
         "cap": 20000,
@@ -1752,7 +1741,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 34
+        "used": 36
       },
       {
         "cap": 20000,
@@ -1784,7 +1773,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 79
+        "used": 81
       },
       {
         "cap": 20000,
@@ -1792,7 +1781,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 18
+        "used": 19
       },
       {
         "cap": 20000,
@@ -1808,7 +1797,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 44
+        "used": 68
       },
       {
         "cap": 20000,
@@ -1824,7 +1813,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 1040
+        "used": 1047
       },
       {
         "cap": 20000,
@@ -1840,7 +1829,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-2",
-        "used": 29
+        "used": 31
       },
       {
         "cap": 20000,
@@ -1856,7 +1845,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 19
+        "used": 25
       },
       {
         "cap": 20000,
@@ -1904,7 +1893,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 627
+        "used": 638
       },
       {
         "cap": 20000,
@@ -1936,7 +1925,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 8
+        "used": 9
       },
       {
         "cap": 20000,
@@ -1960,7 +1949,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 20000,
@@ -1968,7 +1957,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -1984,7 +1973,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 508
+        "used": 519
       },
       {
         "cap": 1000,
@@ -2280,7 +2269,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 113
+        "used": 114
       },
       {
         "cap": 300,
@@ -2336,7 +2325,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 96
+        "used": 97
       },
       {
         "cap": 300,
@@ -2496,7 +2485,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 471
+        "used": 473
       },
       {
         "cap": 200000,
@@ -2504,7 +2493,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 439
+        "used": 440
       },
       {
         "cap": 200000,
@@ -2722,33 +2711,57 @@
   },
   "recent_completions": [
     {
-      "age_sec": 4,
+      "age_sec": 1,
       "board_zh": "池优化",
-      "completed_at": "2026-11-25T18:52:17Z",
+      "completed_at": "2026-11-25T18:55:00Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
       "completed_by_zh": "池优化 席位5252",
       "completed_ts_source": "result.txt",
-      "task_id": "pool-080",
-      "task_no": 80,
-      "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
+      "task_id": "pool-082",
+      "task_no": 82,
+      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 3,
+      "age_sec": 8,
       "board_zh": "池优化",
-      "completed_at": "2026-11-25T18:52:17Z",
+      "completed_at": "2026-11-25T18:54:53Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
       "completed_by_zh": "池优化 席位5252",
       "completed_ts_source": "result.txt",
+      "task_id": "pool-110",
+      "task_no": 83,
+      "title": "Settlement ordering defect: BLOCKED.md must short-circuit BEFORE the…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 30,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T18:54:31Z",
+      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
+      "completed_by_zh": "池优化 席位5252",
+      "completed_ts_source": "done",
       "task_id": "pool-081",
       "task_no": 81,
       "title": "Named-model rule v2 landing SEG3: fallback identity gate (ruling…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 5,
+      "age_sec": 36,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T18:54:24Z",
+      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
+      "completed_by_zh": "池优化 席位5252",
+      "completed_ts_source": "done",
+      "task_id": "pool-080",
+      "task_no": 80,
+      "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 82,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-25T18:52:16Z",
+      "completed_at": "2026-11-25T18:53:39Z",
       "completed_by": "float",
       "completed_by_zh": "机动",
       "completed_ts_source": "result.txt",
@@ -2758,7 +2771,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 777,
+      "age_sec": 937,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2770,31 +2783,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 1127,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T18:33:34Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
-      "completed_ts_source": "result.txt",
-      "task_id": "pool-082",
-      "task_no": 82,
-      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 1126,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T18:33:34Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
-      "completed_ts_source": "result.txt",
-      "task_id": "pool-110",
-      "task_no": 83,
-      "title": "Settlement ordering defect: BLOCKED.md must short-circuit BEFORE the…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 4633,
+      "age_sec": 4793,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2806,7 +2795,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 4922,
+      "age_sec": 5082,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2818,7 +2807,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 5414,
+      "age_sec": 5574,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2830,7 +2819,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 5435,
+      "age_sec": 5595,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
@@ -2850,90 +2839,65 @@
   },
   "workers": {
     "by_model": {
-      "numes/deepseek/deepseek-v4.1-flash:free": 2,
-      "token-harbor/deepseek-v4.1-flash:free": 4
+      "gpt-6.1-sol–free": 4
     },
     "running": [
       {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 5282,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG3: fallback identity gate (r"
+        "model": "gpt-6.1-sol–free",
+        "pid": 7259,
+        "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
       },
       {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 5283,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG3: fallback identity gate (r"
+        "model": "gpt-6.1-sol–free",
+        "pid": 7260,
+        "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
       },
       {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 5285,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG2: Class S strictness in pro"
+        "model": "gpt-6.1-sol–free",
+        "pid": 7295,
+        "title": "[code] [boss-accept] Settlement ordering defect: BLOCKED.md must short-circuit B"
       },
       {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 5286,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG2: Class S strictness in pro"
-      },
-      {
-        "model": "numes/deepseek/deepseek-v4.1-flash:free",
-        "pid": 6259,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "numes/deepseek/deepseek-v4.1-flash:free",
-        "pid": 6260,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+        "model": "gpt-6.1-sol–free",
+        "pid": 7296,
+        "title": "[code] [boss-accept] Settlement ordering defect: BLOCKED.md must short-circuit B"
       }
     ],
-    "total": 6
+    "total": 4
   },
   "workers_detail": [
     {
       "count": 4,
-      "model": "token-harbor/deepseek-v4.1-flash:free"
-    },
-    {
-      "count": 2,
-      "model": "numes/deepseek/deepseek-v4.1-flash:free"
+      "model": "gpt-6.1-sol–free"
     }
   ],
   "workers_running": [
     {
-      "model": "token-harbor/deepseek-v4.1-flash:free",
-      "pid": 5282,
-      "title": "[code] [boss-accept] Named-model rule v2 landing SEG3: fallback identity gate (r"
+      "model": "gpt-6.1-sol–free",
+      "pid": 7259,
+      "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
     },
     {
-      "model": "token-harbor/deepseek-v4.1-flash:free",
-      "pid": 5283,
-      "title": "[code] [boss-accept] Named-model rule v2 landing SEG3: fallback identity gate (r"
+      "model": "gpt-6.1-sol–free",
+      "pid": 7260,
+      "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
     },
     {
-      "model": "token-harbor/deepseek-v4.1-flash:free",
-      "pid": 5285,
-      "title": "[code] [boss-accept] Named-model rule v2 landing SEG2: Class S strictness in pro"
+      "model": "gpt-6.1-sol–free",
+      "pid": 7295,
+      "title": "[code] [boss-accept] Settlement ordering defect: BLOCKED.md must short-circuit B"
     },
     {
-      "model": "token-harbor/deepseek-v4.1-flash:free",
-      "pid": 5286,
-      "title": "[code] [boss-accept] Named-model rule v2 landing SEG2: Class S strictness in pro"
-    },
-    {
-      "model": "numes/deepseek/deepseek-v4.1-flash:free",
-      "pid": 6259,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "numes/deepseek/deepseek-v4.1-flash:free",
-      "pid": 6260,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+      "model": "gpt-6.1-sol–free",
+      "pid": 7296,
+      "title": "[code] [boss-accept] Settlement ordering defect: BLOCKED.md must short-circuit B"
     }
   ],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=8ac9d50eec46"
+        "latest": "- key=a1cd9a5165dc"
       },
       "status": {
         "exists": true,
@@ -2952,7 +2916,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (executed-by security failed 2026-11-25T18:42:18Z) (claimed-by float 2026-11-25T18:51:55Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (claimed-by float 2026-11-25T18:52:55Z) (executed-by float failed 2026-11-25T18:53:39Z)"
           }
         ],
         "open": 2
@@ -2987,7 +2951,7 @@
         "tasks_done": 0,
         "tasks_open": 4,
         "tasks_total": 4,
-        "updated": "2026-11-25T18:48:02Z"
+        "updated": "2026-11-25T18:53:49Z"
       },
       "tasks": {
         "done": 81,
