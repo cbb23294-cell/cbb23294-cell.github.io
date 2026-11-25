@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-25T18:02:21Z",
+    "activity_generated_at": "2026-11-25T18:04:57Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-25T18:01:14Z",
         "claimed_by": "security",
         "claimed_by_zh": "安全",
-        "claimed_for": "68秒",
+        "claimed_for": "3分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-25T18:01:14Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "68秒",
-      "elapsed_sec": 68,
+      "elapsed": "3分钟",
+      "elapsed_sec": 223,
       "last_cycle_ended": "2026-11-25T18:00:46Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -30,20 +30,20 @@
     },
     {
       "active_jobs": 0,
-      "claimed_count": 1,
+      "claimed_count": 4,
       "current_task": {
-        "claimed_at": "2026-11-25T17:56:01Z",
-        "claimed_by": "pool-optimization-seat-1-19751-b91ee880",
-        "claimed_by_zh": "池优化 席位19751",
-        "claimed_for": "6分钟",
-        "task_id": "pool-079",
-        "title": "Named-model rule v2 landing SEG1: substitution cause field +…"
+        "claimed_at": "2026-11-25T18:04:23Z",
+        "claimed_by": "pool-optimization-seat-1-21279-24f5a5c0",
+        "claimed_by_zh": "池优化 席位21279",
+        "claimed_for": "34秒",
+        "task_id": "pool-082",
+        "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…"
       },
       "cycle_started_at": "2026-11-25T17:56:01Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "6分钟",
-      "elapsed_sec": 381,
-      "last_cycle_ended": "2026-11-25T17:56:42Z",
+      "elapsed": "8分钟",
+      "elapsed_sec": 536,
+      "last_cycle_ended": "2026-11-25T18:04:18Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -106,11 +106,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 68,
+          "claimed_age_sec": 223,
           "claimed_at": "2026-11-25T18:01:14Z",
           "claimed_by": "security",
           "claimed_by_zh": "安全",
-          "claimed_for": "68秒",
+          "claimed_for": "3分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -132,13 +132,46 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 381,
+          "claimed_age_sec": 536,
           "claimed_at": "2026-11-25T17:56:01Z",
           "claimed_by": "pool-optimization-seat-1-19751-b91ee880",
           "claimed_by_zh": "池优化 席位19751",
-          "claimed_for": "6分钟",
+          "claimed_for": "8分钟",
           "task_id": "pool-079",
           "title": "Named-model rule v2 landing SEG1: substitution cause field +…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 34,
+          "claimed_at": "2026-11-25T18:04:23Z",
+          "claimed_by": "pool-optimization-seat-1-21279-24f5a5c0",
+          "claimed_by_zh": "池优化 席位21279",
+          "claimed_for": "34秒",
+          "task_id": "pool-080",
+          "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 34,
+          "claimed_at": "2026-11-25T18:04:23Z",
+          "claimed_by": "pool-optimization-seat-1-21279-24f5a5c0",
+          "claimed_by_zh": "池优化 席位21279",
+          "claimed_for": "34秒",
+          "task_id": "pool-081",
+          "title": "Named-model rule v2 landing SEG3: fallback identity gate (ruling…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 34,
+          "claimed_at": "2026-11-25T18:04:23Z",
+          "claimed_by": "pool-optimization-seat-1-21279-24f5a5c0",
+          "claimed_by_zh": "池优化 席位21279",
+          "claimed_for": "34秒",
+          "task_id": "pool-082",
+          "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
           "workstream": "pool-optimization"
         }
       ],
@@ -151,7 +184,7 @@
         "Named-model rule v2 landing SEG1: substitution cause field +…"
       ],
       "open": 6,
-      "status_updated": "2026-11-25T17:56:42Z",
+      "status_updated": "2026-11-25T18:02:23Z",
       "total": 82,
       "workstream": "pool-optimization"
     },
@@ -192,28 +225,61 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 381,
+      "claimed_age_sec": 536,
       "claimed_at": "2026-11-25T17:56:01Z",
       "claimed_by": "pool-optimization-seat-1-19751-b91ee880",
       "claimed_by_zh": "池优化 席位19751",
-      "claimed_for": "6分钟",
+      "claimed_for": "8分钟",
       "task_id": "pool-079",
       "title": "Named-model rule v2 landing SEG1: substitution cause field +…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 68,
+      "claimed_age_sec": 223,
       "claimed_at": "2026-11-25T18:01:14Z",
       "claimed_by": "security",
       "claimed_by_zh": "安全",
-      "claimed_for": "68秒",
+      "claimed_for": "3分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 34,
+      "claimed_at": "2026-11-25T18:04:23Z",
+      "claimed_by": "pool-optimization-seat-1-21279-24f5a5c0",
+      "claimed_by_zh": "池优化 席位21279",
+      "claimed_for": "34秒",
+      "task_id": "pool-080",
+      "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 34,
+      "claimed_at": "2026-11-25T18:04:23Z",
+      "claimed_by": "pool-optimization-seat-1-21279-24f5a5c0",
+      "claimed_by_zh": "池优化 席位21279",
+      "claimed_for": "34秒",
+      "task_id": "pool-081",
+      "title": "Named-model rule v2 landing SEG3: fallback identity gate (ruling…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 34,
+      "claimed_at": "2026-11-25T18:04:23Z",
+      "claimed_by": "pool-optimization-seat-1-21279-24f5a5c0",
+      "claimed_by_zh": "池优化 席位21279",
+      "claimed_for": "34秒",
+      "task_id": "pool-082",
+      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
+      "workstream": "pool-optimization"
     }
   ],
-  "content_latest_at": "2026-11-25T17:56:42Z",
+  "content_latest_at": "2026-11-25T18:02:23Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 311,
@@ -246,11 +312,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-25T18:02:22Z",
-  "generated_at_utc": "2026-11-25T18:02:22Z",
+  "generated_at": "2026-11-25T18:04:57Z",
+  "generated_at_utc": "2026-11-25T18:04:57Z",
   "live_pi_workers": {
     "by_model": {
-      "numes/deepseek/deepseek-v4.1-flash:free": 2
+      "numes/deepseek/deepseek-v4.1-flash:free": 2,
+      "token-harbor/deepseek-v4.1-flash:free": 2
     },
     "running": [
       {
@@ -262,9 +329,19 @@
         "model": "numes/deepseek/deepseek-v4.1-flash:free",
         "pid": 20123,
         "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+      },
+      {
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 21309,
+        "title": "[code] [boss-accept] Named-model rule v2 landing SEG2: Class S strictness in pro"
+      },
+      {
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 21310,
+        "title": "[code] [boss-accept] Named-model rule v2 landing SEG2: Class S strictness in pro"
       }
     ],
-    "total": 2
+    "total": 4
   },
   "managers": [
     {
@@ -568,7 +645,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 274
+        "used": 297
       },
       {
         "cap": 20000,
@@ -632,7 +709,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 1011
+        "used": 1012
       },
       {
         "cap": 20000,
@@ -664,7 +741,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 3
+        "used": 4
       },
       {
         "cap": 20000,
@@ -696,7 +773,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-2",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 20000,
@@ -712,7 +789,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 598
+        "used": 600
       },
       {
         "cap": 20000,
@@ -792,7 +869,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 490
+        "used": 492
       },
       {
         "cap": 1000,
@@ -1088,7 +1165,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 106
+        "used": 108
       },
       {
         "cap": 300,
@@ -1096,7 +1173,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 93
+        "used": 94
       },
       {
         "cap": 300,
@@ -1304,7 +1381,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 466
+        "used": 467
       },
       {
         "cap": 200000,
@@ -1770,7 +1847,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 274
+        "used": 297
       },
       {
         "cap": 20000,
@@ -1834,7 +1911,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 1011
+        "used": 1012
       },
       {
         "cap": 20000,
@@ -1866,7 +1943,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 3
+        "used": 4
       },
       {
         "cap": 20000,
@@ -1898,7 +1975,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-2",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 20000,
@@ -1914,7 +1991,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 598
+        "used": 600
       },
       {
         "cap": 20000,
@@ -1994,7 +2071,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 490
+        "used": 492
       },
       {
         "cap": 1000,
@@ -2290,7 +2367,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 106
+        "used": 108
       },
       {
         "cap": 300,
@@ -2298,7 +2375,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 93
+        "used": 94
       },
       {
         "cap": 300,
@@ -2506,7 +2583,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 466
+        "used": 467
       },
       {
         "cap": 200000,
@@ -2732,7 +2809,43 @@
   },
   "recent_completions": [
     {
-      "age_sec": 94,
+      "age_sec": 38,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T18:04:18Z",
+      "completed_by": "pool-optimization-seat-1-21279-24f5a5c0",
+      "completed_by_zh": "池优化 席位21279",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-082",
+      "task_no": 82,
+      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 45,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T18:04:11Z",
+      "completed_by": "pool-optimization-seat-1-21279-24f5a5c0",
+      "completed_by_zh": "池优化 席位21279",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-080",
+      "task_no": 80,
+      "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 107,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T18:03:09Z",
+      "completed_by": "pool-optimization-seat-1-21279-24f5a5c0",
+      "completed_by_zh": "池优化 席位21279",
+      "completed_ts_source": "done",
+      "task_id": "pool-081",
+      "task_no": 81,
+      "title": "Named-model rule v2 landing SEG3: fallback identity gate (ruling…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 250,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-25T18:00:46Z",
       "completed_by": "security",
@@ -2744,7 +2857,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 339,
+      "age_sec": 494,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:56:42Z",
       "completed_by": "pool-optimization-seat-1-19751-b91ee880",
@@ -2756,43 +2869,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 406,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T17:55:35Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
-      "task_id": "pool-082",
-      "task_no": 82,
-      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 441,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T17:55:00Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
-      "task_id": "pool-081",
-      "task_no": 81,
-      "title": "Named-model rule v2 landing SEG3: fallback identity gate (ruling…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 457,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T17:54:44Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
-      "task_id": "pool-080",
-      "task_no": 80,
-      "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 1633,
+      "age_sec": 1788,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2804,7 +2881,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 1923,
+      "age_sec": 2078,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2816,7 +2893,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 2414,
+      "age_sec": 2569,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2828,7 +2905,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 2436,
+      "age_sec": 2591,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
@@ -2840,7 +2917,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 6506,
+      "age_sec": 6661,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T16:13:55Z",
       "completed_by": null,
@@ -2860,7 +2937,8 @@
   },
   "workers": {
     "by_model": {
-      "numes/deepseek/deepseek-v4.1-flash:free": 2
+      "numes/deepseek/deepseek-v4.1-flash:free": 2,
+      "token-harbor/deepseek-v4.1-flash:free": 2
     },
     "running": [
       {
@@ -2872,14 +2950,28 @@
         "model": "numes/deepseek/deepseek-v4.1-flash:free",
         "pid": 20123,
         "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+      },
+      {
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 21309,
+        "title": "[code] [boss-accept] Named-model rule v2 landing SEG2: Class S strictness in pro"
+      },
+      {
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 21310,
+        "title": "[code] [boss-accept] Named-model rule v2 landing SEG2: Class S strictness in pro"
       }
     ],
-    "total": 2
+    "total": 4
   },
   "workers_detail": [
     {
       "count": 2,
       "model": "numes/deepseek/deepseek-v4.1-flash:free"
+    },
+    {
+      "count": 2,
+      "model": "token-harbor/deepseek-v4.1-flash:free"
     }
   ],
   "workers_running": [
@@ -2892,6 +2984,16 @@
       "model": "numes/deepseek/deepseek-v4.1-flash:free",
       "pid": 20123,
       "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
+    },
+    {
+      "model": "token-harbor/deepseek-v4.1-flash:free",
+      "pid": 21309,
+      "title": "[code] [boss-accept] Named-model rule v2 landing SEG2: Class S strictness in pro"
+    },
+    {
+      "model": "token-harbor/deepseek-v4.1-flash:free",
+      "pid": 21310,
+      "title": "[code] [boss-accept] Named-model rule v2 landing SEG2: Class S strictness in pro"
     }
   ],
   "workstreams": {
@@ -2950,9 +3052,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 4,
-        "tasks_total": 4,
-        "updated": "2026-11-25T17:56:42Z"
+        "tasks_open": 3,
+        "tasks_total": 3,
+        "updated": "2026-11-25T18:02:23Z"
       },
       "tasks": {
         "done": 76,
