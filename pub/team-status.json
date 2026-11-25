@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-25T18:55:01Z",
+    "activity_generated_at": "2026-11-25T18:57:41Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-25T18:52:55Z",
         "claimed_by": "float",
         "claimed_by_zh": "机动",
-        "claimed_for": "2分钟",
+        "claimed_for": "4分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-25T18:52:55Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "2分钟",
-      "elapsed_sec": 127,
+      "elapsed": "4分钟",
+      "elapsed_sec": 287,
       "last_cycle_ended": "2026-11-25T18:53:39Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -36,7 +36,7 @@
       "cycle_started_source": null,
       "elapsed": null,
       "elapsed_sec": null,
-      "last_cycle_ended": "2026-11-25T18:55:00Z",
+      "last_cycle_ended": "2026-11-25T18:57:33Z",
       "name_zh": "池优化",
       "state": "idle",
       "workstream": "pool-optimization"
@@ -99,11 +99,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 127,
+          "claimed_age_sec": 287,
           "claimed_at": "2026-11-25T18:52:55Z",
           "claimed_by": "float",
           "claimed_by_zh": "机动",
-          "claimed_for": "2分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -124,14 +124,14 @@
     {
       "claimed_now": [],
       "done": 81,
-      "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
+      "escalation_latest": "blocked-file: out/task-082/BLOCKED.md",
       "name_zh": "池优化",
       "next_open": [
         "Pool tuning + slimming pass after the 140-entry expansion (boss filing…",
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
       ],
       "open": 2,
-      "status_updated": "2026-11-25T18:53:49Z",
+      "status_updated": "2026-11-25T18:57:34Z",
       "total": 83,
       "workstream": "pool-optimization"
     },
@@ -172,17 +172,17 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 127,
+      "claimed_age_sec": 287,
       "claimed_at": "2026-11-25T18:52:55Z",
       "claimed_by": "float",
       "claimed_by_zh": "机动",
-      "claimed_for": "2分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-25T18:53:49Z",
+  "content_latest_at": "2026-11-25T18:57:34Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 313,
@@ -200,9 +200,9 @@
       "latest": "level: manager (retry budget exhausted; lowest level could not fix it)"
     },
     "pool-optimization": {
-      "dropped_hash_keys": 272,
+      "dropped_hash_keys": 273,
       "exists": true,
-      "latest": "level: manager (retry budget exhausted; lowest level could not fix it)"
+      "latest": "blocked-file: out/task-082/BLOCKED.md"
     },
     "security": {
       "dropped_hash_keys": 10,
@@ -215,35 +215,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-25T18:55:02Z",
-  "generated_at_utc": "2026-11-25T18:55:02Z",
+  "generated_at": "2026-11-25T18:57:42Z",
+  "generated_at_utc": "2026-11-25T18:57:42Z",
   "live_pi_workers": {
-    "by_model": {
-      "gpt-6.1-sol–free": 4
-    },
-    "running": [
-      {
-        "model": "gpt-6.1-sol–free",
-        "pid": 7259,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
-      },
-      {
-        "model": "gpt-6.1-sol–free",
-        "pid": 7260,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
-      },
-      {
-        "model": "gpt-6.1-sol–free",
-        "pid": 7295,
-        "title": "[code] [boss-accept] Settlement ordering defect: BLOCKED.md must short-circuit B"
-      },
-      {
-        "model": "gpt-6.1-sol–free",
-        "pid": 7296,
-        "title": "[code] [boss-accept] Settlement ordering defect: BLOCKED.md must short-circuit B"
-      }
-    ],
-    "total": 4
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -531,7 +508,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 35
+        "used": 36
       },
       {
         "cap": 20000,
@@ -555,7 +532,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 20000,
@@ -571,7 +548,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 81
+        "used": 82
       },
       {
         "cap": 20000,
@@ -587,7 +564,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 163
+        "used": 166
       },
       {
         "cap": 20000,
@@ -595,7 +572,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 68
+        "used": 73
       },
       {
         "cap": 20000,
@@ -611,7 +588,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 1047
+        "used": 1053
       },
       {
         "cap": 20000,
@@ -667,7 +644,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-2",
-        "used": 6
+        "used": 7
       },
       {
         "cap": 20000,
@@ -691,7 +668,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 638
+        "used": 643
       },
       {
         "cap": 20000,
@@ -771,7 +748,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 519
+        "used": 523
       },
       {
         "cap": 1000,
@@ -1075,7 +1052,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 101
+        "used": 102
       },
       {
         "cap": 300,
@@ -1733,7 +1710,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 35
+        "used": 36
       },
       {
         "cap": 20000,
@@ -1757,7 +1734,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 20000,
@@ -1773,7 +1750,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 81
+        "used": 82
       },
       {
         "cap": 20000,
@@ -1789,7 +1766,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 163
+        "used": 166
       },
       {
         "cap": 20000,
@@ -1797,7 +1774,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 68
+        "used": 73
       },
       {
         "cap": 20000,
@@ -1813,7 +1790,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 1047
+        "used": 1053
       },
       {
         "cap": 20000,
@@ -1869,7 +1846,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-2",
-        "used": 6
+        "used": 7
       },
       {
         "cap": 20000,
@@ -1893,7 +1870,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 638
+        "used": 643
       },
       {
         "cap": 20000,
@@ -1973,7 +1950,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 519
+        "used": 523
       },
       {
         "cap": 1000,
@@ -2277,7 +2254,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 101
+        "used": 102
       },
       {
         "cap": 300,
@@ -2711,9 +2688,21 @@
   },
   "recent_completions": [
     {
-      "age_sec": 1,
+      "age_sec": 7,
       "board_zh": "池优化",
-      "completed_at": "2026-11-25T18:55:00Z",
+      "completed_at": "2026-11-25T18:57:33Z",
+      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
+      "completed_by_zh": "池优化 席位5252",
+      "completed_ts_source": "done",
+      "task_id": "pool-110",
+      "task_no": 83,
+      "title": "Settlement ordering defect: BLOCKED.md must short-circuit BEFORE the…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 117,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
       "completed_by_zh": "池优化 席位5252",
       "completed_ts_source": "result.txt",
@@ -2723,19 +2712,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 8,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T18:54:53Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
-      "completed_ts_source": "result.txt",
-      "task_id": "pool-110",
-      "task_no": 83,
-      "title": "Settlement ordering defect: BLOCKED.md must short-circuit BEFORE the…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 30,
+      "age_sec": 190,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2747,7 +2724,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 36,
+      "age_sec": 197,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2759,7 +2736,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 82,
+      "age_sec": 242,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-25T18:53:39Z",
       "completed_by": "float",
@@ -2771,7 +2748,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 937,
+      "age_sec": 1098,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2783,7 +2760,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 4793,
+      "age_sec": 4953,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2795,7 +2772,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 5082,
+      "age_sec": 5243,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2807,7 +2784,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 5574,
+      "age_sec": 5734,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2819,7 +2796,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 5595,
+      "age_sec": 5756,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
@@ -2838,61 +2815,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "gpt-6.1-sol–free": 4
-    },
-    "running": [
-      {
-        "model": "gpt-6.1-sol–free",
-        "pid": 7259,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
-      },
-      {
-        "model": "gpt-6.1-sol–free",
-        "pid": 7260,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
-      },
-      {
-        "model": "gpt-6.1-sol–free",
-        "pid": 7295,
-        "title": "[code] [boss-accept] Settlement ordering defect: BLOCKED.md must short-circuit B"
-      },
-      {
-        "model": "gpt-6.1-sol–free",
-        "pid": 7296,
-        "title": "[code] [boss-accept] Settlement ordering defect: BLOCKED.md must short-circuit B"
-      }
-    ],
-    "total": 4
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 4,
-      "model": "gpt-6.1-sol–free"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "gpt-6.1-sol–free",
-      "pid": 7259,
-      "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
-    },
-    {
-      "model": "gpt-6.1-sol–free",
-      "pid": 7260,
-      "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
-    },
-    {
-      "model": "gpt-6.1-sol–free",
-      "pid": 7295,
-      "title": "[code] [boss-accept] Settlement ordering defect: BLOCKED.md must short-circuit B"
-    },
-    {
-      "model": "gpt-6.1-sol–free",
-      "pid": 7296,
-      "title": "[code] [boss-accept] Settlement ordering defect: BLOCKED.md must short-circuit B"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -2944,14 +2872,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=c2cbae90529d"
+        "latest": "- key=b253d6eb9e6e"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 4,
         "tasks_total": 4,
-        "updated": "2026-11-25T18:53:49Z"
+        "updated": "2026-11-25T18:57:34Z"
       },
       "tasks": {
         "done": 81,
