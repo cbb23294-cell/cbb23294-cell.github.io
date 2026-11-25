@@ -1,7 +1,7 @@
 {
   "ok": true,
   "reason": "",
-  "generated_at": "2026-11-24T09:03:45Z",
+  "generated_at": "2026-11-25T21:09:43Z",
   "round": "ai-quota-refresh",
   "findings": [
     {
@@ -123,39 +123,9 @@
       "providerName": "额度变化 · 月之暗面 Kimi：新用户认证赠送的 15 元代金券规则调整：现已支持用于 Kimi K3.1 Pro 和 Kimi K3，但不可用于高速版 Kimi K3.1 Pro Highspeed。",
       "changeText": "free_quota：实名认证赠送 **15 元代金券**（官方账号与财务文档原文：“认证成功后会为您赠送 15 元代金券，可用于支持该代金券的模型（Kimi K3.1 Pro、Kimi K3 不支持使用新用户代金券，详见下方说明）”）；有效期官方未载明，以券面标注为准 → 实名认证赠送 **15 元代金券**（官方问答明确：“国内新用户注册并完成认证后获赠的 15 元代金券可用于 Kimi K3.1 Pro 和 Kimi K3，不可用于高速版 Kimi K3.1 Pro Highspeed”）；有效期官方未载明，以券面标注为准 free_models：`kimi-k2.7-code`、`kimi-k2.6`（256K）—— 付费模型，**可用 15 元代金券抵扣**；官方提示将于 2026 年 10 月 31 日起停止向新注册用户开放，计划 12 月底下线、`kimi-k3.1-pro`、`kimi-k3`（1,048,576 tokens 上下文）—— 付费模型… → `kimi-k3.1-pro`、`kimi-k3`（1,048,576 tokens 上下文）—— 付费模型，**可用 15 元代金券抵扣**；不可用于高速版 `Kimi K3.1 Pro Highspeed`、`kimi-k2.7-code`、`kimi-k2.6`（256K）—— 付费模型；官方提示将于 20",
       "changeDate": "Sun, 08 Nov 2026 00:00:00 +0000"
-    },
-    {
-      "guid": "refresh-2026-11-24-fudan-moss-mosi",
-      "providerName": "复旦 MOSS (MOSI)",
-      "changeText": "限时免费模型 Nex-N2.6 已于 2026-11-25 21:00 起开始计费（限时六折）（依据：free-llm-intel 变更日志）",
-      "changeDate": "2026-11-24"
-    },
-    {
-      "guid": "refresh-2026-11-24-siliconflow",
-      "providerName": "硅基流动",
-      "changeText": "新增免费对话模型 GLM-Z1-9B-0414（0 元调用）（依据：free-llm-intel 变更日志）",
-      "changeDate": "2026-11-24"
-    },
-    {
-      "guid": "refresh-2026-11-24-trae",
-      "providerName": "Trae (字节跳动 AI IDE)",
-      "changeText": "国际版上线明确的 Free 免费档：仅限 Auto 模式，提供一次性赠送额度与每月 5,000 次代码补全，支持 2 个并发云端任务；付费档调整为 Pro ($20/月)、Pro+ ($60/月)、Ultra ($200/月）（依据：free-llm-intel 变更日志）",
-      "changeDate": "2026-11-24"
-    },
-    {
-      "guid": "refresh-2026-11-24-tongyi-qwen",
-      "providerName": "通义千问",
-      "changeText": "关于 Token Plan 专属 API Key 的计费说明有更新：原来说是用它调用模型会「直接按量付费」，现在改为「消耗 Token Plan 的 Credits 额度、不消耗免费额度、也不会转为按量付费」（依据：free-llm-intel 变更日志）",
-      "changeDate": "2026-11-24"
-    },
-    {
-      "guid": "refresh-2026-11-24-unisound-shanhai",
-      "providerName": "云知声 Token Hub",
-      "changeText": "U Plan 限时升级折扣由 5 折（低至 29.5 元/月）调整为 7 折（低至 41.3 元/月）（依据：free-llm-intel 变更日志）",
-      "changeDate": "2026-11-24"
     }
   ],
-  "findingsCount": 25,
+  "findingsCount": 20,
   "no_change": false,
   "warnings": [
     "fetch: feed[4] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
@@ -204,7 +174,7 @@
   "sources": {
     "openrouter": {
       "ok": true,
-      "freeModels": 13,
+      "freeModels": 12,
       "excluded": [
         "google/lyria-3-pro-preview",
         "google/lyria-3-clip-preview"
