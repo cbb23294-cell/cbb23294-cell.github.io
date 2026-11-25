@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-25T17:55:01Z",
+    "activity_generated_at": "2026-11-25T17:57:21Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -12,38 +12,38 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-25T17:45:11Z",
-        "claimed_by": "pool-optimization",
-        "claimed_by_zh": "池优化",
-        "claimed_for": "9分钟",
+        "claimed_at": "2026-11-25T17:57:12Z",
+        "claimed_by": "security",
+        "claimed_by_zh": "安全",
+        "claimed_for": "10秒",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
-      "cycle_started_at": "2026-11-25T17:45:11Z",
+      "cycle_started_at": "2026-11-25T17:57:12Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "9分钟",
-      "elapsed_sec": 590,
-      "last_cycle_ended": "2026-11-25T17:54:55Z",
+      "elapsed": "10秒",
+      "elapsed_sec": 10,
+      "last_cycle_ended": "2026-11-25T17:57:07Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 4,
+      "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-25T17:55:01Z",
+        "claimed_at": "2026-11-25T17:56:01Z",
         "claimed_by": "pool-optimization-seat-1-19751-b91ee880",
         "claimed_by_zh": "池优化 席位19751",
-        "claimed_for": "0秒",
-        "task_id": "pool-082",
-        "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…"
+        "claimed_for": "81秒",
+        "task_id": "pool-079",
+        "title": "Named-model rule v2 landing SEG1: substitution cause field +…"
       },
-      "cycle_started_at": "2026-11-25T17:55:01Z",
+      "cycle_started_at": "2026-11-25T17:56:01Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "0秒",
-      "elapsed_sec": 0,
-      "last_cycle_ended": "2026-11-25T17:55:00Z",
+      "elapsed": "81秒",
+      "elapsed_sec": 81,
+      "last_cycle_ended": "2026-11-25T17:56:42Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -106,11 +106,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 590,
-          "claimed_at": "2026-11-25T17:45:11Z",
-          "claimed_by": "pool-optimization",
-          "claimed_by_zh": "池优化",
-          "claimed_for": "9分钟",
+          "claimed_age_sec": 10,
+          "claimed_at": "2026-11-25T17:57:12Z",
+          "claimed_by": "security",
+          "claimed_by_zh": "安全",
+          "claimed_for": "10秒",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -132,51 +132,18 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 0,
-          "claimed_at": "2026-11-25T17:55:01Z",
+          "claimed_age_sec": 81,
+          "claimed_at": "2026-11-25T17:56:01Z",
           "claimed_by": "pool-optimization-seat-1-19751-b91ee880",
           "claimed_by_zh": "池优化 席位19751",
-          "claimed_for": "0秒",
+          "claimed_for": "81秒",
           "task_id": "pool-079",
           "title": "Named-model rule v2 landing SEG1: substitution cause field +…",
-          "workstream": "pool-optimization"
-        },
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 0,
-          "claimed_at": "2026-11-25T17:55:01Z",
-          "claimed_by": "pool-optimization-seat-1-19751-b91ee880",
-          "claimed_by_zh": "池优化 席位19751",
-          "claimed_for": "0秒",
-          "task_id": "pool-080",
-          "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
-          "workstream": "pool-optimization"
-        },
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 0,
-          "claimed_at": "2026-11-25T17:55:01Z",
-          "claimed_by": "pool-optimization-seat-1-19751-b91ee880",
-          "claimed_by_zh": "池优化 席位19751",
-          "claimed_for": "0秒",
-          "task_id": "pool-081",
-          "title": "Named-model rule v2 landing SEG3: fallback identity gate (ruling…",
-          "workstream": "pool-optimization"
-        },
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 0,
-          "claimed_at": "2026-11-25T17:55:01Z",
-          "claimed_by": "pool-optimization-seat-1-19751-b91ee880",
-          "claimed_by_zh": "池优化 席位19751",
-          "claimed_for": "0秒",
-          "task_id": "pool-082",
-          "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
           "workstream": "pool-optimization"
         }
       ],
       "done": 76,
-      "escalation_latest": "blocked-file: out/task-067/BLOCKED.md",
+      "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "池优化",
       "next_open": [
         "Pool tuning + slimming pass after the 140-entry expansion (boss filing…",
@@ -184,7 +151,7 @@
         "Named-model rule v2 landing SEG1: substitution cause field +…"
       ],
       "open": 6,
-      "status_updated": "2026-11-25T17:54:00Z",
+      "status_updated": "2026-11-25T17:56:42Z",
       "total": 82,
       "workstream": "pool-optimization"
     },
@@ -224,62 +191,29 @@
   ],
   "claimed_now": [
     {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 590,
-      "claimed_at": "2026-11-25T17:45:11Z",
-      "claimed_by": "pool-optimization",
-      "claimed_by_zh": "池优化",
-      "claimed_for": "9分钟",
-      "task_id": "clou-018",
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    },
-    {
       "board_zh": "池优化",
-      "claimed_age_sec": 0,
-      "claimed_at": "2026-11-25T17:55:01Z",
+      "claimed_age_sec": 81,
+      "claimed_at": "2026-11-25T17:56:01Z",
       "claimed_by": "pool-optimization-seat-1-19751-b91ee880",
       "claimed_by_zh": "池优化 席位19751",
-      "claimed_for": "0秒",
+      "claimed_for": "81秒",
       "task_id": "pool-079",
       "title": "Named-model rule v2 landing SEG1: substitution cause field +…",
       "workstream": "pool-optimization"
     },
     {
-      "board_zh": "池优化",
-      "claimed_age_sec": 0,
-      "claimed_at": "2026-11-25T17:55:01Z",
-      "claimed_by": "pool-optimization-seat-1-19751-b91ee880",
-      "claimed_by_zh": "池优化 席位19751",
-      "claimed_for": "0秒",
-      "task_id": "pool-080",
-      "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "board_zh": "池优化",
-      "claimed_age_sec": 0,
-      "claimed_at": "2026-11-25T17:55:01Z",
-      "claimed_by": "pool-optimization-seat-1-19751-b91ee880",
-      "claimed_by_zh": "池优化 席位19751",
-      "claimed_for": "0秒",
-      "task_id": "pool-081",
-      "title": "Named-model rule v2 landing SEG3: fallback identity gate (ruling…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "board_zh": "池优化",
-      "claimed_age_sec": 0,
-      "claimed_at": "2026-11-25T17:55:01Z",
-      "claimed_by": "pool-optimization-seat-1-19751-b91ee880",
-      "claimed_by_zh": "池优化 席位19751",
-      "claimed_for": "0秒",
-      "task_id": "pool-082",
-      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
-      "workstream": "pool-optimization"
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 10,
+      "claimed_at": "2026-11-25T17:57:12Z",
+      "claimed_by": "security",
+      "claimed_by_zh": "安全",
+      "claimed_for": "10秒",
+      "task_id": "clou-018",
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-25T17:54:00Z",
+  "content_latest_at": "2026-11-25T17:56:42Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 311,
@@ -297,9 +231,9 @@
       "latest": "level: manager (retry budget exhausted; lowest level could not fix it)"
     },
     "pool-optimization": {
-      "dropped_hash_keys": 268,
+      "dropped_hash_keys": 269,
       "exists": true,
-      "latest": "blocked-file: out/task-067/BLOCKED.md"
+      "latest": "level: manager (retry budget exhausted; lowest level could not fix it)"
     },
     "security": {
       "dropped_hash_keys": 10,
@@ -312,36 +246,25 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-25T17:55:01Z",
-  "generated_at_utc": "2026-11-25T17:55:01Z",
+  "generated_at": "2026-11-25T17:57:21Z",
+  "generated_at_utc": "2026-11-25T17:57:21Z",
   "live_pi_workers": {
     "by_model": {
-      "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2": 2,
-      "token-harbor/deepseek-v4.1-flash:free": 2
+      "numes/deepseek/deepseek-v4.1-flash:free": 2
     },
     "running": [
       {
-        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-        "pid": 14079,
+        "model": "numes/deepseek/deepseek-v4.1-flash:free",
+        "pid": 20122,
         "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       },
       {
-        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-        "pid": 14080,
+        "model": "numes/deepseek/deepseek-v4.1-flash:free",
+        "pid": 20123,
         "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 19985,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
-      },
-      {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 19986,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
       }
     ],
-    "total": 4
+    "total": 2
   },
   "managers": [
     {
@@ -645,7 +568,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 256
+        "used": 272
       },
       {
         "cap": 20000,
@@ -709,7 +632,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 1006
+        "used": 1009
       },
       {
         "cap": 20000,
@@ -741,7 +664,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 20000,
@@ -789,7 +712,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 594
+        "used": 596
       },
       {
         "cap": 20000,
@@ -869,7 +792,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 488
+        "used": 489
       },
       {
         "cap": 1000,
@@ -1173,7 +1096,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 92
+        "used": 93
       },
       {
         "cap": 300,
@@ -1221,7 +1144,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 73
+        "used": 80
       },
       {
         "cap": 300,
@@ -1413,7 +1336,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -1421,7 +1344,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -1429,7 +1352,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -1437,7 +1360,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -1445,7 +1368,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -1453,7 +1376,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -1461,7 +1384,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -1469,7 +1392,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -1477,7 +1400,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -1485,7 +1408,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -1493,7 +1416,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -1501,7 +1424,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -1509,7 +1432,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -1517,7 +1440,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -1525,7 +1448,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -1533,7 +1456,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -1541,7 +1464,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -1549,7 +1472,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -1557,7 +1480,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -1565,7 +1488,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -1573,7 +1496,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -1581,7 +1504,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -1589,7 +1512,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -1597,7 +1520,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       }
     ],
     "healthy_entries": 140,
@@ -1847,7 +1770,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 256
+        "used": 272
       },
       {
         "cap": 20000,
@@ -1911,7 +1834,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 1006
+        "used": 1009
       },
       {
         "cap": 20000,
@@ -1943,7 +1866,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 20000,
@@ -1991,7 +1914,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 594
+        "used": 596
       },
       {
         "cap": 20000,
@@ -2071,7 +1994,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 488
+        "used": 489
       },
       {
         "cap": 1000,
@@ -2375,7 +2298,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 92
+        "used": 93
       },
       {
         "cap": 300,
@@ -2423,7 +2346,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 73
+        "used": 80
       },
       {
         "cap": 300,
@@ -2615,7 +2538,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -2623,7 +2546,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -2631,7 +2554,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -2639,7 +2562,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -2647,7 +2570,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -2655,7 +2578,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -2663,7 +2586,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -2671,7 +2594,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -2679,7 +2602,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -2687,7 +2610,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -2695,7 +2618,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -2703,7 +2626,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 143
+        "used": 144
       },
       {
         "cap": 3000,
@@ -2711,7 +2634,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -2719,7 +2642,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -2727,7 +2650,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -2735,7 +2658,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -2743,7 +2666,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -2751,7 +2674,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -2759,7 +2682,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -2767,7 +2690,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -2775,7 +2698,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -2783,7 +2706,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -2791,7 +2714,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       },
       {
         "cap": 3000,
@@ -2799,7 +2722,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1553
+        "used": 1561
       }
     ],
     "healthy_entries": 140,
@@ -2809,35 +2732,11 @@
   },
   "recent_completions": [
     {
-      "age_sec": 1,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T17:55:00Z",
-      "completed_by": "pool-optimization-seat-1-19751-b91ee880",
-      "completed_by_zh": "池优化 席位19751",
-      "completed_ts_source": "done",
-      "task_id": "pool-081",
-      "task_no": 81,
-      "title": "Named-model rule v2 landing SEG3: fallback identity gate (ruling…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 0,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T17:55:00Z",
-      "completed_by": "pool-optimization-seat-1-19751-b91ee880",
-      "completed_by_zh": "池优化 席位19751",
-      "completed_ts_source": "result.txt",
-      "task_id": "pool-082",
-      "task_no": 82,
-      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 5,
+      "age_sec": 13,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-25T17:54:55Z",
-      "completed_by": "pool-optimization",
-      "completed_by_zh": "池优化",
+      "completed_at": "2026-11-25T17:57:07Z",
+      "completed_by": "security",
+      "completed_by_zh": "安全",
       "completed_ts_source": "result.txt",
       "task_id": "clou-018",
       "task_no": 18,
@@ -2845,21 +2744,9 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 17,
+      "age_sec": 39,
       "board_zh": "池优化",
-      "completed_at": "2026-11-25T17:54:44Z",
-      "completed_by": "pool-optimization-seat-1-19751-b91ee880",
-      "completed_by_zh": "池优化 席位19751",
-      "completed_ts_source": "done",
-      "task_id": "pool-080",
-      "task_no": 80,
-      "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 33,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T17:54:28Z",
+      "completed_at": "2026-11-25T17:56:42Z",
       "completed_by": "pool-optimization-seat-1-19751-b91ee880",
       "completed_by_zh": "池优化 席位19751",
       "completed_ts_source": "done",
@@ -2869,7 +2756,43 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 1193,
+      "age_sec": 106,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T17:55:35Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "done",
+      "task_id": "pool-082",
+      "task_no": 82,
+      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 141,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T17:55:00Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "done",
+      "task_id": "pool-081",
+      "task_no": 81,
+      "title": "Named-model rule v2 landing SEG3: fallback identity gate (ruling…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 157,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T17:54:44Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "done",
+      "task_id": "pool-080",
+      "task_no": 80,
+      "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 1333,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2881,7 +2804,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 1482,
+      "age_sec": 1622,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2893,7 +2816,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 1974,
+      "age_sec": 2114,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2905,7 +2828,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 1995,
+      "age_sec": 2135,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
@@ -2917,7 +2840,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 6066,
+      "age_sec": 6206,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T16:13:55Z",
       "completed_by": null,
@@ -2937,63 +2860,38 @@
   },
   "workers": {
     "by_model": {
-      "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2": 2,
-      "token-harbor/deepseek-v4.1-flash:free": 2
+      "numes/deepseek/deepseek-v4.1-flash:free": 2
     },
     "running": [
       {
-        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-        "pid": 14079,
+        "model": "numes/deepseek/deepseek-v4.1-flash:free",
+        "pid": 20122,
         "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       },
       {
-        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-        "pid": 14080,
+        "model": "numes/deepseek/deepseek-v4.1-flash:free",
+        "pid": 20123,
         "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 19985,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
-      },
-      {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 19986,
-        "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
       }
     ],
-    "total": 4
+    "total": 2
   },
   "workers_detail": [
     {
       "count": 2,
-      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2"
-    },
-    {
-      "count": 2,
-      "model": "token-harbor/deepseek-v4.1-flash:free"
+      "model": "numes/deepseek/deepseek-v4.1-flash:free"
     }
   ],
   "workers_running": [
     {
-      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-      "pid": 14079,
+      "model": "numes/deepseek/deepseek-v4.1-flash:free",
+      "pid": 20122,
       "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
     },
     {
-      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-      "pid": 14080,
+      "model": "numes/deepseek/deepseek-v4.1-flash:free",
+      "pid": 20123,
       "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "token-harbor/deepseek-v4.1-flash:free",
-      "pid": 19985,
-      "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
-    },
-    {
-      "model": "token-harbor/deepseek-v4.1-flash:free",
-      "pid": 19986,
-      "title": "[code] [boss-accept] Named-model rule v2 landing SEG4: reconciliation in manager"
     }
   ],
   "workstreams": {
@@ -3019,7 +2917,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (claimed-by pool-optimization 2026-11-25T17:45:11Z) (executed-by pool-optimization failed 2026-11-25T17:46:03Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (executed-by pool-optimization failed 2026-11-25T17:46:03Z) (claimed-by security 2026-11-25T17:57:12Z)"
           }
         ],
         "open": 2
@@ -3047,14 +2945,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=02bbebed3ac5"
+        "latest": "- key=cae5ac3c3382"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 4,
         "tasks_total": 4,
-        "updated": "2026-11-25T17:54:00Z"
+        "updated": "2026-11-25T17:56:42Z"
       },
       "tasks": {
         "done": 76,
@@ -3070,7 +2968,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Named-model rule v2 landing SEG1: substitution cause field + denominator (ruling meetings/20261125-named-model-note.md) [est:30m] [executor: gpt-6.1-sol–free] | Substitution log lines gain cause=exhausted|failed. Denominator = same-window proxy.log attempt lines, hand-verified against one sampled window and written into the deliverable; until that verification exists, counts only, no rates. Count alert threshold: >40 substitutions in any 30-min window. Acceptance: production proxy.log shows cause fields on new substitution lines + deliverable contains the sampled-window hand count matching the computed denominator. (claimed-by pool-optimization-seat-1-19751-b91ee880 2026-11-25T17:55:01Z)"
+            "title": "[code] [boss-accept] Named-model rule v2 landing SEG1: substitution cause field + denominator (ruling meetings/20261125-named-model-note.md) [est:30m] [executor: gpt-6.1-sol–free] | Substitution log lines gain cause=exhausted|failed. Denominator = same-window proxy.log attempt lines, hand-verified against one sampled window and written into the deliverable; until that verification exists, counts only, no rates. Count alert threshold: >40 substitutions in any 30-min window. Acceptance: production proxy.log shows cause fields on new substitution lines + deliverable contains the sampled-window hand count matching the computed denominator. (claimed-by pool-optimization-seat-1-19751-b91ee880 2026-11-25T17:56:01Z)"
           }
         ],
         "open": 6
