@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-25T04:32:21Z",
+    "activity_generated_at": "2026-11-25T04:34:41Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -12,18 +12,18 @@
       "active_jobs": 0,
       "claimed_count": 3,
       "current_task": {
-        "claimed_at": "2026-11-25T04:32:15Z",
-        "claimed_by": "cloud-script-migration-seat-1-21480-911195f0",
-        "claimed_by_zh": "云脚本迁移 席位21480",
-        "claimed_for": "7秒",
-        "task_id": "clou-018",
-        "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
+        "claimed_at": "2026-11-25T04:33:43Z",
+        "claimed_by": "security",
+        "claimed_by_zh": "安全",
+        "claimed_for": "59秒",
+        "task_id": "clou-024",
+        "title": "Board hygiene (boss filing 2026-11-25): strip the accumulated '#…"
       },
-      "cycle_started_at": "2026-11-25T04:31:41Z",
+      "cycle_started_at": "2026-11-25T04:32:15Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "41秒",
-      "elapsed_sec": 41,
-      "last_cycle_ended": "2026-11-25T04:32:02Z",
+      "elapsed": "2分钟",
+      "elapsed_sec": 147,
+      "last_cycle_ended": "2026-11-25T04:34:12Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -32,18 +32,18 @@
       "active_jobs": 0,
       "claimed_count": 6,
       "current_task": {
-        "claimed_at": "2026-11-25T04:31:40Z",
+        "claimed_at": "2026-11-25T04:33:41Z",
         "claimed_by": "pool-optimization-seat-1-22180-90d90799",
         "claimed_by_zh": "池优化 席位22180",
-        "claimed_for": "42秒",
+        "claimed_for": "61秒",
         "task_id": "pool-073",
         "title": "Board hygiene (boss filing 2026-11-25): strip the accumulated '#…"
       },
       "cycle_started_at": "2026-11-25T04:19:38Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "12分钟",
-      "elapsed_sec": 764,
-      "last_cycle_ended": "2026-11-25T04:32:17Z",
+      "elapsed": "15分钟",
+      "elapsed_sec": 904,
+      "last_cycle_ended": "2026-11-25T04:34:35Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -106,35 +106,35 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 41,
-          "claimed_at": "2026-11-25T04:31:41Z",
+          "claimed_age_sec": 147,
+          "claimed_at": "2026-11-25T04:32:15Z",
+          "claimed_by": "cloud-script-migration-seat-1-21480-911195f0",
+          "claimed_by_zh": "云脚本迁移 席位21480",
+          "claimed_for": "2分钟",
+          "task_id": "clou-018",
+          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 121,
+          "claimed_at": "2026-11-25T04:32:41Z",
           "claimed_by": "float",
           "claimed_by_zh": "机动",
-          "claimed_for": "41秒",
+          "claimed_for": "2分钟",
           "task_id": "clou-023",
           "title": "Catalog producer source cleanup (boss filing 2026-11-25, clou-017…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 40,
-          "claimed_at": "2026-11-25T04:31:42Z",
+          "claimed_age_sec": 59,
+          "claimed_at": "2026-11-25T04:33:43Z",
           "claimed_by": "security",
           "claimed_by_zh": "安全",
-          "claimed_for": "40秒",
+          "claimed_for": "59秒",
           "task_id": "clou-024",
           "title": "Board hygiene (boss filing 2026-11-25): strip the accumulated '#…",
-          "workstream": "cloud-script-migration"
-        },
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 7,
-          "claimed_at": "2026-11-25T04:32:15Z",
-          "claimed_by": "cloud-script-migration-seat-1-21480-911195f0",
-          "claimed_by_zh": "云脚本迁移 席位21480",
-          "claimed_for": "7秒",
-          "task_id": "clou-018",
-          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
         }
       ],
@@ -147,7 +147,7 @@
         "Catalog producer source cleanup (boss filing 2026-11-25, clou-017…"
       ],
       "open": 4,
-      "status_updated": "2026-11-25T04:23:13Z",
+      "status_updated": "2026-11-25T04:33:18Z",
       "total": 24,
       "workstream": "cloud-script-migration"
     },
@@ -155,66 +155,66 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 764,
+          "claimed_age_sec": 904,
           "claimed_at": "2026-11-25T04:19:38Z",
           "claimed_by": "pool-optimization-seat-1-18833-56ffa771",
           "claimed_by_zh": "池优化 席位18833",
-          "claimed_for": "12分钟",
+          "claimed_for": "15分钟",
           "task_id": "pool-054",
           "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 42,
-          "claimed_at": "2026-11-25T04:31:40Z",
+          "claimed_age_sec": 61,
+          "claimed_at": "2026-11-25T04:33:41Z",
           "claimed_by": "pool-optimization-seat-1-22180-90d90799",
           "claimed_by_zh": "池优化 席位22180",
-          "claimed_for": "42秒",
+          "claimed_for": "61秒",
           "task_id": "pool-069",
           "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 42,
-          "claimed_at": "2026-11-25T04:31:40Z",
+          "claimed_age_sec": 61,
+          "claimed_at": "2026-11-25T04:33:41Z",
           "claimed_by": "pool-optimization-seat-1-22180-90d90799",
           "claimed_by_zh": "池优化 席位22180",
-          "claimed_for": "42秒",
+          "claimed_for": "61秒",
           "task_id": "pool-070",
           "title": "Seat-liveness verdict fix (boss filing 2026-11-25): seat.down may fire…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 42,
-          "claimed_at": "2026-11-25T04:31:40Z",
+          "claimed_age_sec": 61,
+          "claimed_at": "2026-11-25T04:33:41Z",
           "claimed_by": "pool-optimization-seat-1-22180-90d90799",
           "claimed_by_zh": "池优化 席位22180",
-          "claimed_for": "42秒",
+          "claimed_for": "61秒",
           "task_id": "pool-071",
           "title": "reinforcement_pass must exclude frozen tasks from its candidate set…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 42,
-          "claimed_at": "2026-11-25T04:31:40Z",
+          "claimed_age_sec": 61,
+          "claimed_at": "2026-11-25T04:33:41Z",
           "claimed_by": "pool-optimization-seat-1-22180-90d90799",
           "claimed_by_zh": "池优化 席位22180",
-          "claimed_for": "42秒",
+          "claimed_for": "61秒",
           "task_id": "pool-072",
           "title": "Repair the stale event_stream_selftest.py (boss filing 2026-11-25): it…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 42,
-          "claimed_at": "2026-11-25T04:31:40Z",
+          "claimed_age_sec": 61,
+          "claimed_at": "2026-11-25T04:33:41Z",
           "claimed_by": "pool-optimization-seat-1-22180-90d90799",
           "claimed_by_zh": "池优化 席位22180",
-          "claimed_for": "42秒",
+          "claimed_for": "61秒",
           "task_id": "pool-073",
           "title": "Board hygiene (boss filing 2026-11-25): strip the accumulated '#…",
           "workstream": "pool-optimization"
@@ -272,105 +272,105 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 764,
+      "claimed_age_sec": 904,
       "claimed_at": "2026-11-25T04:19:38Z",
       "claimed_by": "pool-optimization-seat-1-18833-56ffa771",
       "claimed_by_zh": "池优化 席位18833",
-      "claimed_for": "12分钟",
+      "claimed_for": "15分钟",
       "task_id": "pool-054",
       "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
       "workstream": "pool-optimization"
     },
     {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 147,
+      "claimed_at": "2026-11-25T04:32:15Z",
+      "claimed_by": "cloud-script-migration-seat-1-21480-911195f0",
+      "claimed_by_zh": "云脚本迁移 席位21480",
+      "claimed_for": "2分钟",
+      "task_id": "clou-018",
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 121,
+      "claimed_at": "2026-11-25T04:32:41Z",
+      "claimed_by": "float",
+      "claimed_by_zh": "机动",
+      "claimed_for": "2分钟",
+      "task_id": "clou-023",
+      "title": "Catalog producer source cleanup (boss filing 2026-11-25, clou-017…",
+      "workstream": "cloud-script-migration"
+    },
+    {
       "board_zh": "池优化",
-      "claimed_age_sec": 42,
-      "claimed_at": "2026-11-25T04:31:40Z",
+      "claimed_age_sec": 61,
+      "claimed_at": "2026-11-25T04:33:41Z",
       "claimed_by": "pool-optimization-seat-1-22180-90d90799",
       "claimed_by_zh": "池优化 席位22180",
-      "claimed_for": "42秒",
+      "claimed_for": "61秒",
       "task_id": "pool-069",
       "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 42,
-      "claimed_at": "2026-11-25T04:31:40Z",
+      "claimed_age_sec": 61,
+      "claimed_at": "2026-11-25T04:33:41Z",
       "claimed_by": "pool-optimization-seat-1-22180-90d90799",
       "claimed_by_zh": "池优化 席位22180",
-      "claimed_for": "42秒",
+      "claimed_for": "61秒",
       "task_id": "pool-070",
       "title": "Seat-liveness verdict fix (boss filing 2026-11-25): seat.down may fire…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 42,
-      "claimed_at": "2026-11-25T04:31:40Z",
+      "claimed_age_sec": 61,
+      "claimed_at": "2026-11-25T04:33:41Z",
       "claimed_by": "pool-optimization-seat-1-22180-90d90799",
       "claimed_by_zh": "池优化 席位22180",
-      "claimed_for": "42秒",
+      "claimed_for": "61秒",
       "task_id": "pool-071",
       "title": "reinforcement_pass must exclude frozen tasks from its candidate set…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 42,
-      "claimed_at": "2026-11-25T04:31:40Z",
+      "claimed_age_sec": 61,
+      "claimed_at": "2026-11-25T04:33:41Z",
       "claimed_by": "pool-optimization-seat-1-22180-90d90799",
       "claimed_by_zh": "池优化 席位22180",
-      "claimed_for": "42秒",
+      "claimed_for": "61秒",
       "task_id": "pool-072",
       "title": "Repair the stale event_stream_selftest.py (boss filing 2026-11-25): it…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 42,
-      "claimed_at": "2026-11-25T04:31:40Z",
+      "claimed_age_sec": 61,
+      "claimed_at": "2026-11-25T04:33:41Z",
       "claimed_by": "pool-optimization-seat-1-22180-90d90799",
       "claimed_by_zh": "池优化 席位22180",
-      "claimed_for": "42秒",
+      "claimed_for": "61秒",
       "task_id": "pool-073",
       "title": "Board hygiene (boss filing 2026-11-25): strip the accumulated '#…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 41,
-      "claimed_at": "2026-11-25T04:31:41Z",
-      "claimed_by": "float",
-      "claimed_by_zh": "机动",
-      "claimed_for": "41秒",
-      "task_id": "clou-023",
-      "title": "Catalog producer source cleanup (boss filing 2026-11-25, clou-017…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 40,
-      "claimed_at": "2026-11-25T04:31:42Z",
+      "claimed_age_sec": 59,
+      "claimed_at": "2026-11-25T04:33:43Z",
       "claimed_by": "security",
       "claimed_by_zh": "安全",
-      "claimed_for": "40秒",
+      "claimed_for": "59秒",
       "task_id": "clou-024",
       "title": "Board hygiene (boss filing 2026-11-25): strip the accumulated '#…",
       "workstream": "cloud-script-migration"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 7,
-      "claimed_at": "2026-11-25T04:32:15Z",
-      "claimed_by": "cloud-script-migration-seat-1-21480-911195f0",
-      "claimed_by_zh": "云脚本迁移 席位21480",
-      "claimed_for": "7秒",
-      "task_id": "clou-018",
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-25T04:26:47Z",
+  "content_latest_at": "2026-11-25T04:33:18Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 287,
@@ -403,8 +403,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-25T04:32:22Z",
-  "generated_at_utc": "2026-11-25T04:32:22Z",
+  "generated_at": "2026-11-25T04:34:42Z",
+  "generated_at_utc": "2026-11-25T04:34:42Z",
   "live_pi_workers": {
     "by_model": {
       "crowllm/caw/glm-5.3-flash-thinking:free": 2,
@@ -556,7 +556,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 901
+        "used": 911
       },
       {
         "cap": 1000,
@@ -564,7 +564,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 58
+        "used": 78
       },
       {
         "cap": 1000,
@@ -588,7 +588,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 6
+        "used": 18
       },
       {
         "cap": 1000,
@@ -1268,7 +1268,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 3
+        "used": 4
       },
       {
         "cap": 300,
@@ -1524,7 +1524,7 @@
         "healthy": true,
         "model": "gpt-6.2-sol",
         "provider": "egg-krphp",
-        "used": 30
+        "used": 42
       },
       {
         "cap": 3000,
@@ -1766,7 +1766,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 901
+        "used": 911
       },
       {
         "cap": 1000,
@@ -1774,7 +1774,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 58
+        "used": 78
       },
       {
         "cap": 1000,
@@ -1798,7 +1798,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 6
+        "used": 18
       },
       {
         "cap": 1000,
@@ -2478,7 +2478,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 3
+        "used": 4
       },
       {
         "cap": 300,
@@ -2734,7 +2734,7 @@
         "healthy": true,
         "model": "gpt-6.2-sol",
         "provider": "egg-krphp",
-        "used": 30
+        "used": 42
       },
       {
         "cap": 3000,
@@ -2968,9 +2968,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 4,
+      "age_sec": 6,
       "board_zh": "池优化",
-      "completed_at": "2026-11-25T04:32:17Z",
+      "completed_at": "2026-11-25T04:34:35Z",
       "completed_by": "pool-optimization-seat-1-22180-90d90799",
       "completed_by_zh": "池优化 席位22180",
       "completed_ts_source": "result.txt",
@@ -2980,21 +2980,9 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 19,
+      "age_sec": 28,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-25T04:32:02Z",
-      "completed_by": "float",
-      "completed_by_zh": "机动",
-      "completed_ts_source": "result.txt",
-      "task_id": "clou-023",
-      "task_no": 23,
-      "title": "Catalog producer source cleanup (boss filing 2026-11-25, clou-017…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 19,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-25T04:32:02Z",
+      "completed_at": "2026-11-25T04:34:12Z",
       "completed_by": "security",
       "completed_by_zh": "安全",
       "completed_ts_source": "result.txt",
@@ -3004,33 +2992,9 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 30,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T04:31:51Z",
-      "completed_by": "pool-optimization-seat-1-22180-90d90799",
-      "completed_by_zh": "池优化 席位22180",
-      "completed_ts_source": "result.txt",
-      "task_id": "pool-070",
-      "task_no": 69,
-      "title": "Seat-liveness verdict fix (boss filing 2026-11-25): seat.down may fire…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 31,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T04:31:50Z",
-      "completed_by": "pool-optimization-seat-1-22180-90d90799",
-      "completed_by_zh": "池优化 席位22180",
-      "completed_ts_source": "result.txt",
-      "task_id": "pool-071",
-      "task_no": 70,
-      "title": "reinforcement_pass must exclude frozen tasks from its candidate set…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 67,
+      "age_sec": 32,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-25T04:31:13Z",
+      "completed_at": "2026-11-25T04:34:09Z",
       "completed_by": "cloud-script-migration-seat-1-21480-911195f0",
       "completed_by_zh": "云脚本迁移 席位21480",
       "completed_ts_source": "result.txt",
@@ -3040,7 +3004,43 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 305,
+      "age_sec": 38,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T04:34:02Z",
+      "completed_by": "pool-optimization-seat-1-22180-90d90799",
+      "completed_by_zh": "池优化 席位22180",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-070",
+      "task_no": 69,
+      "title": "Seat-liveness verdict fix (boss filing 2026-11-25): seat.down may fire…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 45,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-25T04:33:56Z",
+      "completed_by": "float",
+      "completed_by_zh": "机动",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-023",
+      "task_no": 23,
+      "title": "Catalog producer source cleanup (boss filing 2026-11-25, clou-017…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 51,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T04:33:50Z",
+      "completed_by": "pool-optimization-seat-1-22180-90d90799",
+      "completed_by_zh": "池优化 席位22180",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-071",
+      "task_no": 70,
+      "title": "reinforcement_pass must exclude frozen tasks from its candidate set…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 445,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T04:27:16Z",
       "completed_by": "pool-optimization-seat-1-18833-56ffa771",
@@ -3052,7 +3052,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 55915,
+      "age_sec": 56055,
       "board_zh": "安全",
       "completed_at": "2026-11-24T13:00:26Z",
       "completed_by": "security-seat-1-23773-27542a78",
@@ -3064,7 +3064,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 57723,
+      "age_sec": 57863,
       "board_zh": "池优化",
       "completed_at": "2026-11-24T12:30:18Z",
       "completed_by": "pool-optimization-seat-1-15972-95e36549",
@@ -3076,7 +3076,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 98047,
+      "age_sec": 98188,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-24T01:18:13Z",
       "completed_by": null,
@@ -3274,9 +3274,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-25T04:23:13Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-25T04:33:18Z"
       },
       "tasks": {
         "done": 20,
@@ -3292,7 +3292,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Catalog producer source cleanup (boss filing 2026-11-25, clou-017 follow-up): the ai-quota catalog producer's source data still re-includes the 8 providers the user ordered deleted on 2026-11-17 (DeepSeek, Tongyi Qianwen, Kimi, MiniMax, Xiaomi MiMo, Wenxin, Ollama Cloud, Chutes.ai) - the space import skips them, but the published file should stop carrying them. Remove them at the producer source (tasks/cloud-script-migration side), republish via the bridge, and verify the published catalog no longer lists them while the remaining providers still import unchanged (import counts before/after in the report). Executor: gpt-6.2-sol (user order 2026-11-25). [est:10m] | out/<id>/cleanup.md with the published-file diff summary (claimed-by float 2026-11-25T04:31:41Z)"
+            "title": "[code] [boss-accept] Catalog producer source cleanup (boss filing 2026-11-25, clou-017 follow-up): the ai-quota catalog producer's source data still re-includes the 8 providers the user ordered deleted on 2026-11-17 (DeepSeek, Tongyi Qianwen, Kimi, MiniMax, Xiaomi MiMo, Wenxin, Ollama Cloud, Chutes.ai) - the space import skips them, but the published file should stop carrying them. Remove them at the producer source (tasks/cloud-script-migration side), republish via the bridge, and verify the published catalog no longer lists them while the remaining providers still import unchanged (import counts before/after in the report). Executor: gpt-6.2-sol (user order 2026-11-25). [est:10m] | out/<id>/cleanup.md with the published-file diff summary (claimed-by float 2026-11-25T04:32:41Z)"
           }
         ],
         "open": 4
@@ -3343,7 +3343,7 @@
           },
           {
             "full": true,
-            "title": "[judgment] 每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在池供应商与已注册未入池供应商的官方公告/定价/更新日志页，只报相对 2026-11-22 基线的变化；目录对比与生成探针由老板另行完成，本任务不探活、不调任何模型 API、不做账号操作。 [inputs: fleet-ops/sweep-20261123-inputs/registry-snapshot.json, fleet-ops/sweep-20261123-inputs/diff.md] [BOSS 2026-11-25: inputs re-staged into the staging roots by the boss (copies in fleet-ops/sweep-20261123-inputs/, originals untouched) - the claim-time input gate now passes; re-filed for execution, GPT-class worker (gpt-6.2-sol) per user order 2026-11-25] | sweep-20261123-patrol.md | out/pool-083/patrol.md 存在，快照内每一家都有带日期的核查记录，每条变化带来源 URL，无无来源的死亡断言 (executed-by operations failed 2026-11-23T08:32:45Z) (claimed-by pool-optimization-seat-1-22180-90d90799 2026-11-25T04:31:40Z)"
+            "title": "[judgment] 每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在池供应商与已注册未入池供应商的官方公告/定价/更新日志页，只报相对 2026-11-22 基线的变化；目录对比与生成探针由老板另行完成，本任务不探活、不调任何模型 API、不做账号操作。 [inputs: fleet-ops/sweep-20261123-inputs/registry-snapshot.json, fleet-ops/sweep-20261123-inputs/diff.md] [BOSS 2026-11-25: inputs re-staged into the staging roots by the boss (copies in fleet-ops/sweep-20261123-inputs/, originals untouched) - the claim-time input gate now passes; re-filed for execution, GPT-class worker (gpt-6.2-sol) per user order 2026-11-25] | sweep-20261123-patrol.md | out/pool-083/patrol.md 存在，快照内每一家都有带日期的核查记录，每条变化带来源 URL，无无来源的死亡断言 (executed-by operations failed 2026-11-23T08:32:45Z) (claimed-by pool-optimization-seat-1-22180-90d90799 2026-11-25T04:33:41Z)"
           }
         ],
         "open": 8
