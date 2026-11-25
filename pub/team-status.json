@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-25T16:15:02Z",
+    "activity_generated_at": "2026-11-25T16:22:53Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-25T16:13:09Z",
         "claimed_by": "cloud-script-migration-seat-1-20486-f454c4d7",
         "claimed_by_zh": "云脚本迁移 席位20486",
-        "claimed_for": "1分钟",
+        "claimed_for": "9分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-25T16:13:09Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "1分钟",
-      "elapsed_sec": 113,
+      "elapsed": "9分钟",
+      "elapsed_sec": 584,
       "last_cycle_ended": "2026-11-25T16:14:02Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -30,20 +30,20 @@
     },
     {
       "active_jobs": 0,
-      "claimed_count": 1,
+      "claimed_count": 4,
       "current_task": {
-        "claimed_at": "2026-11-25T16:10:31Z",
-        "claimed_by": "pool-optimization-seat-1-19070-6d3507b8",
-        "claimed_by_zh": "池优化 席位19070",
-        "claimed_for": "4分钟",
-        "task_id": "pool-054",
-        "title": "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
+        "claimed_at": "2026-11-25T16:22:42Z",
+        "claimed_by": "pool-optimization-seat-1-21734-6aa7fff8",
+        "claimed_by_zh": "池优化 席位21734",
+        "claimed_for": "11秒",
+        "task_id": "pool-082",
+        "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查…"
       },
       "cycle_started_at": "2026-11-25T16:10:31Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "4分钟",
-      "elapsed_sec": 271,
-      "last_cycle_ended": "2026-11-25T16:13:55Z",
+      "elapsed": "12分钟",
+      "elapsed_sec": 742,
+      "last_cycle_ended": "2026-11-25T16:20:06Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -106,25 +106,25 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 113,
+          "claimed_age_sec": 584,
           "claimed_at": "2026-11-25T16:13:09Z",
           "claimed_by": "cloud-script-migration-seat-1-20486-f454c4d7",
           "claimed_by_zh": "云脚本迁移 席位20486",
-          "claimed_for": "1分钟",
+          "claimed_for": "9分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
         }
       ],
       "done": 22,
-      "escalation_latest": "blocked-file: out/task-018/BLOCKED.md",
+      "escalation_latest": "2026-11-25T16:18:52Z ALERT pub_stale trigger=pub kind=publish_leg file=vps-server-status.json local_state=fresh local_age_sec=302…",
       "name_zh": "云脚本迁移",
       "next_open": [
         "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 2,
-      "status_updated": "2026-11-25T16:14:02Z",
+      "status_updated": "2026-11-25T16:19:39Z",
       "total": 24,
       "workstream": "cloud-script-migration"
     },
@@ -132,27 +132,60 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 271,
+          "claimed_age_sec": 742,
           "claimed_at": "2026-11-25T16:10:31Z",
           "claimed_by": "pool-optimization-seat-1-19070-6d3507b8",
           "claimed_by_zh": "池优化 席位19070",
-          "claimed_for": "4分钟",
+          "claimed_for": "12分钟",
           "task_id": "pool-054",
           "title": "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…",
           "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 11,
+          "claimed_at": "2026-11-25T16:22:42Z",
+          "claimed_by": "pool-optimization-seat-1-21734-6aa7fff8",
+          "claimed_by_zh": "池优化 席位21734",
+          "claimed_for": "11秒",
+          "task_id": "pool-080",
+          "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-23 轮拆分）：巡查…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 11,
+          "claimed_at": "2026-11-25T16:22:42Z",
+          "claimed_by": "pool-optimization-seat-1-21734-6aa7fff8",
+          "claimed_by_zh": "池优化 席位21734",
+          "claimed_for": "11秒",
+          "task_id": "pool-081",
+          "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-B（硅基流动+商汤+100milionseek+智谱+Groq+O…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 11,
+          "claimed_at": "2026-11-25T16:22:42Z",
+          "claimed_by": "pool-optimization-seat-1-21734-6aa7fff8",
+          "claimed_by_zh": "池优化 席位21734",
+          "claimed_for": "11秒",
+          "task_id": "pool-082",
+          "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查…",
+          "workstream": "pool-optimization"
         }
       ],
-      "done": 72,
+      "done": 73,
       "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "池优化",
       "next_open": [
         "Pool tuning + slimming pass after the 140-entry expansion (boss filing…",
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…",
-        "[judgment] 每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-swee…"
+        "[judgment] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-23…"
       ],
-      "open": 7,
-      "status_updated": "2026-11-25T16:13:57Z",
-      "total": 79,
+      "open": 9,
+      "status_updated": "2026-11-25T16:19:40Z",
+      "total": 82,
       "workstream": "pool-optimization"
     },
     {
@@ -192,33 +225,66 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 271,
+      "claimed_age_sec": 742,
       "claimed_at": "2026-11-25T16:10:31Z",
       "claimed_by": "pool-optimization-seat-1-19070-6d3507b8",
       "claimed_by_zh": "池优化 席位19070",
-      "claimed_for": "4分钟",
+      "claimed_for": "12分钟",
       "task_id": "pool-054",
       "title": "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 113,
+      "claimed_age_sec": 584,
       "claimed_at": "2026-11-25T16:13:09Z",
       "claimed_by": "cloud-script-migration-seat-1-20486-f454c4d7",
       "claimed_by_zh": "云脚本迁移 席位20486",
-      "claimed_for": "1分钟",
+      "claimed_for": "9分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 11,
+      "claimed_at": "2026-11-25T16:22:42Z",
+      "claimed_by": "pool-optimization-seat-1-21734-6aa7fff8",
+      "claimed_by_zh": "池优化 席位21734",
+      "claimed_for": "11秒",
+      "task_id": "pool-080",
+      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-23 轮拆分）：巡查…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 11,
+      "claimed_at": "2026-11-25T16:22:42Z",
+      "claimed_by": "pool-optimization-seat-1-21734-6aa7fff8",
+      "claimed_by_zh": "池优化 席位21734",
+      "claimed_for": "11秒",
+      "task_id": "pool-081",
+      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-B（硅基流动+商汤+100milionseek+智谱+Groq+O…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 11,
+      "claimed_at": "2026-11-25T16:22:42Z",
+      "claimed_by": "pool-optimization-seat-1-21734-6aa7fff8",
+      "claimed_by_zh": "池优化 席位21734",
+      "claimed_for": "11秒",
+      "task_id": "pool-082",
+      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查…",
+      "workstream": "pool-optimization"
     }
   ],
-  "content_latest_at": "2026-11-25T16:14:02Z",
+  "content_latest_at": "2026-11-25T16:19:40Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 309,
       "exists": true,
-      "latest": "blocked-file: out/task-018/BLOCKED.md"
+      "latest": "2026-11-25T16:18:52Z ALERT pub_stale trigger=pub kind=publish_leg file=vps-server-status.json local_state=fresh local_age_sec=302…"
     },
     "float": {
       "dropped_hash_keys": 208,
@@ -246,12 +312,46 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-25T16:15:02Z",
-  "generated_at_utc": "2026-11-25T16:15:02Z",
+  "generated_at": "2026-11-25T16:22:54Z",
+  "generated_at_utc": "2026-11-25T16:22:54Z",
   "live_pi_workers": {
-    "by_model": {},
-    "running": [],
-    "total": 0
+    "by_model": {
+      "crowllm/caw/glm-5.3-flash-thinking:free": 4,
+      "gpt-6.1-sol–free": 2
+    },
+    "running": [
+      {
+        "model": "gpt-6.1-sol–free",
+        "pid": 21667,
+        "title": "Task: provider-landscape patrol SEG-A (Xingchi + Xinghui stations), 2026-11-23 r"
+      },
+      {
+        "model": "gpt-6.1-sol–free",
+        "pid": 21668,
+        "title": "Task: provider-landscape patrol SEG-A (Xingchi + Xinghui stations), 2026-11-23 r"
+      },
+      {
+        "model": "crowllm/caw/glm-5.3-flash-thinking:free",
+        "pid": 21769,
+        "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-"
+      },
+      {
+        "model": "crowllm/caw/glm-5.3-flash-thinking:free",
+        "pid": 21770,
+        "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-"
+      },
+      {
+        "model": "crowllm/caw/glm-5.3-flash-thinking:free",
+        "pid": 21771,
+        "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-B（硅基流动+商汤+100mil"
+      },
+      {
+        "model": "crowllm/caw/glm-5.3-flash-thinking:free",
+        "pid": 21772,
+        "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-B（硅基流动+商汤+100mil"
+      }
+    ],
+    "total": 6
   },
   "managers": [
     {
@@ -555,7 +655,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 46
+        "used": 49
       },
       {
         "cap": 20000,
@@ -619,7 +719,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 883
+        "used": 893
       },
       {
         "cap": 20000,
@@ -699,7 +799,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 515
+        "used": 525
       },
       {
         "cap": 20000,
@@ -779,7 +879,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 434
+        "used": 441
       },
       {
         "cap": 1000,
@@ -1035,7 +1135,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 128
+        "used": 129
       },
       {
         "cap": 300,
@@ -1083,7 +1183,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 79
+        "used": 80
       },
       {
         "cap": 300,
@@ -1757,7 +1857,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 46
+        "used": 49
       },
       {
         "cap": 20000,
@@ -1821,7 +1921,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 883
+        "used": 893
       },
       {
         "cap": 20000,
@@ -1901,7 +2001,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 515
+        "used": 525
       },
       {
         "cap": 20000,
@@ -1981,7 +2081,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 434
+        "used": 441
       },
       {
         "cap": 1000,
@@ -2237,7 +2337,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 128
+        "used": 129
       },
       {
         "cap": 300,
@@ -2285,7 +2385,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 79
+        "used": 80
       },
       {
         "cap": 300,
@@ -2719,7 +2819,31 @@
   },
   "recent_completions": [
     {
-      "age_sec": 59,
+      "age_sec": 166,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T16:20:06Z",
+      "completed_by": "pool-optimization-seat-1-21734-6aa7fff8",
+      "completed_by_zh": "池优化 席位21734",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-080",
+      "task_no": 65,
+      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-23 轮拆分）：巡查…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 178,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T16:19:55Z",
+      "completed_by": "pool-optimization-seat-1-21734-6aa7fff8",
+      "completed_by_zh": "池优化 席位21734",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-081",
+      "task_no": 66,
+      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-B（硅基流动+商汤+100milionseek+智谱+Groq+O…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 530,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-25T16:14:02Z",
       "completed_by": "cloud-script-migration-seat-1-20486-f454c4d7",
@@ -2731,7 +2855,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 66,
+      "age_sec": 537,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T16:13:55Z",
       "completed_by": null,
@@ -2743,7 +2867,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 370,
+      "age_sec": 841,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T16:08:51Z",
       "completed_by": "pool-optimization-seat-1-19070-6d3507b8",
@@ -2755,7 +2879,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 14697,
+      "age_sec": 15168,
       "board_zh": "安全",
       "completed_at": "2026-11-25T12:10:05Z",
       "completed_by": null,
@@ -2767,75 +2891,51 @@
       "workstream": "security"
     },
     {
-      "age_sec": 23319,
+      "age_sec": 23789,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T09:46:23Z",
-      "completed_by": "pool-optimization-seat-1-34301-1dbae290",
-      "completed_by_zh": "池优化 席位34301",
-      "completed_ts_source": "done",
-      "task_id": "pool-075",
-      "task_no": 75,
-      "title": "Error-composition digest — the pool digest learns to cluster errors by…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 24205,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T09:31:36Z",
-      "completed_by": "pool-optimization-seat-1-29659-65c5a228",
-      "completed_by_zh": "池优化 席位29659",
-      "completed_ts_source": "done",
-      "task_id": "pool-074",
-      "task_no": 74,
-      "title": "Proxy max_tokens clamp — stop the 2,248 unclamped-max_tokens failures…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 32057,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T07:20:45Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
       "task_id": "pool-072",
-      "task_no": 72,
+      "task_no": 75,
       "title": "Board hygiene (boss filing 2026-11-25): strip the accumulated '#…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 32148,
+      "age_sec": 24676,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T09:31:36Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "done",
+      "task_id": "pool-071",
+      "task_no": 74,
+      "title": "Repair the stale event_stream_selftest.py (boss filing 2026-11-25): it…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 32527,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T07:20:45Z",
+      "completed_by": "pool-optimization-seat-1-4843-5aa0abe3",
+      "completed_by_zh": "池优化 席位4843",
+      "completed_ts_source": "done",
+      "task_id": "pool-069",
+      "task_no": 72,
+      "title": "Seat-liveness verdict fix (boss filing 2026-11-25): seat.down may fire…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 32619,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T07:19:14Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-073",
-      "task_no": 73,
-      "title": "Shirk-guard verdict fix (boss filing 2026-11-25): manager_watch.py's…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 32194,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T07:18:27Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
       "task_id": "pool-070",
-      "task_no": 70,
+      "task_no": 73,
       "title": "reinforcement_pass must exclude frozen tasks from its candidate set…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 32203,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T07:18:18Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
-      "task_id": "pool-071",
-      "task_no": 71,
-      "title": "Repair the stale event_stream_selftest.py (boss filing 2026-11-25): it…",
       "workstream": "pool-optimization"
     }
   ],
@@ -2846,24 +2946,98 @@
     "total": 58
   },
   "workers": {
-    "by_model": {},
-    "running": [],
-    "total": 0
+    "by_model": {
+      "crowllm/caw/glm-5.3-flash-thinking:free": 4,
+      "gpt-6.1-sol–free": 2
+    },
+    "running": [
+      {
+        "model": "gpt-6.1-sol–free",
+        "pid": 21667,
+        "title": "Task: provider-landscape patrol SEG-A (Xingchi + Xinghui stations), 2026-11-23 r"
+      },
+      {
+        "model": "gpt-6.1-sol–free",
+        "pid": 21668,
+        "title": "Task: provider-landscape patrol SEG-A (Xingchi + Xinghui stations), 2026-11-23 r"
+      },
+      {
+        "model": "crowllm/caw/glm-5.3-flash-thinking:free",
+        "pid": 21769,
+        "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-"
+      },
+      {
+        "model": "crowllm/caw/glm-5.3-flash-thinking:free",
+        "pid": 21770,
+        "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-"
+      },
+      {
+        "model": "crowllm/caw/glm-5.3-flash-thinking:free",
+        "pid": 21771,
+        "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-B（硅基流动+商汤+100mil"
+      },
+      {
+        "model": "crowllm/caw/glm-5.3-flash-thinking:free",
+        "pid": 21772,
+        "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-B（硅基流动+商汤+100mil"
+      }
+    ],
+    "total": 6
   },
-  "workers_detail": [],
-  "workers_running": [],
+  "workers_detail": [
+    {
+      "count": 4,
+      "model": "crowllm/caw/glm-5.3-flash-thinking:free"
+    },
+    {
+      "count": 2,
+      "model": "gpt-6.1-sol–free"
+    }
+  ],
+  "workers_running": [
+    {
+      "model": "gpt-6.1-sol–free",
+      "pid": 21667,
+      "title": "Task: provider-landscape patrol SEG-A (Xingchi + Xinghui stations), 2026-11-23 r"
+    },
+    {
+      "model": "gpt-6.1-sol–free",
+      "pid": 21668,
+      "title": "Task: provider-landscape patrol SEG-A (Xingchi + Xinghui stations), 2026-11-23 r"
+    },
+    {
+      "model": "crowllm/caw/glm-5.3-flash-thinking:free",
+      "pid": 21769,
+      "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-"
+    },
+    {
+      "model": "crowllm/caw/glm-5.3-flash-thinking:free",
+      "pid": 21770,
+      "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-"
+    },
+    {
+      "model": "crowllm/caw/glm-5.3-flash-thinking:free",
+      "pid": 21771,
+      "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-B（硅基流动+商汤+100mil"
+    },
+    {
+      "model": "crowllm/caw/glm-5.3-flash-thinking:free",
+      "pid": 21772,
+      "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-B（硅基流动+商汤+100mil"
+    }
+  ],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=731483e9d72c"
+        "latest": "2026-11-25T16:18:52Z ALERT pub_stale trigger=pub kind=publish_leg file=vps-server-status.json local_state=fresh local_age_sec=302 primary_state=stale primary_age_sec=109843 github_state=stale github_age_sec=2374 threshold_sec=1800 action=1) check the InstaBox publish leg for this file (tick/queue timer) is running; 2) check the primary publish host is reachable from InstaBox (the 2026-11-22 abuse lock froze endpoint A); 3) re-run publish-only from the local payload (no refetch, no re-judge); 4) re-check that both published copies serve a generatedAt newer than the local payload."
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-25T16:14:02Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-25T16:19:39Z"
       },
       "tasks": {
         "done": 22,
@@ -2907,13 +3081,13 @@
       },
       "status": {
         "exists": true,
-        "tasks_done": 1,
-        "tasks_open": 0,
-        "tasks_total": 1,
-        "updated": "2026-11-25T16:13:57Z"
+        "tasks_done": 0,
+        "tasks_open": 3,
+        "tasks_total": 3,
+        "updated": "2026-11-25T16:19:40Z"
       },
       "tasks": {
-        "done": 72,
+        "done": 73,
         "exists": true,
         "next_open": [
           {
@@ -2926,10 +3100,10 @@
           },
           {
             "full": true,
-            "title": "[judgment] 每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在池供应商与已注册未入池供应商的官方公告/定价/更新日志页，只报相对 2026-11-22 基线的变化；目录对比与生成探针由老板另行完成，本任务不探活、不调任何模型 API、不做账号操作。 [inputs: fleet-ops/sweep-20261123-inputs/registry-snapshot.json, fleet-ops/sweep-20261123-inputs/diff.md] [BOSS 2026-11-25: inputs re-staged into the staging roots by the boss (copies in fleet-ops/sweep-20261123-inputs/, originals untouched) - the claim-time input gate now passes; re-filed for execution, GPT-class worker (gpt-6.2-sol) per user order 2026-11-25] | sweep-20261123-patrol.md | out/pool-083/patrol.md 存在，快照内每一家都有带日期的核查记录，每条变化带来源 URL，无无来源的死亡断言 (executed-by operations failed 2026-11-23T08:32:45Z) [BOSS NOTE 2026-11-25: the existing out/pool-083/patrol.md does NOT pass - it is an evidence-free template (one-line no-change verdicts, no sources, no fetch times, no reconciliation against the staged inputs in fleet-ops/sweep-20261123-inputs/). Redo: per-provider source URL + fetch time + verdict tied to the staged registry diff; a provider may only be marked unchanged with the checked source named.] (frozen by auto-reject - boss review)"
+            "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-23 轮拆分）：巡查 xingchi（4 key 同站）与 ai-cf（3 key+3 sol 门同站）的官方公告/定价/更新日志页，只报相对 2026-11-22 基线的变化；不探活、不调模型 API、不做账号操作。 [inputs: fleet-ops/sweep-20261123-inputs/registry-snapshot.json, fleet-ops/sweep-20261123-inputs/diff.md] | patrol-segA.md | out/pool-064-sega/patrol.md 存在：每站带来源 URL + 抓取时间（UTC）+ 与 staged diff 对账的判定；查不到就写明查不到与证据（HTTP 状态/墙），不许无来源断言、不许一句话模板 (claimed-by pool-optimization-seat-1-21734-6aa7fff8 2026-11-25T16:22:42Z)"
           }
         ],
-        "open": 7
+        "open": 9
       }
     },
     "security": {
