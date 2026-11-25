@@ -1,18 +1,18 @@
 {
- "collectedAt": "2026-11-25T06:37:45Z",
+ "collectedAt": "2026-11-25T06:43:30Z",
  "servers": [
   {
    "serverId": 1,
    "ok": true,
    "error": "",
    "note": "KiwiVM API 桥接刷新（全量采集恢复前）；cpu/流量/三网字段 API 无诚实来源，置 null",
-   "collectedAt": "2026-11-25T06:37:45Z",
+   "collectedAt": "2026-11-25T06:43:30Z",
    "cpuPct": 9.1,
-   "load1": 0.0,
-   "load5": 0.0,
-   "load15": 0.0,
+   "load1": 0.22,
+   "load5": 0.14,
+   "load15": 0.18,
    "uptimeDays": 151.8,
-   "memUsedMb": 1019,
+   "memUsedMb": 317,
    "memTotalMb": 1019,
    "diskUsedGb": 5.1,
    "diskTotalGb": 20.0,
@@ -46,26 +46,42 @@
    "serverId": 2,
    "ok": true,
    "error": "",
-   "note": "华为云 API 桥接刷新（ECS+CES）；内存/硬盘用量/负载/累计流量/三网需机内代理，API 无来源置 null",
-   "collectedAt": "2026-11-25T06:37:51Z",
-   "cpuPct": 0.8,
-   "load1": null,
-   "load5": null,
-   "load15": null,
-   "uptimeDays": 8.7,
-   "memUsedMb": null,
+   "note": "无 vnstat，本月流量填 null",
+   "cpuPct": 0.0,
+   "load1": 0.0,
+   "load5": 0.0,
+   "load15": 0.0,
+   "uptimeDays": 7.8,
+   "memUsedMb": 470,
    "memTotalMb": 1775,
-   "diskUsedGb": null,
+   "diskUsedGb": 6.3,
    "diskTotalGb": 39.3,
    "netMonthUsedGb": null,
    "netMonthLimitGb": 100.0,
-   "netRxTotalGb": null,
-   "netTxTotalGb": null,
-   "netRxMbps": 0.006,
-   "netTxMbps": 0.005,
+   "netRxTotalGb": 0.7,
+   "netTxTotalGb": 0.5,
+   "netRxMbps": 0.01,
+   "netTxMbps": 0.01,
    "gpuModel": null,
    "gpuPct": null,
-   "threeNet": null
+   "threeNet": [
+    {
+     "carrier": "telecom",
+     "latencyMs": 24.611,
+     "packetLoss": 0.0
+    },
+    {
+     "carrier": "unicom",
+     "latencyMs": 38.319,
+     "packetLoss": 0.0
+    },
+    {
+     "carrier": "mobile",
+     "latencyMs": 7.359,
+     "packetLoss": 0.0
+    }
+   ],
+   "collectedAt": "2026-11-24T09:48:09Z"
   }
  ]
 }
