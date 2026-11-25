@@ -1,10 +1,10 @@
 {
   "ok": true,
   "reason": "",
-  "generatedAt": "2026-11-23T22:37:36Z",
+  "generatedAt": "2026-11-25T04:39:53Z",
   "round": "ai-quota-catalog",
   "snapshot": {
-    "generated_at": "2026-11-23T22:37:36Z",
+    "generated_at": "2026-11-25T04:39:53Z",
     "providers": [
       {
         "slug": "repo-3",
@@ -211,200 +211,10 @@
         "requiresCard": false,
         "source": "supplement",
         "verifyState": "pending"
-      },
-      {
-        "slug": "repo-1",
-        "name": "DeepSeek 深度求索",
-        "part": "国内模型",
-        "region": "国内",
-        "klass": "A",
-        "freeQuota": "免费 API (需要实名认证): deepseek-flash, deepseek-v4-flash 等，具体以官方定价页为准",
-        "bonus": "新用户可能享有赠金，以注册后控制台为准",
-        "validity": "长期免费层，但政策可能调整",
-        "requirements": "实名认证",
-        "limits": "限速根据账户等级调整，具体数值以控制台显示为准",
-        "note": "需从 verification conclusions 获取准确信息",
-        "officialUrl": "https://platform.deepseek.com/",
-        "keyUrl": "https://platform.deepseek.com/api_keys",
-        "baseUrl": "https://api.deepseek.com/v1",
-        "recModels": "deepseek-flash, deepseek-v4-flash",
-        "scenarios": [
-          "写代码 / 编程 Agent"
-        ],
-        "requiresCard": false,
-        "source": "repo",
-        "verifyState": "pending"
-      },
-      {
-        "slug": "repo-2",
-        "name": "通义千问 阿里云",
-        "part": "国内模型",
-        "region": "国内",
-        "klass": "A",
-        "freeQuota": "Qwen-Max / Qwen-Plus 免费额度，具体以阿里云控制台显示为准",
-        "bonus": "新用户赠金，可能需要完成实名和企业认证",
-        "validity": "额度按月重置",
-        "requirements": "阿里云账号，可能需要企业认证",
-        "limits": "不同模型独立额度，不可合并使用",
-        "note": "需从 verification conclusions 获取准确信息",
-        "officialUrl": "https://dashscope.aliyun.com/",
-        "keyUrl": "https://dashscope.aliyun.com/apikeys",
-        "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1",
-        "recModels": "qwen-max, qwen-plus",
-        "scenarios": [
-          "通用对话",
-          "代码编写"
-        ],
-        "requiresCard": false,
-        "source": "repo",
-        "verifyState": "pending"
-      },
-      {
-        "slug": "repo-4",
-        "name": "月之暗面 Kimi",
-        "part": "国内模型",
-        "region": "国内",
-        "klass": "A",
-        "freeQuota": "Kimi K3 / K3.1 Pro 免费额度，需关注官方定价页",
-        "bonus": "新用户认证赠送代金券",
-        "validity": "代金券有效期以券面为准",
-        "requirements": "实名认证",
-        "limits": "高速版 Kimi K3.1 Pro Highspeed 不可使用代金券",
-        "note": "需从 verification conclusions 获取准确信息",
-        "officialUrl": "https://kimi.moonshot.cn/",
-        "keyUrl": "https://platform.moonshot.cn/console/api-keys",
-        "baseUrl": "https://api.moonshot.cn/v1",
-        "recModels": "kimi-k3, kimi-k3.1-pro",
-        "scenarios": [
-          "长上下文对话",
-          "文档分析"
-        ],
-        "requiresCard": false,
-        "source": "repo",
-        "verifyState": "pending"
-      },
-      {
-        "slug": "repo-5",
-        "name": "MiniMax",
-        "part": "国内模型",
-        "region": "国内",
-        "klass": "B",
-        "freeQuota": "abab-6.5 等模型免费额度，需查看官方定价",
-        "bonus": "可能需要企业认证获取更高额度",
-        "validity": "以控制台显示为准",
-        "requirements": "企业认证可能获得更多额度",
-        "limits": "免费额度有限，超额按量计费",
-        "note": "需从 verification conclusions 获取准确信息",
-        "officialUrl": "https://api.minimax.chat/",
-        "keyUrl": "https://platform.minimax.chat/",
-        "baseUrl": "https://api.minimax.chat/v1",
-        "recModels": "abab-6.5",
-        "scenarios": [
-          "对话",
-          "内容生成"
-        ],
-        "requiresCard": false,
-        "source": "repo",
-        "verifyState": "pending"
-      },
-      {
-        "slug": "repo-7",
-        "name": "小米 MiMo",
-        "part": "国内模型",
-        "region": "国内",
-        "klass": "B",
-        "freeQuota": "MiMo-V2.6-Pro 等可能有限时免费，具体以定价页为准",
-        "bonus": "TTS 系列限时免费",
-        "validity": "限时免费，官方未公布截止日",
-        "requirements": "小米账号",
-        "limits": "语言模型按量计费，无免费层（仅 TTS 免费）",
-        "note": "需从 verification conclusions 获取准确信息",
-        "officialUrl": "https://mimo.mi.com/",
-        "keyUrl": "https://api.mimo.mi.com/keys",
-        "baseUrl": "https://api.mimo.mi.com/v1",
-        "recModels": "mimo-v2.6-pro",
-        "scenarios": [
-          "语音合成",
-          "基础对话"
-        ],
-        "requiresCard": false,
-        "source": "repo",
-        "verifyState": "pending"
-      },
-      {
-        "slug": "repo-9",
-        "name": "文心 ERNIE",
-        "part": "国内模型",
-        "region": "国内",
-        "klass": "B",
-        "freeQuota": "ERNIE-5.5-Flash 等可能享有免费额度",
-        "bonus": "百度云新用户可能享有赠金",
-        "validity": "以百度云控制台显示为准",
-        "requirements": "百度账号，可能需要企业认证",
-        "limits": "不同模型独立计费",
-        "note": "需从 verification conclusions 获取准确信息",
-        "officialUrl": "https://yiyan.baidu.com/",
-        "keyUrl": "https://console.bce.baidu.com/qianfan/ais/console/application",
-        "baseUrl": "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop",
-        "recModels": "ernie-5.5-flash",
-        "scenarios": [
-          "中文对话",
-          "内容创作"
-        ],
-        "requiresCard": false,
-        "source": "repo",
-        "verifyState": "pending"
-      },
-      {
-        "slug": "supp-ollama-cloud",
-        "name": "Ollama Cloud",
-        "part": "补录 · 国际推理",
-        "region": "海外",
-        "klass": "B",
-        "freeQuota": "Free plan: 19 models, session/weekly caps",
-        "bonus": "",
-        "validity": "免费层长期存在",
-        "requirements": "注册账号",
-        "limits": "会话和每周限额",
-        "note": "来自 freellm.net 等第三方目录，需核实",
-        "officialUrl": "https://ollama.cloud/",
-        "keyUrl": "https://ollama.cloud/account",
-        "baseUrl": "https://api.ollama.cloud/v1",
-        "recModels": "llama3.2, mistral",
-        "scenarios": [
-          "本地模型托管"
-        ],
-        "requiresCard": false,
-        "source": "supplement",
-        "verifyState": "pending"
-      },
-      {
-        "slug": "supp-chutes-ai",
-        "name": "Chutes.ai",
-        "part": "补录 · 国际推理",
-        "region": "海外",
-        "klass": "B",
-        "freeQuota": "DeepSeek-R1 / Llama 3.1 70B 等免费模型",
-        "bonus": "",
-        "validity": "免费层可用性需核实",
-        "requirements": "注册",
-        "limits": "",
-        "note": "来自 freellm.net 等第三方目录，需核实",
-        "officialUrl": "https://chutes.ai/",
-        "keyUrl": "https://chutes.ai/account",
-        "baseUrl": "https://api.chutes.ai/v1",
-        "recModels": "deepseek-r1, llama-3.1-70b",
-        "scenarios": [
-          "代码生成",
-          "推理"
-        ],
-        "requiresCard": false,
-        "source": "supplement",
-        "verifyState": "pending"
       }
     ]
   },
-  "providerCount": 17,
+  "providerCount": 9,
   "maxAgeSec": 93600,
   "cronIntervalSec": 28800
 }
