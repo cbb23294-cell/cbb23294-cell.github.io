@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-25T19:50:50Z",
+    "activity_generated_at": "2026-11-25T19:53:25Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,15 +15,15 @@
         "claimed_at": "2026-11-25T19:45:50Z",
         "claimed_by": "cloud-script-migration-seat-1-15377-52d967e2",
         "claimed_by_zh": "云脚本迁移 席位15377",
-        "claimed_for": "5分钟",
+        "claimed_for": "7分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-25T19:45:50Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "5分钟",
-      "elapsed_sec": 300,
-      "last_cycle_ended": "2026-11-25T19:50:36Z",
+      "elapsed": "7分钟",
+      "elapsed_sec": 455,
+      "last_cycle_ended": "2026-11-25T19:51:12Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,11 +99,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 300,
+          "claimed_age_sec": 455,
           "claimed_at": "2026-11-25T19:45:50Z",
           "claimed_by": "cloud-script-migration-seat-1-15377-52d967e2",
           "claimed_by_zh": "云脚本迁移 席位15377",
-          "claimed_for": "5分钟",
+          "claimed_for": "7分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -117,7 +117,7 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 2,
-      "status_updated": null,
+      "status_updated": "2026-11-25T19:52:00Z",
       "total": 24,
       "workstream": "cloud-script-migration"
     },
@@ -142,7 +142,7 @@
       "name_zh": "安全",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-25T19:37:00Z",
+      "status_updated": "2026-11-25T19:52:37Z",
       "total": 15,
       "workstream": "security"
     },
@@ -153,7 +153,7 @@
       "name_zh": "运维",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-25T19:37:31Z",
+      "status_updated": "2026-11-25T19:53:12Z",
       "total": 20,
       "workstream": "operations"
     },
@@ -164,7 +164,7 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-25T19:36:45Z",
+      "status_updated": "2026-11-25T19:52:11Z",
       "total": 16,
       "workstream": "spaces-data"
     }
@@ -172,17 +172,17 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 300,
+      "claimed_age_sec": 455,
       "claimed_at": "2026-11-25T19:45:50Z",
       "claimed_by": "cloud-script-migration-seat-1-15377-52d967e2",
       "claimed_by_zh": "云脚本迁移 席位15377",
-      "claimed_for": "5分钟",
+      "claimed_for": "7分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-25T19:48:41Z",
+  "content_latest_at": "2026-11-25T19:53:12Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 314,
@@ -215,25 +215,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-25T19:50:50Z",
-  "generated_at_utc": "2026-11-25T19:50:50Z",
+  "generated_at": "2026-11-25T19:53:25Z",
+  "generated_at_utc": "2026-11-25T19:53:25Z",
   "live_pi_workers": {
-    "by_model": {
-      "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct": 2
-    },
-    "running": [
-      {
-        "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct",
-        "pid": 15451,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct",
-        "pid": 15452,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -553,7 +540,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 115
+        "used": 117
       },
       {
         "cap": 20000,
@@ -601,7 +588,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 1083
+        "used": 1085
       },
       {
         "cap": 20000,
@@ -681,7 +668,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 671
+        "used": 673
       },
       {
         "cap": 20000,
@@ -761,7 +748,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 537
+        "used": 538
       },
       {
         "cap": 1000,
@@ -1401,7 +1388,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -1409,7 +1396,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -1417,7 +1404,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -1425,7 +1412,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -1433,7 +1420,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -1441,7 +1428,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -1449,7 +1436,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -1457,7 +1444,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -1465,7 +1452,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -1473,7 +1460,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -1481,7 +1468,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -1489,7 +1476,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       }
     ],
     "healthy_entries": 140,
@@ -1755,7 +1742,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 115
+        "used": 117
       },
       {
         "cap": 20000,
@@ -1803,7 +1790,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 1083
+        "used": 1085
       },
       {
         "cap": 20000,
@@ -1883,7 +1870,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 671
+        "used": 673
       },
       {
         "cap": 20000,
@@ -1963,7 +1950,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 537
+        "used": 538
       },
       {
         "cap": 1000,
@@ -2603,7 +2590,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -2611,7 +2598,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -2619,7 +2606,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -2627,7 +2614,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -2635,7 +2622,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -2643,7 +2630,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -2651,7 +2638,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -2659,7 +2646,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -2667,7 +2654,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -2675,7 +2662,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -2683,7 +2670,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       },
       {
         "cap": 3000,
@@ -2691,7 +2678,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1843
+        "used": 1845
       }
     ],
     "healthy_entries": 140,
@@ -2701,19 +2688,19 @@
   },
   "recent_completions": [
     {
-      "age_sec": 13,
+      "age_sec": 132,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-25T19:50:36Z",
+      "completed_at": "2026-11-25T19:51:12Z",
       "completed_by": "cloud-script-migration-seat-1-15377-52d967e2",
       "completed_by_zh": "云脚本迁移 席位15377",
-      "completed_ts_source": "result.txt",
+      "completed_ts_source": "done",
       "task_id": "clou-018",
       "task_no": 18,
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 3196,
+      "age_sec": 3351,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2725,7 +2712,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 3305,
+      "age_sec": 3460,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2737,7 +2724,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 3378,
+      "age_sec": 3533,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2749,7 +2736,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 3385,
+      "age_sec": 3540,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2761,7 +2748,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 4286,
+      "age_sec": 4441,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2773,7 +2760,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 8141,
+      "age_sec": 8296,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2785,7 +2772,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 8431,
+      "age_sec": 8586,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2797,7 +2784,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 8922,
+      "age_sec": 9077,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2809,7 +2796,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 8944,
+      "age_sec": 9099,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
@@ -2828,41 +2815,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct": 2
-    },
-    "running": [
-      {
-        "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct",
-        "pid": 15451,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct",
-        "pid": 15452,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 2,
-      "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct",
-      "pid": 15451,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "siliconflow-voucher-2/Qwen/Qwen3-Coder-30B-A3B-Instruct",
-      "pid": 15452,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -2874,7 +2832,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": null
+        "updated": "2026-11-25T19:52:00Z"
       },
       "tasks": {
         "done": 22,
@@ -2902,7 +2860,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-25T19:37:31Z"
+        "updated": "2026-11-25T19:53:12Z"
       },
       "tasks": {
         "done": 20,
@@ -2949,7 +2907,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-25T19:37:00Z"
+        "updated": "2026-11-25T19:52:37Z"
       },
       "tasks": {
         "done": 15,
@@ -2968,7 +2926,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-25T19:36:45Z"
+        "updated": "2026-11-25T19:52:11Z"
       },
       "tasks": {
         "done": 16,
