@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-25T21:09:14Z",
+    "activity_generated_at": "2026-11-25T21:11:44Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,15 +15,15 @@
         "claimed_at": "2026-11-25T21:04:53Z",
         "claimed_by": "spaces-data",
         "claimed_by_zh": "空间数据",
-        "claimed_for": "4分钟",
+        "claimed_for": "6分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-25T21:04:53Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "4分钟",
-      "elapsed_sec": 261,
-      "last_cycle_ended": "2026-11-25T21:09:14Z",
+      "elapsed": "6分钟",
+      "elapsed_sec": 411,
+      "last_cycle_ended": "2026-11-25T21:11:44Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,11 +99,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 261,
+          "claimed_age_sec": 411,
           "claimed_at": "2026-11-25T21:04:53Z",
           "claimed_by": "spaces-data",
           "claimed_by_zh": "空间数据",
-          "claimed_for": "4分钟",
+          "claimed_for": "6分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -117,7 +117,7 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 2,
-      "status_updated": "2026-11-25T20:54:34Z",
+      "status_updated": "2026-11-25T21:10:15Z",
       "total": 24,
       "workstream": "cloud-script-migration"
     },
@@ -142,7 +142,7 @@
       "name_zh": "安全",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-25T20:55:15Z",
+      "status_updated": "2026-11-25T21:10:51Z",
       "total": 15,
       "workstream": "security"
     },
@@ -153,7 +153,7 @@
       "name_zh": "运维",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-25T20:54:35Z",
+      "status_updated": "2026-11-25T21:10:20Z",
       "total": 20,
       "workstream": "operations"
     },
@@ -164,7 +164,7 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-25T20:55:24Z",
+      "status_updated": "2026-11-25T21:10:40Z",
       "total": 16,
       "workstream": "spaces-data"
     }
@@ -172,17 +172,17 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 261,
+      "claimed_age_sec": 411,
       "claimed_at": "2026-11-25T21:04:53Z",
       "claimed_by": "spaces-data",
       "claimed_by_zh": "空间数据",
-      "claimed_for": "4分钟",
+      "claimed_for": "6分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-25T21:08:00Z",
+  "content_latest_at": "2026-11-25T21:10:51Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 316,
@@ -215,8 +215,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-25T21:09:14Z",
-  "generated_at_utc": "2026-11-25T21:09:14Z",
+  "generated_at": "2026-11-25T21:11:44Z",
+  "generated_at_utc": "2026-11-25T21:11:44Z",
   "live_pi_workers": {
     "by_model": {
       "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2": 2
@@ -553,7 +553,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 210
+        "used": 212
       },
       {
         "cap": 20000,
@@ -601,7 +601,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 1140
+        "used": 1143
       },
       {
         "cap": 20000,
@@ -681,7 +681,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 712
+        "used": 714
       },
       {
         "cap": 20000,
@@ -761,7 +761,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 558
+        "used": 559
       },
       {
         "cap": 1000,
@@ -1065,7 +1065,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 119
+        "used": 120
       },
       {
         "cap": 300,
@@ -1401,7 +1401,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -1409,7 +1409,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -1417,7 +1417,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -1425,7 +1425,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -1433,7 +1433,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -1441,7 +1441,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -1449,7 +1449,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -1457,7 +1457,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -1465,7 +1465,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -1473,7 +1473,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -1481,7 +1481,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -1489,7 +1489,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       }
     ],
     "healthy_entries": 140,
@@ -1755,7 +1755,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 210
+        "used": 212
       },
       {
         "cap": 20000,
@@ -1803,7 +1803,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 1140
+        "used": 1143
       },
       {
         "cap": 20000,
@@ -1883,7 +1883,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 712
+        "used": 714
       },
       {
         "cap": 20000,
@@ -1963,7 +1963,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 558
+        "used": 559
       },
       {
         "cap": 1000,
@@ -2267,7 +2267,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 119
+        "used": 120
       },
       {
         "cap": 300,
@@ -2603,7 +2603,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -2611,7 +2611,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -2619,7 +2619,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -2627,7 +2627,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -2635,7 +2635,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -2643,7 +2643,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -2651,7 +2651,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -2659,7 +2659,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -2667,7 +2667,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -2675,7 +2675,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -2683,7 +2683,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       },
       {
         "cap": 3000,
@@ -2691,7 +2691,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1913
+        "used": 1922
       }
     ],
     "healthy_entries": 140,
@@ -2703,7 +2703,7 @@
     {
       "age_sec": 0,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-25T21:09:14Z",
+      "completed_at": "2026-11-25T21:11:44Z",
       "completed_by": "spaces-data",
       "completed_by_zh": "空间数据",
       "completed_ts_source": "result.txt",
@@ -2713,7 +2713,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 7900,
+      "age_sec": 8050,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2725,7 +2725,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 8009,
+      "age_sec": 8159,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2737,7 +2737,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 8082,
+      "age_sec": 8232,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2749,7 +2749,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 8089,
+      "age_sec": 8239,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2761,7 +2761,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 8990,
+      "age_sec": 9140,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2773,7 +2773,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 12845,
+      "age_sec": 12995,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2785,7 +2785,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 13135,
+      "age_sec": 13285,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2797,7 +2797,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 13626,
+      "age_sec": 13776,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2809,7 +2809,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 13648,
+      "age_sec": 13798,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
@@ -2874,7 +2874,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-25T20:54:34Z"
+        "updated": "2026-11-25T21:10:15Z"
       },
       "tasks": {
         "done": 22,
@@ -2902,7 +2902,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-25T20:54:35Z"
+        "updated": "2026-11-25T21:10:20Z"
       },
       "tasks": {
         "done": 20,
@@ -2949,7 +2949,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-25T20:55:15Z"
+        "updated": "2026-11-25T21:10:51Z"
       },
       "tasks": {
         "done": 15,
@@ -2968,7 +2968,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-25T20:55:24Z"
+        "updated": "2026-11-25T21:10:40Z"
       },
       "tasks": {
         "done": 16,
