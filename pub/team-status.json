@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-25T23:35:29Z",
+    "activity_generated_at": "2026-11-25T23:37:59Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-25T23:34:50Z",
         "claimed_by": "operations",
         "claimed_by_zh": "运维",
-        "claimed_for": "40秒",
+        "claimed_for": "3分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-25T23:34:50Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "40秒",
-      "elapsed_sec": 40,
+      "elapsed": "3分钟",
+      "elapsed_sec": 190,
       "last_cycle_ended": "2026-11-25T23:35:07Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -99,11 +99,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 40,
+          "claimed_age_sec": 190,
           "claimed_at": "2026-11-25T23:34:50Z",
           "claimed_by": "operations",
           "claimed_by_zh": "运维",
-          "claimed_for": "40秒",
+          "claimed_for": "3分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -131,7 +131,7 @@
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
       ],
       "open": 2,
-      "status_updated": "2026-11-25T23:31:02Z",
+      "status_updated": "2026-11-25T23:36:33Z",
       "total": 83,
       "workstream": "pool-optimization"
     },
@@ -172,17 +172,17 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 40,
+      "claimed_age_sec": 190,
       "claimed_at": "2026-11-25T23:34:50Z",
       "claimed_by": "operations",
       "claimed_by_zh": "运维",
-      "claimed_for": "40秒",
+      "claimed_for": "3分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-25T23:31:02Z",
+  "content_latest_at": "2026-11-25T23:36:33Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 323,
@@ -215,8 +215,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-25T23:35:30Z",
-  "generated_at_utc": "2026-11-25T23:35:30Z",
+  "generated_at": "2026-11-25T23:38:00Z",
+  "generated_at_utc": "2026-11-25T23:38:00Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -2688,7 +2688,7 @@
   },
   "recent_completions": [
     {
-      "age_sec": 22,
+      "age_sec": 172,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-25T23:35:07Z",
       "completed_by": "operations",
@@ -2700,7 +2700,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 16675,
+      "age_sec": 16826,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2712,7 +2712,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 16785,
+      "age_sec": 16935,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2724,7 +2724,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 16858,
+      "age_sec": 17008,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2736,7 +2736,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 16865,
+      "age_sec": 17015,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2748,7 +2748,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 17766,
+      "age_sec": 17916,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2760,7 +2760,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 21621,
+      "age_sec": 21771,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2772,7 +2772,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 21911,
+      "age_sec": 22061,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2784,7 +2784,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 22402,
+      "age_sec": 22552,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2796,7 +2796,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 22424,
+      "age_sec": 22574,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
@@ -2879,7 +2879,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-25T23:31:02Z"
+        "updated": "2026-11-25T23:36:33Z"
       },
       "tasks": {
         "done": 81,
