@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-25T17:27:45Z",
+    "activity_generated_at": "2026-11-25T17:30:20Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -12,38 +12,38 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-25T17:27:08Z",
+        "claimed_at": "2026-11-25T17:30:09Z",
         "claimed_by": "cloud-script-migration-seat-1-13556-7bc6731d",
         "claimed_by_zh": "云脚本迁移 席位13556",
-        "claimed_for": "37秒",
+        "claimed_for": "11秒",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
-      "cycle_started_at": "2026-11-25T17:27:08Z",
+      "cycle_started_at": "2026-11-25T17:30:09Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "37秒",
-      "elapsed_sec": 37,
-      "last_cycle_ended": "2026-11-25T17:27:41Z",
+      "elapsed": "11秒",
+      "elapsed_sec": 11,
+      "last_cycle_ended": "2026-11-25T17:30:06Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 2,
+      "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-25T17:27:02Z",
+        "claimed_at": "2026-11-25T17:30:04Z",
         "claimed_by": "pool-optimization-seat-1-14385-22d9c488",
         "claimed_by_zh": "池优化 席位14385",
-        "claimed_for": "43秒",
+        "claimed_for": "16秒",
         "task_id": "pool-067",
         "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查…"
       },
-      "cycle_started_at": "2026-11-25T17:27:02Z",
+      "cycle_started_at": "2026-11-25T17:30:04Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "43秒",
-      "elapsed_sec": 43,
-      "last_cycle_ended": "2026-11-25T17:27:39Z",
+      "elapsed": "16秒",
+      "elapsed_sec": 16,
+      "last_cycle_ended": "2026-11-25T17:30:18Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -106,11 +106,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 37,
-          "claimed_at": "2026-11-25T17:27:08Z",
+          "claimed_age_sec": 11,
+          "claimed_at": "2026-11-25T17:30:09Z",
           "claimed_by": "cloud-script-migration-seat-1-13556-7bc6731d",
           "claimed_by_zh": "云脚本迁移 席位13556",
-          "claimed_for": "37秒",
+          "claimed_for": "11秒",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -132,29 +132,18 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 43,
-          "claimed_at": "2026-11-25T17:27:02Z",
+          "claimed_age_sec": 16,
+          "claimed_at": "2026-11-25T17:30:04Z",
           "claimed_by": "pool-optimization-seat-1-14385-22d9c488",
           "claimed_by_zh": "池优化 席位14385",
-          "claimed_for": "43秒",
-          "task_id": "pool-054",
-          "title": "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…",
-          "workstream": "pool-optimization"
-        },
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 43,
-          "claimed_at": "2026-11-25T17:27:02Z",
-          "claimed_by": "pool-optimization-seat-1-14385-22d9c488",
-          "claimed_by_zh": "池优化 席位14385",
-          "claimed_for": "43秒",
+          "claimed_for": "16秒",
           "task_id": "pool-067",
           "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查…",
           "workstream": "pool-optimization"
         }
       ],
       "done": 75,
-      "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
+      "escalation_latest": "blocked-file: out/task-067/BLOCKED.md",
       "name_zh": "池优化",
       "next_open": [
         "Pool tuning + slimming pass after the 140-entry expansion (boss filing…",
@@ -162,7 +151,7 @@
         "[judgment] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23…"
       ],
       "open": 7,
-      "status_updated": "2026-11-25T17:27:03Z",
+      "status_updated": "2026-11-25T17:30:18Z",
       "total": 82,
       "workstream": "pool-optimization"
     },
@@ -203,39 +192,28 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 43,
-      "claimed_at": "2026-11-25T17:27:02Z",
+      "claimed_age_sec": 16,
+      "claimed_at": "2026-11-25T17:30:04Z",
       "claimed_by": "pool-optimization-seat-1-14385-22d9c488",
       "claimed_by_zh": "池优化 席位14385",
-      "claimed_for": "43秒",
-      "task_id": "pool-054",
-      "title": "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "board_zh": "池优化",
-      "claimed_age_sec": 43,
-      "claimed_at": "2026-11-25T17:27:02Z",
-      "claimed_by": "pool-optimization-seat-1-14385-22d9c488",
-      "claimed_by_zh": "池优化 席位14385",
-      "claimed_for": "43秒",
+      "claimed_for": "16秒",
       "task_id": "pool-067",
       "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 37,
-      "claimed_at": "2026-11-25T17:27:08Z",
+      "claimed_age_sec": 11,
+      "claimed_at": "2026-11-25T17:30:09Z",
       "claimed_by": "cloud-script-migration-seat-1-13556-7bc6731d",
       "claimed_by_zh": "云脚本迁移 席位13556",
-      "claimed_for": "37秒",
+      "claimed_for": "11秒",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-25T17:27:03Z",
+  "content_latest_at": "2026-11-25T17:30:18Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 310,
@@ -253,9 +231,9 @@
       "latest": "level: manager (retry budget exhausted; lowest level could not fix it)"
     },
     "pool-optimization": {
-      "dropped_hash_keys": 267,
+      "dropped_hash_keys": 268,
       "exists": true,
-      "latest": "level: manager (retry budget exhausted; lowest level could not fix it)"
+      "latest": "blocked-file: out/task-067/BLOCKED.md"
     },
     "security": {
       "dropped_hash_keys": 10,
@@ -268,26 +246,15 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-25T17:27:45Z",
-  "generated_at_utc": "2026-11-25T17:27:45Z",
+  "generated_at": "2026-11-25T17:30:20Z",
+  "generated_at_utc": "2026-11-25T17:30:20Z",
   "live_pi_workers": {
     "by_model": {
       "deepseek-ai/DeepSeek-V3.2": 2,
       "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4": 2,
-      "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2": 4,
-      "token-harbor/deepseek-v4.1-flash:free": 2
+      "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2": 2
     },
     "running": [
-      {
-        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-        "pid": 7843,
-        "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-r"
-      },
-      {
-        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-        "pid": 7844,
-        "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-r"
-      },
       {
         "model": "deepseek-ai/DeepSeek-V3.2",
         "pid": 9234,
@@ -317,19 +284,9 @@
         "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
         "pid": 14080,
         "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 14421,
-        "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-r"
-      },
-      {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 14422,
-        "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-r"
       }
     ],
-    "total": 10
+    "total": 6
   },
   "managers": [
     {
@@ -633,7 +590,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 194
+        "used": 207
       },
       {
         "cap": 20000,
@@ -673,7 +630,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -1113,7 +1070,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 139
+        "used": 144
       },
       {
         "cap": 300,
@@ -1129,7 +1086,7 @@
         "healthy": true,
         "model": "nvidia-deepseek-v4-1-flash-nvfp4",
         "provider": "packet-ai",
-        "used": 275
+        "used": 284
       },
       {
         "cap": 300,
@@ -1401,7 +1358,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -1409,7 +1366,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -1417,7 +1374,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -1425,7 +1382,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -1433,7 +1390,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -1441,7 +1398,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -1449,7 +1406,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -1457,7 +1414,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -1465,7 +1422,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -1473,7 +1430,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -1481,7 +1438,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -1489,7 +1446,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -1497,7 +1454,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -1505,7 +1462,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -1513,7 +1470,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -1521,7 +1478,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -1529,7 +1486,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -1537,7 +1494,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -1545,7 +1502,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -1553,7 +1510,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -1561,7 +1518,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -1569,7 +1526,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -1577,7 +1534,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -1585,7 +1542,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       }
     ],
     "healthy_entries": 140,
@@ -1835,7 +1792,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 194
+        "used": 207
       },
       {
         "cap": 20000,
@@ -1875,7 +1832,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -2315,7 +2272,7 @@
         "healthy": true,
         "model": "caw/glm-5.3-flash-thinking:free",
         "provider": "crowllm",
-        "used": 139
+        "used": 144
       },
       {
         "cap": 300,
@@ -2331,7 +2288,7 @@
         "healthy": true,
         "model": "nvidia-deepseek-v4-1-flash-nvfp4",
         "provider": "packet-ai",
-        "used": 275
+        "used": 284
       },
       {
         "cap": 300,
@@ -2603,7 +2560,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -2611,7 +2568,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -2619,7 +2576,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -2627,7 +2584,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -2635,7 +2592,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -2643,7 +2600,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -2651,7 +2608,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -2659,7 +2616,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -2667,7 +2624,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -2675,7 +2632,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -2683,7 +2640,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -2691,7 +2648,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 135
+        "used": 136
       },
       {
         "cap": 3000,
@@ -2699,7 +2656,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -2707,7 +2664,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -2715,7 +2672,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -2723,7 +2680,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -2731,7 +2688,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -2739,7 +2696,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -2747,7 +2704,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -2755,7 +2712,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -2763,7 +2720,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -2771,7 +2728,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -2779,7 +2736,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       },
       {
         "cap": 3000,
@@ -2787,7 +2744,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 1420
+        "used": 1431
       }
     ],
     "healthy_entries": 140,
@@ -2797,9 +2754,21 @@
   },
   "recent_completions": [
     {
-      "age_sec": 3,
+      "age_sec": 1,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-25T17:30:18Z",
+      "completed_by": "pool-optimization-seat-1-14385-22d9c488",
+      "completed_by_zh": "池优化 席位14385",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-067",
+      "task_no": 67,
+      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 13,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-25T17:27:41Z",
+      "completed_at": "2026-11-25T17:30:06Z",
       "completed_by": "cloud-script-migration-seat-1-13556-7bc6731d",
       "completed_by_zh": "云脚本迁移 席位13556",
       "completed_ts_source": "result.txt",
@@ -2809,31 +2778,19 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 5,
+      "age_sec": 64,
       "board_zh": "池优化",
-      "completed_at": "2026-11-25T17:27:39Z",
-      "completed_by": "pool-optimization-seat-1-14385-22d9c488",
-      "completed_by_zh": "池优化 席位14385",
+      "completed_at": "2026-11-25T17:29:15Z",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-067",
-      "task_no": 67,
-      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 8,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T17:27:37Z",
-      "completed_by": "pool-optimization-seat-1-14385-22d9c488",
-      "completed_by_zh": "池优化 席位14385",
-      "completed_ts_source": "result.txt",
       "task_id": "pool-054",
       "task_no": 54,
       "title": "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 338,
+      "age_sec": 492,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2845,7 +2802,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 359,
+      "age_sec": 514,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
@@ -2857,7 +2814,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 4429,
+      "age_sec": 4584,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T16:13:55Z",
       "completed_by": null,
@@ -2869,7 +2826,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 19060,
+      "age_sec": 19214,
       "board_zh": "安全",
       "completed_at": "2026-11-25T12:10:05Z",
       "completed_by": null,
@@ -2881,7 +2838,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 27681,
+      "age_sec": 27836,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T09:46:23Z",
       "completed_by": null,
@@ -2893,7 +2850,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 28568,
+      "age_sec": 28723,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T09:31:36Z",
       "completed_by": null,
@@ -2905,7 +2862,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 36419,
+      "age_sec": 36574,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T07:20:45Z",
       "completed_by": "pool-optimization-seat-1-4843-5aa0abe3",
@@ -2927,20 +2884,9 @@
     "by_model": {
       "deepseek-ai/DeepSeek-V3.2": 2,
       "packet-ai/nvidia-deepseek-v4-1-flash-nvfp4": 2,
-      "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2": 4,
-      "token-harbor/deepseek-v4.1-flash:free": 2
+      "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2": 2
     },
     "running": [
-      {
-        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-        "pid": 7843,
-        "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-r"
-      },
-      {
-        "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-        "pid": 7844,
-        "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-r"
-      },
       {
         "model": "deepseek-ai/DeepSeek-V3.2",
         "pid": 9234,
@@ -2970,25 +2916,11 @@
         "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
         "pid": 14080,
         "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 14421,
-        "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-r"
-      },
-      {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 14422,
-        "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-r"
       }
     ],
-    "total": 10
+    "total": 6
   },
   "workers_detail": [
-    {
-      "count": 4,
-      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2"
-    },
     {
       "count": 2,
       "model": "deepseek-ai/DeepSeek-V3.2"
@@ -2999,20 +2931,10 @@
     },
     {
       "count": 2,
-      "model": "token-harbor/deepseek-v4.1-flash:free"
+      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2"
     }
   ],
   "workers_running": [
-    {
-      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-      "pid": 7843,
-      "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-r"
-    },
-    {
-      "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
-      "pid": 7844,
-      "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-r"
-    },
     {
       "model": "deepseek-ai/DeepSeek-V3.2",
       "pid": 9234,
@@ -3042,16 +2964,6 @@
       "model": "siliconflow-voucher-2/deepseek-ai/DeepSeek-V3.2",
       "pid": 14080,
       "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "token-harbor/deepseek-v4.1-flash:free",
-      "pid": 14421,
-      "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-r"
-    },
-    {
-      "model": "token-harbor/deepseek-v4.1-flash:free",
-      "pid": 14422,
-      "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-r"
     }
   ],
   "workstreams": {
@@ -3077,7 +2989,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (executed-by pool-optimization failed 2026-11-25T15:21:03Z) (claimed-by cloud-script-migration-seat-1-13556-7bc6731d 2026-11-25T17:27:08Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (executed-by pool-optimization failed 2026-11-25T15:21:03Z) (claimed-by cloud-script-migration-seat-1-13556-7bc6731d 2026-11-25T17:30:09Z)"
           }
         ],
         "open": 2
@@ -3105,14 +3017,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=e3931dac901f"
+        "latest": "- key=02bbebed3ac5"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 2,
         "tasks_total": 2,
-        "updated": "2026-11-25T17:27:03Z"
+        "updated": "2026-11-25T17:30:18Z"
       },
       "tasks": {
         "done": 75,
@@ -3124,11 +3036,11 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z ruling A) [est:45m] | Contract (3 segments): (1) worker edits a copy inside the task dir out/pool-059/; (2) production merge is a PATCH against production manager.py, applied by the pool-optimization manager (named owner), no parallel rewrite; (3) acceptance requires production-path evidence: a real help-failure cycle whose help-cooldown.json entry carries the new field and a later dispatch log line showing the exclusion. Change spec: when a help attempt fails and record_help_failure writes the cooldown entry, also write providers: string[] = the providers actually attempted this round, taken from the dispatch/attempt context (never parsed from reason text). dispatch_task / help candidate selection reads that field for the task: exclude every entry of those providers while the cooldown is active; if exclusion empties the candidate set, fall back to same-provider with a WARN log line (do not block). The operations line's last_up concept is merged into this field - no separate field, no rate threshold (boss rejected the 0.6 threshold as a guessed number). Metrics: cross-provider re-dispatch success rate inside cooldown windows, baseline 0/0 (new metric), target >=90% at the 2026-11-29 digest; security line's cross-check rides the same digest: providers fields joined against attempt logs, any mismatch is a finding. Recheck 2026-11-29. — BOSS UNFREEZE 2026-11-23: the failure was a goose action-cap truncation mid-work, not a task defect; the work copy out/pool-059/manager.py was modified AFTER the failure stamp. Resume from that copy; do not restart from scratch. — MEETING AMENDMENT 2026-11-23 (help-mechanism meeting ruling 1, transcript meetings/20261123T044829Z.md): (a) failure classification is written AT record time in record_help_failure: class in {acceptance, selftest, upstream} alongside the providers field; (b) backfill the 19 existing help-cooldown.json records from the pool-072 datapack (out/pool-060/digest-datapack.md) — records that cannot be classified from evidence are marked unknown, never guessed; (c) EFFECT MEASUREMENT (security challenge, adopted): every help dispatch records dispatch timestamp + target task id in its help event; the pool line watch re-reads the target board after 2 of the helped line's manager cycles and writes help.advanced or help.no_advance — \"advanced\" means the target task changed state (claim/start/settle) inside the window; (d) metrics added: classification coverage 19/19 by 2026-11-30; advancement rate baseline from the decomposition task, target >=80%; recheck 2026-12-03 digest. — BOSS AMENDMENT 2 2026-11-23 (IAO distillation): the advancement write-backs aggregate per HELPER MODEL into the existing digest pool-health face (helper model -> dispatched / advanced / no_advance), so repeat no-advance helpers are deprioritized through the existing bandit shadow scores. No new analytics module; no busy-rate metric anywhere in the system. — BOSS AMENDMENT 3 2026-11-23 (from the accepted pool-085 decomposition): the help.completed writer must propagate assigner + dispatch_path (idle_sweep | reinforce_ticket | manual) + dispatch_timestamp from the dispatch decision into the event (extend the writer's allowed fields or encode in evidence_pointer); same-(helped,task) echoes from multiple helper lines must collapse or be marked echo; writer selftests must NEVER write to the production stream with event_class real (use a drill stream). Acceptance: the next 10 production help events all carry the three fields and zero selftest rows appear in the production stream. (completion claimed by pool-optimization-seat-1-12644-7c6dc7e0 2026-11-24T12:14:41Z - pending boss ~~acceptance~~ REJECTED by boss 2026-11-24) — BOSS REJECTED 2026-11-24 ~20:25: the claim is VOID. The worker's own SEGMENT3-STATUS-20261124T1215Z.md and result.txt state Segment 3 is unmet (0/0 post-merge help events; the observer exits 1 'merged, awaiting a real help-failure cycle'); the claim's stated basis was the verbatim-marker satisfiability already recorded as a FALSE-PASS HAZARD. Segments 1-2 stand verified live (production manager.py anchors present, 66/66 cooldown records carry the class field, zero selftest rows in the production stream). The task stays OPEN: acceptance requires ONE real post-merge help-failure cycle (cooldown record with the new fields + the dispatch log exclusion line) - no marker-only claim will be accepted. The two environmental blockers are now fixed by the boss: manager_watch crash loop (0-byte state file) repaired 2026-11-24 ~20:20 and the plan-gate dual-directory resolution repaired the same evening, so the next natural cycle can produce the evidence. [BOSS NOTE 2026-11-25: event-gated - do NOT claim until one real post-merge help-failure cycle exists (cooldown record with new fields + dispatch-log exclusion line); the watcher poller reports the event to the boss, who then ungates. Repeated claim/void churn on this line today (17 stall records) is hereby stopped.] (claimed-by pool-optimization-seat-1-14385-22d9c488 2026-11-25T17:27:02Z)"
+            "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z ruling A) [est:45m] | Contract (3 segments): (1) worker edits a copy inside the task dir out/pool-059/; (2) production merge is a PATCH against production manager.py, applied by the pool-optimization manager (named owner), no parallel rewrite; (3) acceptance requires production-path evidence: a real help-failure cycle whose help-cooldown.json entry carries the new field and a later dispatch log line showing the exclusion. Change spec: when a help attempt fails and record_help_failure writes the cooldown entry, also write providers: string[] = the providers actually attempted this round, taken from the dispatch/attempt context (never parsed from reason text). dispatch_task / help candidate selection reads that field for the task: exclude every entry of those providers while the cooldown is active; if exclusion empties the candidate set, fall back to same-provider with a WARN log line (do not block). The operations line's last_up concept is merged into this field - no separate field, no rate threshold (boss rejected the 0.6 threshold as a guessed number). Metrics: cross-provider re-dispatch success rate inside cooldown windows, baseline 0/0 (new metric), target >=90% at the 2026-11-29 digest; security line's cross-check rides the same digest: providers fields joined against attempt logs, any mismatch is a finding. Recheck 2026-11-29. — BOSS UNFREEZE 2026-11-23: the failure was a goose action-cap truncation mid-work, not a task defect; the work copy out/pool-059/manager.py was modified AFTER the failure stamp. Resume from that copy; do not restart from scratch. — MEETING AMENDMENT 2026-11-23 (help-mechanism meeting ruling 1, transcript meetings/20261123T044829Z.md): (a) failure classification is written AT record time in record_help_failure: class in {acceptance, selftest, upstream} alongside the providers field; (b) backfill the 19 existing help-cooldown.json records from the pool-072 datapack (out/pool-060/digest-datapack.md) — records that cannot be classified from evidence are marked unknown, never guessed; (c) EFFECT MEASUREMENT (security challenge, adopted): every help dispatch records dispatch timestamp + target task id in its help event; the pool line watch re-reads the target board after 2 of the helped line's manager cycles and writes help.advanced or help.no_advance — \"advanced\" means the target task changed state (claim/start/settle) inside the window; (d) metrics added: classification coverage 19/19 by 2026-11-30; advancement rate baseline from the decomposition task, target >=80%; recheck 2026-12-03 digest. — BOSS AMENDMENT 2 2026-11-23 (IAO distillation): the advancement write-backs aggregate per HELPER MODEL into the existing digest pool-health face (helper model -> dispatched / advanced / no_advance), so repeat no-advance helpers are deprioritized through the existing bandit shadow scores. No new analytics module; no busy-rate metric anywhere in the system. — BOSS AMENDMENT 3 2026-11-23 (from the accepted pool-085 decomposition): the help.completed writer must propagate assigner + dispatch_path (idle_sweep | reinforce_ticket | manual) + dispatch_timestamp from the dispatch decision into the event (extend the writer's allowed fields or encode in evidence_pointer); same-(helped,task) echoes from multiple helper lines must collapse or be marked echo; writer selftests must NEVER write to the production stream with event_class real (use a drill stream). Acceptance: the next 10 production help events all carry the three fields and zero selftest rows appear in the production stream. (completion claimed by pool-optimization-seat-1-12644-7c6dc7e0 2026-11-24T12:14:41Z - pending boss ~~acceptance~~ REJECTED by boss 2026-11-24) — BOSS REJECTED 2026-11-24 ~20:25: the claim is VOID. The worker's own SEGMENT3-STATUS-20261124T1215Z.md and result.txt state Segment 3 is unmet (0/0 post-merge help events; the observer exits 1 'merged, awaiting a real help-failure cycle'); the claim's stated basis was the verbatim-marker satisfiability already recorded as a FALSE-PASS HAZARD. Segments 1-2 stand verified live (production manager.py anchors present, 66/66 cooldown records carry the class field, zero selftest rows in the production stream). The task stays OPEN: acceptance requires ONE real post-merge help-failure cycle (cooldown record with the new fields + the dispatch log exclusion line) - no marker-only claim will be accepted. The two environmental blockers are now fixed by the boss: manager_watch crash loop (0-byte state file) repaired 2026-11-24 ~20:20 and the plan-gate dual-directory resolution repaired the same evening, so the next natural cycle can produce the evidence. [BOSS NOTE 2026-11-25: event-gated - do NOT claim until one real post-merge help-failure cycle exists (cooldown record with new fields + dispatch-log exclusion line); the watcher poller reports the event to the boss, who then ungates. Repeated claim/void churn on this line today (17 stall records) is hereby stopped.]"
           },
           {
             "full": true,
-            "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查 crowllm、token-harbor、packet-ai、merkium、moss、numes、routeway、unorouter、amd-tokenlab、google-ai-studio 的官方公告/定价/更新日志页，只报相对 2026-11-22 基线的变化；不探活、不调模型 API、不做账号操作。 [inputs: fleet-ops/sweep-20261123-inputs/registry-snapshot.json, fleet-ops/sweep-20261123-inputs/diff.md] | patrol-segC.md | out/pool-064-segc/patrol.md 存在：每家带来源 URL + 抓取时间（UTC）+ 与 staged diff 对账的判定；查不到就写明查不到与证据，不许无来源断言、不许一句话模板 [BOSS NOTE 2026-11-26: two claims died silently today (voided 16:34Z start-evidence; re-claimed 16:41:59Z then executor-silent 648s, zero deliverables - the second claim collided with the boss proxy restart for the sol-mute landing). Boss is executing this segment directly; executor for this run: deepseek-ai/DeepSeek-V3.2. The stale claims are superseded by the boss execution.] [BOSS NOTE 2026-11-26b: the third claim (17:20:26Z) is VOID - silent, zero deliverables; boss direct-dispatch correction run in flight, line closes on its delivery.] (claimed-by pool-optimization-seat-1-14385-22d9c488 2026-11-25T17:27:02Z)"
+            "title": "[judgment] [boss-accept] [executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查 crowllm、token-harbor、packet-ai、merkium、moss、numes、routeway、unorouter、amd-tokenlab、google-ai-studio 的官方公告/定价/更新日志页，只报相对 2026-11-22 基线的变化；不探活、不调模型 API、不做账号操作。 [inputs: fleet-ops/sweep-20261123-inputs/registry-snapshot.json, fleet-ops/sweep-20261123-inputs/diff.md] | patrol-segC.md | out/pool-064-segc/patrol.md 存在：每家带来源 URL + 抓取时间（UTC）+ 与 staged diff 对账的判定；查不到就写明查不到与证据，不许无来源断言、不许一句话模板 [BOSS NOTE 2026-11-26: two claims died silently today (voided 16:34Z start-evidence; re-claimed 16:41:59Z then executor-silent 648s, zero deliverables - the second claim collided with the boss proxy restart for the sol-mute landing). Boss is executing this segment directly; executor for this run: deepseek-ai/DeepSeek-V3.2. The stale claims are superseded by the boss execution.] [BOSS NOTE 2026-11-26b: the third claim (17:20:26Z) is VOID - silent, zero deliverables; boss direct-dispatch correction run in flight, line closes on its delivery.] (claimed-by pool-optimization-seat-1-14385-22d9c488 2026-11-25T17:30:04Z)"
           }
         ],
         "open": 7
