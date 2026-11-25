@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-25T11:14:21Z",
+    "activity_generated_at": "2026-11-25T11:16:41Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-25T11:11:59Z",
         "claimed_by": "operations",
         "claimed_by_zh": "运维",
-        "claimed_for": "2分钟",
+        "claimed_for": "4分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-25T11:11:59Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "2分钟",
-      "elapsed_sec": 142,
+      "elapsed": "4分钟",
+      "elapsed_sec": 282,
       "last_cycle_ended": "2026-11-25T11:12:12Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -35,14 +35,14 @@
         "claimed_at": "2026-11-25T11:05:01Z",
         "claimed_by": "pool-optimization-seat-1-51183-448f818b",
         "claimed_by_zh": "池优化 席位51183",
-        "claimed_for": "9分钟",
+        "claimed_for": "11分钟",
         "task_id": "pool-064",
         "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…"
       },
       "cycle_started_at": "2026-11-25T11:05:01Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "9分钟",
-      "elapsed_sec": 560,
+      "elapsed": "11分钟",
+      "elapsed_sec": 700,
       "last_cycle_ended": "2026-11-25T11:12:05Z",
       "name_zh": "池优化",
       "state": "running",
@@ -106,11 +106,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 142,
+          "claimed_age_sec": 282,
           "claimed_at": "2026-11-25T11:11:59Z",
           "claimed_by": "operations",
           "claimed_by_zh": "运维",
-          "claimed_for": "2分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -132,22 +132,22 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 560,
+          "claimed_age_sec": 700,
           "claimed_at": "2026-11-25T11:05:01Z",
           "claimed_by": "pool-optimization-seat-1-51183-448f818b",
           "claimed_by_zh": "池优化 席位51183",
-          "claimed_for": "9分钟",
+          "claimed_for": "11分钟",
           "task_id": "pool-054",
           "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 560,
+          "claimed_age_sec": 700,
           "claimed_at": "2026-11-25T11:05:01Z",
           "claimed_by": "pool-optimization-seat-1-51183-448f818b",
           "claimed_by_zh": "池优化 席位51183",
-          "claimed_for": "9分钟",
+          "claimed_for": "11分钟",
           "task_id": "pool-064",
           "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
           "workstream": "pool-optimization"
@@ -203,33 +203,33 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 560,
+      "claimed_age_sec": 700,
       "claimed_at": "2026-11-25T11:05:01Z",
       "claimed_by": "pool-optimization-seat-1-51183-448f818b",
       "claimed_by_zh": "池优化 席位51183",
-      "claimed_for": "9分钟",
+      "claimed_for": "11分钟",
       "task_id": "pool-054",
       "title": "Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 560,
+      "claimed_age_sec": 700,
       "claimed_at": "2026-11-25T11:05:01Z",
       "claimed_by": "pool-optimization-seat-1-51183-448f818b",
       "claimed_by_zh": "池优化 席位51183",
-      "claimed_for": "9分钟",
+      "claimed_for": "11分钟",
       "task_id": "pool-064",
       "title": "每周供应商巡查—公告巡查（2026-11-23 轮，cron provider-landscape-weekly-sweep）：按简报巡查全部在…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 142,
+      "claimed_age_sec": 282,
       "claimed_at": "2026-11-25T11:11:59Z",
       "claimed_by": "operations",
       "claimed_by_zh": "运维",
-      "claimed_for": "2分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
@@ -268,12 +268,36 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-25T11:14:21Z",
-  "generated_at_utc": "2026-11-25T11:14:21Z",
+  "generated_at": "2026-11-25T11:16:41Z",
+  "generated_at_utc": "2026-11-25T11:16:41Z",
   "live_pi_workers": {
-    "by_model": {},
-    "running": [],
-    "total": 0
+    "by_model": {
+      "ai-cf-sol/gpt-6.1-sol–free": 2,
+      "xingchi/gpt-6.1-sol": 2
+    },
+    "running": [
+      {
+        "model": "ai-cf-sol/gpt-6.1-sol–free",
+        "pid": 55811,
+        "title": "Execute the spreadimpl-gpt task exactly as specified in brief.md in this directo"
+      },
+      {
+        "model": "ai-cf-sol/gpt-6.1-sol–free",
+        "pid": 55813,
+        "title": "Execute the spreadimpl-gpt task exactly as specified in brief.md in this directo"
+      },
+      {
+        "model": "xingchi/gpt-6.1-sol",
+        "pid": 56665,
+        "title": "Execute the crowprof-gpt task per brief.md in this directory: script-first (writ"
+      },
+      {
+        "model": "xingchi/gpt-6.1-sol",
+        "pid": 56666,
+        "title": "Execute the crowprof-gpt task per brief.md in this directory: script-first (writ"
+      }
+    ],
+    "total": 4
   },
   "managers": [
     {
@@ -387,7 +411,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 140
+        "used": 142
       },
       {
         "cap": 500,
@@ -395,7 +419,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 68
+        "used": 73
       },
       {
         "cap": 500,
@@ -403,7 +427,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 68
+        "used": 73
       },
       {
         "cap": 500,
@@ -411,7 +435,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 29
+        "used": 34
       },
       {
         "cap": 500,
@@ -419,7 +443,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 29
+        "used": 34
       },
       {
         "cap": 1000,
@@ -427,7 +451,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 8
+        "used": 9
       },
       {
         "cap": 1000,
@@ -435,7 +459,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 1000,
@@ -443,7 +467,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 6
+        "used": 7
       },
       {
         "cap": 7000,
@@ -451,7 +475,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 8
+        "used": 9
       },
       {
         "cap": 300,
@@ -643,7 +667,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 66
+        "used": 71
       },
       {
         "cap": 20000,
@@ -723,7 +747,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 72
+        "used": 77
       },
       {
         "cap": 20000,
@@ -803,7 +827,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 64
+        "used": 68
       },
       {
         "cap": 1000,
@@ -1107,7 +1131,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 39
+        "used": 40
       },
       {
         "cap": 300,
@@ -1123,7 +1147,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 42
+        "used": 43
       },
       {
         "cap": 300,
@@ -1419,7 +1443,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 79
+        "used": 83
       },
       {
         "cap": 200000,
@@ -1427,7 +1451,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 76
+        "used": 79
       },
       {
         "cap": 200000,
@@ -1435,7 +1459,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 76
+        "used": 79
       },
       {
         "cap": 200000,
@@ -1443,7 +1467,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 74
+        "used": 77
       },
       {
         "cap": 3000,
@@ -1599,7 +1623,7 @@
         "healthy": true,
         "model": "XingChenAGI/Xing4.0-29B",
         "provider": "siliconflow",
-        "used": 140
+        "used": 142
       },
       {
         "cap": 500,
@@ -1607,7 +1631,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 68
+        "used": 73
       },
       {
         "cap": 500,
@@ -1615,7 +1639,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 68
+        "used": 73
       },
       {
         "cap": 500,
@@ -1623,7 +1647,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova-2",
-        "used": 29
+        "used": 34
       },
       {
         "cap": 500,
@@ -1631,7 +1655,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova-2",
-        "used": 29
+        "used": 34
       },
       {
         "cap": 1000,
@@ -1639,7 +1663,7 @@
         "healthy": true,
         "model": "qwen/qwen3.8-27b",
         "provider": "groq",
-        "used": 8
+        "used": 9
       },
       {
         "cap": 1000,
@@ -1647,7 +1671,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-120b",
         "provider": "groq",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 1000,
@@ -1655,7 +1679,7 @@
         "healthy": true,
         "model": "openai/gpt-oss-20b",
         "provider": "groq",
-        "used": 6
+        "used": 7
       },
       {
         "cap": 7000,
@@ -1663,7 +1687,7 @@
         "healthy": true,
         "model": "allam-2-7b",
         "provider": "groq",
-        "used": 8
+        "used": 9
       },
       {
         "cap": 300,
@@ -1855,7 +1879,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 66
+        "used": 71
       },
       {
         "cap": 20000,
@@ -1935,7 +1959,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 72
+        "used": 77
       },
       {
         "cap": 20000,
@@ -2015,7 +2039,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 64
+        "used": 68
       },
       {
         "cap": 1000,
@@ -2319,7 +2343,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 39
+        "used": 40
       },
       {
         "cap": 300,
@@ -2335,7 +2359,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 42
+        "used": 43
       },
       {
         "cap": 300,
@@ -2631,7 +2655,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 79
+        "used": 83
       },
       {
         "cap": 200000,
@@ -2639,7 +2663,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 76
+        "used": 79
       },
       {
         "cap": 200000,
@@ -2647,7 +2671,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 76
+        "used": 79
       },
       {
         "cap": 200000,
@@ -2655,7 +2679,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 74
+        "used": 77
       },
       {
         "cap": 3000,
@@ -2761,7 +2785,7 @@
   },
   "recent_completions": [
     {
-      "age_sec": 129,
+      "age_sec": 269,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-25T11:12:12Z",
       "completed_by": "operations",
@@ -2773,7 +2797,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 135,
+      "age_sec": 275,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T11:12:05Z",
       "completed_by": "pool-optimization-seat-1-51183-448f818b",
@@ -2785,7 +2809,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 843,
+      "age_sec": 983,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T11:00:18Z",
       "completed_by": "pool-optimization-seat-1-51183-448f818b",
@@ -2797,7 +2821,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 5277,
+      "age_sec": 5417,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T09:46:23Z",
       "completed_by": "pool-optimization-seat-1-34301-1dbae290",
@@ -2809,7 +2833,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 6164,
+      "age_sec": 6304,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T09:31:36Z",
       "completed_by": "pool-optimization-seat-1-29659-65c5a228",
@@ -2821,7 +2845,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 14015,
+      "age_sec": 14155,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T07:20:45Z",
       "completed_by": null,
@@ -2833,7 +2857,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 14106,
+      "age_sec": 14246,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T07:19:14Z",
       "completed_by": null,
@@ -2845,7 +2869,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 14153,
+      "age_sec": 14293,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T07:18:27Z",
       "completed_by": null,
@@ -2857,7 +2881,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 14162,
+      "age_sec": 14302,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T07:18:18Z",
       "completed_by": null,
@@ -2869,7 +2893,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 14170,
+      "age_sec": 14310,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T07:18:10Z",
       "completed_by": "pool-optimization-seat-1-4843-5aa0abe3",
@@ -2888,12 +2912,66 @@
     "total": 58
   },
   "workers": {
-    "by_model": {},
-    "running": [],
-    "total": 0
+    "by_model": {
+      "ai-cf-sol/gpt-6.1-sol–free": 2,
+      "xingchi/gpt-6.1-sol": 2
+    },
+    "running": [
+      {
+        "model": "ai-cf-sol/gpt-6.1-sol–free",
+        "pid": 55811,
+        "title": "Execute the spreadimpl-gpt task exactly as specified in brief.md in this directo"
+      },
+      {
+        "model": "ai-cf-sol/gpt-6.1-sol–free",
+        "pid": 55813,
+        "title": "Execute the spreadimpl-gpt task exactly as specified in brief.md in this directo"
+      },
+      {
+        "model": "xingchi/gpt-6.1-sol",
+        "pid": 56665,
+        "title": "Execute the crowprof-gpt task per brief.md in this directory: script-first (writ"
+      },
+      {
+        "model": "xingchi/gpt-6.1-sol",
+        "pid": 56666,
+        "title": "Execute the crowprof-gpt task per brief.md in this directory: script-first (writ"
+      }
+    ],
+    "total": 4
   },
-  "workers_detail": [],
-  "workers_running": [],
+  "workers_detail": [
+    {
+      "count": 2,
+      "model": "ai-cf-sol/gpt-6.1-sol–free"
+    },
+    {
+      "count": 2,
+      "model": "xingchi/gpt-6.1-sol"
+    }
+  ],
+  "workers_running": [
+    {
+      "model": "ai-cf-sol/gpt-6.1-sol–free",
+      "pid": 55811,
+      "title": "Execute the spreadimpl-gpt task exactly as specified in brief.md in this directo"
+    },
+    {
+      "model": "ai-cf-sol/gpt-6.1-sol–free",
+      "pid": 55813,
+      "title": "Execute the spreadimpl-gpt task exactly as specified in brief.md in this directo"
+    },
+    {
+      "model": "xingchi/gpt-6.1-sol",
+      "pid": 56665,
+      "title": "Execute the crowprof-gpt task per brief.md in this directory: script-first (writ"
+    },
+    {
+      "model": "xingchi/gpt-6.1-sol",
+      "pid": 56666,
+      "title": "Execute the crowprof-gpt task per brief.md in this directory: script-first (writ"
+    }
+  ],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
