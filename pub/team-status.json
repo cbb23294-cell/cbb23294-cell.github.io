@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T18:58:27Z",
+    "activity_generated_at": "2026-11-26T19:00:47Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -25,18 +25,18 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-26T18:58:20Z",
+        "claimed_at": "2026-11-26T18:59:21Z",
         "claimed_by": "pool-optimization-seat-1-6072-2daf086a",
         "claimed_by_zh": "池优化 席位6072",
-        "claimed_for": "7秒",
+        "claimed_for": "86秒",
         "task_id": "pool-084",
         "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…"
       },
-      "cycle_started_at": "2026-11-26T18:58:20Z",
+      "cycle_started_at": "2026-11-26T18:59:21Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "7秒",
-      "elapsed_sec": 7,
-      "last_cycle_ended": "2026-11-26T18:58:22Z",
+      "elapsed": "86秒",
+      "elapsed_sec": 86,
+      "last_cycle_ended": "2026-11-26T18:59:39Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -110,18 +110,18 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 7,
-          "claimed_at": "2026-11-26T18:58:20Z",
+          "claimed_age_sec": 86,
+          "claimed_at": "2026-11-26T18:59:21Z",
           "claimed_by": "pool-optimization-seat-1-6072-2daf086a",
           "claimed_by_zh": "池优化 席位6072",
-          "claimed_for": "7秒",
+          "claimed_for": "86秒",
           "task_id": "pool-084",
           "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
           "workstream": "pool-optimization"
         }
       ],
       "done": 81,
-      "escalation_latest": "blocked-file: out/task-082/BLOCKED.md",
+      "escalation_latest": "blocked-file: out/task-084/BLOCKED.md",
       "name_zh": "池优化",
       "next_open": [
         "Pool tuning + slimming pass after the 140-entry expansion (boss filing…",
@@ -129,7 +129,7 @@
         "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…"
       ],
       "open": 3,
-      "status_updated": "2026-11-26T18:58:21Z",
+      "status_updated": "2026-11-26T18:59:40Z",
       "total": 84,
       "workstream": "pool-optimization"
     },
@@ -170,17 +170,17 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 7,
-      "claimed_at": "2026-11-26T18:58:20Z",
+      "claimed_age_sec": 86,
+      "claimed_at": "2026-11-26T18:59:21Z",
       "claimed_by": "pool-optimization-seat-1-6072-2daf086a",
       "claimed_by_zh": "池优化 席位6072",
-      "claimed_for": "7秒",
+      "claimed_for": "86秒",
       "task_id": "pool-084",
       "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
       "workstream": "pool-optimization"
     }
   ],
-  "content_latest_at": "2026-11-26T18:58:21Z",
+  "content_latest_at": "2026-11-26T18:59:40Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 385,
@@ -198,9 +198,9 @@
       "latest": "level: manager (retry budget exhausted; lowest level could not fix it)"
     },
     "pool-optimization": {
-      "dropped_hash_keys": 273,
+      "dropped_hash_keys": 274,
       "exists": true,
-      "latest": "blocked-file: out/task-082/BLOCKED.md"
+      "latest": "blocked-file: out/task-084/BLOCKED.md"
     },
     "security": {
       "dropped_hash_keys": 10,
@@ -213,25 +213,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T18:58:27Z",
-  "generated_at_utc": "2026-11-26T18:58:27Z",
+  "generated_at": "2026-11-26T19:00:47Z",
+  "generated_at_utc": "2026-11-26T19:00:47Z",
   "live_pi_workers": {
-    "by_model": {
-      "wusrouter/codex/gpt-5:free": 2
-    },
-    "running": [
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 6358,
-        "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from t"
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 6359,
-        "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from t"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -599,7 +586,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 6
+        "used": 7
       },
       {
         "cap": 20000,
@@ -679,7 +666,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 6
+        "used": 7
       },
       {
         "cap": 20000,
@@ -687,7 +674,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -695,7 +682,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -703,7 +690,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -711,7 +698,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -719,7 +706,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -727,7 +714,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -735,7 +722,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -743,7 +730,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -751,7 +738,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 200000,
@@ -1295,7 +1282,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 179
+        "used": 186
       },
       {
         "cap": 300,
@@ -1303,7 +1290,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -1311,7 +1298,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -1319,7 +1306,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -1327,7 +1314,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -1335,7 +1322,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -1343,7 +1330,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -1351,7 +1338,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -1359,7 +1346,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -1367,7 +1354,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -1375,7 +1362,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -1383,7 +1370,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -1391,7 +1378,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -1801,7 +1788,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 6
+        "used": 7
       },
       {
         "cap": 20000,
@@ -1881,7 +1868,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 6
+        "used": 7
       },
       {
         "cap": 20000,
@@ -1889,7 +1876,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -1897,7 +1884,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -1905,7 +1892,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -1913,7 +1900,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -1921,7 +1908,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -1929,7 +1916,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -1937,7 +1924,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -1945,7 +1932,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 20000,
@@ -1953,7 +1940,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 4
+        "used": 5
       },
       {
         "cap": 200000,
@@ -2497,7 +2484,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 179
+        "used": 186
       },
       {
         "cap": 300,
@@ -2505,7 +2492,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -2513,7 +2500,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -2521,7 +2508,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -2529,7 +2516,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -2537,7 +2524,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -2545,7 +2532,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -2553,7 +2540,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -2561,7 +2548,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -2569,7 +2556,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -2577,7 +2564,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -2585,7 +2572,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -2593,7 +2580,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 9
+        "used": 10
       },
       {
         "cap": 300,
@@ -2699,9 +2686,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 4,
+      "age_sec": 67,
       "board_zh": "池优化",
-      "completed_at": "2026-11-26T18:58:22Z",
+      "completed_at": "2026-11-26T18:59:39Z",
       "completed_by": "pool-optimization-seat-1-6072-2daf086a",
       "completed_by_zh": "池优化 席位6072",
       "completed_ts_source": "result.txt",
@@ -2711,7 +2698,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 2236,
+      "age_sec": 2376,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T18:21:10Z",
       "completed_by": null,
@@ -2723,7 +2710,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 11185,
+      "age_sec": 11325,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T15:52:01Z",
       "completed_by": "operations",
@@ -2735,7 +2722,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 86453,
+      "age_sec": 86593,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2747,7 +2734,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 86562,
+      "age_sec": 86702,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2759,7 +2746,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 86635,
+      "age_sec": 86775,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2771,7 +2758,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 86642,
+      "age_sec": 86782,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2783,7 +2770,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 87543,
+      "age_sec": 87683,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2795,7 +2782,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 91398,
+      "age_sec": 91538,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2807,7 +2794,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 91688,
+      "age_sec": 91828,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2826,41 +2813,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "wusrouter/codex/gpt-5:free": 2
-    },
-    "running": [
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 6358,
-        "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from t"
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 6359,
-        "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from t"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 2,
-      "model": "wusrouter/codex/gpt-5:free"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "wusrouter/codex/gpt-5:free",
-      "pid": 6358,
-      "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from t"
-    },
-    {
-      "model": "wusrouter/codex/gpt-5:free",
-      "pid": 6359,
-      "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from t"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -2903,14 +2861,14 @@
     "pool-optimization": {
       "escalation": {
         "exists": true,
-        "latest": "- key=b253d6eb9e6e"
+        "latest": "- key=8ac6cf6390b0"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-26T18:58:21Z"
+        "updated": "2026-11-26T18:59:40Z"
       },
       "tasks": {
         "done": 81,
@@ -2926,7 +2884,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from the user's status check): two measured defects in the help machinery's EVIDENCE layer (the dispatch machinery itself works - 111 re-dispatch log lines 2026-11-24..26). (1) CLASSIFIER MISFIRE: the production help-cooldown.json record for the 2026-11-26T18:18Z task-018 cycle carries class=\"selftest\" for a REAL production help failure (providers=[wusrouter], fails=153) - record_help_failure's classification keys off marker words in the task text (clou-018's acceptance text contains 'selftest'). Classification must come from the failure's own evidence (attempt outcomes / exit / selftest run attached to THIS dispatch), never from task-text wording; unclassifiable = unknown. (2) ATTRIBUTION VOID: help_dispatches.jsonl holds 150 rows (2026-11-24T12:14Z..2026-11-26T18:18Z), ALL dispatch_path=\"manual\" and ALL verdict=\"no_advance\" - zero rows recorded as idle_sweep although the idle sweep runs every watch cycle and cross-line help demonstrably happened (e.g. pool-optimization -> cloud-script-migration task-018). Either the sweep never dispatches or its provenance is lost before the writer runs; find which, fix it so the dispatch decision's provenance (assigner + dispatch_path + dispatch_timestamp, pool-054 amendment 3) is carried INTO the event at dispatch time. Acceptance (production-path evidence, no marker-only claims): (a) a drill task whose text contains the word 'selftest' but whose help attempt fails upstream records class=upstream (or unknown), never selftest; (b) the next 10 production help events carry dispatch_path values matching their true trigger, with at least one idle_sweep row if the sweep fires in that window - or a written finding, backed by sweep logs, that the sweep genuinely never had an eligible (ready-task + idle-float) moment, itself then filed as the next defect; (c) manager selftest + manager-watch selftest full pass. This task does NOT unfreeze pool-054; its segment-3 gate still needs one real cycle whose cooldown record is correctly classified. | manager.py record_help_failure + help event writer; tasks/pool-optimization/manager_watch.py float_sweep/help verdict pass | drill evidence + 10-event production sample in out/<task>/deliverable.md (claimed-by pool-optimization-seat-1-6072-2daf086a 2026-11-26T18:58:20Z)"
+            "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from the user's status check): two measured defects in the help machinery's EVIDENCE layer (the dispatch machinery itself works - 111 re-dispatch log lines 2026-11-24..26). (1) CLASSIFIER MISFIRE: the production help-cooldown.json record for the 2026-11-26T18:18Z task-018 cycle carries class=\"selftest\" for a REAL production help failure (providers=[wusrouter], fails=153) - record_help_failure's classification keys off marker words in the task text (clou-018's acceptance text contains 'selftest'). Classification must come from the failure's own evidence (attempt outcomes / exit / selftest run attached to THIS dispatch), never from task-text wording; unclassifiable = unknown. (2) ATTRIBUTION VOID: help_dispatches.jsonl holds 150 rows (2026-11-24T12:14Z..2026-11-26T18:18Z), ALL dispatch_path=\"manual\" and ALL verdict=\"no_advance\" - zero rows recorded as idle_sweep although the idle sweep runs every watch cycle and cross-line help demonstrably happened (e.g. pool-optimization -> cloud-script-migration task-018). Either the sweep never dispatches or its provenance is lost before the writer runs; find which, fix it so the dispatch decision's provenance (assigner + dispatch_path + dispatch_timestamp, pool-054 amendment 3) is carried INTO the event at dispatch time. Acceptance (production-path evidence, no marker-only claims): (a) a drill task whose text contains the word 'selftest' but whose help attempt fails upstream records class=upstream (or unknown), never selftest; (b) the next 10 production help events carry dispatch_path values matching their true trigger, with at least one idle_sweep row if the sweep fires in that window - or a written finding, backed by sweep logs, that the sweep genuinely never had an eligible (ready-task + idle-float) moment, itself then filed as the next defect; (c) manager selftest + manager-watch selftest full pass. This task does NOT unfreeze pool-054; its segment-3 gate still needs one real cycle whose cooldown record is correctly classified. | manager.py record_help_failure + help event writer; tasks/pool-optimization/manager_watch.py float_sweep/help verdict pass | drill evidence + 10-event production sample in out/<task>/deliverable.md (claimed-by pool-optimization-seat-1-6072-2daf086a 2026-11-26T18:59:21Z)"
           }
         ],
         "open": 3
