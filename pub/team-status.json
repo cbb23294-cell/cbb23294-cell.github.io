@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T10:26:49Z",
+    "activity_generated_at": "2026-11-26T10:29:29Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -12,18 +12,18 @@
       "active_jobs": 0,
       "claimed_count": 2,
       "current_task": {
-        "claimed_at": "2026-11-26T10:25:24Z",
-        "claimed_by": "float",
-        "claimed_by_zh": "机动",
-        "claimed_for": "86秒",
-        "task_id": "clou-016",
-        "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…"
+        "claimed_at": "2026-11-26T10:27:39Z",
+        "claimed_by": "security",
+        "claimed_by_zh": "安全",
+        "claimed_for": "1分钟",
+        "task_id": "clou-018",
+        "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
-      "cycle_started_at": "2026-11-26T10:17:39Z",
+      "cycle_started_at": "2026-11-26T10:25:24Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "9分钟",
-      "elapsed_sec": 551,
-      "last_cycle_ended": "2026-11-26T10:26:46Z",
+      "elapsed": "4分钟",
+      "elapsed_sec": 246,
+      "last_cycle_ended": "2026-11-26T10:28:38Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,29 +99,29 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 551,
-          "claimed_at": "2026-11-26T10:17:39Z",
-          "claimed_by": "security",
-          "claimed_by_zh": "安全",
-          "claimed_for": "9分钟",
-          "task_id": "clou-018",
-          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+          "claimed_age_sec": 246,
+          "claimed_at": "2026-11-26T10:25:24Z",
+          "claimed_by": "float",
+          "claimed_by_zh": "机动",
+          "claimed_for": "4分钟",
+          "task_id": "clou-016",
+          "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 86,
-          "claimed_at": "2026-11-26T10:25:24Z",
-          "claimed_by": "float",
-          "claimed_by_zh": "机动",
-          "claimed_for": "86秒",
-          "task_id": "clou-016",
-          "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+          "claimed_age_sec": 111,
+          "claimed_at": "2026-11-26T10:27:39Z",
+          "claimed_by": "security",
+          "claimed_by_zh": "安全",
+          "claimed_for": "1分钟",
+          "task_id": "clou-018",
+          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
         }
       ],
       "done": 22,
-      "escalation_latest": "runner exit: 0",
+      "escalation_latest": "BLOCKED.md: reason: Live VPS installation and GitHub-only test publication require an authorized boss-relay execution path that is…",
       "name_zh": "云脚本迁移",
       "next_open": [
         "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
@@ -183,33 +183,33 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 551,
-      "claimed_at": "2026-11-26T10:17:39Z",
-      "claimed_by": "security",
-      "claimed_by_zh": "安全",
-      "claimed_for": "9分钟",
-      "task_id": "clou-018",
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "claimed_age_sec": 246,
+      "claimed_at": "2026-11-26T10:25:24Z",
+      "claimed_by": "float",
+      "claimed_by_zh": "机动",
+      "claimed_for": "4分钟",
+      "task_id": "clou-016",
+      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 86,
-      "claimed_at": "2026-11-26T10:25:24Z",
-      "claimed_by": "float",
-      "claimed_by_zh": "机动",
-      "claimed_for": "86秒",
-      "task_id": "clou-016",
-      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+      "claimed_age_sec": 111,
+      "claimed_at": "2026-11-26T10:27:39Z",
+      "claimed_by": "security",
+      "claimed_by_zh": "安全",
+      "claimed_for": "1分钟",
+      "task_id": "clou-018",
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
   "content_latest_at": "2026-11-26T10:26:37Z",
   "escalations_human": {
     "cloud-script-migration": {
-      "dropped_hash_keys": 362,
+      "dropped_hash_keys": 363,
       "exists": true,
-      "latest": "runner exit: 0"
+      "latest": "BLOCKED.md: reason: Live VPS installation and GitHub-only test publication require an authorized boss-relay execution path that is…"
     },
     "float": {
       "dropped_hash_keys": 208,
@@ -237,8 +237,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T10:26:50Z",
-  "generated_at_utc": "2026-11-26T10:26:50Z",
+  "generated_at": "2026-11-26T10:29:30Z",
+  "generated_at_utc": "2026-11-26T10:29:30Z",
   "live_pi_workers": {
     "by_model": {
       "numes/deepseek/deepseek-v4.1-flash:free": 4
@@ -1145,7 +1145,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 179
+        "used": 186
       },
       {
         "cap": 300,
@@ -1433,7 +1433,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -1441,7 +1441,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -1449,7 +1449,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -1457,7 +1457,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -1465,7 +1465,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -1473,7 +1473,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -1481,7 +1481,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -1489,7 +1489,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -1497,7 +1497,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -1505,7 +1505,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -1513,7 +1513,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -1521,7 +1521,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       }
     ],
     "healthy_entries": 149,
@@ -2347,7 +2347,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 179
+        "used": 186
       },
       {
         "cap": 300,
@@ -2635,7 +2635,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -2643,7 +2643,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -2651,7 +2651,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -2659,7 +2659,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -2667,7 +2667,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -2675,7 +2675,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -2683,7 +2683,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -2691,7 +2691,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -2699,7 +2699,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -2707,7 +2707,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -2715,7 +2715,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       },
       {
         "cap": 3000,
@@ -2723,7 +2723,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 308
+        "used": 311
       }
     ],
     "healthy_entries": 149,
@@ -2733,9 +2733,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 3,
+      "age_sec": 51,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T10:26:46Z",
+      "completed_at": "2026-11-26T10:28:38Z",
       "completed_by": "float",
       "completed_by_zh": "机动",
       "completed_ts_source": "result.txt",
@@ -2745,9 +2745,9 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 100,
+      "age_sec": 85,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T10:25:09Z",
+      "completed_at": "2026-11-26T10:28:04Z",
       "completed_by": "security",
       "completed_by_zh": "安全",
       "completed_ts_source": "result.txt",
@@ -2757,7 +2757,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 55756,
+      "age_sec": 55915,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2769,7 +2769,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 55865,
+      "age_sec": 56025,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2781,7 +2781,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 55938,
+      "age_sec": 56098,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2793,7 +2793,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 55945,
+      "age_sec": 56105,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2805,7 +2805,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 56846,
+      "age_sec": 57006,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2817,7 +2817,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 60701,
+      "age_sec": 60861,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2829,7 +2829,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 60991,
+      "age_sec": 61151,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2841,7 +2841,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 61482,
+      "age_sec": 61642,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2919,7 +2919,7 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=d2a78d139ab7"
+        "latest": "- key=7ecc542c1861"
       },
       "status": {
         "exists": true,
@@ -2938,7 +2938,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (executed-by pool-optimization failed 2026-11-26T10:06:59Z) (claimed-by security 2026-11-26T10:17:39Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (claimed-by security 2026-11-26T10:27:39Z) (executed-by security failed 2026-11-26T10:28:05Z)"
           }
         ],
         "open": 2
