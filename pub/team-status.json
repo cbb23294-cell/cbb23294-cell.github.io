@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T18:36:00Z",
+    "activity_generated_at": "2026-11-26T18:38:15Z",
     "empty_reasons": {
       "claimed_now": "no open board task carries a live claim record",
       "recent_completions": null,
@@ -91,11 +91,11 @@
     {
       "claimed_now": [],
       "done": 24,
-      "escalation_latest": "BLOCKED.md: reason: Cannot complete production acceptance within the workspace restrictions: no authorized deployment/tick interface is…",
+      "escalation_latest": "2026-11-26T18:38:10Z ALERT pub_stale trigger=pub kind=collector_dead file=ai-quota-catalog.json local_state=stale local_age_sec=136444…",
       "name_zh": "云脚本迁移",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T18:22:04Z",
+      "status_updated": "2026-11-26T18:36:42Z",
       "total": 24,
       "workstream": "cloud-script-migration"
     },
@@ -109,7 +109,7 @@
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
       ],
       "open": 2,
-      "status_updated": "2026-11-26T18:33:38Z",
+      "status_updated": "2026-11-26T18:36:22Z",
       "total": 83,
       "workstream": "pool-optimization"
     },
@@ -120,7 +120,7 @@
       "name_zh": "安全",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T18:21:14Z",
+      "status_updated": "2026-11-26T18:36:26Z",
       "total": 15,
       "workstream": "security"
     },
@@ -131,7 +131,7 @@
       "name_zh": "运维",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T18:21:07Z",
+      "status_updated": "2026-11-26T18:36:16Z",
       "total": 20,
       "workstream": "operations"
     },
@@ -142,18 +142,18 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T18:22:24Z",
+      "status_updated": "2026-11-26T18:36:37Z",
       "total": 16,
       "workstream": "spaces-data"
     }
   ],
   "claimed_now": [],
-  "content_latest_at": "2026-11-26T18:33:38Z",
+  "content_latest_at": "2026-11-26T18:36:42Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 385,
       "exists": true,
-      "latest": "BLOCKED.md: reason: Cannot complete production acceptance within the workspace restrictions: no authorized deployment/tick interface is…"
+      "latest": "2026-11-26T18:38:10Z ALERT pub_stale trigger=pub kind=collector_dead file=ai-quota-catalog.json local_state=stale local_age_sec=136444…"
     },
     "float": {
       "dropped_hash_keys": 208,
@@ -181,8 +181,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T18:36:01Z",
-  "generated_at_utc": "2026-11-26T18:36:01Z",
+  "generated_at": "2026-11-26T18:38:16Z",
+  "generated_at_utc": "2026-11-26T18:38:16Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -1250,7 +1250,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 150
+        "used": 153
       },
       {
         "cap": 300,
@@ -2452,7 +2452,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 150
+        "used": 153
       },
       {
         "cap": 300,
@@ -2654,7 +2654,7 @@
   },
   "recent_completions": [
     {
-      "age_sec": 890,
+      "age_sec": 1025,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T18:21:10Z",
       "completed_by": null,
@@ -2666,7 +2666,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 9838,
+      "age_sec": 9973,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T15:52:01Z",
       "completed_by": "operations",
@@ -2678,7 +2678,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 85106,
+      "age_sec": 85241,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2690,7 +2690,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 85216,
+      "age_sec": 85351,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2702,7 +2702,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 85289,
+      "age_sec": 85424,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2714,7 +2714,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 85296,
+      "age_sec": 85431,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2726,7 +2726,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 86196,
+      "age_sec": 86331,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2738,7 +2738,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 90052,
+      "age_sec": 90187,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2750,7 +2750,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 90342,
+      "age_sec": 90477,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2762,7 +2762,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 90833,
+      "age_sec": 90968,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2791,14 +2791,14 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=bd16ff8f2c0b"
+        "latest": "2026-11-26T18:38:10Z ALERT pub_stale trigger=pub kind=collector_dead file=ai-quota-catalog.json local_state=stale local_age_sec=136444 primary_state=stale primary_age_sec=136444 github_state=stale github_age_sec=136444 threshold_sec=129600 action=collector/producer appears dead on ALL legs (local staging and both published copies stale): check the producing host and its timers (InstaBox lock/pause is the 2026-11-22 cause); republishing cannot help - there is no fresh payload anywhere; escalate to the boss."
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T18:22:04Z"
+        "updated": "2026-11-26T18:36:42Z"
       },
       "tasks": {
         "done": 24,
@@ -2817,7 +2817,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T18:21:07Z"
+        "updated": "2026-11-26T18:36:16Z"
       },
       "tasks": {
         "done": 20,
@@ -2836,7 +2836,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T18:33:38Z"
+        "updated": "2026-11-26T18:36:22Z"
       },
       "tasks": {
         "done": 81,
@@ -2864,7 +2864,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T18:21:14Z"
+        "updated": "2026-11-26T18:36:26Z"
       },
       "tasks": {
         "done": 15,
@@ -2883,7 +2883,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T18:22:24Z"
+        "updated": "2026-11-26T18:36:37Z"
       },
       "tasks": {
         "done": 16,
