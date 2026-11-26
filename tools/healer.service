@@ -1,0 +1,21 @@
+[Unit]
+Description=Pull newer published JSON faces from GitHub Pages
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/publish-redundancy-healer
+ExecStart=/usr/bin/python3 /opt/publish-redundancy-healer/healer.py /srv/migrate-pub
+TimeoutStartSec=5min
+UMask=0022
+NoNewPrivileges=true
+ProtectSystem=strict
+ReadWritePaths=/srv/migrate-pub
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+RestrictSUIDSGID=true
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=publish-redundancy-healer
