@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T07:05:45Z",
+    "activity_generated_at": "2026-11-26T07:08:15Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -10,20 +10,20 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 1,
+      "claimed_count": 2,
       "current_task": {
-        "claimed_at": "2026-11-26T07:03:55Z",
-        "claimed_by": "spaces-data",
-        "claimed_by_zh": "空间数据",
+        "claimed_at": "2026-11-26T07:06:35Z",
+        "claimed_by": "float",
+        "claimed_by_zh": "机动",
         "claimed_for": "1分钟",
-        "task_id": "clou-018",
-        "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
+        "task_id": "clou-016",
+        "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…"
       },
       "cycle_started_at": "2026-11-26T07:03:55Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "1分钟",
-      "elapsed_sec": 110,
-      "last_cycle_ended": "2026-11-26T07:04:30Z",
+      "elapsed": "4分钟",
+      "elapsed_sec": 260,
+      "last_cycle_ended": "2026-11-26T07:06:59Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,13 +99,24 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 110,
+          "claimed_age_sec": 260,
           "claimed_at": "2026-11-26T07:03:55Z",
           "claimed_by": "spaces-data",
           "claimed_by_zh": "空间数据",
-          "claimed_for": "1分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 100,
+          "claimed_at": "2026-11-26T07:06:35Z",
+          "claimed_by": "float",
+          "claimed_by_zh": "机动",
+          "claimed_for": "1分钟",
+          "task_id": "clou-016",
+          "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
           "workstream": "cloud-script-migration"
         }
       ],
@@ -131,7 +142,7 @@
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
       ],
       "open": 2,
-      "status_updated": "2026-11-26T07:01:08Z",
+      "status_updated": "2026-11-26T07:06:43Z",
       "total": 83,
       "workstream": "pool-optimization"
     },
@@ -172,20 +183,31 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 110,
+      "claimed_age_sec": 260,
       "claimed_at": "2026-11-26T07:03:55Z",
       "claimed_by": "spaces-data",
       "claimed_by_zh": "空间数据",
-      "claimed_for": "1分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 100,
+      "claimed_at": "2026-11-26T07:06:35Z",
+      "claimed_by": "float",
+      "claimed_by_zh": "机动",
+      "claimed_for": "1分钟",
+      "task_id": "clou-016",
+      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+      "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-26T07:01:08Z",
+  "content_latest_at": "2026-11-26T07:06:43Z",
   "escalations_human": {
     "cloud-script-migration": {
-      "dropped_hash_keys": 345,
+      "dropped_hash_keys": 346,
       "exists": true,
       "latest": "runner exit: 0"
     },
@@ -215,8 +237,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T07:05:45Z",
-  "generated_at_utc": "2026-11-26T07:05:45Z",
+  "generated_at": "2026-11-26T07:08:16Z",
+  "generated_at_utc": "2026-11-26T07:08:16Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -1388,7 +1410,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -1396,7 +1418,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -1404,7 +1426,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -1412,7 +1434,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -1420,7 +1442,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -1428,7 +1450,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -1436,7 +1458,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -1444,7 +1466,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -1452,7 +1474,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -1460,7 +1482,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -1468,7 +1490,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -1476,7 +1498,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       }
     ],
     "healthy_entries": 149,
@@ -2590,7 +2612,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -2598,7 +2620,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -2606,7 +2628,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -2614,7 +2636,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -2622,7 +2644,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -2630,7 +2652,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -2638,7 +2660,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -2646,7 +2668,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -2654,7 +2676,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -2662,7 +2684,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -2670,7 +2692,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       },
       {
         "cap": 3000,
@@ -2678,7 +2700,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
-        "used": 169
+        "used": 175
       }
     ],
     "healthy_entries": 149,
@@ -2688,7 +2710,19 @@
   },
   "recent_completions": [
     {
-      "age_sec": 74,
+      "age_sec": 76,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-26T07:06:59Z",
+      "completed_by": "float",
+      "completed_by_zh": "机动",
+      "completed_ts_source": "done",
+      "task_id": "clou-016",
+      "task_no": 16,
+      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 224,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T07:04:30Z",
       "completed_by": "spaces-data",
@@ -2700,7 +2734,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 43691,
+      "age_sec": 43841,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2712,7 +2746,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 43800,
+      "age_sec": 43950,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2724,7 +2758,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 43873,
+      "age_sec": 44023,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2736,7 +2770,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 43880,
+      "age_sec": 44030,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2748,7 +2782,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 44781,
+      "age_sec": 44931,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2760,7 +2794,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 48636,
+      "age_sec": 48786,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2772,7 +2806,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 48926,
+      "age_sec": 49076,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2784,7 +2818,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 49417,
+      "age_sec": 49568,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2793,18 +2827,6 @@
       "task_id": "pool-065",
       "task_no": 65,
       "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-23 轮拆分）：巡查…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 49439,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-25T17:21:45Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "done",
-      "task_id": "pool-066",
-      "task_no": 66,
-      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-B（硅基流动+商汤+100milionseek+智谱+Groq+O…",
       "workstream": "pool-optimization"
     }
   ],
@@ -2825,7 +2847,7 @@
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=09b4e79502fc"
+        "latest": "- key=ce98c1608452"
       },
       "status": {
         "exists": true,
@@ -2840,7 +2862,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second half; boss filing 2026-11-22 after [user-found] #17): install ON the BandwagonHost VPS a small script + systemd timer (5 min) that, for each of the 9 pub files (the stale-alarm manifest set + team-status.json), fetches the GitHub Pages copy and compares its payload stamp with the locally served /srv/migrate-pub copy; when GitHub is newer it replaces the served file atomically (tmp + rename, preserving ownership/permissions). Steady state runs entirely on the VPS (no SSH). The install itself is boss-relay: ONE SSH session with ControlMaster reuse - the 2026-11-22 abuse lock was caused by our own connection churn, never repeat that pattern. Acceptance (boss, from public URLs): a test payload published ONLY to GitHub appears on the primary endpoint within 2 timer cycles; before/after served stamps reported. | audit/pub-manifest-vm.json + migrate-glue/pub_mirror.py (the VM-side opposite-direction twin, live 2026-11-22) | served-stamp drill evidence [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - it was a pre-patch legacy freeze, never dispositioned; the gate now refuses every claim on this line, which is why this task sat idle. Task is executable tonight (20:00 list): claim freely.] [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim (17:56:11Z claim, 17:57:11Z completion) is VOID. Boss first-hand check: the primary endpoint STILL serves collectedAt 08:58:34Z - no GitHub-only payload has appeared on the primary, so the healer acceptance test fails on its own terms; the cited result.txt predates the claim (17:55:07Z) and its drill reports are from 12:59Z. Recycled evidence is not work. The healer remains unproven; do not re-claim without a plan the boss approves.] [BOSS REJECTED AGAIN 2026-11-24 ~05:38: third fake completion of this task - claimed by operations 21:33:46Z, \"completed\" 38s later. Boss re-ran the acceptance test first-hand: the primary endpoint STILL serves collectedAt 2026-11-23T08:58:34Z, so no GitHub-only payload has converged and the healer remains unproven; the evidence files are the same 12:59Z/16:22Z artifacts. The acceptance test is a public endpoint read - any line can verify it before claiming. Do NOT claim this task again without a boss-approved plan; the next claim without one will be treated as a line-integrity issue.] (frozen by auto-reject - boss review) [BOSS HARD LOCK 2026-11-24 ~05:39: three fake completions in one night (60s cloud claim, 60s cloud re-claim, 38s operations claim) - the boss owns this task now. The healer acceptance test requires a live channel to the VPS, which does not exist while the box is locked and SSH from the VM is reset; it will be executed or re-planned by the boss after the 2026-11-24 17:02 CST unlock.]"
+            "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second half; boss filing 2026-11-22 after [user-found] #17): install ON the BandwagonHost VPS a small script + systemd timer (5 min) that, for each of the 9 pub files (the stale-alarm manifest set + team-status.json), fetches the GitHub Pages copy and compares its payload stamp with the locally served /srv/migrate-pub copy; when GitHub is newer it replaces the served file atomically (tmp + rename, preserving ownership/permissions). Steady state runs entirely on the VPS (no SSH). The install itself is boss-relay: ONE SSH session with ControlMaster reuse - the 2026-11-22 abuse lock was caused by our own connection churn, never repeat that pattern. Acceptance (boss, from public URLs): a test payload published ONLY to GitHub appears on the primary endpoint within 2 timer cycles; before/after served stamps reported. | audit/pub-manifest-vm.json + migrate-glue/pub_mirror.py (the VM-side opposite-direction twin, live 2026-11-22) | served-stamp drill evidence [BOSS 2026-11-23 ~18:10: freeze marker STRIPPED - it was a pre-patch legacy freeze, never dispositioned; the gate now refuses every claim on this line, which is why this task sat idle. Task is executable tonight (20:00 list): claim freely.] [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim (17:56:11Z claim, 17:57:11Z completion) is VOID. Boss first-hand check: the primary endpoint STILL serves collectedAt 08:58:34Z - no GitHub-only payload has appeared on the primary, so the healer acceptance test fails on its own terms; the cited result.txt predates the claim (17:55:07Z) and its drill reports are from 12:59Z. Recycled evidence is not work. The healer remains unproven; do not re-claim without a plan the boss approves.] [BOSS REJECTED AGAIN 2026-11-24 ~05:38: third fake completion of this task - claimed by operations 21:33:46Z, \"completed\" 38s later. Boss re-ran the acceptance test first-hand: the primary endpoint STILL serves collectedAt 2026-11-23T08:58:34Z, so no GitHub-only payload has converged and the healer remains unproven; the evidence files are the same 12:59Z/16:22Z artifacts. The acceptance test is a public endpoint read - any line can verify it before claiming. Do NOT claim this task again without a boss-approved plan; the next claim without one will be treated as a line-integrity issue.] [BOSS HARD LOCK 2026-11-24 ~05:39: three fake completions in one night (60s cloud claim, 60s cloud re-claim, 38s operations claim) - the boss owns this task now. The healer acceptance test requires a live channel to the VPS, which does not exist while the box is locked and SSH from the VM is reset; it will be executed or re-planned by the boss after the 2026-11-24 17:02 CST unlock.] [BOSS RULING 2026-11-26 (meetings/20261126-clou016-note.md): freeze LIFTED, boss executes personally. Path: browser capability check of KiwiVM panel + Huawei console first; install via whichever door opens, production-write gate applies (snapshot before install, external rescan after). R3 FREEZE WINDOW: while the boss installs, NO other line changes firewall/panel config on either VPS. Fallback if both doors are shut: Cloady mirror becomes the standing second leg and this task closes with that note.] (claimed-by float 2026-11-26T07:06:35Z) (executed-by float failed 2026-11-26T07:07:00Z)"
           },
           {
             "full": true,
@@ -2879,7 +2901,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T07:01:08Z"
+        "updated": "2026-11-26T07:06:43Z"
       },
       "tasks": {
         "done": 81,
