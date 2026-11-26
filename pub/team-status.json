@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T01:57:29Z",
+    "activity_generated_at": "2026-11-26T01:59:54Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-26T01:51:39Z",
         "claimed_by": "spaces-data",
         "claimed_by_zh": "空间数据",
-        "claimed_for": "5分钟",
+        "claimed_for": "8分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-26T01:51:39Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "5分钟",
-      "elapsed_sec": 351,
+      "elapsed": "8分钟",
+      "elapsed_sec": 495,
       "last_cycle_ended": "2026-11-26T01:57:13Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -99,11 +99,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 351,
+          "claimed_age_sec": 495,
           "claimed_at": "2026-11-26T01:51:39Z",
           "claimed_by": "spaces-data",
           "claimed_by_zh": "空间数据",
-          "claimed_for": "5分钟",
+          "claimed_for": "8分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -117,7 +117,7 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 2,
-      "status_updated": "2026-11-26T01:41:49Z",
+      "status_updated": "2026-11-26T01:57:34Z",
       "total": 24,
       "workstream": "cloud-script-migration"
     },
@@ -142,7 +142,7 @@
       "name_zh": "安全",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T01:42:10Z",
+      "status_updated": "2026-11-26T01:58:01Z",
       "total": 15,
       "workstream": "security"
     },
@@ -153,7 +153,7 @@
       "name_zh": "运维",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T01:42:29Z",
+      "status_updated": "2026-11-26T01:57:45Z",
       "total": 20,
       "workstream": "operations"
     },
@@ -164,7 +164,7 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T01:42:10Z",
+      "status_updated": "2026-11-26T01:58:01Z",
       "total": 16,
       "workstream": "spaces-data"
     }
@@ -172,17 +172,17 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 351,
+      "claimed_age_sec": 495,
       "claimed_at": "2026-11-26T01:51:39Z",
       "claimed_by": "spaces-data",
       "claimed_by_zh": "空间数据",
-      "claimed_for": "5分钟",
+      "claimed_for": "8分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-26T01:55:24Z",
+  "content_latest_at": "2026-11-26T01:58:01Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 330,
@@ -215,8 +215,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T01:57:30Z",
-  "generated_at_utc": "2026-11-26T01:57:30Z",
+  "generated_at": "2026-11-26T01:59:55Z",
+  "generated_at_utc": "2026-11-26T01:59:55Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -540,7 +540,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 305
+        "used": 306
       },
       {
         "cap": 20000,
@@ -588,7 +588,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 61
+        "used": 62
       },
       {
         "cap": 20000,
@@ -668,7 +668,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 43
+        "used": 44
       },
       {
         "cap": 20000,
@@ -748,7 +748,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 25
+        "used": 26
       },
       {
         "cap": 1000,
@@ -1052,7 +1052,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 300,
@@ -1742,7 +1742,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 305
+        "used": 306
       },
       {
         "cap": 20000,
@@ -1790,7 +1790,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 61
+        "used": 62
       },
       {
         "cap": 20000,
@@ -1870,7 +1870,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 43
+        "used": 44
       },
       {
         "cap": 20000,
@@ -1950,7 +1950,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 25
+        "used": 26
       },
       {
         "cap": 1000,
@@ -2254,7 +2254,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 300,
@@ -2688,7 +2688,7 @@
   },
   "recent_completions": [
     {
-      "age_sec": 16,
+      "age_sec": 160,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T01:57:13Z",
       "completed_by": "spaces-data",
@@ -2700,7 +2700,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 25195,
+      "age_sec": 25340,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2712,7 +2712,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 25304,
+      "age_sec": 25449,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2724,7 +2724,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 25378,
+      "age_sec": 25523,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2736,7 +2736,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 25384,
+      "age_sec": 25529,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2748,7 +2748,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 26285,
+      "age_sec": 26430,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2760,7 +2760,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 30141,
+      "age_sec": 30286,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2772,7 +2772,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 30430,
+      "age_sec": 30575,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2784,7 +2784,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 30922,
+      "age_sec": 31067,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2796,7 +2796,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 30943,
+      "age_sec": 31088,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
@@ -2832,7 +2832,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T01:41:49Z"
+        "updated": "2026-11-26T01:57:34Z"
       },
       "tasks": {
         "done": 22,
@@ -2860,7 +2860,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T01:42:29Z"
+        "updated": "2026-11-26T01:57:45Z"
       },
       "tasks": {
         "done": 20,
@@ -2907,7 +2907,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T01:42:10Z"
+        "updated": "2026-11-26T01:58:01Z"
       },
       "tasks": {
         "done": 15,
@@ -2926,7 +2926,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T01:42:10Z"
+        "updated": "2026-11-26T01:58:01Z"
       },
       "tasks": {
         "done": 16,
