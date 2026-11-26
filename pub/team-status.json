@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T02:55:37Z",
+    "activity_generated_at": "2026-11-26T02:58:02Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -12,18 +12,18 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-26T02:54:39Z",
+        "claimed_at": "2026-11-26T02:56:40Z",
         "claimed_by": "security",
         "claimed_by_zh": "安全",
-        "claimed_for": "58秒",
+        "claimed_for": "82秒",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
-      "cycle_started_at": "2026-11-26T02:54:39Z",
+      "cycle_started_at": "2026-11-26T02:56:40Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "58秒",
-      "elapsed_sec": 58,
-      "last_cycle_ended": "2026-11-26T02:55:19Z",
+      "elapsed": "82秒",
+      "elapsed_sec": 82,
+      "last_cycle_ended": "2026-11-26T02:57:24Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,11 +99,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 58,
-          "claimed_at": "2026-11-26T02:54:39Z",
+          "claimed_age_sec": 82,
+          "claimed_at": "2026-11-26T02:56:40Z",
           "claimed_by": "security",
           "claimed_by_zh": "安全",
-          "claimed_for": "58秒",
+          "claimed_for": "82秒",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -131,7 +131,7 @@
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
       ],
       "open": 2,
-      "status_updated": "2026-11-26T02:51:45Z",
+      "status_updated": "2026-11-26T02:57:24Z",
       "total": 83,
       "workstream": "pool-optimization"
     },
@@ -172,20 +172,20 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 58,
-      "claimed_at": "2026-11-26T02:54:39Z",
+      "claimed_age_sec": 82,
+      "claimed_at": "2026-11-26T02:56:40Z",
       "claimed_by": "security",
       "claimed_by_zh": "安全",
-      "claimed_for": "58秒",
+      "claimed_for": "82秒",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-26T02:51:45Z",
+  "content_latest_at": "2026-11-26T02:57:24Z",
   "escalations_human": {
     "cloud-script-migration": {
-      "dropped_hash_keys": 332,
+      "dropped_hash_keys": 333,
       "exists": true,
       "latest": "runner exit: 1"
     },
@@ -215,36 +215,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T02:55:37Z",
-  "generated_at_utc": "2026-11-26T02:55:37Z",
+  "generated_at": "2026-11-26T02:58:02Z",
+  "generated_at_utc": "2026-11-26T02:58:02Z",
   "live_pi_workers": {
-    "by_model": {
-      "gpt-6.1-sol–free": 2,
-      "wusrouter/codex/gpt-5:free": 2
-    },
-    "running": [
-      {
-        "model": "gpt-6.1-sol–free",
-        "pid": 2445,
-        "title": "Do these steps one at a time, using a separate shell command for each step, and "
-      },
-      {
-        "model": "gpt-6.1-sol–free",
-        "pid": 2446,
-        "title": "Do these steps one at a time, using a separate shell command for each step, and "
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 2641,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 2642,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      }
-    ],
-    "total": 4
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -564,7 +540,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 465
+        "used": 501
       },
       {
         "cap": 20000,
@@ -636,7 +612,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-2",
-        "used": 6
+        "used": 7
       },
       {
         "cap": 20000,
@@ -1236,7 +1212,7 @@
         "healthy": true,
         "model": "zai-org/glm-5.3-flash:free",
         "provider": "wusrouter",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 50,
@@ -1244,7 +1220,7 @@
         "healthy": true,
         "model": "ws/gpt-5.6-terra:free",
         "provider": "wusrouter",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 50,
@@ -1252,7 +1228,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "wusrouter",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 50,
@@ -1260,7 +1236,7 @@
         "healthy": true,
         "model": "codex/gpt-5:free",
         "provider": "wusrouter",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 300,
@@ -1766,7 +1742,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 465
+        "used": 501
       },
       {
         "cap": 20000,
@@ -1838,7 +1814,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-2",
-        "used": 6
+        "used": 7
       },
       {
         "cap": 20000,
@@ -2438,7 +2414,7 @@
         "healthy": true,
         "model": "zai-org/glm-5.3-flash:free",
         "provider": "wusrouter",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 50,
@@ -2446,7 +2422,7 @@
         "healthy": true,
         "model": "ws/gpt-5.6-terra:free",
         "provider": "wusrouter",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 50,
@@ -2454,7 +2430,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "wusrouter",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 50,
@@ -2462,7 +2438,7 @@
         "healthy": true,
         "model": "codex/gpt-5:free",
         "provider": "wusrouter",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 300,
@@ -2712,9 +2688,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 17,
+      "age_sec": 37,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T02:55:19Z",
+      "completed_at": "2026-11-26T02:57:24Z",
       "completed_by": "security",
       "completed_by_zh": "安全",
       "completed_ts_source": "result.txt",
@@ -2724,7 +2700,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 28683,
+      "age_sec": 28828,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2736,7 +2712,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 28792,
+      "age_sec": 28937,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2748,7 +2724,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 28865,
+      "age_sec": 29010,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2760,7 +2736,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 28872,
+      "age_sec": 29017,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2772,7 +2748,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 29773,
+      "age_sec": 29918,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2784,7 +2760,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 33628,
+      "age_sec": 33773,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2796,7 +2772,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 33918,
+      "age_sec": 34063,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2808,7 +2784,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 34410,
+      "age_sec": 34555,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2820,7 +2796,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 34431,
+      "age_sec": 34576,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
@@ -2839,71 +2815,17 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "gpt-6.1-sol–free": 2,
-      "wusrouter/codex/gpt-5:free": 2
-    },
-    "running": [
-      {
-        "model": "gpt-6.1-sol–free",
-        "pid": 2445,
-        "title": "Do these steps one at a time, using a separate shell command for each step, and "
-      },
-      {
-        "model": "gpt-6.1-sol–free",
-        "pid": 2446,
-        "title": "Do these steps one at a time, using a separate shell command for each step, and "
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 2641,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 2642,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      }
-    ],
-    "total": 4
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 2,
-      "model": "gpt-6.1-sol–free"
-    },
-    {
-      "count": 2,
-      "model": "wusrouter/codex/gpt-5:free"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "gpt-6.1-sol–free",
-      "pid": 2445,
-      "title": "Do these steps one at a time, using a separate shell command for each step, and "
-    },
-    {
-      "model": "gpt-6.1-sol–free",
-      "pid": 2446,
-      "title": "Do these steps one at a time, using a separate shell command for each step, and "
-    },
-    {
-      "model": "wusrouter/codex/gpt-5:free",
-      "pid": 2641,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "wusrouter/codex/gpt-5:free",
-      "pid": 2642,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=bc32e7f1b3a6"
+        "latest": "- key=04287b4fa47a"
       },
       "status": {
         "exists": true,
@@ -2922,7 +2844,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (executed-by security failed 2026-11-26T02:32:55Z) (claimed-by security 2026-11-26T02:54:39Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (claimed-by security 2026-11-26T02:56:40Z) (executed-by security failed 2026-11-26T02:57:25Z)"
           }
         ],
         "open": 2
@@ -2957,7 +2879,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T02:51:45Z"
+        "updated": "2026-11-26T02:57:24Z"
       },
       "tasks": {
         "done": 81,
