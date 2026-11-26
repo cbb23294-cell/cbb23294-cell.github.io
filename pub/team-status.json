@@ -1,8 +1,8 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T12:44:57Z",
+    "activity_generated_at": "2026-11-26T12:47:59Z",
     "empty_reasons": {
-      "claimed_now": null,
+      "claimed_now": "no open board task carries a live claim record",
       "recent_completions": null,
       "workers_running": "no jobs/*.json without a .done/.closed marker"
     }
@@ -10,22 +10,15 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 2,
-      "current_task": {
-        "claimed_at": "2026-11-26T12:39:54Z",
-        "claimed_by": "security",
-        "claimed_by_zh": "安全",
-        "claimed_for": "5分钟",
-        "task_id": "clou-018",
-        "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
-      },
-      "cycle_started_at": "2026-11-26T12:37:49Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "7分钟",
-      "elapsed_sec": 429,
-      "last_cycle_ended": "2026-11-26T12:44:56Z",
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
+      "last_cycle_ended": "2026-11-26T12:46:09Z",
       "name_zh": "云脚本迁移",
-      "state": "running",
+      "state": "idle",
       "workstream": "cloud-script-migration"
     },
     {
@@ -96,30 +89,7 @@
   ],
   "boards": [
     {
-      "claimed_now": [
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 429,
-          "claimed_at": "2026-11-26T12:37:49Z",
-          "claimed_by": "operations",
-          "claimed_by_zh": "运维",
-          "claimed_for": "7分钟",
-          "task_id": "clou-016",
-          "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
-          "workstream": "cloud-script-migration"
-        },
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 304,
-          "claimed_at": "2026-11-26T12:39:54Z",
-          "claimed_by": "security",
-          "claimed_by_zh": "安全",
-          "claimed_for": "5分钟",
-          "task_id": "clou-018",
-          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-          "workstream": "cloud-script-migration"
-        }
-      ],
+      "claimed_now": [],
       "done": 22,
       "escalation_latest": "runner exit: 0",
       "name_zh": "云脚本迁移",
@@ -153,7 +123,7 @@
       "name_zh": "安全",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T12:30:04Z",
+      "status_updated": "2026-11-26T12:45:49Z",
       "total": 15,
       "workstream": "security"
     },
@@ -175,36 +145,13 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T12:29:54Z",
+      "status_updated": "2026-11-26T12:45:24Z",
       "total": 16,
       "workstream": "spaces-data"
     }
   ],
-  "claimed_now": [
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 429,
-      "claimed_at": "2026-11-26T12:37:49Z",
-      "claimed_by": "operations",
-      "claimed_by_zh": "运维",
-      "claimed_for": "7分钟",
-      "task_id": "clou-016",
-      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 304,
-      "claimed_at": "2026-11-26T12:39:54Z",
-      "claimed_by": "security",
-      "claimed_by_zh": "安全",
-      "claimed_for": "5分钟",
-      "task_id": "clou-018",
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    }
-  ],
-  "content_latest_at": "2026-11-26T12:44:54Z",
+  "claimed_now": [],
+  "content_latest_at": "2026-11-26T12:45:49Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 370,
@@ -237,35 +184,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T12:44:58Z",
-  "generated_at_utc": "2026-11-26T12:44:58Z",
+  "generated_at": "2026-11-26T12:48:00Z",
+  "generated_at_utc": "2026-11-26T12:48:00Z",
   "live_pi_workers": {
-    "by_model": {
-      "100milionseek/deepseek-v4.1-flash-free": 4
-    },
-    "running": [
-      {
-        "model": "100milionseek/deepseek-v4.1-flash-free",
-        "pid": 26667,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "100milionseek/deepseek-v4.1-flash-free",
-        "pid": 26668,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "100milionseek/deepseek-v4.1-flash-free",
-        "pid": 31271,
-        "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-      },
-      {
-        "model": "100milionseek/deepseek-v4.1-flash-free",
-        "pid": 31272,
-        "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-      }
-    ],
-    "total": 4
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -337,7 +261,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 503
+        "used": 509
       },
       {
         "cap": 1000,
@@ -345,7 +269,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 29
+        "used": 31
       },
       {
         "cap": 1000,
@@ -353,7 +277,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 7
+        "used": 9
       },
       {
         "cap": 300,
@@ -361,7 +285,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 300,
@@ -369,7 +293,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 0
+        "used": 2
       },
       {
         "cap": 1000,
@@ -385,7 +309,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 500,
@@ -393,7 +317,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 500,
@@ -545,7 +469,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 8
+        "used": 10
       },
       {
         "cap": 20000,
@@ -553,7 +477,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -561,7 +485,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -569,7 +493,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -577,7 +501,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -585,7 +509,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -593,7 +517,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -601,7 +525,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -609,7 +533,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -617,7 +541,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -625,7 +549,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 200000,
@@ -641,7 +565,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -649,7 +573,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -657,7 +581,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -665,7 +589,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -673,7 +597,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -681,7 +605,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -689,7 +613,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -697,7 +621,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -705,7 +629,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 200000,
@@ -721,7 +645,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -729,7 +653,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -737,7 +661,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -745,7 +669,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -753,7 +677,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -761,7 +685,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -769,7 +693,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -777,7 +701,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -785,7 +709,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200000,
@@ -1539,7 +1463,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 503
+        "used": 509
       },
       {
         "cap": 1000,
@@ -1547,7 +1471,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 29
+        "used": 31
       },
       {
         "cap": 1000,
@@ -1555,7 +1479,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 7
+        "used": 9
       },
       {
         "cap": 300,
@@ -1563,7 +1487,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 10
+        "used": 12
       },
       {
         "cap": 300,
@@ -1571,7 +1495,7 @@
         "healthy": true,
         "model": "nex-n2.6-2026-11-05",
         "provider": "moss",
-        "used": 0
+        "used": 2
       },
       {
         "cap": 1000,
@@ -1587,7 +1511,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 500,
@@ -1595,7 +1519,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 500,
@@ -1747,7 +1671,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 8
+        "used": 10
       },
       {
         "cap": 20000,
@@ -1755,7 +1679,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -1763,7 +1687,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -1771,7 +1695,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -1779,7 +1703,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -1787,7 +1711,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -1795,7 +1719,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -1803,7 +1727,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -1811,7 +1735,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -1819,7 +1743,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 20000,
@@ -1827,7 +1751,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf",
-        "used": 118
+        "used": 119
       },
       {
         "cap": 200000,
@@ -1843,7 +1767,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -1851,7 +1775,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -1859,7 +1783,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -1867,7 +1791,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -1875,7 +1799,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -1883,7 +1807,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -1891,7 +1815,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -1899,7 +1823,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 20000,
@@ -1907,7 +1831,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-2",
-        "used": 11
+        "used": 12
       },
       {
         "cap": 200000,
@@ -1923,7 +1847,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -1931,7 +1855,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -1939,7 +1863,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -1947,7 +1871,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -1955,7 +1879,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -1963,7 +1887,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -1971,7 +1895,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -1979,7 +1903,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 20000,
@@ -1987,7 +1911,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200000,
@@ -2733,123 +2657,123 @@
   },
   "recent_completions": [
     {
-      "age_sec": 1,
+      "age_sec": 110,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T12:44:56Z",
-      "completed_by": "operations",
-      "completed_by_zh": "运维",
+      "completed_at": "2026-11-26T12:46:09Z",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "clou-016",
+      "task_id": "task-016",
       "task_no": 16,
-      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 230,
+      "age_sec": 412,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T12:41:07Z",
-      "completed_by": "security",
-      "completed_by_zh": "安全",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "clou-018",
+      "task_id": "task-018",
       "task_no": 18,
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 64043,
+      "age_sec": 64225,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-083",
+      "task_id": "task-083",
       "task_no": 83,
-      "title": "Settlement ordering defect: BLOCKED.md must short-circuit BEFORE the…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 64153,
+      "age_sec": 64334,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "pool-082",
+      "task_id": "task-082",
       "task_no": 82,
-      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 64226,
+      "age_sec": 64408,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-081",
+      "task_id": "task-081",
       "task_no": 81,
-      "title": "Named-model rule v2 landing SEG3: fallback identity gate (ruling…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 64233,
+      "age_sec": 64414,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-080",
+      "task_id": "task-080",
       "task_no": 80,
-      "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 65133,
+      "age_sec": 65315,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
-      "completed_by": "pool-optimization-seat-1-1978-c27661e0",
-      "completed_by_zh": "池优化 席位1978",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-079",
+      "task_id": "task-079",
       "task_no": 79,
-      "title": "Named-model rule v2 landing SEG1: substitution cause field +…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 68989,
+      "age_sec": 69171,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-054",
+      "task_id": "task-054",
       "task_no": 54,
-      "title": "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 69279,
+      "age_sec": 69460,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "pool-067",
+      "task_id": "task-067",
       "task_no": 67,
-      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 69770,
+      "age_sec": 69952,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-065",
+      "task_id": "task-065",
       "task_no": 65,
-      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-23 轮拆分）：巡查…",
+      "title": null,
       "workstream": "pool-optimization"
     }
   ],
@@ -2860,61 +2784,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "100milionseek/deepseek-v4.1-flash-free": 4
-    },
-    "running": [
-      {
-        "model": "100milionseek/deepseek-v4.1-flash-free",
-        "pid": 26667,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "100milionseek/deepseek-v4.1-flash-free",
-        "pid": 26668,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "100milionseek/deepseek-v4.1-flash-free",
-        "pid": 31271,
-        "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-      },
-      {
-        "model": "100milionseek/deepseek-v4.1-flash-free",
-        "pid": 31272,
-        "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-      }
-    ],
-    "total": 4
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 4,
-      "model": "100milionseek/deepseek-v4.1-flash-free"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "100milionseek/deepseek-v4.1-flash-free",
-      "pid": 26667,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "100milionseek/deepseek-v4.1-flash-free",
-      "pid": 26668,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "100milionseek/deepseek-v4.1-flash-free",
-      "pid": 31271,
-      "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-    },
-    {
-      "model": "100milionseek/deepseek-v4.1-flash-free",
-      "pid": 31272,
-      "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -3001,7 +2876,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T12:30:04Z"
+        "updated": "2026-11-26T12:45:49Z"
       },
       "tasks": {
         "done": 15,
@@ -3020,7 +2895,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T12:29:54Z"
+        "updated": "2026-11-26T12:45:24Z"
       },
       "tasks": {
         "done": 16,
