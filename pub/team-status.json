@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T17:55:45Z",
+    "activity_generated_at": "2026-11-26T17:58:00Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -12,18 +12,18 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-26T17:55:00Z",
+        "claimed_at": "2026-11-26T17:56:01Z",
         "claimed_by": "spaces-data",
         "claimed_by_zh": "空间数据",
-        "claimed_for": "45秒",
+        "claimed_for": "1分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
-      "cycle_started_at": "2026-11-26T17:55:00Z",
+      "cycle_started_at": "2026-11-26T17:56:01Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "45秒",
-      "elapsed_sec": 45,
-      "last_cycle_ended": "2026-11-26T17:55:44Z",
+      "elapsed": "1分钟",
+      "elapsed_sec": 119,
+      "last_cycle_ended": "2026-11-26T17:56:50Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,18 +99,18 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 45,
-          "claimed_at": "2026-11-26T17:55:00Z",
+          "claimed_age_sec": 119,
+          "claimed_at": "2026-11-26T17:56:01Z",
           "claimed_by": "spaces-data",
           "claimed_by_zh": "空间数据",
-          "claimed_for": "45秒",
+          "claimed_for": "1分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
         }
       ],
       "done": 23,
-      "escalation_latest": "runner exit: 0",
+      "escalation_latest": "BLOCKED.md: reason: Cannot complete production repair and fresh two-endpoint tick proof while restricted to this working directory; the…",
       "name_zh": "云脚本迁移",
       "next_open": [
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
@@ -171,11 +171,11 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 45,
-      "claimed_at": "2026-11-26T17:55:00Z",
+      "claimed_age_sec": 119,
+      "claimed_at": "2026-11-26T17:56:01Z",
       "claimed_by": "spaces-data",
       "claimed_by_zh": "空间数据",
-      "claimed_for": "45秒",
+      "claimed_for": "1分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
@@ -184,9 +184,9 @@
   "content_latest_at": "2026-11-26T17:54:13Z",
   "escalations_human": {
     "cloud-script-migration": {
-      "dropped_hash_keys": 382,
+      "dropped_hash_keys": 383,
       "exists": true,
-      "latest": "runner exit: 0"
+      "latest": "BLOCKED.md: reason: Cannot complete production repair and fresh two-endpoint tick proof while restricted to this working directory; the…"
     },
     "float": {
       "dropped_hash_keys": 208,
@@ -214,25 +214,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T17:55:45Z",
-  "generated_at_utc": "2026-11-26T17:55:45Z",
+  "generated_at": "2026-11-26T17:58:00Z",
+  "generated_at_utc": "2026-11-26T17:58:00Z",
   "live_pi_workers": {
-    "by_model": {
-      "wusrouter/codex/gpt-5:free": 2
-    },
-    "running": [
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 16290,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 16291,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -304,7 +291,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 0
+        "used": 2
       },
       {
         "cap": 1000,
@@ -320,7 +307,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 0
+        "used": 2
       },
       {
         "cap": 300,
@@ -328,7 +315,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 300,
@@ -352,7 +339,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 500,
@@ -360,7 +347,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 500,
@@ -512,7 +499,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -520,7 +507,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -528,7 +515,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -536,7 +523,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -544,7 +531,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -552,7 +539,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -560,7 +547,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -568,7 +555,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -576,7 +563,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -584,7 +571,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -592,7 +579,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 200000,
@@ -680,7 +667,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -688,7 +675,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -696,7 +683,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -704,7 +691,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -712,7 +699,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -720,7 +707,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -728,7 +715,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -736,7 +723,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -744,7 +731,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -752,7 +739,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 200000,
@@ -760,7 +747,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 1000,
@@ -1056,7 +1043,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 300,
@@ -1064,7 +1051,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 300,
@@ -1072,7 +1059,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 300,
@@ -1080,7 +1067,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 1000,
@@ -1272,7 +1259,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 200000,
@@ -1296,7 +1283,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 94
+        "used": 101
       },
       {
         "cap": 300,
@@ -1304,7 +1291,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -1312,7 +1299,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -1320,7 +1307,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -1328,7 +1315,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -1336,7 +1323,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -1344,7 +1331,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -1352,7 +1339,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -1360,7 +1347,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -1368,7 +1355,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -1376,7 +1363,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -1384,7 +1371,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -1392,7 +1379,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -1506,7 +1493,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 0
+        "used": 2
       },
       {
         "cap": 1000,
@@ -1522,7 +1509,7 @@
         "healthy": true,
         "model": "glm-4-flash-250414",
         "provider": "zhipu",
-        "used": 0
+        "used": 2
       },
       {
         "cap": 300,
@@ -1530,7 +1517,7 @@
         "healthy": true,
         "model": "nex-n2.6",
         "provider": "moss",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 300,
@@ -1554,7 +1541,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash",
         "provider": "sensenova",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 500,
@@ -1562,7 +1549,7 @@
         "healthy": true,
         "model": "sensenova-6.8-flash-lite",
         "provider": "sensenova",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 500,
@@ -1714,7 +1701,7 @@
         "healthy": true,
         "model": "gemini-3.5-flash-lite",
         "provider": "google-ai-studio",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1722,7 +1709,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1730,7 +1717,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1738,7 +1725,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1746,7 +1733,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1754,7 +1741,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1762,7 +1749,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1770,7 +1757,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1778,7 +1765,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1786,7 +1773,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1794,7 +1781,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 200000,
@@ -1882,7 +1869,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1890,7 +1877,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1898,7 +1885,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1906,7 +1893,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1914,7 +1901,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1922,7 +1909,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1930,7 +1917,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1938,7 +1925,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1946,7 +1933,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1954,7 +1941,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 200000,
@@ -1962,7 +1949,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 1000,
@@ -2258,7 +2245,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 300,
@@ -2266,7 +2253,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 300,
@@ -2274,7 +2261,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 300,
@@ -2282,7 +2269,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 1000,
@@ -2474,7 +2461,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 200000,
@@ -2498,7 +2485,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 94
+        "used": 101
       },
       {
         "cap": 300,
@@ -2506,7 +2493,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2514,7 +2501,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2522,7 +2509,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2530,7 +2517,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2538,7 +2525,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2546,7 +2533,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2554,7 +2541,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2562,7 +2549,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2570,7 +2557,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2578,7 +2565,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2586,7 +2573,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2594,7 +2581,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 1
+        "used": 4
       },
       {
         "cap": 300,
@@ -2700,9 +2687,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 0,
+      "age_sec": 69,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T17:55:44Z",
+      "completed_at": "2026-11-26T17:56:50Z",
       "completed_by": "spaces-data",
       "completed_by_zh": "空间数据",
       "completed_ts_source": "result.txt",
@@ -2712,7 +2699,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 7423,
+      "age_sec": 7558,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T15:52:01Z",
       "completed_by": "operations",
@@ -2724,7 +2711,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 82691,
+      "age_sec": 82826,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2736,7 +2723,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 82800,
+      "age_sec": 82935,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2748,7 +2735,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 82873,
+      "age_sec": 83008,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2760,7 +2747,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 82880,
+      "age_sec": 83015,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2772,7 +2759,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 83781,
+      "age_sec": 83916,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2784,7 +2771,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 87636,
+      "age_sec": 87771,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2796,7 +2783,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 87926,
+      "age_sec": 88061,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2808,7 +2795,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 88417,
+      "age_sec": 88553,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2827,46 +2814,17 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "wusrouter/codex/gpt-5:free": 2
-    },
-    "running": [
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 16290,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 16291,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 2,
-      "model": "wusrouter/codex/gpt-5:free"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "wusrouter/codex/gpt-5:free",
-      "pid": 16290,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "wusrouter/codex/gpt-5:free",
-      "pid": 16291,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=ac3b1542cd18"
+        "latest": "- key=6c925ee37f90"
       },
       "status": {
         "exists": true,
@@ -2881,7 +2839,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (executed-by operations failed 2026-11-26T17:35:26Z) (claimed-by spaces-data 2026-11-26T17:55:00Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (claimed-by spaces-data 2026-11-26T17:56:01Z) (executed-by spaces-data failed 2026-11-26T17:56:53Z)"
           }
         ],
         "open": 1
