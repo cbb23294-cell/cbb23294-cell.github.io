@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T18:09:41Z",
+    "activity_generated_at": "2026-11-26T18:11:56Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-26T18:08:02Z",
         "claimed_by": "float",
         "claimed_by_zh": "机动",
-        "claimed_for": "1分钟",
+        "claimed_for": "3分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-26T18:08:02Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "1分钟",
-      "elapsed_sec": 99,
+      "elapsed": "3分钟",
+      "elapsed_sec": 234,
       "last_cycle_ended": "2026-11-26T18:08:22Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -99,11 +99,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 99,
+          "claimed_age_sec": 234,
           "claimed_at": "2026-11-26T18:08:02Z",
           "claimed_by": "float",
           "claimed_by_zh": "机动",
-          "claimed_for": "1分钟",
+          "claimed_for": "3分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -171,11 +171,11 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 99,
+      "claimed_age_sec": 234,
       "claimed_at": "2026-11-26T18:08:02Z",
       "claimed_by": "float",
       "claimed_by_zh": "机动",
-      "claimed_for": "1分钟",
+      "claimed_for": "3分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
@@ -214,8 +214,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T18:09:42Z",
-  "generated_at_utc": "2026-11-26T18:09:42Z",
+  "generated_at": "2026-11-26T18:11:56Z",
+  "generated_at_utc": "2026-11-26T18:11:56Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -282,18 +282,2412 @@
     "spaces-data": "空间数据"
   },
   "pool": {
-    "entries": [],
-    "healthy_entries": 0,
-    "reachable": false
+    "cap": 45,
+    "disabled": [],
+    "entries": [
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4.1-flash-free",
+        "provider": "100milionseek",
+        "used": 4
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4.1-flash-free",
+        "provider": "100milionseek-2",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "glm-4-flash-250414",
+        "provider": "zhipu",
+        "used": 4
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nex-n2.6",
+        "provider": "moss",
+        "used": 2
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nex-n2.6-2026-11-05",
+        "provider": "moss",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "XingChenAGI/Xing4.0-29B",
+        "provider": "siliconflow",
+        "used": 0
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash",
+        "provider": "sensenova",
+        "used": 2
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash-lite",
+        "provider": "sensenova",
+        "used": 2
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash",
+        "provider": "sensenova-2",
+        "used": 0
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash-lite",
+        "provider": "sensenova-2",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "openai/gpt-oss-120b",
+        "provider": "groq",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "openai/gpt-oss-20b",
+        "provider": "groq",
+        "used": 0
+      },
+      {
+        "cap": 7000,
+        "enabled": true,
+        "healthy": true,
+        "model": "allam-2-7b",
+        "provider": "groq",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "ceres-1.1",
+        "provider": "merkium",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.1-flash",
+        "provider": "merkium",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "ganymede-1.1",
+        "provider": "merkium",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.2-flash",
+        "provider": "merkium",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.2-pro",
+        "provider": "merkium",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.1-pro",
+        "provider": "merkium",
+        "used": 0
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "provider": "openrouter",
+        "used": 0
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "google/gemma-4-31b-it:free",
+        "provider": "openrouter",
+        "used": 0
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "particle-ai/particle-1:free",
+        "provider": "openrouter",
+        "used": 0
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "recursive/flint-v1.0:free",
+        "provider": "openrouter",
+        "used": 0
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "baidu/ernie-5.5-flash-preview:free",
+        "provider": "openrouter",
+        "used": 0
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3.5-lightning:free",
+        "provider": "openrouter",
+        "used": 0
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemini-3.5-flash-lite",
+        "provider": "google-ai-studio",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-large-4t",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-m3.1-flash",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-bolt-e4b",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-glm-flash",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-laguna",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-ultra-550b",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-step-5",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-nano-omni",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-lightning",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-super-vl",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol–free",
+        "provider": "ai-cf-sol",
+        "used": 4
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-large-4t",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-m3.1-flash",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-bolt-e4b",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-glm-flash",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-laguna",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-ultra-550b",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-nano-omni",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-lightning",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-super-vl",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol–free",
+        "provider": "ai-cf-sol-2",
+        "used": 4
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-large-4t",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-m3.1-flash",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-bolt-e4b",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-glm-flash",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-laguna",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-ultra-550b",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-nano-omni",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-lightning",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-super-vl",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol–free",
+        "provider": "ai-cf-sol-3",
+        "used": 3
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "XingChenAGI/Xing4.0-29B",
+        "provider": "siliconflow-2",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "GLM-5.3-Flash",
+        "provider": "amd-tokenlab",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "agnes-2.5-flash:free",
+        "provider": "unorouter",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "agnes-3.0-flash:free",
+        "provider": "unorouter",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "allam-2-7b:free",
+        "provider": "unorouter",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "crow-roleplay:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "laguna-xs-2.1:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "laguna-xs-2.1-uncensored:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/mistral-large-4-1t-a52b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nemotron-3-ultra-550b-a55b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3.5-bolt-e4b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nemotron-3.5-super-vl:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "jais-3-mova-36b-a4b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "k2-horizon-375b-a23b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "k2-horizon-375b-a23b-uncensored:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "particle-1:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "step-5-preview:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "grok-4.7:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "grok-4.7-fast:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-31b-it:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "glm-4.6v-flash:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "longcat-2.5:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "minimax-m3.1-flash:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "dots-3-note-preview:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "flint-v1.0:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "llama-3.3-70b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "llama-3.3-70b-instruct:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "solar-mini4:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "xing4.0-29b-a4b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "caw/glm-5.3-flash-thinking:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4-flash-0731-thinking:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia-deepseek-v4-1-flash-nvfp4",
+        "provider": "packet-ai",
+        "used": 8
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "minimaxai-minimax-m3-1-flash",
+        "provider": "packet-ai",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "qwen-qwen2-5-1-5b-instruct",
+        "provider": "packet-ai",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4.1-flash:free",
+        "provider": "token-harbor",
+        "used": 18
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "mimo-v2.6-flash:free",
+        "provider": "token-harbor",
+        "used": 18
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4-flash:free",
+        "provider": "token-harbor",
+        "used": 18
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "mimo-v2.5:free",
+        "provider": "token-harbor",
+        "used": 18
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "z-ai/glm-5.3:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "moonshotai/kimi-k3.1-pro:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "dealignai/glm-5.3-flash-uncensored-fp8:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek/deepseek-v4.1-flash:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "z-ai/glm-5.3-flash:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "dealignai/glm-5.3-uncensored-fp8:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "uniboshi/kimi-k3-abliterated-v1:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-chimerax:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-darksoul:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-luminous:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-moonlight:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-musica:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-meromero:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "minimax-m3.1-flash:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "muse-glimmer-30b:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 50,
+        "enabled": true,
+        "healthy": true,
+        "model": "zai-org/glm-5.3-flash:free",
+        "provider": "wusrouter",
+        "used": 7
+      },
+      {
+        "cap": 50,
+        "enabled": true,
+        "healthy": true,
+        "model": "ws/gpt-5.6-terra:free",
+        "provider": "wusrouter",
+        "used": 7
+      },
+      {
+        "cap": 50,
+        "enabled": true,
+        "healthy": true,
+        "model": "mimo-v2.5:free",
+        "provider": "wusrouter",
+        "used": 7
+      },
+      {
+        "cap": 50,
+        "enabled": true,
+        "healthy": true,
+        "model": "codex/gpt-5:free",
+        "provider": "wusrouter",
+        "used": 7
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "freeapi-random",
+        "provider": "freeapi",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "freeapi-random",
+        "provider": "freeapi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi",
+        "used": 6
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi-4",
+        "used": 6
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi-2",
+        "used": 6
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi-6",
+        "used": 128
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3.5-35B-A3B",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "zai-org/GLM-4.5-Air",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3.5-27B",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-ai/DeepSeek-R1",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen2.5-72B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "inclusionAI/Ling-flash-2.0",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3.5-35B-A3B",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "zai-org/GLM-4.5-Air",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3.5-27B",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-ai/DeepSeek-R1",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen2.5-72B-Instruct",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "inclusionAI/Ling-flash-2.0",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      }
+    ],
+    "healthy_entries": 149,
+    "ok": true,
+    "reachable": true,
+    "used_today": 0
   },
   "pool_health": {
-    "entries": [],
-    "healthy_entries": 0,
-    "reachable": false
+    "cap": 45,
+    "disabled": [],
+    "entries": [
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4.1-flash-free",
+        "provider": "100milionseek",
+        "used": 4
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4.1-flash-free",
+        "provider": "100milionseek-2",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "glm-4-flash-250414",
+        "provider": "zhipu",
+        "used": 4
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nex-n2.6",
+        "provider": "moss",
+        "used": 2
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nex-n2.6-2026-11-05",
+        "provider": "moss",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "XingChenAGI/Xing4.0-29B",
+        "provider": "siliconflow",
+        "used": 0
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash",
+        "provider": "sensenova",
+        "used": 2
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash-lite",
+        "provider": "sensenova",
+        "used": 2
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash",
+        "provider": "sensenova-2",
+        "used": 0
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "sensenova-6.8-flash-lite",
+        "provider": "sensenova-2",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "qwen/qwen3.8-27b",
+        "provider": "groq",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "openai/gpt-oss-120b",
+        "provider": "groq",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "openai/gpt-oss-20b",
+        "provider": "groq",
+        "used": 0
+      },
+      {
+        "cap": 7000,
+        "enabled": true,
+        "healthy": true,
+        "model": "allam-2-7b",
+        "provider": "groq",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "ceres-1.1",
+        "provider": "merkium",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.1-flash",
+        "provider": "merkium",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "ganymede-1.1",
+        "provider": "merkium",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.2-flash",
+        "provider": "merkium",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.2-pro",
+        "provider": "merkium",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "pluto-1.1-pro",
+        "provider": "merkium",
+        "used": 0
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "provider": "openrouter",
+        "used": 0
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "google/gemma-4-31b-it:free",
+        "provider": "openrouter",
+        "used": 0
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "particle-ai/particle-1:free",
+        "provider": "openrouter",
+        "used": 0
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "recursive/flint-v1.0:free",
+        "provider": "openrouter",
+        "used": 0
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "baidu/ernie-5.5-flash-preview:free",
+        "provider": "openrouter",
+        "used": 0
+      },
+      {
+        "cap": 45,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3.5-lightning:free",
+        "provider": "openrouter",
+        "used": 0
+      },
+      {
+        "cap": 500,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemini-3.5-flash-lite",
+        "provider": "google-ai-studio",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-large-4t",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-m3.1-flash",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-bolt-e4b",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-glm-flash",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-laguna",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-ultra-550b",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-step-5",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-nano-omni",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-lightning",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-super-vl",
+        "provider": "ai-cf",
+        "used": 2
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol–free",
+        "provider": "ai-cf-sol",
+        "used": 4
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-large-4t",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-m3.1-flash",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-bolt-e4b",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-glm-flash",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-laguna",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-ultra-550b",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-nano-omni",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-lightning",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-super-vl",
+        "provider": "ai-cf-2",
+        "used": 2
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol–free",
+        "provider": "ai-cf-sol-2",
+        "used": 4
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-large-4t",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-m3.1-flash",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-bolt-e4b",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-glm-flash",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-laguna",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-ultra-550b",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-nano-omni",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-lightning",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 20000,
+        "enabled": true,
+        "healthy": true,
+        "model": "free-super-vl",
+        "provider": "ai-cf-3",
+        "used": 2
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol–free",
+        "provider": "ai-cf-sol-3",
+        "used": 3
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "XingChenAGI/Xing4.0-29B",
+        "provider": "siliconflow-2",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "GLM-5.3-Flash",
+        "provider": "amd-tokenlab",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "agnes-2.5-flash:free",
+        "provider": "unorouter",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "agnes-3.0-flash:free",
+        "provider": "unorouter",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "allam-2-7b:free",
+        "provider": "unorouter",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "crow-roleplay:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "laguna-xs-2.1:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "laguna-xs-2.1-uncensored:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/mistral-large-4-1t-a52b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nemotron-3-ultra-550b-a55b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nemotron-3-ultra-550b-a55b-uncensored:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3.5-bolt-e4b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3.5-super-vl-120b-a12b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nemotron-3.5-super-vl:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "jais-3-mova-36b-a4b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "k2-horizon-375b-a23b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "k2-horizon-375b-a23b-uncensored:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "particle-1:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "step-5-preview:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "grok-4.7:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "grok-4.7-fast:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-31b-it:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "glm-4.6v-flash:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "longcat-2.5:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "minimax-m3.1-flash:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "dots-3-note-preview:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "flint-v1.0:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "llama-3.3-70b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "llama-3.3-70b-instruct:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "solar-mini4:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "xing4.0-29b-a4b:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "caw/glm-5.3-flash-thinking:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4-flash-0731-thinking:free",
+        "provider": "crowllm",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia-deepseek-v4-1-flash-nvfp4",
+        "provider": "packet-ai",
+        "used": 8
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "minimaxai-minimax-m3-1-flash",
+        "provider": "packet-ai",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "qwen-qwen2-5-1-5b-instruct",
+        "provider": "packet-ai",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4.1-flash:free",
+        "provider": "token-harbor",
+        "used": 18
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "mimo-v2.6-flash:free",
+        "provider": "token-harbor",
+        "used": 18
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-v4-flash:free",
+        "provider": "token-harbor",
+        "used": 18
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "mimo-v2.5:free",
+        "provider": "token-harbor",
+        "used": 18
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "z-ai/glm-5.3:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "moonshotai/kimi-k3.1-pro:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "dealignai/glm-5.3-flash-uncensored-fp8:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek/deepseek-v4.1-flash:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "z-ai/glm-5.3-flash:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "dealignai/glm-5.3-uncensored-fp8:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 1000,
+        "enabled": true,
+        "healthy": true,
+        "model": "uniboshi/kimi-k3-abliterated-v1:free",
+        "provider": "numes",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-chimerax:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-darksoul:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-luminous:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-moonlight:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-musica:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "gemma-4-26b-a4b-it-meromero:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "minimax-m3.1-flash:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 200,
+        "enabled": true,
+        "healthy": true,
+        "model": "muse-glimmer-30b:free",
+        "provider": "routeway",
+        "used": 0
+      },
+      {
+        "cap": 50,
+        "enabled": true,
+        "healthy": true,
+        "model": "zai-org/glm-5.3-flash:free",
+        "provider": "wusrouter",
+        "used": 7
+      },
+      {
+        "cap": 50,
+        "enabled": true,
+        "healthy": true,
+        "model": "ws/gpt-5.6-terra:free",
+        "provider": "wusrouter",
+        "used": 7
+      },
+      {
+        "cap": 50,
+        "enabled": true,
+        "healthy": true,
+        "model": "mimo-v2.5:free",
+        "provider": "wusrouter",
+        "used": 7
+      },
+      {
+        "cap": 50,
+        "enabled": true,
+        "healthy": true,
+        "model": "codex/gpt-5:free",
+        "provider": "wusrouter",
+        "used": 7
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "freeapi-random",
+        "provider": "freeapi",
+        "used": 0
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "freeapi-random",
+        "provider": "freeapi-2",
+        "used": 0
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi",
+        "used": 6
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi-4",
+        "used": 6
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi-2",
+        "used": 6
+      },
+      {
+        "cap": 200000,
+        "enabled": true,
+        "healthy": true,
+        "model": "gpt-6.1-sol",
+        "provider": "xingchi-6",
+        "used": 128
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3.5-35B-A3B",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "zai-org/GLM-4.5-Air",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3.5-27B",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-ai/DeepSeek-R1",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen2.5-72B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "inclusionAI/Ling-flash-2.0",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+        "provider": "siliconflow-voucher",
+        "used": 6
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-ai/DeepSeek-V3.2",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3.5-35B-A3B",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "zai-org/GLM-4.5-Air",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3.5-27B",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "deepseek-ai/DeepSeek-R1",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen2.5-72B-Instruct",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-VL-32B-Instruct",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "inclusionAI/Ling-flash-2.0",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      },
+      {
+        "cap": 300,
+        "enabled": true,
+        "healthy": true,
+        "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+        "provider": "siliconflow-voucher-2",
+        "used": 33
+      }
+    ],
+    "healthy_entries": 149,
+    "ok": true,
+    "reachable": true,
+    "used_today": 0
   },
   "recent_completions": [
     {
-      "age_sec": 79,
+      "age_sec": 214,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T18:08:22Z",
       "completed_by": "float",
@@ -305,7 +2699,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 8259,
+      "age_sec": 8394,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T15:52:01Z",
       "completed_by": "operations",
@@ -317,7 +2711,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 83527,
+      "age_sec": 83662,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -329,7 +2723,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 83636,
+      "age_sec": 83771,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -341,7 +2735,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 83710,
+      "age_sec": 83845,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -353,7 +2747,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 83716,
+      "age_sec": 83851,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -365,7 +2759,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 84617,
+      "age_sec": 84752,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -377,7 +2771,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 88473,
+      "age_sec": 88608,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -389,7 +2783,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 88762,
+      "age_sec": 88897,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -401,7 +2795,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 89254,
+      "age_sec": 89389,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
