@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T13:09:26Z",
+    "activity_generated_at": "2026-11-26T13:11:46Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -12,18 +12,18 @@
       "active_jobs": 0,
       "claimed_count": 2,
       "current_task": {
-        "claimed_at": "2026-11-26T13:09:15Z",
-        "claimed_by": "operations",
-        "claimed_by_zh": "运维",
-        "claimed_for": "11秒",
-        "task_id": "clou-016",
-        "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…"
+        "claimed_at": "2026-11-26T13:10:07Z",
+        "claimed_by": "spaces-data",
+        "claimed_by_zh": "空间数据",
+        "claimed_for": "1分钟",
+        "task_id": "clou-018",
+        "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
-      "cycle_started_at": "2026-11-26T13:09:07Z",
+      "cycle_started_at": "2026-11-26T13:09:15Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "19秒",
-      "elapsed_sec": 19,
-      "last_cycle_ended": "2026-11-26T13:09:17Z",
+      "elapsed": "2分钟",
+      "elapsed_sec": 151,
+      "last_cycle_ended": "2026-11-26T13:11:33Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,29 +99,29 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 19,
-          "claimed_at": "2026-11-26T13:09:07Z",
-          "claimed_by": "spaces-data",
-          "claimed_by_zh": "空间数据",
-          "claimed_for": "19秒",
-          "task_id": "clou-018",
-          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+          "claimed_age_sec": 151,
+          "claimed_at": "2026-11-26T13:09:15Z",
+          "claimed_by": "operations",
+          "claimed_by_zh": "运维",
+          "claimed_for": "2分钟",
+          "task_id": "clou-016",
+          "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 11,
-          "claimed_at": "2026-11-26T13:09:15Z",
-          "claimed_by": "operations",
-          "claimed_by_zh": "运维",
-          "claimed_for": "11秒",
-          "task_id": "clou-016",
-          "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+          "claimed_age_sec": 99,
+          "claimed_at": "2026-11-26T13:10:07Z",
+          "claimed_by": "spaces-data",
+          "claimed_by_zh": "空间数据",
+          "claimed_for": "1分钟",
+          "task_id": "clou-018",
+          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
         }
       ],
       "done": 22,
-      "escalation_latest": "BLOCKED.md: reason: Live VPS installation requires remote writes outside this worker's permitted working directory; no authorized…",
+      "escalation_latest": "BLOCKED.md: reason: The exact deployed WP3 runner and marker-writing producer are not present in this working directory. Captured box logs…",
       "name_zh": "云脚本迁移",
       "next_open": [
         "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
@@ -183,33 +183,33 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 19,
-      "claimed_at": "2026-11-26T13:09:07Z",
-      "claimed_by": "spaces-data",
-      "claimed_by_zh": "空间数据",
-      "claimed_for": "19秒",
-      "task_id": "clou-018",
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "claimed_age_sec": 151,
+      "claimed_at": "2026-11-26T13:09:15Z",
+      "claimed_by": "operations",
+      "claimed_by_zh": "运维",
+      "claimed_for": "2分钟",
+      "task_id": "clou-016",
+      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 11,
-      "claimed_at": "2026-11-26T13:09:15Z",
-      "claimed_by": "operations",
-      "claimed_by_zh": "运维",
-      "claimed_for": "11秒",
-      "task_id": "clou-016",
-      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+      "claimed_age_sec": 99,
+      "claimed_at": "2026-11-26T13:10:07Z",
+      "claimed_by": "spaces-data",
+      "claimed_by_zh": "空间数据",
+      "claimed_for": "1分钟",
+      "task_id": "clou-018",
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
   "content_latest_at": "2026-11-26T13:07:04Z",
   "escalations_human": {
     "cloud-script-migration": {
-      "dropped_hash_keys": 372,
+      "dropped_hash_keys": 373,
       "exists": true,
-      "latest": "BLOCKED.md: reason: Live VPS installation requires remote writes outside this worker's permitted working directory; no authorized…"
+      "latest": "BLOCKED.md: reason: The exact deployed WP3 runner and marker-writing producer are not present in this working directory. Captured box logs…"
     },
     "float": {
       "dropped_hash_keys": 208,
@@ -237,12 +237,11 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T13:09:27Z",
-  "generated_at_utc": "2026-11-26T13:09:27Z",
+  "generated_at": "2026-11-26T13:11:47Z",
+  "generated_at_utc": "2026-11-26T13:11:47Z",
   "live_pi_workers": {
     "by_model": {
-      "100milionseek-2/deepseek-v4.1-flash-free": 4,
-      "crowllm/deepseek-v4-flash-0731-thinking:free": 2
+      "100milionseek-2/deepseek-v4.1-flash-free": 4
     },
     "running": [
       {
@@ -264,19 +263,9 @@
         "model": "100milionseek-2/deepseek-v4.1-flash-free",
         "pid": 4777,
         "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 7260,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 7261,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       }
     ],
-    "total": 6
+    "total": 4
   },
   "managers": [
     {
@@ -348,7 +337,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 580
+        "used": 585
       },
       {
         "cap": 1000,
@@ -1100,7 +1089,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 17
+        "used": 18
       },
       {
         "cap": 300,
@@ -1108,7 +1097,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 17
+        "used": 18
       },
       {
         "cap": 300,
@@ -1116,7 +1105,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 17
+        "used": 18
       },
       {
         "cap": 300,
@@ -1124,7 +1113,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 17
+        "used": 18
       },
       {
         "cap": 1000,
@@ -1340,7 +1329,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 61
+        "used": 67
       },
       {
         "cap": 300,
@@ -1550,7 +1539,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 580
+        "used": 585
       },
       {
         "cap": 1000,
@@ -2302,7 +2291,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 17
+        "used": 18
       },
       {
         "cap": 300,
@@ -2310,7 +2299,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 17
+        "used": 18
       },
       {
         "cap": 300,
@@ -2318,7 +2307,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 17
+        "used": 18
       },
       {
         "cap": 300,
@@ -2326,7 +2315,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 17
+        "used": 18
       },
       {
         "cap": 1000,
@@ -2542,7 +2531,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 61
+        "used": 67
       },
       {
         "cap": 300,
@@ -2744,9 +2733,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 8,
+      "age_sec": 12,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T13:09:17Z",
+      "completed_at": "2026-11-26T13:11:33Z",
       "completed_by": "operations",
       "completed_by_zh": "运维",
       "completed_ts_source": "result.txt",
@@ -2756,9 +2745,9 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 15,
+      "age_sec": 74,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T13:09:10Z",
+      "completed_at": "2026-11-26T13:10:31Z",
       "completed_by": "spaces-data",
       "completed_by_zh": "空间数据",
       "completed_ts_source": "result.txt",
@@ -2768,7 +2757,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 65512,
+      "age_sec": 65652,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2780,7 +2769,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 65621,
+      "age_sec": 65761,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2792,7 +2781,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 65694,
+      "age_sec": 65835,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2804,7 +2793,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 65701,
+      "age_sec": 65841,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2816,7 +2805,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 66602,
+      "age_sec": 66742,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2828,7 +2817,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 70457,
+      "age_sec": 70598,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2840,7 +2829,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 70747,
+      "age_sec": 70887,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2852,7 +2841,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 71239,
+      "age_sec": 71379,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2872,8 +2861,7 @@
   },
   "workers": {
     "by_model": {
-      "100milionseek-2/deepseek-v4.1-flash-free": 4,
-      "crowllm/deepseek-v4-flash-0731-thinking:free": 2
+      "100milionseek-2/deepseek-v4.1-flash-free": 4
     },
     "running": [
       {
@@ -2895,28 +2883,14 @@
         "model": "100milionseek-2/deepseek-v4.1-flash-free",
         "pid": 4777,
         "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 7260,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 7261,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       }
     ],
-    "total": 6
+    "total": 4
   },
   "workers_detail": [
     {
       "count": 4,
       "model": "100milionseek-2/deepseek-v4.1-flash-free"
-    },
-    {
-      "count": 2,
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free"
     }
   ],
   "workers_running": [
@@ -2939,23 +2913,13 @@
       "model": "100milionseek-2/deepseek-v4.1-flash-free",
       "pid": 4777,
       "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-    },
-    {
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-      "pid": 7260,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-      "pid": 7261,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
     }
   ],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
         "exists": true,
-        "latest": "- key=d8815357baf1"
+        "latest": "- key=fc193d566e33"
       },
       "status": {
         "exists": true,
@@ -2974,7 +2938,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (executed-by operations failed 2026-11-26T11:35:15Z) (claimed-by spaces-data 2026-11-26T13:09:07Z)"
+            "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss filing 2026-11-23): freebies-scan.json has carried ok=false / \"freebie pipeline failed before publish\" since the 2026-11-22 InstaBox freeze; the box resumed 2026-11-23 09:09 CST and the file's stamp advances but every one of the 9 sources still fails before publish. The boss could not locate the failure point from the box: wp3/fetch.log is EMPTY (0 lines), collect-loop.log has no wp3 lines in the tail. Locate the pipeline's real per-source error (check the queue-work wp3 runner + the fetch script's error path), fix the root cause, and prove it with a successful tick producing ok=true with offers on both endpoints. Do not guess the failure from the marker text. | wp3/freebie_fetch.py + freebies-scan.json + queue-work-wp3 | one full tick with ok=true on both pub endpoints [BOSS REJECTED 2026-11-24 ~02:00: the 60-second completion claim is VOID. Boss first-hand check: the primary freebies-scan.json is still the box-era 08:53:23Z file; no full tick ran (the box is locked until 17:02 CST) and the GitHub-side freshness came from the boss's VM producer, not this line. The cited result.txt predates the claim (17:49:27Z). The 9-source root cause is still open; its production half is box-side and cannot be executed during the lock.] [BOSS RE-SCOPE 2026-11-25: the box-side production this task was filed against is GONE (InstaBox account disabled 2026-11-24, migration complete). Re-scoped to the CURRENT producer: ~/workspace/migrate-glue/freebie_producer.sh on this VM. Diagnose from the producer's own recent rounds which sources fail pre-publish validation NOW and why; fix at the producer, never by weakening the safe-publish guard. Executor: gpt-6.2-sol (user order 2026-11-25). Acceptance: one scheduled producer round where every previously failing source either passes or is individually evidenced as source-dead/walled per the AGENTS.md fetch rules.] (claimed-by spaces-data 2026-11-26T13:10:07Z) (executed-by spaces-data failed 2026-11-26T13:10:33Z)"
           }
         ],
         "open": 2
