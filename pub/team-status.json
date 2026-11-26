@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T01:23:22Z",
+    "activity_generated_at": "2026-11-26T01:25:47Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,15 +15,15 @@
         "claimed_at": "2026-11-26T01:18:33Z",
         "claimed_by": "spaces-data",
         "claimed_by_zh": "空间数据",
-        "claimed_for": "4分钟",
+        "claimed_for": "7分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-26T01:18:33Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "4分钟",
-      "elapsed_sec": 290,
-      "last_cycle_ended": "2026-11-26T01:23:22Z",
+      "elapsed": "7分钟",
+      "elapsed_sec": 435,
+      "last_cycle_ended": "2026-11-26T01:25:27Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,11 +99,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 290,
+          "claimed_age_sec": 435,
           "claimed_at": "2026-11-26T01:18:33Z",
           "claimed_by": "spaces-data",
           "claimed_by_zh": "空间数据",
-          "claimed_for": "4分钟",
+          "claimed_for": "7分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -131,7 +131,7 @@
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
       ],
       "open": 2,
-      "status_updated": "2026-11-26T01:20:00Z",
+      "status_updated": "2026-11-26T01:25:24Z",
       "total": 83,
       "workstream": "pool-optimization"
     },
@@ -172,17 +172,17 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 290,
+      "claimed_age_sec": 435,
       "claimed_at": "2026-11-26T01:18:33Z",
       "claimed_by": "spaces-data",
       "claimed_by_zh": "空间数据",
-      "claimed_for": "4分钟",
+      "claimed_for": "7分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-26T01:20:00Z",
+  "content_latest_at": "2026-11-26T01:25:24Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 329,
@@ -215,25 +215,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T01:23:23Z",
-  "generated_at_utc": "2026-11-26T01:23:23Z",
+  "generated_at": "2026-11-26T01:25:47Z",
+  "generated_at_utc": "2026-11-26T01:25:47Z",
   "live_pi_workers": {
-    "by_model": {
-      "wusrouter/codex/gpt-5:free": 2
-    },
-    "running": [
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 5395,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 5396,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -553,7 +540,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 123
+        "used": 140
       },
       {
         "cap": 20000,
@@ -601,7 +588,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 41
+        "used": 42
       },
       {
         "cap": 20000,
@@ -681,7 +668,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 30
+        "used": 31
       },
       {
         "cap": 20000,
@@ -1755,7 +1742,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 123
+        "used": 140
       },
       {
         "cap": 20000,
@@ -1803,7 +1790,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 41
+        "used": 42
       },
       {
         "cap": 20000,
@@ -1883,7 +1870,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 30
+        "used": 31
       },
       {
         "cap": 20000,
@@ -2701,9 +2688,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 0,
+      "age_sec": 20,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T01:23:22Z",
+      "completed_at": "2026-11-26T01:25:27Z",
       "completed_by": "spaces-data",
       "completed_by_zh": "空间数据",
       "completed_ts_source": "result.txt",
@@ -2713,7 +2700,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 23148,
+      "age_sec": 23293,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2725,7 +2712,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 23257,
+      "age_sec": 23402,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2737,7 +2724,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 23331,
+      "age_sec": 23476,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2749,7 +2736,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 23337,
+      "age_sec": 23482,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2761,7 +2748,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 24238,
+      "age_sec": 24383,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2773,7 +2760,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 28094,
+      "age_sec": 28239,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2785,7 +2772,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 28383,
+      "age_sec": 28528,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2797,7 +2784,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 28875,
+      "age_sec": 29020,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2809,7 +2796,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 28896,
+      "age_sec": 29041,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
@@ -2828,41 +2815,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "wusrouter/codex/gpt-5:free": 2
-    },
-    "running": [
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 5395,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 5396,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 2,
-      "model": "wusrouter/codex/gpt-5:free"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "wusrouter/codex/gpt-5:free",
-      "pid": 5395,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "wusrouter/codex/gpt-5:free",
-      "pid": 5396,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -2921,7 +2879,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T01:20:00Z"
+        "updated": "2026-11-26T01:25:24Z"
       },
       "tasks": {
         "done": 81,
