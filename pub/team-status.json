@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T19:10:43Z",
+    "activity_generated_at": "2026-11-26T19:13:18Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -25,18 +25,18 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-26T18:59:21Z",
-        "claimed_by": "pool-optimization-seat-1-6072-2daf086a",
-        "claimed_by_zh": "池优化 席位6072",
-        "claimed_for": "11分钟",
+        "claimed_at": "2026-11-26T19:12:45Z",
+        "claimed_by": "pool-optimization-seat-1-9031-ad68410d",
+        "claimed_by_zh": "池优化 席位9031",
+        "claimed_for": "33秒",
         "task_id": "pool-084",
         "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…"
       },
-      "cycle_started_at": "2026-11-26T18:59:21Z",
+      "cycle_started_at": "2026-11-26T19:12:45Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "11分钟",
-      "elapsed_sec": 682,
-      "last_cycle_ended": "2026-11-26T18:59:39Z",
+      "elapsed": "33秒",
+      "elapsed_sec": 33,
+      "last_cycle_ended": "2026-11-26T19:13:16Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -112,11 +112,11 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 682,
-          "claimed_at": "2026-11-26T18:59:21Z",
-          "claimed_by": "pool-optimization-seat-1-6072-2daf086a",
-          "claimed_by_zh": "池优化 席位6072",
-          "claimed_for": "11分钟",
+          "claimed_age_sec": 33,
+          "claimed_at": "2026-11-26T19:12:45Z",
+          "claimed_by": "pool-optimization-seat-1-9031-ad68410d",
+          "claimed_by_zh": "池优化 席位9031",
+          "claimed_for": "33秒",
           "task_id": "pool-084",
           "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
           "workstream": "pool-optimization"
@@ -131,7 +131,7 @@
         "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…"
       ],
       "open": 3,
-      "status_updated": "2026-11-26T19:07:35Z",
+      "status_updated": "2026-11-26T19:12:46Z",
       "total": 84,
       "workstream": "pool-optimization"
     },
@@ -176,17 +176,17 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 682,
-      "claimed_at": "2026-11-26T18:59:21Z",
-      "claimed_by": "pool-optimization-seat-1-6072-2daf086a",
-      "claimed_by_zh": "池优化 席位6072",
-      "claimed_for": "11分钟",
+      "claimed_age_sec": 33,
+      "claimed_at": "2026-11-26T19:12:45Z",
+      "claimed_by": "pool-optimization-seat-1-9031-ad68410d",
+      "claimed_by_zh": "池优化 席位9031",
+      "claimed_for": "33秒",
       "task_id": "pool-084",
       "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
       "workstream": "pool-optimization"
     }
   ],
-  "content_latest_at": "2026-11-26T19:07:45Z",
+  "content_latest_at": "2026-11-26T19:12:46Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 385,
@@ -219,12 +219,25 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T19:10:43Z",
-  "generated_at_utc": "2026-11-26T19:10:43Z",
+  "generated_at": "2026-11-26T19:13:18Z",
+  "generated_at_utc": "2026-11-26T19:13:18Z",
   "live_pi_workers": {
-    "by_model": {},
-    "running": [],
-    "total": 0
+    "by_model": {
+      "token-harbor/deepseek-v4.1-flash:free": 2
+    },
+    "running": [
+      {
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 9052,
+        "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from t"
+      },
+      {
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 9053,
+        "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from t"
+      }
+    ],
+    "total": 2
   },
   "managers": [
     {
@@ -1048,7 +1061,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 300,
@@ -1056,7 +1069,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 300,
@@ -1064,7 +1077,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 300,
@@ -1072,7 +1085,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 1000,
@@ -1288,7 +1301,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 194
+        "used": 198
       },
       {
         "cap": 300,
@@ -2250,7 +2263,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 300,
@@ -2258,7 +2271,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 300,
@@ -2266,7 +2279,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 300,
@@ -2274,7 +2287,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 1000,
@@ -2490,7 +2503,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 194
+        "used": 198
       },
       {
         "cap": 300,
@@ -2692,11 +2705,11 @@
   },
   "recent_completions": [
     {
-      "age_sec": 663,
+      "age_sec": 1,
       "board_zh": "池优化",
-      "completed_at": "2026-11-26T18:59:39Z",
-      "completed_by": "pool-optimization-seat-1-6072-2daf086a",
-      "completed_by_zh": "池优化 席位6072",
+      "completed_at": "2026-11-26T19:13:16Z",
+      "completed_by": "pool-optimization-seat-1-9031-ad68410d",
+      "completed_by_zh": "池优化 席位9031",
       "completed_ts_source": "result.txt",
       "task_id": "pool-084",
       "task_no": 84,
@@ -2704,7 +2717,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 2972,
+      "age_sec": 3127,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T18:21:10Z",
       "completed_by": null,
@@ -2716,7 +2729,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 11921,
+      "age_sec": 12076,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T15:52:01Z",
       "completed_by": "operations",
@@ -2728,7 +2741,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 87189,
+      "age_sec": 87344,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2740,7 +2753,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 87298,
+      "age_sec": 87453,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2752,7 +2765,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 87371,
+      "age_sec": 87526,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2764,7 +2777,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 87378,
+      "age_sec": 87533,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2776,7 +2789,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 88279,
+      "age_sec": 88434,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2788,7 +2801,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 92134,
+      "age_sec": 92289,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2800,7 +2813,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 92424,
+      "age_sec": 92579,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2819,12 +2832,41 @@
     "total": 58
   },
   "workers": {
-    "by_model": {},
-    "running": [],
-    "total": 0
+    "by_model": {
+      "token-harbor/deepseek-v4.1-flash:free": 2
+    },
+    "running": [
+      {
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 9052,
+        "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from t"
+      },
+      {
+        "model": "token-harbor/deepseek-v4.1-flash:free",
+        "pid": 9053,
+        "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from t"
+      }
+    ],
+    "total": 2
   },
-  "workers_detail": [],
-  "workers_running": [],
+  "workers_detail": [
+    {
+      "count": 2,
+      "model": "token-harbor/deepseek-v4.1-flash:free"
+    }
+  ],
+  "workers_running": [
+    {
+      "model": "token-harbor/deepseek-v4.1-flash:free",
+      "pid": 9052,
+      "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from t"
+    },
+    {
+      "model": "token-harbor/deepseek-v4.1-flash:free",
+      "pid": 9053,
+      "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from t"
+    }
+  ],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -2882,9 +2924,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-26T19:07:35Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-26T19:12:46Z"
       },
       "tasks": {
         "done": 81,
@@ -2900,7 +2942,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from the user's status check): two measured defects in the help machinery's EVIDENCE layer (the dispatch machinery itself works - 111 re-dispatch log lines 2026-11-24..26). (1) CLASSIFIER MISFIRE: the production help-cooldown.json record for the 2026-11-26T18:18Z task-018 cycle carries class=\"selftest\" for a REAL production help failure (providers=[wusrouter], fails=153) - record_help_failure's classification keys off marker words in the task text (clou-018's acceptance text contains 'selftest'). Classification must come from the failure's own evidence (attempt outcomes / exit / selftest run attached to THIS dispatch), never from task-text wording; unclassifiable = unknown. (2) ATTRIBUTION VOID: help_dispatches.jsonl holds 150 rows (2026-11-24T12:14Z..2026-11-26T18:18Z), ALL dispatch_path=\"manual\" and ALL verdict=\"no_advance\" - zero rows recorded as idle_sweep although the idle sweep runs every watch cycle and cross-line help demonstrably happened (e.g. pool-optimization -> cloud-script-migration task-018). Either the sweep never dispatches or its provenance is lost before the writer runs; find which, fix it so the dispatch decision's provenance (assigner + dispatch_path + dispatch_timestamp, pool-054 amendment 3) is carried INTO the event at dispatch time. Acceptance (production-path evidence, no marker-only claims): (a) a drill task whose text contains the word 'selftest' but whose help attempt fails upstream records class=upstream (or unknown), never selftest; (b) the next 10 production help events carry dispatch_path values matching their true trigger, with at least one idle_sweep row if the sweep fires in that window - or a written finding, backed by sweep logs, that the sweep genuinely never had an eligible (ready-task + idle-float) moment, itself then filed as the next defect; (c) manager selftest + manager-watch selftest full pass. This task does NOT unfreeze pool-054; its segment-3 gate still needs one real cycle whose cooldown record is correctly classified. [BOSS AMENDMENT 2026-11-27 (help-merge meeting, note meetings/20261127-help-merge-note.md): SEGMENT 3 ADDED - the merge itself. Re-dispatch candidate selection gains idle float-seat capacity (idle help's idea folded into re-dispatch per the user's order); float_sweep's standalone dispatch retires or folds per the operations forensics verdict (operations board, ruling 2) - never before that verdict; the help verdict readback merges into the re-dispatch verdict path; the help_dispatches writer becomes the unified event source. Acceptance for segment 3: production evidence that a re-dispatch drew on an idle float seat and the dispatch event carries its provenance; dispatch entry points go 2 -> 1. Recheck 2026-12-03.] | manager.py record_help_failure + help event writer; tasks/pool-optimization/manager_watch.py float_sweep/help verdict pass | drill evidence + 10-event production sample in out/<task>/deliverable.md (claimed-by pool-optimization-seat-1-6072-2daf086a 2026-11-26T18:59:21Z)"
+            "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from the user's status check): two measured defects in the help machinery's EVIDENCE layer (the dispatch machinery itself works - 111 re-dispatch log lines 2026-11-24..26). (1) CLASSIFIER MISFIRE: the production help-cooldown.json record for the 2026-11-26T18:18Z task-018 cycle carries class=\"selftest\" for a REAL production help failure (providers=[wusrouter], fails=153) - record_help_failure's classification keys off marker words in the task text (clou-018's acceptance text contains 'selftest'). Classification must come from the failure's own evidence (attempt outcomes / exit / selftest run attached to THIS dispatch), never from task-text wording; unclassifiable = unknown. (2) ATTRIBUTION VOID: help_dispatches.jsonl holds 150 rows (2026-11-24T12:14Z..2026-11-26T18:18Z), ALL dispatch_path=\"manual\" and ALL verdict=\"no_advance\" - zero rows recorded as idle_sweep although the idle sweep runs every watch cycle and cross-line help demonstrably happened (e.g. pool-optimization -> cloud-script-migration task-018). Either the sweep never dispatches or its provenance is lost before the writer runs; find which, fix it so the dispatch decision's provenance (assigner + dispatch_path + dispatch_timestamp, pool-054 amendment 3) is carried INTO the event at dispatch time. Acceptance (production-path evidence, no marker-only claims): (a) a drill task whose text contains the word 'selftest' but whose help attempt fails upstream records class=upstream (or unknown), never selftest; (b) the next 10 production help events carry dispatch_path values matching their true trigger, with at least one idle_sweep row if the sweep fires in that window - or a written finding, backed by sweep logs, that the sweep genuinely never had an eligible (ready-task + idle-float) moment, itself then filed as the next defect; (c) manager selftest + manager-watch selftest full pass. This task does NOT unfreeze pool-054; its segment-3 gate still needs one real cycle whose cooldown record is correctly classified. [BOSS AMENDMENT 2026-11-27 (help-merge meeting, note meetings/20261127-help-merge-note.md): SEGMENT 3 ADDED - the merge itself. Re-dispatch candidate selection gains idle float-seat capacity (idle help's idea folded into re-dispatch per the user's order); float_sweep's standalone dispatch retires or folds per the operations forensics verdict (operations board, ruling 2) - never before that verdict; the help verdict readback merges into the re-dispatch verdict path; the help_dispatches writer becomes the unified event source. Acceptance for segment 3: production evidence that a re-dispatch drew on an idle float seat and the dispatch event carries its provenance; dispatch entry points go 2 -> 1. Recheck 2026-12-03.] | manager.py record_help_failure + help event writer; tasks/pool-optimization/manager_watch.py float_sweep/help verdict pass | drill evidence + 10-event production sample in out/<task>/deliverable.md (claimed-by pool-optimization-seat-1-9031-ad68410d 2026-11-26T19:12:45Z)"
           }
         ],
         "open": 3
