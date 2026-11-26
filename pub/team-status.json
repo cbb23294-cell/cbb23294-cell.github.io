@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T12:40:12Z",
+    "activity_generated_at": "2026-11-26T12:42:27Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,15 +15,15 @@
         "claimed_at": "2026-11-26T12:39:54Z",
         "claimed_by": "security",
         "claimed_by_zh": "安全",
-        "claimed_for": "19秒",
+        "claimed_for": "2分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-26T12:37:49Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "2分钟",
-      "elapsed_sec": 144,
-      "last_cycle_ended": "2026-11-26T12:40:12Z",
+      "elapsed": "4分钟",
+      "elapsed_sec": 279,
+      "last_cycle_ended": "2026-11-26T12:42:22Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,22 +99,22 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 144,
+          "claimed_age_sec": 279,
           "claimed_at": "2026-11-26T12:37:49Z",
           "claimed_by": "operations",
           "claimed_by_zh": "运维",
-          "claimed_for": "2分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-016",
           "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 19,
+          "claimed_age_sec": 154,
           "claimed_at": "2026-11-26T12:39:54Z",
           "claimed_by": "security",
           "claimed_by_zh": "安全",
-          "claimed_for": "19秒",
+          "claimed_for": "2分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -142,7 +142,7 @@
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
       ],
       "open": 2,
-      "status_updated": "2026-11-26T12:35:30Z",
+      "status_updated": "2026-11-26T12:41:13Z",
       "total": 83,
       "workstream": "pool-optimization"
     },
@@ -183,28 +183,28 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 144,
+      "claimed_age_sec": 279,
       "claimed_at": "2026-11-26T12:37:49Z",
       "claimed_by": "operations",
       "claimed_by_zh": "运维",
-      "claimed_for": "2分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-016",
       "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 19,
+      "claimed_age_sec": 154,
       "claimed_at": "2026-11-26T12:39:54Z",
       "claimed_by": "security",
       "claimed_by_zh": "安全",
-      "claimed_for": "19秒",
+      "claimed_for": "2分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-26T12:35:30Z",
+  "content_latest_at": "2026-11-26T12:41:13Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 370,
@@ -237,13 +237,11 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T12:40:13Z",
-  "generated_at_utc": "2026-11-26T12:40:13Z",
+  "generated_at": "2026-11-26T12:42:28Z",
+  "generated_at_utc": "2026-11-26T12:42:28Z",
   "live_pi_workers": {
     "by_model": {
-      "100milionseek/deepseek-v4.1-flash-free": 6,
-      "crowllm/deepseek-v4-flash-0731-thinking:free": 2,
-      "xingchi/gpt-6.1-sol": 2
+      "100milionseek/deepseek-v4.1-flash-free": 6
     },
     "running": [
       {
@@ -267,16 +265,6 @@
         "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       },
       {
-        "model": "xingchi/gpt-6.1-sol",
-        "pid": 30428,
-        "title": "Build a safe proxy-restart tool for the LLM pool, deliverables in your working d"
-      },
-      {
-        "model": "xingchi/gpt-6.1-sol",
-        "pid": 30429,
-        "title": "Build a safe proxy-restart tool for the LLM pool, deliverables in your working d"
-      },
-      {
         "model": "100milionseek/deepseek-v4.1-flash-free",
         "pid": 31271,
         "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
@@ -285,19 +273,9 @@
         "model": "100milionseek/deepseek-v4.1-flash-free",
         "pid": 31272,
         "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 31534,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 31535,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       }
     ],
-    "total": 10
+    "total": 6
   },
   "managers": [
     {
@@ -369,7 +347,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 480
+        "used": 492
       },
       {
         "cap": 1000,
@@ -377,7 +355,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 1000,
@@ -585,7 +563,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -593,7 +571,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -601,7 +579,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -609,7 +587,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -617,7 +595,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -625,7 +603,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -633,7 +611,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -641,7 +619,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -649,7 +627,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -657,7 +635,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 200000,
@@ -1089,7 +1067,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 26
+        "used": 27
       },
       {
         "cap": 300,
@@ -1571,7 +1549,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 480
+        "used": 492
       },
       {
         "cap": 1000,
@@ -1579,7 +1557,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 28
+        "used": 29
       },
       {
         "cap": 1000,
@@ -1787,7 +1765,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -1795,7 +1773,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -1803,7 +1781,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -1811,7 +1789,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -1819,7 +1797,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -1827,7 +1805,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -1835,7 +1813,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -1843,7 +1821,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -1851,7 +1829,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 20000,
@@ -1859,7 +1837,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf",
-        "used": 106
+        "used": 118
       },
       {
         "cap": 200000,
@@ -2291,7 +2269,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 26
+        "used": 27
       },
       {
         "cap": 300,
@@ -2765,21 +2743,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 0,
+      "age_sec": 5,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T12:40:12Z",
-      "completed_by": "security",
-      "completed_by_zh": "安全",
-      "completed_ts_source": "result.txt",
-      "task_id": "clou-018",
-      "task_no": 18,
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 38,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T12:39:34Z",
+      "completed_at": "2026-11-26T12:42:22Z",
       "completed_by": "operations",
       "completed_by_zh": "运维",
       "completed_ts_source": "result.txt",
@@ -2789,7 +2755,19 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 63758,
+      "age_sec": 80,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-26T12:41:07Z",
+      "completed_by": "security",
+      "completed_by_zh": "安全",
+      "completed_ts_source": "done",
+      "task_id": "clou-018",
+      "task_no": 18,
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 63893,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2801,7 +2779,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 63867,
+      "age_sec": 64003,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2813,7 +2791,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 63941,
+      "age_sec": 64076,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2825,7 +2803,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 63947,
+      "age_sec": 64082,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2837,7 +2815,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 64848,
+      "age_sec": 64983,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2849,7 +2827,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 68704,
+      "age_sec": 68839,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2861,7 +2839,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 68993,
+      "age_sec": 69128,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2873,7 +2851,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 69485,
+      "age_sec": 69620,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2893,9 +2871,7 @@
   },
   "workers": {
     "by_model": {
-      "100milionseek/deepseek-v4.1-flash-free": 6,
-      "crowllm/deepseek-v4-flash-0731-thinking:free": 2,
-      "xingchi/gpt-6.1-sol": 2
+      "100milionseek/deepseek-v4.1-flash-free": 6
     },
     "running": [
       {
@@ -2919,16 +2895,6 @@
         "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       },
       {
-        "model": "xingchi/gpt-6.1-sol",
-        "pid": 30428,
-        "title": "Build a safe proxy-restart tool for the LLM pool, deliverables in your working d"
-      },
-      {
-        "model": "xingchi/gpt-6.1-sol",
-        "pid": 30429,
-        "title": "Build a safe proxy-restart tool for the LLM pool, deliverables in your working d"
-      },
-      {
         "model": "100milionseek/deepseek-v4.1-flash-free",
         "pid": 31271,
         "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
@@ -2937,32 +2903,14 @@
         "model": "100milionseek/deepseek-v4.1-flash-free",
         "pid": 31272,
         "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 31534,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 31535,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
       }
     ],
-    "total": 10
+    "total": 6
   },
   "workers_detail": [
     {
       "count": 6,
       "model": "100milionseek/deepseek-v4.1-flash-free"
-    },
-    {
-      "count": 2,
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free"
-    },
-    {
-      "count": 2,
-      "model": "xingchi/gpt-6.1-sol"
     }
   ],
   "workers_running": [
@@ -2987,16 +2935,6 @@
       "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
     },
     {
-      "model": "xingchi/gpt-6.1-sol",
-      "pid": 30428,
-      "title": "Build a safe proxy-restart tool for the LLM pool, deliverables in your working d"
-    },
-    {
-      "model": "xingchi/gpt-6.1-sol",
-      "pid": 30429,
-      "title": "Build a safe proxy-restart tool for the LLM pool, deliverables in your working d"
-    },
-    {
       "model": "100milionseek/deepseek-v4.1-flash-free",
       "pid": 31271,
       "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
@@ -3005,16 +2943,6 @@
       "model": "100milionseek/deepseek-v4.1-flash-free",
       "pid": 31272,
       "title": "[code] [boss-accept] VPS pull-from-GitHub healer (publish redundancy, second hal"
-    },
-    {
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-      "pid": 31534,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-      "pid": 31535,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
     }
   ],
   "workstreams": {
@@ -3075,7 +3003,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T12:35:30Z"
+        "updated": "2026-11-26T12:41:13Z"
       },
       "tasks": {
         "done": 81,
