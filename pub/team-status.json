@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T11:37:33Z",
+    "activity_generated_at": "2026-11-26T11:40:08Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-26T11:34:41Z",
         "claimed_by": "operations",
         "claimed_by_zh": "运维",
-        "claimed_for": "2分钟",
+        "claimed_for": "5分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-26T11:34:35Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "2分钟",
-      "elapsed_sec": 178,
+      "elapsed": "5分钟",
+      "elapsed_sec": 333,
       "last_cycle_ended": "2026-11-26T11:35:31Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -99,22 +99,22 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 178,
+          "claimed_age_sec": 333,
           "claimed_at": "2026-11-26T11:34:35Z",
           "claimed_by": "security",
           "claimed_by_zh": "安全",
-          "claimed_for": "2分钟",
+          "claimed_for": "5分钟",
           "task_id": "clou-016",
           "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 172,
+          "claimed_age_sec": 327,
           "claimed_at": "2026-11-26T11:34:41Z",
           "claimed_by": "operations",
           "claimed_by_zh": "运维",
-          "claimed_for": "2分钟",
+          "claimed_for": "5分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -183,22 +183,22 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 178,
+      "claimed_age_sec": 333,
       "claimed_at": "2026-11-26T11:34:35Z",
       "claimed_by": "security",
       "claimed_by_zh": "安全",
-      "claimed_for": "2分钟",
+      "claimed_for": "5分钟",
       "task_id": "clou-016",
       "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 172,
+      "claimed_age_sec": 327,
       "claimed_at": "2026-11-26T11:34:41Z",
       "claimed_by": "operations",
       "claimed_by_zh": "运维",
-      "claimed_for": "2分钟",
+      "claimed_for": "5分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
@@ -237,36 +237,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T11:37:33Z",
-  "generated_at_utc": "2026-11-26T11:37:33Z",
+  "generated_at": "2026-11-26T11:40:08Z",
+  "generated_at_utc": "2026-11-26T11:40:08Z",
   "live_pi_workers": {
-    "by_model": {
-      "ai-cf-sol/gpt-6.1-sol–free": 2,
-      "xingchi/gpt-6.1-sol": 2
-    },
-    "running": [
-      {
-        "model": "xingchi/gpt-6.1-sol",
-        "pid": 13708,
-        "title": "Analyze sol-lines.txt in your working directory (proxy log lines about the sol f"
-      },
-      {
-        "model": "xingchi/gpt-6.1-sol",
-        "pid": 13710,
-        "title": "Analyze sol-lines.txt in your working directory (proxy log lines about the sol f"
-      },
-      {
-        "model": "ai-cf-sol/gpt-6.1-sol–free",
-        "pid": 15178,
-        "title": "Analyze subst-lines.txt in your working directory (proxy 'model substitution' lo"
-      },
-      {
-        "model": "ai-cf-sol/gpt-6.1-sol–free",
-        "pid": 15179,
-        "title": "Analyze subst-lines.txt in your working directory (proxy 'model substitution' lo"
-      }
-    ],
-    "total": 4
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -634,7 +610,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 603
+        "used": 606
       },
       {
         "cap": 20000,
@@ -714,7 +690,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 356
+        "used": 357
       },
       {
         "cap": 20000,
@@ -794,7 +770,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 218
+        "used": 219
       },
       {
         "cap": 1000,
@@ -1098,7 +1074,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 164
+        "used": 165
       },
       {
         "cap": 300,
@@ -1314,7 +1290,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200000,
@@ -1322,7 +1298,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 200000,
@@ -1330,10 +1306,10 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 3
+        "used": 4
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
@@ -1341,7 +1317,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
@@ -1349,7 +1325,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
@@ -1357,7 +1333,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
@@ -1365,7 +1341,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
@@ -1373,7 +1349,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
@@ -1381,7 +1357,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
@@ -1389,7 +1365,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
@@ -1397,7 +1373,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
@@ -1405,7 +1381,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
@@ -1413,7 +1389,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
@@ -1421,7 +1397,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
@@ -1429,103 +1405,103 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       }
     ],
-    "healthy_entries": 148,
+    "healthy_entries": 136,
     "ok": true,
     "reachable": true,
     "used_today": 0
@@ -1836,7 +1812,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 603
+        "used": 606
       },
       {
         "cap": 20000,
@@ -1916,7 +1892,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 356
+        "used": 357
       },
       {
         "cap": 20000,
@@ -1996,7 +1972,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 218
+        "used": 219
       },
       {
         "cap": 1000,
@@ -2300,7 +2276,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 164
+        "used": 165
       },
       {
         "cap": 300,
@@ -2516,7 +2492,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 200000,
@@ -2524,7 +2500,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 200000,
@@ -2532,10 +2508,10 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 3
+        "used": 4
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
@@ -2543,7 +2519,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
@@ -2551,7 +2527,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
@@ -2559,7 +2535,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
@@ -2567,7 +2543,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
@@ -2575,7 +2551,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
@@ -2583,7 +2559,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
@@ -2591,7 +2567,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
@@ -2599,7 +2575,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
@@ -2607,7 +2583,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
@@ -2615,7 +2591,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
@@ -2623,7 +2599,7 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
@@ -2631,110 +2607,110 @@
         "used": 184
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       },
       {
-        "cap": 3000,
+        "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher-2",
         "used": 1259
       }
     ],
-    "healthy_entries": 148,
+    "healthy_entries": 136,
     "ok": true,
     "reachable": true,
     "used_today": 0
   },
   "recent_completions": [
     {
-      "age_sec": 121,
+      "age_sec": 276,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T11:35:31Z",
       "completed_by": "security",
@@ -2746,7 +2722,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 138,
+      "age_sec": 294,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T11:35:14Z",
       "completed_by": "operations",
@@ -2758,7 +2734,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 59999,
+      "age_sec": 60154,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2770,7 +2746,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 60108,
+      "age_sec": 60263,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2782,7 +2758,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 60181,
+      "age_sec": 60337,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2794,7 +2770,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 60188,
+      "age_sec": 60343,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2806,7 +2782,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 61089,
+      "age_sec": 61244,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2818,7 +2794,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 64944,
+      "age_sec": 65100,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2830,7 +2806,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 65234,
+      "age_sec": 65389,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2842,7 +2818,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 65725,
+      "age_sec": 65881,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2861,66 +2837,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "ai-cf-sol/gpt-6.1-sol–free": 2,
-      "xingchi/gpt-6.1-sol": 2
-    },
-    "running": [
-      {
-        "model": "xingchi/gpt-6.1-sol",
-        "pid": 13708,
-        "title": "Analyze sol-lines.txt in your working directory (proxy log lines about the sol f"
-      },
-      {
-        "model": "xingchi/gpt-6.1-sol",
-        "pid": 13710,
-        "title": "Analyze sol-lines.txt in your working directory (proxy log lines about the sol f"
-      },
-      {
-        "model": "ai-cf-sol/gpt-6.1-sol–free",
-        "pid": 15178,
-        "title": "Analyze subst-lines.txt in your working directory (proxy 'model substitution' lo"
-      },
-      {
-        "model": "ai-cf-sol/gpt-6.1-sol–free",
-        "pid": 15179,
-        "title": "Analyze subst-lines.txt in your working directory (proxy 'model substitution' lo"
-      }
-    ],
-    "total": 4
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 2,
-      "model": "ai-cf-sol/gpt-6.1-sol–free"
-    },
-    {
-      "count": 2,
-      "model": "xingchi/gpt-6.1-sol"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "xingchi/gpt-6.1-sol",
-      "pid": 13708,
-      "title": "Analyze sol-lines.txt in your working directory (proxy log lines about the sol f"
-    },
-    {
-      "model": "xingchi/gpt-6.1-sol",
-      "pid": 13710,
-      "title": "Analyze sol-lines.txt in your working directory (proxy log lines about the sol f"
-    },
-    {
-      "model": "ai-cf-sol/gpt-6.1-sol–free",
-      "pid": 15178,
-      "title": "Analyze subst-lines.txt in your working directory (proxy 'model substitution' lo"
-    },
-    {
-      "model": "ai-cf-sol/gpt-6.1-sol–free",
-      "pid": 15179,
-      "title": "Analyze subst-lines.txt in your working directory (proxy 'model substitution' lo"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
