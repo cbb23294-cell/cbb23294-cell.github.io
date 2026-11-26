@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T12:11:00Z",
+    "activity_generated_at": "2026-11-26T12:13:20Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,15 +15,15 @@
         "claimed_at": "2026-11-26T12:08:48Z",
         "claimed_by": "security",
         "claimed_by_zh": "安全",
-        "claimed_for": "2分钟",
+        "claimed_for": "4分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-26T12:07:43Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "3分钟",
-      "elapsed_sec": 198,
-      "last_cycle_ended": "2026-11-26T12:10:59Z",
+      "elapsed": "5分钟",
+      "elapsed_sec": 338,
+      "last_cycle_ended": "2026-11-26T12:13:12Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,22 +99,22 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 198,
+          "claimed_age_sec": 338,
           "claimed_at": "2026-11-26T12:07:43Z",
           "claimed_by": "operations",
           "claimed_by_zh": "运维",
-          "claimed_for": "3分钟",
+          "claimed_for": "5分钟",
           "task_id": "clou-016",
           "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 133,
+          "claimed_age_sec": 273,
           "claimed_at": "2026-11-26T12:08:48Z",
           "claimed_by": "security",
           "claimed_by_zh": "安全",
-          "claimed_for": "2分钟",
+          "claimed_for": "4分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -142,7 +142,7 @@
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
       ],
       "open": 2,
-      "status_updated": "2026-11-26T12:10:06Z",
+      "status_updated": "2026-11-26T12:11:52Z",
       "total": 83,
       "workstream": "pool-optimization"
     },
@@ -183,28 +183,28 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 198,
+      "claimed_age_sec": 338,
       "claimed_at": "2026-11-26T12:07:43Z",
       "claimed_by": "operations",
       "claimed_by_zh": "运维",
-      "claimed_for": "3分钟",
+      "claimed_for": "5分钟",
       "task_id": "clou-016",
       "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 133,
+      "claimed_age_sec": 273,
       "claimed_at": "2026-11-26T12:08:48Z",
       "claimed_by": "security",
       "claimed_by_zh": "安全",
-      "claimed_for": "2分钟",
+      "claimed_for": "4分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-26T12:10:06Z",
+  "content_latest_at": "2026-11-26T12:11:52Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 370,
@@ -237,8 +237,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T12:11:01Z",
-  "generated_at_utc": "2026-11-26T12:11:01Z",
+  "generated_at": "2026-11-26T12:13:21Z",
+  "generated_at_utc": "2026-11-26T12:13:21Z",
   "live_pi_workers": {
     "by_model": {
       "100milionseek/deepseek-v4.1-flash-free": 2,
@@ -338,7 +338,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 358
+        "used": 362
       },
       {
         "cap": 1000,
@@ -554,7 +554,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -562,7 +562,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -570,7 +570,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -578,7 +578,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -586,7 +586,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -594,7 +594,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -602,7 +602,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -610,7 +610,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -618,7 +618,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -626,7 +626,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 200000,
@@ -1090,7 +1090,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 300,
@@ -1098,7 +1098,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 300,
@@ -1106,7 +1106,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 300,
@@ -1114,7 +1114,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 1000,
@@ -1540,7 +1540,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 358
+        "used": 362
       },
       {
         "cap": 1000,
@@ -1756,7 +1756,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -1764,7 +1764,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -1772,7 +1772,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -1780,7 +1780,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -1788,7 +1788,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -1796,7 +1796,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -1804,7 +1804,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -1812,7 +1812,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -1820,7 +1820,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 20000,
@@ -1828,7 +1828,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf",
-        "used": 10
+        "used": 11
       },
       {
         "cap": 200000,
@@ -2292,7 +2292,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 300,
@@ -2300,7 +2300,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 300,
@@ -2308,7 +2308,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 300,
@@ -2316,7 +2316,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 2
+        "used": 3
       },
       {
         "cap": 1000,
@@ -2734,9 +2734,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 1,
+      "age_sec": 7,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T12:10:59Z",
+      "completed_at": "2026-11-26T12:13:12Z",
       "completed_by": "operations",
       "completed_by_zh": "运维",
       "completed_ts_source": "result.txt",
@@ -2746,7 +2746,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 105,
+      "age_sec": 245,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T12:09:14Z",
       "completed_by": "security",
@@ -2758,7 +2758,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 62006,
+      "age_sec": 62146,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2770,7 +2770,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 62116,
+      "age_sec": 62255,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2782,7 +2782,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 62189,
+      "age_sec": 62329,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2794,7 +2794,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 62196,
+      "age_sec": 62335,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2806,7 +2806,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 63097,
+      "age_sec": 63236,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2818,7 +2818,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 66952,
+      "age_sec": 67092,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2830,7 +2830,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 67242,
+      "age_sec": 67381,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2842,7 +2842,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 67733,
+      "age_sec": 67873,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2979,7 +2979,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T12:10:06Z"
+        "updated": "2026-11-26T12:11:52Z"
       },
       "tasks": {
         "done": 81,
