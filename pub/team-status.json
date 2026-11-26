@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T01:54:59Z",
+    "activity_generated_at": "2026-11-26T01:57:29Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,15 +15,15 @@
         "claimed_at": "2026-11-26T01:51:39Z",
         "claimed_by": "spaces-data",
         "claimed_by_zh": "空间数据",
-        "claimed_for": "3分钟",
+        "claimed_for": "5分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-26T01:51:39Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "3分钟",
-      "elapsed_sec": 200,
-      "last_cycle_ended": "2026-11-26T01:54:58Z",
+      "elapsed": "5分钟",
+      "elapsed_sec": 351,
+      "last_cycle_ended": "2026-11-26T01:57:13Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,11 +99,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 200,
+          "claimed_age_sec": 351,
           "claimed_at": "2026-11-26T01:51:39Z",
           "claimed_by": "spaces-data",
           "claimed_by_zh": "空间数据",
-          "claimed_for": "3分钟",
+          "claimed_for": "5分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -131,7 +131,7 @@
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
       ],
       "open": 2,
-      "status_updated": "2026-11-26T01:54:00Z",
+      "status_updated": "2026-11-26T01:55:24Z",
       "total": 83,
       "workstream": "pool-optimization"
     },
@@ -172,17 +172,17 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 200,
+      "claimed_age_sec": 351,
       "claimed_at": "2026-11-26T01:51:39Z",
       "claimed_by": "spaces-data",
       "claimed_by_zh": "空间数据",
-      "claimed_for": "3分钟",
+      "claimed_for": "5分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-26T01:54:00Z",
+  "content_latest_at": "2026-11-26T01:55:24Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 330,
@@ -215,25 +215,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T01:54:59Z",
-  "generated_at_utc": "2026-11-26T01:54:59Z",
+  "generated_at": "2026-11-26T01:57:30Z",
+  "generated_at_utc": "2026-11-26T01:57:30Z",
   "live_pi_workers": {
-    "by_model": {
-      "wusrouter/codex/gpt-5:free": 2
-    },
-    "running": [
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 14241,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 14242,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -553,7 +540,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 303
+        "used": 305
       },
       {
         "cap": 20000,
@@ -601,7 +588,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 55
+        "used": 61
       },
       {
         "cap": 20000,
@@ -625,7 +612,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-2",
-        "used": 1
+        "used": 2
       },
       {
         "cap": 20000,
@@ -633,7 +620,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -657,7 +644,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-2",
-        "used": 1
+        "used": 2
       },
       {
         "cap": 20000,
@@ -665,7 +652,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-2",
-        "used": 3
+        "used": 4
       },
       {
         "cap": 20000,
@@ -1225,7 +1212,7 @@
         "healthy": true,
         "model": "zai-org/glm-5.3-flash:free",
         "provider": "wusrouter",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 50,
@@ -1233,7 +1220,7 @@
         "healthy": true,
         "model": "ws/gpt-5.6-terra:free",
         "provider": "wusrouter",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 50,
@@ -1241,7 +1228,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "wusrouter",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 50,
@@ -1249,7 +1236,7 @@
         "healthy": true,
         "model": "codex/gpt-5:free",
         "provider": "wusrouter",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 300,
@@ -1755,7 +1742,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 303
+        "used": 305
       },
       {
         "cap": 20000,
@@ -1803,7 +1790,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 55
+        "used": 61
       },
       {
         "cap": 20000,
@@ -1827,7 +1814,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-2",
-        "used": 1
+        "used": 2
       },
       {
         "cap": 20000,
@@ -1835,7 +1822,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 0
+        "used": 1
       },
       {
         "cap": 20000,
@@ -1859,7 +1846,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-2",
-        "used": 1
+        "used": 2
       },
       {
         "cap": 20000,
@@ -1867,7 +1854,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-2",
-        "used": 3
+        "used": 4
       },
       {
         "cap": 20000,
@@ -2427,7 +2414,7 @@
         "healthy": true,
         "model": "zai-org/glm-5.3-flash:free",
         "provider": "wusrouter",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 50,
@@ -2435,7 +2422,7 @@
         "healthy": true,
         "model": "ws/gpt-5.6-terra:free",
         "provider": "wusrouter",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 50,
@@ -2443,7 +2430,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "wusrouter",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 50,
@@ -2451,7 +2438,7 @@
         "healthy": true,
         "model": "codex/gpt-5:free",
         "provider": "wusrouter",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 300,
@@ -2701,9 +2688,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 0,
+      "age_sec": 16,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T01:54:58Z",
+      "completed_at": "2026-11-26T01:57:13Z",
       "completed_by": "spaces-data",
       "completed_by_zh": "空间数据",
       "completed_ts_source": "result.txt",
@@ -2713,7 +2700,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 25045,
+      "age_sec": 25195,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2725,7 +2712,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 25154,
+      "age_sec": 25304,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2737,7 +2724,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 25227,
+      "age_sec": 25378,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2749,7 +2736,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 25234,
+      "age_sec": 25384,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2761,7 +2748,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 26135,
+      "age_sec": 26285,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2773,7 +2760,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 29990,
+      "age_sec": 30141,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2785,7 +2772,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 30280,
+      "age_sec": 30430,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2797,7 +2784,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 30771,
+      "age_sec": 30922,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -2809,7 +2796,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 30793,
+      "age_sec": 30943,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
@@ -2828,41 +2815,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "wusrouter/codex/gpt-5:free": 2
-    },
-    "running": [
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 14241,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 14242,
-        "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 2,
-      "model": "wusrouter/codex/gpt-5:free"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "wusrouter/codex/gpt-5:free",
-      "pid": 14241,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    },
-    {
-      "model": "wusrouter/codex/gpt-5:free",
-      "pid": 14242,
-      "title": "[code] [boss-accept] freebies-scan pipeline 9-source pre-publish failure (boss f"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -2921,7 +2879,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T01:54:00Z"
+        "updated": "2026-11-26T01:55:24Z"
       },
       "tasks": {
         "done": 81,
