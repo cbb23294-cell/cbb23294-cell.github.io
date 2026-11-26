@@ -1,8 +1,8 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T06:35:20Z",
+    "activity_generated_at": "2026-11-26T06:41:43Z",
     "empty_reasons": {
-      "claimed_now": null,
+      "claimed_now": "no open board task carries a live claim record",
       "recent_completions": null,
       "workers_running": "no jobs/*.json without a .done/.closed marker"
     }
@@ -10,22 +10,15 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 1,
-      "current_task": {
-        "claimed_at": "2026-11-26T06:29:53Z",
-        "claimed_by": "cloud-script-migration-seat-1-18915-d49b1520",
-        "claimed_by_zh": "云脚本迁移 席位18915",
-        "claimed_for": "5分钟",
-        "task_id": "clou-018",
-        "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
-      },
-      "cycle_started_at": "2026-11-26T06:29:53Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "5分钟",
-      "elapsed_sec": 327,
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
       "last_cycle_ended": "2026-11-26T06:30:04Z",
       "name_zh": "云脚本迁移",
-      "state": "running",
+      "state": "idle",
       "workstream": "cloud-script-migration"
     },
     {
@@ -96,19 +89,7 @@
   ],
   "boards": [
     {
-      "claimed_now": [
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 327,
-          "claimed_at": "2026-11-26T06:29:53Z",
-          "claimed_by": "cloud-script-migration-seat-1-18915-d49b1520",
-          "claimed_by_zh": "云脚本迁移 席位18915",
-          "claimed_for": "5分钟",
-          "task_id": "clou-018",
-          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-          "workstream": "cloud-script-migration"
-        }
-      ],
+      "claimed_now": [],
       "done": 22,
       "escalation_latest": "runner exit: 0",
       "name_zh": "云脚本迁移",
@@ -117,7 +98,7 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 2,
-      "status_updated": "2026-11-26T06:30:04Z",
+      "status_updated": "2026-11-26T06:35:22Z",
       "total": 24,
       "workstream": "cloud-script-migration"
     },
@@ -169,20 +150,8 @@
       "workstream": "spaces-data"
     }
   ],
-  "claimed_now": [
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 327,
-      "claimed_at": "2026-11-26T06:29:53Z",
-      "claimed_by": "cloud-script-migration-seat-1-18915-d49b1520",
-      "claimed_by_zh": "云脚本迁移 席位18915",
-      "claimed_for": "5分钟",
-      "task_id": "clou-018",
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    }
-  ],
-  "content_latest_at": "2026-11-26T06:34:32Z",
+  "claimed_now": [],
+  "content_latest_at": "2026-11-26T06:35:22Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 343,
@@ -215,8 +184,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T06:35:21Z",
-  "generated_at_utc": "2026-11-26T06:35:21Z",
+  "generated_at": "2026-11-26T06:41:44Z",
+  "generated_at_utc": "2026-11-26T06:41:44Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -2688,123 +2657,123 @@
   },
   "recent_completions": [
     {
-      "age_sec": 315,
+      "age_sec": 698,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T06:30:04Z",
-      "completed_by": "cloud-script-migration-seat-1-18915-d49b1520",
-      "completed_by_zh": "云脚本迁移 席位18915",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "clou-018",
+      "task_id": "task-018",
       "task_no": 18,
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 41866,
+      "age_sec": 42249,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-083",
+      "task_id": "task-083",
       "task_no": 83,
-      "title": "Settlement ordering defect: BLOCKED.md must short-circuit BEFORE the…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 41975,
+      "age_sec": 42358,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "pool-082",
+      "task_id": "task-082",
       "task_no": 82,
-      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 42048,
+      "age_sec": 42432,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-081",
+      "task_id": "task-081",
       "task_no": 81,
-      "title": "Named-model rule v2 landing SEG3: fallback identity gate (ruling…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 42055,
+      "age_sec": 42438,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-080",
+      "task_id": "task-080",
       "task_no": 80,
-      "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 42956,
+      "age_sec": 43339,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
-      "completed_by": "pool-optimization-seat-1-1978-c27661e0",
-      "completed_by_zh": "池优化 席位1978",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-079",
+      "task_id": "task-079",
       "task_no": 79,
-      "title": "Named-model rule v2 landing SEG1: substitution cause field +…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 46811,
+      "age_sec": 47195,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-054",
+      "task_id": "task-054",
       "task_no": 54,
-      "title": "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 47101,
+      "age_sec": 47484,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "pool-067",
+      "task_id": "task-067",
       "task_no": 67,
-      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 47593,
+      "age_sec": 47976,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-065",
+      "task_id": "task-065",
       "task_no": 65,
-      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-23 轮拆分）：巡查…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 47614,
+      "age_sec": 47997,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:21:45Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-066",
+      "task_id": "task-066",
       "task_no": 66,
-      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-B（硅基流动+商汤+100milionseek+智谱+Groq+O…",
+      "title": null,
       "workstream": "pool-optimization"
     }
   ],
@@ -2830,9 +2799,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-26T06:30:04Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-26T06:35:22Z"
       },
       "tasks": {
         "done": 22,
