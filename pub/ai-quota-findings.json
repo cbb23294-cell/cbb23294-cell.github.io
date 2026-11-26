@@ -1,9 +1,15 @@
 {
   "ok": true,
   "reason": "",
-  "generated_at": "2026-11-26T04:41:29Z",
+  "generated_at": "2026-11-26T06:43:31Z",
   "round": "ai-quota-refresh",
   "findings": [
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#27-openai",
+      "providerName": "额度变化 · OpenAI：API 定价页更新 GPT-6.2 系列模型（gpt-6.2-astra 与 gpt-6.2-sol），API 仍无免费模型层并全量按需付费",
+      "changeText": "free_models：**API 无免费模型层**，当前代际均按量付费：旗舰 `GPT-6 Astra`（$10/$50 每百万 token）、`GPT-5.6 Sol/Terra/Luna`；最低价 `gpt-5-nano`（$0.05/$0.40）；`text-embedding-3-small` 仍在售 → **API 无免费模型层**，当前代际均按量付费：最新代际 `gpt-6.2-astra`（$8.00/$40.00 每百万 token）、`gpt-6.2-sol`（$2.00/$10.00）；上一代 `gpt-6-astra`（$10.00/$50.00）、`gpt-6.1-sol`（$2.00/$10.00）；Flex 模式含 `gpt-6.1-terra`（$0.50/$2.50）及 `gpt-6-luna`（$0.05/$0.25）",
+      "changeDate": "Thu, 26 Nov 2026 00:00:00 +0000"
+    },
     {
       "guid": "https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云",
       "providerName": "额度变化 · 通义千问 Qwen：关于 Token Plan 专属 API Key 的计费说明有更新：原来说是用它调用模型会「直接按量付费」，现在改为「消耗 Token Plan 的 Credits 额度、不消耗免费额度、也不会转为按量付费",
@@ -123,27 +129,20 @@
       "providerName": "额度变化 · 月之暗面 Kimi：新用户认证赠送的 15 元代金券规则调整：现已支持用于 Kimi K3.1 Pro 和 Kimi K3，但不可用于高速版 Kimi K3.1 Pro Highspeed。",
       "changeText": "free_quota：实名认证赠送 **15 元代金券**（官方账号与财务文档原文：“认证成功后会为您赠送 15 元代金券，可用于支持该代金券的模型（Kimi K3.1 Pro、Kimi K3 不支持使用新用户代金券，详见下方说明）”）；有效期官方未载明，以券面标注为准 → 实名认证赠送 **15 元代金券**（官方问答明确：“国内新用户注册并完成认证后获赠的 15 元代金券可用于 Kimi K3.1 Pro 和 Kimi K3，不可用于高速版 Kimi K3.1 Pro Highspeed”）；有效期官方未载明，以券面标注为准 free_models：`kimi-k2.7-code`、`kimi-k2.6`（256K）—— 付费模型，**可用 15 元代金券抵扣**；官方提示将于 2026 年 10 月 31 日起停止向新注册用户开放，计划 12 月底下线、`kimi-k3.1-pro`、`kimi-k3`（1,048,576 tokens 上下文）—— 付费模型… → `kimi-k3.1-pro`、`kimi-k3`（1,048,576 tokens 上下文）—— 付费模型，**可用 15 元代金券抵扣**；不可用于高速版 `Kimi K3.1 Pro Highspeed`、`kimi-k2.7-code`、`kimi-k2.6`（256K）—— 付费模型；官方提示将于 20",
       "changeDate": "Sun, 08 Nov 2026 00:00:00 +0000"
-    },
-    {
-      "guid": "refresh-2026-11-26-fudan-moss",
-      "providerName": "复旦 MOSS",
-      "changeText": "nex-n2.6 模型已于 2026-11-25 21:00 (北京时间) 起开始计费（限时六折），原先在模型页和文档中标记为「限时免费 0 积分」，现以官方公告为准；仅 moss-vl-1.0 / moss-vl-realtime-1.0 仍标「限时免费 0 积分」（依据：free-llm-intel 变更日志）。",
-      "changeDate": "2026-11-26"
     }
   ],
   "findingsCount": 21,
   "no_change": false,
   "warnings": [
-    "fetch: feed[4] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
-    "fetch: feed[10] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
-    "fetch: feed[12] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
-    "fetch: feed[19] duplicate guid 'https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云' dropped (kept first)",
-    "fetch: feed[20] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
-    "fetch: feed[23] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
-    "fetch: feed[24] duplicate guid 'https://github.com/rockbenben/free-llm-intel#46-morph-labs' dropped (kept first)",
-    "fetch: feed[26] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
-    "fetch: feed[28] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
-    "fetch: feed[29] duplicate guid 'https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云' dropped (kept first)",
+    "fetch: feed[5] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
+    "fetch: feed[11] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
+    "fetch: feed[13] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
+    "fetch: feed[20] duplicate guid 'https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云' dropped (kept first)",
+    "fetch: feed[21] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
+    "fetch: feed[24] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
+    "fetch: feed[25] duplicate guid 'https://github.com/rockbenben/free-llm-intel#46-morph-labs' dropped (kept first)",
+    "fetch: feed[27] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
+    "fetch: feed[29] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
     "fetch: feed[30] dropped (over MAX_FINDINGS=30 cap)",
     "fetch: feed[31] dropped (over MAX_FINDINGS=30 cap)",
     "fetch: feed[32] dropped (over MAX_FINDINGS=30 cap)",
@@ -175,7 +174,7 @@
     "fetch: feed[58] dropped (over MAX_FINDINGS=30 cap)",
     "fetch: feed[59] dropped (over MAX_FINDINGS=30 cap)",
     "verify: 页面抓取失败 OpenRouter 免费模型与定价：HTTP Error 403: Forbidden",
-    "verify: 页面抓取失败 Groq 限速文档：Remote end closed connection without response"
+    "verify: 页面抓取失败 Groq 限速文档：HTTP Error 403: Forbidden"
   ],
   "sources": {
     "openrouter": {
@@ -188,7 +187,7 @@
     },
     "changesFeed": {
       "ok": true,
-      "items": 78
+      "items": 79
     }
   },
   "pool": {
@@ -233,7 +232,7 @@
       "url": "https://console.groq.com/docs/rate-limits",
       "ok": false,
       "chars": 0,
-      "error": "Remote end closed connection without response"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "商汤日日新 Token Plan",
