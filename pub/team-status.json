@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T19:05:37Z",
+    "activity_generated_at": "2026-11-26T19:08:12Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -28,14 +28,14 @@
         "claimed_at": "2026-11-26T18:59:21Z",
         "claimed_by": "pool-optimization-seat-1-6072-2daf086a",
         "claimed_by_zh": "池优化 席位6072",
-        "claimed_for": "6分钟",
+        "claimed_for": "8分钟",
         "task_id": "pool-084",
         "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…"
       },
       "cycle_started_at": "2026-11-26T18:59:21Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "6分钟",
-      "elapsed_sec": 376,
+      "elapsed": "8分钟",
+      "elapsed_sec": 532,
       "last_cycle_ended": "2026-11-26T18:59:39Z",
       "name_zh": "池优化",
       "state": "running",
@@ -100,21 +100,23 @@
       "done": 24,
       "escalation_latest": "2026-11-26T18:38:10Z ALERT pub_stale trigger=pub kind=collector_dead file=ai-quota-catalog.json local_state=stale local_age_sec=136444…",
       "name_zh": "云脚本迁移",
-      "next_open": [],
-      "open": 0,
-      "status_updated": "2026-11-26T18:51:52Z",
-      "total": 24,
+      "next_open": [
+        "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…"
+      ],
+      "open": 1,
+      "status_updated": "2026-11-26T19:07:34Z",
+      "total": 25,
       "workstream": "cloud-script-migration"
     },
     {
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 376,
+          "claimed_age_sec": 532,
           "claimed_at": "2026-11-26T18:59:21Z",
           "claimed_by": "pool-optimization-seat-1-6072-2daf086a",
           "claimed_by_zh": "池优化 席位6072",
-          "claimed_for": "6分钟",
+          "claimed_for": "8分钟",
           "task_id": "pool-084",
           "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
           "workstream": "pool-optimization"
@@ -129,7 +131,7 @@
         "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…"
       ],
       "open": 3,
-      "status_updated": "2026-11-26T19:02:18Z",
+      "status_updated": "2026-11-26T19:07:35Z",
       "total": 84,
       "workstream": "pool-optimization"
     },
@@ -138,10 +140,12 @@
       "done": 15,
       "escalation_latest": "runner exit: 0",
       "name_zh": "安全",
-      "next_open": [],
-      "open": 0,
-      "status_updated": "2026-11-26T18:51:32Z",
-      "total": 15,
+      "next_open": [
+        "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…"
+      ],
+      "open": 1,
+      "status_updated": "2026-11-26T19:06:58Z",
+      "total": 16,
       "workstream": "security"
     },
     {
@@ -149,10 +153,12 @@
       "done": 20,
       "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "运维",
-      "next_open": [],
-      "open": 0,
-      "status_updated": "2026-11-26T18:51:58Z",
-      "total": 20,
+      "next_open": [
+        "Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27…"
+      ],
+      "open": 1,
+      "status_updated": "2026-11-26T19:07:39Z",
+      "total": 21,
       "workstream": "operations"
     },
     {
@@ -162,7 +168,7 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T18:51:58Z",
+      "status_updated": "2026-11-26T19:07:45Z",
       "total": 16,
       "workstream": "spaces-data"
     }
@@ -170,17 +176,17 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 376,
+      "claimed_age_sec": 532,
       "claimed_at": "2026-11-26T18:59:21Z",
       "claimed_by": "pool-optimization-seat-1-6072-2daf086a",
       "claimed_by_zh": "池优化 席位6072",
-      "claimed_for": "6分钟",
+      "claimed_for": "8分钟",
       "task_id": "pool-084",
       "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
       "workstream": "pool-optimization"
     }
   ],
-  "content_latest_at": "2026-11-26T19:02:18Z",
+  "content_latest_at": "2026-11-26T19:07:45Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 385,
@@ -213,8 +219,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T19:05:38Z",
-  "generated_at_utc": "2026-11-26T19:05:38Z",
+  "generated_at": "2026-11-26T19:08:13Z",
+  "generated_at_utc": "2026-11-26T19:08:13Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -594,7 +600,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -602,7 +608,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -610,7 +616,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -618,7 +624,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -626,7 +632,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -634,7 +640,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -642,7 +648,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -650,7 +656,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -658,7 +664,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 200000,
@@ -1282,7 +1288,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 192
+        "used": 193
       },
       {
         "cap": 300,
@@ -1290,7 +1296,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -1298,7 +1304,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -1306,7 +1312,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -1314,7 +1320,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -1322,7 +1328,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -1330,7 +1336,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -1338,7 +1344,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -1346,7 +1352,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -1354,7 +1360,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -1362,7 +1368,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -1370,7 +1376,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -1378,7 +1384,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -1796,7 +1802,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -1804,7 +1810,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -1812,7 +1818,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -1820,7 +1826,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -1828,7 +1834,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -1836,7 +1842,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -1844,7 +1850,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -1852,7 +1858,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 20000,
@@ -1860,7 +1866,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-2",
-        "used": 5
+        "used": 6
       },
       {
         "cap": 200000,
@@ -2484,7 +2490,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 192
+        "used": 193
       },
       {
         "cap": 300,
@@ -2492,7 +2498,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-V3.2",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -2500,7 +2506,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-35B-A3B",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -2508,7 +2514,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -2516,7 +2522,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -2524,7 +2530,7 @@
         "healthy": true,
         "model": "zai-org/GLM-4.5-Air",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -2532,7 +2538,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3.5-27B",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -2540,7 +2546,7 @@
         "healthy": true,
         "model": "deepseek-ai/DeepSeek-R1",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -2548,7 +2554,7 @@
         "healthy": true,
         "model": "Qwen/Qwen2.5-72B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -2556,7 +2562,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-VL-32B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -2564,7 +2570,7 @@
         "healthy": true,
         "model": "inclusionAI/Ling-flash-2.0",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -2572,7 +2578,7 @@
         "healthy": true,
         "model": "ByteDance-Seed/Seed-OSS-36B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -2580,7 +2586,7 @@
         "healthy": true,
         "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
         "provider": "siliconflow-voucher",
-        "used": 14
+        "used": 15
       },
       {
         "cap": 300,
@@ -2686,7 +2692,7 @@
   },
   "recent_completions": [
     {
-      "age_sec": 357,
+      "age_sec": 512,
       "board_zh": "池优化",
       "completed_at": "2026-11-26T18:59:39Z",
       "completed_by": "pool-optimization-seat-1-6072-2daf086a",
@@ -2698,7 +2704,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 2666,
+      "age_sec": 2822,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T18:21:10Z",
       "completed_by": null,
@@ -2710,7 +2716,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 11615,
+      "age_sec": 11770,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T15:52:01Z",
       "completed_by": "operations",
@@ -2722,7 +2728,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 86883,
+      "age_sec": 87038,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2734,7 +2740,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 86992,
+      "age_sec": 87147,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2746,7 +2752,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 87066,
+      "age_sec": 87221,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2758,7 +2764,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 87072,
+      "age_sec": 87227,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2770,7 +2776,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 87973,
+      "age_sec": 88128,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2782,7 +2788,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 91829,
+      "age_sec": 91984,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2794,7 +2800,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 92118,
+      "age_sec": 92273,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2830,13 +2836,18 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T18:51:52Z"
+        "updated": "2026-11-26T19:07:34Z"
       },
       "tasks": {
         "done": 24,
         "exists": true,
-        "next_open": [],
-        "open": 0
+        "next_open": [
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, note meetings/20261127-help-merge-note.md ruling 3) [est:40m] | Merged re-dispatch may only take tasks already back on the board (pool-040 chain: stale claim >2 cycles -> lease_expired -> board); never strip a live lease. Prove the fence: replay 3 real stalled tasks from event_stream/manager_watch history, simulate an old worker writing AFTER its epoch was fenced (late completion write / stale claim heartbeat), and record whether the write is rejected (write_conflict / stale-epoch refusal) in the event stream. Also list each replayed task's repeat-reflow count and failure class, and state the bounded-retry + pause conditions the merged re-dispatch must carry for permanent failures (contract/quota death must not reflow forever). Metrics: old-write block rate baseline unmeasured -> target 3/3 (100%), evidence = event-stream lines; due 2026-12-02; recheck 2026-12-03 digest. If any old write lands, that is a finding against the merge - report it, do not patch around it in this task. | event_stream.jsonl + manager_watch records | drill report in out/<task>/deliverable.md with per-case event citations"
+          }
+        ],
+        "open": 1
       }
     },
     "operations": {
@@ -2849,13 +2860,18 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T18:51:58Z"
+        "updated": "2026-11-26T19:07:39Z"
       },
       "tasks": {
         "done": 20,
         "exists": true,
-        "next_open": [],
-        "open": 0
+        "next_open": [
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27, note meetings/20261127-help-merge-note.md ruling 2) [est:45m] | Step 0: alias check - are idle_sweep and float_sweep the same entry point or two (float-2 flagged they may be aliased; settle it from code before anything is retired). Step 1: read-only snapshot FIRST (float_sweep trigger logs, help_dispatches.jsonl, event_stream.jsonl - with timestamps and line numbers, preserved under out/<task>/snapshot/) - no production change before the snapshot exists. Step 2: left-join full replay at task+epoch+attempt granularity, four-color classification of all 150 help_dispatches rows: dispatched / dispatched-but-unrecorded / never-triggered / no-record (UNKNOWN). Every row traceable to a source line. UNKNOWN > 0 blocks any retirement verdict - report it as unknown, never as never-dispatched. Pool line supplies source records; spaces-data checks granularity conflicts. Metrics: classified-with-traceability baseline 0/150 -> target 150/150 by 2026-12-01; recheck 2026-12-03 digest. Deliverable: out/<task>/replay-list.md with the four-color counts, sample ids per color, and the forensic verdict on whether idle help ever dispatched. | event_stream.jsonl + help_dispatches.jsonl + manager_watch sweep logs | snapshot + replay list + verdict in deliverable"
+          }
+        ],
+        "open": 1
       }
     },
     "pool-optimization": {
@@ -2868,7 +2884,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T19:02:18Z"
+        "updated": "2026-11-26T19:07:35Z"
       },
       "tasks": {
         "done": 81,
@@ -2880,11 +2896,11 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z ruling A) [est:45m] | Contract (3 segments): (1) worker edits a copy inside the task dir out/pool-059/; (2) production merge is a PATCH against production manager.py, applied by the pool-optimization manager (named owner), no parallel rewrite; (3) acceptance requires production-path evidence: a real help-failure cycle whose help-cooldown.json entry carries the new field and a later dispatch log line showing the exclusion. Change spec: when a help attempt fails and record_help_failure writes the cooldown entry, also write providers: string[] = the providers actually attempted this round, taken from the dispatch/attempt context (never parsed from reason text). dispatch_task / help candidate selection reads that field for the task: exclude every entry of those providers while the cooldown is active; if exclusion empties the candidate set, fall back to same-provider with a WARN log line (do not block). The operations line's last_up concept is merged into this field - no separate field, no rate threshold (boss rejected the 0.6 threshold as a guessed number). Metrics: cross-provider re-dispatch success rate inside cooldown windows, baseline 0/0 (new metric), target >=90% at the 2026-11-29 digest; security line's cross-check rides the same digest: providers fields joined against attempt logs, any mismatch is a finding. Recheck 2026-11-29. — BOSS UNFREEZE 2026-11-23: the failure was a goose action-cap truncation mid-work, not a task defect; the work copy out/pool-059/manager.py was modified AFTER the failure stamp. Resume from that copy; do not restart from scratch. — MEETING AMENDMENT 2026-11-23 (help-mechanism meeting ruling 1, transcript meetings/20261123T044829Z.md): (a) failure classification is written AT record time in record_help_failure: class in {acceptance, selftest, upstream} alongside the providers field; (b) backfill the 19 existing help-cooldown.json records from the pool-072 datapack (out/pool-060/digest-datapack.md) — records that cannot be classified from evidence are marked unknown, never guessed; (c) EFFECT MEASUREMENT (security challenge, adopted): every help dispatch records dispatch timestamp + target task id in its help event; the pool line watch re-reads the target board after 2 of the helped line's manager cycles and writes help.advanced or help.no_advance — \"advanced\" means the target task changed state (claim/start/settle) inside the window; (d) metrics added: classification coverage 19/19 by 2026-11-30; advancement rate baseline from the decomposition task, target >=80%; recheck 2026-12-03 digest. — BOSS AMENDMENT 2 2026-11-23 (IAO distillation): the advancement write-backs aggregate per HELPER MODEL into the existing digest pool-health face (helper model -> dispatched / advanced / no_advance), so repeat no-advance helpers are deprioritized through the existing bandit shadow scores. No new analytics module; no busy-rate metric anywhere in the system. — BOSS AMENDMENT 3 2026-11-23 (from the accepted pool-085 decomposition): the help.completed writer must propagate assigner + dispatch_path (idle_sweep | reinforce_ticket | manual) + dispatch_timestamp from the dispatch decision into the event (extend the writer's allowed fields or encode in evidence_pointer); same-(helped,task) echoes from multiple helper lines must collapse or be marked echo; writer selftests must NEVER write to the production stream with event_class real (use a drill stream). Acceptance: the next 10 production help events all carry the three fields and zero selftest rows appear in the production stream. (completion claimed by pool-optimization-seat-1-12644-7c6dc7e0 2026-11-24T12:14:41Z - pending boss ~~acceptance~~ REJECTED by boss 2026-11-24) — BOSS REJECTED 2026-11-24 ~20:25: the claim is VOID. The worker's own SEGMENT3-STATUS-20261124T1215Z.md and result.txt state Segment 3 is unmet (0/0 post-merge help events; the observer exits 1 'merged, awaiting a real help-failure cycle'); the claim's stated basis was the verbatim-marker satisfiability already recorded as a FALSE-PASS HAZARD. Segments 1-2 stand verified live (production manager.py anchors present, 66/66 cooldown records carry the class field, zero selftest rows in the production stream). The task stays OPEN: acceptance requires ONE real post-merge help-failure cycle (cooldown record with the new fields + the dispatch log exclusion line) - no marker-only claim will be accepted. The two environmental blockers are now fixed by the boss: manager_watch crash loop (0-byte state file) repaired 2026-11-24 ~20:20 and the plan-gate dual-directory resolution repaired the same evening, so the next natural cycle can produce the evidence. [BOSS NOTE 2026-11-25: event-gated - do NOT claim until one real post-merge help-failure cycle exists (cooldown record with new fields + dispatch-log exclusion line); the watcher poller reports the event to the boss, who then ungates. Repeated claim/void churn on this line today (17 stall records) is hereby stopped.] (frozen by auto-reject - boss review) [BOSS DISPOSITION 2026-11-26: freeze RATIFIED and MAINTAINED - it is the hard form of the 2026-11-25 event gate. This task stays frozen until ONE real post-merge help-failure cycle exists (cooldown record with new fields + dispatch-log exclusion line); the boss unfreezes it then. The two fast fake completions (17:31 claim / 17:35 auto-reject) violated the gate; the freeze is the enforcement, not an error.]"
+            "title": "[code] [boss-accept] [gated] Upstream-aware help re-dispatch (cycle meeting re-run 20261122T135202Z ruling A) [est:45m] | Contract (3 segments): (1) worker edits a copy inside the task dir out/pool-059/; (2) production merge is a PATCH against production manager.py, applied by the pool-optimization manager (named owner), no parallel rewrite; (3) acceptance requires production-path evidence: a real help-failure cycle whose help-cooldown.json entry carries the new field and a later dispatch log line showing the exclusion. Change spec: when a help attempt fails and record_help_failure writes the cooldown entry, also write providers: string[] = the providers actually attempted this round, taken from the dispatch/attempt context (never parsed from reason text). dispatch_task / help candidate selection reads that field for the task: exclude every entry of those providers while the cooldown is active; if exclusion empties the candidate set, fall back to same-provider with a WARN log line (do not block). The operations line's last_up concept is merged into this field - no separate field, no rate threshold (boss rejected the 0.6 threshold as a guessed number). Metrics: cross-provider re-dispatch success rate inside cooldown windows, baseline 0/0 (new metric), target >=90% at the 2026-11-29 digest; security line's cross-check rides the same digest: providers fields joined against attempt logs, any mismatch is a finding. Recheck 2026-11-29. — BOSS UNFREEZE 2026-11-23: the failure was a goose action-cap truncation mid-work, not a task defect; the work copy out/pool-059/manager.py was modified AFTER the failure stamp. Resume from that copy; do not restart from scratch. — MEETING AMENDMENT 2026-11-23 (help-mechanism meeting ruling 1, transcript meetings/20261123T044829Z.md): (a) failure classification is written AT record time in record_help_failure: class in {acceptance, selftest, upstream} alongside the providers field; (b) backfill the 19 existing help-cooldown.json records from the pool-072 datapack (out/pool-060/digest-datapack.md) — records that cannot be classified from evidence are marked unknown, never guessed; (c) EFFECT MEASUREMENT (security challenge, adopted): every help dispatch records dispatch timestamp + target task id in its help event; the pool line watch re-reads the target board after 2 of the helped line's manager cycles and writes help.advanced or help.no_advance — \"advanced\" means the target task changed state (claim/start/settle) inside the window; (d) metrics added: classification coverage 19/19 by 2026-11-30; advancement rate baseline from the decomposition task, target >=80%; recheck 2026-12-03 digest. — BOSS AMENDMENT 2 2026-11-23 (IAO distillation): the advancement write-backs aggregate per HELPER MODEL into the existing digest pool-health face (helper model -> dispatched / advanced / no_advance), so repeat no-advance helpers are deprioritized through the existing bandit shadow scores. No new analytics module; no busy-rate metric anywhere in the system. — BOSS AMENDMENT 3 2026-11-23 (from the accepted pool-085 decomposition): the help.completed writer must propagate assigner + dispatch_path (idle_sweep | reinforce_ticket | manual) + dispatch_timestamp from the dispatch decision into the event (extend the writer's allowed fields or encode in evidence_pointer); same-(helped,task) echoes from multiple helper lines must collapse or be marked echo; writer selftests must NEVER write to the production stream with event_class real (use a drill stream). Acceptance: the next 10 production help events all carry the three fields and zero selftest rows appear in the production stream. (completion claimed by pool-optimization-seat-1-12644-7c6dc7e0 2026-11-24T12:14:41Z - pending boss ~~acceptance~~ REJECTED by boss 2026-11-24) — BOSS REJECTED 2026-11-24 ~20:25: the claim is VOID. The worker's own SEGMENT3-STATUS-20261124T1215Z.md and result.txt state Segment 3 is unmet (0/0 post-merge help events; the observer exits 1 'merged, awaiting a real help-failure cycle'); the claim's stated basis was the verbatim-marker satisfiability already recorded as a FALSE-PASS HAZARD. Segments 1-2 stand verified live (production manager.py anchors present, 66/66 cooldown records carry the class field, zero selftest rows in the production stream). The task stays OPEN: acceptance requires ONE real post-merge help-failure cycle (cooldown record with the new fields + the dispatch log exclusion line) - no marker-only claim will be accepted. The two environmental blockers are now fixed by the boss: manager_watch crash loop (0-byte state file) repaired 2026-11-24 ~20:20 and the plan-gate dual-directory resolution repaired the same evening, so the next natural cycle can produce the evidence. [BOSS NOTE 2026-11-25: event-gated - do NOT claim until one real post-merge help-failure cycle exists (cooldown record with new fields + dispatch-log exclusion line); the watcher poller reports the event to the boss, who then ungates. Repeated claim/void churn on this line today (17 stall records) is hereby stopped.] (frozen by auto-reject - boss review) [BOSS DISPOSITION 2026-11-26: freeze RATIFIED and MAINTAINED - it is the hard form of the 2026-11-25 event gate. This task stays frozen until ONE real post-merge help-failure cycle exists (cooldown record with new fields + dispatch-log exclusion line); the boss unfreezes it then. The two fast fake completions (17:31 claim / 17:35 auto-reject) violated the gate; the freeze is the enforcement, not an error.] [BOSS DISPOSITION 2026-11-27 (help-merge meeting ruling 4): segment 3 converts from an indefinite natural wait to ONE controlled drill once pool-084's classifier fix lands - a real returned-to-board task, preconditions verified (model contract/quota live, receiver idle, old worker stopped and external writes accounted), one injected real failure, re-dispatch must exclude the failed provider per a correctly-classified cooldown record and leave the full evidence chain. Deadline: within 2 manager cycles of the classifier fix, hard cap 2026-12-02. The freeze stays until the boss unfreezes on drill evidence.]"
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from the user's status check): two measured defects in the help machinery's EVIDENCE layer (the dispatch machinery itself works - 111 re-dispatch log lines 2026-11-24..26). (1) CLASSIFIER MISFIRE: the production help-cooldown.json record for the 2026-11-26T18:18Z task-018 cycle carries class=\"selftest\" for a REAL production help failure (providers=[wusrouter], fails=153) - record_help_failure's classification keys off marker words in the task text (clou-018's acceptance text contains 'selftest'). Classification must come from the failure's own evidence (attempt outcomes / exit / selftest run attached to THIS dispatch), never from task-text wording; unclassifiable = unknown. (2) ATTRIBUTION VOID: help_dispatches.jsonl holds 150 rows (2026-11-24T12:14Z..2026-11-26T18:18Z), ALL dispatch_path=\"manual\" and ALL verdict=\"no_advance\" - zero rows recorded as idle_sweep although the idle sweep runs every watch cycle and cross-line help demonstrably happened (e.g. pool-optimization -> cloud-script-migration task-018). Either the sweep never dispatches or its provenance is lost before the writer runs; find which, fix it so the dispatch decision's provenance (assigner + dispatch_path + dispatch_timestamp, pool-054 amendment 3) is carried INTO the event at dispatch time. Acceptance (production-path evidence, no marker-only claims): (a) a drill task whose text contains the word 'selftest' but whose help attempt fails upstream records class=upstream (or unknown), never selftest; (b) the next 10 production help events carry dispatch_path values matching their true trigger, with at least one idle_sweep row if the sweep fires in that window - or a written finding, backed by sweep logs, that the sweep genuinely never had an eligible (ready-task + idle-float) moment, itself then filed as the next defect; (c) manager selftest + manager-watch selftest full pass. This task does NOT unfreeze pool-054; its segment-3 gate still needs one real cycle whose cooldown record is correctly classified. | manager.py record_help_failure + help event writer; tasks/pool-optimization/manager_watch.py float_sweep/help verdict pass | drill evidence + 10-event production sample in out/<task>/deliverable.md (claimed-by pool-optimization-seat-1-6072-2daf086a 2026-11-26T18:59:21Z)"
+            "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from the user's status check): two measured defects in the help machinery's EVIDENCE layer (the dispatch machinery itself works - 111 re-dispatch log lines 2026-11-24..26). (1) CLASSIFIER MISFIRE: the production help-cooldown.json record for the 2026-11-26T18:18Z task-018 cycle carries class=\"selftest\" for a REAL production help failure (providers=[wusrouter], fails=153) - record_help_failure's classification keys off marker words in the task text (clou-018's acceptance text contains 'selftest'). Classification must come from the failure's own evidence (attempt outcomes / exit / selftest run attached to THIS dispatch), never from task-text wording; unclassifiable = unknown. (2) ATTRIBUTION VOID: help_dispatches.jsonl holds 150 rows (2026-11-24T12:14Z..2026-11-26T18:18Z), ALL dispatch_path=\"manual\" and ALL verdict=\"no_advance\" - zero rows recorded as idle_sweep although the idle sweep runs every watch cycle and cross-line help demonstrably happened (e.g. pool-optimization -> cloud-script-migration task-018). Either the sweep never dispatches or its provenance is lost before the writer runs; find which, fix it so the dispatch decision's provenance (assigner + dispatch_path + dispatch_timestamp, pool-054 amendment 3) is carried INTO the event at dispatch time. Acceptance (production-path evidence, no marker-only claims): (a) a drill task whose text contains the word 'selftest' but whose help attempt fails upstream records class=upstream (or unknown), never selftest; (b) the next 10 production help events carry dispatch_path values matching their true trigger, with at least one idle_sweep row if the sweep fires in that window - or a written finding, backed by sweep logs, that the sweep genuinely never had an eligible (ready-task + idle-float) moment, itself then filed as the next defect; (c) manager selftest + manager-watch selftest full pass. This task does NOT unfreeze pool-054; its segment-3 gate still needs one real cycle whose cooldown record is correctly classified. [BOSS AMENDMENT 2026-11-27 (help-merge meeting, note meetings/20261127-help-merge-note.md): SEGMENT 3 ADDED - the merge itself. Re-dispatch candidate selection gains idle float-seat capacity (idle help's idea folded into re-dispatch per the user's order); float_sweep's standalone dispatch retires or folds per the operations forensics verdict (operations board, ruling 2) - never before that verdict; the help verdict readback merges into the re-dispatch verdict path; the help_dispatches writer becomes the unified event source. Acceptance for segment 3: production evidence that a re-dispatch drew on an idle float seat and the dispatch event carries its provenance; dispatch entry points go 2 -> 1. Recheck 2026-12-03.] | manager.py record_help_failure + help event writer; tasks/pool-optimization/manager_watch.py float_sweep/help verdict pass | drill evidence + 10-event production sample in out/<task>/deliverable.md (claimed-by pool-optimization-seat-1-6072-2daf086a 2026-11-26T18:59:21Z)"
           }
         ],
         "open": 3
@@ -2900,13 +2916,18 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T18:51:32Z"
+        "updated": "2026-11-26T19:06:58Z"
       },
       "tasks": {
         "done": 15,
         "exists": true,
-        "next_open": [],
-        "open": 0
+        "next_open": [
+          {
+            "full": true,
+            "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11-27, note meetings/20261127-help-merge-note.md ruling 6) [est:30m] | Before the help merge lands (pool-084 segment 3), produce the permission matrix for the three dispatch paths - worker-goose, manager direct dispatch, help re-dispatch: caller identity, what each may write (boards, claims, cooldown records, event stream), and which line's tasks each may touch. The merged single entry must NOT widen any path's rights (help capacity must not become cross-line claim/write rights). Then drill: one overreach request through the merged-entry design (e.g. a float helper attempting to settle/claim outside its assignment) must be rejected, with the rejection evidence preserved. Metrics: matrix coverage 3/3 paths; overreach drill rejected 1/1; due with the merge landing; recheck 2026-12-03 digest. Deliverable: out/<task>/permission-matrix.md + drill evidence. | manager.py dispatch paths + board_store claim code | matrix + drill evidence in deliverable"
+          }
+        ],
+        "open": 1
       }
     },
     "spaces-data": {
@@ -2919,7 +2940,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T18:51:58Z"
+        "updated": "2026-11-26T19:07:45Z"
       },
       "tasks": {
         "done": 16,
