@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T11:59:04Z",
+    "activity_generated_at": "2026-11-26T12:01:19Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,15 +15,15 @@
         "claimed_at": "2026-11-26T11:53:46Z",
         "claimed_by": "float",
         "claimed_by_zh": "机动",
-        "claimed_for": "5分钟",
+        "claimed_for": "7分钟",
         "task_id": "clou-018",
         "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       },
       "cycle_started_at": "2026-11-26T11:52:40Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "6分钟",
-      "elapsed_sec": 384,
-      "last_cycle_ended": "2026-11-26T11:59:00Z",
+      "elapsed": "8分钟",
+      "elapsed_sec": 520,
+      "last_cycle_ended": "2026-11-26T12:01:17Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -99,22 +99,22 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 384,
+          "claimed_age_sec": 520,
           "claimed_at": "2026-11-26T11:52:40Z",
           "claimed_by": "security",
           "claimed_by_zh": "安全",
-          "claimed_for": "6分钟",
+          "claimed_for": "8分钟",
           "task_id": "clou-016",
           "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
           "workstream": "cloud-script-migration"
         },
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 318,
+          "claimed_age_sec": 454,
           "claimed_at": "2026-11-26T11:53:46Z",
           "claimed_by": "float",
           "claimed_by_zh": "机动",
-          "claimed_for": "5分钟",
+          "claimed_for": "7分钟",
           "task_id": "clou-018",
           "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
           "workstream": "cloud-script-migration"
@@ -142,7 +142,7 @@
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
       ],
       "open": 2,
-      "status_updated": "2026-11-26T11:53:55Z",
+      "status_updated": "2026-11-26T11:59:27Z",
       "total": 83,
       "workstream": "pool-optimization"
     },
@@ -183,28 +183,28 @@
   "claimed_now": [
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 384,
+      "claimed_age_sec": 520,
       "claimed_at": "2026-11-26T11:52:40Z",
       "claimed_by": "security",
       "claimed_by_zh": "安全",
-      "claimed_for": "6分钟",
+      "claimed_for": "8分钟",
       "task_id": "clou-016",
       "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 318,
+      "claimed_age_sec": 454,
       "claimed_at": "2026-11-26T11:53:46Z",
       "claimed_by": "float",
       "claimed_by_zh": "机动",
-      "claimed_for": "5分钟",
+      "claimed_for": "7分钟",
       "task_id": "clou-018",
       "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     }
   ],
-  "content_latest_at": "2026-11-26T11:59:01Z",
+  "content_latest_at": "2026-11-26T11:59:27Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 370,
@@ -237,8 +237,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T11:59:05Z",
-  "generated_at_utc": "2026-11-26T11:59:05Z",
+  "generated_at": "2026-11-26T12:01:20Z",
+  "generated_at_utc": "2026-11-26T12:01:20Z",
   "live_pi_workers": {
     "by_model": {
       "100milionseek-2/deepseek-v4.1-flash-free": 4,
@@ -359,7 +359,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 329
+        "used": 340
       },
       {
         "cap": 1000,
@@ -655,7 +655,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 633
+        "used": 635
       },
       {
         "cap": 20000,
@@ -735,7 +735,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 374
+        "used": 375
       },
       {
         "cap": 20000,
@@ -1119,7 +1119,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 167
+        "used": 168
       },
       {
         "cap": 300,
@@ -1327,7 +1327,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 38
+        "used": 39
       },
       {
         "cap": 200000,
@@ -1561,7 +1561,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek",
-        "used": 329
+        "used": 340
       },
       {
         "cap": 1000,
@@ -1857,7 +1857,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 633
+        "used": 635
       },
       {
         "cap": 20000,
@@ -1937,7 +1937,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 374
+        "used": 375
       },
       {
         "cap": 20000,
@@ -2321,7 +2321,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 167
+        "used": 168
       },
       {
         "cap": 300,
@@ -2529,7 +2529,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 38
+        "used": 39
       },
       {
         "cap": 200000,
@@ -2755,21 +2755,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 4,
+      "age_sec": 2,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T11:59:00Z",
-      "completed_by": "float",
-      "completed_by_zh": "机动",
-      "completed_ts_source": "result.txt",
-      "task_id": "clou-018",
-      "task_no": 18,
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 24,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-26T11:58:40Z",
+      "completed_at": "2026-11-26T12:01:17Z",
       "completed_by": "security",
       "completed_by_zh": "安全",
       "completed_ts_source": "result.txt",
@@ -2779,7 +2767,19 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 61290,
+      "age_sec": 2,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-26T12:01:17Z",
+      "completed_by": "float",
+      "completed_by_zh": "机动",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-018",
+      "task_no": 18,
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 61425,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2791,7 +2791,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 61399,
+      "age_sec": 61534,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2803,7 +2803,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 61473,
+      "age_sec": 61608,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2815,7 +2815,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 61479,
+      "age_sec": 61614,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
       "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
@@ -2827,7 +2827,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 62380,
+      "age_sec": 62515,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
       "completed_by": "pool-optimization-seat-1-1978-c27661e0",
@@ -2839,7 +2839,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 66236,
+      "age_sec": 66371,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
@@ -2851,7 +2851,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 66525,
+      "age_sec": 66660,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
@@ -2863,7 +2863,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 67017,
+      "age_sec": 67152,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
@@ -3045,7 +3045,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T11:53:55Z"
+        "updated": "2026-11-26T11:59:27Z"
       },
       "tasks": {
         "done": 81,
