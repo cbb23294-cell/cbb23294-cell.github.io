@@ -1,8 +1,8 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-26T10:40:59Z",
+    "activity_generated_at": "2026-11-26T10:43:39Z",
     "empty_reasons": {
-      "claimed_now": "no open board task carries a live claim record",
+      "claimed_now": null,
       "recent_completions": null,
       "workers_running": "no jobs/*.json without a .done/.closed marker"
     }
@@ -10,15 +10,22 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
+      "claimed_count": 2,
+      "current_task": {
+        "claimed_at": "2026-11-26T10:38:39Z",
+        "claimed_by": "float",
+        "claimed_by_zh": "机动",
+        "claimed_for": "5分钟",
+        "task_id": "clou-018",
+        "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
+      },
+      "cycle_started_at": "2026-11-26T10:38:39Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "5分钟",
+      "elapsed_sec": 301,
       "last_cycle_ended": "2026-11-26T10:39:10Z",
       "name_zh": "云脚本迁移",
-      "state": "idle",
+      "state": "running",
       "workstream": "cloud-script-migration"
     },
     {
@@ -89,7 +96,30 @@
   ],
   "boards": [
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 301,
+          "claimed_at": "2026-11-26T10:38:39Z",
+          "claimed_by": "float",
+          "claimed_by_zh": "机动",
+          "claimed_for": "5分钟",
+          "task_id": "clou-016",
+          "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+          "workstream": "cloud-script-migration"
+        },
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 301,
+          "claimed_at": "2026-11-26T10:38:39Z",
+          "claimed_by": "float",
+          "claimed_by_zh": "机动",
+          "claimed_for": "5分钟",
+          "task_id": "clou-018",
+          "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+          "workstream": "cloud-script-migration"
+        }
+      ],
       "done": 22,
       "escalation_latest": "runner exit: 0",
       "name_zh": "云脚本迁移",
@@ -98,7 +128,7 @@
         "freebies-scan pipeline 9-source pre-publish failure (boss filing…"
       ],
       "open": 2,
-      "status_updated": "2026-11-26T10:37:26Z",
+      "status_updated": "2026-11-26T10:41:41Z",
       "total": 24,
       "workstream": "cloud-script-migration"
     },
@@ -112,7 +142,7 @@
         "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…"
       ],
       "open": 2,
-      "status_updated": "2026-11-26T10:37:32Z",
+      "status_updated": "2026-11-26T10:42:07Z",
       "total": 83,
       "workstream": "pool-optimization"
     },
@@ -123,7 +153,7 @@
       "name_zh": "安全",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T10:39:17Z",
+      "status_updated": "2026-11-26T10:41:25Z",
       "total": 15,
       "workstream": "security"
     },
@@ -134,7 +164,7 @@
       "name_zh": "运维",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T10:38:06Z",
+      "status_updated": "2026-11-26T10:41:15Z",
       "total": 20,
       "workstream": "operations"
     },
@@ -145,13 +175,36 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-26T10:24:56Z",
+      "status_updated": "2026-11-26T10:41:36Z",
       "total": 16,
       "workstream": "spaces-data"
     }
   ],
-  "claimed_now": [],
-  "content_latest_at": "2026-11-26T10:39:17Z",
+  "claimed_now": [
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 301,
+      "claimed_at": "2026-11-26T10:38:39Z",
+      "claimed_by": "float",
+      "claimed_by_zh": "机动",
+      "claimed_for": "5分钟",
+      "task_id": "clou-016",
+      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 301,
+      "claimed_at": "2026-11-26T10:38:39Z",
+      "claimed_by": "float",
+      "claimed_by_zh": "机动",
+      "claimed_for": "5分钟",
+      "task_id": "clou-018",
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "workstream": "cloud-script-migration"
+    }
+  ],
+  "content_latest_at": "2026-11-26T10:42:07Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 364,
@@ -184,8 +237,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-26T10:41:00Z",
-  "generated_at_utc": "2026-11-26T10:41:00Z",
+  "generated_at": "2026-11-26T10:43:40Z",
+  "generated_at_utc": "2026-11-26T10:43:40Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -557,7 +610,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 149
+        "used": 152
       },
       {
         "cap": 20000,
@@ -1021,7 +1074,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 90
+        "used": 91
       },
       {
         "cap": 300,
@@ -1759,7 +1812,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 149
+        "used": 152
       },
       {
         "cap": 20000,
@@ -2223,7 +2276,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 90
+        "used": 91
       },
       {
         "cap": 300,
@@ -2657,123 +2710,123 @@
   },
   "recent_completions": [
     {
-      "age_sec": 108,
+      "age_sec": 269,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T10:39:10Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "float",
+      "completed_by_zh": "机动",
       "completed_ts_source": "done",
-      "task_id": "task-018",
+      "task_id": "clou-018",
       "task_no": 18,
-      "title": null,
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 135,
+      "age_sec": 296,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T10:38:43Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "float",
+      "completed_by_zh": "机动",
       "completed_ts_source": "result.txt",
-      "task_id": "task-016",
+      "task_id": "clou-016",
       "task_no": 16,
-      "title": null,
+      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 56605,
+      "age_sec": 56765,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
+      "completed_by_zh": "池优化 席位5252",
       "completed_ts_source": "done",
-      "task_id": "task-083",
+      "task_id": "pool-083",
       "task_no": 83,
-      "title": null,
+      "title": "Settlement ordering defect: BLOCKED.md must short-circuit BEFORE the…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 56714,
+      "age_sec": 56875,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
+      "completed_by_zh": "池优化 席位5252",
       "completed_ts_source": "result.txt",
-      "task_id": "task-082",
+      "task_id": "pool-082",
       "task_no": 82,
-      "title": null,
+      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 56788,
+      "age_sec": 56948,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:31Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
+      "completed_by_zh": "池优化 席位5252",
       "completed_ts_source": "done",
-      "task_id": "task-081",
+      "task_id": "pool-081",
       "task_no": 81,
-      "title": null,
+      "title": "Named-model rule v2 landing SEG3: fallback identity gate (ruling…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 56794,
+      "age_sec": 56955,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:54:24Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
+      "completed_by_zh": "池优化 席位5252",
       "completed_ts_source": "done",
-      "task_id": "task-080",
+      "task_id": "pool-080",
       "task_no": 80,
-      "title": null,
+      "title": "Named-model rule v2 landing SEG2: Class S strictness in proxy (ruling…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 57695,
+      "age_sec": 57855,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:39:23Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-1978-c27661e0",
+      "completed_by_zh": "池优化 席位1978",
       "completed_ts_source": "done",
-      "task_id": "task-079",
+      "task_id": "pool-079",
       "task_no": 79,
-      "title": null,
+      "title": "Named-model rule v2 landing SEG1: substitution cause field +…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 61551,
+      "age_sec": 61711,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:35:08Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "task-054",
+      "task_id": "pool-054",
       "task_no": 54,
-      "title": null,
+      "title": "[gated] Upstream-aware help re-dispatch (cycle meeting re-run…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 61840,
+      "age_sec": 62001,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:30:18Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "task-067",
+      "task_id": "pool-067",
       "task_no": 67,
-      "title": null,
+      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-C（其余各家，2026-11-23 轮拆分）：巡查…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 62332,
+      "age_sec": 62492,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T17:22:07Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "task-065",
+      "task_id": "pool-065",
       "task_no": 65,
-      "title": null,
+      "title": "[executor: gpt-6.1-sol-free] 供应商巡查 SEG-A（星驰+星辉，2026-11-23 轮拆分）：巡查…",
       "workstream": "pool-optimization"
     }
   ],
@@ -2801,7 +2854,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T10:37:26Z"
+        "updated": "2026-11-26T10:41:41Z"
       },
       "tasks": {
         "done": 22,
@@ -2829,7 +2882,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T10:38:06Z"
+        "updated": "2026-11-26T10:41:15Z"
       },
       "tasks": {
         "done": 20,
@@ -2848,7 +2901,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T10:37:32Z"
+        "updated": "2026-11-26T10:42:07Z"
       },
       "tasks": {
         "done": 81,
@@ -2876,7 +2929,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T10:39:17Z"
+        "updated": "2026-11-26T10:41:25Z"
       },
       "tasks": {
         "done": 15,
@@ -2895,7 +2948,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-26T10:24:56Z"
+        "updated": "2026-11-26T10:41:36Z"
       },
       "tasks": {
         "done": 16,
