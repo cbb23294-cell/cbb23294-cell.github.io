@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T16:44:57Z",
+    "activity_generated_at": "2026-11-27T16:47:17Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -51,18 +51,18 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-27T16:31:23Z",
-        "claimed_by": "operations-seat-1-15633-d2cace80",
-        "claimed_by_zh": "运维 席位15633",
-        "claimed_for": "13分钟",
+        "claimed_at": "2026-11-27T16:47:09Z",
+        "claimed_by": "pool-optimization",
+        "claimed_by_zh": "池优化",
+        "claimed_for": "9秒",
         "task_id": "oper-023",
         "title": "[inputs: fleet-ops/tombstone-increment-extract.json…"
       },
-      "cycle_started_at": "2026-11-27T16:31:23Z",
+      "cycle_started_at": "2026-11-27T16:47:09Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "13分钟",
-      "elapsed_sec": 815,
-      "last_cycle_ended": "2026-11-27T16:27:56Z",
+      "elapsed": "9秒",
+      "elapsed_sec": 9,
+      "last_cycle_ended": "2026-11-27T16:47:00Z",
       "name_zh": "运维",
       "state": "running",
       "workstream": "operations"
@@ -117,7 +117,7 @@
         "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…"
       ],
       "open": 5,
-      "status_updated": "2026-11-27T16:40:26Z",
+      "status_updated": "2026-11-27T16:46:06Z",
       "total": 86,
       "workstream": "pool-optimization"
     },
@@ -138,11 +138,11 @@
       "claimed_now": [
         {
           "board_zh": "运维",
-          "claimed_age_sec": 815,
-          "claimed_at": "2026-11-27T16:31:23Z",
-          "claimed_by": "operations-seat-1-15633-d2cace80",
-          "claimed_by_zh": "运维 席位15633",
-          "claimed_for": "13分钟",
+          "claimed_age_sec": 9,
+          "claimed_at": "2026-11-27T16:47:09Z",
+          "claimed_by": "pool-optimization",
+          "claimed_by_zh": "池优化",
+          "claimed_for": "9秒",
           "task_id": "oper-023",
           "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
           "workstream": "operations"
@@ -174,17 +174,17 @@
   "claimed_now": [
     {
       "board_zh": "运维",
-      "claimed_age_sec": 815,
-      "claimed_at": "2026-11-27T16:31:23Z",
-      "claimed_by": "operations-seat-1-15633-d2cace80",
-      "claimed_by_zh": "运维 席位15633",
-      "claimed_for": "13分钟",
+      "claimed_age_sec": 9,
+      "claimed_at": "2026-11-27T16:47:09Z",
+      "claimed_by": "pool-optimization",
+      "claimed_by_zh": "池优化",
+      "claimed_for": "9秒",
       "task_id": "oper-023",
       "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
       "workstream": "operations"
     }
   ],
-  "content_latest_at": "2026-11-27T16:40:54Z",
+  "content_latest_at": "2026-11-27T16:46:06Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 401,
@@ -217,11 +217,11 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T16:44:58Z",
-  "generated_at_utc": "2026-11-27T16:44:58Z",
+  "generated_at": "2026-11-27T16:47:18Z",
+  "generated_at_utc": "2026-11-27T16:47:18Z",
   "live_pi_workers": {
     "by_model": {
-      "crowllm/deepseek-v4-flash-0731-thinking:free": 2
+      "crowllm/deepseek-v4-flash-0731-thinking:free": 4
     },
     "running": [
       {
@@ -233,9 +233,19 @@
         "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
         "pid": 16063,
         "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
+      },
+      {
+        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
+        "pid": 19682,
+        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
+      },
+      {
+        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
+        "pid": 19683,
+        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
       }
     ],
-    "total": 2
+    "total": 4
   },
   "managers": [
     {
@@ -1027,7 +1037,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 15
+        "used": 20
       },
       {
         "cap": 300,
@@ -1299,7 +1309,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 49
+        "used": 56
       },
       {
         "cap": 300,
@@ -2229,7 +2239,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 15
+        "used": 20
       },
       {
         "cap": 300,
@@ -2501,7 +2511,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 49
+        "used": 56
       },
       {
         "cap": 300,
@@ -2703,11 +2713,11 @@
   },
   "recent_completions": [
     {
-      "age_sec": 1021,
+      "age_sec": 17,
       "board_zh": "运维",
-      "completed_at": "2026-11-27T16:27:56Z",
-      "completed_by": "operations-seat-1-15633-d2cace80",
-      "completed_by_zh": "运维 席位15633",
+      "completed_at": "2026-11-27T16:47:00Z",
+      "completed_by": "pool-optimization",
+      "completed_by_zh": "池优化",
       "completed_ts_source": "result.txt",
       "task_id": "oper-023",
       "task_no": 23,
@@ -2715,7 +2725,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 19263,
+      "age_sec": 19402,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:23:54Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2727,7 +2737,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 19391,
+      "age_sec": 19531,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:21:46Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2739,7 +2749,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 21935,
+      "age_sec": 22075,
       "board_zh": "安全",
       "completed_at": "2026-11-27T10:39:21Z",
       "completed_by": "security-seat-1-23279-f017f1b6",
@@ -2751,7 +2761,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 27760,
+      "age_sec": 27900,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
       "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
@@ -2763,7 +2773,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 28926,
+      "age_sec": 29066,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
@@ -2775,7 +2785,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 35773,
+      "age_sec": 35913,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
       "completed_by": "operations-seat-1-2005-0cf7b677",
@@ -2787,7 +2797,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 39689,
+      "age_sec": 39829,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2799,7 +2809,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 41851,
+      "age_sec": 41991,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2811,7 +2821,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 45753,
+      "age_sec": 45893,
       "board_zh": "安全",
       "completed_at": "2026-11-27T04:02:24Z",
       "completed_by": "security-seat-1-15890-eda53826",
@@ -2831,7 +2841,7 @@
   },
   "workers": {
     "by_model": {
-      "crowllm/deepseek-v4-flash-0731-thinking:free": 2
+      "crowllm/deepseek-v4-flash-0731-thinking:free": 4
     },
     "running": [
       {
@@ -2843,13 +2853,23 @@
         "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
         "pid": 16063,
         "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
+      },
+      {
+        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
+        "pid": 19682,
+        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
+      },
+      {
+        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
+        "pid": 19683,
+        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
       }
     ],
-    "total": 2
+    "total": 4
   },
   "workers_detail": [
     {
-      "count": 2,
+      "count": 4,
       "model": "crowllm/deepseek-v4-flash-0731-thinking:free"
     }
   ],
@@ -2862,6 +2882,16 @@
     {
       "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
       "pid": 16063,
+      "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
+    },
+    {
+      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
+      "pid": 19682,
+      "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
+    },
+    {
+      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
+      "pid": 19683,
       "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
     }
   ],
@@ -2903,7 +2933,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] [inputs: fleet-ops/tombstone-increment-extract.json, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md] Tombstone burst attribution (recurrence-meeting ruling 2026-11-27, note meetings/20261127-recurrence-note.md ruling 2) [est:30m] | Attribute the 2026-11-27 tombstone burst: 2802 vanished records, each id minted once, first_seen 2026-11-27T04:07:02Z..04:13Z, all on the pool-optimization (1868) and operations (934) boards, texts are historical tasks. The staged extract carries every burst record (id, ws, fingerprint, first/last seen, text head). For the burst as a whole and for a 20-record sample: name the minting writer and mechanism (which process, which sync call, which board content it parsed), using supervisor cycle logs and the code versions in force (input-gate patch ~03:50Z, EXEC_RE fix ~04:06Z, the boss's verification batch 04:07-04:13Z). Distinguish production-cycle minting from verification-side effects with evidence, not plausibility. Tombstones stay archived: do not delete or edit the store; end with a disposition proposal for the 2026-11-29 recheck (keep / cold-archive compaction) and, if the mechanism can still mint, a guard proposal. Deliverable: out/<task>/attribution.md, first line exactly: # Tombstone attribution. Metric: burst mechanism named with log/code evidence; sample attribution 20/20; due 2026-11-29; recheck 2026-12-03. | selftest:# Tombstone attribution (executed-by pool-optimization failed 2026-11-27T16:12:30Z) (claimed-by operations-seat-1-15633-d2cace80 2026-11-27T16:31:23Z)"
+            "title": "[code] [boss-accept] [inputs: fleet-ops/tombstone-increment-extract.json, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md] Tombstone burst attribution (recurrence-meeting ruling 2026-11-27, note meetings/20261127-recurrence-note.md ruling 2) [est:30m] | Attribute the 2026-11-27 tombstone burst: 2802 vanished records, each id minted once, first_seen 2026-11-27T04:07:02Z..04:13Z, all on the pool-optimization (1868) and operations (934) boards, texts are historical tasks. The staged extract carries every burst record (id, ws, fingerprint, first/last seen, text head). For the burst as a whole and for a 20-record sample: name the minting writer and mechanism (which process, which sync call, which board content it parsed), using supervisor cycle logs and the code versions in force (input-gate patch ~03:50Z, EXEC_RE fix ~04:06Z, the boss's verification batch 04:07-04:13Z). Distinguish production-cycle minting from verification-side effects with evidence, not plausibility. Tombstones stay archived: do not delete or edit the store; end with a disposition proposal for the 2026-11-29 recheck (keep / cold-archive compaction) and, if the mechanism can still mint, a guard proposal. Deliverable: out/<task>/attribution.md, first line exactly: # Tombstone attribution. Metric: burst mechanism named with log/code evidence; sample attribution 20/20; due 2026-11-29; recheck 2026-12-03. | selftest:# Tombstone attribution (executed-by pool-optimization failed 2026-11-27T16:12:30Z) (claimed-by pool-optimization 2026-11-27T16:47:09Z)"
           }
         ],
         "open": 1
@@ -2919,7 +2949,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T16:40:26Z"
+        "updated": "2026-11-27T16:46:06Z"
       },
       "tasks": {
         "done": 81,
