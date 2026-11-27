@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T10:57:41Z",
+    "activity_generated_at": "2026-11-27T10:59:56Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -25,18 +25,18 @@
       "active_jobs": 0,
       "claimed_count": 2,
       "current_task": {
-        "claimed_at": "2026-11-27T10:56:56Z",
+        "claimed_at": "2026-11-27T10:58:59Z",
         "claimed_by": "pool-optimization-seat-1-2188-6a6d7418",
         "claimed_by_zh": "池优化 席位2188",
-        "claimed_for": "46秒",
+        "claimed_for": "58秒",
         "task_id": "pool-085",
         "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…"
       },
-      "cycle_started_at": "2026-11-27T10:56:56Z",
+      "cycle_started_at": "2026-11-27T10:58:59Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "46秒",
-      "elapsed_sec": 46,
-      "last_cycle_ended": "2026-11-27T10:57:21Z",
+      "elapsed": "58秒",
+      "elapsed_sec": 58,
+      "last_cycle_ended": "2026-11-27T10:59:30Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -56,22 +56,15 @@
     },
     {
       "active_jobs": 0,
-      "claimed_count": 1,
-      "current_task": {
-        "claimed_at": "2026-11-27T10:53:07Z",
-        "claimed_by": "pool-optimization",
-        "claimed_by_zh": "池优化",
-        "claimed_for": "4分钟",
-        "task_id": "oper-023",
-        "title": "[inputs: fleet-ops/tombstone-increment-extract.json…"
-      },
-      "cycle_started_at": "2026-11-27T10:53:07Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "4分钟",
-      "elapsed_sec": 275,
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
       "last_cycle_ended": "2026-11-27T10:50:31Z",
       "name_zh": "运维",
-      "state": "running",
+      "state": "idle",
       "workstream": "operations"
     },
     {
@@ -117,22 +110,22 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 46,
-          "claimed_at": "2026-11-27T10:56:56Z",
+          "claimed_age_sec": 58,
+          "claimed_at": "2026-11-27T10:58:59Z",
           "claimed_by": "pool-optimization-seat-1-2188-6a6d7418",
           "claimed_by_zh": "池优化 席位2188",
-          "claimed_for": "46秒",
+          "claimed_for": "58秒",
           "task_id": "pool-084",
           "title": "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 46,
-          "claimed_at": "2026-11-27T10:56:56Z",
+          "claimed_age_sec": 58,
+          "claimed_at": "2026-11-27T10:58:59Z",
           "claimed_by": "pool-optimization-seat-1-2188-6a6d7418",
           "claimed_by_zh": "池优化 席位2188",
-          "claimed_for": "46秒",
+          "claimed_for": "58秒",
           "task_id": "pool-085",
           "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
           "workstream": "pool-optimization"
@@ -165,19 +158,7 @@
       "workstream": "security"
     },
     {
-      "claimed_now": [
-        {
-          "board_zh": "运维",
-          "claimed_age_sec": 275,
-          "claimed_at": "2026-11-27T10:53:07Z",
-          "claimed_by": "pool-optimization",
-          "claimed_by_zh": "池优化",
-          "claimed_for": "4分钟",
-          "task_id": "oper-023",
-          "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
-          "workstream": "operations"
-        }
-      ],
+      "claimed_now": [],
       "done": 23,
       "escalation_latest": "blocked-file: out/task-023/BLOCKED.md",
       "name_zh": "运维",
@@ -203,34 +184,23 @@
   ],
   "claimed_now": [
     {
-      "board_zh": "运维",
-      "claimed_age_sec": 275,
-      "claimed_at": "2026-11-27T10:53:07Z",
-      "claimed_by": "pool-optimization",
-      "claimed_by_zh": "池优化",
-      "claimed_for": "4分钟",
-      "task_id": "oper-023",
-      "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
-      "workstream": "operations"
-    },
-    {
       "board_zh": "池优化",
-      "claimed_age_sec": 46,
-      "claimed_at": "2026-11-27T10:56:56Z",
+      "claimed_age_sec": 58,
+      "claimed_at": "2026-11-27T10:58:59Z",
       "claimed_by": "pool-optimization-seat-1-2188-6a6d7418",
       "claimed_by_zh": "池优化 席位2188",
-      "claimed_for": "46秒",
+      "claimed_for": "58秒",
       "task_id": "pool-084",
       "title": "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 46,
-      "claimed_at": "2026-11-27T10:56:56Z",
+      "claimed_age_sec": 58,
+      "claimed_at": "2026-11-27T10:58:59Z",
       "claimed_by": "pool-optimization-seat-1-2188-6a6d7418",
       "claimed_by_zh": "池优化 席位2188",
-      "claimed_for": "46秒",
+      "claimed_for": "58秒",
       "task_id": "pool-085",
       "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
       "workstream": "pool-optimization"
@@ -269,8 +239,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T10:57:43Z",
-  "generated_at_utc": "2026-11-27T10:57:43Z",
+  "generated_at": "2026-11-27T10:59:57Z",
+  "generated_at_utc": "2026-11-27T10:59:57Z",
   "live_pi_workers": {
     "by_model": {
       "crowllm/grok-4.7:free": 2
@@ -278,13 +248,13 @@
     "running": [
       {
         "model": "crowllm/grok-4.7:free",
-        "pid": 2213,
-        "title": "[code] [boss-accept]  Help-evidence integrity fix (boss filing 2026-11-27, from "
+        "pid": 3262,
+        "title": "[code] [boss-accept]  D-style design: mechanical work to script flow, judgment w"
       },
       {
         "model": "crowllm/grok-4.7:free",
-        "pid": 2214,
-        "title": "[code] [boss-accept]  Help-evidence integrity fix (boss filing 2026-11-27, from "
+        "pid": 3263,
+        "title": "[code] [boss-accept]  D-style design: mechanical work to script flow, judgment w"
       }
     ],
     "total": 2
@@ -655,7 +625,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 97
+        "used": 98
       },
       {
         "cap": 20000,
@@ -735,7 +705,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 56
+        "used": 57
       },
       {
         "cap": 20000,
@@ -975,7 +945,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 253
+        "used": 259
       },
       {
         "cap": 300,
@@ -1111,7 +1081,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 291
+        "used": 292
       },
       {
         "cap": 300,
@@ -1119,7 +1089,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 291
+        "used": 292
       },
       {
         "cap": 300,
@@ -1127,7 +1097,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 291
+        "used": 292
       },
       {
         "cap": 300,
@@ -1135,7 +1105,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 291
+        "used": 292
       },
       {
         "cap": 1000,
@@ -1351,7 +1321,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 2888
+        "used": 2903
       },
       {
         "cap": 300,
@@ -1857,7 +1827,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 97
+        "used": 98
       },
       {
         "cap": 20000,
@@ -1937,7 +1907,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 56
+        "used": 57
       },
       {
         "cap": 20000,
@@ -2177,7 +2147,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 253
+        "used": 259
       },
       {
         "cap": 300,
@@ -2313,7 +2283,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 291
+        "used": 292
       },
       {
         "cap": 300,
@@ -2321,7 +2291,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 291
+        "used": 292
       },
       {
         "cap": 300,
@@ -2329,7 +2299,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 291
+        "used": 292
       },
       {
         "cap": 300,
@@ -2337,7 +2307,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 291
+        "used": 292
       },
       {
         "cap": 1000,
@@ -2553,7 +2523,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 2888
+        "used": 2903
       },
       {
         "cap": 300,
@@ -2755,9 +2725,21 @@
   },
   "recent_completions": [
     {
-      "age_sec": 20,
+      "age_sec": 26,
       "board_zh": "池优化",
-      "completed_at": "2026-11-27T10:57:21Z",
+      "completed_at": "2026-11-27T10:59:30Z",
+      "completed_by": "pool-optimization-seat-1-2188-6a6d7418",
+      "completed_by_zh": "池优化 席位2188",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-085",
+      "task_no": 85,
+      "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 102,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-27T10:58:13Z",
       "completed_by": "pool-optimization-seat-1-2188-6a6d7418",
       "completed_by_zh": "池优化 席位2188",
       "completed_ts_source": "result.txt",
@@ -2767,11 +2749,11 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 430,
+      "age_sec": 565,
       "board_zh": "运维",
       "completed_at": "2026-11-27T10:50:31Z",
-      "completed_by": "pool-optimization",
-      "completed_by_zh": "池优化",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "result.txt",
       "task_id": "oper-023",
       "task_no": 23,
@@ -2779,7 +2761,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 1099,
+      "age_sec": 1234,
       "board_zh": "安全",
       "completed_at": "2026-11-27T10:39:21Z",
       "completed_by": "security-seat-1-23279-f017f1b6",
@@ -2791,19 +2773,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 1327,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-27T10:35:34Z",
-      "completed_by": "pool-optimization-seat-1-2188-6a6d7418",
-      "completed_by_zh": "池优化 席位2188",
-      "completed_ts_source": "done",
-      "task_id": "pool-085",
-      "task_no": 85,
-      "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 6923,
+      "age_sec": 7058,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
       "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
@@ -2815,7 +2785,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 8089,
+      "age_sec": 8224,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
@@ -2827,7 +2797,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 14937,
+      "age_sec": 15071,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
       "completed_by": "operations-seat-1-2005-0cf7b677",
@@ -2839,7 +2809,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 18853,
+      "age_sec": 18988,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2851,7 +2821,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 21015,
+      "age_sec": 21150,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2863,7 +2833,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 24917,
+      "age_sec": 25052,
       "board_zh": "安全",
       "completed_at": "2026-11-27T04:02:24Z",
       "completed_by": "security-seat-1-15890-eda53826",
@@ -2888,13 +2858,13 @@
     "running": [
       {
         "model": "crowllm/grok-4.7:free",
-        "pid": 2213,
-        "title": "[code] [boss-accept]  Help-evidence integrity fix (boss filing 2026-11-27, from "
+        "pid": 3262,
+        "title": "[code] [boss-accept]  D-style design: mechanical work to script flow, judgment w"
       },
       {
         "model": "crowllm/grok-4.7:free",
-        "pid": 2214,
-        "title": "[code] [boss-accept]  Help-evidence integrity fix (boss filing 2026-11-27, from "
+        "pid": 3263,
+        "title": "[code] [boss-accept]  D-style design: mechanical work to script flow, judgment w"
       }
     ],
     "total": 2
@@ -2908,13 +2878,13 @@
   "workers_running": [
     {
       "model": "crowllm/grok-4.7:free",
-      "pid": 2213,
-      "title": "[code] [boss-accept]  Help-evidence integrity fix (boss filing 2026-11-27, from "
+      "pid": 3262,
+      "title": "[code] [boss-accept]  D-style design: mechanical work to script flow, judgment w"
     },
     {
       "model": "crowllm/grok-4.7:free",
-      "pid": 2214,
-      "title": "[code] [boss-accept]  Help-evidence integrity fix (boss filing 2026-11-27, from "
+      "pid": 3263,
+      "title": "[code] [boss-accept]  D-style design: mechanical work to script flow, judgment w"
     }
   ],
   "workstreams": {
@@ -2955,7 +2925,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] [inputs: fleet-ops/tombstone-increment-extract.json, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md] Tombstone burst attribution (recurrence-meeting ruling 2026-11-27, note meetings/20261127-recurrence-note.md ruling 2) [est:30m] | Attribute the 2026-11-27 tombstone burst: 2802 vanished records, each id minted once, first_seen 2026-11-27T04:07:02Z..04:13Z, all on the pool-optimization (1868) and operations (934) boards, texts are historical tasks. The staged extract carries every burst record (id, ws, fingerprint, first/last seen, text head). For the burst as a whole and for a 20-record sample: name the minting writer and mechanism (which process, which sync call, which board content it parsed), using supervisor cycle logs and the code versions in force (input-gate patch ~03:50Z, EXEC_RE fix ~04:06Z, the boss's verification batch 04:07-04:13Z). Distinguish production-cycle minting from verification-side effects with evidence, not plausibility. Tombstones stay archived: do not delete or edit the store; end with a disposition proposal for the 2026-11-29 recheck (keep / cold-archive compaction) and, if the mechanism can still mint, a guard proposal. Deliverable: out/<task>/attribution.md, first line exactly: # Tombstone attribution. Metric: burst mechanism named with log/code evidence; sample attribution 20/20; due 2026-11-29; recheck 2026-12-03. | selftest:# Tombstone attribution (executed-by pool-optimization failed 2026-11-27T10:17:14Z) (claimed-by pool-optimization 2026-11-27T10:53:07Z)"
+            "title": "[code] [boss-accept] [inputs: fleet-ops/tombstone-increment-extract.json, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md] Tombstone burst attribution (recurrence-meeting ruling 2026-11-27, note meetings/20261127-recurrence-note.md ruling 2) [est:30m] | Attribute the 2026-11-27 tombstone burst: 2802 vanished records, each id minted once, first_seen 2026-11-27T04:07:02Z..04:13Z, all on the pool-optimization (1868) and operations (934) boards, texts are historical tasks. The staged extract carries every burst record (id, ws, fingerprint, first/last seen, text head). For the burst as a whole and for a 20-record sample: name the minting writer and mechanism (which process, which sync call, which board content it parsed), using supervisor cycle logs and the code versions in force (input-gate patch ~03:50Z, EXEC_RE fix ~04:06Z, the boss's verification batch 04:07-04:13Z). Distinguish production-cycle minting from verification-side effects with evidence, not plausibility. Tombstones stay archived: do not delete or edit the store; end with a disposition proposal for the 2026-11-29 recheck (keep / cold-archive compaction) and, if the mechanism can still mint, a guard proposal. Deliverable: out/<task>/attribution.md, first line exactly: # Tombstone attribution. Metric: burst mechanism named with log/code evidence; sample attribution 20/20; due 2026-11-29; recheck 2026-12-03. | selftest:# Tombstone attribution (executed-by pool-optimization failed 2026-11-27T10:17:14Z)"
           }
         ],
         "open": 1
@@ -2987,7 +2957,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] [inputs: llm-workers/manager.py, llm-workers/help-cooldown.json, llm-workers/help_dispatches.jsonl, llm-workers/meetings/20261127-help-merge-note.md, llm-workers/event_stream.jsonl] Help-evidence integrity fix (boss filing 2026-11-27, from the user's status check): two measured defects in the help machinery's EVIDENCE layer (the dispatch machinery itself works - 111 re-dispatch log lines 2026-11-24..26). | (1) CLASSIFIER MISFIRE: the production help-cooldown.json record for the 2026-11-26T18:18Z task-018 cycle carries class=selftest for a REAL production help failure (providers=[wusrouter], fails=153) - record_help_failure's classification keys off marker words in the task text (clou-018's acceptance text contains 'selftest'). Classification must come from the failure's own evidence (attempt outcomes / exit / selftest run attached to THIS dispatch), never from task-text wording; unclassifiable = unknown. (2) ATTRIBUTION VOID: help_dispatches.jsonl holds 150 rows (2026-11-24T12:14Z..2026-11-26T18:18Z), ALL dispatch_path=manual and ALL verdict=no_advance - zero rows recorded as idle_sweep although the idle sweep runs every watch cycle and cross-line help demonstrably happened. Either the sweep never dispatches or its provenance is lost before the writer runs; find which, fix it so the dispatch decision's provenance (assigner + dispatch_path + dispatch_timestamp, pool-054 amendment 3) is carried INTO the event at dispatch time. (3) SEGMENT 3 - THE MERGE (help-merge meeting amendment 2026-11-27): re-dispatch candidate selection gains idle float-seat capacity (idle help's idea folded into re-dispatch per the user's order); float_sweep's standalone dispatch retires or folds ONLY per the operations forensics verdict (oper-021, ruling 2) - never before that verdict; the help verdict readback merges into the re-dispatch verdict path; the help_dispatches writer becomes the unified event source. This task does NOT unfreeze pool-054. Deliverable: out/<task>/deliverable.md whose FIRST LINE is exactly: # Help-evidence integrity - carrying the drill evidence and the 10-event production sample. Acceptance (production-path evidence, no marker-only claims): (a) a drill task whose text contains the word 'selftest' but whose help attempt fails upstream records class=upstream (or unknown), never selftest; (b) the next 10 production help events carry dispatch_path values matching their true trigger, with at least one idle_sweep row if the sweep fires in that window - or a written finding, backed by sweep logs, that the sweep genuinely never had an eligible moment, itself then filed as the next defect; (c) segment 3: production evidence that a re-dispatch drew on an idle float seat and the dispatch event carries its provenance; dispatch entry points go 2 -> 1; (d) manager selftest + manager-watch selftest full pass. Recheck 2026-12-03. | selftest:# Help-evidence integrity (claimed-by pool-optimization-seat-1-2188-6a6d7418 2026-11-27T10:56:56Z)"
+            "title": "[code] [boss-accept] [inputs: llm-workers/manager.py, llm-workers/help-cooldown.json, llm-workers/help_dispatches.jsonl, llm-workers/meetings/20261127-help-merge-note.md, llm-workers/event_stream.jsonl] Help-evidence integrity fix (boss filing 2026-11-27, from the user's status check): two measured defects in the help machinery's EVIDENCE layer (the dispatch machinery itself works - 111 re-dispatch log lines 2026-11-24..26). | (1) CLASSIFIER MISFIRE: the production help-cooldown.json record for the 2026-11-26T18:18Z task-018 cycle carries class=selftest for a REAL production help failure (providers=[wusrouter], fails=153) - record_help_failure's classification keys off marker words in the task text (clou-018's acceptance text contains 'selftest'). Classification must come from the failure's own evidence (attempt outcomes / exit / selftest run attached to THIS dispatch), never from task-text wording; unclassifiable = unknown. (2) ATTRIBUTION VOID: help_dispatches.jsonl holds 150 rows (2026-11-24T12:14Z..2026-11-26T18:18Z), ALL dispatch_path=manual and ALL verdict=no_advance - zero rows recorded as idle_sweep although the idle sweep runs every watch cycle and cross-line help demonstrably happened. Either the sweep never dispatches or its provenance is lost before the writer runs; find which, fix it so the dispatch decision's provenance (assigner + dispatch_path + dispatch_timestamp, pool-054 amendment 3) is carried INTO the event at dispatch time. (3) SEGMENT 3 - THE MERGE (help-merge meeting amendment 2026-11-27): re-dispatch candidate selection gains idle float-seat capacity (idle help's idea folded into re-dispatch per the user's order); float_sweep's standalone dispatch retires or folds ONLY per the operations forensics verdict (oper-021, ruling 2) - never before that verdict; the help verdict readback merges into the re-dispatch verdict path; the help_dispatches writer becomes the unified event source. This task does NOT unfreeze pool-054. Deliverable: out/<task>/deliverable.md whose FIRST LINE is exactly: # Help-evidence integrity - carrying the drill evidence and the 10-event production sample. Acceptance (production-path evidence, no marker-only claims): (a) a drill task whose text contains the word 'selftest' but whose help attempt fails upstream records class=upstream (or unknown), never selftest; (b) the next 10 production help events carry dispatch_path values matching their true trigger, with at least one idle_sweep row if the sweep fires in that window - or a written finding, backed by sweep logs, that the sweep genuinely never had an eligible moment, itself then filed as the next defect; (c) segment 3: production evidence that a re-dispatch drew on an idle float seat and the dispatch event carries its provenance; dispatch entry points go 2 -> 1; (d) manager selftest + manager-watch selftest full pass. Recheck 2026-12-03. | selftest:# Help-evidence integrity (claimed-by pool-optimization-seat-1-2188-6a6d7418 2026-11-27T10:58:59Z)"
           }
         ],
         "open": 5
