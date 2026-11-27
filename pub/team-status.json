@@ -1,8 +1,8 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T02:45:05Z",
+    "activity_generated_at": "2026-11-27T02:47:45Z",
     "empty_reasons": {
-      "claimed_now": "no open board task carries a live claim record",
+      "claimed_now": null,
       "recent_completions": null,
       "workers_running": "no jobs/*.json without a .done/.closed marker"
     }
@@ -10,54 +10,82 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
-      "last_cycle_ended": "2026-11-27T02:43:00Z",
+      "claimed_count": 1,
+      "current_task": {
+        "claimed_at": "2026-11-27T02:47:27Z",
+        "claimed_by": "pool-optimization",
+        "claimed_by_zh": "池优化",
+        "claimed_for": "19秒",
+        "task_id": "clou-025",
+        "title": "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…"
+      },
+      "cycle_started_at": "2026-11-27T02:47:27Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "19秒",
+      "elapsed_sec": 19,
+      "last_cycle_ended": "2026-11-27T02:47:43Z",
       "name_zh": "云脚本迁移",
-      "state": "idle",
+      "state": "running",
       "workstream": "cloud-script-migration"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
+      "claimed_count": 2,
+      "current_task": {
+        "claimed_at": "2026-11-27T02:42:36Z",
+        "claimed_by": "pool-optimization-seat-1-27480-61467ea8",
+        "claimed_by_zh": "池优化 席位27480",
+        "claimed_for": "5分钟",
+        "task_id": "pool-085",
+        "title": "D-style design: mechanical work to script flow, judgment work stays…"
+      },
+      "cycle_started_at": "2026-11-27T02:42:36Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "5分钟",
+      "elapsed_sec": 310,
       "last_cycle_ended": "2026-11-27T02:43:00Z",
       "name_zh": "池优化",
-      "state": "idle",
+      "state": "running",
       "workstream": "pool-optimization"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
-      "last_cycle_ended": "2026-11-27T02:41:57Z",
+      "claimed_count": 1,
+      "current_task": {
+        "claimed_at": "2026-11-27T02:47:31Z",
+        "claimed_by": "security-seat-1-2134-6bda0e45",
+        "claimed_by_zh": "安全 席位2134",
+        "claimed_for": "15秒",
+        "task_id": "secu-016",
+        "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…"
+      },
+      "cycle_started_at": "2026-11-27T02:47:31Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "15秒",
+      "elapsed_sec": 15,
+      "last_cycle_ended": "2026-11-27T02:47:38Z",
       "name_zh": "安全",
-      "state": "idle",
+      "state": "running",
       "workstream": "security"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
-      "last_cycle_ended": "2026-11-27T02:42:32Z",
+      "claimed_count": 1,
+      "current_task": {
+        "claimed_at": "2026-11-27T02:47:21Z",
+        "claimed_by": "operations-seat-1-2042-d8fc75c0",
+        "claimed_by_zh": "运维 席位2042",
+        "claimed_for": "25秒",
+        "task_id": "oper-021",
+        "title": "Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27…"
+      },
+      "cycle_started_at": "2026-11-27T02:47:21Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "25秒",
+      "elapsed_sec": 25,
+      "last_cycle_ended": "2026-11-27T02:47:33Z",
       "name_zh": "运维",
-      "state": "idle",
+      "state": "running",
       "workstream": "operations"
     },
     {
@@ -89,7 +117,19 @@
   ],
   "boards": [
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 19,
+          "claimed_at": "2026-11-27T02:47:27Z",
+          "claimed_by": "pool-optimization",
+          "claimed_by_zh": "池优化",
+          "claimed_for": "19秒",
+          "task_id": "clou-025",
+          "title": "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…",
+          "workstream": "cloud-script-migration"
+        }
+      ],
       "done": 24,
       "escalation_latest": "BLOCKED.md: reason: Required lease-fence drill inputs are absent from the permitted working directory, so the three real stalled-task…",
       "name_zh": "云脚本迁移",
@@ -97,12 +137,35 @@
         "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…"
       ],
       "open": 1,
-      "status_updated": "2026-11-27T02:42:49Z",
+      "status_updated": "2026-11-27T02:45:46Z",
       "total": 25,
       "workstream": "cloud-script-migration"
     },
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 310,
+          "claimed_at": "2026-11-27T02:42:36Z",
+          "claimed_by": "pool-optimization-seat-1-27480-61467ea8",
+          "claimed_by_zh": "池优化 席位27480",
+          "claimed_for": "5分钟",
+          "task_id": "pool-084",
+          "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 310,
+          "claimed_at": "2026-11-27T02:42:36Z",
+          "claimed_by": "pool-optimization-seat-1-27480-61467ea8",
+          "claimed_by_zh": "池优化 席位27480",
+          "claimed_for": "5分钟",
+          "task_id": "pool-085",
+          "title": "D-style design: mechanical work to script flow, judgment work stays…",
+          "workstream": "pool-optimization"
+        }
+      ],
       "done": 81,
       "escalation_latest": "blocked-file: out/task-084/BLOCKED.md",
       "name_zh": "池优化",
@@ -112,12 +175,24 @@
         "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…"
       ],
       "open": 4,
-      "status_updated": "2026-11-27T02:40:36Z",
+      "status_updated": "2026-11-27T02:45:26Z",
       "total": 85,
       "workstream": "pool-optimization"
     },
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "安全",
+          "claimed_age_sec": 15,
+          "claimed_at": "2026-11-27T02:47:31Z",
+          "claimed_by": "security-seat-1-2134-6bda0e45",
+          "claimed_by_zh": "安全 席位2134",
+          "claimed_for": "15秒",
+          "task_id": "secu-016",
+          "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…",
+          "workstream": "security"
+        }
+      ],
       "done": 15,
       "escalation_latest": "runner exit: 1",
       "name_zh": "安全",
@@ -125,12 +200,24 @@
         "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…"
       ],
       "open": 1,
-      "status_updated": "2026-11-27T02:38:44Z",
+      "status_updated": "2026-11-27T02:47:11Z",
       "total": 16,
       "workstream": "security"
     },
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "运维",
+          "claimed_age_sec": 25,
+          "claimed_at": "2026-11-27T02:47:21Z",
+          "claimed_by": "operations-seat-1-2042-d8fc75c0",
+          "claimed_by_zh": "运维 席位2042",
+          "claimed_for": "25秒",
+          "task_id": "oper-021",
+          "title": "Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27…",
+          "workstream": "operations"
+        }
+      ],
       "done": 20,
       "escalation_latest": "BLOCKED.md: reason: Idle-help forensics is blocked at Step 0: the alias-check code, help_dispatches.jsonl, sweep trigger logs, and meeting…",
       "name_zh": "运维",
@@ -139,7 +226,7 @@
         "Event-stream credibility audit (structure-meeting ruling 2026-11-27…"
       ],
       "open": 2,
-      "status_updated": "2026-11-27T02:29:49Z",
+      "status_updated": "2026-11-27T02:45:21Z",
       "total": 22,
       "workstream": "operations"
     },
@@ -150,13 +237,69 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-27T02:28:48Z",
+      "status_updated": "2026-11-27T02:45:40Z",
       "total": 16,
       "workstream": "spaces-data"
     }
   ],
-  "claimed_now": [],
-  "content_latest_at": "2026-11-27T02:42:49Z",
+  "claimed_now": [
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 310,
+      "claimed_at": "2026-11-27T02:42:36Z",
+      "claimed_by": "pool-optimization-seat-1-27480-61467ea8",
+      "claimed_by_zh": "池优化 席位27480",
+      "claimed_for": "5分钟",
+      "task_id": "pool-084",
+      "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 310,
+      "claimed_at": "2026-11-27T02:42:36Z",
+      "claimed_by": "pool-optimization-seat-1-27480-61467ea8",
+      "claimed_by_zh": "池优化 席位27480",
+      "claimed_for": "5分钟",
+      "task_id": "pool-085",
+      "title": "D-style design: mechanical work to script flow, judgment work stays…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "运维",
+      "claimed_age_sec": 25,
+      "claimed_at": "2026-11-27T02:47:21Z",
+      "claimed_by": "operations-seat-1-2042-d8fc75c0",
+      "claimed_by_zh": "运维 席位2042",
+      "claimed_for": "25秒",
+      "task_id": "oper-021",
+      "title": "Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27…",
+      "workstream": "operations"
+    },
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 19,
+      "claimed_at": "2026-11-27T02:47:27Z",
+      "claimed_by": "pool-optimization",
+      "claimed_by_zh": "池优化",
+      "claimed_for": "19秒",
+      "task_id": "clou-025",
+      "title": "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "安全",
+      "claimed_age_sec": 15,
+      "claimed_at": "2026-11-27T02:47:31Z",
+      "claimed_by": "security-seat-1-2134-6bda0e45",
+      "claimed_by_zh": "安全 席位2134",
+      "claimed_for": "15秒",
+      "task_id": "secu-016",
+      "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…",
+      "workstream": "security"
+    }
+  ],
+  "content_latest_at": "2026-11-27T02:47:11Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 400,
@@ -189,12 +332,46 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T02:45:05Z",
-  "generated_at_utc": "2026-11-27T02:45:05Z",
+  "generated_at": "2026-11-27T02:47:46Z",
+  "generated_at_utc": "2026-11-27T02:47:46Z",
   "live_pi_workers": {
-    "by_model": {},
-    "running": [],
-    "total": 0
+    "by_model": {
+      "100milionseek-2/deepseek-v4.1-flash-free": 4,
+      "100milionseek-2/deepseek-v4.1-flash-free#strict": 2
+    },
+    "running": [
+      {
+        "model": "100milionseek-2/deepseek-v4.1-flash-free",
+        "pid": 2058,
+        "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2"
+      },
+      {
+        "model": "100milionseek-2/deepseek-v4.1-flash-free",
+        "pid": 2059,
+        "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2"
+      },
+      {
+        "model": "100milionseek-2/deepseek-v4.1-flash-free",
+        "pid": 2104,
+        "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
+      },
+      {
+        "model": "100milionseek-2/deepseek-v4.1-flash-free",
+        "pid": 2105,
+        "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
+      },
+      {
+        "model": "100milionseek-2/deepseek-v4.1-flash-free#strict",
+        "pid": 2547,
+        "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11"
+      },
+      {
+        "model": "100milionseek-2/deepseek-v4.1-flash-free#strict",
+        "pid": 2548,
+        "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11"
+      }
+    ],
+    "total": 6
   },
   "managers": [
     {
@@ -274,7 +451,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 585
+        "used": 602
       },
       {
         "cap": 1000,
@@ -1018,7 +1195,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 172
+        "used": 175
       },
       {
         "cap": 300,
@@ -1026,7 +1203,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 172
+        "used": 175
       },
       {
         "cap": 300,
@@ -1034,7 +1211,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 172
+        "used": 175
       },
       {
         "cap": 300,
@@ -1042,7 +1219,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 172
+        "used": 175
       },
       {
         "cap": 1000,
@@ -1258,7 +1435,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 1153
+        "used": 1157
       },
       {
         "cap": 300,
@@ -1476,7 +1653,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash-free",
         "provider": "100milionseek-2",
-        "used": 585
+        "used": 602
       },
       {
         "cap": 1000,
@@ -2220,7 +2397,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 172
+        "used": 175
       },
       {
         "cap": 300,
@@ -2228,7 +2405,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 172
+        "used": 175
       },
       {
         "cap": 300,
@@ -2236,7 +2413,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 172
+        "used": 175
       },
       {
         "cap": 300,
@@ -2244,7 +2421,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 172
+        "used": 175
       },
       {
         "cap": 1000,
@@ -2460,7 +2637,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 1153
+        "used": 1157
       },
       {
         "cap": 300,
@@ -2662,123 +2839,123 @@
   },
   "recent_completions": [
     {
-      "age_sec": 124,
+      "age_sec": 1,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-27T02:43:00Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_at": "2026-11-27T02:47:43Z",
+      "completed_by": "pool-optimization",
+      "completed_by_zh": "池优化",
       "completed_ts_source": "result.txt",
-      "task_id": "task-025",
+      "task_id": "clou-025",
       "task_no": 25,
-      "title": null,
+      "title": "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 124,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-27T02:43:00Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "age_sec": 7,
+      "board_zh": "安全",
+      "completed_at": "2026-11-27T02:47:38Z",
+      "completed_by": "security-seat-1-2134-6bda0e45",
+      "completed_by_zh": "安全 席位2134",
       "completed_ts_source": "result.txt",
-      "task_id": "task-085",
-      "task_no": 85,
-      "title": null,
-      "workstream": "pool-optimization"
+      "task_id": "secu-016",
+      "task_no": 16,
+      "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…",
+      "workstream": "security"
     },
     {
-      "age_sec": 152,
+      "age_sec": 11,
       "board_zh": "运维",
-      "completed_at": "2026-11-27T02:42:32Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_at": "2026-11-27T02:47:33Z",
+      "completed_by": "operations-seat-1-2042-d8fc75c0",
+      "completed_by_zh": "运维 席位2042",
       "completed_ts_source": "result.txt",
-      "task_id": "task-021",
+      "task_id": "oper-021",
       "task_no": 21,
-      "title": null,
+      "title": "Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27…",
       "workstream": "operations"
     },
     {
-      "age_sec": 153,
+      "age_sec": 285,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-27T02:43:00Z",
+      "completed_by": "pool-optimization-seat-1-27480-61467ea8",
+      "completed_by_zh": "池优化 席位27480",
+      "completed_ts_source": "result.txt",
+      "task_id": "pool-085",
+      "task_no": 85,
+      "title": "D-style design: mechanical work to script flow, judgment work stays…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 313,
       "board_zh": "运维",
       "completed_at": "2026-11-27T02:42:31Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "task-022",
+      "task_id": "oper-022",
       "task_no": 22,
-      "title": null,
+      "title": "Event-stream credibility audit (structure-meeting ruling 2026-11-27…",
       "workstream": "operations"
     },
     {
-      "age_sec": 187,
-      "board_zh": "安全",
-      "completed_at": "2026-11-27T02:41:57Z",
-      "completed_by": null,
-      "completed_by_zh": null,
-      "completed_ts_source": "result.txt",
-      "task_id": "task-016",
-      "task_no": 16,
-      "title": null,
-      "workstream": "security"
-    },
-    {
-      "age_sec": 199,
+      "age_sec": 360,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T02:41:45Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-27480-61467ea8",
+      "completed_by_zh": "池优化 席位27480",
       "completed_ts_source": "result.txt",
-      "task_id": "task-084",
+      "task_id": "pool-084",
       "task_no": 84,
-      "title": null,
+      "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 30234,
+      "age_sec": 30394,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T18:21:10Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "task-018",
+      "task_id": "clou-018",
       "task_no": 18,
-      "title": null,
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 39183,
+      "age_sec": 39343,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T15:52:01Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "operations",
+      "completed_by_zh": "运维",
       "completed_ts_source": "done",
-      "task_id": "task-016",
+      "task_id": "clou-016",
       "task_no": 16,
-      "title": null,
+      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 114451,
+      "age_sec": 114611,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
+      "completed_by_zh": "池优化 席位5252",
       "completed_ts_source": "done",
-      "task_id": "task-083",
+      "task_id": "pool-083",
       "task_no": 83,
-      "title": null,
+      "title": "Settlement ordering defect: BLOCKED.md must short-circuit BEFORE the…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 114560,
+      "age_sec": 114720,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
+      "completed_by_zh": "池优化 席位5252",
       "completed_ts_source": "result.txt",
-      "task_id": "task-082",
+      "task_id": "pool-082",
       "task_no": 82,
-      "title": null,
+      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
       "workstream": "pool-optimization"
     }
   ],
@@ -2789,12 +2966,86 @@
     "total": 58
   },
   "workers": {
-    "by_model": {},
-    "running": [],
-    "total": 0
+    "by_model": {
+      "100milionseek-2/deepseek-v4.1-flash-free": 4,
+      "100milionseek-2/deepseek-v4.1-flash-free#strict": 2
+    },
+    "running": [
+      {
+        "model": "100milionseek-2/deepseek-v4.1-flash-free",
+        "pid": 2058,
+        "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2"
+      },
+      {
+        "model": "100milionseek-2/deepseek-v4.1-flash-free",
+        "pid": 2059,
+        "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2"
+      },
+      {
+        "model": "100milionseek-2/deepseek-v4.1-flash-free",
+        "pid": 2104,
+        "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
+      },
+      {
+        "model": "100milionseek-2/deepseek-v4.1-flash-free",
+        "pid": 2105,
+        "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
+      },
+      {
+        "model": "100milionseek-2/deepseek-v4.1-flash-free#strict",
+        "pid": 2547,
+        "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11"
+      },
+      {
+        "model": "100milionseek-2/deepseek-v4.1-flash-free#strict",
+        "pid": 2548,
+        "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11"
+      }
+    ],
+    "total": 6
   },
-  "workers_detail": [],
-  "workers_running": [],
+  "workers_detail": [
+    {
+      "count": 4,
+      "model": "100milionseek-2/deepseek-v4.1-flash-free"
+    },
+    {
+      "count": 2,
+      "model": "100milionseek-2/deepseek-v4.1-flash-free#strict"
+    }
+  ],
+  "workers_running": [
+    {
+      "model": "100milionseek-2/deepseek-v4.1-flash-free",
+      "pid": 2058,
+      "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2"
+    },
+    {
+      "model": "100milionseek-2/deepseek-v4.1-flash-free",
+      "pid": 2059,
+      "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2"
+    },
+    {
+      "model": "100milionseek-2/deepseek-v4.1-flash-free",
+      "pid": 2104,
+      "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
+    },
+    {
+      "model": "100milionseek-2/deepseek-v4.1-flash-free",
+      "pid": 2105,
+      "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
+    },
+    {
+      "model": "100milionseek-2/deepseek-v4.1-flash-free#strict",
+      "pid": 2547,
+      "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11"
+    },
+    {
+      "model": "100milionseek-2/deepseek-v4.1-flash-free#strict",
+      "pid": 2548,
+      "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11"
+    }
+  ],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -2806,7 +3057,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T02:42:49Z"
+        "updated": "2026-11-27T02:45:46Z"
       },
       "tasks": {
         "done": 24,
@@ -2814,7 +3065,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, note meetings/20261127-help-merge-note.md ruling 3) [est:40m] | Merged re-dispatch may only take tasks already back on the board (pool-040 chain: stale claim >2 cycles -> lease_expired -> board); never strip a live lease. Prove the fence: replay 3 real stalled tasks from event_stream/manager_watch history, simulate an old worker writing AFTER its epoch was fenced (late completion write / stale claim heartbeat), and record whether the write is rejected (write_conflict / stale-epoch refusal) in the event stream. Also list each replayed task's repeat-reflow count and failure class, and state the bounded-retry + pause conditions the merged re-dispatch must carry for permanent failures (contract/quota death must not reflow forever). Metrics: old-write block rate baseline unmeasured -> target 3/3 (100%), evidence = event-stream lines; due 2026-12-02; recheck 2026-12-03 digest. If any old write lands, that is a finding against the merge - report it, do not patch around it in this task. | event_stream.jsonl + manager_watch records | drill report in out/<task>/deliverable.md with per-case event citations [inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-help-merge-note.md, llm-workers/tasks/pool-optimization/manager_watch.py] [BOSS AMEND 2026-11-27: drill MUST include the lost-receipt retry variant (D writes ok, receipt lost, cut to A, deliver+settle exactly once) per structure-meeting ruling] (executed-by spaces-data failed 2026-11-27T02:02:39Z) (claimed-by float 2026-11-27T02:35:14Z)"
+            "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, note meetings/20261127-help-merge-note.md ruling 3) [est:40m] | Merged re-dispatch may only take tasks already back on the board (pool-040 chain: stale claim >2 cycles -> lease_expired -> board); never strip a live lease. Prove the fence: replay 3 real stalled tasks from event_stream/manager_watch history, simulate an old worker writing AFTER its epoch was fenced (late completion write / stale claim heartbeat), and record whether the write is rejected (write_conflict / stale-epoch refusal) in the event stream. Also list each replayed task's repeat-reflow count and failure class, and state the bounded-retry + pause conditions the merged re-dispatch must carry for permanent failures (contract/quota death must not reflow forever). Metrics: old-write block rate baseline unmeasured -> target 3/3 (100%), evidence = event-stream lines; due 2026-12-02; recheck 2026-12-03 digest. If any old write lands, that is a finding against the merge - report it, do not patch around it in this task. | event_stream.jsonl + manager_watch records | drill report in out/<task>/deliverable.md with per-case event citations [inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-help-merge-note.md, llm-workers/tasks/pool-optimization/manager_watch.py] [BOSS AMEND 2026-11-27: drill MUST include the lost-receipt retry variant (D writes ok, receipt lost, cut to A, deliver+settle exactly once) per structure-meeting ruling] (executed-by spaces-data failed 2026-11-27T02:02:39Z) (claimed-by pool-optimization 2026-11-27T02:47:27Z)"
           }
         ],
         "open": 1
@@ -2830,7 +3081,7 @@
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-27T02:29:49Z"
+        "updated": "2026-11-27T02:45:21Z"
       },
       "tasks": {
         "done": 20,
@@ -2838,11 +3089,11 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27, note meetings/20261127-help-merge-note.md ruling 2) [est:45m] | Step 0: alias check - are idle_sweep and float_sweep the same entry point or two (float-2 flagged they may be aliased; settle it from code before anything is retired). Step 1: read-only snapshot FIRST (float_sweep trigger logs, help_dispatches.jsonl, event_stream.jsonl - with timestamps and line numbers, preserved under out/<task>/snapshot/) - no production change before the snapshot exists. Step 2: left-join full replay at task+epoch+attempt granularity, four-color classification of all 150 help_dispatches rows: dispatched / dispatched-but-unrecorded / never-triggered / no-record (UNKNOWN). Every row traceable to a source line. UNKNOWN > 0 blocks any retirement verdict - report it as unknown, never as never-dispatched. Pool line supplies source records; spaces-data checks granularity conflicts. Metrics: classified-with-traceability baseline 0/150 -> target 150/150 by 2026-12-01; recheck 2026-12-03 digest. Deliverable: out/<task>/replay-list.md with the four-color counts, sample ids per color, and the forensic verdict on whether idle help ever dispatched. | event_stream.jsonl + help_dispatches.jsonl + manager_watch sweep logs | snapshot + replay list + verdict in deliverable [inputs: llm-workers/help_dispatches.jsonl, llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-help-merge-note.md, llm-workers/tasks/pool-optimization/manager_watch.py, llm-workers/tasks/pool-optimization/help_success.py, llm-workers/tasks/pool-optimization/reinforcement_pass.py] (executed-by pool-optimization failed 2026-11-27T00:26:52Z) (claimed-by operations-seat-1-22844-a12877d8 2026-11-27T02:26:22Z)"
+            "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27, note meetings/20261127-help-merge-note.md ruling 2) [est:45m] | Step 0: alias check - are idle_sweep and float_sweep the same entry point or two (float-2 flagged they may be aliased; settle it from code before anything is retired). Step 1: read-only snapshot FIRST (float_sweep trigger logs, help_dispatches.jsonl, event_stream.jsonl - with timestamps and line numbers, preserved under out/<task>/snapshot/) - no production change before the snapshot exists. Step 2: left-join full replay at task+epoch+attempt granularity, four-color classification of all 150 help_dispatches rows: dispatched / dispatched-but-unrecorded / never-triggered / no-record (UNKNOWN). Every row traceable to a source line. UNKNOWN > 0 blocks any retirement verdict - report it as unknown, never as never-dispatched. Pool line supplies source records; spaces-data checks granularity conflicts. Metrics: classified-with-traceability baseline 0/150 -> target 150/150 by 2026-12-01; recheck 2026-12-03 digest. Deliverable: out/<task>/replay-list.md with the four-color counts, sample ids per color, and the forensic verdict on whether idle help ever dispatched. | event_stream.jsonl + help_dispatches.jsonl + manager_watch sweep logs | snapshot + replay list + verdict in deliverable [inputs: llm-workers/help_dispatches.jsonl, llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-help-merge-note.md, llm-workers/tasks/pool-optimization/manager_watch.py, llm-workers/tasks/pool-optimization/help_success.py, llm-workers/tasks/pool-optimization/reinforcement_pass.py] (executed-by pool-optimization failed 2026-11-27T00:26:52Z) (claimed-by operations-seat-1-2042-d8fc75c0 2026-11-27T02:47:21Z)"
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 2026-11-27, note meetings/20261127-structure-note.md ruling 1): audit the event stream's credibility BEFORE any style-change pilot. (1) Regression set: the 194 fake-completion events, checked one by one against writer/epoch/receipt chain, with independent logs + hashes verifying board-state consistency. (2) Blind holdout: seal 100 fresh tasks that took no part in any fix, with task text + original deliverables; security line blind-judges them WITHOUT seeing the system's verdicts, then publish correct/false-positive/false-negative counts WITH denominators. (3) Deliver the borrowing denominator table (total tasks + borrowed-from counts per line, 2026-11-22 to 2026-11-26) and a chain-task ownership draft (a task whose head is mechanical collection and tail is judgment acceptance belongs to whom). Gate: NO pilot opens until this audit passes. Metrics: misjudgment-rate baseline unmeasured -> reported value with sampling method; audit verdict pass/fail; due 2026-11-29; recheck 2026-12-03 digest. Deliverable: out/<task>/audit-report.md with sampling method, misjudgment rate, verdict, denominator table, chain-task draft. [inputs: llm-workers/event_stream.jsonl, llm-workers/board-store.json, llm-workers/meetings/20261127-structure-note.md, llm-workers/meetings/20261126T193103Z.md, fleet-ops/structure-meeting-datapack-20261127.md] | event_stream.jsonl + board-store.json + structure transcripts | audit report + verdict in deliverable (executed-by pool-optimization failed 2026-11-26T21:57:52Z) (claimed-by operations-seat-1-25415-1b8d28bd 2026-11-27T02:38:53Z)"
+            "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 2026-11-27, note meetings/20261127-structure-note.md ruling 1): audit the event stream's credibility BEFORE any style-change pilot. (1) Regression set: the 194 fake-completion events, checked one by one against writer/epoch/receipt chain, with independent logs + hashes verifying board-state consistency. (2) Blind holdout: seal 100 fresh tasks that took no part in any fix, with task text + original deliverables; security line blind-judges them WITHOUT seeing the system's verdicts, then publish correct/false-positive/false-negative counts WITH denominators. (3) Deliver the borrowing denominator table (total tasks + borrowed-from counts per line, 2026-11-22 to 2026-11-26) and a chain-task ownership draft (a task whose head is mechanical collection and tail is judgment acceptance belongs to whom). Gate: NO pilot opens until this audit passes. Metrics: misjudgment-rate baseline unmeasured -> reported value with sampling method; audit verdict pass/fail; due 2026-11-29; recheck 2026-12-03 digest. Deliverable: out/<task>/audit-report.md with sampling method, misjudgment rate, verdict, denominator table, chain-task draft. [inputs: llm-workers/event_stream.jsonl, llm-workers/board-store.json, llm-workers/meetings/20261127-structure-note.md, llm-workers/meetings/20261126T193103Z.md, fleet-ops/structure-meeting-datapack-20261127.md] | event_stream.jsonl + board-store.json + structure transcripts | audit report + verdict in deliverable (executed-by pool-optimization failed 2026-11-26T21:57:52Z)"
           }
         ],
         "open": 2
@@ -2856,9 +3107,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 2,
-        "tasks_total": 2,
-        "updated": "2026-11-27T02:40:36Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-27T02:45:26Z"
       },
       "tasks": {
         "done": 81,
@@ -2888,9 +3139,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-27T02:38:44Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-27T02:47:11Z"
       },
       "tasks": {
         "done": 15,
@@ -2898,7 +3149,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11-27, note meetings/20261127-help-merge-note.md ruling 6) [est:30m] | Before the help merge lands (pool-084 segment 3), produce the permission matrix for the three dispatch paths - worker-goose, manager direct dispatch, help re-dispatch: caller identity, what each may write (boards, claims, cooldown records, event stream), and which line's tasks each may touch. The merged single entry must NOT widen any path's rights (help capacity must not become cross-line claim/write rights). Then drill: one overreach request through the merged-entry design (e.g. a float helper attempting to settle/claim outside its assignment) must be rejected, with the rejection evidence preserved. Metrics: matrix coverage 3/3 paths; overreach drill rejected 1/1; due with the merge landing; recheck 2026-12-03 digest. Deliverable: out/<task>/permission-matrix.md + drill evidence. | manager.py dispatch paths + board_store claim code | matrix + drill evidence in deliverable [inputs: llm-workers/manager.py, llm-workers/board_store.py, llm-workers/meetings/20261127-help-merge-note.md] (executed-by pool-optimization failed 2026-11-27T01:41:51Z) (claimed-by security-seat-1-24215-b6957bab 2026-11-27T02:32:37Z)"
+            "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11-27, note meetings/20261127-help-merge-note.md ruling 6) [est:30m] | Before the help merge lands (pool-084 segment 3), produce the permission matrix for the three dispatch paths - worker-goose, manager direct dispatch, help re-dispatch: caller identity, what each may write (boards, claims, cooldown records, event stream), and which line's tasks each may touch. The merged single entry must NOT widen any path's rights (help capacity must not become cross-line claim/write rights). Then drill: one overreach request through the merged-entry design (e.g. a float helper attempting to settle/claim outside its assignment) must be rejected, with the rejection evidence preserved. Metrics: matrix coverage 3/3 paths; overreach drill rejected 1/1; due with the merge landing; recheck 2026-12-03 digest. Deliverable: out/<task>/permission-matrix.md + drill evidence. | manager.py dispatch paths + board_store claim code | matrix + drill evidence in deliverable [inputs: llm-workers/manager.py, llm-workers/board_store.py, llm-workers/meetings/20261127-help-merge-note.md] (executed-by pool-optimization failed 2026-11-27T01:41:51Z) (claimed-by security-seat-1-2134-6bda0e45 2026-11-27T02:47:31Z)"
           }
         ],
         "open": 1
@@ -2914,7 +3165,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T02:28:48Z"
+        "updated": "2026-11-27T02:45:40Z"
       },
       "tasks": {
         "done": 16,
