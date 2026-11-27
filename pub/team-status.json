@@ -1,8 +1,8 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T00:39:08Z",
+    "activity_generated_at": "2026-11-27T00:41:43Z",
     "empty_reasons": {
-      "claimed_now": "no open board task carries a live claim record",
+      "claimed_now": null,
       "recent_completions": null,
       "workers_running": "no jobs/*.json without a .done/.closed marker"
     }
@@ -10,54 +10,82 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
+      "claimed_count": 1,
+      "current_task": {
+        "claimed_at": "2026-11-27T00:35:20Z",
+        "claimed_by": "cloud-script-migration-seat-1-24039-7237772a",
+        "claimed_by_zh": "云脚本迁移 席位24039",
+        "claimed_for": "6分钟",
+        "task_id": "clou-025",
+        "title": "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…"
+      },
+      "cycle_started_at": "2026-11-27T00:35:20Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "6分钟",
+      "elapsed_sec": 384,
       "last_cycle_ended": "2026-11-27T00:38:35Z",
       "name_zh": "云脚本迁移",
-      "state": "idle",
+      "state": "running",
       "workstream": "cloud-script-migration"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
+      "claimed_count": 2,
+      "current_task": {
+        "claimed_at": "2026-11-27T00:38:16Z",
+        "claimed_by": "pool-optimization-seat-1-24955-9e233461",
+        "claimed_by_zh": "池优化 席位24955",
+        "claimed_for": "3分钟",
+        "task_id": "pool-085",
+        "title": "D-style design: mechanical work to script flow, judgment work stays…"
+      },
+      "cycle_started_at": "2026-11-27T00:38:16Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "3分钟",
+      "elapsed_sec": 208,
       "last_cycle_ended": "2026-11-27T00:34:34Z",
       "name_zh": "池优化",
-      "state": "idle",
+      "state": "running",
       "workstream": "pool-optimization"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
+      "claimed_count": 1,
+      "current_task": {
+        "claimed_at": "2026-11-27T00:38:15Z",
+        "claimed_by": "security-seat-1-26516-f335477b",
+        "claimed_by_zh": "安全 席位26516",
+        "claimed_for": "3分钟",
+        "task_id": "secu-016",
+        "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…"
+      },
+      "cycle_started_at": "2026-11-27T00:38:15Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "3分钟",
+      "elapsed_sec": 209,
       "last_cycle_ended": "2026-11-27T00:38:08Z",
       "name_zh": "安全",
-      "state": "idle",
+      "state": "running",
       "workstream": "security"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
-      "last_cycle_ended": "2026-11-27T00:38:42Z",
+      "claimed_count": 2,
+      "current_task": {
+        "claimed_at": "2026-11-27T00:41:19Z",
+        "claimed_by": "operations-seat-1-1845-22d74f69",
+        "claimed_by_zh": "运维 席位1845",
+        "claimed_for": "25秒",
+        "task_id": "oper-022",
+        "title": "Event-stream credibility audit (structure-meeting ruling 2026-11-27…"
+      },
+      "cycle_started_at": "2026-11-27T00:36:53Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "4分钟",
+      "elapsed_sec": 291,
+      "last_cycle_ended": "2026-11-27T00:41:42Z",
       "name_zh": "运维",
-      "state": "idle",
+      "state": "running",
       "workstream": "operations"
     },
     {
@@ -89,7 +117,19 @@
   ],
   "boards": [
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "云脚本迁移",
+          "claimed_age_sec": 384,
+          "claimed_at": "2026-11-27T00:35:20Z",
+          "claimed_by": "cloud-script-migration-seat-1-24039-7237772a",
+          "claimed_by_zh": "云脚本迁移 席位24039",
+          "claimed_for": "6分钟",
+          "task_id": "clou-025",
+          "title": "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…",
+          "workstream": "cloud-script-migration"
+        }
+      ],
       "done": 24,
       "escalation_latest": "BLOCKED.md: reason: The required event_stream.jsonl, meetings/20261127-help-merge-note.md, and tasks/pool-optimization/manager_watch.py are…",
       "name_zh": "云脚本迁移",
@@ -97,12 +137,35 @@
         "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…"
       ],
       "open": 1,
-      "status_updated": "2026-11-27T00:26:16Z",
+      "status_updated": "2026-11-27T00:39:50Z",
       "total": 25,
       "workstream": "cloud-script-migration"
     },
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 208,
+          "claimed_at": "2026-11-27T00:38:16Z",
+          "claimed_by": "pool-optimization-seat-1-24955-9e233461",
+          "claimed_by_zh": "池优化 席位24955",
+          "claimed_for": "3分钟",
+          "task_id": "pool-084",
+          "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
+          "workstream": "pool-optimization"
+        },
+        {
+          "board_zh": "池优化",
+          "claimed_age_sec": 208,
+          "claimed_at": "2026-11-27T00:38:16Z",
+          "claimed_by": "pool-optimization-seat-1-24955-9e233461",
+          "claimed_by_zh": "池优化 席位24955",
+          "claimed_for": "3分钟",
+          "task_id": "pool-085",
+          "title": "D-style design: mechanical work to script flow, judgment work stays…",
+          "workstream": "pool-optimization"
+        }
+      ],
       "done": 81,
       "escalation_latest": "blocked-file: out/task-084/BLOCKED.md",
       "name_zh": "池优化",
@@ -112,12 +175,24 @@
         "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…"
       ],
       "open": 4,
-      "status_updated": "2026-11-27T00:30:12Z",
+      "status_updated": "2026-11-27T00:40:16Z",
       "total": 85,
       "workstream": "pool-optimization"
     },
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "安全",
+          "claimed_age_sec": 209,
+          "claimed_at": "2026-11-27T00:38:15Z",
+          "claimed_by": "security-seat-1-26516-f335477b",
+          "claimed_by_zh": "安全 席位26516",
+          "claimed_for": "3分钟",
+          "task_id": "secu-016",
+          "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…",
+          "workstream": "security"
+        }
+      ],
       "done": 15,
       "escalation_latest": "runner exit: 1",
       "name_zh": "安全",
@@ -125,12 +200,35 @@
         "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…"
       ],
       "open": 1,
-      "status_updated": "2026-11-27T00:37:15Z",
+      "status_updated": "2026-11-27T00:39:33Z",
       "total": 16,
       "workstream": "security"
     },
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "运维",
+          "claimed_age_sec": 291,
+          "claimed_at": "2026-11-27T00:36:53Z",
+          "claimed_by": "spaces-data",
+          "claimed_by_zh": "空间数据",
+          "claimed_for": "4分钟",
+          "task_id": "oper-021",
+          "title": "Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27…",
+          "workstream": "operations"
+        },
+        {
+          "board_zh": "运维",
+          "claimed_age_sec": 25,
+          "claimed_at": "2026-11-27T00:41:19Z",
+          "claimed_by": "operations-seat-1-1845-22d74f69",
+          "claimed_by_zh": "运维 席位1845",
+          "claimed_for": "25秒",
+          "task_id": "oper-022",
+          "title": "Event-stream credibility audit (structure-meeting ruling 2026-11-27…",
+          "workstream": "operations"
+        }
+      ],
       "done": 20,
       "escalation_latest": "BLOCKED.md: reason: Idle-help forensics is blocked at Step 0: the alias-check code, help_dispatches.jsonl, sweep trigger logs, and meeting…",
       "name_zh": "运维",
@@ -139,7 +237,7 @@
         "Event-stream credibility audit (structure-meeting ruling 2026-11-27…"
       ],
       "open": 2,
-      "status_updated": "2026-11-27T00:27:10Z",
+      "status_updated": "2026-11-27T00:39:19Z",
       "total": 22,
       "workstream": "operations"
     },
@@ -150,13 +248,80 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-27T00:27:20Z",
+      "status_updated": "2026-11-27T00:39:44Z",
       "total": 16,
       "workstream": "spaces-data"
     }
   ],
-  "claimed_now": [],
-  "content_latest_at": "2026-11-27T00:37:15Z",
+  "claimed_now": [
+    {
+      "board_zh": "云脚本迁移",
+      "claimed_age_sec": 384,
+      "claimed_at": "2026-11-27T00:35:20Z",
+      "claimed_by": "cloud-script-migration-seat-1-24039-7237772a",
+      "claimed_by_zh": "云脚本迁移 席位24039",
+      "claimed_for": "6分钟",
+      "task_id": "clou-025",
+      "title": "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "运维",
+      "claimed_age_sec": 291,
+      "claimed_at": "2026-11-27T00:36:53Z",
+      "claimed_by": "spaces-data",
+      "claimed_by_zh": "空间数据",
+      "claimed_for": "4分钟",
+      "task_id": "oper-021",
+      "title": "Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27…",
+      "workstream": "operations"
+    },
+    {
+      "board_zh": "安全",
+      "claimed_age_sec": 209,
+      "claimed_at": "2026-11-27T00:38:15Z",
+      "claimed_by": "security-seat-1-26516-f335477b",
+      "claimed_by_zh": "安全 席位26516",
+      "claimed_for": "3分钟",
+      "task_id": "secu-016",
+      "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…",
+      "workstream": "security"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 208,
+      "claimed_at": "2026-11-27T00:38:16Z",
+      "claimed_by": "pool-optimization-seat-1-24955-9e233461",
+      "claimed_by_zh": "池优化 席位24955",
+      "claimed_for": "3分钟",
+      "task_id": "pool-084",
+      "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "池优化",
+      "claimed_age_sec": 208,
+      "claimed_at": "2026-11-27T00:38:16Z",
+      "claimed_by": "pool-optimization-seat-1-24955-9e233461",
+      "claimed_by_zh": "池优化 席位24955",
+      "claimed_for": "3分钟",
+      "task_id": "pool-085",
+      "title": "D-style design: mechanical work to script flow, judgment work stays…",
+      "workstream": "pool-optimization"
+    },
+    {
+      "board_zh": "运维",
+      "claimed_age_sec": 25,
+      "claimed_at": "2026-11-27T00:41:19Z",
+      "claimed_by": "operations-seat-1-1845-22d74f69",
+      "claimed_by_zh": "运维 席位1845",
+      "claimed_for": "25秒",
+      "task_id": "oper-022",
+      "title": "Event-stream credibility audit (structure-meeting ruling 2026-11-27…",
+      "workstream": "operations"
+    }
+  ],
+  "content_latest_at": "2026-11-27T00:40:16Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 398,
@@ -189,12 +354,25 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T00:39:08Z",
-  "generated_at_utc": "2026-11-27T00:39:08Z",
+  "generated_at": "2026-11-27T00:41:44Z",
+  "generated_at_utc": "2026-11-27T00:41:44Z",
   "live_pi_workers": {
-    "by_model": {},
-    "running": [],
-    "total": 0
+    "by_model": {
+      "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free": 2
+    },
+    "running": [
+      {
+        "model": "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
+        "pid": 1861,
+        "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 20"
+      },
+      {
+        "model": "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
+        "pid": 1862,
+        "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 20"
+      }
+    ],
+    "total": 2
   },
   "managers": [
     {
@@ -562,7 +740,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 29
+        "used": 30
       },
       {
         "cap": 20000,
@@ -722,7 +900,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 1000,
@@ -1050,7 +1228,7 @@
         "healthy": true,
         "model": "z-ai/glm-5.3:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -1058,7 +1236,7 @@
         "healthy": true,
         "model": "moonshotai/kimi-k3.1-pro:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -1066,7 +1244,7 @@
         "healthy": true,
         "model": "dealignai/glm-5.3-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -1074,7 +1252,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -1082,7 +1260,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -1090,7 +1268,7 @@
         "healthy": true,
         "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -1098,7 +1276,7 @@
         "healthy": true,
         "model": "z-ai/glm-5.3-flash:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -1106,7 +1284,7 @@
         "healthy": true,
         "model": "dealignai/glm-5.3-uncensored-fp8:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -1114,7 +1292,7 @@
         "healthy": true,
         "model": "uniboshi/kimi-k3-abliterated-v1:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 200,
@@ -1258,7 +1436,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 942
+        "used": 945
       },
       {
         "cap": 300,
@@ -1764,7 +1942,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 29
+        "used": 30
       },
       {
         "cap": 20000,
@@ -1924,7 +2102,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 16
+        "used": 17
       },
       {
         "cap": 1000,
@@ -2252,7 +2430,7 @@
         "healthy": true,
         "model": "z-ai/glm-5.3:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -2260,7 +2438,7 @@
         "healthy": true,
         "model": "moonshotai/kimi-k3.1-pro:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -2268,7 +2446,7 @@
         "healthy": true,
         "model": "dealignai/glm-5.3-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -2276,7 +2454,7 @@
         "healthy": true,
         "model": "deepseek/deepseek-v4.1-flash:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -2284,7 +2462,7 @@
         "healthy": true,
         "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -2292,7 +2470,7 @@
         "healthy": true,
         "model": "dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -2300,7 +2478,7 @@
         "healthy": true,
         "model": "z-ai/glm-5.3-flash:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -2308,7 +2486,7 @@
         "healthy": true,
         "model": "dealignai/glm-5.3-uncensored-fp8:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 1000,
@@ -2316,7 +2494,7 @@
         "healthy": true,
         "model": "uniboshi/kimi-k3-abliterated-v1:free",
         "provider": "numes",
-        "used": 445
+        "used": 451
       },
       {
         "cap": 200,
@@ -2460,7 +2638,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 942
+        "used": 945
       },
       {
         "cap": 300,
@@ -2662,123 +2840,123 @@
   },
   "recent_completions": [
     {
-      "age_sec": 25,
+      "age_sec": 0,
       "board_zh": "运维",
-      "completed_at": "2026-11-27T00:38:42Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_at": "2026-11-27T00:41:42Z",
+      "completed_by": "operations-seat-1-1845-22d74f69",
+      "completed_by_zh": "运维 席位1845",
       "completed_ts_source": "result.txt",
-      "task_id": "task-022",
+      "task_id": "oper-022",
       "task_no": 22,
-      "title": null,
+      "title": "Event-stream credibility audit (structure-meeting ruling 2026-11-27…",
       "workstream": "operations"
     },
     {
-      "age_sec": 28,
+      "age_sec": 184,
       "board_zh": "运维",
       "completed_at": "2026-11-27T00:38:39Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "spaces-data",
+      "completed_by_zh": "空间数据",
       "completed_ts_source": "result.txt",
-      "task_id": "task-021",
+      "task_id": "oper-021",
       "task_no": 21,
-      "title": null,
+      "title": "Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27…",
       "workstream": "operations"
     },
     {
-      "age_sec": 32,
+      "age_sec": 187,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T00:38:35Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "cloud-script-migration-seat-1-24039-7237772a",
+      "completed_by_zh": "云脚本迁移 席位24039",
       "completed_ts_source": "result.txt",
-      "task_id": "task-025",
+      "task_id": "clou-025",
       "task_no": 25,
-      "title": null,
+      "title": "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 60,
+      "age_sec": 215,
       "board_zh": "安全",
       "completed_at": "2026-11-27T00:38:08Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "security-seat-1-26516-f335477b",
+      "completed_by_zh": "安全 席位26516",
       "completed_ts_source": "result.txt",
-      "task_id": "task-016",
+      "task_id": "secu-016",
       "task_no": 16,
-      "title": null,
+      "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…",
       "workstream": "security"
     },
     {
-      "age_sec": 273,
+      "age_sec": 428,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T00:34:34Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-24955-9e233461",
+      "completed_by_zh": "池优化 席位24955",
       "completed_ts_source": "result.txt",
-      "task_id": "task-084",
+      "task_id": "pool-084",
       "task_no": 84,
-      "title": null,
+      "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 273,
+      "age_sec": 428,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T00:34:34Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-24955-9e233461",
+      "completed_by_zh": "池优化 席位24955",
       "completed_ts_source": "result.txt",
-      "task_id": "task-085",
+      "task_id": "pool-085",
       "task_no": 85,
-      "title": null,
+      "title": "D-style design: mechanical work to script flow, judgment work stays…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 22677,
+      "age_sec": 22833,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T18:21:10Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "task-018",
+      "task_id": "clou-018",
       "task_no": 18,
-      "title": null,
+      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 31626,
+      "age_sec": 31781,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T15:52:01Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "operations",
+      "completed_by_zh": "运维",
       "completed_ts_source": "done",
-      "task_id": "task-016",
+      "task_id": "clou-016",
       "task_no": 16,
-      "title": null,
+      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 106894,
+      "age_sec": 107049,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
+      "completed_by_zh": "池优化 席位5252",
       "completed_ts_source": "done",
-      "task_id": "task-083",
+      "task_id": "pool-083",
       "task_no": 83,
-      "title": null,
+      "title": "Settlement ordering defect: BLOCKED.md must short-circuit BEFORE the…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 107003,
+      "age_sec": 107159,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
+      "completed_by_zh": "池优化 席位5252",
       "completed_ts_source": "result.txt",
-      "task_id": "task-082",
+      "task_id": "pool-082",
       "task_no": 82,
-      "title": null,
+      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
       "workstream": "pool-optimization"
     }
   ],
@@ -2789,12 +2967,41 @@
     "total": 58
   },
   "workers": {
-    "by_model": {},
-    "running": [],
-    "total": 0
+    "by_model": {
+      "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free": 2
+    },
+    "running": [
+      {
+        "model": "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
+        "pid": 1861,
+        "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 20"
+      },
+      {
+        "model": "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
+        "pid": 1862,
+        "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 20"
+      }
+    ],
+    "total": 2
   },
-  "workers_detail": [],
-  "workers_running": [],
+  "workers_detail": [
+    {
+      "count": 2,
+      "model": "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free"
+    }
+  ],
+  "workers_running": [
+    {
+      "model": "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
+      "pid": 1861,
+      "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 20"
+    },
+    {
+      "model": "numes/dealignai/deepseek-v4.1-flash-uncensored-fp8:free",
+      "pid": 1862,
+      "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 20"
+    }
+  ],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -2804,9 +3011,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-27T00:26:16Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-27T00:39:50Z"
       },
       "tasks": {
         "done": 24,
@@ -2828,9 +3035,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-27T00:27:10Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-27T00:39:19Z"
       },
       "tasks": {
         "done": 20,
@@ -2842,7 +3049,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 2026-11-27, note meetings/20261127-structure-note.md ruling 1): audit the event stream's credibility BEFORE any style-change pilot. (1) Regression set: the 194 fake-completion events, checked one by one against writer/epoch/receipt chain, with independent logs + hashes verifying board-state consistency. (2) Blind holdout: seal 100 fresh tasks that took no part in any fix, with task text + original deliverables; security line blind-judges them WITHOUT seeing the system's verdicts, then publish correct/false-positive/false-negative counts WITH denominators. (3) Deliver the borrowing denominator table (total tasks + borrowed-from counts per line, 2026-11-22 to 2026-11-26) and a chain-task ownership draft (a task whose head is mechanical collection and tail is judgment acceptance belongs to whom). Gate: NO pilot opens until this audit passes. Metrics: misjudgment-rate baseline unmeasured -> reported value with sampling method; audit verdict pass/fail; due 2026-11-29; recheck 2026-12-03 digest. Deliverable: out/<task>/audit-report.md with sampling method, misjudgment rate, verdict, denominator table, chain-task draft. [inputs: llm-workers/event_stream.jsonl, llm-workers/board-store.json, llm-workers/meetings/20261127-structure-note.md, llm-workers/meetings/20261126T193103Z.md, fleet-ops/structure-meeting-datapack-20261127.md] | event_stream.jsonl + board-store.json + structure transcripts | audit report + verdict in deliverable (executed-by pool-optimization failed 2026-11-26T21:57:52Z) (claimed-by operations-seat-1-20962-8038045b 2026-11-27T00:20:54Z)"
+            "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 2026-11-27, note meetings/20261127-structure-note.md ruling 1): audit the event stream's credibility BEFORE any style-change pilot. (1) Regression set: the 194 fake-completion events, checked one by one against writer/epoch/receipt chain, with independent logs + hashes verifying board-state consistency. (2) Blind holdout: seal 100 fresh tasks that took no part in any fix, with task text + original deliverables; security line blind-judges them WITHOUT seeing the system's verdicts, then publish correct/false-positive/false-negative counts WITH denominators. (3) Deliver the borrowing denominator table (total tasks + borrowed-from counts per line, 2026-11-22 to 2026-11-26) and a chain-task ownership draft (a task whose head is mechanical collection and tail is judgment acceptance belongs to whom). Gate: NO pilot opens until this audit passes. Metrics: misjudgment-rate baseline unmeasured -> reported value with sampling method; audit verdict pass/fail; due 2026-11-29; recheck 2026-12-03 digest. Deliverable: out/<task>/audit-report.md with sampling method, misjudgment rate, verdict, denominator table, chain-task draft. [inputs: llm-workers/event_stream.jsonl, llm-workers/board-store.json, llm-workers/meetings/20261127-structure-note.md, llm-workers/meetings/20261126T193103Z.md, fleet-ops/structure-meeting-datapack-20261127.md] | event_stream.jsonl + board-store.json + structure transcripts | audit report + verdict in deliverable (executed-by pool-optimization failed 2026-11-26T21:57:52Z) (claimed-by operations-seat-1-1845-22d74f69 2026-11-27T00:41:19Z)"
           }
         ],
         "open": 2
@@ -2856,9 +3063,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 2,
-        "tasks_total": 2,
-        "updated": "2026-11-27T00:30:12Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-27T00:40:16Z"
       },
       "tasks": {
         "done": 81,
@@ -2888,9 +3095,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-27T00:37:15Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-27T00:39:33Z"
       },
       "tasks": {
         "done": 15,
@@ -2914,7 +3121,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T00:27:20Z"
+        "updated": "2026-11-27T00:39:44Z"
       },
       "tasks": {
         "done": 16,
