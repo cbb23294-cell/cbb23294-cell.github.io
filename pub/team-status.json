@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T21:07:01Z",
+    "activity_generated_at": "2026-11-27T21:09:21Z",
     "empty_reasons": {
       "claimed_now": "no open board task carries a live claim record",
       "recent_completions": null,
@@ -95,7 +95,7 @@
       "name_zh": "云脚本迁移",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-27T20:53:39Z",
+      "status_updated": "2026-11-27T21:07:43Z",
       "total": 25,
       "workstream": "cloud-script-migration"
     },
@@ -110,7 +110,7 @@
         "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…"
       ],
       "open": 5,
-      "status_updated": "2026-11-27T21:04:29Z",
+      "status_updated": "2026-11-27T21:07:22Z",
       "total": 86,
       "workstream": "pool-optimization"
     },
@@ -123,7 +123,7 @@
         "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…"
       ],
       "open": 1,
-      "status_updated": "2026-11-27T20:53:33Z",
+      "status_updated": "2026-11-27T21:07:27Z",
       "total": 17,
       "workstream": "security"
     },
@@ -136,7 +136,7 @@
         "[inputs: fleet-ops/tombstone-increment-extract.json…"
       ],
       "open": 1,
-      "status_updated": "2026-11-27T20:53:41Z",
+      "status_updated": "2026-11-27T21:07:16Z",
       "total": 24,
       "workstream": "operations"
     },
@@ -147,13 +147,13 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-27T20:52:37Z",
+      "status_updated": "2026-11-27T21:07:37Z",
       "total": 16,
       "workstream": "spaces-data"
     }
   ],
   "claimed_now": [],
-  "content_latest_at": "2026-11-27T21:04:29Z",
+  "content_latest_at": "2026-11-27T21:07:43Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 401,
@@ -186,8 +186,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T21:07:01Z",
-  "generated_at_utc": "2026-11-27T21:07:01Z",
+  "generated_at": "2026-11-27T21:09:21Z",
+  "generated_at_utc": "2026-11-27T21:09:21Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -1015,7 +1015,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 44
+        "used": 45
       },
       {
         "cap": 300,
@@ -1023,7 +1023,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 44
+        "used": 45
       },
       {
         "cap": 300,
@@ -1031,7 +1031,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 44
+        "used": 45
       },
       {
         "cap": 300,
@@ -1039,7 +1039,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 44
+        "used": 45
       },
       {
         "cap": 1000,
@@ -1255,7 +1255,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 399
+        "used": 402
       },
       {
         "cap": 300,
@@ -2217,7 +2217,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 44
+        "used": 45
       },
       {
         "cap": 300,
@@ -2225,7 +2225,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 44
+        "used": 45
       },
       {
         "cap": 300,
@@ -2233,7 +2233,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 44
+        "used": 45
       },
       {
         "cap": 300,
@@ -2241,7 +2241,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 44
+        "used": 45
       },
       {
         "cap": 1000,
@@ -2457,7 +2457,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 399
+        "used": 402
       },
       {
         "cap": 300,
@@ -2659,123 +2659,123 @@
   },
   "recent_completions": [
     {
-      "age_sec": 402,
+      "age_sec": 542,
       "board_zh": "运维",
       "completed_at": "2026-11-27T21:00:18Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "task-023",
+      "task_id": "oper-023",
       "task_no": 23,
-      "title": null,
+      "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
       "workstream": "operations"
     },
     {
-      "age_sec": 34986,
+      "age_sec": 35126,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:23:54Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
+      "completed_by_zh": "池优化 席位7061",
       "completed_ts_source": "done",
-      "task_id": "task-084",
+      "task_id": "pool-084",
       "task_no": 84,
-      "title": null,
+      "title": "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 35114,
+      "age_sec": 35254,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:21:46Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
+      "completed_by_zh": "池优化 席位7061",
       "completed_ts_source": "done",
-      "task_id": "task-085",
+      "task_id": "pool-085",
       "task_no": 85,
-      "title": null,
+      "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 37659,
+      "age_sec": 37799,
       "board_zh": "安全",
       "completed_at": "2026-11-27T10:39:21Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "security-seat-1-23279-f017f1b6",
+      "completed_by_zh": "安全 席位23279",
       "completed_ts_source": "done",
-      "task_id": "task-017",
+      "task_id": "secu-017",
       "task_no": 17,
-      "title": null,
+      "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
       "workstream": "security"
     },
     {
-      "age_sec": 43483,
+      "age_sec": 43623,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
+      "completed_by_zh": "云脚本迁移 席位4101",
       "completed_ts_source": "done",
-      "task_id": "task-025",
+      "task_id": "clou-025",
       "task_no": 25,
-      "title": null,
+      "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 44649,
+      "age_sec": 44789,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "task-086",
+      "task_id": "pool-086",
       "task_no": 86,
-      "title": null,
+      "title": "[inputs: llm-workers/manager.py, llm-workers/board_store.py…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 51496,
+      "age_sec": 51636,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "operations-seat-1-2005-0cf7b677",
+      "completed_by_zh": "运维 席位2005",
       "completed_ts_source": "done",
-      "task_id": "task-024",
+      "task_id": "oper-024",
       "task_no": 24,
-      "title": null,
+      "title": "[inputs: llm-workers/tasks/operations/out/task-022/audit-report.md…",
       "workstream": "operations"
     },
     {
-      "age_sec": 55412,
+      "age_sec": 55552,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "cloud-script-migration",
+      "completed_by_zh": "云脚本迁移",
       "completed_ts_source": "done",
-      "task_id": "task-022",
+      "task_id": "oper-022",
       "task_no": 22,
-      "title": null,
+      "title": "[inputs: llm-workers/event_stream.jsonl, fleet-ops/board-store-slim.json…",
       "workstream": "operations"
     },
     {
-      "age_sec": 57574,
+      "age_sec": 57715,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "float",
+      "completed_by_zh": "机动",
       "completed_ts_source": "done",
-      "task_id": "task-021",
+      "task_id": "oper-021",
       "task_no": 21,
-      "title": null,
+      "title": "[inputs: llm-workers/help_dispatches.jsonl, llm-workers/event_stream.jso…",
       "workstream": "operations"
     },
     {
-      "age_sec": 61476,
+      "age_sec": 61617,
       "board_zh": "安全",
       "completed_at": "2026-11-27T04:02:24Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "security-seat-1-15890-eda53826",
+      "completed_by_zh": "安全 席位15890",
       "completed_ts_source": "done",
-      "task_id": "task-016",
+      "task_id": "secu-016",
       "task_no": 16,
-      "title": null,
+      "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…",
       "workstream": "security"
     }
   ],
@@ -2803,7 +2803,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T20:53:39Z"
+        "updated": "2026-11-27T21:07:43Z"
       },
       "tasks": {
         "done": 25,
@@ -2820,9 +2820,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-27T20:53:41Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-27T21:07:16Z"
       },
       "tasks": {
         "done": 23,
@@ -2830,7 +2830,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] [inputs: fleet-ops/tombstone-increment-extract.json, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md] Tombstone burst attribution (recurrence-meeting ruling 2026-11-27, note meetings/20261127-recurrence-note.md ruling 2) [est:30m] | Attribute the 2026-11-27 tombstone burst: 2802 vanished records, each id minted once, first_seen 2026-11-27T04:07:02Z..04:13Z, all on the pool-optimization (1868) and operations (934) boards, texts are historical tasks. The staged extract carries every burst record (id, ws, fingerprint, first/last seen, text head). For the burst as a whole and for a 20-record sample: name the minting writer and mechanism (which process, which sync call, which board content it parsed), using supervisor cycle logs and the code versions in force (input-gate patch ~03:50Z, EXEC_RE fix ~04:06Z, the boss's verification batch 04:07-04:13Z). Distinguish production-cycle minting from verification-side effects with evidence, not plausibility. Tombstones stay archived: do not delete or edit the store; end with a disposition proposal for the 2026-11-29 recheck (keep / cold-archive compaction) and, if the mechanism can still mint, a guard proposal. Deliverable: out/<task>/attribution.md, first line exactly: # Tombstone attribution. Metric: burst mechanism named with log/code evidence; sample attribution 20/20; due 2026-11-29; recheck 2026-12-03. | selftest:# Tombstone attribution (executed-by pool-optimization failed 2026-11-27T20:39:22Z) (claimed-by operations-seat-1-19810-6805e06f 2026-11-27T20:59:18Z)"
+            "title": "[code] [boss-accept] [inputs: fleet-ops/tombstone-increment-extract.json, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md] Tombstone burst attribution (recurrence-meeting ruling 2026-11-27, note meetings/20261127-recurrence-note.md ruling 2) [est:30m] | Attribute the 2026-11-27 tombstone burst: 2802 vanished records, each id minted once, first_seen 2026-11-27T04:07:02Z..04:13Z, all on the pool-optimization (1868) and operations (934) boards, texts are historical tasks. The staged extract carries every burst record (id, ws, fingerprint, first/last seen, text head). For the burst as a whole and for a 20-record sample: name the minting writer and mechanism (which process, which sync call, which board content it parsed), using supervisor cycle logs and the code versions in force (input-gate patch ~03:50Z, EXEC_RE fix ~04:06Z, the boss's verification batch 04:07-04:13Z). Distinguish production-cycle minting from verification-side effects with evidence, not plausibility. Tombstones stay archived: do not delete or edit the store; end with a disposition proposal for the 2026-11-29 recheck (keep / cold-archive compaction) and, if the mechanism can still mint, a guard proposal. Deliverable: out/<task>/attribution.md, first line exactly: # Tombstone attribution. Metric: burst mechanism named with log/code evidence; sample attribution 20/20; due 2026-11-29; recheck 2026-12-03. | selftest:# Tombstone attribution (executed-by pool-optimization failed 2026-11-27T20:39:22Z)"
           }
         ],
         "open": 1
@@ -2846,7 +2846,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T21:04:29Z"
+        "updated": "2026-11-27T21:07:22Z"
       },
       "tasks": {
         "done": 81,
@@ -2878,7 +2878,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T20:53:33Z"
+        "updated": "2026-11-27T21:07:27Z"
       },
       "tasks": {
         "done": 16,
@@ -2902,7 +2902,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T20:52:37Z"
+        "updated": "2026-11-27T21:07:37Z"
       },
       "tasks": {
         "done": 16,
