@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T11:37:03Z",
+    "activity_generated_at": "2026-11-27T11:39:23Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -54,15 +54,15 @@
         "claimed_at": "2026-11-27T11:29:25Z",
         "claimed_by": "pool-optimization",
         "claimed_by_zh": "池优化",
-        "claimed_for": "7分钟",
+        "claimed_for": "9分钟",
         "task_id": "oper-023",
         "title": "[inputs: fleet-ops/tombstone-increment-extract.json…"
       },
       "cycle_started_at": "2026-11-27T11:29:25Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "7分钟",
-      "elapsed_sec": 459,
-      "last_cycle_ended": "2026-11-27T11:29:36Z",
+      "elapsed": "9分钟",
+      "elapsed_sec": 599,
+      "last_cycle_ended": "2026-11-27T11:38:21Z",
       "name_zh": "运维",
       "state": "running",
       "workstream": "operations"
@@ -138,11 +138,11 @@
       "claimed_now": [
         {
           "board_zh": "运维",
-          "claimed_age_sec": 459,
+          "claimed_age_sec": 599,
           "claimed_at": "2026-11-27T11:29:25Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "7分钟",
+          "claimed_for": "9分钟",
           "task_id": "oper-023",
           "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
           "workstream": "operations"
@@ -174,11 +174,11 @@
   "claimed_now": [
     {
       "board_zh": "运维",
-      "claimed_age_sec": 459,
+      "claimed_age_sec": 599,
       "claimed_at": "2026-11-27T11:29:25Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "7分钟",
+      "claimed_for": "9分钟",
       "task_id": "oper-023",
       "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
       "workstream": "operations"
@@ -217,25 +217,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T11:37:04Z",
-  "generated_at_utc": "2026-11-27T11:37:04Z",
+  "generated_at": "2026-11-27T11:39:24Z",
+  "generated_at_utc": "2026-11-27T11:39:24Z",
   "live_pi_workers": {
-    "by_model": {
-      "merkium/ganymede-1.1": 2
-    },
-    "running": [
-      {
-        "model": "merkium/ganymede-1.1",
-        "pid": 5190,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      },
-      {
-        "model": "merkium/ganymede-1.1",
-        "pid": 5191,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -1299,7 +1286,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 2964
+        "used": 2965
       },
       {
         "cap": 300,
@@ -2501,7 +2488,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 2964
+        "used": 2965
       },
       {
         "cap": 300,
@@ -2703,9 +2690,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 446,
+      "age_sec": 62,
       "board_zh": "运维",
-      "completed_at": "2026-11-27T11:29:36Z",
+      "completed_at": "2026-11-27T11:38:21Z",
       "completed_by": "pool-optimization",
       "completed_by_zh": "池优化",
       "completed_ts_source": "result.txt",
@@ -2715,7 +2702,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 788,
+      "age_sec": 928,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:23:54Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2727,7 +2714,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 917,
+      "age_sec": 1057,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:21:46Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2739,7 +2726,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 3461,
+      "age_sec": 3601,
       "board_zh": "安全",
       "completed_at": "2026-11-27T10:39:21Z",
       "completed_by": "security-seat-1-23279-f017f1b6",
@@ -2751,7 +2738,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 9285,
+      "age_sec": 9425,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
       "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
@@ -2763,7 +2750,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 10451,
+      "age_sec": 10592,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
@@ -2775,7 +2762,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 17299,
+      "age_sec": 17439,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
       "completed_by": "operations-seat-1-2005-0cf7b677",
@@ -2787,7 +2774,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 21215,
+      "age_sec": 21355,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2799,7 +2786,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 23377,
+      "age_sec": 23517,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2811,7 +2798,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 27279,
+      "age_sec": 27419,
       "board_zh": "安全",
       "completed_at": "2026-11-27T04:02:24Z",
       "completed_by": "security-seat-1-15890-eda53826",
@@ -2830,41 +2817,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "merkium/ganymede-1.1": 2
-    },
-    "running": [
-      {
-        "model": "merkium/ganymede-1.1",
-        "pid": 5190,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      },
-      {
-        "model": "merkium/ganymede-1.1",
-        "pid": 5191,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 2,
-      "model": "merkium/ganymede-1.1"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "merkium/ganymede-1.1",
-      "pid": 5190,
-      "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-    },
-    {
-      "model": "merkium/ganymede-1.1",
-      "pid": 5191,
-      "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
