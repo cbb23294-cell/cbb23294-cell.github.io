@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T13:14:20Z",
+    "activity_generated_at": "2026-11-27T13:16:45Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -54,15 +54,15 @@
         "claimed_at": "2026-11-27T13:13:58Z",
         "claimed_by": "operations-seat-1-26728-05b54af1",
         "claimed_by_zh": "运维 席位26728",
-        "claimed_for": "22秒",
+        "claimed_for": "2分钟",
         "task_id": "oper-023",
         "title": "[inputs: fleet-ops/tombstone-increment-extract.json…"
       },
       "cycle_started_at": "2026-11-27T13:13:58Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "22秒",
-      "elapsed_sec": 22,
-      "last_cycle_ended": "2026-11-27T13:12:30Z",
+      "elapsed": "2分钟",
+      "elapsed_sec": 167,
+      "last_cycle_ended": "2026-11-27T13:15:26Z",
       "name_zh": "运维",
       "state": "running",
       "workstream": "operations"
@@ -130,7 +130,7 @@
         "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…"
       ],
       "open": 1,
-      "status_updated": "2026-11-27T12:59:16Z",
+      "status_updated": "2026-11-27T13:14:31Z",
       "total": 17,
       "workstream": "security"
     },
@@ -138,11 +138,11 @@
       "claimed_now": [
         {
           "board_zh": "运维",
-          "claimed_age_sec": 22,
+          "claimed_age_sec": 167,
           "claimed_at": "2026-11-27T13:13:58Z",
           "claimed_by": "operations-seat-1-26728-05b54af1",
           "claimed_by_zh": "运维 席位26728",
-          "claimed_for": "22秒",
+          "claimed_for": "2分钟",
           "task_id": "oper-023",
           "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
           "workstream": "operations"
@@ -166,7 +166,7 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-27T12:59:35Z",
+      "status_updated": "2026-11-27T13:15:17Z",
       "total": 16,
       "workstream": "spaces-data"
     }
@@ -174,17 +174,17 @@
   "claimed_now": [
     {
       "board_zh": "运维",
-      "claimed_age_sec": 22,
+      "claimed_age_sec": 167,
       "claimed_at": "2026-11-27T13:13:58Z",
       "claimed_by": "operations-seat-1-26728-05b54af1",
       "claimed_by_zh": "运维 席位26728",
-      "claimed_for": "22秒",
+      "claimed_for": "2分钟",
       "task_id": "oper-023",
       "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
       "workstream": "operations"
     }
   ],
-  "content_latest_at": "2026-11-27T13:13:41Z",
+  "content_latest_at": "2026-11-27T13:15:17Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 401,
@@ -217,25 +217,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T13:14:20Z",
-  "generated_at_utc": "2026-11-27T13:14:20Z",
+  "generated_at": "2026-11-27T13:16:45Z",
+  "generated_at_utc": "2026-11-27T13:16:45Z",
   "live_pi_workers": {
-    "by_model": {
-      "merkium/ganymede-1.1": 2
-    },
-    "running": [
-      {
-        "model": "merkium/ganymede-1.1",
-        "pid": 27200,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      },
-      {
-        "model": "merkium/ganymede-1.1",
-        "pid": 27201,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -419,7 +406,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 157
+        "used": 159
       },
       {
         "cap": 300,
@@ -427,7 +414,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 157
+        "used": 159
       },
       {
         "cap": 300,
@@ -435,7 +422,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 157
+        "used": 159
       },
       {
         "cap": 300,
@@ -443,7 +430,7 @@
         "healthy": true,
         "model": "pluto-1.2-flash",
         "provider": "merkium",
-        "used": 157
+        "used": 159
       },
       {
         "cap": 300,
@@ -451,7 +438,7 @@
         "healthy": true,
         "model": "pluto-1.2-pro",
         "provider": "merkium",
-        "used": 157
+        "used": 159
       },
       {
         "cap": 300,
@@ -459,7 +446,7 @@
         "healthy": true,
         "model": "pluto-1.1-pro",
         "provider": "merkium",
-        "used": 157
+        "used": 159
       },
       {
         "cap": 45,
@@ -1299,7 +1286,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 3077
+        "used": 3081
       },
       {
         "cap": 300,
@@ -1621,7 +1608,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 157
+        "used": 159
       },
       {
         "cap": 300,
@@ -1629,7 +1616,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 157
+        "used": 159
       },
       {
         "cap": 300,
@@ -1637,7 +1624,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 157
+        "used": 159
       },
       {
         "cap": 300,
@@ -1645,7 +1632,7 @@
         "healthy": true,
         "model": "pluto-1.2-flash",
         "provider": "merkium",
-        "used": 157
+        "used": 159
       },
       {
         "cap": 300,
@@ -1653,7 +1640,7 @@
         "healthy": true,
         "model": "pluto-1.2-pro",
         "provider": "merkium",
-        "used": 157
+        "used": 159
       },
       {
         "cap": 300,
@@ -1661,7 +1648,7 @@
         "healthy": true,
         "model": "pluto-1.1-pro",
         "provider": "merkium",
-        "used": 157
+        "used": 159
       },
       {
         "cap": 45,
@@ -2501,7 +2488,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 3077
+        "used": 3081
       },
       {
         "cap": 300,
@@ -2703,9 +2690,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 109,
+      "age_sec": 78,
       "board_zh": "运维",
-      "completed_at": "2026-11-27T13:12:30Z",
+      "completed_at": "2026-11-27T13:15:26Z",
       "completed_by": "operations-seat-1-26728-05b54af1",
       "completed_by_zh": "运维 席位26728",
       "completed_ts_source": "result.txt",
@@ -2715,7 +2702,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 6625,
+      "age_sec": 6770,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:23:54Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2727,7 +2714,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 6753,
+      "age_sec": 6898,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:21:46Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2739,7 +2726,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 9298,
+      "age_sec": 9443,
       "board_zh": "安全",
       "completed_at": "2026-11-27T10:39:21Z",
       "completed_by": "security-seat-1-23279-f017f1b6",
@@ -2751,7 +2738,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 15122,
+      "age_sec": 15267,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
       "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
@@ -2763,7 +2750,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 16288,
+      "age_sec": 16433,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
@@ -2775,7 +2762,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 23135,
+      "age_sec": 23280,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
       "completed_by": "operations-seat-1-2005-0cf7b677",
@@ -2787,7 +2774,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 27051,
+      "age_sec": 27196,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2799,7 +2786,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 29213,
+      "age_sec": 29358,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2811,7 +2798,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 33116,
+      "age_sec": 33260,
       "board_zh": "安全",
       "completed_at": "2026-11-27T04:02:24Z",
       "completed_by": "security-seat-1-15890-eda53826",
@@ -2830,41 +2817,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "merkium/ganymede-1.1": 2
-    },
-    "running": [
-      {
-        "model": "merkium/ganymede-1.1",
-        "pid": 27200,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      },
-      {
-        "model": "merkium/ganymede-1.1",
-        "pid": 27201,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 2,
-      "model": "merkium/ganymede-1.1"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "merkium/ganymede-1.1",
-      "pid": 27200,
-      "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-    },
-    {
-      "model": "merkium/ganymede-1.1",
-      "pid": 27201,
-      "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -2951,7 +2909,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T12:59:16Z"
+        "updated": "2026-11-27T13:14:31Z"
       },
       "tasks": {
         "done": 16,
@@ -2975,7 +2933,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T12:59:35Z"
+        "updated": "2026-11-27T13:15:17Z"
       },
       "tasks": {
         "done": 16,
