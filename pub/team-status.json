@@ -1,8 +1,8 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T17:05:01Z",
+    "activity_generated_at": "2026-11-27T17:07:16Z",
     "empty_reasons": {
-      "claimed_now": "no open board task carries a live claim record",
+      "claimed_now": null,
       "recent_completions": null,
       "workers_running": "no jobs/*.json without a .done/.closed marker"
     }
@@ -49,15 +49,22 @@
     },
     {
       "active_jobs": 0,
-      "claimed_count": 0,
-      "current_task": null,
-      "cycle_started_at": null,
-      "cycle_started_source": null,
-      "elapsed": null,
-      "elapsed_sec": null,
+      "claimed_count": 1,
+      "current_task": {
+        "claimed_at": "2026-11-27T17:02:30Z",
+        "claimed_by": "pool-optimization",
+        "claimed_by_zh": "池优化",
+        "claimed_for": "4分钟",
+        "task_id": "oper-023",
+        "title": "[inputs: fleet-ops/tombstone-increment-extract.json…"
+      },
+      "cycle_started_at": "2026-11-27T17:02:30Z",
+      "cycle_started_source": "oldest open claim",
+      "elapsed": "4分钟",
+      "elapsed_sec": 286,
       "last_cycle_ended": "2026-11-27T17:03:02Z",
       "name_zh": "运维",
-      "state": "idle",
+      "state": "running",
       "workstream": "operations"
     },
     {
@@ -95,7 +102,7 @@
       "name_zh": "云脚本迁移",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-27T16:55:10Z",
+      "status_updated": "2026-11-27T17:05:43Z",
       "total": 25,
       "workstream": "cloud-script-migration"
     },
@@ -110,7 +117,7 @@
         "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…"
       ],
       "open": 5,
-      "status_updated": "2026-11-27T17:01:27Z",
+      "status_updated": "2026-11-27T17:06:10Z",
       "total": 86,
       "workstream": "pool-optimization"
     },
@@ -123,12 +130,24 @@
         "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…"
       ],
       "open": 1,
-      "status_updated": "2026-11-27T16:54:35Z",
+      "status_updated": "2026-11-27T17:05:27Z",
       "total": 17,
       "workstream": "security"
     },
     {
-      "claimed_now": [],
+      "claimed_now": [
+        {
+          "board_zh": "运维",
+          "claimed_age_sec": 286,
+          "claimed_at": "2026-11-27T17:02:30Z",
+          "claimed_by": "pool-optimization",
+          "claimed_by_zh": "池优化",
+          "claimed_for": "4分钟",
+          "task_id": "oper-023",
+          "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
+          "workstream": "operations"
+        }
+      ],
       "done": 23,
       "escalation_latest": "blocked-file: out/task-023/BLOCKED.md",
       "name_zh": "运维",
@@ -136,7 +155,7 @@
         "[inputs: fleet-ops/tombstone-increment-extract.json…"
       ],
       "open": 1,
-      "status_updated": "2026-11-27T16:53:19Z",
+      "status_updated": "2026-11-27T17:05:16Z",
       "total": 24,
       "workstream": "operations"
     },
@@ -147,13 +166,25 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-27T16:56:00Z",
+      "status_updated": "2026-11-27T17:05:38Z",
       "total": 16,
       "workstream": "spaces-data"
     }
   ],
-  "claimed_now": [],
-  "content_latest_at": "2026-11-27T17:01:27Z",
+  "claimed_now": [
+    {
+      "board_zh": "运维",
+      "claimed_age_sec": 286,
+      "claimed_at": "2026-11-27T17:02:30Z",
+      "claimed_by": "pool-optimization",
+      "claimed_by_zh": "池优化",
+      "claimed_for": "4分钟",
+      "task_id": "oper-023",
+      "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
+      "workstream": "operations"
+    }
+  ],
+  "content_latest_at": "2026-11-27T17:06:10Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 401,
@@ -186,8 +217,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T17:05:01Z",
-  "generated_at_utc": "2026-11-27T17:05:01Z",
+  "generated_at": "2026-11-27T17:07:16Z",
+  "generated_at_utc": "2026-11-27T17:07:16Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -1255,7 +1286,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 72
+        "used": 75
       },
       {
         "cap": 300,
@@ -2457,7 +2488,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 72
+        "used": 75
       },
       {
         "cap": 300,
@@ -2659,123 +2690,123 @@
   },
   "recent_completions": [
     {
-      "age_sec": 118,
+      "age_sec": 253,
       "board_zh": "运维",
       "completed_at": "2026-11-27T17:03:02Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization",
+      "completed_by_zh": "池优化",
       "completed_ts_source": "result.txt",
-      "task_id": "task-023",
+      "task_id": "oper-023",
       "task_no": 23,
-      "title": null,
+      "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
       "workstream": "operations"
     },
     {
-      "age_sec": 20466,
+      "age_sec": 20601,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:23:54Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
+      "completed_by_zh": "池优化 席位7061",
       "completed_ts_source": "done",
-      "task_id": "task-084",
+      "task_id": "pool-084",
       "task_no": 84,
-      "title": null,
+      "title": "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 20594,
+      "age_sec": 20729,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:21:46Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
+      "completed_by_zh": "池优化 席位7061",
       "completed_ts_source": "done",
-      "task_id": "task-085",
+      "task_id": "pool-085",
       "task_no": 85,
-      "title": null,
+      "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 23139,
+      "age_sec": 23274,
       "board_zh": "安全",
       "completed_at": "2026-11-27T10:39:21Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "security-seat-1-23279-f017f1b6",
+      "completed_by_zh": "安全 席位23279",
       "completed_ts_source": "done",
-      "task_id": "task-017",
+      "task_id": "secu-017",
       "task_no": 17,
-      "title": null,
+      "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
       "workstream": "security"
     },
     {
-      "age_sec": 28963,
+      "age_sec": 29098,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
+      "completed_by_zh": "云脚本迁移 席位4101",
       "completed_ts_source": "done",
-      "task_id": "task-025",
+      "task_id": "clou-025",
       "task_no": 25,
-      "title": null,
+      "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…",
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 30129,
+      "age_sec": 30264,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "task-086",
+      "task_id": "pool-086",
       "task_no": 86,
-      "title": null,
+      "title": "[inputs: llm-workers/manager.py, llm-workers/board_store.py…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 36976,
+      "age_sec": 37111,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "operations-seat-1-2005-0cf7b677",
+      "completed_by_zh": "运维 席位2005",
       "completed_ts_source": "done",
-      "task_id": "task-024",
+      "task_id": "oper-024",
       "task_no": 24,
-      "title": null,
+      "title": "[inputs: llm-workers/tasks/operations/out/task-022/audit-report.md…",
       "workstream": "operations"
     },
     {
-      "age_sec": 40892,
+      "age_sec": 41027,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "cloud-script-migration",
+      "completed_by_zh": "云脚本迁移",
       "completed_ts_source": "done",
-      "task_id": "task-022",
+      "task_id": "oper-022",
       "task_no": 22,
-      "title": null,
+      "title": "[inputs: llm-workers/event_stream.jsonl, fleet-ops/board-store-slim.json…",
       "workstream": "operations"
     },
     {
-      "age_sec": 43054,
+      "age_sec": 43190,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "float",
+      "completed_by_zh": "机动",
       "completed_ts_source": "done",
-      "task_id": "task-021",
+      "task_id": "oper-021",
       "task_no": 21,
-      "title": null,
+      "title": "[inputs: llm-workers/help_dispatches.jsonl, llm-workers/event_stream.jso…",
       "workstream": "operations"
     },
     {
-      "age_sec": 46956,
+      "age_sec": 47092,
       "board_zh": "安全",
       "completed_at": "2026-11-27T04:02:24Z",
-      "completed_by": null,
-      "completed_by_zh": null,
+      "completed_by": "security-seat-1-15890-eda53826",
+      "completed_by_zh": "安全 席位15890",
       "completed_ts_source": "done",
-      "task_id": "task-016",
+      "task_id": "secu-016",
       "task_no": 16,
-      "title": null,
+      "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…",
       "workstream": "security"
     }
   ],
@@ -2803,7 +2834,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T16:55:10Z"
+        "updated": "2026-11-27T17:05:43Z"
       },
       "tasks": {
         "done": 25,
@@ -2822,7 +2853,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T16:53:19Z"
+        "updated": "2026-11-27T17:05:16Z"
       },
       "tasks": {
         "done": 23,
@@ -2846,7 +2877,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T17:01:27Z"
+        "updated": "2026-11-27T17:06:10Z"
       },
       "tasks": {
         "done": 81,
@@ -2878,7 +2909,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T16:54:35Z"
+        "updated": "2026-11-27T17:05:27Z"
       },
       "tasks": {
         "done": 16,
@@ -2902,7 +2933,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T16:56:00Z"
+        "updated": "2026-11-27T17:05:38Z"
       },
       "tasks": {
         "done": 16,
