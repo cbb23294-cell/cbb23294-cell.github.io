@@ -1,35 +1,193 @@
 {
   "ok": true,
   "reason": "",
-  "generated_at": "2026-11-27T10:56:54Z",
+  "generated_at": "2026-11-27T15:07:50Z",
   "round": "ai-quota-refresh",
   "findings": [
     {
-      "guid": "refresh-2026-11-27-no-change",
-      "providerName": "每日复核",
-      "changeText": "本轮无变化：官方页面与变更 Feed 均无新增记录",
-      "changeDate": "2026-11-27"
+      "guid": "https://github.com/rockbenben/free-llm-intel#19-七牛云-conatus",
+      "providerName": "额度变化 · 七牛云 Conatus：Conatus 限免活动截止时间延长至 2026 年 12 月 31 日 23:59",
+      "changeText": "validity：2026-10-24 00:00 至 2026-11-30 23:59（北京时间）；结束后停止调用，不自动转付费、不自动切换其他模型 → 2026-10-24 00:00 至 2026-12-31 23:59（北京时间）；结束后停止调用，不自动转付费、不自动切换其他模型 promotions：1024 程序员节限时活动（2026-10-24 00:00 起，至 2026-11-30 23:59） → 1024 程序员节限时活动（2026-10-24 00:00 起，至 2026-12-31 23:59） openai_compat：{\"summary\": \"实名每日 1 亿 Token；单笔充值满 100 元后每日 10 亿（活动至 11-30）\", \"api_key_label\": \"七牛云 API Key\", \"api_key_url\": \"https://portal.qiniu.com/\", \"base_url\": \"https://api.qnaigc.com/v1\", \"models\": \"qiniu/conatus-free\"} → {\"summary\": \"实名每日 1 亿 Token；单笔充值满 100 元后每日 10 亿（活动至 12-31）\", \"api_key_label\": \"七牛云 API Key\", \"api_key_url\": \"h",
+      "changeDate": "Fri, 27 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#46-morph-labs",
+      "providerName": "额度变化 · Morph Labs：开源模型列表新增 Kimi K3.1 Pro Abliterated（需申请审批），纳入统一的每月 200 次免费请求池。",
+      "changeText": "free_models：托管开源模型（OpenAI 兼容）：`morph-kimik31`（Kimi K3.1 Pro，1M 上下文）、`morph-glm53-744b`（GLM-5.3 744B，1M）、`morph-glm53flash`（GLM-5.3-Flash，1M）、`morph-dsv41flash` / `morph-dsv41flash-1017` / `morph-dsv41flash-abliterated`（DeepSeek V4.1 Flash，1M，其中 Abliterated 标注 Gated 需申请） —— 免费层 **每月 200 次请求**（200 req free every month，按月重置）；另有 Ultra 订阅 **$200/月不限量** Kimi K3.1 与 DeepSeek V4.1 Flash、专用 API：Fast Apply `morph-v3-fast`（$0.80 输入 / $1.20 输出每 1M，262K）、`morph-v3-large`（$0.90/$1.90 每 1M，262K）、WarpGrep `morph-warp-grep-v2`（$0.80/100K，Pro 1M）、Compact `morph-compact`（$0.20/$0.50 每 1M，1M）、System One `reflex`（",
+      "changeDate": "Fri, 27 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#27-openai",
+      "providerName": "额度变化 · OpenAI：API 定价页更新 GPT-6.2 系列模型（gpt-6.2-astra 与 gpt-6.2-sol），API 仍无免费模型层并全量按需付费",
+      "changeText": "free_models：**API 无免费模型层**，当前代际均按量付费：旗舰 `GPT-6 Astra`（$10/$50 每百万 token）、`GPT-5.6 Sol/Terra/Luna`；最低价 `gpt-5-nano`（$0.05/$0.40）；`text-embedding-3-small` 仍在售 → **API 无免费模型层**，当前代际均按量付费：最新代际 `gpt-6.2-astra`（$8.00/$40.00 每百万 token）、`gpt-6.2-sol`（$2.00/$10.00）；上一代 `gpt-6-astra`（$10.00/$50.00）、`gpt-6.1-sol`（$2.00/$10.00）；Flex 模式含 `gpt-6.1-terra`（$0.50/$2.50）及 `gpt-6-luna`（$0.05/$0.25）",
+      "changeDate": "Thu, 26 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云",
+      "providerName": "额度变化 · 通义千问 Qwen：关于 Token Plan 专属 API Key 的计费说明有更新：原来说是用它调用模型会「直接按量付费」，现在改为「消耗 Token Plan 的 Credits 额度、不消耗免费额度、也不会转为按量付费",
+      "changeText": "tier_caveats：**额度按模型独立计算，不可合并或跨模型转移**：用完后系统不会自动切换模型，需手动修改 model 参数、**快照版本独立**：带日期后缀版本（如 `qwen-max-2026-05-17`）与主版本独立享有额度、**适用范围受限**：仅抵扣模型实时推理，不可抵扣批量调用、内置工具（联网搜索/图片搜索等）、微调与部署、**扣费风险**：免费额度用尽即停（安心模式）在开通千问AI平台后默认关闭，需自行前往权益页面开启以防超额按量扣费、**Key 类型限制**：Token Plan 专属 API Key 不消耗免费额度，须使用通用 API Key → **额度按模型独立计算，不可合并或跨模型转移**：用完后系统不会自动切换模型，需手动修改 model 参数、**快照版本独立**：带日期后缀版本（如 `qwen-max-2026-05-17`）与主版本独立享有额度、**适用范围受限**：仅抵扣模型实时推理，不可抵扣批量调用、内置工具（联网搜索/图片搜索等）、微调与部署、**扣费风险**：免费额度用尽即停（安心模式）在开通千问AI平台后默认关闭，需自行前往权益页面开启以防超额按量扣费、**Key 类型限制**：Token Plan 专属 API Key 不消耗免费额度，用它调用模型会直接消耗 Token Plan 的 Credits 额度，也不会转为按量付费；如",
+      "changeDate": "Tue, 24 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi",
+      "providerName": "额度变化 · 复旦 MOSS (MOSI)：官方公告 Nex-N2.6 自 11 月 25 日 21:00（北京时间）起开始计费（限时六折），nex-n2.6 不再是限免模型；仅 moss-vl-1.0 / moss-vl-realtime",
+      "changeText": "free_quota：官方公开文档未见账户级注册赠金说明；模型限免见「免费模型与额度」 → 官方公开文档未见账户级注册赠金说明；模型限免见「免费模型与额度」（Nex-N2.6 已于 11 月 25 日 21:00 起开始计费，不再限免） validity：限时免费，官方未公布截止日；随时可能恢复计费，以官方公告为准 → 限时免费仅剩 moss-vl-1.0 / moss-vl-realtime-1.0，官方未公布截止日；Nex-N2.6 已自 11 月 25 日 21:00（北京时间）起计费（限时六折），以官方公告为准 free_models：**限时免费 0 积分**：`nex-n2.6`（snapshot `nex-n2.6-2026-11-05`，多模态语言模型，文本/图片/视频→文本，`POST /v1/chat/completions`）—— 实测 HTTP 200 真实出文；注意它是**推理模型**，会先消耗大量 reasoning token，小 max_tokens 下正文为空（实测 max_tokens=64 时 63 个 token 全用于推理，finish_reason=length）、**限时免费 0 积分**：`moss-vl-1.0`（多模态理解，文本指令+图片/视频→文本，`POST /v1/responses`）、`moss-vl-realtime-",
+      "changeDate": "Tue, 24 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#14-硅基流动-siliconflow",
+      "providerName": "额度变化 · SiliconFlow 硅基流动：定价页新增一款免费对话模型 GLM-Z1-9B-0414（0 元），其余免费模型与 14 元注册额度不变；导航栏调整不构成事实变化",
+      "changeText": "free_models：对话 `Xing4.0-29B`、`PaddleOCR-VL-1.5`、`Hunyuan-MT-7B` —— 定价页标注「免费」，**0 元调用**、向量 `bge-m3`、`bge-large-zh-v1.5`、`bge-large-en-v1.5` 与重排 `bge-reranker-v2-m3` —— **0 元免费**、图像 `Kolors`、语音 `SenseVoiceSmall` 与电信 `XingChenASR/GSR` 系列 —— **0 元免费**（TTS 语音合成按量收费）、付费旗舰（可用 14 元代金券抵扣）：DeepSeek-V4 系列、GLM-5.3/5.2、Kimi-K2.7-Code、LongCat-2.0、Qwen3.x 等 → 对话 `Xing4.0-29B`、`PaddleOCR-VL-1.5`、`Hunyuan-MT-7B`、`GLM-Z1-9B-0414` —— 定价页标注「免费」，**0 元调用**、向量 `bge-m3`、`bge-large-zh-v1.5`、`bge-large-en-v1.5` 与重排 `bge-reranker-v2-m3` —— **0 元免费**（Pro 版标价 ¥0.07/M tokens）、图像 `Kolors` —— 生成图片每图片免费；语音 `SenseVoiceSmall`、`",
+      "changeDate": "Tue, 24 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#76-trae-字节跳动-ai-ide--中国版为主",
+      "providerName": "额度变化 · Trae (字节跳动 AI IDE)：国际版上线明确的 Free 免费档：仅限 Auto 模式，提供一次性赠送额度（不按月重置）与每月 5,000 次代码补全，支持 2 个并发云端任务；付费档调整为 Pro ($20/月)、P",
+      "changeText": "free_quota：**中国版免费版 ¥0/月：每月 500 积分、所有功能均可免费使用**（官方定价页原文），云端任务**支持 2 个同时执行**；付费档为 Lite ¥39~49/月（2,000 积分/月）、Pro ¥69~99/月（4,000 积分/月）起。国际版（trae.ai）2026-09-26 实测**可见定价卡从 Lite $3/月起、无 Free 卡**，免费情况待核实（见 notes） → 国际版 Free 档 $0：**仅支持 Auto 模式（Auto mode only）**，包含**有限的一次性使用额度**（one-time allowance，不按月重置）以及**每月 5,000 次代码补全**（5000 / month Autocompletion），支持 **2 个云端任务并发执行**（Standard 队列）。付费档为 Pro（$20/月，$20 额度/月 + 无限补全）、Pro+（$60/月）、Ultra（$200/月）。中国版仍为每月 500 积分体系 validity：中国版免费积分按月发放；会员档另有「会员签到多得 1550 积分」与模型折扣（Seed-2.1 2.5 折、GLM / Deepseek-V4 5 折） → 国际版 Free 档的基本 AI 用量是一次性额度，用完不按月刷新（doesn&apos;t reset monthl",
+      "changeDate": "Sun, 22 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#30-mistral-ai",
+      "providerName": "额度变化 · Mistral AI：Vibe 订阅套餐原来标注的随附 API credits（$25.5/月、$15/月两档）已从定价页删除，改为套餐额度用尽后按 API 价另行购买 PAYG credits；免费层仍无新用户赠金或免费实验",
+      "changeText": "free_quota：**无新用户赠金 / 免费实验层**（现行 API 定价页未提及；旧“€5 赠金 / 1 RPS 免费层”无据）；Vibe Pro 订阅套餐含 $25.5/月 API credits 属付费订阅权益 → **无新用户赠金 / 免费实验层**（现行 API 定价页未提及；旧“€5 赠金 / 1 RPS 免费层”无据）；Vibe 订阅套餐**不再随附 API credits**（旧“Pro 含 $25.5/月 API credits”已不在页面出现），超出套餐额度需按 API 价另行购买 PAYG credits",
+      "changeDate": "Sat, 21 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#16-云知声-token-hub",
+      "providerName": "额度变化 · 云知声 Token Hub：U Plan 限时升级折扣由 5 折（低至 29.5 元/月）调整为 7 折（低至 41.3 元/月），Free 档免费权益与模型清单未变。",
+      "changeText": "promotions：页面顶部横幅标注：U Plan 正式上线，Free 档免费领，套餐升级限时 5 折，低至 29.5 元/月；U2-Flash、U2-Med 超耐用，ASR、TTS、OCR 模型权益免费送。 → 页面顶部横幅标注：U Plan 正式上线，Free 档免费领，套餐升级限时 7 折，低至 41.3 元/月；U2-Flash、U2-Med 超耐用，ASR、TTS、OCR 模型权益免费送。",
+      "changeDate": "Sat, 21 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#86-nango-第三方集成--api-连接",
+      "providerName": "额度变化 · Nango：免费档本身未变，但官方页面新增了「Startup program」限时活动：符合资格的初创最高可获 $10,000 Nango credits，并可免费使用 Growth add-on 六个月。",
+      "changeText": "tier_caveats：免费档的 10 小时计算是**集成同步算力**，不是模型 token、Pay-as-you-go 档为 $50/月 → 免费档的 10 小时计算是**集成同步算力**，不是模型 token、Pay-as-you-go 档为 $50/月，含每月 $50 credits、Startup program（限时、需资格审核）：YC 批次或合作 VC portfolio 可获 $10,000 usage credits；融资 $1M–$10M …",
+      "changeDate": "Sat, 21 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#28-google-gemini-google-ai-studio",
+      "providerName": "额度变化 · Google Gemini：官方明确 Gemini 4 Neon 与 Genie 4（models/genie-4）不支持免费层（Not available / Not supported）",
+      "changeText": "free_models：`Gemini 3.x Flash`、`Gemma 4`、Gemini Embedding 系列 —— **免费层可用**，按速率限额滚动（RPD 太平洋时间午夜重置）；多数模型官方不公开逐模型数值（具体限额在 AI Studio 内显示），调用前以 AI Studio 的 Rate Limit 页为准、`Gemin… → `Gemini 3.x Flash`、`Gemma 4`、Gemini Embedding 系列 —— **免费层可用**，按速率限额滚动（RPD 太平洋时间午夜重置）；多数模型官方不公开逐模型数值（具体限额在 AI Studio 内显示），调用前以 AI Studio 的 Rate Limit 页为准、`Gemin… tier_caveats：**不是所有模型都有免费层**：Flash 级部分模型 / Gemma 4 / Embedding 系列可用，但官方不再逐一公示；`Gemini 4 Argon`、`Gemini 3.1 Pro Preview`、`Gemini Omni Flash` (`gemini-omni-1.2-flash`)、Nano B… → **不是所有模型都有免费层**：Flash 级部分模型 / Gemma 4 / Embedding 系列可用，但官方不再逐一公示；`Gemini 4 Carbon/Argon/",
+      "changeDate": "Fri, 20 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索",
+      "providerName": "额度变化 · DeepSeek：更新 Search 与 Fetch API 计费规则：模型调用触发的服务端搜索与网页抓取工具本身免收调用费，改为仅按 Token 计费，API 计费单位改为每 1,000 次成功请求 5 元",
+      "changeText": "promotions：实行**峰谷定价**（元/百万 tokens，高峰为工作日 9:00–12:00、14:00–18:00，空闲半价）：deepseek-flash 输出 8.0/4.0、缓存命中 0.04/0.02；deepseek-v4-pro 输出 27.0/13.5、缓存命中 0.30/0.15。**周边 API 计费**：搜… → 实行**峰谷定价**（元/百万 tokens，高峰为工作日 9:00–12:00、14:00–18:00，空闲半价）：deepseek-flash 输出 8.0/4.0、缓存命中 0.04/0.02；deepseek-v4-pro 输出 27.0/13.5、缓存命中 0.30/0.15。**周边 API 计费**：S…",
+      "changeDate": "Fri, 20 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#74-qoder-agentic-coding-platform--国际版",
+      "providerName": "额度变化 · Qoder：自 2026-11-19 起，每日领取 100 Credits 活动不再向 Free 用户开放，仅限 Pro 试用期及个人付费用户领取；同时明确了 Pro 试用各端发放方式",
+      "changeText": "free_quota：**免费层 + 每日赠送**：Free 方案可用**基础模型**（用户消息条数受限）；新用户 **2 周 Pro 试用赠 300 Credits**；**自 2026-09-18 起**个人用户（免费与付费皆可）在 Qoder 桌面端**每日领取 100 Credits**（每天 10:00 开一个领取窗口，需手动领… → **免费层 + 试用期每日赠送**：Free 方案长期可用**基础模型**（受每日与每月消息条数限制，含有限补全/NES 与 BYOK）；新用户 **14 天 Pro 试用赠 300 Credits**；**自 2026-11-19 起，每日领取 100 Credits 仅限处于 Pro 试用期及个人付费订阅用户**… validity：每日 100 Credits 自领取日 30 天内有效（未过期结转后续天，非每日清零）；Pro 试用 2 周；订阅方案的 Credits 仅当前订阅周期有效（周期结束归零） → Pro 试用期 14 天（赠 300 Credits）；试用期内领取的每日 100 Credits 自领取日 30 天内有效（未过期结转后续天，试用到期后已领取的仍可继续使用至 30 天期满）；订阅方案的 Credits 仅当前订阅周期有效 free_models：基础模型 —— Free 方案长期可用，消息条数受限（Free 列还",
+      "changeDate": "Fri, 20 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#63-google-gemini-enterprise-agent-platform",
+      "providerName": "额度变化 · Google Gemini Enterprise Agent Platform：免费页新增「Gemini Enterprise Plus 版 30 天免费试用」这一限时活动，$300 赠金、Always Free 与 Star",
+      "changeText": "free_quota：新账号 **$300 赠金（90 天）** + **Always Free** 永久免费资源（官方免费页，需开通 Cloud Billing、信用卡验证）；**Google for Startups Cloud Program** 标准 $200,000、AI 赛道最高 **$350,000** → 新账号 **$300 赠金（90 天）** + **Always Free** 每月免费额度（AI API、Compute Engine、BigQuery 等 20 多款产品，不计入赠金）；另可 **免费试用 Gemini Enterprise Plus 版 30 天**；**Google for Startups … promotions：**Google for Startups Cloud Program**：标准 **$200,000**，AI 赛道最高 **$350,000**。 → **Gemini Enterprise Plus 版 30 天免费试用**（在一个平台上管理、部署并安全守护所有 AI 智能体）；**Google for Startups Cloud Program**：标准 **$200,000**，AI 初创公司最高 **$350,000**。",
+      "changeDate": "Tue, 17 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#50-anyscale",
+      "providerName": "额度变化 · Anyscale：Anyscale pricing 页新增 KubeRay 专项 $500 Credits 与 KubeRay Connect 免费试用，并把项目模板额度细化为 $3 / $5 / $5，原有 $100 注册额",
+      "changeText": "free_quota：注册即送 **$100 Anyscale Credits**（官方 pricing 页原文：\"Get started with $100 credit\"）；项目模板一键启动另含 **$5** 额度（原文：\"Launch project with $5\"） → 注册即送 **$100 Anyscale Credits**（官方 pricing 页原文：\"Get started with $100 credit\"）；另有 **KubeRay 专项 $500 Credits**（原文：\"$500 in Credits for KubeRay\"）；项目模板一键启动附带额度分别为 … promotions：另有初创企业扶持计划；Committed contracts 提供批量折扣（需商务接触）。 → **KubeRay Connect 免费试用**（原文：\"KubeRay Connect now available with free trial\"），并配套 **$500 Credits for KubeRay**；另有初创企业扶持计划及 Committed contracts 批量折扣（需商务接触）。",
+      "changeDate": "Tue, 17 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#57-parallel-web-api-数据--搜索-api",
+      "providerName": "额度变化 · Parallel Web API：免费档由「Developer」更名为「Build」（额度仍为每月 5,000 次请求 + 留卡每月 $5 + 注册最高 $80），并新增「最高 $250 startup credits」，付费",
+      "changeText": "free_quota：Developer：每月最多 **5,000 次免费请求**（覆盖全部 API）+ **每月 $5 免费额度**（需在账户留卡才发）；注册时最高再得 **$80**（官方写 up to，分档条件未公布） → Build（Pay-as-you-go）：每月最多 **5,000 次免费请求**（覆盖全部 API）+ **每月 $5 免费额度**（需在账户留卡才发）；注册时最高再得 **$80**（官方写 up to，分档条件未公布），另列 **最高 $250 startup credits** tier_caveats：免费额度只覆盖请求量、不计 token 深度：Search/Extract 限速 600 次/分钟，但 Task/Responses/FindAll 属高价处理器（单次约 $0.1–$2.4），**深度研究场景消耗很快**、$80 注册赠金随时可能调整，以官方定价页为准 → 免费额度只覆盖请求量、不计 token 深度：Build 档 Search/Extract 限速 600 次/分钟，Decisions API 600 次/分钟，Task API 2,000 次/分钟（Scale 档 Search/Extract 提至 1,500 次/分钟，不含 Turbo）、用量单价按档位上浮：T… preconditions：需绑卡（官方写法 “with",
+      "changeDate": "Tue, 17 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#25-阶跃星辰-stepfun",
+      "providerName": "额度变化 · 阶跃星辰 StepFun：StepAudio 3 系列限时免费截止时间由北京时间 2026-11-17 11:59:59 顺延至 2026-11-23 11:59:59（12:00:00 起按新价格计费）。",
+      "changeText": "validity：仅适用限免政策的 StepAudio 3 模型限免至北京时间 2026-11-17 11:59:59（12:00:00 起恢复计费）。 → 仅适用限免政策的 StepAudio 3 模型限免至北京时间 2026-11-23 11:59:59（12:00:00 起恢复计费）。 free_models：StepAudio 3 中适用限时免费政策的模型（具体范围以控制台为准；限免至 2026-11-17 11:59:59 北京时间，之后恢复计费） → StepAudio 3 系列中适用限时免费政策的模型 —— 限免至北京时间 2026-11-23 11:59:59，之后恢复计费（具体范围以控制台为准） tier_caveats：仅适用限免政策的模型限免至 2026-11-17 11:59:59；已收费模型继续原价计费，勿将整个系列视为免费、Step 5 Preview 仅缓存命中输入价格：2026-10-14 00:30 前已按量调用该模型的用户保留 0.35 元/百万 tokens；其他用户为 0.70 元，非缓存输入与输出另计费、个人账… → 仅适用限免政策的模型限免至 2026-11-23 11:59:59；已收费模型继续原价计费，勿将整个系列视为免费、Step 5 Preview 仅缓存命中输入价格：2026-10-14 00:30 前已按量调用该模型的用户保留",
+      "changeDate": "Tue, 17 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#47-relace",
+      "providerName": "额度变化 · Relace：官方定价页已改为全部模型按 token 计费（无订阅、无最低消费），不再出现免费套餐（free tier）与 compact/apply/rank/search 免费编程模型，模型阵容换成 DeepSeek V4",
+      "changeText": "free_quota：官方定价页原文：提供在线 Playground 并可**“从免费套餐（free tier）开始在您的应用中测试 Relace 模型”**（Sign Up for Free）；具体免费额度未公开数字，以注册后控制台为准 → 官方定价页原文：**“All models are billed per token, pay as you go, with no subscription or minimum.”** 页面已不再出现免费套餐（free tier）、Playground 免费测试或任何免费额度表述，全部模型按每百万 token 计… free_models：面向编程智能体的推理模型 `relace-compact`、`relace-apply-3`、`relace-rank`、`relace-search`（代码改写/检索/排序）—— **免费套餐（free tier）可用**，具体配额注册后查看 → DeepSeek V4 Pro —— **无免费额度**，按 token 计费：输入 $0.50 / 缓存输入 $0.05 / 输出 $2.00（每百万 token）、DeepSeek V4 Flash —— **无免费额度**，按 token 计费：输入 $0.07 / 缓存输入 $0.014 / 输出 $0.14… validity：以注册后控制台显示为",
+      "changeDate": "Tue, 17 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#39-together-ai",
+      "providerName": "额度变化 · Together AI：Tev1 4B Experimental 的输入计费微调为 $0.042/1M tokens（输出仍免费）；官方计费文档补充说明账户中的免费赠额不计入最低 $15 的充值门槛。",
+      "changeText": "free_quota：**无免费试用 / 无赠送**：官方计费文档原文 “Together AI does not currently offer free trials. Access to the Together platform requires a minimum $15 credit purchase.”——首次充值最低额为 … → **无免费试用 / 无赠送**：官方计费文档明确“Together AI doesn’t currently offer free trials. To use the platform, you must purchase at least $15 of credits. Free credits on your … free_models：`Ternary Bonsai 27B` —— 输入与输出均定价为 **$0.00/1M tokens**（需充值门槛）、`Tev1 4B Experimental` —— 输出免费（Free），输入收取 **$0.04/1M tokens**（需充值门槛）、**平台调用限制**：官方计费文档明确平台不提供免费试用，… → `Ternary Bonsai 27B` —— 输入与输出均定价为 **Free**（需充值门槛）、`Tev1 4B Experimental` —— 输出免费（Free），输入收",
+      "changeDate": "Mon, 16 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#23-360-智脑",
+      "providerName": "额度变化 · 360智脑：模型广场聚合模型总数增至 103 款，各模型均有明确计费标准，依然无公开免费模型层",
+      "changeText": "free_models：**无公开免费模型层**：平台转为聚合模式，模型列表约 86 款（含第三方模型）；自研模型 `360zhinao-pro` 定价输入 ¥2/百万 tokens、输出 ¥5/百万 tokens（以定价页为准） → **无公开免费模型层**：平台转为聚合模式，模型广场共 103 款模型（含第三方模型），均按量计费，未设立永久免费模型层（以定价页为准）",
+      "changeDate": "Mon, 16 Nov 2026 00:00:00 +0000"
+    },
+    {
+      "guid": "https://github.com/rockbenben/free-llm-intel#79-github-copilot-free",
+      "providerName": "额度变化 · GitHub Copilot：GitHub Copilot 移除了 Free 层固定 50 次聊天请求的表述，更新为受限的聊天与 Agent 用量（Limited chat and agent usage）并提供 Haiku",
+      "changeText": "free_quota：**长期免费层**：官方定价页 FAQ 原文 “GitHub Copilot Free users are limited to 2000 completions and 50 chat requests (including Copilot Edits)”（每月 2,000 次补全 + 50 次聊天请求） → **长期免费层**：每月 2,000 次代码补全（2,000 completions per month），受限的聊天与 Agent 用量（Limited chat and agent usage），支持访问 Haiku 4.5、GPT-5 mini 等入门级模型（entry level models）及 Copil… free_models：代码补全 —— 2,000 次/月（免费）、Copilot Chat / Edits —— 50 次/月（免费） → 代码补全 —— 2,000 次/月、Copilot Chat / Agent Mode（Haiku 4.5、GPT-5 mini 等入门级模型） —— 受限聊天与 Agent 用量（Limited chat and agent usage）、Copilot CLI —— 免费层已包含",
+      "changeDate": "Mon, 09 Nov 2026 00:00:00 +0000"
     }
   ],
-  "findingsCount": 1,
-  "no_change": true,
+  "findingsCount": 21,
+  "no_change": false,
   "warnings": [
-    "fetch: changes feed unavailable: IncompleteRead(16384 bytes read, 116322 more expected)",
+    "fetch: feed[7] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
+    "fetch: feed[13] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
+    "fetch: feed[15] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
+    "fetch: feed[17] duplicate guid 'https://github.com/rockbenben/free-llm-intel#46-morph-labs' dropped (kept first)",
+    "fetch: feed[22] duplicate guid 'https://github.com/rockbenben/free-llm-intel#2-通义千问-阿里云' dropped (kept first)",
+    "fetch: feed[23] duplicate guid 'https://github.com/rockbenben/free-llm-intel#18-复旦-moss-mosi' dropped (kept first)",
+    "fetch: feed[26] duplicate guid 'https://github.com/rockbenben/free-llm-intel#1-deepseek-深度求索' dropped (kept first)",
+    "fetch: feed[27] duplicate guid 'https://github.com/rockbenben/free-llm-intel#46-morph-labs' dropped (kept first)",
+    "fetch: feed[29] duplicate guid 'https://github.com/rockbenben/free-llm-intel#28-google-gemin' dropped (kept first)",
+    "fetch: feed[30] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[31] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[32] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[33] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[34] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[35] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[36] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[37] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[38] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[39] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[40] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[41] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[42] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[43] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[44] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[45] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[46] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[47] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[48] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[49] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[50] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[51] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[52] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[53] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[54] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[55] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[56] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[57] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[58] dropped (over MAX_FINDINGS=30 cap)",
+    "fetch: feed[59] dropped (over MAX_FINDINGS=30 cap)",
     "verify: 页面抓取失败 OpenRouter 免费模型与定价：HTTP Error 403: Forbidden",
     "verify: 页面抓取失败 Groq 限速文档：HTTP Error 403: Forbidden"
   ],
   "sources": {
     "openrouter": {
       "ok": true,
-      "freeModels": 12,
+      "freeModels": 11,
       "excluded": [
         "google/lyria-3-pro-preview",
         "google/lyria-3-clip-preview"
       ]
     },
     "changesFeed": {
-      "ok": false,
-      "error": "IncompleteRead(16384 bytes read, 116322 more expected)"
+      "ok": true,
+      "items": 81
     }
   },
   "pool": {
