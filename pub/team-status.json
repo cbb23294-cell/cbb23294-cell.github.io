@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T09:35:08Z",
+    "activity_generated_at": "2026-11-27T09:37:18Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -28,14 +28,14 @@
         "claimed_at": "2026-11-27T09:27:27Z",
         "claimed_by": "pool-optimization-seat-1-8514-966bc46e",
         "claimed_by_zh": "池优化 席位8514",
-        "claimed_for": "7分钟",
+        "claimed_for": "9分钟",
         "task_id": "pool-085",
         "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…"
       },
       "cycle_started_at": "2026-11-27T09:27:27Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "7分钟",
-      "elapsed_sec": 461,
+      "elapsed": "9分钟",
+      "elapsed_sec": 591,
       "last_cycle_ended": "2026-11-27T09:21:34Z",
       "name_zh": "池优化",
       "state": "running",
@@ -48,15 +48,15 @@
         "claimed_at": "2026-11-27T09:34:50Z",
         "claimed_by": "security-seat-1-9783-3675de11",
         "claimed_by_zh": "安全 席位9783",
-        "claimed_for": "18秒",
+        "claimed_for": "2分钟",
         "task_id": "secu-017",
         "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…"
       },
       "cycle_started_at": "2026-11-27T09:34:50Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "18秒",
-      "elapsed_sec": 18,
-      "last_cycle_ended": "2026-11-27T09:33:37Z",
+      "elapsed": "2分钟",
+      "elapsed_sec": 148,
+      "last_cycle_ended": "2026-11-27T09:35:25Z",
       "name_zh": "安全",
       "state": "running",
       "workstream": "security"
@@ -68,15 +68,15 @@
         "claimed_at": "2026-11-27T09:34:51Z",
         "claimed_by": "operations-seat-1-9787-34a2af85",
         "claimed_by_zh": "运维 席位9787",
-        "claimed_for": "17秒",
+        "claimed_for": "2分钟",
         "task_id": "oper-023",
         "title": "[inputs: fleet-ops/tombstone-increment-extract.json…"
       },
       "cycle_started_at": "2026-11-27T09:34:51Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "17秒",
-      "elapsed_sec": 17,
-      "last_cycle_ended": "2026-11-27T09:33:58Z",
+      "elapsed": "2分钟",
+      "elapsed_sec": 147,
+      "last_cycle_ended": "2026-11-27T09:35:19Z",
       "name_zh": "运维",
       "state": "running",
       "workstream": "operations"
@@ -124,22 +124,22 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 461,
+          "claimed_age_sec": 591,
           "claimed_at": "2026-11-27T09:27:27Z",
           "claimed_by": "pool-optimization-seat-1-8514-966bc46e",
           "claimed_by_zh": "池优化 席位8514",
-          "claimed_for": "7分钟",
+          "claimed_for": "9分钟",
           "task_id": "pool-084",
           "title": "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 461,
+          "claimed_age_sec": 591,
           "claimed_at": "2026-11-27T09:27:27Z",
           "claimed_by": "pool-optimization-seat-1-8514-966bc46e",
           "claimed_by_zh": "池优化 席位8514",
-          "claimed_for": "7分钟",
+          "claimed_for": "9分钟",
           "task_id": "pool-085",
           "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
           "workstream": "pool-optimization"
@@ -162,24 +162,24 @@
       "claimed_now": [
         {
           "board_zh": "安全",
-          "claimed_age_sec": 18,
+          "claimed_age_sec": 148,
           "claimed_at": "2026-11-27T09:34:50Z",
           "claimed_by": "security-seat-1-9783-3675de11",
           "claimed_by_zh": "安全 席位9783",
-          "claimed_for": "18秒",
+          "claimed_for": "2分钟",
           "task_id": "secu-017",
           "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
           "workstream": "security"
         }
       ],
       "done": 16,
-      "escalation_latest": "BLOCKED.md: reason: The required 21/21 event verdicts cannot be produced: the five staged inputs contain an aggregate count and two…",
+      "escalation_latest": "level: manager (retry budget exhausted; lowest level could not fix it)",
       "name_zh": "安全",
       "next_open": [
         "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…"
       ],
       "open": 1,
-      "status_updated": "2026-11-27T09:28:27Z",
+      "status_updated": "2026-11-27T09:35:26Z",
       "total": 17,
       "workstream": "security"
     },
@@ -187,11 +187,11 @@
       "claimed_now": [
         {
           "board_zh": "运维",
-          "claimed_age_sec": 17,
+          "claimed_age_sec": 147,
           "claimed_at": "2026-11-27T09:34:51Z",
           "claimed_by": "operations-seat-1-9787-34a2af85",
           "claimed_by_zh": "运维 席位9787",
-          "claimed_for": "17秒",
+          "claimed_for": "2分钟",
           "task_id": "oper-023",
           "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
           "workstream": "operations"
@@ -223,50 +223,50 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 461,
+      "claimed_age_sec": 591,
       "claimed_at": "2026-11-27T09:27:27Z",
       "claimed_by": "pool-optimization-seat-1-8514-966bc46e",
       "claimed_by_zh": "池优化 席位8514",
-      "claimed_for": "7分钟",
+      "claimed_for": "9分钟",
       "task_id": "pool-084",
       "title": "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 461,
+      "claimed_age_sec": 591,
       "claimed_at": "2026-11-27T09:27:27Z",
       "claimed_by": "pool-optimization-seat-1-8514-966bc46e",
       "claimed_by_zh": "池优化 席位8514",
-      "claimed_for": "7分钟",
+      "claimed_for": "9分钟",
       "task_id": "pool-085",
       "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "安全",
-      "claimed_age_sec": 18,
+      "claimed_age_sec": 148,
       "claimed_at": "2026-11-27T09:34:50Z",
       "claimed_by": "security-seat-1-9783-3675de11",
       "claimed_by_zh": "安全 席位9783",
-      "claimed_for": "18秒",
+      "claimed_for": "2分钟",
       "task_id": "secu-017",
       "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
       "workstream": "security"
     },
     {
       "board_zh": "运维",
-      "claimed_age_sec": 17,
+      "claimed_age_sec": 147,
       "claimed_at": "2026-11-27T09:34:51Z",
       "claimed_by": "operations-seat-1-9787-34a2af85",
       "claimed_by_zh": "运维 席位9787",
-      "claimed_for": "17秒",
+      "claimed_for": "2分钟",
       "task_id": "oper-023",
       "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
       "workstream": "operations"
     }
   ],
-  "content_latest_at": "2026-11-27T09:34:51Z",
+  "content_latest_at": "2026-11-27T09:35:26Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 401,
@@ -289,9 +289,9 @@
       "latest": "blocked-file: out/task-086/BLOCKED.md"
     },
     "security": {
-      "dropped_hash_keys": 22,
+      "dropped_hash_keys": 23,
       "exists": true,
-      "latest": "BLOCKED.md: reason: The required 21/21 event verdicts cannot be produced: the five staged inputs contain an aggregate count and two…"
+      "latest": "level: manager (retry budget exhausted; lowest level could not fix it)"
     },
     "spaces-data": {
       "dropped_hash_keys": 16,
@@ -299,13 +299,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T09:35:08Z",
-  "generated_at_utc": "2026-11-27T09:35:08Z",
+  "generated_at": "2026-11-27T09:37:19Z",
+  "generated_at_utc": "2026-11-27T09:37:19Z",
   "live_pi_workers": {
     "by_model": {
       "crowllm/grok-4.7:free": 2,
-      "crowllm/nemotron-3-ultra-550b-a55b:free": 2,
-      "xingchi-6/gpt-6.1-sol#strict": 2
+      "crowllm/nemotron-3-ultra-550b-a55b:free": 2
     },
     "running": [
       {
@@ -327,19 +326,9 @@
         "model": "crowllm/nemotron-3-ultra-550b-a55b:free",
         "pid": 10217,
         "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      },
-      {
-        "model": "xingchi-6/gpt-6.1-sol#strict",
-        "pid": 10425,
-        "title": "[code] [boss-accept]  Config-drift writer forensics (recurrence-meeting ruling 2"
-      },
-      {
-        "model": "xingchi-6/gpt-6.1-sol#strict",
-        "pid": 10426,
-        "title": "[code] [boss-accept]  Config-drift writer forensics (recurrence-meeting ruling 2"
       }
     ],
-    "total": 6
+    "total": 4
   },
   "managers": [
     {
@@ -947,7 +936,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 218
+        "used": 219
       },
       {
         "cap": 300,
@@ -1403,7 +1392,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 2625
+        "used": 2628
       },
       {
         "cap": 300,
@@ -2149,7 +2138,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 218
+        "used": 219
       },
       {
         "cap": 300,
@@ -2605,7 +2594,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 2625
+        "used": 2628
       },
       {
         "cap": 300,
@@ -2807,21 +2796,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 69,
-      "board_zh": "运维",
-      "completed_at": "2026-11-27T09:33:58Z",
-      "completed_by": "operations-seat-1-9787-34a2af85",
-      "completed_by_zh": "运维 席位9787",
-      "completed_ts_source": "result.txt",
-      "task_id": "oper-023",
-      "task_no": 23,
-      "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
-      "workstream": "operations"
-    },
-    {
-      "age_sec": 91,
+      "age_sec": 112,
       "board_zh": "安全",
-      "completed_at": "2026-11-27T09:33:37Z",
+      "completed_at": "2026-11-27T09:35:25Z",
       "completed_by": "security-seat-1-9783-3675de11",
       "completed_by_zh": "安全 席位9783",
       "completed_ts_source": "result.txt",
@@ -2831,7 +2808,19 @@
       "workstream": "security"
     },
     {
-      "age_sec": 813,
+      "age_sec": 118,
+      "board_zh": "运维",
+      "completed_at": "2026-11-27T09:35:19Z",
+      "completed_by": "operations-seat-1-9787-34a2af85",
+      "completed_by_zh": "运维 席位9787",
+      "completed_ts_source": "result.txt",
+      "task_id": "oper-023",
+      "task_no": 23,
+      "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
+      "workstream": "operations"
+    },
+    {
+      "age_sec": 943,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T09:21:34Z",
       "completed_by": "pool-optimization-seat-1-8514-966bc46e",
@@ -2843,7 +2832,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 859,
+      "age_sec": 988,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T09:20:49Z",
       "completed_by": "pool-optimization-seat-1-8514-966bc46e",
@@ -2855,7 +2844,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 1970,
+      "age_sec": 2100,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
       "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
@@ -2867,7 +2856,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 3136,
+      "age_sec": 3266,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
@@ -2879,7 +2868,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 9983,
+      "age_sec": 10113,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
       "completed_by": "operations-seat-1-2005-0cf7b677",
@@ -2891,7 +2880,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 13899,
+      "age_sec": 14029,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2903,7 +2892,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 16062,
+      "age_sec": 16191,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2915,7 +2904,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 19964,
+      "age_sec": 20094,
       "board_zh": "安全",
       "completed_at": "2026-11-27T04:02:24Z",
       "completed_by": "security-seat-1-15890-eda53826",
@@ -2936,8 +2925,7 @@
   "workers": {
     "by_model": {
       "crowllm/grok-4.7:free": 2,
-      "crowllm/nemotron-3-ultra-550b-a55b:free": 2,
-      "xingchi-6/gpt-6.1-sol#strict": 2
+      "crowllm/nemotron-3-ultra-550b-a55b:free": 2
     },
     "running": [
       {
@@ -2959,19 +2947,9 @@
         "model": "crowllm/nemotron-3-ultra-550b-a55b:free",
         "pid": 10217,
         "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      },
-      {
-        "model": "xingchi-6/gpt-6.1-sol#strict",
-        "pid": 10425,
-        "title": "[code] [boss-accept]  Config-drift writer forensics (recurrence-meeting ruling 2"
-      },
-      {
-        "model": "xingchi-6/gpt-6.1-sol#strict",
-        "pid": 10426,
-        "title": "[code] [boss-accept]  Config-drift writer forensics (recurrence-meeting ruling 2"
       }
     ],
-    "total": 6
+    "total": 4
   },
   "workers_detail": [
     {
@@ -2981,10 +2959,6 @@
     {
       "count": 2,
       "model": "crowllm/nemotron-3-ultra-550b-a55b:free"
-    },
-    {
-      "count": 2,
-      "model": "xingchi-6/gpt-6.1-sol#strict"
     }
   ],
   "workers_running": [
@@ -3007,16 +2981,6 @@
       "model": "crowllm/nemotron-3-ultra-550b-a55b:free",
       "pid": 10217,
       "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-    },
-    {
-      "model": "xingchi-6/gpt-6.1-sol#strict",
-      "pid": 10425,
-      "title": "[code] [boss-accept]  Config-drift writer forensics (recurrence-meeting ruling 2"
-    },
-    {
-      "model": "xingchi-6/gpt-6.1-sol#strict",
-      "pid": 10426,
-      "title": "[code] [boss-accept]  Config-drift writer forensics (recurrence-meeting ruling 2"
     }
   ],
   "workstreams": {
@@ -3098,14 +3062,14 @@
     "security": {
       "escalation": {
         "exists": true,
-        "latest": "- key=8566dc3cad82"
+        "latest": "- key=35113c167507"
       },
       "status": {
         "exists": true,
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-27T09:28:27Z"
+        "updated": "2026-11-27T09:35:26Z"
       },
       "tasks": {
         "done": 16,
