@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T08:21:53Z",
+    "activity_generated_at": "2026-11-27T08:24:14Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,14 +15,14 @@
         "claimed_at": "2026-11-27T08:13:42Z",
         "claimed_by": "float",
         "claimed_by_zh": "机动",
-        "claimed_for": "8分钟",
+        "claimed_for": "10分钟",
         "task_id": "clou-026",
         "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…"
       },
       "cycle_started_at": "2026-11-27T08:13:42Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "8分钟",
-      "elapsed_sec": 492,
+      "elapsed": "10分钟",
+      "elapsed_sec": 632,
       "last_cycle_ended": "2026-11-27T08:14:39Z",
       "name_zh": "云脚本迁移",
       "state": "running",
@@ -35,15 +35,15 @@
         "claimed_at": "2026-11-27T08:20:51Z",
         "claimed_by": "pool-optimization-seat-1-19587-33110e08",
         "claimed_by_zh": "池优化 席位19587",
-        "claimed_for": "63秒",
+        "claimed_for": "3分钟",
         "task_id": "pool-1961",
         "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…"
       },
       "cycle_started_at": "2026-11-27T08:05:10Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "16分钟",
-      "elapsed_sec": 1004,
-      "last_cycle_ended": "2026-11-27T08:21:53Z",
+      "elapsed": "19分钟",
+      "elapsed_sec": 1144,
+      "last_cycle_ended": "2026-11-27T08:23:24Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -55,14 +55,14 @@
         "claimed_at": "2026-11-27T08:10:21Z",
         "claimed_by": "security-seat-1-17627-523bfbe9",
         "claimed_by_zh": "安全 席位17627",
-        "claimed_for": "11分钟",
+        "claimed_for": "13分钟",
         "task_id": "secu-018",
         "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…"
       },
       "cycle_started_at": "2026-11-27T08:10:21Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "11分钟",
-      "elapsed_sec": 693,
+      "elapsed": "13分钟",
+      "elapsed_sec": 833,
       "last_cycle_ended": "2026-11-27T08:05:08Z",
       "name_zh": "安全",
       "state": "running",
@@ -75,14 +75,14 @@
         "claimed_at": "2026-11-27T08:19:54Z",
         "claimed_by": "operations-seat-1-19397-a7104d7f",
         "claimed_by_zh": "运维 席位19397",
-        "claimed_for": "2分钟",
+        "claimed_for": "4分钟",
         "task_id": "oper-958",
         "title": "[inputs: fleet-ops/tombstone-increment-extract.json…"
       },
       "cycle_started_at": "2026-11-27T08:19:54Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "2分钟",
-      "elapsed_sec": 120,
+      "elapsed": "4分钟",
+      "elapsed_sec": 260,
       "last_cycle_ended": "2026-11-27T08:21:33Z",
       "name_zh": "运维",
       "state": "running",
@@ -120,11 +120,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 492,
+          "claimed_age_sec": 632,
           "claimed_at": "2026-11-27T08:13:42Z",
           "claimed_by": "float",
           "claimed_by_zh": "机动",
-          "claimed_for": "8分钟",
+          "claimed_for": "10分钟",
           "task_id": "clou-026",
           "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…",
           "workstream": "cloud-script-migration"
@@ -145,33 +145,33 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 1004,
+          "claimed_age_sec": 1144,
           "claimed_at": "2026-11-27T08:05:10Z",
           "claimed_by": "pool-optimization-seat-1-16603-345d0464",
           "claimed_by_zh": "池优化 席位16603",
-          "claimed_for": "16分钟",
+          "claimed_for": "19分钟",
           "task_id": "pool-1958",
           "title": "[inputs: llm-workers/manager.py, llm-workers/board_store.py…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 63,
+          "claimed_age_sec": 203,
           "claimed_at": "2026-11-27T08:20:51Z",
           "claimed_by": "pool-optimization-seat-1-19587-33110e08",
           "claimed_by_zh": "池优化 席位19587",
-          "claimed_for": "63秒",
+          "claimed_for": "3分钟",
           "task_id": "pool-1960",
           "title": "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 63,
+          "claimed_age_sec": 203,
           "claimed_at": "2026-11-27T08:20:51Z",
           "claimed_by": "pool-optimization-seat-1-19587-33110e08",
           "claimed_by_zh": "池优化 席位19587",
-          "claimed_for": "63秒",
+          "claimed_for": "3分钟",
           "task_id": "pool-1961",
           "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
           "workstream": "pool-optimization"
@@ -194,11 +194,11 @@
       "claimed_now": [
         {
           "board_zh": "安全",
-          "claimed_age_sec": 693,
+          "claimed_age_sec": 833,
           "claimed_at": "2026-11-27T08:10:21Z",
           "claimed_by": "security-seat-1-17627-523bfbe9",
           "claimed_by_zh": "安全 席位17627",
-          "claimed_for": "11分钟",
+          "claimed_for": "13分钟",
           "task_id": "secu-018",
           "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
           "workstream": "security"
@@ -219,11 +219,11 @@
       "claimed_now": [
         {
           "board_zh": "运维",
-          "claimed_age_sec": 120,
+          "claimed_age_sec": 260,
           "claimed_at": "2026-11-27T08:19:54Z",
           "claimed_by": "operations-seat-1-19397-a7104d7f",
           "claimed_by_zh": "运维 席位19397",
-          "claimed_for": "2分钟",
+          "claimed_for": "4分钟",
           "task_id": "oper-958",
           "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
           "workstream": "operations"
@@ -255,66 +255,66 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 1004,
+      "claimed_age_sec": 1144,
       "claimed_at": "2026-11-27T08:05:10Z",
       "claimed_by": "pool-optimization-seat-1-16603-345d0464",
       "claimed_by_zh": "池优化 席位16603",
-      "claimed_for": "16分钟",
+      "claimed_for": "19分钟",
       "task_id": "pool-1958",
       "title": "[inputs: llm-workers/manager.py, llm-workers/board_store.py…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "安全",
-      "claimed_age_sec": 693,
+      "claimed_age_sec": 833,
       "claimed_at": "2026-11-27T08:10:21Z",
       "claimed_by": "security-seat-1-17627-523bfbe9",
       "claimed_by_zh": "安全 席位17627",
-      "claimed_for": "11分钟",
+      "claimed_for": "13分钟",
       "task_id": "secu-018",
       "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
       "workstream": "security"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 492,
+      "claimed_age_sec": 632,
       "claimed_at": "2026-11-27T08:13:42Z",
       "claimed_by": "float",
       "claimed_by_zh": "机动",
-      "claimed_for": "8分钟",
+      "claimed_for": "10分钟",
       "task_id": "clou-026",
       "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…",
       "workstream": "cloud-script-migration"
     },
     {
       "board_zh": "运维",
-      "claimed_age_sec": 120,
+      "claimed_age_sec": 260,
       "claimed_at": "2026-11-27T08:19:54Z",
       "claimed_by": "operations-seat-1-19397-a7104d7f",
       "claimed_by_zh": "运维 席位19397",
-      "claimed_for": "2分钟",
+      "claimed_for": "4分钟",
       "task_id": "oper-958",
       "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
       "workstream": "operations"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 63,
+      "claimed_age_sec": 203,
       "claimed_at": "2026-11-27T08:20:51Z",
       "claimed_by": "pool-optimization-seat-1-19587-33110e08",
       "claimed_by_zh": "池优化 席位19587",
-      "claimed_for": "63秒",
+      "claimed_for": "3分钟",
       "task_id": "pool-1960",
       "title": "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 63,
+      "claimed_age_sec": 203,
       "claimed_at": "2026-11-27T08:20:51Z",
       "claimed_by": "pool-optimization-seat-1-19587-33110e08",
       "claimed_by_zh": "池优化 席位19587",
-      "claimed_for": "63秒",
+      "claimed_for": "3分钟",
       "task_id": "pool-1961",
       "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
       "workstream": "pool-optimization"
@@ -353,8 +353,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T08:21:54Z",
-  "generated_at_utc": "2026-11-27T08:21:54Z",
+  "generated_at": "2026-11-27T08:24:15Z",
+  "generated_at_utc": "2026-11-27T08:24:15Z",
   "live_pi_workers": {
     "by_model": {
       "crowllm/grok-4.7:free": 4,
@@ -760,7 +760,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 55
+        "used": 57
       },
       {
         "cap": 20000,
@@ -1080,7 +1080,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 82
+        "used": 87
       },
       {
         "cap": 300,
@@ -1456,7 +1456,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 2442
+        "used": 2447
       },
       {
         "cap": 300,
@@ -1962,7 +1962,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 55
+        "used": 57
       },
       {
         "cap": 20000,
@@ -2282,7 +2282,7 @@
         "healthy": true,
         "model": "grok-4.7:free",
         "provider": "crowllm",
-        "used": 82
+        "used": 87
       },
       {
         "cap": 300,
@@ -2658,7 +2658,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 2442
+        "used": 2447
       },
       {
         "cap": 300,
@@ -2860,9 +2860,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 0,
+      "age_sec": 49,
       "board_zh": "池优化",
-      "completed_at": "2026-11-27T08:21:53Z",
+      "completed_at": "2026-11-27T08:23:24Z",
       "completed_by": "pool-optimization-seat-1-16603-345d0464",
       "completed_by_zh": "池优化 席位16603",
       "completed_ts_source": "result.txt",
@@ -2872,7 +2872,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 20,
+      "age_sec": 160,
       "board_zh": "运维",
       "completed_at": "2026-11-27T08:21:33Z",
       "completed_by": "operations-seat-1-19397-a7104d7f",
@@ -2884,7 +2884,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 104,
+      "age_sec": 244,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:20:09Z",
       "completed_by": "pool-optimization-seat-1-19587-33110e08",
@@ -2896,7 +2896,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 434,
+      "age_sec": 574,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T08:14:39Z",
       "completed_by": "float",
@@ -2908,7 +2908,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 585,
+      "age_sec": 725,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:12:08Z",
       "completed_by": "pool-optimization-seat-1-19587-33110e08",
@@ -2920,7 +2920,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 1005,
+      "age_sec": 1145,
       "board_zh": "安全",
       "completed_at": "2026-11-27T08:05:08Z",
       "completed_by": "security-seat-1-17627-523bfbe9",
@@ -2932,7 +2932,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 5589,
+      "age_sec": 5729,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
       "completed_by": "operations-seat-1-2005-0cf7b677",
@@ -2944,7 +2944,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 9505,
+      "age_sec": 9645,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2956,7 +2956,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 11667,
+      "age_sec": 11808,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2968,7 +2968,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 15569,
+      "age_sec": 15710,
       "board_zh": "安全",
       "completed_at": "2026-11-27T04:02:24Z",
       "completed_by": "security-seat-1-15890-eda53826",
