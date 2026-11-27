@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T13:29:31Z",
+    "activity_generated_at": "2026-11-27T13:31:51Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -51,18 +51,18 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-27T13:28:35Z",
+        "claimed_at": "2026-11-27T13:31:37Z",
         "claimed_by": "pool-optimization",
         "claimed_by_zh": "池优化",
-        "claimed_for": "56秒",
+        "claimed_for": "14秒",
         "task_id": "oper-023",
         "title": "[inputs: fleet-ops/tombstone-increment-extract.json…"
       },
-      "cycle_started_at": "2026-11-27T13:28:35Z",
+      "cycle_started_at": "2026-11-27T13:31:37Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "56秒",
-      "elapsed_sec": 56,
-      "last_cycle_ended": "2026-11-27T13:29:19Z",
+      "elapsed": "14秒",
+      "elapsed_sec": 14,
+      "last_cycle_ended": "2026-11-27T13:31:42Z",
       "name_zh": "运维",
       "state": "running",
       "workstream": "operations"
@@ -130,7 +130,7 @@
         "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…"
       ],
       "open": 1,
-      "status_updated": "2026-11-27T13:14:31Z",
+      "status_updated": "2026-11-27T13:30:08Z",
       "total": 17,
       "workstream": "security"
     },
@@ -138,11 +138,11 @@
       "claimed_now": [
         {
           "board_zh": "运维",
-          "claimed_age_sec": 56,
-          "claimed_at": "2026-11-27T13:28:35Z",
+          "claimed_age_sec": 14,
+          "claimed_at": "2026-11-27T13:31:37Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "56秒",
+          "claimed_for": "14秒",
           "task_id": "oper-023",
           "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
           "workstream": "operations"
@@ -166,7 +166,7 @@
       "name_zh": "空间数据",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-27T13:15:17Z",
+      "status_updated": "2026-11-27T13:30:48Z",
       "total": 16,
       "workstream": "spaces-data"
     }
@@ -174,17 +174,17 @@
   "claimed_now": [
     {
       "board_zh": "运维",
-      "claimed_age_sec": 56,
-      "claimed_at": "2026-11-27T13:28:35Z",
+      "claimed_age_sec": 14,
+      "claimed_at": "2026-11-27T13:31:37Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "56秒",
+      "claimed_for": "14秒",
       "task_id": "oper-023",
       "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
       "workstream": "operations"
     }
   ],
-  "content_latest_at": "2026-11-27T13:28:58Z",
+  "content_latest_at": "2026-11-27T13:30:48Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 401,
@@ -217,25 +217,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T13:29:31Z",
-  "generated_at_utc": "2026-11-27T13:29:31Z",
+  "generated_at": "2026-11-27T13:31:52Z",
+  "generated_at_utc": "2026-11-27T13:31:52Z",
   "live_pi_workers": {
-    "by_model": {
-      "merkium/ganymede-1.1": 2
-    },
-    "running": [
-      {
-        "model": "merkium/ganymede-1.1",
-        "pid": 31630,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      },
-      {
-        "model": "merkium/ganymede-1.1",
-        "pid": 31631,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -419,7 +406,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 164
+        "used": 168
       },
       {
         "cap": 300,
@@ -427,7 +414,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 164
+        "used": 168
       },
       {
         "cap": 300,
@@ -435,7 +422,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 164
+        "used": 168
       },
       {
         "cap": 300,
@@ -443,7 +430,7 @@
         "healthy": true,
         "model": "pluto-1.2-flash",
         "provider": "merkium",
-        "used": 164
+        "used": 168
       },
       {
         "cap": 300,
@@ -451,7 +438,7 @@
         "healthy": true,
         "model": "pluto-1.2-pro",
         "provider": "merkium",
-        "used": 164
+        "used": 168
       },
       {
         "cap": 300,
@@ -459,7 +446,7 @@
         "healthy": true,
         "model": "pluto-1.1-pro",
         "provider": "merkium",
-        "used": 164
+        "used": 168
       },
       {
         "cap": 45,
@@ -1299,7 +1286,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 3094
+        "used": 3099
       },
       {
         "cap": 300,
@@ -1621,7 +1608,7 @@
         "healthy": true,
         "model": "ceres-1.1",
         "provider": "merkium",
-        "used": 164
+        "used": 168
       },
       {
         "cap": 300,
@@ -1629,7 +1616,7 @@
         "healthy": true,
         "model": "pluto-1.1-flash",
         "provider": "merkium",
-        "used": 164
+        "used": 168
       },
       {
         "cap": 300,
@@ -1637,7 +1624,7 @@
         "healthy": true,
         "model": "ganymede-1.1",
         "provider": "merkium",
-        "used": 164
+        "used": 168
       },
       {
         "cap": 300,
@@ -1645,7 +1632,7 @@
         "healthy": true,
         "model": "pluto-1.2-flash",
         "provider": "merkium",
-        "used": 164
+        "used": 168
       },
       {
         "cap": 300,
@@ -1653,7 +1640,7 @@
         "healthy": true,
         "model": "pluto-1.2-pro",
         "provider": "merkium",
-        "used": 164
+        "used": 168
       },
       {
         "cap": 300,
@@ -1661,7 +1648,7 @@
         "healthy": true,
         "model": "pluto-1.1-pro",
         "provider": "merkium",
-        "used": 164
+        "used": 168
       },
       {
         "cap": 45,
@@ -2501,7 +2488,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 3094
+        "used": 3099
       },
       {
         "cap": 300,
@@ -2703,9 +2690,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 11,
+      "age_sec": 8,
       "board_zh": "运维",
-      "completed_at": "2026-11-27T13:29:19Z",
+      "completed_at": "2026-11-27T13:31:42Z",
       "completed_by": "pool-optimization",
       "completed_by_zh": "池优化",
       "completed_ts_source": "result.txt",
@@ -2715,7 +2702,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 7536,
+      "age_sec": 7676,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:23:54Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2727,7 +2714,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 7664,
+      "age_sec": 7805,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:21:46Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2739,7 +2726,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 10209,
+      "age_sec": 10349,
       "board_zh": "安全",
       "completed_at": "2026-11-27T10:39:21Z",
       "completed_by": "security-seat-1-23279-f017f1b6",
@@ -2751,7 +2738,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 16033,
+      "age_sec": 16173,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
       "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
@@ -2763,7 +2750,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 17199,
+      "age_sec": 17339,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
@@ -2775,7 +2762,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 24046,
+      "age_sec": 24186,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
       "completed_by": "operations-seat-1-2005-0cf7b677",
@@ -2787,7 +2774,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 27962,
+      "age_sec": 28102,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2799,7 +2786,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 30124,
+      "age_sec": 30265,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2811,7 +2798,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 34026,
+      "age_sec": 34167,
       "board_zh": "安全",
       "completed_at": "2026-11-27T04:02:24Z",
       "completed_by": "security-seat-1-15890-eda53826",
@@ -2830,41 +2817,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "merkium/ganymede-1.1": 2
-    },
-    "running": [
-      {
-        "model": "merkium/ganymede-1.1",
-        "pid": 31630,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      },
-      {
-        "model": "merkium/ganymede-1.1",
-        "pid": 31631,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 2,
-      "model": "merkium/ganymede-1.1"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "merkium/ganymede-1.1",
-      "pid": 31630,
-      "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-    },
-    {
-      "model": "merkium/ganymede-1.1",
-      "pid": 31631,
-      "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -2903,7 +2861,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] [inputs: fleet-ops/tombstone-increment-extract.json, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md] Tombstone burst attribution (recurrence-meeting ruling 2026-11-27, note meetings/20261127-recurrence-note.md ruling 2) [est:30m] | Attribute the 2026-11-27 tombstone burst: 2802 vanished records, each id minted once, first_seen 2026-11-27T04:07:02Z..04:13Z, all on the pool-optimization (1868) and operations (934) boards, texts are historical tasks. The staged extract carries every burst record (id, ws, fingerprint, first/last seen, text head). For the burst as a whole and for a 20-record sample: name the minting writer and mechanism (which process, which sync call, which board content it parsed), using supervisor cycle logs and the code versions in force (input-gate patch ~03:50Z, EXEC_RE fix ~04:06Z, the boss's verification batch 04:07-04:13Z). Distinguish production-cycle minting from verification-side effects with evidence, not plausibility. Tombstones stay archived: do not delete or edit the store; end with a disposition proposal for the 2026-11-29 recheck (keep / cold-archive compaction) and, if the mechanism can still mint, a guard proposal. Deliverable: out/<task>/attribution.md, first line exactly: # Tombstone attribution. Metric: burst mechanism named with log/code evidence; sample attribution 20/20; due 2026-11-29; recheck 2026-12-03. | selftest:# Tombstone attribution (executed-by pool-optimization failed 2026-11-27T12:31:13Z) (claimed-by pool-optimization 2026-11-27T13:28:35Z)"
+            "title": "[code] [boss-accept] [inputs: fleet-ops/tombstone-increment-extract.json, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md] Tombstone burst attribution (recurrence-meeting ruling 2026-11-27, note meetings/20261127-recurrence-note.md ruling 2) [est:30m] | Attribute the 2026-11-27 tombstone burst: 2802 vanished records, each id minted once, first_seen 2026-11-27T04:07:02Z..04:13Z, all on the pool-optimization (1868) and operations (934) boards, texts are historical tasks. The staged extract carries every burst record (id, ws, fingerprint, first/last seen, text head). For the burst as a whole and for a 20-record sample: name the minting writer and mechanism (which process, which sync call, which board content it parsed), using supervisor cycle logs and the code versions in force (input-gate patch ~03:50Z, EXEC_RE fix ~04:06Z, the boss's verification batch 04:07-04:13Z). Distinguish production-cycle minting from verification-side effects with evidence, not plausibility. Tombstones stay archived: do not delete or edit the store; end with a disposition proposal for the 2026-11-29 recheck (keep / cold-archive compaction) and, if the mechanism can still mint, a guard proposal. Deliverable: out/<task>/attribution.md, first line exactly: # Tombstone attribution. Metric: burst mechanism named with log/code evidence; sample attribution 20/20; due 2026-11-29; recheck 2026-12-03. | selftest:# Tombstone attribution (claimed-by pool-optimization 2026-11-27T13:31:37Z) (executed-by pool-optimization failed 2026-11-27T13:31:44Z)"
           }
         ],
         "open": 1
@@ -2951,7 +2909,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T13:14:31Z"
+        "updated": "2026-11-27T13:30:08Z"
       },
       "tasks": {
         "done": 16,
@@ -2975,7 +2933,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T13:15:17Z"
+        "updated": "2026-11-27T13:30:48Z"
       },
       "tasks": {
         "done": 16,
