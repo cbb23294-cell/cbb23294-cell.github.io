@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T05:42:53Z",
+    "activity_generated_at": "2026-11-27T05:45:33Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,15 +15,15 @@
         "claimed_at": "2026-11-27T05:41:25Z",
         "claimed_by": "float",
         "claimed_by_zh": "机动",
-        "claimed_for": "89秒",
+        "claimed_for": "4分钟",
         "task_id": "clou-026",
         "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…"
       },
       "cycle_started_at": "2026-11-27T05:41:25Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "89秒",
-      "elapsed_sec": 89,
-      "last_cycle_ended": "2026-11-27T05:42:54Z",
+      "elapsed": "4分钟",
+      "elapsed_sec": 248,
+      "last_cycle_ended": "2026-11-27T05:45:32Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -35,14 +35,14 @@
         "claimed_at": "2026-11-27T05:41:01Z",
         "claimed_by": "pool-optimization-seat-1-11716-4b02484b",
         "claimed_by_zh": "池优化 席位11716",
-        "claimed_for": "1分钟",
+        "claimed_for": "4分钟",
         "task_id": "pool-1961",
         "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…"
       },
       "cycle_started_at": "2026-11-27T05:41:01Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "1分钟",
-      "elapsed_sec": 113,
+      "elapsed": "4分钟",
+      "elapsed_sec": 272,
       "last_cycle_ended": "2026-11-27T05:41:55Z",
       "name_zh": "池优化",
       "state": "running",
@@ -52,38 +52,38 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-27T05:42:31Z",
+        "claimed_at": "2026-11-27T05:44:35Z",
         "claimed_by": "security-seat-1-13055-bfc8d7f0",
         "claimed_by_zh": "安全 席位13055",
-        "claimed_for": "23秒",
+        "claimed_for": "58秒",
         "task_id": "secu-018",
         "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…"
       },
-      "cycle_started_at": "2026-11-27T05:42:31Z",
+      "cycle_started_at": "2026-11-27T05:44:35Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "23秒",
-      "elapsed_sec": 23,
-      "last_cycle_ended": "2026-11-27T05:42:40Z",
+      "elapsed": "58秒",
+      "elapsed_sec": 58,
+      "last_cycle_ended": "2026-11-27T05:45:22Z",
       "name_zh": "安全",
       "state": "running",
       "workstream": "security"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 2,
+      "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-27T05:42:50Z",
-        "claimed_by": "cloud-script-migration",
-        "claimed_by_zh": "云脚本迁移",
-        "claimed_for": "4秒",
-        "task_id": "oper-961",
-        "title": "[inputs: llm-workers/event_stream.jsonl, fleet-ops/board-store-slim.json…"
+        "claimed_at": "2026-11-27T05:44:58Z",
+        "claimed_by": "operations-seat-1-13987-3d4c3801",
+        "claimed_by_zh": "运维 席位13987",
+        "claimed_for": "35秒",
+        "task_id": "oper-958",
+        "title": "[inputs: fleet-ops/tombstone-increment-extract.json…"
       },
-      "cycle_started_at": "2026-11-27T05:41:51Z",
+      "cycle_started_at": "2026-11-27T05:44:58Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "63秒",
-      "elapsed_sec": 63,
-      "last_cycle_ended": "2026-11-27T05:42:54Z",
+      "elapsed": "35秒",
+      "elapsed_sec": 35,
+      "last_cycle_ended": "2026-11-27T05:45:33Z",
       "name_zh": "运维",
       "state": "running",
       "workstream": "operations"
@@ -120,11 +120,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 89,
+          "claimed_age_sec": 248,
           "claimed_at": "2026-11-27T05:41:25Z",
           "claimed_by": "float",
           "claimed_by_zh": "机动",
-          "claimed_for": "89秒",
+          "claimed_for": "4分钟",
           "task_id": "clou-026",
           "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…",
           "workstream": "cloud-script-migration"
@@ -145,33 +145,33 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 113,
+          "claimed_age_sec": 272,
           "claimed_at": "2026-11-27T05:41:01Z",
           "claimed_by": "pool-optimization-seat-1-11716-4b02484b",
           "claimed_by_zh": "池优化 席位11716",
-          "claimed_for": "1分钟",
+          "claimed_for": "4分钟",
           "task_id": "pool-1958",
           "title": "[inputs: llm-workers/manager.py, llm-workers/board_store.py…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 113,
+          "claimed_age_sec": 272,
           "claimed_at": "2026-11-27T05:41:01Z",
           "claimed_by": "pool-optimization-seat-1-11716-4b02484b",
           "claimed_by_zh": "池优化 席位11716",
-          "claimed_for": "1分钟",
+          "claimed_for": "4分钟",
           "task_id": "pool-1960",
           "title": "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 113,
+          "claimed_age_sec": 272,
           "claimed_at": "2026-11-27T05:41:01Z",
           "claimed_by": "pool-optimization-seat-1-11716-4b02484b",
           "claimed_by_zh": "池优化 席位11716",
-          "claimed_for": "1分钟",
+          "claimed_for": "4分钟",
           "task_id": "pool-1961",
           "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
           "workstream": "pool-optimization"
@@ -194,11 +194,11 @@
       "claimed_now": [
         {
           "board_zh": "安全",
-          "claimed_age_sec": 23,
-          "claimed_at": "2026-11-27T05:42:31Z",
+          "claimed_age_sec": 58,
+          "claimed_at": "2026-11-27T05:44:35Z",
           "claimed_by": "security-seat-1-13055-bfc8d7f0",
           "claimed_by_zh": "安全 席位13055",
-          "claimed_for": "23秒",
+          "claimed_for": "58秒",
           "task_id": "secu-018",
           "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
           "workstream": "security"
@@ -219,24 +219,13 @@
       "claimed_now": [
         {
           "board_zh": "运维",
-          "claimed_age_sec": 63,
-          "claimed_at": "2026-11-27T05:41:51Z",
+          "claimed_age_sec": 35,
+          "claimed_at": "2026-11-27T05:44:58Z",
           "claimed_by": "operations-seat-1-13987-3d4c3801",
           "claimed_by_zh": "运维 席位13987",
-          "claimed_for": "63秒",
+          "claimed_for": "35秒",
           "task_id": "oper-958",
           "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
-          "workstream": "operations"
-        },
-        {
-          "board_zh": "运维",
-          "claimed_age_sec": 4,
-          "claimed_at": "2026-11-27T05:42:50Z",
-          "claimed_by": "cloud-script-migration",
-          "claimed_by_zh": "云脚本迁移",
-          "claimed_for": "4秒",
-          "task_id": "oper-961",
-          "title": "[inputs: llm-workers/event_stream.jsonl, fleet-ops/board-store-slim.json…",
           "workstream": "operations"
         }
       ],
@@ -267,79 +256,68 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 113,
+      "claimed_age_sec": 272,
       "claimed_at": "2026-11-27T05:41:01Z",
       "claimed_by": "pool-optimization-seat-1-11716-4b02484b",
       "claimed_by_zh": "池优化 席位11716",
-      "claimed_for": "1分钟",
+      "claimed_for": "4分钟",
       "task_id": "pool-1958",
       "title": "[inputs: llm-workers/manager.py, llm-workers/board_store.py…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 113,
+      "claimed_age_sec": 272,
       "claimed_at": "2026-11-27T05:41:01Z",
       "claimed_by": "pool-optimization-seat-1-11716-4b02484b",
       "claimed_by_zh": "池优化 席位11716",
-      "claimed_for": "1分钟",
+      "claimed_for": "4分钟",
       "task_id": "pool-1960",
       "title": "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 113,
+      "claimed_age_sec": 272,
       "claimed_at": "2026-11-27T05:41:01Z",
       "claimed_by": "pool-optimization-seat-1-11716-4b02484b",
       "claimed_by_zh": "池优化 席位11716",
-      "claimed_for": "1分钟",
+      "claimed_for": "4分钟",
       "task_id": "pool-1961",
       "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 89,
+      "claimed_age_sec": 248,
       "claimed_at": "2026-11-27T05:41:25Z",
       "claimed_by": "float",
       "claimed_by_zh": "机动",
-      "claimed_for": "89秒",
+      "claimed_for": "4分钟",
       "task_id": "clou-026",
       "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…",
       "workstream": "cloud-script-migration"
     },
     {
-      "board_zh": "运维",
-      "claimed_age_sec": 63,
-      "claimed_at": "2026-11-27T05:41:51Z",
-      "claimed_by": "operations-seat-1-13987-3d4c3801",
-      "claimed_by_zh": "运维 席位13987",
-      "claimed_for": "63秒",
-      "task_id": "oper-958",
-      "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
-      "workstream": "operations"
-    },
-    {
       "board_zh": "安全",
-      "claimed_age_sec": 23,
-      "claimed_at": "2026-11-27T05:42:31Z",
+      "claimed_age_sec": 58,
+      "claimed_at": "2026-11-27T05:44:35Z",
       "claimed_by": "security-seat-1-13055-bfc8d7f0",
       "claimed_by_zh": "安全 席位13055",
-      "claimed_for": "23秒",
+      "claimed_for": "58秒",
       "task_id": "secu-018",
       "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
       "workstream": "security"
     },
     {
       "board_zh": "运维",
-      "claimed_age_sec": 4,
-      "claimed_at": "2026-11-27T05:42:50Z",
-      "claimed_by": "cloud-script-migration",
-      "claimed_by_zh": "云脚本迁移",
-      "claimed_for": "4秒",
-      "task_id": "oper-961",
-      "title": "[inputs: llm-workers/event_stream.jsonl, fleet-ops/board-store-slim.json…",
+      "claimed_age_sec": 35,
+      "claimed_at": "2026-11-27T05:44:58Z",
+      "claimed_by": "operations-seat-1-13987-3d4c3801",
+      "claimed_by_zh": "运维 席位13987",
+      "claimed_for": "35秒",
+      "task_id": "oper-958",
+      "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
       "workstream": "operations"
     }
   ],
@@ -376,27 +354,16 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T05:42:54Z",
-  "generated_at_utc": "2026-11-27T05:42:54Z",
+  "generated_at": "2026-11-27T05:45:33Z",
+  "generated_at_utc": "2026-11-27T05:45:33Z",
   "live_pi_workers": {
     "by_model": {
       "ai-cf-3/free-laguna": 2,
-      "crowllm/deepseek-v4-flash-0731-thinking:free": 2,
-      "crowllm/nemotron-3-ultra-550b-a55b:free": 4,
+      "crowllm/nemotron-3-ultra-550b-a55b:free": 2,
       "token-harbor/deepseek-v4-flash:free": 2,
       "xingchi/gpt-6.1-sol#strict": 2
     },
     "running": [
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 9455,
-        "title": "[code] [boss-accept]  Event-stream credibility audit (structure-meeting ruling 2"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 9456,
-        "title": "[code] [boss-accept]  Event-stream credibility audit (structure-meeting ruling 2"
-      },
       {
         "model": "token-harbor/deepseek-v4-flash:free",
         "pid": 11753,
@@ -416,16 +383,6 @@
         "model": "ai-cf-3/free-laguna",
         "pid": 13366,
         "title": "[code] [boss-accept]  Lease-fence block-rate drill (meeting ruling 2026-11-27, n"
-      },
-      {
-        "model": "crowllm/nemotron-3-ultra-550b-a55b:free",
-        "pid": 13437,
-        "title": "[code] [boss-accept]  Event-stream credibility audit (structure-meeting ruling 2"
-      },
-      {
-        "model": "crowllm/nemotron-3-ultra-550b-a55b:free",
-        "pid": 13438,
-        "title": "[code] [boss-accept]  Event-stream credibility audit (structure-meeting ruling 2"
       },
       {
         "model": "xingchi/gpt-6.1-sol#strict",
@@ -448,7 +405,7 @@
         "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
       }
     ],
-    "total": 12
+    "total": 8
   },
   "managers": [
     {
@@ -736,7 +693,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -744,7 +701,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -752,7 +709,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -760,7 +717,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -768,7 +725,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -776,7 +733,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -784,7 +741,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -792,7 +749,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -800,7 +757,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -808,7 +765,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 200000,
@@ -824,7 +781,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -832,7 +789,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -840,7 +797,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -848,7 +805,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -856,7 +813,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -864,7 +821,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -872,7 +829,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -880,7 +837,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -888,7 +845,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 200000,
@@ -904,7 +861,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -912,7 +869,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -920,7 +877,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -928,7 +885,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -936,7 +893,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -944,7 +901,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -952,7 +909,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -960,7 +917,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -968,7 +925,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 200000,
@@ -1056,7 +1013,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 20
+        "used": 26
       },
       {
         "cap": 300,
@@ -1272,7 +1229,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 230
+        "used": 231
       },
       {
         "cap": 300,
@@ -1280,7 +1237,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 230
+        "used": 231
       },
       {
         "cap": 300,
@@ -1288,7 +1245,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 230
+        "used": 231
       },
       {
         "cap": 300,
@@ -1296,7 +1253,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 230
+        "used": 231
       },
       {
         "cap": 1000,
@@ -1488,7 +1445,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 27
+        "used": 29
       },
       {
         "cap": 200000,
@@ -1496,7 +1453,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 22
+        "used": 23
       },
       {
         "cap": 200000,
@@ -1504,7 +1461,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 19
+        "used": 20
       },
       {
         "cap": 200000,
@@ -1512,7 +1469,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 1677
+        "used": 1681
       },
       {
         "cap": 300,
@@ -1938,7 +1895,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -1946,7 +1903,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -1954,7 +1911,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -1962,7 +1919,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -1970,7 +1927,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -1978,7 +1935,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -1986,7 +1943,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -1994,7 +1951,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -2002,7 +1959,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 20000,
@@ -2010,7 +1967,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf",
-        "used": 38
+        "used": 49
       },
       {
         "cap": 200000,
@@ -2026,7 +1983,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -2034,7 +1991,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -2042,7 +1999,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -2050,7 +2007,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -2058,7 +2015,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -2066,7 +2023,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -2074,7 +2031,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -2082,7 +2039,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 20000,
@@ -2090,7 +2047,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-2",
-        "used": 36
+        "used": 46
       },
       {
         "cap": 200000,
@@ -2106,7 +2063,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -2114,7 +2071,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -2122,7 +2079,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -2130,7 +2087,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -2138,7 +2095,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -2146,7 +2103,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -2154,7 +2111,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -2162,7 +2119,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 20000,
@@ -2170,7 +2127,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 42
+        "used": 52
       },
       {
         "cap": 200000,
@@ -2258,7 +2215,7 @@
         "healthy": true,
         "model": "nemotron-3-ultra-550b-a55b:free",
         "provider": "crowllm",
-        "used": 20
+        "used": 26
       },
       {
         "cap": 300,
@@ -2474,7 +2431,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 230
+        "used": 231
       },
       {
         "cap": 300,
@@ -2482,7 +2439,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 230
+        "used": 231
       },
       {
         "cap": 300,
@@ -2490,7 +2447,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 230
+        "used": 231
       },
       {
         "cap": 300,
@@ -2498,7 +2455,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 230
+        "used": 231
       },
       {
         "cap": 1000,
@@ -2690,7 +2647,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 27
+        "used": 29
       },
       {
         "cap": 200000,
@@ -2698,7 +2655,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 22
+        "used": 23
       },
       {
         "cap": 200000,
@@ -2706,7 +2663,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 19
+        "used": 20
       },
       {
         "cap": 200000,
@@ -2714,7 +2671,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 1677
+        "used": 1681
       },
       {
         "cap": 300,
@@ -2917,44 +2874,8 @@
   "recent_completions": [
     {
       "age_sec": 0,
-      "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-27T05:42:54Z",
-      "completed_by": "float",
-      "completed_by_zh": "机动",
-      "completed_ts_source": "result.txt",
-      "task_id": "clou-026",
-      "task_no": 25,
-      "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "age_sec": 0,
       "board_zh": "运维",
-      "completed_at": "2026-11-27T05:42:54Z",
-      "completed_by": "cloud-script-migration",
-      "completed_by_zh": "云脚本迁移",
-      "completed_ts_source": "result.txt",
-      "task_id": "oper-961",
-      "task_no": 22,
-      "title": "[inputs: llm-workers/event_stream.jsonl, fleet-ops/board-store-slim.json…",
-      "workstream": "operations"
-    },
-    {
-      "age_sec": 13,
-      "board_zh": "安全",
-      "completed_at": "2026-11-27T05:42:40Z",
-      "completed_by": "security-seat-1-13055-bfc8d7f0",
-      "completed_by_zh": "安全 席位13055",
-      "completed_ts_source": "result.txt",
-      "task_id": "secu-018",
-      "task_no": 17,
-      "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
-      "workstream": "security"
-    },
-    {
-      "age_sec": 16,
-      "board_zh": "运维",
-      "completed_at": "2026-11-27T05:42:37Z",
+      "completed_at": "2026-11-27T05:45:33Z",
       "completed_by": "operations-seat-1-13987-3d4c3801",
       "completed_by_zh": "运维 席位13987",
       "completed_ts_source": "result.txt",
@@ -2964,7 +2885,43 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 58,
+      "age_sec": 0,
+      "board_zh": "云脚本迁移",
+      "completed_at": "2026-11-27T05:45:32Z",
+      "completed_by": "float",
+      "completed_by_zh": "机动",
+      "completed_ts_source": "result.txt",
+      "task_id": "clou-026",
+      "task_no": 25,
+      "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…",
+      "workstream": "cloud-script-migration"
+    },
+    {
+      "age_sec": 11,
+      "board_zh": "安全",
+      "completed_at": "2026-11-27T05:45:22Z",
+      "completed_by": "security-seat-1-13055-bfc8d7f0",
+      "completed_by_zh": "安全 席位13055",
+      "completed_ts_source": "result.txt",
+      "task_id": "secu-018",
+      "task_no": 17,
+      "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
+      "workstream": "security"
+    },
+    {
+      "age_sec": 124,
+      "board_zh": "运维",
+      "completed_at": "2026-11-27T05:43:28Z",
+      "completed_by": "cloud-script-migration",
+      "completed_by_zh": "云脚本迁移",
+      "completed_ts_source": "done",
+      "task_id": "oper-961",
+      "task_no": 22,
+      "title": "[inputs: llm-workers/event_stream.jsonl, fleet-ops/board-store-slim.json…",
+      "workstream": "operations"
+    },
+    {
+      "age_sec": 217,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T05:41:55Z",
       "completed_by": "pool-optimization-seat-1-11716-4b02484b",
@@ -2976,7 +2933,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 257,
+      "age_sec": 416,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T05:38:36Z",
       "completed_by": "pool-optimization-seat-1-11716-4b02484b",
@@ -2988,7 +2945,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 342,
+      "age_sec": 501,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T05:37:11Z",
       "completed_by": "pool-optimization-seat-1-11716-4b02484b",
@@ -3000,7 +2957,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 2127,
+      "age_sec": 2287,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -3012,7 +2969,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 6029,
+      "age_sec": 6189,
       "board_zh": "安全",
       "completed_at": "2026-11-27T04:02:24Z",
       "completed_by": "security-seat-1-15890-eda53826",
@@ -3024,7 +2981,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 40903,
+      "age_sec": 41062,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T18:21:10Z",
       "completed_by": null,
@@ -3045,22 +3002,11 @@
   "workers": {
     "by_model": {
       "ai-cf-3/free-laguna": 2,
-      "crowllm/deepseek-v4-flash-0731-thinking:free": 2,
-      "crowllm/nemotron-3-ultra-550b-a55b:free": 4,
+      "crowllm/nemotron-3-ultra-550b-a55b:free": 2,
       "token-harbor/deepseek-v4-flash:free": 2,
       "xingchi/gpt-6.1-sol#strict": 2
     },
     "running": [
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 9455,
-        "title": "[code] [boss-accept]  Event-stream credibility audit (structure-meeting ruling 2"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 9456,
-        "title": "[code] [boss-accept]  Event-stream credibility audit (structure-meeting ruling 2"
-      },
       {
         "model": "token-harbor/deepseek-v4-flash:free",
         "pid": 11753,
@@ -3080,16 +3026,6 @@
         "model": "ai-cf-3/free-laguna",
         "pid": 13366,
         "title": "[code] [boss-accept]  Lease-fence block-rate drill (meeting ruling 2026-11-27, n"
-      },
-      {
-        "model": "crowllm/nemotron-3-ultra-550b-a55b:free",
-        "pid": 13437,
-        "title": "[code] [boss-accept]  Event-stream credibility audit (structure-meeting ruling 2"
-      },
-      {
-        "model": "crowllm/nemotron-3-ultra-550b-a55b:free",
-        "pid": 13438,
-        "title": "[code] [boss-accept]  Event-stream credibility audit (structure-meeting ruling 2"
       },
       {
         "model": "xingchi/gpt-6.1-sol#strict",
@@ -3112,20 +3048,16 @@
         "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
       }
     ],
-    "total": 12
+    "total": 8
   },
   "workers_detail": [
-    {
-      "count": 4,
-      "model": "crowllm/nemotron-3-ultra-550b-a55b:free"
-    },
     {
       "count": 2,
       "model": "ai-cf-3/free-laguna"
     },
     {
       "count": 2,
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free"
+      "model": "crowllm/nemotron-3-ultra-550b-a55b:free"
     },
     {
       "count": 2,
@@ -3137,16 +3069,6 @@
     }
   ],
   "workers_running": [
-    {
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-      "pid": 9455,
-      "title": "[code] [boss-accept]  Event-stream credibility audit (structure-meeting ruling 2"
-    },
-    {
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-      "pid": 9456,
-      "title": "[code] [boss-accept]  Event-stream credibility audit (structure-meeting ruling 2"
-    },
     {
       "model": "token-harbor/deepseek-v4-flash:free",
       "pid": 11753,
@@ -3166,16 +3088,6 @@
       "model": "ai-cf-3/free-laguna",
       "pid": 13366,
       "title": "[code] [boss-accept]  Lease-fence block-rate drill (meeting ruling 2026-11-27, n"
-    },
-    {
-      "model": "crowllm/nemotron-3-ultra-550b-a55b:free",
-      "pid": 13437,
-      "title": "[code] [boss-accept]  Event-stream credibility audit (structure-meeting ruling 2"
-    },
-    {
-      "model": "crowllm/nemotron-3-ultra-550b-a55b:free",
-      "pid": 13438,
-      "title": "[code] [boss-accept]  Event-stream credibility audit (structure-meeting ruling 2"
     },
     {
       "model": "xingchi/gpt-6.1-sol#strict",
@@ -3241,11 +3153,11 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] [inputs: llm-workers/event_stream.jsonl, fleet-ops/board-store-slim.json, llm-workers/meetings/20261127-structure-note.md, llm-workers/meetings/20261126T193103Z.md, fleet-ops/structure-meeting-datapack-20261127.md] Event-stream credibility audit (structure-meeting ruling 2026-11-27, note meetings/20261127-structure-note.md ruling 1): audit the event stream's credibility BEFORE any style-change pilot. | (1) Regression set: the 194 fake-completion events, checked one by one against writer/epoch/receipt chain, with independent logs + hashes verifying board-state consistency. (2) Blind holdout: seal 100 fresh tasks that took no part in any fix, with task text + original deliverables; security line blind-judges them WITHOUT seeing the system's verdicts, then publish correct/false-positive/false-negative counts WITH denominators. (3) Deliver the borrowing denominator table (total tasks + borrowed-from counts per line, 2026-11-22 to 2026-11-26) and a chain-task ownership draft (a task whose head is mechanical collection and tail is judgment acceptance belongs to whom). Gate: NO pilot opens until this audit passes. Earlier attempts left partial work in the runner out dir (audit-credibility.json and audit-20261127* dirs) - verify it against the staged sources (the board-store input is the boss-sealed slim extract fleet-ops/board-store-slim.json, generated 2026-11-27T04:46Z - a sealed snapshot for the audit window) and reuse what holds. Deliverable: out/<task>/audit-report.md whose FIRST LINE is exactly: # Event-stream credibility audit - with sampling method, misjudgment rate with denominators, verdict, denominator table, chain-task draft. Metrics: misjudgment-rate baseline unmeasured -> reported value with sampling method; audit verdict pass/fail; due 2026-11-29; recheck 2026-12-03 digest. | selftest:# Event-stream credibility audit (claimed-by cloud-script-migration 2026-11-27T05:42:50Z)"
+            "title": "[code] [boss-accept] [inputs: llm-workers/event_stream.jsonl, fleet-ops/board-store-slim.json, llm-workers/meetings/20261127-structure-note.md, llm-workers/meetings/20261126T193103Z.md, fleet-ops/structure-meeting-datapack-20261127.md] Event-stream credibility audit (structure-meeting ruling 2026-11-27, note meetings/20261127-structure-note.md ruling 1): audit the event stream's credibility BEFORE any style-change pilot. | (1) Regression set: the 194 fake-completion events, checked one by one against writer/epoch/receipt chain, with independent logs + hashes verifying board-state consistency. (2) Blind holdout: seal 100 fresh tasks that took no part in any fix, with task text + original deliverables; security line blind-judges them WITHOUT seeing the system's verdicts, then publish correct/false-positive/false-negative counts WITH denominators. (3) Deliver the borrowing denominator table (total tasks + borrowed-from counts per line, 2026-11-22 to 2026-11-26) and a chain-task ownership draft (a task whose head is mechanical collection and tail is judgment acceptance belongs to whom). Gate: NO pilot opens until this audit passes. Earlier attempts left partial work in the runner out dir (audit-credibility.json and audit-20261127* dirs) - verify it against the staged sources (the board-store input is the boss-sealed slim extract fleet-ops/board-store-slim.json, generated 2026-11-27T04:46Z - a sealed snapshot for the audit window) and reuse what holds. Deliverable: out/<task>/audit-report.md whose FIRST LINE is exactly: # Event-stream credibility audit - with sampling method, misjudgment rate with denominators, verdict, denominator table, chain-task draft. Metrics: misjudgment-rate baseline unmeasured -> reported value with sampling method; audit verdict pass/fail; due 2026-11-29; recheck 2026-12-03 digest. | selftest:# Event-stream credibility audit (claimed-by cloud-script-migration 2026-11-27T05:42:50Z) (completion claimed by cloud-script-migration 2026-11-27T05:43:31Z - pending boss acceptance)"
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] [inputs: fleet-ops/tombstone-increment-extract.json, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md] Tombstone burst attribution (recurrence-meeting ruling 2026-11-27, note meetings/20261127-recurrence-note.md ruling 2) [est:30m] | Attribute the 2026-11-27 tombstone burst: 2802 vanished records, each id minted once, first_seen 2026-11-27T04:07:02Z..04:13Z, all on the pool-optimization (1868) and operations (934) boards, texts are historical tasks. The staged extract carries every burst record (id, ws, fingerprint, first/last seen, text head). For the burst as a whole and for a 20-record sample: name the minting writer and mechanism (which process, which sync call, which board content it parsed), using supervisor cycle logs and the code versions in force (input-gate patch ~03:50Z, EXEC_RE fix ~04:06Z, the boss's verification batch 04:07-04:13Z). Distinguish production-cycle minting from verification-side effects with evidence, not plausibility. Tombstones stay archived: do not delete or edit the store; end with a disposition proposal for the 2026-11-29 recheck (keep / cold-archive compaction) and, if the mechanism can still mint, a guard proposal. Deliverable: out/<task>/attribution.md, first line exactly: # Tombstone attribution. Metric: burst mechanism named with log/code evidence; sample attribution 20/20; due 2026-11-29; recheck 2026-12-03. | selftest:# Tombstone attribution (claimed-by operations-seat-1-13987-3d4c3801 2026-11-27T05:41:51Z)"
+            "title": "[code] [boss-accept] [inputs: fleet-ops/tombstone-increment-extract.json, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md] Tombstone burst attribution (recurrence-meeting ruling 2026-11-27, note meetings/20261127-recurrence-note.md ruling 2) [est:30m] | Attribute the 2026-11-27 tombstone burst: 2802 vanished records, each id minted once, first_seen 2026-11-27T04:07:02Z..04:13Z, all on the pool-optimization (1868) and operations (934) boards, texts are historical tasks. The staged extract carries every burst record (id, ws, fingerprint, first/last seen, text head). For the burst as a whole and for a 20-record sample: name the minting writer and mechanism (which process, which sync call, which board content it parsed), using supervisor cycle logs and the code versions in force (input-gate patch ~03:50Z, EXEC_RE fix ~04:06Z, the boss's verification batch 04:07-04:13Z). Distinguish production-cycle minting from verification-side effects with evidence, not plausibility. Tombstones stay archived: do not delete or edit the store; end with a disposition proposal for the 2026-11-29 recheck (keep / cold-archive compaction) and, if the mechanism can still mint, a guard proposal. Deliverable: out/<task>/attribution.md, first line exactly: # Tombstone attribution. Metric: burst mechanism named with log/code evidence; sample attribution 20/20; due 2026-11-29; recheck 2026-12-03. | selftest:# Tombstone attribution (claimed-by operations-seat-1-13987-3d4c3801 2026-11-27T05:44:58Z)"
           }
         ],
         "open": 2
@@ -3301,7 +3213,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] [inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.249ef543cde2.drift, fleet-ops/drift-evidence-copies/control.json.20261126T122552Z.b897a081a05b.drift, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md, llm-workers/control.json] Config-drift writer forensics (recurrence-meeting ruling 2026-11-27, ruling 3) [est:40m] | The sentinel reverted 21 config drifts since 2026-11-22 and the writer is still unknown. Staged evidence: the only two preserved drift byte-files (both control.json) - preservation covering 2 of 21 events is itself a finding to record. For each of the 21 config.drift_reverted events (timestamps in the event stream; ask operations for the extract if you cannot read it staged): correlate preserved bytes, blessed sha history and manager cycle timing; verdict per event = writer named / bypass class named / unknown with the missing evidence named. Then state the single-writer convergence design (who may write control.json and its sibling configs, how the write is authorized and read back) - design only, no production change in this task. Deliverable: out/<task>/drift-forensics.md, first line exactly: # Config-drift forensics. Metric: 21/21 events carry a verdict; unknowns name their missing evidence; due 2026-11-29; recheck 2026-12-03. | selftest:# Config-drift forensics (claimed-by security-seat-1-13055-bfc8d7f0 2026-11-27T05:42:31Z)"
+            "title": "[code] [boss-accept] [inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.249ef543cde2.drift, fleet-ops/drift-evidence-copies/control.json.20261126T122552Z.b897a081a05b.drift, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md, llm-workers/control.json] Config-drift writer forensics (recurrence-meeting ruling 2026-11-27, ruling 3) [est:40m] | The sentinel reverted 21 config drifts since 2026-11-22 and the writer is still unknown. Staged evidence: the only two preserved drift byte-files (both control.json) - preservation covering 2 of 21 events is itself a finding to record. For each of the 21 config.drift_reverted events (timestamps in the event stream; ask operations for the extract if you cannot read it staged): correlate preserved bytes, blessed sha history and manager cycle timing; verdict per event = writer named / bypass class named / unknown with the missing evidence named. Then state the single-writer convergence design (who may write control.json and its sibling configs, how the write is authorized and read back) - design only, no production change in this task. Deliverable: out/<task>/drift-forensics.md, first line exactly: # Config-drift forensics. Metric: 21/21 events carry a verdict; unknowns name their missing evidence; due 2026-11-29; recheck 2026-12-03. | selftest:# Config-drift forensics (claimed-by security-seat-1-13055-bfc8d7f0 2026-11-27T05:44:35Z)"
           }
         ],
         "open": 1
