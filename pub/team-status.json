@@ -1,8 +1,8 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T02:42:33Z",
+    "activity_generated_at": "2026-11-27T02:45:05Z",
     "empty_reasons": {
-      "claimed_now": null,
+      "claimed_now": "no open board task carries a live claim record",
       "recent_completions": null,
       "workers_running": "no jobs/*.json without a .done/.closed marker"
     }
@@ -10,82 +10,54 @@
   "admin_cycles": [
     {
       "active_jobs": 0,
-      "claimed_count": 1,
-      "current_task": {
-        "claimed_at": "2026-11-27T02:35:14Z",
-        "claimed_by": "float",
-        "claimed_by_zh": "机动",
-        "claimed_for": "7分钟",
-        "task_id": "clou-025",
-        "title": "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…"
-      },
-      "cycle_started_at": "2026-11-27T02:35:14Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "7分钟",
-      "elapsed_sec": 439,
-      "last_cycle_ended": "2026-11-27T02:42:22Z",
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
+      "last_cycle_ended": "2026-11-27T02:43:00Z",
       "name_zh": "云脚本迁移",
-      "state": "running",
+      "state": "idle",
       "workstream": "cloud-script-migration"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 2,
-      "current_task": {
-        "claimed_at": "2026-11-27T02:41:35Z",
-        "claimed_by": "pool-optimization-seat-1-27480-61467ea8",
-        "claimed_by_zh": "池优化 席位27480",
-        "claimed_for": "58秒",
-        "task_id": "pool-085",
-        "title": "D-style design: mechanical work to script flow, judgment work stays…"
-      },
-      "cycle_started_at": "2026-11-27T02:41:35Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "58秒",
-      "elapsed_sec": 58,
-      "last_cycle_ended": "2026-11-27T02:42:31Z",
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
+      "last_cycle_ended": "2026-11-27T02:43:00Z",
       "name_zh": "池优化",
-      "state": "running",
+      "state": "idle",
       "workstream": "pool-optimization"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 1,
-      "current_task": {
-        "claimed_at": "2026-11-27T02:32:37Z",
-        "claimed_by": "security-seat-1-24215-b6957bab",
-        "claimed_by_zh": "安全 席位24215",
-        "claimed_for": "9分钟",
-        "task_id": "secu-016",
-        "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…"
-      },
-      "cycle_started_at": "2026-11-27T02:32:37Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "9分钟",
-      "elapsed_sec": 596,
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
       "last_cycle_ended": "2026-11-27T02:41:57Z",
       "name_zh": "安全",
-      "state": "running",
+      "state": "idle",
       "workstream": "security"
     },
     {
       "active_jobs": 0,
-      "claimed_count": 2,
-      "current_task": {
-        "claimed_at": "2026-11-27T02:38:53Z",
-        "claimed_by": "operations-seat-1-25415-1b8d28bd",
-        "claimed_by_zh": "运维 席位25415",
-        "claimed_for": "3分钟",
-        "task_id": "oper-022",
-        "title": "Event-stream credibility audit (structure-meeting ruling 2026-11-27…"
-      },
-      "cycle_started_at": "2026-11-27T02:26:22Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "16分钟",
-      "elapsed_sec": 971,
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
       "last_cycle_ended": "2026-11-27T02:42:32Z",
       "name_zh": "运维",
-      "state": "running",
+      "state": "idle",
       "workstream": "operations"
     },
     {
@@ -117,19 +89,7 @@
   ],
   "boards": [
     {
-      "claimed_now": [
-        {
-          "board_zh": "云脚本迁移",
-          "claimed_age_sec": 439,
-          "claimed_at": "2026-11-27T02:35:14Z",
-          "claimed_by": "float",
-          "claimed_by_zh": "机动",
-          "claimed_for": "7分钟",
-          "task_id": "clou-025",
-          "title": "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…",
-          "workstream": "cloud-script-migration"
-        }
-      ],
+      "claimed_now": [],
       "done": 24,
       "escalation_latest": "BLOCKED.md: reason: Required lease-fence drill inputs are absent from the permitted working directory, so the three real stalled-task…",
       "name_zh": "云脚本迁移",
@@ -137,35 +97,12 @@
         "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…"
       ],
       "open": 1,
-      "status_updated": "2026-11-27T02:27:08Z",
+      "status_updated": "2026-11-27T02:42:49Z",
       "total": 25,
       "workstream": "cloud-script-migration"
     },
     {
-      "claimed_now": [
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 58,
-          "claimed_at": "2026-11-27T02:41:35Z",
-          "claimed_by": "pool-optimization-seat-1-27480-61467ea8",
-          "claimed_by_zh": "池优化 席位27480",
-          "claimed_for": "58秒",
-          "task_id": "pool-084",
-          "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
-          "workstream": "pool-optimization"
-        },
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 58,
-          "claimed_at": "2026-11-27T02:41:35Z",
-          "claimed_by": "pool-optimization-seat-1-27480-61467ea8",
-          "claimed_by_zh": "池优化 席位27480",
-          "claimed_for": "58秒",
-          "task_id": "pool-085",
-          "title": "D-style design: mechanical work to script flow, judgment work stays…",
-          "workstream": "pool-optimization"
-        }
-      ],
+      "claimed_now": [],
       "done": 81,
       "escalation_latest": "blocked-file: out/task-084/BLOCKED.md",
       "name_zh": "池优化",
@@ -180,19 +117,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "claimed_now": [
-        {
-          "board_zh": "安全",
-          "claimed_age_sec": 596,
-          "claimed_at": "2026-11-27T02:32:37Z",
-          "claimed_by": "security-seat-1-24215-b6957bab",
-          "claimed_by_zh": "安全 席位24215",
-          "claimed_for": "9分钟",
-          "task_id": "secu-016",
-          "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…",
-          "workstream": "security"
-        }
-      ],
+      "claimed_now": [],
       "done": 15,
       "escalation_latest": "runner exit: 1",
       "name_zh": "安全",
@@ -205,30 +130,7 @@
       "workstream": "security"
     },
     {
-      "claimed_now": [
-        {
-          "board_zh": "运维",
-          "claimed_age_sec": 971,
-          "claimed_at": "2026-11-27T02:26:22Z",
-          "claimed_by": "operations-seat-1-22844-a12877d8",
-          "claimed_by_zh": "运维 席位22844",
-          "claimed_for": "16分钟",
-          "task_id": "oper-021",
-          "title": "Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27…",
-          "workstream": "operations"
-        },
-        {
-          "board_zh": "运维",
-          "claimed_age_sec": 220,
-          "claimed_at": "2026-11-27T02:38:53Z",
-          "claimed_by": "operations-seat-1-25415-1b8d28bd",
-          "claimed_by_zh": "运维 席位25415",
-          "claimed_for": "3分钟",
-          "task_id": "oper-022",
-          "title": "Event-stream credibility audit (structure-meeting ruling 2026-11-27…",
-          "workstream": "operations"
-        }
-      ],
+      "claimed_now": [],
       "done": 20,
       "escalation_latest": "BLOCKED.md: reason: Idle-help forensics is blocked at Step 0: the alias-check code, help_dispatches.jsonl, sweep trigger logs, and meeting…",
       "name_zh": "运维",
@@ -253,75 +155,8 @@
       "workstream": "spaces-data"
     }
   ],
-  "claimed_now": [
-    {
-      "board_zh": "运维",
-      "claimed_age_sec": 971,
-      "claimed_at": "2026-11-27T02:26:22Z",
-      "claimed_by": "operations-seat-1-22844-a12877d8",
-      "claimed_by_zh": "运维 席位22844",
-      "claimed_for": "16分钟",
-      "task_id": "oper-021",
-      "title": "Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27…",
-      "workstream": "operations"
-    },
-    {
-      "board_zh": "安全",
-      "claimed_age_sec": 596,
-      "claimed_at": "2026-11-27T02:32:37Z",
-      "claimed_by": "security-seat-1-24215-b6957bab",
-      "claimed_by_zh": "安全 席位24215",
-      "claimed_for": "9分钟",
-      "task_id": "secu-016",
-      "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…",
-      "workstream": "security"
-    },
-    {
-      "board_zh": "云脚本迁移",
-      "claimed_age_sec": 439,
-      "claimed_at": "2026-11-27T02:35:14Z",
-      "claimed_by": "float",
-      "claimed_by_zh": "机动",
-      "claimed_for": "7分钟",
-      "task_id": "clou-025",
-      "title": "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…",
-      "workstream": "cloud-script-migration"
-    },
-    {
-      "board_zh": "运维",
-      "claimed_age_sec": 220,
-      "claimed_at": "2026-11-27T02:38:53Z",
-      "claimed_by": "operations-seat-1-25415-1b8d28bd",
-      "claimed_by_zh": "运维 席位25415",
-      "claimed_for": "3分钟",
-      "task_id": "oper-022",
-      "title": "Event-stream credibility audit (structure-meeting ruling 2026-11-27…",
-      "workstream": "operations"
-    },
-    {
-      "board_zh": "池优化",
-      "claimed_age_sec": 58,
-      "claimed_at": "2026-11-27T02:41:35Z",
-      "claimed_by": "pool-optimization-seat-1-27480-61467ea8",
-      "claimed_by_zh": "池优化 席位27480",
-      "claimed_for": "58秒",
-      "task_id": "pool-084",
-      "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "board_zh": "池优化",
-      "claimed_age_sec": 58,
-      "claimed_at": "2026-11-27T02:41:35Z",
-      "claimed_by": "pool-optimization-seat-1-27480-61467ea8",
-      "claimed_by_zh": "池优化 席位27480",
-      "claimed_for": "58秒",
-      "task_id": "pool-085",
-      "title": "D-style design: mechanical work to script flow, judgment work stays…",
-      "workstream": "pool-optimization"
-    }
-  ],
-  "content_latest_at": "2026-11-27T02:40:36Z",
+  "claimed_now": [],
+  "content_latest_at": "2026-11-27T02:42:49Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 400,
@@ -354,87 +189,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T02:42:33Z",
-  "generated_at_utc": "2026-11-27T02:42:33Z",
+  "generated_at": "2026-11-27T02:45:05Z",
+  "generated_at_utc": "2026-11-27T02:45:05Z",
   "live_pi_workers": {
-    "by_model": {
-      "100milionseek-2/deepseek-v4.1-flash-free": 10,
-      "100milionseek-2/deepseek-v4.1-flash-free#strict": 2,
-      "token-harbor/deepseek-v4.1-flash:free": 2
-    },
-    "running": [
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 21955,
-        "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 21956,
-        "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
-      },
-      {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 22698,
-        "title": "[code] [boss-accept] D-style design: mechanical work to script flow, judgment wo"
-      },
-      {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 22699,
-        "title": "[code] [boss-accept] D-style design: mechanical work to script flow, judgment wo"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 22860,
-        "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 22861,
-        "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free#strict",
-        "pid": 24558,
-        "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free#strict",
-        "pid": 24559,
-        "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 25435,
-        "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 20"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 25436,
-        "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 20"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 25881,
-        "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 25882,
-        "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 27519,
-        "title": "[code] [boss-accept] D-style design: mechanical work to script flow, judgment wo"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 27520,
-        "title": "[code] [boss-accept] D-style design: mechanical work to script flow, judgment wo"
-      }
-    ],
-    "total": 14
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -501,7 +261,7 @@
     "disabled": [],
     "entries": [
       {
-        "cap": 1278,
+        "cap": 1000,
         "enabled": true,
         "healthy": false,
         "model": "deepseek-v4.1-flash-free",
@@ -722,7 +482,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -730,7 +490,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -738,7 +498,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -746,7 +506,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -754,7 +514,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -762,7 +522,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -770,7 +530,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -778,7 +538,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -786,7 +546,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -794,7 +554,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 200000,
@@ -802,7 +562,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 32
+        "used": 33
       },
       {
         "cap": 20000,
@@ -810,7 +570,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -818,7 +578,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -826,7 +586,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -834,7 +594,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -842,7 +602,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -850,7 +610,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -858,7 +618,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -866,7 +626,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -874,7 +634,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 200000,
@@ -882,7 +642,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 20000,
@@ -890,7 +650,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -898,7 +658,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -906,7 +666,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -914,7 +674,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -922,7 +682,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -930,7 +690,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -938,7 +698,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -946,7 +706,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -954,7 +714,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 200000,
@@ -962,7 +722,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 17
+        "used": 19
       },
       {
         "cap": 1000,
@@ -1474,7 +1234,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 18
+        "used": 22
       },
       {
         "cap": 200000,
@@ -1482,7 +1242,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 15
+        "used": 18
       },
       {
         "cap": 200000,
@@ -1490,7 +1250,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 13
+        "used": 15
       },
       {
         "cap": 200000,
@@ -1498,7 +1258,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 1150
+        "used": 1153
       },
       {
         "cap": 300,
@@ -1703,7 +1463,7 @@
     "disabled": [],
     "entries": [
       {
-        "cap": 1278,
+        "cap": 1000,
         "enabled": true,
         "healthy": false,
         "model": "deepseek-v4.1-flash-free",
@@ -1924,7 +1684,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -1932,7 +1692,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -1940,7 +1700,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -1948,7 +1708,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -1956,7 +1716,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -1964,7 +1724,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -1972,7 +1732,7 @@
         "healthy": true,
         "model": "free-step-5",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -1980,7 +1740,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -1988,7 +1748,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 20000,
@@ -1996,7 +1756,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf",
-        "used": 15
+        "used": 16
       },
       {
         "cap": 200000,
@@ -2004,7 +1764,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol",
-        "used": 32
+        "used": 33
       },
       {
         "cap": 20000,
@@ -2012,7 +1772,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -2020,7 +1780,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -2028,7 +1788,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -2036,7 +1796,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -2044,7 +1804,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -2052,7 +1812,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -2060,7 +1820,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -2068,7 +1828,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 20000,
@@ -2076,7 +1836,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-2",
-        "used": 13
+        "used": 14
       },
       {
         "cap": 200000,
@@ -2084,7 +1844,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-2",
-        "used": 24
+        "used": 25
       },
       {
         "cap": 20000,
@@ -2092,7 +1852,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -2100,7 +1860,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -2108,7 +1868,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -2116,7 +1876,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -2124,7 +1884,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -2132,7 +1892,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -2140,7 +1900,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -2148,7 +1908,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 20000,
@@ -2156,7 +1916,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 14
+        "used": 16
       },
       {
         "cap": 200000,
@@ -2164,7 +1924,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol–free",
         "provider": "ai-cf-sol-3",
-        "used": 17
+        "used": 19
       },
       {
         "cap": 1000,
@@ -2676,7 +2436,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 18
+        "used": 22
       },
       {
         "cap": 200000,
@@ -2684,7 +2444,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 15
+        "used": 18
       },
       {
         "cap": 200000,
@@ -2692,7 +2452,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 13
+        "used": 15
       },
       {
         "cap": 200000,
@@ -2700,7 +2460,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 1150
+        "used": 1153
       },
       {
         "cap": 300,
@@ -2902,123 +2662,123 @@
   },
   "recent_completions": [
     {
-      "age_sec": 0,
-      "board_zh": "运维",
-      "completed_at": "2026-11-27T02:42:32Z",
-      "completed_by": "operations-seat-1-22844-a12877d8",
-      "completed_by_zh": "运维 席位22844",
-      "completed_ts_source": "result.txt",
-      "task_id": "oper-021",
-      "task_no": 21,
-      "title": "Idle-help forensics: the ONLY replay list (meeting ruling 2026-11-27…",
-      "workstream": "operations"
-    },
-    {
-      "age_sec": 1,
-      "board_zh": "池优化",
-      "completed_at": "2026-11-27T02:42:31Z",
-      "completed_by": "pool-optimization-seat-1-27480-61467ea8",
-      "completed_by_zh": "池优化 席位27480",
-      "completed_ts_source": "result.txt",
-      "task_id": "pool-085",
-      "task_no": 85,
-      "title": "D-style design: mechanical work to script flow, judgment work stays…",
-      "workstream": "pool-optimization"
-    },
-    {
-      "age_sec": 1,
-      "board_zh": "运维",
-      "completed_at": "2026-11-27T02:42:31Z",
-      "completed_by": "operations-seat-1-25415-1b8d28bd",
-      "completed_by_zh": "运维 席位25415",
-      "completed_ts_source": "result.txt",
-      "task_id": "oper-022",
-      "task_no": 22,
-      "title": "Event-stream credibility audit (structure-meeting ruling 2026-11-27…",
-      "workstream": "operations"
-    },
-    {
-      "age_sec": 11,
+      "age_sec": 124,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-27T02:42:22Z",
-      "completed_by": "float",
-      "completed_by_zh": "机动",
+      "completed_at": "2026-11-27T02:43:00Z",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "clou-025",
+      "task_id": "task-025",
       "task_no": 25,
-      "title": "Lease-fence block-rate drill (meeting ruling 2026-11-27, note…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 35,
-      "board_zh": "安全",
-      "completed_at": "2026-11-27T02:41:57Z",
-      "completed_by": "security-seat-1-24215-b6957bab",
-      "completed_by_zh": "安全 席位24215",
-      "completed_ts_source": "result.txt",
-      "task_id": "secu-016",
-      "task_no": 16,
-      "title": "Merged help-entry permission matrix (meeting ruling 2026-11-27, note…",
-      "workstream": "security"
-    },
-    {
-      "age_sec": 48,
+      "age_sec": 124,
       "board_zh": "池优化",
-      "completed_at": "2026-11-27T02:41:45Z",
-      "completed_by": "pool-optimization-seat-1-27480-61467ea8",
-      "completed_by_zh": "池优化 席位27480",
+      "completed_at": "2026-11-27T02:43:00Z",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "pool-084",
-      "task_no": 84,
-      "title": "Help-evidence integrity fix (boss filing 2026-11-27, from the user's…",
+      "task_id": "task-085",
+      "task_no": 85,
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 30082,
+      "age_sec": 152,
+      "board_zh": "运维",
+      "completed_at": "2026-11-27T02:42:32Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "result.txt",
+      "task_id": "task-021",
+      "task_no": 21,
+      "title": null,
+      "workstream": "operations"
+    },
+    {
+      "age_sec": 153,
+      "board_zh": "运维",
+      "completed_at": "2026-11-27T02:42:31Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "result.txt",
+      "task_id": "task-022",
+      "task_no": 22,
+      "title": null,
+      "workstream": "operations"
+    },
+    {
+      "age_sec": 187,
+      "board_zh": "安全",
+      "completed_at": "2026-11-27T02:41:57Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "result.txt",
+      "task_id": "task-016",
+      "task_no": 16,
+      "title": null,
+      "workstream": "security"
+    },
+    {
+      "age_sec": 199,
+      "board_zh": "池优化",
+      "completed_at": "2026-11-27T02:41:45Z",
+      "completed_by": null,
+      "completed_by_zh": null,
+      "completed_ts_source": "result.txt",
+      "task_id": "task-084",
+      "task_no": 84,
+      "title": null,
+      "workstream": "pool-optimization"
+    },
+    {
+      "age_sec": 30234,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T18:21:10Z",
       "completed_by": null,
       "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "clou-018",
+      "task_id": "task-018",
       "task_no": 18,
-      "title": "freebies-scan pipeline 9-source pre-publish failure (boss filing…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 39031,
+      "age_sec": 39183,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-26T15:52:01Z",
-      "completed_by": "operations",
-      "completed_by_zh": "运维",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "clou-016",
+      "task_id": "task-016",
       "task_no": 16,
-      "title": "VPS pull-from-GitHub healer (publish redundancy, second half; boss…",
+      "title": null,
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 114299,
+      "age_sec": 114451,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:57:33Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "done",
-      "task_id": "pool-083",
+      "task_id": "task-083",
       "task_no": 83,
-      "title": "Settlement ordering defect: BLOCKED.md must short-circuit BEFORE the…",
+      "title": null,
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 114408,
+      "age_sec": 114560,
       "board_zh": "池优化",
       "completed_at": "2026-11-25T18:55:44Z",
-      "completed_by": "pool-optimization-seat-1-5252-6e2947e7",
-      "completed_by_zh": "池优化 席位5252",
+      "completed_by": null,
+      "completed_by_zh": null,
       "completed_ts_source": "result.txt",
-      "task_id": "pool-082",
+      "task_id": "task-082",
       "task_no": 82,
-      "title": "Named-model rule v2 landing SEG4: reconciliation in manager_watch…",
+      "title": null,
       "workstream": "pool-optimization"
     }
   ],
@@ -3029,171 +2789,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "100milionseek-2/deepseek-v4.1-flash-free": 10,
-      "100milionseek-2/deepseek-v4.1-flash-free#strict": 2,
-      "token-harbor/deepseek-v4.1-flash:free": 2
-    },
-    "running": [
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 21955,
-        "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 21956,
-        "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
-      },
-      {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 22698,
-        "title": "[code] [boss-accept] D-style design: mechanical work to script flow, judgment wo"
-      },
-      {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 22699,
-        "title": "[code] [boss-accept] D-style design: mechanical work to script flow, judgment wo"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 22860,
-        "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 22861,
-        "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free#strict",
-        "pid": 24558,
-        "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free#strict",
-        "pid": 24559,
-        "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 25435,
-        "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 20"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 25436,
-        "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 20"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 25881,
-        "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 25882,
-        "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 27519,
-        "title": "[code] [boss-accept] D-style design: mechanical work to script flow, judgment wo"
-      },
-      {
-        "model": "100milionseek-2/deepseek-v4.1-flash-free",
-        "pid": 27520,
-        "title": "[code] [boss-accept] D-style design: mechanical work to script flow, judgment wo"
-      }
-    ],
-    "total": 14
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 10,
-      "model": "100milionseek-2/deepseek-v4.1-flash-free"
-    },
-    {
-      "count": 2,
-      "model": "100milionseek-2/deepseek-v4.1-flash-free#strict"
-    },
-    {
-      "count": 2,
-      "model": "token-harbor/deepseek-v4.1-flash:free"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "100milionseek-2/deepseek-v4.1-flash-free",
-      "pid": 21955,
-      "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
-    },
-    {
-      "model": "100milionseek-2/deepseek-v4.1-flash-free",
-      "pid": 21956,
-      "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
-    },
-    {
-      "model": "token-harbor/deepseek-v4.1-flash:free",
-      "pid": 22698,
-      "title": "[code] [boss-accept] D-style design: mechanical work to script flow, judgment wo"
-    },
-    {
-      "model": "token-harbor/deepseek-v4.1-flash:free",
-      "pid": 22699,
-      "title": "[code] [boss-accept] D-style design: mechanical work to script flow, judgment wo"
-    },
-    {
-      "model": "100milionseek-2/deepseek-v4.1-flash-free",
-      "pid": 22860,
-      "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2"
-    },
-    {
-      "model": "100milionseek-2/deepseek-v4.1-flash-free",
-      "pid": 22861,
-      "title": "[code] [boss-accept] Idle-help forensics: the ONLY replay list (meeting ruling 2"
-    },
-    {
-      "model": "100milionseek-2/deepseek-v4.1-flash-free#strict",
-      "pid": 24558,
-      "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11"
-    },
-    {
-      "model": "100milionseek-2/deepseek-v4.1-flash-free#strict",
-      "pid": 24559,
-      "title": "[code] [boss-accept] Merged help-entry permission matrix (meeting ruling 2026-11"
-    },
-    {
-      "model": "100milionseek-2/deepseek-v4.1-flash-free",
-      "pid": 25435,
-      "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 20"
-    },
-    {
-      "model": "100milionseek-2/deepseek-v4.1-flash-free",
-      "pid": 25436,
-      "title": "[code] [boss-accept] Event-stream credibility audit (structure-meeting ruling 20"
-    },
-    {
-      "model": "100milionseek-2/deepseek-v4.1-flash-free",
-      "pid": 25881,
-      "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
-    },
-    {
-      "model": "100milionseek-2/deepseek-v4.1-flash-free",
-      "pid": 25882,
-      "title": "[code] [boss-accept] Lease-fence block-rate drill (meeting ruling 2026-11-27, no"
-    },
-    {
-      "model": "100milionseek-2/deepseek-v4.1-flash-free",
-      "pid": 27519,
-      "title": "[code] [boss-accept] D-style design: mechanical work to script flow, judgment wo"
-    },
-    {
-      "model": "100milionseek-2/deepseek-v4.1-flash-free",
-      "pid": 27520,
-      "title": "[code] [boss-accept] D-style design: mechanical work to script flow, judgment wo"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -3205,7 +2806,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T02:27:08Z"
+        "updated": "2026-11-27T02:42:49Z"
       },
       "tasks": {
         "done": 24,
@@ -3273,7 +2874,7 @@
           },
           {
             "full": true,
-            "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from the user's status check): two measured defects in the help machinery's EVIDENCE layer (the dispatch machinery itself works - 111 re-dispatch log lines 2026-11-24..26). (1) CLASSIFIER MISFIRE: the production help-cooldown.json record for the 2026-11-26T18:18Z task-018 cycle carries class=\"selftest\" for a REAL production help failure (providers=[wusrouter], fails=153) - record_help_failure's classification keys off marker words in the task text (clou-018's acceptance text contains 'selftest'). Classification must come from the failure's own evidence (attempt outcomes / exit / selftest run attached to THIS dispatch), never from task-text wording; unclassifiable = unknown. (2) ATTRIBUTION VOID: help_dispatches.jsonl holds 150 rows (2026-11-24T12:14Z..2026-11-26T18:18Z), ALL dispatch_path=\"manual\" and ALL verdict=\"no_advance\" - zero rows recorded as idle_sweep although the idle sweep runs every watch cycle and cross-line help demonstrably happened (e.g. pool-optimization -> cloud-script-migration task-018). Either the sweep never dispatches or its provenance is lost before the writer runs; find which, fix it so the dispatch decision's provenance (assigner + dispatch_path + dispatch_timestamp, pool-054 amendment 3) is carried INTO the event at dispatch time. Acceptance (production-path evidence, no marker-only claims): (a) a drill task whose text contains the word 'selftest' but whose help attempt fails upstream records class=upstream (or unknown), never selftest; (b) the next 10 production help events carry dispatch_path values matching their true trigger, with at least one idle_sweep row if the sweep fires in that window - or a written finding, backed by sweep logs, that the sweep genuinely never had an eligible (ready-task + idle-float) moment, itself then filed as the next defect; (c) manager selftest + manager-watch selftest full pass. This task does NOT unfreeze pool-054; its segment-3 gate still needs one real cycle whose cooldown record is correctly classified. [BOSS AMENDMENT 2026-11-27 (help-merge meeting, note meetings/20261127-help-merge-note.md): SEGMENT 3 ADDED - the merge itself. Re-dispatch candidate selection gains idle float-seat capacity (idle help's idea folded into re-dispatch per the user's order); float_sweep's standalone dispatch retires or folds per the operations forensics verdict (operations board, ruling 2) - never before that verdict; the help verdict readback merges into the re-dispatch verdict path; the help_dispatches writer becomes the unified event source. Acceptance for segment 3: production evidence that a re-dispatch drew on an idle float seat and the dispatch event carries its provenance; dispatch entry points go 2 -> 1. Recheck 2026-12-03.] | manager.py record_help_failure + help event writer; tasks/pool-optimization/manager_watch.py float_sweep/help verdict pass | drill evidence + 10-event production sample in out/<task>/deliverable.md [inputs: llm-workers/manager.py, llm-workers/help-cooldown.json, llm-workers/help_dispatches.jsonl, llm-workers/meetings/20261127-help-merge-note.md, llm-workers/event_stream.jsonl] (claimed-by pool-optimization-seat-1-27480-61467ea8 2026-11-27T02:41:35Z)"
+            "title": "[code] [boss-accept] Help-evidence integrity fix (boss filing 2026-11-27, from the user's status check): two measured defects in the help machinery's EVIDENCE layer (the dispatch machinery itself works - 111 re-dispatch log lines 2026-11-24..26). (1) CLASSIFIER MISFIRE: the production help-cooldown.json record for the 2026-11-26T18:18Z task-018 cycle carries class=\"selftest\" for a REAL production help failure (providers=[wusrouter], fails=153) - record_help_failure's classification keys off marker words in the task text (clou-018's acceptance text contains 'selftest'). Classification must come from the failure's own evidence (attempt outcomes / exit / selftest run attached to THIS dispatch), never from task-text wording; unclassifiable = unknown. (2) ATTRIBUTION VOID: help_dispatches.jsonl holds 150 rows (2026-11-24T12:14Z..2026-11-26T18:18Z), ALL dispatch_path=\"manual\" and ALL verdict=\"no_advance\" - zero rows recorded as idle_sweep although the idle sweep runs every watch cycle and cross-line help demonstrably happened (e.g. pool-optimization -> cloud-script-migration task-018). Either the sweep never dispatches or its provenance is lost before the writer runs; find which, fix it so the dispatch decision's provenance (assigner + dispatch_path + dispatch_timestamp, pool-054 amendment 3) is carried INTO the event at dispatch time. Acceptance (production-path evidence, no marker-only claims): (a) a drill task whose text contains the word 'selftest' but whose help attempt fails upstream records class=upstream (or unknown), never selftest; (b) the next 10 production help events carry dispatch_path values matching their true trigger, with at least one idle_sweep row if the sweep fires in that window - or a written finding, backed by sweep logs, that the sweep genuinely never had an eligible (ready-task + idle-float) moment, itself then filed as the next defect; (c) manager selftest + manager-watch selftest full pass. This task does NOT unfreeze pool-054; its segment-3 gate still needs one real cycle whose cooldown record is correctly classified. [BOSS AMENDMENT 2026-11-27 (help-merge meeting, note meetings/20261127-help-merge-note.md): SEGMENT 3 ADDED - the merge itself. Re-dispatch candidate selection gains idle float-seat capacity (idle help's idea folded into re-dispatch per the user's order); float_sweep's standalone dispatch retires or folds per the operations forensics verdict (operations board, ruling 2) - never before that verdict; the help verdict readback merges into the re-dispatch verdict path; the help_dispatches writer becomes the unified event source. Acceptance for segment 3: production evidence that a re-dispatch drew on an idle float seat and the dispatch event carries its provenance; dispatch entry points go 2 -> 1. Recheck 2026-12-03.] | manager.py record_help_failure + help event writer; tasks/pool-optimization/manager_watch.py float_sweep/help verdict pass | drill evidence + 10-event production sample in out/<task>/deliverable.md [inputs: llm-workers/manager.py, llm-workers/help-cooldown.json, llm-workers/help_dispatches.jsonl, llm-workers/meetings/20261127-help-merge-note.md, llm-workers/event_stream.jsonl] (claimed-by pool-optimization-seat-1-27480-61467ea8 2026-11-27T02:42:36Z)"
           }
         ],
         "open": 4
