@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": "2026-11-27T15:07:36Z",
+  "generatedAt": "2026-11-27T17:06:36Z",
   "round": "panel-daily",
-  "summary": "核对 13 个服务：2 个实查通过、11 个未核对，7 个仅端点可达，首轮基准",
+  "summary": "核对 13 个服务：3 个实查通过、10 个未核对，7 个仅端点可达，首轮基准",
   "changes": [],
   "results": [
     {
@@ -47,12 +47,21 @@
     },
     {
       "slug": "cloady",
-      "checked": false,
-      "status": null,
-      "statusLabel": null,
-      "specUpdates": [],
-      "checkType": "none",
-      "checkNote": "cloady/listWorkspaces: exit 1: error: MCP returned HTTP 502; the operation was not replayed"
+      "checked": true,
+      "status": "ok",
+      "statusLabel": "已连接可用",
+      "specUpdates": [
+        {
+          "label": "工作区",
+          "value": "1 个 · 0 个应用"
+        },
+        {
+          "label": "费用",
+          "value": "$0.00 / 月"
+        }
+      ],
+      "checkType": "account",
+      "checkNote": "Account data returned by cloady/getMe, cloady/listWorkspaces."
     },
     {
       "slug": "kaggle",
@@ -137,7 +146,7 @@
     }
   ],
   "resultCount": 13,
-  "checkedCount": 2,
+  "checkedCount": 3,
   "connectorStatus": [
     {
       "slug": "simular-box",
@@ -165,11 +174,11 @@
     },
     {
       "slug": "cloady",
-      "ok": false,
-      "checked": false,
-      "note": "cloady/listWorkspaces: exit 1: error: MCP returned HTTP 502; the operation was not replayed",
-      "checkType": "none",
-      "checkNote": "cloady/listWorkspaces: exit 1: error: MCP returned HTTP 502; the operation was not replayed"
+      "ok": true,
+      "checked": true,
+      "note": "Account data returned by cloady/getMe, cloady/listWorkspaces.",
+      "checkType": "account",
+      "checkNote": "Account data returned by cloady/getMe, cloady/listWorkspaces."
     },
     {
       "slug": "kaggle",
