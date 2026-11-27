@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T16:49:37Z",
+    "activity_generated_at": "2026-11-27T16:52:13Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -54,15 +54,15 @@
         "claimed_at": "2026-11-27T16:48:10Z",
         "claimed_by": "pool-optimization",
         "claimed_by_zh": "池优化",
-        "claimed_for": "88秒",
+        "claimed_for": "4分钟",
         "task_id": "oper-023",
         "title": "[inputs: fleet-ops/tombstone-increment-extract.json…"
       },
       "cycle_started_at": "2026-11-27T16:48:10Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "88秒",
-      "elapsed_sec": 88,
-      "last_cycle_ended": "2026-11-27T16:48:15Z",
+      "elapsed": "4分钟",
+      "elapsed_sec": 243,
+      "last_cycle_ended": "2026-11-27T16:51:20Z",
       "name_zh": "运维",
       "state": "running",
       "workstream": "operations"
@@ -117,7 +117,7 @@
         "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…"
       ],
       "open": 5,
-      "status_updated": "2026-11-27T16:46:06Z",
+      "status_updated": "2026-11-27T16:50:05Z",
       "total": 86,
       "workstream": "pool-optimization"
     },
@@ -138,11 +138,11 @@
       "claimed_now": [
         {
           "board_zh": "运维",
-          "claimed_age_sec": 88,
+          "claimed_age_sec": 243,
           "claimed_at": "2026-11-27T16:48:10Z",
           "claimed_by": "pool-optimization",
           "claimed_by_zh": "池优化",
-          "claimed_for": "88秒",
+          "claimed_for": "4分钟",
           "task_id": "oper-023",
           "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
           "workstream": "operations"
@@ -174,17 +174,17 @@
   "claimed_now": [
     {
       "board_zh": "运维",
-      "claimed_age_sec": 88,
+      "claimed_age_sec": 243,
       "claimed_at": "2026-11-27T16:48:10Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "88秒",
+      "claimed_for": "4分钟",
       "task_id": "oper-023",
       "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
       "workstream": "operations"
     }
   ],
-  "content_latest_at": "2026-11-27T16:46:06Z",
+  "content_latest_at": "2026-11-27T16:50:05Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 401,
@@ -217,25 +217,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T16:49:38Z",
-  "generated_at_utc": "2026-11-27T16:49:38Z",
+  "generated_at": "2026-11-27T16:52:13Z",
+  "generated_at_utc": "2026-11-27T16:52:13Z",
   "live_pi_workers": {
-    "by_model": {
-      "crowllm/deepseek-v4-flash-0731-thinking:free": 2
-    },
-    "running": [
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 16062,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 16063,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -1059,7 +1046,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 300,
@@ -1067,7 +1054,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 300,
@@ -1075,7 +1062,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 300,
@@ -1083,7 +1070,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 1000,
@@ -1299,7 +1286,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 60
+        "used": 61
       },
       {
         "cap": 300,
@@ -2261,7 +2248,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 300,
@@ -2269,7 +2256,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 300,
@@ -2277,7 +2264,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 300,
@@ -2285,7 +2272,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 7
+        "used": 8
       },
       {
         "cap": 1000,
@@ -2501,7 +2488,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 60
+        "used": 61
       },
       {
         "cap": 300,
@@ -2703,9 +2690,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 82,
+      "age_sec": 52,
       "board_zh": "运维",
-      "completed_at": "2026-11-27T16:48:15Z",
+      "completed_at": "2026-11-27T16:51:20Z",
       "completed_by": "pool-optimization",
       "completed_by_zh": "池优化",
       "completed_ts_source": "result.txt",
@@ -2715,7 +2702,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 19542,
+      "age_sec": 19698,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:23:54Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2727,7 +2714,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 19671,
+      "age_sec": 19826,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:21:46Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2739,7 +2726,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 22215,
+      "age_sec": 22371,
       "board_zh": "安全",
       "completed_at": "2026-11-27T10:39:21Z",
       "completed_by": "security-seat-1-23279-f017f1b6",
@@ -2751,7 +2738,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 28040,
+      "age_sec": 28195,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
       "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
@@ -2763,7 +2750,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 29206,
+      "age_sec": 29361,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
@@ -2775,7 +2762,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 36053,
+      "age_sec": 36208,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
       "completed_by": "operations-seat-1-2005-0cf7b677",
@@ -2787,7 +2774,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 39969,
+      "age_sec": 40124,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2799,7 +2786,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 42131,
+      "age_sec": 42286,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2811,7 +2798,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 46033,
+      "age_sec": 46188,
       "board_zh": "安全",
       "completed_at": "2026-11-27T04:02:24Z",
       "completed_by": "security-seat-1-15890-eda53826",
@@ -2830,41 +2817,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "crowllm/deepseek-v4-flash-0731-thinking:free": 2
-    },
-    "running": [
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 16062,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 16063,
-        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 2,
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-      "pid": 16062,
-      "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-    },
-    {
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-      "pid": 16063,
-      "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -2919,7 +2877,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-27T16:46:06Z"
+        "updated": "2026-11-27T16:50:05Z"
       },
       "tasks": {
         "done": 81,
