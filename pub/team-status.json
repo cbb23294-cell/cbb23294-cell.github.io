@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-27T06:12:05Z",
+    "activity_generated_at": "2026-11-27T06:14:20Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -15,15 +15,15 @@
         "claimed_at": "2026-11-27T06:11:58Z",
         "claimed_by": "float",
         "claimed_by_zh": "机动",
-        "claimed_for": "7秒",
+        "claimed_for": "2分钟",
         "task_id": "clou-026",
         "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…"
       },
       "cycle_started_at": "2026-11-27T06:11:58Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "7秒",
-      "elapsed_sec": 7,
-      "last_cycle_ended": "2026-11-27T06:11:26Z",
+      "elapsed": "2分钟",
+      "elapsed_sec": 143,
+      "last_cycle_ended": "2026-11-27T06:12:18Z",
       "name_zh": "云脚本迁移",
       "state": "running",
       "workstream": "cloud-script-migration"
@@ -35,14 +35,14 @@
         "claimed_at": "2026-11-27T06:03:56Z",
         "claimed_by": "pool-optimization-seat-1-18471-e91dd100",
         "claimed_by_zh": "池优化 席位18471",
-        "claimed_for": "8分钟",
+        "claimed_for": "10分钟",
         "task_id": "pool-1961",
         "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…"
       },
       "cycle_started_at": "2026-11-27T06:03:56Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "8分钟",
-      "elapsed_sec": 489,
+      "elapsed": "10分钟",
+      "elapsed_sec": 625,
       "last_cycle_ended": "2026-11-27T06:01:40Z",
       "name_zh": "池优化",
       "state": "running",
@@ -52,18 +52,18 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-27T06:11:19Z",
+        "claimed_at": "2026-11-27T06:13:24Z",
         "claimed_by": "security-seat-1-20432-cf4edc98",
         "claimed_by_zh": "安全 席位20432",
-        "claimed_for": "46秒",
+        "claimed_for": "57秒",
         "task_id": "secu-018",
         "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…"
       },
-      "cycle_started_at": "2026-11-27T06:11:19Z",
+      "cycle_started_at": "2026-11-27T06:13:24Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "46秒",
-      "elapsed_sec": 46,
-      "last_cycle_ended": "2026-11-27T06:11:56Z",
+      "elapsed": "57秒",
+      "elapsed_sec": 57,
+      "last_cycle_ended": "2026-11-27T06:14:20Z",
       "name_zh": "安全",
       "state": "running",
       "workstream": "security"
@@ -72,18 +72,18 @@
       "active_jobs": 0,
       "claimed_count": 2,
       "current_task": {
-        "claimed_at": "2026-11-27T06:07:57Z",
-        "claimed_by": "pool-optimization",
-        "claimed_by_zh": "池优化",
-        "claimed_for": "4分钟",
-        "task_id": "oper-962",
-        "title": "[inputs: llm-workers/tasks/operations/out/task-022/audit-report.md…"
+        "claimed_at": "2026-11-27T06:13:19Z",
+        "claimed_by": "operations-seat-1-22035-e507653a",
+        "claimed_by_zh": "运维 席位22035",
+        "claimed_for": "62秒",
+        "task_id": "oper-958",
+        "title": "[inputs: fleet-ops/tombstone-increment-extract.json…"
       },
-      "cycle_started_at": "2026-11-27T06:02:11Z",
+      "cycle_started_at": "2026-11-27T06:07:57Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "9分钟",
-      "elapsed_sec": 594,
-      "last_cycle_ended": "2026-11-27T06:08:51Z",
+      "elapsed": "6分钟",
+      "elapsed_sec": 384,
+      "last_cycle_ended": "2026-11-27T06:14:08Z",
       "name_zh": "运维",
       "state": "running",
       "workstream": "operations"
@@ -120,11 +120,11 @@
       "claimed_now": [
         {
           "board_zh": "云脚本迁移",
-          "claimed_age_sec": 7,
+          "claimed_age_sec": 143,
           "claimed_at": "2026-11-27T06:11:58Z",
           "claimed_by": "float",
           "claimed_by_zh": "机动",
-          "claimed_for": "7秒",
+          "claimed_for": "2分钟",
           "task_id": "clou-026",
           "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…",
           "workstream": "cloud-script-migration"
@@ -145,33 +145,33 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 489,
+          "claimed_age_sec": 625,
           "claimed_at": "2026-11-27T06:03:56Z",
           "claimed_by": "pool-optimization-seat-1-18471-e91dd100",
           "claimed_by_zh": "池优化 席位18471",
-          "claimed_for": "8分钟",
+          "claimed_for": "10分钟",
           "task_id": "pool-1958",
           "title": "[inputs: llm-workers/manager.py, llm-workers/board_store.py…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 489,
+          "claimed_age_sec": 625,
           "claimed_at": "2026-11-27T06:03:56Z",
           "claimed_by": "pool-optimization-seat-1-18471-e91dd100",
           "claimed_by_zh": "池优化 席位18471",
-          "claimed_for": "8分钟",
+          "claimed_for": "10分钟",
           "task_id": "pool-1960",
           "title": "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…",
           "workstream": "pool-optimization"
         },
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 489,
+          "claimed_age_sec": 625,
           "claimed_at": "2026-11-27T06:03:56Z",
           "claimed_by": "pool-optimization-seat-1-18471-e91dd100",
           "claimed_by_zh": "池优化 席位18471",
-          "claimed_for": "8分钟",
+          "claimed_for": "10分钟",
           "task_id": "pool-1961",
           "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
           "workstream": "pool-optimization"
@@ -194,11 +194,11 @@
       "claimed_now": [
         {
           "board_zh": "安全",
-          "claimed_age_sec": 46,
-          "claimed_at": "2026-11-27T06:11:19Z",
+          "claimed_age_sec": 57,
+          "claimed_at": "2026-11-27T06:13:24Z",
           "claimed_by": "security-seat-1-20432-cf4edc98",
           "claimed_by_zh": "安全 席位20432",
-          "claimed_for": "46秒",
+          "claimed_for": "57秒",
           "task_id": "secu-018",
           "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
           "workstream": "security"
@@ -219,24 +219,24 @@
       "claimed_now": [
         {
           "board_zh": "运维",
-          "claimed_age_sec": 594,
-          "claimed_at": "2026-11-27T06:02:11Z",
-          "claimed_by": "float",
-          "claimed_by_zh": "机动",
-          "claimed_for": "9分钟",
-          "task_id": "oper-958",
-          "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
+          "claimed_age_sec": 384,
+          "claimed_at": "2026-11-27T06:07:57Z",
+          "claimed_by": "pool-optimization",
+          "claimed_by_zh": "池优化",
+          "claimed_for": "6分钟",
+          "task_id": "oper-962",
+          "title": "[inputs: llm-workers/tasks/operations/out/task-022/audit-report.md…",
           "workstream": "operations"
         },
         {
           "board_zh": "运维",
-          "claimed_age_sec": 248,
-          "claimed_at": "2026-11-27T06:07:57Z",
-          "claimed_by": "pool-optimization",
-          "claimed_by_zh": "池优化",
-          "claimed_for": "4分钟",
-          "task_id": "oper-962",
-          "title": "[inputs: llm-workers/tasks/operations/out/task-022/audit-report.md…",
+          "claimed_age_sec": 62,
+          "claimed_at": "2026-11-27T06:13:19Z",
+          "claimed_by": "operations-seat-1-22035-e507653a",
+          "claimed_by_zh": "运维 席位22035",
+          "claimed_for": "62秒",
+          "task_id": "oper-958",
+          "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
           "workstream": "operations"
         }
       ],
@@ -248,7 +248,7 @@
         "[inputs: llm-workers/tasks/operations/out/task-022/audit-report.md…"
       ],
       "open": 2,
-      "status_updated": "2026-11-27T05:56:55Z",
+      "status_updated": "2026-11-27T06:12:19Z",
       "total": 24,
       "workstream": "operations"
     },
@@ -266,84 +266,84 @@
   ],
   "claimed_now": [
     {
-      "board_zh": "运维",
-      "claimed_age_sec": 594,
-      "claimed_at": "2026-11-27T06:02:11Z",
-      "claimed_by": "float",
-      "claimed_by_zh": "机动",
-      "claimed_for": "9分钟",
-      "task_id": "oper-958",
-      "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
-      "workstream": "operations"
-    },
-    {
       "board_zh": "池优化",
-      "claimed_age_sec": 489,
+      "claimed_age_sec": 625,
       "claimed_at": "2026-11-27T06:03:56Z",
       "claimed_by": "pool-optimization-seat-1-18471-e91dd100",
       "claimed_by_zh": "池优化 席位18471",
-      "claimed_for": "8分钟",
+      "claimed_for": "10分钟",
       "task_id": "pool-1958",
       "title": "[inputs: llm-workers/manager.py, llm-workers/board_store.py…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 489,
+      "claimed_age_sec": 625,
       "claimed_at": "2026-11-27T06:03:56Z",
       "claimed_by": "pool-optimization-seat-1-18471-e91dd100",
       "claimed_by_zh": "池优化 席位18471",
-      "claimed_for": "8分钟",
+      "claimed_for": "10分钟",
       "task_id": "pool-1960",
       "title": "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 489,
+      "claimed_age_sec": 625,
       "claimed_at": "2026-11-27T06:03:56Z",
       "claimed_by": "pool-optimization-seat-1-18471-e91dd100",
       "claimed_by_zh": "池优化 席位18471",
-      "claimed_for": "8分钟",
+      "claimed_for": "10分钟",
       "task_id": "pool-1961",
       "title": "[inputs: llm-workers/manager.py, llm-workers/mgr-routing/routing.py…",
       "workstream": "pool-optimization"
     },
     {
       "board_zh": "运维",
-      "claimed_age_sec": 248,
+      "claimed_age_sec": 384,
       "claimed_at": "2026-11-27T06:07:57Z",
       "claimed_by": "pool-optimization",
       "claimed_by_zh": "池优化",
-      "claimed_for": "4分钟",
+      "claimed_for": "6分钟",
       "task_id": "oper-962",
       "title": "[inputs: llm-workers/tasks/operations/out/task-022/audit-report.md…",
       "workstream": "operations"
     },
     {
-      "board_zh": "安全",
-      "claimed_age_sec": 46,
-      "claimed_at": "2026-11-27T06:11:19Z",
-      "claimed_by": "security-seat-1-20432-cf4edc98",
-      "claimed_by_zh": "安全 席位20432",
-      "claimed_for": "46秒",
-      "task_id": "secu-018",
-      "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
-      "workstream": "security"
-    },
-    {
       "board_zh": "云脚本迁移",
-      "claimed_age_sec": 7,
+      "claimed_age_sec": 143,
       "claimed_at": "2026-11-27T06:11:58Z",
       "claimed_by": "float",
       "claimed_by_zh": "机动",
-      "claimed_for": "7秒",
+      "claimed_for": "2分钟",
       "task_id": "clou-026",
       "title": "[inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-h…",
       "workstream": "cloud-script-migration"
+    },
+    {
+      "board_zh": "运维",
+      "claimed_age_sec": 62,
+      "claimed_at": "2026-11-27T06:13:19Z",
+      "claimed_by": "operations-seat-1-22035-e507653a",
+      "claimed_by_zh": "运维 席位22035",
+      "claimed_for": "62秒",
+      "task_id": "oper-958",
+      "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
+      "workstream": "operations"
+    },
+    {
+      "board_zh": "安全",
+      "claimed_age_sec": 57,
+      "claimed_at": "2026-11-27T06:13:24Z",
+      "claimed_by": "security-seat-1-20432-cf4edc98",
+      "claimed_by_zh": "安全 席位20432",
+      "claimed_for": "57秒",
+      "task_id": "secu-018",
+      "title": "[inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.2…",
+      "workstream": "security"
     }
   ],
-  "content_latest_at": "2026-11-27T06:08:51Z",
+  "content_latest_at": "2026-11-27T06:12:19Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 401,
@@ -376,8 +376,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-27T06:12:06Z",
-  "generated_at_utc": "2026-11-27T06:12:06Z",
+  "generated_at": "2026-11-27T06:14:21Z",
+  "generated_at_utc": "2026-11-27T06:14:21Z",
   "live_pi_workers": {
     "by_model": {
       "crowllm/deepseek-v4-flash-0731-thinking:free": 2,
@@ -396,16 +396,6 @@
         "title": "[code] [boss-accept]  D-style design: mechanical work to script flow, judgment w"
       },
       {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 20809,
-        "title": "[code] [boss-accept]  Lease-fence block-rate drill (meeting ruling 2026-11-27, n"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 20810,
-        "title": "[code] [boss-accept]  Lease-fence block-rate drill (meeting ruling 2026-11-27, n"
-      },
-      {
         "model": "xingchi-2/gpt-6.1-sol#strict",
         "pid": 21459,
         "title": "[code] [boss-accept]  Config-drift writer forensics (recurrence-meeting ruling 2"
@@ -414,6 +404,16 @@
         "model": "xingchi-2/gpt-6.1-sol#strict",
         "pid": 21460,
         "title": "[code] [boss-accept]  Config-drift writer forensics (recurrence-meeting ruling 2"
+      },
+      {
+        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
+        "pid": 22107,
+        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
+      },
+      {
+        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
+        "pid": 22108,
+        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
       }
     ],
     "total": 6
@@ -1208,7 +1208,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 53
+        "used": 55
       },
       {
         "cap": 300,
@@ -1240,7 +1240,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 242
+        "used": 243
       },
       {
         "cap": 300,
@@ -1248,7 +1248,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 242
+        "used": 243
       },
       {
         "cap": 300,
@@ -1256,7 +1256,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 242
+        "used": 243
       },
       {
         "cap": 300,
@@ -1264,7 +1264,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 242
+        "used": 243
       },
       {
         "cap": 1000,
@@ -1456,7 +1456,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 33
+        "used": 34
       },
       {
         "cap": 200000,
@@ -1480,7 +1480,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 1793
+        "used": 1802
       },
       {
         "cap": 300,
@@ -2410,7 +2410,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 53
+        "used": 55
       },
       {
         "cap": 300,
@@ -2442,7 +2442,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 242
+        "used": 243
       },
       {
         "cap": 300,
@@ -2450,7 +2450,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 242
+        "used": 243
       },
       {
         "cap": 300,
@@ -2458,7 +2458,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 242
+        "used": 243
       },
       {
         "cap": 300,
@@ -2466,7 +2466,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 242
+        "used": 243
       },
       {
         "cap": 1000,
@@ -2658,7 +2658,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi",
-        "used": 33
+        "used": 34
       },
       {
         "cap": 200000,
@@ -2682,7 +2682,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-6",
-        "used": 1793
+        "used": 1802
       },
       {
         "cap": 300,
@@ -2884,9 +2884,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 8,
+      "age_sec": 0,
       "board_zh": "安全",
-      "completed_at": "2026-11-27T06:11:56Z",
+      "completed_at": "2026-11-27T06:14:20Z",
       "completed_by": "security-seat-1-20432-cf4edc98",
       "completed_by_zh": "安全 席位20432",
       "completed_ts_source": "result.txt",
@@ -2896,9 +2896,21 @@
       "workstream": "security"
     },
     {
-      "age_sec": 39,
+      "age_sec": 11,
+      "board_zh": "运维",
+      "completed_at": "2026-11-27T06:14:08Z",
+      "completed_by": "operations-seat-1-22035-e507653a",
+      "completed_by_zh": "运维 席位22035",
+      "completed_ts_source": "result.txt",
+      "task_id": "oper-958",
+      "task_no": 23,
+      "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
+      "workstream": "operations"
+    },
+    {
+      "age_sec": 122,
       "board_zh": "云脚本迁移",
-      "completed_at": "2026-11-27T06:11:26Z",
+      "completed_at": "2026-11-27T06:12:18Z",
       "completed_by": "float",
       "completed_by_zh": "机动",
       "completed_ts_source": "result.txt",
@@ -2908,7 +2920,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 194,
+      "age_sec": 329,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:08:51Z",
       "completed_by": "pool-optimization",
@@ -2920,19 +2932,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 550,
-      "board_zh": "运维",
-      "completed_at": "2026-11-27T06:02:54Z",
-      "completed_by": "float",
-      "completed_by_zh": "机动",
-      "completed_ts_source": "result.txt",
-      "task_id": "oper-958",
-      "task_no": 23,
-      "title": "[inputs: fleet-ops/tombstone-increment-extract.json…",
-      "workstream": "operations"
-    },
-    {
-      "age_sec": 624,
+      "age_sec": 759,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T06:01:40Z",
       "completed_by": "pool-optimization-seat-1-18471-e91dd100",
@@ -2944,7 +2944,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 695,
+      "age_sec": 830,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T06:00:29Z",
       "completed_by": "pool-optimization-seat-1-18471-e91dd100",
@@ -2956,7 +2956,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 790,
+      "age_sec": 925,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T05:58:54Z",
       "completed_by": "pool-optimization-seat-1-18471-e91dd100",
@@ -2968,7 +2968,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 1716,
+      "age_sec": 1852,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2980,7 +2980,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 3879,
+      "age_sec": 4014,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2992,7 +2992,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 7781,
+      "age_sec": 7916,
       "board_zh": "安全",
       "completed_at": "2026-11-27T04:02:24Z",
       "completed_by": "security-seat-1-15890-eda53826",
@@ -3028,16 +3028,6 @@
         "title": "[code] [boss-accept]  D-style design: mechanical work to script flow, judgment w"
       },
       {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 20809,
-        "title": "[code] [boss-accept]  Lease-fence block-rate drill (meeting ruling 2026-11-27, n"
-      },
-      {
-        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-        "pid": 20810,
-        "title": "[code] [boss-accept]  Lease-fence block-rate drill (meeting ruling 2026-11-27, n"
-      },
-      {
         "model": "xingchi-2/gpt-6.1-sol#strict",
         "pid": 21459,
         "title": "[code] [boss-accept]  Config-drift writer forensics (recurrence-meeting ruling 2"
@@ -3046,6 +3036,16 @@
         "model": "xingchi-2/gpt-6.1-sol#strict",
         "pid": 21460,
         "title": "[code] [boss-accept]  Config-drift writer forensics (recurrence-meeting ruling 2"
+      },
+      {
+        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
+        "pid": 22107,
+        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
+      },
+      {
+        "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
+        "pid": 22108,
+        "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
       }
     ],
     "total": 6
@@ -3076,16 +3076,6 @@
       "title": "[code] [boss-accept]  D-style design: mechanical work to script flow, judgment w"
     },
     {
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-      "pid": 20809,
-      "title": "[code] [boss-accept]  Lease-fence block-rate drill (meeting ruling 2026-11-27, n"
-    },
-    {
-      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
-      "pid": 20810,
-      "title": "[code] [boss-accept]  Lease-fence block-rate drill (meeting ruling 2026-11-27, n"
-    },
-    {
       "model": "xingchi-2/gpt-6.1-sol#strict",
       "pid": 21459,
       "title": "[code] [boss-accept]  Config-drift writer forensics (recurrence-meeting ruling 2"
@@ -3094,6 +3084,16 @@
       "model": "xingchi-2/gpt-6.1-sol#strict",
       "pid": 21460,
       "title": "[code] [boss-accept]  Config-drift writer forensics (recurrence-meeting ruling 2"
+    },
+    {
+      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
+      "pid": 22107,
+      "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
+    },
+    {
+      "model": "crowllm/deepseek-v4-flash-0731-thinking:free",
+      "pid": 22108,
+      "title": "[code] [boss-accept]  Tombstone burst attribution (recurrence-meeting ruling 202"
     }
   ],
   "workstreams": {
@@ -3115,7 +3115,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] [inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-help-merge-note.md, llm-workers/tasks/pool-optimization/manager_watch.py] Lease-fence block-rate drill (meeting ruling 2026-11-27, note meetings/20261127-help-merge-note.md ruling 3) [est:40m] | Merged re-dispatch may only take tasks already back on the board (pool-040 chain: stale claim >2 cycles -> lease_expired -> board); never strip a live lease. Prove the fence: replay 3 real stalled tasks from the staged event_stream and manager_watch records, simulate an old worker writing AFTER its epoch was fenced (late completion write / stale claim heartbeat), and record whether the write is rejected (write_conflict / stale-epoch refusal) in the event stream. The drill MUST include the lost-receipt retry variant (structure-meeting ruling 2026-11-27: D writes ok, receipt lost, cut to A, deliver + settle exactly once). Also list each replayed task's repeat-reflow count and failure class, and state the bounded-retry + pause conditions the merged re-dispatch must carry for permanent failures (contract/quota death must not reflow forever). If any old write lands, that is a finding against the merge - report it, do not patch around it in this task. The runner out dir holds a STALE BLOCKED.md from a dead attempt: if YOUR run completes, delete it and say so in the report; if YOUR run blocks, write your own BLOCKED.md with the reason. Deliverable: out/<task>/deliverable.md whose FIRST LINE is exactly: # Lease-fence drill report - with per-case event citations. Metrics: old-write block rate baseline unmeasured -> target 3/3 (100%), evidence = event-stream lines; due 2026-12-02; recheck 2026-12-03 digest. | selftest:# Lease-fence drill report (executed-by float failed 2026-11-27T05:56:31Z) (claimed-by float 2026-11-27T06:11:58Z)"
+            "title": "[code] [boss-accept] [inputs: llm-workers/event_stream.jsonl, llm-workers/meetings/20261127-help-merge-note.md, llm-workers/tasks/pool-optimization/manager_watch.py] Lease-fence block-rate drill (meeting ruling 2026-11-27, note meetings/20261127-help-merge-note.md ruling 3) [est:40m] | Merged re-dispatch may only take tasks already back on the board (pool-040 chain: stale claim >2 cycles -> lease_expired -> board); never strip a live lease. Prove the fence: replay 3 real stalled tasks from the staged event_stream and manager_watch records, simulate an old worker writing AFTER its epoch was fenced (late completion write / stale claim heartbeat), and record whether the write is rejected (write_conflict / stale-epoch refusal) in the event stream. The drill MUST include the lost-receipt retry variant (structure-meeting ruling 2026-11-27: D writes ok, receipt lost, cut to A, deliver + settle exactly once). Also list each replayed task's repeat-reflow count and failure class, and state the bounded-retry + pause conditions the merged re-dispatch must carry for permanent failures (contract/quota death must not reflow forever). If any old write lands, that is a finding against the merge - report it, do not patch around it in this task. The runner out dir holds a STALE BLOCKED.md from a dead attempt: if YOUR run completes, delete it and say so in the report; if YOUR run blocks, write your own BLOCKED.md with the reason. Deliverable: out/<task>/deliverable.md whose FIRST LINE is exactly: # Lease-fence drill report - with per-case event citations. Metrics: old-write block rate baseline unmeasured -> target 3/3 (100%), evidence = event-stream lines; due 2026-12-02; recheck 2026-12-03 digest. | selftest:# Lease-fence drill report (claimed-by float 2026-11-27T06:11:58Z) (executed-by float failed 2026-11-27T06:12:21Z)"
           }
         ],
         "open": 1
@@ -3129,9 +3129,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 0,
-        "tasks_total": 0,
-        "updated": "2026-11-27T05:56:55Z"
+        "tasks_open": 1,
+        "tasks_total": 1,
+        "updated": "2026-11-27T06:12:19Z"
       },
       "tasks": {
         "done": 22,
@@ -3139,7 +3139,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] [inputs: fleet-ops/tombstone-increment-extract.json, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md] Tombstone burst attribution (recurrence-meeting ruling 2026-11-27, note meetings/20261127-recurrence-note.md ruling 2) [est:30m] | Attribute the 2026-11-27 tombstone burst: 2802 vanished records, each id minted once, first_seen 2026-11-27T04:07:02Z..04:13Z, all on the pool-optimization (1868) and operations (934) boards, texts are historical tasks. The staged extract carries every burst record (id, ws, fingerprint, first/last seen, text head). For the burst as a whole and for a 20-record sample: name the minting writer and mechanism (which process, which sync call, which board content it parsed), using supervisor cycle logs and the code versions in force (input-gate patch ~03:50Z, EXEC_RE fix ~04:06Z, the boss's verification batch 04:07-04:13Z). Distinguish production-cycle minting from verification-side effects with evidence, not plausibility. Tombstones stay archived: do not delete or edit the store; end with a disposition proposal for the 2026-11-29 recheck (keep / cold-archive compaction) and, if the mechanism can still mint, a guard proposal. Deliverable: out/<task>/attribution.md, first line exactly: # Tombstone attribution. Metric: burst mechanism named with log/code evidence; sample attribution 20/20; due 2026-11-29; recheck 2026-12-03. | selftest:# Tombstone attribution (claimed-by float 2026-11-27T06:02:11Z)"
+            "title": "[code] [boss-accept] [inputs: fleet-ops/tombstone-increment-extract.json, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md] Tombstone burst attribution (recurrence-meeting ruling 2026-11-27, note meetings/20261127-recurrence-note.md ruling 2) [est:30m] | Attribute the 2026-11-27 tombstone burst: 2802 vanished records, each id minted once, first_seen 2026-11-27T04:07:02Z..04:13Z, all on the pool-optimization (1868) and operations (934) boards, texts are historical tasks. The staged extract carries every burst record (id, ws, fingerprint, first/last seen, text head). For the burst as a whole and for a 20-record sample: name the minting writer and mechanism (which process, which sync call, which board content it parsed), using supervisor cycle logs and the code versions in force (input-gate patch ~03:50Z, EXEC_RE fix ~04:06Z, the boss's verification batch 04:07-04:13Z). Distinguish production-cycle minting from verification-side effects with evidence, not plausibility. Tombstones stay archived: do not delete or edit the store; end with a disposition proposal for the 2026-11-29 recheck (keep / cold-archive compaction) and, if the mechanism can still mint, a guard proposal. Deliverable: out/<task>/attribution.md, first line exactly: # Tombstone attribution. Metric: burst mechanism named with log/code evidence; sample attribution 20/20; due 2026-11-29; recheck 2026-12-03. | selftest:# Tombstone attribution (claimed-by operations-seat-1-22035-e507653a 2026-11-27T06:13:19Z)"
           },
           {
             "full": true,
@@ -3199,7 +3199,7 @@
         "next_open": [
           {
             "full": true,
-            "title": "[code] [boss-accept] [inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.249ef543cde2.drift, fleet-ops/drift-evidence-copies/control.json.20261126T122552Z.b897a081a05b.drift, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md, llm-workers/control.json] Config-drift writer forensics (recurrence-meeting ruling 2026-11-27, ruling 3) [est:40m] | The sentinel reverted 21 config drifts since 2026-11-22 and the writer is still unknown. Staged evidence: the only two preserved drift byte-files (both control.json) - preservation covering 2 of 21 events is itself a finding to record. For each of the 21 config.drift_reverted events (timestamps in the event stream; ask operations for the extract if you cannot read it staged): correlate preserved bytes, blessed sha history and manager cycle timing; verdict per event = writer named / bypass class named / unknown with the missing evidence named. Then state the single-writer convergence design (who may write control.json and its sibling configs, how the write is authorized and read back) - design only, no production change in this task. Deliverable: out/<task>/drift-forensics.md, first line exactly: # Config-drift forensics. Metric: 21/21 events carry a verdict; unknowns name their missing evidence; due 2026-11-29; recheck 2026-12-03. | selftest:# Config-drift forensics (claimed-by security-seat-1-20432-cf4edc98 2026-11-27T06:11:19Z)"
+            "title": "[code] [boss-accept] [inputs: fleet-ops/drift-evidence-copies/control.json.20261124T023043Z.249ef543cde2.drift, fleet-ops/drift-evidence-copies/control.json.20261126T122552Z.b897a081a05b.drift, llm-workers/meetings/20261127-recurrence-note.md, fleet-ops/recurrence-meeting-datapack-20261127.md, llm-workers/control.json] Config-drift writer forensics (recurrence-meeting ruling 2026-11-27, ruling 3) [est:40m] | The sentinel reverted 21 config drifts since 2026-11-22 and the writer is still unknown. Staged evidence: the only two preserved drift byte-files (both control.json) - preservation covering 2 of 21 events is itself a finding to record. For each of the 21 config.drift_reverted events (timestamps in the event stream; ask operations for the extract if you cannot read it staged): correlate preserved bytes, blessed sha history and manager cycle timing; verdict per event = writer named / bypass class named / unknown with the missing evidence named. Then state the single-writer convergence design (who may write control.json and its sibling configs, how the write is authorized and read back) - design only, no production change in this task. Deliverable: out/<task>/drift-forensics.md, first line exactly: # Config-drift forensics. Metric: 21/21 events carry a verdict; unknowns name their missing evidence; due 2026-11-29; recheck 2026-12-03. | selftest:# Config-drift forensics (claimed-by security-seat-1-20432-cf4edc98 2026-11-27T06:13:24Z)"
           }
         ],
         "open": 1
