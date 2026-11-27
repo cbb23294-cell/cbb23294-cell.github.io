@@ -1,7 +1,7 @@
 {
   "ok": true,
   "reason": "",
-  "generated_at": "2026-11-26T22:40:51Z",
+  "generated_at": "2026-11-27T00:40:57Z",
   "round": "ai-quota-refresh",
   "findings": [
     {
@@ -174,7 +174,7 @@
     "fetch: feed[58] dropped (over MAX_FINDINGS=30 cap)",
     "fetch: feed[59] dropped (over MAX_FINDINGS=30 cap)",
     "verify: 页面抓取失败 OpenRouter 免费模型与定价：HTTP Error 403: Forbidden",
-    "verify: 页面抓取失败 Groq 限速文档：Remote end closed connection without response"
+    "verify: 页面抓取失败 Groq 限速文档：HTTP Error 403: Forbidden"
   ],
   "sources": {
     "openrouter": {
@@ -232,7 +232,7 @@
       "url": "https://console.groq.com/docs/rate-limits",
       "ok": false,
       "chars": 0,
-      "error": "Remote end closed connection without response"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "name": "商汤日日新 Token Plan",
