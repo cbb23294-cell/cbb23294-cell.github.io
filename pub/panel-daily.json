@@ -1,15 +1,15 @@
 {
   "ok": true,
-  "generatedAt": "2026-11-27T10:56:36Z",
+  "generatedAt": "2026-11-27T15:07:36Z",
   "round": "panel-daily",
-  "summary": "核对 13 个服务：3 个实查通过、10 个未核对，7 个仅端点可达，首轮基准",
+  "summary": "核对 13 个服务：2 个实查通过、11 个未核对，7 个仅端点可达，首轮基准",
   "changes": [],
   "results": [
     {
       "slug": "simular-box",
       "checked": true,
-      "status": "ok",
-      "statusLabel": "运行中 · 已连接",
+      "status": "wait",
+      "statusLabel": "hibernated · 已连接",
       "specUpdates": [],
       "checkType": "account",
       "checkNote": "Account data returned by simular-box-key/box_status, simular-box-key/usage."
@@ -47,21 +47,12 @@
     },
     {
       "slug": "cloady",
-      "checked": true,
-      "status": "ok",
-      "statusLabel": "已连接可用",
-      "specUpdates": [
-        {
-          "label": "工作区",
-          "value": "1 个 · 0 个应用"
-        },
-        {
-          "label": "费用",
-          "value": "$0.00 / 月"
-        }
-      ],
-      "checkType": "account",
-      "checkNote": "Account data returned by cloady/getMe, cloady/listWorkspaces."
+      "checked": false,
+      "status": null,
+      "statusLabel": null,
+      "specUpdates": [],
+      "checkType": "none",
+      "checkNote": "cloady/listWorkspaces: exit 1: error: MCP returned HTTP 502; the operation was not replayed"
     },
     {
       "slug": "kaggle",
@@ -146,7 +137,7 @@
     }
   ],
   "resultCount": 13,
-  "checkedCount": 3,
+  "checkedCount": 2,
   "connectorStatus": [
     {
       "slug": "simular-box",
@@ -174,11 +165,11 @@
     },
     {
       "slug": "cloady",
-      "ok": true,
-      "checked": true,
-      "note": "Account data returned by cloady/getMe, cloady/listWorkspaces.",
-      "checkType": "account",
-      "checkNote": "Account data returned by cloady/getMe, cloady/listWorkspaces."
+      "ok": false,
+      "checked": false,
+      "note": "cloady/listWorkspaces: exit 1: error: MCP returned HTTP 502; the operation was not replayed",
+      "checkType": "none",
+      "checkNote": "cloady/listWorkspaces: exit 1: error: MCP returned HTTP 502; the operation was not replayed"
     },
     {
       "slug": "kaggle",
