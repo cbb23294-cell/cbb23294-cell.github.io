@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-28T07:38:42Z",
+    "activity_generated_at": "2026-11-28T07:40:57Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -28,15 +28,15 @@
         "claimed_at": "2026-11-28T07:37:28Z",
         "claimed_by": "pool-optimization-seat-1-3518-e7527d3c",
         "claimed_by_zh": "池优化 席位3518",
-        "claimed_for": "75秒",
+        "claimed_for": "3分钟",
         "task_id": "pool-088",
         "title": "[inputs: llm-workers/proxy.py, llm-workers/restart_proxy.sh…"
       },
       "cycle_started_at": "2026-11-28T07:37:28Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "75秒",
-      "elapsed_sec": 75,
-      "last_cycle_ended": "2026-11-28T07:38:41Z",
+      "elapsed": "3分钟",
+      "elapsed_sec": 210,
+      "last_cycle_ended": "2026-11-28T07:40:43Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -110,11 +110,11 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 75,
+          "claimed_age_sec": 210,
           "claimed_at": "2026-11-28T07:37:28Z",
           "claimed_by": "pool-optimization-seat-1-3518-e7527d3c",
           "claimed_by_zh": "池优化 席位3518",
-          "claimed_for": "75秒",
+          "claimed_for": "3分钟",
           "task_id": "pool-088",
           "title": "[inputs: llm-workers/proxy.py, llm-workers/restart_proxy.sh…",
           "workstream": "pool-optimization"
@@ -129,7 +129,7 @@
         "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…"
       ],
       "open": 7,
-      "status_updated": "2026-11-28T07:34:56Z",
+      "status_updated": "2026-11-28T07:40:46Z",
       "total": 88,
       "workstream": "pool-optimization"
     },
@@ -174,17 +174,17 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 75,
+      "claimed_age_sec": 210,
       "claimed_at": "2026-11-28T07:37:28Z",
       "claimed_by": "pool-optimization-seat-1-3518-e7527d3c",
       "claimed_by_zh": "池优化 席位3518",
-      "claimed_for": "75秒",
+      "claimed_for": "3分钟",
       "task_id": "pool-088",
       "title": "[inputs: llm-workers/proxy.py, llm-workers/restart_proxy.sh…",
       "workstream": "pool-optimization"
     }
   ],
-  "content_latest_at": "2026-11-28T07:38:14Z",
+  "content_latest_at": "2026-11-28T07:40:46Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 401,
@@ -217,8 +217,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-28T07:38:43Z",
-  "generated_at_utc": "2026-11-28T07:38:43Z",
+  "generated_at": "2026-11-28T07:40:58Z",
+  "generated_at_utc": "2026-11-28T07:40:58Z",
   "live_pi_workers": {
     "by_model": {
       "crowllm/deepseek-v4-flash-0731-thinking:free": 2
@@ -691,7 +691,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -699,7 +699,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -707,7 +707,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -715,7 +715,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -723,7 +723,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -731,7 +731,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -739,7 +739,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -747,7 +747,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -755,7 +755,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 200000,
@@ -1024,10 +1024,10 @@
       {
         "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 282
+        "used": 300
       },
       {
         "cap": 300,
@@ -1494,7 +1494,7 @@
         "used": 3
       }
     ],
-    "healthy_entries": 149,
+    "healthy_entries": 148,
     "ok": true,
     "reachable": true,
     "used_today": 0
@@ -1893,7 +1893,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -1901,7 +1901,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -1909,7 +1909,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -1917,7 +1917,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -1925,7 +1925,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -1933,7 +1933,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -1941,7 +1941,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -1949,7 +1949,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 20000,
@@ -1957,7 +1957,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 255
+        "used": 277
       },
       {
         "cap": 200000,
@@ -2226,10 +2226,10 @@
       {
         "cap": 300,
         "enabled": true,
-        "healthy": true,
+        "healthy": false,
         "model": "deepseek-v4-flash-0731-thinking:free",
         "provider": "crowllm",
-        "used": 282
+        "used": 300
       },
       {
         "cap": 300,
@@ -2696,16 +2696,16 @@
         "used": 3
       }
     ],
-    "healthy_entries": 149,
+    "healthy_entries": 148,
     "ok": true,
     "reachable": true,
     "used_today": 0
   },
   "recent_completions": [
     {
-      "age_sec": 1,
+      "age_sec": 13,
       "board_zh": "池优化",
-      "completed_at": "2026-11-28T07:38:41Z",
+      "completed_at": "2026-11-28T07:40:43Z",
       "completed_by": "pool-optimization-seat-1-3518-e7527d3c",
       "completed_by_zh": "池优化 席位3518",
       "completed_ts_source": "result.txt",
@@ -2715,7 +2715,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 30062,
+      "age_sec": 30197,
       "board_zh": "运维",
       "completed_at": "2026-11-27T23:17:40Z",
       "completed_by": "pool-optimization",
@@ -2727,7 +2727,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 72887,
+      "age_sec": 73022,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:23:54Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2739,7 +2739,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 73016,
+      "age_sec": 73151,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:21:46Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2751,7 +2751,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 75560,
+      "age_sec": 75695,
       "board_zh": "安全",
       "completed_at": "2026-11-27T10:39:21Z",
       "completed_by": "security-seat-1-23279-f017f1b6",
@@ -2763,7 +2763,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 81385,
+      "age_sec": 81520,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
       "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
@@ -2775,7 +2775,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 82551,
+      "age_sec": 82686,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
@@ -2787,7 +2787,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 89398,
+      "age_sec": 89533,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
       "completed_by": "operations-seat-1-2005-0cf7b677",
@@ -2799,7 +2799,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 93314,
+      "age_sec": 93449,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2811,7 +2811,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 95476,
+      "age_sec": 95611,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2917,9 +2917,9 @@
       "status": {
         "exists": true,
         "tasks_done": 0,
-        "tasks_open": 1,
-        "tasks_total": 1,
-        "updated": "2026-11-28T07:34:56Z"
+        "tasks_open": 0,
+        "tasks_total": 0,
+        "updated": "2026-11-28T07:40:46Z"
       },
       "tasks": {
         "done": 81,
