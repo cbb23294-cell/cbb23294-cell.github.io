@@ -1,7 +1,7 @@
 {
   "ok": true,
   "reason": "",
-  "generated_at": "2026-11-27T23:13:55Z",
+  "generated_at": "2026-11-28T01:16:55Z",
   "round": "ai-quota-refresh",
   "findings": [
     {
@@ -9,36 +9,12 @@
       "providerName": "每日复核",
       "changeText": "本轮无变化：官方页面与变更 Feed 均无新增记录",
       "changeDate": "2026-11-28"
-    },
-    {
-      "guid": "refresh-2026-11-28-qiniu-conatus",
-      "providerName": "七牛云 Conatus",
-      "changeText": "Conatus 限免活动截止时间从 2026-11-30 23:59 延长至 2026-12-31 23:59（北京时间）（依据：free-llm-intel 变更日志）",
-      "changeDate": "2026-11-28"
-    },
-    {
-      "guid": "refresh-2026-11-28-morph-labs",
-      "providerName": "Morph Labs",
-      "changeText": "开源模型列表新增 Kimi K3.1 Pro Abliterated（需申请审批），纳入统一的每月 200 次免费请求池（依据：free-llm-intel 变更日志）",
-      "changeDate": "2026-11-28"
-    },
-    {
-      "guid": "refresh-2026-11-28-moss",
-      "providerName": "复旦 MOSS",
-      "changeText": "Nex-N2.6 模型已于 2026-11-25 21:00（北京时间）开始计费（限时六折），不再是限免模型；仅 moss-vl-1.0 / moss-vl-realtime-1.0 仍标「限时免费 0 积分」（依据：free-llm-intel 变更日志）",
-      "changeDate": "2026-11-28"
-    },
-    {
-      "guid": "refresh-2026-11-28-siliconflow",
-      "providerName": "硅基流动",
-      "changeText": "定价页新增一款免费对话模型 GLM-Z1-9B-0414（0 元），新增模型种类（依据：free-llm-intel 变更日志）",
-      "changeDate": "2026-11-28"
     }
   ],
-  "findingsCount": 5,
-  "no_change": false,
+  "findingsCount": 1,
+  "no_change": true,
   "warnings": [
-    "fetch: changes feed unavailable: IncompleteRead(49152 bytes read, 83554 more expected)",
+    "fetch: changes feed unavailable: IncompleteRead(16384 bytes read, 116322 more expected)",
     "verify: 页面抓取失败 OpenRouter 免费模型与定价：HTTP Error 403: Forbidden",
     "verify: 页面抓取失败 Groq 限速文档：HTTP Error 403: Forbidden"
   ],
@@ -53,7 +29,7 @@
     },
     "changesFeed": {
       "ok": false,
-      "error": "IncompleteRead(49152 bytes read, 83554 more expected)"
+      "error": "IncompleteRead(16384 bytes read, 116322 more expected)"
     }
   },
   "pool": {
