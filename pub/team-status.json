@@ -1,8 +1,8 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-28T07:58:43Z",
+    "activity_generated_at": "2026-11-28T08:01:24Z",
     "empty_reasons": {
-      "claimed_now": null,
+      "claimed_now": "no open board task carries a live claim record",
       "recent_completions": null,
       "workers_running": "no jobs/*.json without a .done/.closed marker"
     }
@@ -23,22 +23,15 @@
     },
     {
       "active_jobs": 0,
-      "claimed_count": 1,
-      "current_task": {
-        "claimed_at": "2026-11-28T07:58:18Z",
-        "claimed_by": "pool-optimization-seat-1-8168-24c8c2fb",
-        "claimed_by_zh": "池优化 席位8168",
-        "claimed_for": "26秒",
-        "task_id": "pool-088",
-        "title": "[inputs: llm-workers/proxy.py, llm-workers/restart_proxy.sh…"
-      },
-      "cycle_started_at": "2026-11-28T07:58:18Z",
-      "cycle_started_source": "oldest open claim",
-      "elapsed": "26秒",
-      "elapsed_sec": 26,
-      "last_cycle_ended": "2026-11-28T07:58:32Z",
+      "claimed_count": 0,
+      "current_task": null,
+      "cycle_started_at": null,
+      "cycle_started_source": null,
+      "elapsed": null,
+      "elapsed_sec": null,
+      "last_cycle_ended": "2026-11-28T07:59:58Z",
       "name_zh": "池优化",
-      "state": "running",
+      "state": "idle",
       "workstream": "pool-optimization"
     },
     {
@@ -107,19 +100,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "claimed_now": [
-        {
-          "board_zh": "池优化",
-          "claimed_age_sec": 26,
-          "claimed_at": "2026-11-28T07:58:18Z",
-          "claimed_by": "pool-optimization-seat-1-8168-24c8c2fb",
-          "claimed_by_zh": "池优化 席位8168",
-          "claimed_for": "26秒",
-          "task_id": "pool-088",
-          "title": "[inputs: llm-workers/proxy.py, llm-workers/restart_proxy.sh…",
-          "workstream": "pool-optimization"
-        }
-      ],
+      "claimed_now": [],
       "done": 81,
       "escalation_latest": "blocked-file: out/task-086/BLOCKED.md",
       "name_zh": "池优化",
@@ -129,7 +110,7 @@
         "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…"
       ],
       "open": 7,
-      "status_updated": "2026-11-28T07:57:40Z",
+      "status_updated": "2026-11-28T08:00:01Z",
       "total": 88,
       "workstream": "pool-optimization"
     },
@@ -171,20 +152,8 @@
       "workstream": "spaces-data"
     }
   ],
-  "claimed_now": [
-    {
-      "board_zh": "池优化",
-      "claimed_age_sec": 26,
-      "claimed_at": "2026-11-28T07:58:18Z",
-      "claimed_by": "pool-optimization-seat-1-8168-24c8c2fb",
-      "claimed_by_zh": "池优化 席位8168",
-      "claimed_for": "26秒",
-      "task_id": "pool-088",
-      "title": "[inputs: llm-workers/proxy.py, llm-workers/restart_proxy.sh…",
-      "workstream": "pool-optimization"
-    }
-  ],
-  "content_latest_at": "2026-11-28T07:57:40Z",
+  "claimed_now": [],
+  "content_latest_at": "2026-11-28T08:00:01Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 401,
@@ -217,25 +186,12 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-28T07:58:44Z",
-  "generated_at_utc": "2026-11-28T07:58:44Z",
+  "generated_at": "2026-11-28T08:01:24Z",
+  "generated_at_utc": "2026-11-28T08:01:24Z",
   "live_pi_workers": {
-    "by_model": {
-      "wusrouter/codex/gpt-5:free": 2
-    },
-    "running": [
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 9896,
-        "title": "[code] [boss-accept]  Key-monopoly eradication: unified peer spread across all e"
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 9897,
-        "title": "[code] [boss-accept]  Key-monopoly eradication: unified peer spread across all e"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
   "managers": [
     {
@@ -1227,7 +1183,7 @@
         "healthy": true,
         "model": "zai-org/glm-5.3-flash:free",
         "provider": "wusrouter",
-        "used": 14
+        "used": 19
       },
       {
         "cap": 50,
@@ -1235,7 +1191,7 @@
         "healthy": true,
         "model": "ws/gpt-5.6-terra:free",
         "provider": "wusrouter",
-        "used": 14
+        "used": 19
       },
       {
         "cap": 50,
@@ -1243,7 +1199,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "wusrouter",
-        "used": 14
+        "used": 19
       },
       {
         "cap": 50,
@@ -1251,7 +1207,7 @@
         "healthy": true,
         "model": "codex/gpt-5:free",
         "provider": "wusrouter",
-        "used": 14
+        "used": 19
       },
       {
         "cap": 300,
@@ -2429,7 +2385,7 @@
         "healthy": true,
         "model": "zai-org/glm-5.3-flash:free",
         "provider": "wusrouter",
-        "used": 14
+        "used": 19
       },
       {
         "cap": 50,
@@ -2437,7 +2393,7 @@
         "healthy": true,
         "model": "ws/gpt-5.6-terra:free",
         "provider": "wusrouter",
-        "used": 14
+        "used": 19
       },
       {
         "cap": 50,
@@ -2445,7 +2401,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "wusrouter",
-        "used": 14
+        "used": 19
       },
       {
         "cap": 50,
@@ -2453,7 +2409,7 @@
         "healthy": true,
         "model": "codex/gpt-5:free",
         "provider": "wusrouter",
-        "used": 14
+        "used": 19
       },
       {
         "cap": 300,
@@ -2703,19 +2659,19 @@
   },
   "recent_completions": [
     {
-      "age_sec": 11,
+      "age_sec": 85,
       "board_zh": "池优化",
-      "completed_at": "2026-11-28T07:58:32Z",
+      "completed_at": "2026-11-28T07:59:58Z",
       "completed_by": "pool-optimization-seat-1-8168-24c8c2fb",
       "completed_by_zh": "池优化 席位8168",
-      "completed_ts_source": "result.txt",
+      "completed_ts_source": "done",
       "task_id": "pool-088",
       "task_no": 87,
       "title": "[inputs: llm-workers/proxy.py, llm-workers/restart_proxy.sh…",
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 31263,
+      "age_sec": 31423,
       "board_zh": "运维",
       "completed_at": "2026-11-27T23:17:40Z",
       "completed_by": "pool-optimization",
@@ -2727,7 +2683,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 74088,
+      "age_sec": 74249,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:23:54Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2739,7 +2695,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 74217,
+      "age_sec": 74377,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:21:46Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2751,7 +2707,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 76761,
+      "age_sec": 76922,
       "board_zh": "安全",
       "completed_at": "2026-11-27T10:39:21Z",
       "completed_by": "security-seat-1-23279-f017f1b6",
@@ -2763,7 +2719,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 82586,
+      "age_sec": 82746,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
       "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
@@ -2775,7 +2731,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 83752,
+      "age_sec": 83912,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
@@ -2787,7 +2743,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 90599,
+      "age_sec": 90759,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
       "completed_by": "operations-seat-1-2005-0cf7b677",
@@ -2799,7 +2755,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 94515,
+      "age_sec": 94675,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2811,7 +2767,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 96677,
+      "age_sec": 96837,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2830,41 +2786,12 @@
     "total": 58
   },
   "workers": {
-    "by_model": {
-      "wusrouter/codex/gpt-5:free": 2
-    },
-    "running": [
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 9896,
-        "title": "[code] [boss-accept]  Key-monopoly eradication: unified peer spread across all e"
-      },
-      {
-        "model": "wusrouter/codex/gpt-5:free",
-        "pid": 9897,
-        "title": "[code] [boss-accept]  Key-monopoly eradication: unified peer spread across all e"
-      }
-    ],
-    "total": 2
+    "by_model": {},
+    "running": [],
+    "total": 0
   },
-  "workers_detail": [
-    {
-      "count": 2,
-      "model": "wusrouter/codex/gpt-5:free"
-    }
-  ],
-  "workers_running": [
-    {
-      "model": "wusrouter/codex/gpt-5:free",
-      "pid": 9896,
-      "title": "[code] [boss-accept]  Key-monopoly eradication: unified peer spread across all e"
-    },
-    {
-      "model": "wusrouter/codex/gpt-5:free",
-      "pid": 9897,
-      "title": "[code] [boss-accept]  Key-monopoly eradication: unified peer spread across all e"
-    }
-  ],
+  "workers_detail": [],
+  "workers_running": [],
   "workstreams": {
     "cloud-script-migration": {
       "escalation": {
@@ -2919,7 +2846,7 @@
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-28T07:57:40Z"
+        "updated": "2026-11-28T08:00:01Z"
       },
       "tasks": {
         "done": 81,
