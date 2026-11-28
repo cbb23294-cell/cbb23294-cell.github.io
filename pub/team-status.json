@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-28T13:20:48Z",
+    "activity_generated_at": "2026-11-28T13:23:13Z",
     "empty_reasons": {
       "claimed_now": "no open board task carries a live claim record",
       "recent_completions": null,
@@ -95,7 +95,7 @@
       "name_zh": "云脚本迁移",
       "next_open": [],
       "open": 0,
-      "status_updated": "2026-11-28T13:07:09Z",
+      "status_updated": "2026-11-28T13:22:50Z",
       "total": 25,
       "workstream": "cloud-script-migration"
     },
@@ -110,7 +110,7 @@
         "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…"
       ],
       "open": 6,
-      "status_updated": "2026-11-28T13:17:21Z",
+      "status_updated": "2026-11-28T13:22:40Z",
       "total": 88,
       "workstream": "pool-optimization"
     },
@@ -136,7 +136,7 @@
         "[inputs: fleet-ops/tombstone-increment-extract.json…"
       ],
       "open": 1,
-      "status_updated": "2026-11-28T13:07:09Z",
+      "status_updated": "2026-11-28T13:22:55Z",
       "total": 24,
       "workstream": "operations"
     },
@@ -153,7 +153,7 @@
     }
   ],
   "claimed_now": [],
-  "content_latest_at": "2026-11-28T13:17:21Z",
+  "content_latest_at": "2026-11-28T13:22:55Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 401,
@@ -186,8 +186,8 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-28T13:20:49Z",
-  "generated_at_utc": "2026-11-28T13:20:49Z",
+  "generated_at": "2026-11-28T13:23:14Z",
+  "generated_at_utc": "2026-11-28T13:23:14Z",
   "live_pi_workers": {
     "by_model": {},
     "running": [],
@@ -1015,7 +1015,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 186
+        "used": 187
       },
       {
         "cap": 300,
@@ -1023,7 +1023,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 186
+        "used": 187
       },
       {
         "cap": 300,
@@ -1031,7 +1031,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 186
+        "used": 187
       },
       {
         "cap": 300,
@@ -1039,7 +1039,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 186
+        "used": 187
       },
       {
         "cap": 1000,
@@ -1239,7 +1239,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 200000,
@@ -1247,7 +1247,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 19
+        "used": 20
       },
       {
         "cap": 200000,
@@ -2217,7 +2217,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 186
+        "used": 187
       },
       {
         "cap": 300,
@@ -2225,7 +2225,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 186
+        "used": 187
       },
       {
         "cap": 300,
@@ -2233,7 +2233,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 186
+        "used": 187
       },
       {
         "cap": 300,
@@ -2241,7 +2241,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 186
+        "used": 187
       },
       {
         "cap": 1000,
@@ -2441,7 +2441,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-4",
-        "used": 20
+        "used": 21
       },
       {
         "cap": 200000,
@@ -2449,7 +2449,7 @@
         "healthy": true,
         "model": "gpt-6.1-sol",
         "provider": "xingchi-2",
-        "used": 19
+        "used": 20
       },
       {
         "cap": 200000,
@@ -2659,7 +2659,7 @@
   },
   "recent_completions": [
     {
-      "age_sec": 19250,
+      "age_sec": 19394,
       "board_zh": "池优化",
       "completed_at": "2026-11-28T07:59:58Z",
       "completed_by": "pool-optimization-seat-1-8168-24c8c2fb",
@@ -2671,7 +2671,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 50588,
+      "age_sec": 50733,
       "board_zh": "运维",
       "completed_at": "2026-11-27T23:17:40Z",
       "completed_by": "pool-optimization",
@@ -2683,7 +2683,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 93413,
+      "age_sec": 93558,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:23:54Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2695,7 +2695,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 93542,
+      "age_sec": 93687,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:21:46Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2707,7 +2707,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 96086,
+      "age_sec": 96231,
       "board_zh": "安全",
       "completed_at": "2026-11-27T10:39:21Z",
       "completed_by": "security-seat-1-23279-f017f1b6",
@@ -2719,7 +2719,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 101911,
+      "age_sec": 102055,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
       "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
@@ -2731,7 +2731,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 103077,
+      "age_sec": 103222,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
@@ -2743,7 +2743,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 109924,
+      "age_sec": 110069,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
       "completed_by": "operations-seat-1-2005-0cf7b677",
@@ -2755,7 +2755,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 113840,
+      "age_sec": 113985,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2767,7 +2767,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 116002,
+      "age_sec": 116147,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2803,7 +2803,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-28T13:07:09Z"
+        "updated": "2026-11-28T13:22:50Z"
       },
       "tasks": {
         "done": 25,
@@ -2822,7 +2822,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-28T13:07:09Z"
+        "updated": "2026-11-28T13:22:55Z"
       },
       "tasks": {
         "done": 23,
@@ -2846,7 +2846,7 @@
         "tasks_done": 0,
         "tasks_open": 0,
         "tasks_total": 0,
-        "updated": "2026-11-28T13:17:21Z"
+        "updated": "2026-11-28T13:22:40Z"
       },
       "tasks": {
         "done": 82,
