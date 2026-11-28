@@ -1,6 +1,6 @@
 {
   "activity": {
-    "activity_generated_at": "2026-11-28T07:56:19Z",
+    "activity_generated_at": "2026-11-28T07:58:43Z",
     "empty_reasons": {
       "claimed_now": null,
       "recent_completions": null,
@@ -25,18 +25,18 @@
       "active_jobs": 0,
       "claimed_count": 1,
       "current_task": {
-        "claimed_at": "2026-11-28T07:56:15Z",
+        "claimed_at": "2026-11-28T07:58:18Z",
         "claimed_by": "pool-optimization-seat-1-8168-24c8c2fb",
         "claimed_by_zh": "池优化 席位8168",
-        "claimed_for": "4秒",
+        "claimed_for": "26秒",
         "task_id": "pool-088",
         "title": "[inputs: llm-workers/proxy.py, llm-workers/restart_proxy.sh…"
       },
-      "cycle_started_at": "2026-11-28T07:56:15Z",
+      "cycle_started_at": "2026-11-28T07:58:18Z",
       "cycle_started_source": "oldest open claim",
-      "elapsed": "4秒",
-      "elapsed_sec": 4,
-      "last_cycle_ended": "2026-11-28T07:56:19Z",
+      "elapsed": "26秒",
+      "elapsed_sec": 26,
+      "last_cycle_ended": "2026-11-28T07:58:32Z",
       "name_zh": "池优化",
       "state": "running",
       "workstream": "pool-optimization"
@@ -110,11 +110,11 @@
       "claimed_now": [
         {
           "board_zh": "池优化",
-          "claimed_age_sec": 4,
-          "claimed_at": "2026-11-28T07:56:15Z",
+          "claimed_age_sec": 26,
+          "claimed_at": "2026-11-28T07:58:18Z",
           "claimed_by": "pool-optimization-seat-1-8168-24c8c2fb",
           "claimed_by_zh": "池优化 席位8168",
-          "claimed_for": "4秒",
+          "claimed_for": "26秒",
           "task_id": "pool-088",
           "title": "[inputs: llm-workers/proxy.py, llm-workers/restart_proxy.sh…",
           "workstream": "pool-optimization"
@@ -129,7 +129,7 @@
         "[inputs: llm-workers/manager.py, llm-workers/help-cooldown.json…"
       ],
       "open": 7,
-      "status_updated": "2026-11-28T07:51:13Z",
+      "status_updated": "2026-11-28T07:57:40Z",
       "total": 88,
       "workstream": "pool-optimization"
     },
@@ -174,17 +174,17 @@
   "claimed_now": [
     {
       "board_zh": "池优化",
-      "claimed_age_sec": 4,
-      "claimed_at": "2026-11-28T07:56:15Z",
+      "claimed_age_sec": 26,
+      "claimed_at": "2026-11-28T07:58:18Z",
       "claimed_by": "pool-optimization-seat-1-8168-24c8c2fb",
       "claimed_by_zh": "池优化 席位8168",
-      "claimed_for": "4秒",
+      "claimed_for": "26秒",
       "task_id": "pool-088",
       "title": "[inputs: llm-workers/proxy.py, llm-workers/restart_proxy.sh…",
       "workstream": "pool-optimization"
     }
   ],
-  "content_latest_at": "2026-11-28T07:53:45Z",
+  "content_latest_at": "2026-11-28T07:57:40Z",
   "escalations_human": {
     "cloud-script-migration": {
       "dropped_hash_keys": 401,
@@ -217,21 +217,21 @@
       "latest": "runner exit: 1"
     }
   },
-  "generated_at": "2026-11-28T07:56:20Z",
-  "generated_at_utc": "2026-11-28T07:56:20Z",
+  "generated_at": "2026-11-28T07:58:44Z",
+  "generated_at_utc": "2026-11-28T07:58:44Z",
   "live_pi_workers": {
     "by_model": {
-      "token-harbor/deepseek-v4.1-flash:free": 2
+      "wusrouter/codex/gpt-5:free": 2
     },
     "running": [
       {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 8225,
+        "model": "wusrouter/codex/gpt-5:free",
+        "pid": 9896,
         "title": "[code] [boss-accept]  Key-monopoly eradication: unified peer spread across all e"
       },
       {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 8226,
+        "model": "wusrouter/codex/gpt-5:free",
+        "pid": 9897,
         "title": "[code] [boss-accept]  Key-monopoly eradication: unified peer spread across all e"
       }
     ],
@@ -691,7 +691,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -699,7 +699,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -707,7 +707,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -715,7 +715,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -723,7 +723,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -731,7 +731,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -739,7 +739,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -747,7 +747,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -755,7 +755,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 200000,
@@ -1059,7 +1059,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 140
+        "used": 141
       },
       {
         "cap": 300,
@@ -1067,7 +1067,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 140
+        "used": 141
       },
       {
         "cap": 300,
@@ -1075,7 +1075,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 140
+        "used": 141
       },
       {
         "cap": 300,
@@ -1083,7 +1083,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 140
+        "used": 141
       },
       {
         "cap": 1000,
@@ -1227,7 +1227,7 @@
         "healthy": true,
         "model": "zai-org/glm-5.3-flash:free",
         "provider": "wusrouter",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 50,
@@ -1235,7 +1235,7 @@
         "healthy": true,
         "model": "ws/gpt-5.6-terra:free",
         "provider": "wusrouter",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 50,
@@ -1243,7 +1243,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "wusrouter",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 50,
@@ -1251,7 +1251,7 @@
         "healthy": true,
         "model": "codex/gpt-5:free",
         "provider": "wusrouter",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 300,
@@ -1893,7 +1893,7 @@
         "healthy": true,
         "model": "free-large-4t",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -1901,7 +1901,7 @@
         "healthy": true,
         "model": "free-m3.1-flash",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -1909,7 +1909,7 @@
         "healthy": true,
         "model": "free-bolt-e4b",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -1917,7 +1917,7 @@
         "healthy": true,
         "model": "free-glm-flash",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -1925,7 +1925,7 @@
         "healthy": true,
         "model": "free-laguna",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -1933,7 +1933,7 @@
         "healthy": true,
         "model": "free-ultra-550b",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -1941,7 +1941,7 @@
         "healthy": true,
         "model": "free-nano-omni",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -1949,7 +1949,7 @@
         "healthy": true,
         "model": "free-lightning",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 20000,
@@ -1957,7 +1957,7 @@
         "healthy": true,
         "model": "free-super-vl",
         "provider": "ai-cf-3",
-        "used": 453
+        "used": 470
       },
       {
         "cap": 200000,
@@ -2261,7 +2261,7 @@
         "healthy": true,
         "model": "deepseek-v4.1-flash:free",
         "provider": "token-harbor",
-        "used": 140
+        "used": 141
       },
       {
         "cap": 300,
@@ -2269,7 +2269,7 @@
         "healthy": true,
         "model": "mimo-v2.6-flash:free",
         "provider": "token-harbor",
-        "used": 140
+        "used": 141
       },
       {
         "cap": 300,
@@ -2277,7 +2277,7 @@
         "healthy": true,
         "model": "deepseek-v4-flash:free",
         "provider": "token-harbor",
-        "used": 140
+        "used": 141
       },
       {
         "cap": 300,
@@ -2285,7 +2285,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "token-harbor",
-        "used": 140
+        "used": 141
       },
       {
         "cap": 1000,
@@ -2429,7 +2429,7 @@
         "healthy": true,
         "model": "zai-org/glm-5.3-flash:free",
         "provider": "wusrouter",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 50,
@@ -2437,7 +2437,7 @@
         "healthy": true,
         "model": "ws/gpt-5.6-terra:free",
         "provider": "wusrouter",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 50,
@@ -2445,7 +2445,7 @@
         "healthy": true,
         "model": "mimo-v2.5:free",
         "provider": "wusrouter",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 50,
@@ -2453,7 +2453,7 @@
         "healthy": true,
         "model": "codex/gpt-5:free",
         "provider": "wusrouter",
-        "used": 10
+        "used": 14
       },
       {
         "cap": 300,
@@ -2703,9 +2703,9 @@
   },
   "recent_completions": [
     {
-      "age_sec": 0,
+      "age_sec": 11,
       "board_zh": "池优化",
-      "completed_at": "2026-11-28T07:56:19Z",
+      "completed_at": "2026-11-28T07:58:32Z",
       "completed_by": "pool-optimization-seat-1-8168-24c8c2fb",
       "completed_by_zh": "池优化 席位8168",
       "completed_ts_source": "result.txt",
@@ -2715,7 +2715,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 31118,
+      "age_sec": 31263,
       "board_zh": "运维",
       "completed_at": "2026-11-27T23:17:40Z",
       "completed_by": "pool-optimization",
@@ -2727,7 +2727,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 73944,
+      "age_sec": 74088,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:23:54Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2739,7 +2739,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 74072,
+      "age_sec": 74217,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T11:21:46Z",
       "completed_by": "pool-optimization-seat-1-7061-1d0310a7",
@@ -2751,7 +2751,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 76617,
+      "age_sec": 76761,
       "board_zh": "安全",
       "completed_at": "2026-11-27T10:39:21Z",
       "completed_by": "security-seat-1-23279-f017f1b6",
@@ -2763,7 +2763,7 @@
       "workstream": "security"
     },
     {
-      "age_sec": 82441,
+      "age_sec": 82586,
       "board_zh": "云脚本迁移",
       "completed_at": "2026-11-27T09:02:17Z",
       "completed_by": "cloud-script-migration-seat-1-4101-27c65d51",
@@ -2775,7 +2775,7 @@
       "workstream": "cloud-script-migration"
     },
     {
-      "age_sec": 83607,
+      "age_sec": 83752,
       "board_zh": "池优化",
       "completed_at": "2026-11-27T08:42:51Z",
       "completed_by": null,
@@ -2787,7 +2787,7 @@
       "workstream": "pool-optimization"
     },
     {
-      "age_sec": 90454,
+      "age_sec": 90599,
       "board_zh": "运维",
       "completed_at": "2026-11-27T06:48:44Z",
       "completed_by": "operations-seat-1-2005-0cf7b677",
@@ -2799,7 +2799,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 94370,
+      "age_sec": 94515,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:43:28Z",
       "completed_by": "cloud-script-migration",
@@ -2811,7 +2811,7 @@
       "workstream": "operations"
     },
     {
-      "age_sec": 96532,
+      "age_sec": 96677,
       "board_zh": "运维",
       "completed_at": "2026-11-27T05:07:26Z",
       "completed_by": "float",
@@ -2831,17 +2831,17 @@
   },
   "workers": {
     "by_model": {
-      "token-harbor/deepseek-v4.1-flash:free": 2
+      "wusrouter/codex/gpt-5:free": 2
     },
     "running": [
       {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 8225,
+        "model": "wusrouter/codex/gpt-5:free",
+        "pid": 9896,
         "title": "[code] [boss-accept]  Key-monopoly eradication: unified peer spread across all e"
       },
       {
-        "model": "token-harbor/deepseek-v4.1-flash:free",
-        "pid": 8226,
+        "model": "wusrouter/codex/gpt-5:free",
+        "pid": 9897,
         "title": "[code] [boss-accept]  Key-monopoly eradication: unified peer spread across all e"
       }
     ],
@@ -2850,18 +2850,18 @@
   "workers_detail": [
     {
       "count": 2,
-      "model": "token-harbor/deepseek-v4.1-flash:free"
+      "model": "wusrouter/codex/gpt-5:free"
     }
   ],
   "workers_running": [
     {
-      "model": "token-harbor/deepseek-v4.1-flash:free",
-      "pid": 8225,
+      "model": "wusrouter/codex/gpt-5:free",
+      "pid": 9896,
       "title": "[code] [boss-accept]  Key-monopoly eradication: unified peer spread across all e"
     },
     {
-      "model": "token-harbor/deepseek-v4.1-flash:free",
-      "pid": 8226,
+      "model": "wusrouter/codex/gpt-5:free",
+      "pid": 9897,
       "title": "[code] [boss-accept]  Key-monopoly eradication: unified peer spread across all e"
     }
   ],
@@ -2919,7 +2919,7 @@
         "tasks_done": 0,
         "tasks_open": 1,
         "tasks_total": 1,
-        "updated": "2026-11-28T07:51:13Z"
+        "updated": "2026-11-28T07:57:40Z"
       },
       "tasks": {
         "done": 81,
