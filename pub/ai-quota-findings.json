@@ -1,7 +1,7 @@
 {
   "ok": true,
   "reason": "",
-  "generated_at": "2026-11-28T01:16:55Z",
+  "generated_at": "2026-11-28T03:29:54Z",
   "round": "ai-quota-refresh",
   "findings": [
     {
@@ -14,7 +14,7 @@
   "findingsCount": 1,
   "no_change": true,
   "warnings": [
-    "fetch: changes feed unavailable: IncompleteRead(16384 bytes read, 116322 more expected)",
+    "fetch: changes feed unavailable: IncompleteRead(32768 bytes read, 99938 more expected)",
     "verify: 页面抓取失败 OpenRouter 免费模型与定价：HTTP Error 403: Forbidden",
     "verify: 页面抓取失败 Groq 限速文档：HTTP Error 403: Forbidden"
   ],
@@ -29,7 +29,7 @@
     },
     "changesFeed": {
       "ok": false,
-      "error": "IncompleteRead(16384 bytes read, 116322 more expected)"
+      "error": "IncompleteRead(32768 bytes read, 99938 more expected)"
     }
   },
   "pool": {
